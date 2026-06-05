@@ -1,0 +1,12 @@
+{
+  "title": "Searching Repeatability and Accuracy",
+  "file": "SearchingRepeatabilityandAccuracyGeom",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Searching Repeatability and Accuracy\n\nSearching Repeatability and Accuracy\n\nSearching repeatability and accuracy is a function of the size and details of the model (shape, coarseness of features, and symmetry of the model), and the degradation of the features as seen in the search window (noise, defects, and rotation and scale effects).\n\nTo measure the effect of noise on position, you can perform a search in a specific search window that contains an non-degraded feature, and then perform the exact same search again (acquiring a 2nd image into the frame buffer) without changing the position of the object, and then comparing the measured positions.\n\nThis can be easily done by the following steps:\n\n(1) Click the [Run] button on the execution panel two or more times\n\n(2) Click the [Statistics] button\n\n(3) The Statistics dialog box can then be used to see the difference in position between the two object searches.\n\nFor a large model (30x30) on a non-degraded feature, the reported position can be repeatable to 1/20 of a pixel.  However, in most cases it is more realistic to achieve results of just below a pixel. (1/2, 1/3, or 1/4 pixel)\n\nSearching accuracy can be measured by performing a search in a specific search window that contains a non-degraded feature, moving the object an exact distance and then comparing the reported position difference with the actual difference.  If you have a large model (30x30 or greater), no degradation, no rotation or scale errors, and have sufficient edges in both X and Y directions, searching can be accurate to 1/4 pixel. (Keep in mind that this searching accuracy is for the vision system only and does not take into effect the inaccuracies which are inherent with all robots.  So if you try to move the part with the robot you must also consider the inaccuracies of the robot mechanism itself.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Executing Pause",
+  "file": "VBG_Executing_Pause",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Executing Pause\n\nExecuting Pause\n\nThe following routine shows how to issue a PAUSE from Visual Basic using the Pause method.\n\nVB Example:\n\nSub btnPause_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPause.Click\n\n  m_spel.Pause()\n\n  btnPause.Enabled = False\n\n  btnContinue.Enabled = True\n\nEnd Sub\n\nC# Example:\n\nvoid btnPause_Click(object sender, EventArgs e)\n\n{\n m_spel.Pause();\n btnPause.Enabled = false;\n btnContinue.Enabled = true;\n\n}",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Sub btnPause_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPause.Click m_spel.Pause() btnPause.Enabled = False btnContinue.Enabled = True\nEnd Sub",
+    "void btnPause_Click(object sender, EventArgs e)\n{ m_spel.Pause(); btnPause.Enabled = false; btnContinue.Enabled = true;\n}"
+  ]
+}

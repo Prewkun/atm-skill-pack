@@ -1,0 +1,14 @@
+{
+  "title": "Integer Statement",
+  "file": "cmd_integer",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Integer varName [( subscripts )] [, varName [( subscripts )]...",
+  "parameters": "varName\tVariable name which the user wants to declare as type Integer.\n\nsubscripts\tOptional.  Dimensions of an array variable; up to 3 dimensions may be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2], [ubound3])\n\nubound1, ubound2, ubound3 each specify the maximum upper bound for the associated dimension.\n\nThe elements in each dimension of an array are numbered from 0 and the available number of array elements is the upper bound value + 1.\n\nWhen specifying the upper bound value, make sure the number of total elements is within the range shown below:\n\nLocal variable   2000\n\nGlobal Preserve variable   4000\n\nGlobal variable and module variable   100000",
+  "description": "Integer is used to declare variables as type Integer.  Variables of type Integer can contain whole numbers with values between -32768 to 32767.  Local variables should be declared at the top of a function.  Global and module variables must be declared outside of functions.",
+  "notes": "",
+  "see_also": "Boolean\n\nByte\n\nData Types Overview\n\nDouble\n\nGlobal\n\nInt32\n\nLong\n\nReal\n\nString\n\nUByte\n\nUInt32\n\nUShort\n\nVariable Declarations\n\nVariable Naming Conventions\n\nInteger Statement Example\n\nThe following example shows a simple program which declares some variables as Integers using Integer.\n\nFunction inttest\n\n  Integer A(10) 'Single dimension array of integer\n\n  Integer B(10, 10) 'Two dimension array of integer\n\n  Integer C(5, 5, 5) 'Three dimension array of integer\n\n  Integer var1, arrayvar(10)\n\n  Integer i\n\n  Print \"Please enter an Integer Number\"\n\n  Input var1\n\n  Print \"The Integer variable var1 = \", var1\n\n  For i = 1 To 5\n\n    Print \"Please enter an Integer Number\"\n\n    Input arrayvar(i)\n\n    Print \"Value Entered was \", arrayvar(i)\n Next i\n\nFend",
+  "examples": [
+    "Function inttest Integer A(10) 'Single dimension array of integer Integer B(10, 10) 'Two dimension array of integer Integer C(5, 5, 5) 'Three dimension array of integer Integer var1, arrayvar(10) Integer i Print \"Please enter an Integer Number\" Input var1 Print \"The Integer variable var1 = \", var1 For i = 1 To 5\n    Print \"Please enter an Integer Number\"\n    Input arrayvar(i)\n    Print \"Value Entered was \", arrayvar(i) Next i\nFend"
+  ]
+}

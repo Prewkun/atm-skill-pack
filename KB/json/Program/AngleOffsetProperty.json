@@ -1,0 +1,12 @@
+{
+  "title": "AngleOffset Property",
+  "file": "AngleOffsetProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "An angle value which is used as an offset to line up the search direction indicator (graphic line on the image display) with the part since it is virtually impossible and normally impractical to teach an object with the proper rotation of a part so that the direction lines up with the part.",
+  "notes": "The AngleOffset is used to adjust the rotation position of objects.  Detection angle of the object is normally set at the default position which is 0 degrees (at 3 O'clock).  For the AngleOffset property, the offset rotation angle in a counter clockwise direction of the detection angle should be set.\n\nVision Objects: AngleOffset Property\n\nPolar\n\nCorrelation\n\nGeometric",
+  "see_also": "",
+  "examples": []
+}

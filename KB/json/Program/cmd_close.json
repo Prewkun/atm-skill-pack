@@ -1,0 +1,15 @@
+{
+  "title": "Close Statement",
+  "file": "cmd_close",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Close #fileNumber",
+  "parameters": "fileNumber\tInteger expression whose value is from 30 - 63.",
+  "description": "Closes the file referenced by file handle fileNumber and releases it.",
+  "notes": "",
+  "see_also": "AOpen, BOpen, Flush, FreeFile, Input #, Print #, ROpen, UOpen, WOpen\n\nClose Statement Example\n\nThis example opens a file, writes some data to it, then later opens the same file and reads the data into an array variable.\n\nInteger fileNum, i, j\n\nfileNum = FreeFile\n\nWOpen \"TEST.DAT\" As #fileNum\n\nFor i = 0 To 100\n\n  Print #fileNum , i\n\nNext i\n\nClose #fileNum\n\nfileNum = FreeFile\n\nROpen \"TEST.DAT\" As #fileNum\n\nFor i = 0 to 100\n\n  Input #fileNum, j\n\n  Print j\n\nNext i\n\nClose #fileNum",
+  "examples": [
+    "Integer fileNum, i, j\nfileNum = FreeFile\nWOpen \"TEST.DAT\" As #fileNum\nFor i = 0 To 100 Print #fileNum , i\nNext i\nClose #fileNum",
+    "fileNum = FreeFile\nROpen \"TEST.DAT\" As #fileNum\nFor i = 0 to 100 Input #fileNum, j Print j\nNext i\nClose #fileNum"
+  ]
+}

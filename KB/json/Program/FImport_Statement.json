@@ -1,0 +1,15 @@
+{
+  "title": "FImport Statement",
+  "file": "FImport_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "This imports a force file into the the currently selected robot project.",
+  "notes": "FImport imports a force file into the currently selected project and adds it to the currently selected robot file.\n\nThe added file can be loaded with the FLoad command. When a file with the same file name exists on the currently selected robot, it is overwritten.\n\nThe file name must be alphanumeric characters and the underscore character only, and can be up to 255 characters.\n\nFrequent Errors\n\n  Specified file does not exist\n\n    When SourcePath_sValue$ does not exist, an error is generated.\n\n  Specified file is not found\n\n    An error occurs when the path is included in FileName_sValue$.\n\n  Specified file is not on current robot\n\n    When a force file from a different robot is specified in FileName_sValue$, an error occurs.",
+  "see_also": "FExport Statement",
+  "examples": [
+    "> Robot 1",
+    "> FImport \"C:\\temp\\myforce.frc\", \"myforce.frc\""
+  ]
+}

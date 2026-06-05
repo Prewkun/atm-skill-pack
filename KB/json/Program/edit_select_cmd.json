@@ -1,0 +1,12 @@
+{
+  "title": "Select All command (Edit menu)",
+  "file": "edit_select_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Select All command (Edit menu)\n\nSelect All Command (Edit Menu)\n\n: Ctrl+A\n\nSelects the entire program file, include file, point file, I/O labels, or user errors. You can then execute Cut or Copy.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

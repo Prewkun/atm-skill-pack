@@ -1,0 +1,12 @@
+{
+  "title": "GlossSearchWindow",
+  "file": "GlossSearchWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GlossSearchWindow\n\nSearch Window\n\nThe search window is the area within which to search for the part or pattern.  The search window is also sometimes called the ROI or Region of Interest.  The user will normally define the search window size at Design time.  However, through the Height, Width, Left, and Right properties the search window can be adjusted at runtime as required.  The search window applies to the Blob, Correlation, and Edge object tools.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

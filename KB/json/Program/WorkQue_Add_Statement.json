@@ -1,0 +1,16 @@
+{
+  "title": "WorkQue_Add Statement",
+  "file": "WorkQue_Add_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "WorkQue_Add WorkQueNum, pointData [, userData ]",
+  "parameters": "WorkQueNum\tInteger expression (1 - 16) that specifies the work queue number.\n\npointData\tThe point data to be added to the work queue.\n\nuserData\tOptional.  Real expression used to register the user data along with the point data.  If omitted, 0 (real number) is registered as the user data.",
+  "description": "pointData and useData are added to the end of the work queue.  When the Sort type is specified by WorkQue_Sort, however, they are registered according to the specified Sort type.\n\nWhen the double registration prevention distance is set by WorkQue_Reject, the distance from the previously registered point data is calculated.  If the point data is less than that distance, the point data and the user data are not added to the work queue.  In this case, an error does not occur.\n\nThe upper limit of the work queue data is 1000.  The work queue data is deleted by WorkQue_Remove when it is finished being used.",
+  "notes": "",
+  "see_also": "Adds the work queue data (point data and user data) to the specified work queue.\n\nWorkQue_AutoRemove\n\nWorkQue_Len\n\nWorkQue_Reject\n\nWorkQue_Remove\n\nWorkQue_Sort\n\nWorkQue_Add Example\n\nInteger x, y\nReal u\n\nP0 = XY(300, 300, 300, 90, 0, 180)\n\nP1 = XY(200, 280, 150, 90, 0, 180)\n\nP2 = XY(200, 330, 150, 90, 0, 180)\n\nP3 = XY(-200, 280, 150, 90, 0, 180)\n\nPallet 1, P1, P2, P3, 10, 10\n\nx = 1\n\ny = 1\n\nu = 5.3\n\nWorkQue_Add 1, Pallet(1, x, y), u",
+  "examples": [
+    "Integer x, yReal u",
+    "P0 = XY(300, 300, 300, 90, 0, 180)\nP1 = XY(200, 280, 150, 90, 0, 180)\nP2 = XY(200, 330, 150, 90, 0, 180)\nP3 = XY(-200, 280, 150, 90, 0, 180)",
+    "Pallet 1, P1, P2, P3, 10, 10\nx = 1\ny = 1\nu = 5.3\nWorkQue_Add 1, Pallet(1, x, y), u"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "CVMove Statement",
+  "file": "cmd_cvmove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "CVMove fileName [CP] [searchExpr]",
+  "parameters": "fileName\tString expression for the path and name of the file to use for the continuous path motion data. This file must be previously created by the Curve instruction and stored on a PC hard disk.\n\nYou cannot specify a file path and fileName doesn't have any effect from ChDisk. See ChDisk for the details.\n\nCP\tOptional. Specifies continuous path motion after the last point.\n\nsearchExpr\tOptional. A Till or Find expression.\n\nTill | Find\n\nTill Sw(expr) = {On | Off}\n\nFind Sw(expr) = {On | Off}",
+  "description": "CVMove performs the continuous spline path motion defined by the data in the file fileName, which is located in the controller memory. The file must be previously created with the Curve command.\n\nMultiple files may exist at the same time on the system.  If the file name does not have an extension, .CVT is added automatically.\n\nThe user can change the speed and acceleration for the continuous path motion for CVMove by using the Speeds and AccelS instructions.\n\nWhen the Curve instruction has been previously executed using points with Local definitions, you can change the operating position by using the Local instruction.\n\nWhen executing CVMove, be careful that the robot doesn't collide with peripheral equipment.  When you attempt to change the hand orientation of the 6-axis robot (including N series) between adjacent points suddenly, due to the nature of cubic spline function, the 6-axis robot may start changing its orientation from the previous and following points and move in an unexpected trajectory.  Verify the trajectory thoroughly prior to a CVMove execution and be careful that the robot doesn't collide with peripheral equipment.\n\nSpecify points closely to each other and at equal intervals.  Do not change the hand (arm) orientation between adjacent points suddenly.\n\nThe CP parameter causes acceleration of the next motion command to start when the deceleration starts for the current motion command.  In this case the robot will not stop at the destination coordinate and will continue to move to the next point.",
+  "notes": "",
+  "see_also": "Robot motion commands\n\nAccelS\n\nArc\n\nCurve\n\nMove\n\nSpeeds\n\nCVMove Example\n\nThe following example designates the free curve data file name as MYCURVE.CVT, creates a curve tracing P1-P7, switches ON output port 2 at P2, and decelerates the arm at P7.\n\nSet up curve\n\n> curve \"mycurve\", O, 0, 4, P1, P2, On 2, P(3:7)\n\nMove the arm to P1 in a straight line\n\n> jump P1\n\nMove the arm according to the curve definition called mycurve\n\n> cvmove \"mycurve\"",
+  "examples": [
+    "Set up curve",
+    "> curve \"mycurve\", O, 0, 4, P1, P2, On 2, P(3:7)",
+    "Move the arm to P1 in a straight line",
+    "> jump P1",
+    "Move the arm according to the curve definition called mycurve",
+    "> cvmove \"mycurve\""
+  ]
+}

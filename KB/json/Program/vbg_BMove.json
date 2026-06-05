@@ -1,0 +1,23 @@
+{
+  "title": "BMove Method, Spel Class",
+  "file": "vbg_BMove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub BMove (PointNumber As Integer)\n\nSub BMove (Point As SpelPoint)\n\nSub BMove (Point As SpelPoint, AttribExpr As String)\n\nSub BMove (PointExpr As String)",
+  "parameters": "Each syntax has one parameter that specifies the end point which the arm travels to during the BMove motion. This is the final position at the end of the linear interpolated motion.\n\nPointNumber\tSpecifies\n\t\t the end point by using the point number for a previously taught\n\t\t point in the Controller's point memory for the current robot.\n\nPoint\tSpecifies\n\t\t the end point by using a SpelPoint data type.\n\nAttribExpr\tSpecifies\n\t\t the end point attributes by using a string expression.\n\nPointExpr\tSpecifies\n\t\t the end point by using a string expression.",
+  "description": "Executes linear interpolated relative motion in the selected local coordinate system",
+  "notes": "",
+  "see_also": "Move\n\nTMove\n\nFind\n\nBMove Example\n\nVB",
+  "examples": [
+    "' Using a point number\nm_spel.Tool(1)\nm_spel.BMove(100)",
+    "' Using a SpelPoint\nDim pt as SpelPoint\npt = m_spel.GetPoint(\"P*\")\npt.X = 125.5\nm_spel.BMove(pt)",
+    "' Using a point expression\nm_spel.BMove(\"P0 /L /2\")",
+    "' Using a parallel processing\nm_spel.BMove(\"P1 !D50; On 1; D90; Off 1!\")",
+    "' Using point label\nm_spel.BMove(\"pick\")",
+    "// Using a point number\nm_spel.Tool(1);\nm_spel.BMove(100);",
+    "// Using a SpelPoint\nSpelPoint pt;\npt = m_spel.GetPoint(\"P*\");\npt.X = 125.5;\nm_spel.BMove(pt);",
+    "// Using a point expression\nm_spel.BMove(\"P0 /L /2\");",
+    "// Using a parallel processing\nm_spel.BMove(\"P1 !D50; On 1; D90; Off 1!\");",
+    "// Using point label\nm_spel.BMove(\"pick\");"
+  ]
+}

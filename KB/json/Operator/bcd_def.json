@@ -1,0 +1,12 @@
+{
+  "title": "Binary Coded Decimal",
+  "file": "bcd_def",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Binary Coded Decimal\n\nBinary Coded Decimal\n\nBinary numbers normally convert to hexadecimal or octal numbers quite easily. Binary Coded Decimal means to convert a binary number back to decimal (base 10). This means that each group of 4 binary digits can only be converted into an equivalent decimal number between 0-9. The values 10-15 (which are easily represented with hexadecimal numbers) are not usable in the BCD format. Binary Coded Decimal numbers are normally used to convert H/W input lines to a base 10 number which can then be used for a thumbwheel switch or some other device which mostly uses base 10 numbers.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

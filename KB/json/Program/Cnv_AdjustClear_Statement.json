@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_AdjustClear Statement",
+  "file": "Cnv_AdjustClear_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_AdjustClear conveyorNumber",
+  "parameters": "conveyorNumber\tAn expression or a number (1 to 16) representing the conveyor number.",
+  "description": "Clears the results of actions to acquire the follow-up delay offset value for conveyor tracking, the offset amount, and offset time, and resets values to \"0\".\n\nNote\n\nThis command is only available when the Conveyor Tracking option is installed.",
+  "notes": "",
+  "see_also": "Cnv_Adjust\n\nCnv_AdjustSet\n\nCnv_AdjustGet function\n\nCnv_QueGet function\n\nCnv_AdjustClear Statement Example\n\nCnv_AdjustClear 1",
+  "examples": [
+    "Cnv_AdjustClear 1"
+  ]
+}

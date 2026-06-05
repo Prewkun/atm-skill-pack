@@ -1,0 +1,23 @@
+{
+  "title": "Jump Method, Spel Class",
+  "file": "vbg_Jump",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Jump (PointNumber As Integer)\n\nSub Jump (Point As SpelPoint)\n\nSub Jump (Point As SpelPoint, AttribExpr As String)\n\nSub Jump (PointExpr As String)",
+  "parameters": "Each syntax has one parameter that specifies the end point which the arm travels to during the Jump motion. This is the final position at the end of the point to point motion.\n\nPointNumber\tSpecifies\n\t\t the end point by using the point number for a previously taught\n\t\t point in the Controller's point memory for the current robot.\n\nPoint\tSpecifies\n\t\t the end point by using a SpelPoint data type.\n\nAttribExpr\tSpecifies\n\t\t the end point attributes by using a string expression.\n\nPointExpr\tSpecifies\n\t\t the end point by using a string expression.",
+  "description": "Moves the arm from the current position to the specified point using point to point motion while first moving in a vertical direction up, then horizontally and then finally vertically downward to arrive on the final destination point.",
+  "notes": "",
+  "see_also": "Go\n\nMove\n\nTGo\n\nFind\n\nJump Example\n\nVB",
+  "examples": [
+    "' Point specified using point number\nm_spel.Tool(1)\nm_spel.Jump(100)",
+    "' Point specified using SpelPoint\nDim pt As SpelPoint\npt = m_spel.GetPoint(\"P*\")\npt.X = 125.5\nm_spel.Jump(pt)",
+    "' Point specified using expression\nm_spel.Jump(\"P0 /L /2\"))\nm_spel.Jump(\"P1 :Z(-20)\")\nm_spel.Jump(\"P1 C0\")\nm_spel.Jump(\"P1 C0 LimZ -10\")\nm_spel.Jump(\"P1 C0 Sense Sw(0)=On\")",
+    "' Using parallel processing\nm_spel.Jump(\"P1 !D50; On 1; D90; Off 1!\")",
+    "' Point specified using label\nm_spel.Jump(\"pick\")",
+    "// Point specified using point number\nm_spel.Tool(1);\nm_spel.Jump(100);",
+    "// Point specified using SpelPoint\nSpelPoint pt;\npt = m_spel.GetPoint(\"P0\");\npt.X = 125.5;\nm_spel.Jump(pt);",
+    "// Point specified using expression\nm_spel.Jump(\"P0 /L /2\");\nm_spel.Jump(\"P1 :Z(-20)\");\nm_spel.Jump(\"P1 C0\");\nm_spel.Jump(\"P1 C0 LimZ -10\");\nm_spel.Jump(\"P1 C0 Sense Sw(0)=On\");",
+    "// Using parallel processing\nm_spel.Jump(\"P1 !D50; On 1; D90; Off 1!\");",
+    "// Point specified using label\nm_spel.Jump(\"pick\");"
+  ]
+}

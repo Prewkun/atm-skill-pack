@@ -1,0 +1,15 @@
+{
+  "title": "SyncRobots Statement",
+  "file": "cmd_syncrobots",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SyncRobots\n\t\t\trobotNumber [, robotNumber] [, ...]\n\nSyncRobots\n\t\t\tAll",
+  "parameters": "robotNumber\tInteger expression that specifies a robot number you want to start the motion.\n\nAll\tAll robots whose motion is reserved",
+  "description": "SyncRobots is used to start the robot motion reserved with the SYNC parameter of each motion command.  The robots specified by the SyncRobots start to move in the same timing.  This is more useful than synchronizing the normal multi-task programs by waiting for the I/O signal event because there is no effect of switching tasks.  It can synchronize the robot motion start more precisely.\n\nIf a robot number is specified whose motion is not reserved, an error occurs.",
+  "notes": "",
+  "see_also": "SyncRobots Function\n\nSyncRobots Example\n\nThe example below uses the SYNC parameter of a motion command and SyncRobots to start the motions of two robots simultaneously.\n\nFunction Main\n\n\t\t  Xqt Func1\n\n\t\t  Xqt Func2\n\n\t\t  Do\n\n\t\t    Wait 0.1\n\n\t\t    If (SyncRobots and &H03) = &H03 Then\n\n\t\t       Exit Do\n\n\t\t    EndIf\n\n\t\t  Loop\n\n\t\t  SyncRobots 1, 2\n\n\t\tFend\n\nFunction Func1\n\n\t\t  Robot 1\n\n\t\t  Motor On\n\n\t\t  Go P1 SYNC\n\n\t\tFend\n\nFunction Func2\n\n\t\t  Robot 2\n\n\t\t  Motor On\n\n\t\t  Go P2 SYNC\n\n\t\tFend",
+  "examples": [
+    "Function Main\n\t\t  Xqt Func1\n\t\t  Xqt Func2\n\t\t  Do\n\t\t    Wait 0.1\n\t\t    If (SyncRobots and &H03) = &H03 Then\n\t\t       Exit Do\n\t\t    EndIf\n\t\t  Loop\n\t\t  SyncRobots 1, 2\n\t\tFend\n\nFunction Func1\n\t\t  Robot 1\n\t\t  Motor On\n\t\t  Go P1 SYNC\n\t\tFend",
+    "Function Func2\n\t\t  Robot 2\n\t\t  Motor On\n\t\t  Go P2 SYNC\n\t\tFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Calibrating the additional axes",
+  "file": "Calibrating_Add_Axes",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibrating the additional axes\n\nCalibrating the additional axes\n\nNote that the additional axes have not been calibrated before shipment unlike the\nmanipulator.\n\nBefore use, perform the calibration.\n\n\t\t\tMove the additional axes to the home position.\n\n\t\t\tCreate a data for the calibration\n\n\t\t\tType the following into the [Command Window] and execute it.\n\n> Calpls 0, 0, 0, 0, 0, 0, 0, 0, 0\n\nExecute the calibration.\n\n\t\t\tType the following into the [Command Window].\n\n\t\t\tAdditional S axis :\n\n>Calib 8\n\nAdditional T axis :\n\n>Calib 9\n\nAdditional S and T axes:\n\n>Calib 8, 9\n\nCaution: If you execute an incorrect calibration, it can cause the manipulator to perform unusual\nmotion and cause serious safety problems. This is extremely hazardous and you should be\ncareful.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "> Calpls 0, 0, 0, 0, 0, 0, 0, 0, 0\n\nExecute the calibration.\n\n\t\t\tType the following into the [Command Window].\n\t\t\tAdditional S axis :\n\n\t\t\t\t>Calib 8\n\t\t\t\tAdditional T axis :\n\n\t\t\t\t>Calib 9\n\t\t\t\tAdditional S and T axes:\n\n\t\t\t\t>Calib 8, 9"
+  ]
+}

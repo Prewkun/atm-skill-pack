@@ -1,0 +1,15 @@
+{
+  "title": "Find Method, Spel Class",
+  "file": "Find_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Find (Condition As String)",
+  "parameters": "Condition\tSpecifies the input status as a trigger.",
+  "description": "Sets the condition to save the coordinate during motion instructions.",
+  "notes": "",
+  "see_also": "Go\n\nJump\n\nFind Example\n\nVB Example:\n\nm_spel.Find(\"Sw(5) = On\")\n\nC# Example:\n\nm_spel.Find(\"Sw(5) = On\");",
+  "examples": [
+    "m_spel.Find(\"Sw(5) = On\")",
+    "m_spel.Find(\"Sw(5) = On\");"
+  ]
+}

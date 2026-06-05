@@ -1,0 +1,16 @@
+{
+  "title": "TriggerModeForce Property",
+  "file": "TriggerMode_Force_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the object of the force trigger monitor.",
+  "notes": "This sets or returns whether the subject being monitored for the force trigger is force and torque or the change thereof.\n\nWhen monitoring for force above or below a certain value, FC_FORCE is used. When monitoring for a change in force above or below a certain value, FG_DIFF is used.\n\nChange in force is monitored in terms of [N/sec] and change in the torque differential is monitored in terms of [N-mm/sec].\n\nWhen monitoring change, the use of a low-pass filter is recommended as the effects of noise is significant.",
+  "see_also": "Applies To\n\nForce Trigger",
+  "examples": [
+    "Function TriggerModeTest_FORCE\n    FSet FT1.Fx_Enabled, True\n    FSet FT1.Fx_Levels, -3, 3\n    FSet FT1.TriggerMode, FG_FORCE",
+    "Till FT1\n    FCKeep FC1 Till, 10\nFend",
+    "Function TriggerModeTest_DIFF\n    FSet FT1.Fx_Enabled, True\n    FSet FT1.Fx_Levels, -50, 50\n    FSet FT1.Fx_LPF_Enabled, True\n    FSet FT1.Fx_LPF_TimeConstant, 0.1\n    FSet FT1.TriggerMode, FG_DIFF\n    Till FT1\n    FCKeep FC1 Till, 10\n    Print TillOn\nFend"
+  ]
+}

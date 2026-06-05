@@ -1,0 +1,12 @@
+{
+  "title": "Vista Precautions",
+  "file": "VistaPrecautions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vista Precautions\n\nPrecautions when using Windows Vista\n\nConnecting development PC to robot controller using Ethernet\n\nThe robot controller does not support internet protocol version 6 (TCP/IPv6).  When connecting the development PC to the robot controller using the Ethernet, be sure to use internet protocol version 4 (TCP/IPv4).\n\nCannot find camera in the network using camera search\n\nWhen the Network discovery is OFF, you cannot find the camera in the network using the camera search.  Make sure that the Network discovery is ON.\n\nSet the Network discovery ON from [Control Panel]-[Network and Internet]-[Network and Sharing Center] in Windows.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

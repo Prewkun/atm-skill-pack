@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Configuring Properties for the Polar Object",
+  "file": "Step3_ConfiguringPropertiesforthePolarObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Configuring Properties for the Polar Object\n\nStep 3: Configuring properties for the Polar Object\n\nWe can now set property values for the Polar object.\n  To set any of the properties simply click the associated property's value field and then either enter a new value or if a drop down list is displayed click one of the items in the list.\n\nShown below are some of the more commonly used properties for the Polar object.  Explanations for other properties such as AbortSeqOnFail, Graphics, etc. which are used on many of the different vision objects can be seen in the Vision Guide 8.0 Properties and Results Reference Manual or in the Polar Object Properties earlier in this section.\n\n\tName property\n\t - The default name given to a newly created Polar object is \"Polarxx\"\n\t where xx is a number which is used to distinguish between multiple\n\t Line objects within the same vision sequence.  If this is the\n\t first Polar object for this vision sequence then the default name\n\t will be \"Polar01\".  To change the name, click the Value\n\t field of the Name property, type a new name and press the return key.\n\t  You will notice that once the name property is modified, every\n\t place where the Polar object's name is displayed is updated to reflect\n\t the new name.\n\tCenterPointObject\n\t property - Typically you will set this property to one of the\n\t objects that occur previously in the sequence.  This will determine\n\t the center point of the Polar object at runtime.\n\tThickness property\n\t - Typically you will set this property a value large enough to contain\n\t sufficient model information to locate the angle of the part.\n\tAngleOffset\n\t property - Typically you will set this property to position\n\t the final angle result at the desired position.  For example,\n\t if you were looking for the minute hand of a watch, you would adjust\n\t AngleOffset so that the displayed angle matched the minute hand.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

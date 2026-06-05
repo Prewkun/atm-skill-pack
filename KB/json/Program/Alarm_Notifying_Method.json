@@ -1,0 +1,12 @@
+{
+  "title": "Alarm Notifying Method",
+  "file": "Alarm_Notifying_Method",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Alarm Notifying Method\n\nAlarm Notifying Method\n\nThe alarm notifying method needs to be configured by the output bit of the Remote I/O.\n\nThe Remote I/O can be configured in the EPSON RC+ 7.0- [Setup] - [System Configuration] - [Controller] - [Remote Control].\n\nFor details, refer to the EPSON RC+ 7.0 User's Guide 12.1 Remote I/O.\n\nNote:  The controller does not enter the error or warning state even if an alarm occurs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

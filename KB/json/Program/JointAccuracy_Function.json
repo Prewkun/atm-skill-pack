@@ -1,0 +1,15 @@
+{
+  "title": "JointAccuracy Function",
+  "file": "JointAccuracy_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "JointAccuracy(jointNumber, paramNumber)",
+  "parameters": "jointNumber\tSpecifies\n\t\t the joint number.\n\nConstant\tValue\tDescription\n\nJAC_PARAM1\t1\tFirst Parameter Value\n\nJAC_PARAM2\t2\tSecond Parameter Value\n\nJAC_PARAM3\t3\tThird Parameter Value\n\nJAC_PARAM4\t4\tFourth Parameter Value\n\nFourth Parameter Value",
+  "description": "JointAccuracy\n\nJointAccuracy Function",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main\n   'Set the accuracy offset value of the Joint #2.\n   JointAccuracy 2, 32, 873, 6, 437\n   'Display the accuracy offset value of the specified joint.\n   DisplayJointAccuracy(2)\nFend\n\nFunction DisplayJointAccuracy(numJoint As Integer)\n   Integer i\n    Print \"Joint =\", numJoint, \", JointAccuracy settings:\"\n    For i = 1 To 4\n    Print \" Param \", i, \" = \", JointAccuracy(numJoint, i)\n    Next i\nFend",
+    "Joint = 2, JointAccuracy settings: Param 1 = 32 Param 2 = 873 Param 3 = 6 Param 4 = 437"
+  ]
+}

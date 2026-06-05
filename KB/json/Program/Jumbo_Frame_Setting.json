@@ -1,0 +1,12 @@
+{
+  "title": "Jumbo Frame Setting",
+  "file": "Jumbo_Frame_Setting",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Jumbo Frame Setting\n\nJumbo Frame Setting\n\n(1) Display the network adapter property and click the [Configure] button.\n\n(2) Select  \"Jumbo Packet\" in the [Advanced] tab.\n\nSet the frame size according to the system network configuration.\n\n(GigE camera support up to 8 KB.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

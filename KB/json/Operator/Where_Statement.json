@@ -1,0 +1,22 @@
+{
+  "title": "Where Statement",
+  "file": "Where_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "Where [LocalNumber]",
+  "parameters": "LocalNumber\tOptional.  Specifies the local coordinate system number.  Local 0 is default.",
+  "description": "Where Statement\n\nWhere Statement",
+  "notes": "",
+  "see_also": "Displays current robot position data.\n\nJoint\n\nPlist\n\nPulse\n\nWhere Statement Example\n\nThe display type can be different depending on the robot type and existence of additional axes.\nThe following example is for Scara robot without the additional axis.\n\n>where\n\nWORLD:  X:\n  350.000 mm  Y:    0.000 mm  Z:    0.000 mm  U:    0.000 deg V: 0.000 deg W: 0.000 deg\n\nJOINT:  1:\n    0.000 deg 2:    0.000 deg 3:    0.000 mm  4:    0.000 deg\n\nPULSE:  1:\n        0 pls 2:        0 pls 3:        0 pls 4:        0 pls\n\n> local 1, 100,100,0,0\n\n> where 1\n\nWORLD1: X:  250.000 mm  Y: -100.000 mm  Z:    0.000 mm  U:    0.000 deg V: 0.000 deg W: 0.000 deg\n\nJOINT:  1:\n    0.000 deg 2:    0.000 deg 3:    0.000 mm  4:    0.000 deg\n\nPULSE:  1:\n        0 pls 2:        0 pls 3:        0 pls 4:        0 pls",
+  "examples": [
+    ">where",
+    "WORLD:  X: 350.000 mm  Y:    0.000 mm  Z:    0.000 mm  U:    0.000 deg V: 0.000 deg W: 0.000 deg",
+    "JOINT:  1:\n    0.000 deg 2:    0.000 deg 3:    0.000 mm  4:    0.000 deg",
+    "PULSE:  1:\n        0 pls 2:        0 pls 3:        0 pls 4:        0 pls",
+    "> local 1, 100,100,0,0",
+    "> where 1",
+    "WORLD1: X:  250.000 mm  Y: -100.000 mm  Z:    0.000 mm  U:    0.000 deg V: 0.000 deg W: 0.000 deg",
+    "JOINT:  1:\n    0.000 deg 2:    0.000 deg 3:    0.000 mm  4:    0.000 deg",
+    "PULSE:  1:\n        0 pls 2:        0 pls 3:        0 pls 4:        0 pls"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Restarting after a Change",
+  "file": "Restarting_after_a_Change",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Restarting after a Change\n\nRestarting after a Change\n\nWhen restarting the robot system after its hardware or software has been corrected or serviced, strictly observe the following:\n\n\t\t\tBefore supplying the system with power, check the locations where the hardware was modified.\n\t\t\tTest the functions of the robot system to make sure that it operates correctly.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

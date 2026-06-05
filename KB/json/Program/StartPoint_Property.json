@@ -1,0 +1,12 @@
+{
+  "title": "StartPoint Property",
+  "file": "StartPoint_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "StartPoint Property\n\nStartPoint Property\n\nThis property sets the start position of the continuous moving trajectory.\n\nIt is used when specifying MultiStraight or MultiStraightCP in MotionTrajecroty.\n\n\tValue\n\nMinimum value\t0\n\nMaximum value\t999\n\nDefault: 0",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

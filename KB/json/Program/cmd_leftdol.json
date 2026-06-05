@@ -1,0 +1,19 @@
+{
+  "title": "Left$ Function",
+  "file": "cmd_leftdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Left$\n\t\t\t(string, count)",
+  "parameters": "string\tString expression from which the leftmost characters are copied.\n\ncount\tThe number of characters to copy from string\n starting with the leftmost character.",
+  "description": "Left$ returns the leftmost number characters of a string specified by the user. Left$ can return up to as many characters as are in the character string.",
+  "notes": "",
+  "see_also": "Asc\n\nChr$\n\nInStr\n\nLen\n\nMid$\n\nRight$\n\nSpace$\n\nStr$\n\nVal\n\nLeft$ Function Example\n\nThe example shown below shows a program which takes a part data string as its input and parses out the part number, part name, and part count.\n\nFunction ParsePartData(DataIn$ As String, ByRef PartNum$ As String, ByRef PartName$ As String, ByRef PartCount As Integer)\n\n  Integer pos\n\n\t\t  String temp$\n\npos = Instr(DataIn$, \",\")\n\n\t\t  PartNum$ = Left$(DataIn$, pos - 1)\n\nDataIn$ = Right$(datain$, Len(DataIn$) - pos)\n\n\t\t  pos = Instr(DataIn$, \",\")\n\nPartName$ = Left$(DataIn$, pos - 1)\n\nPartCount = Val(Right$(datain$, Len(DataIn$) - pos))\n\nFend\n\nSome other example results from the Left$ instruction from the Command window.\n\n> Print\n\t\t\t\tLeft$\n\t\t\t(\"ABCDEFG\", 2)\n\nAB\n\n> Print\n\t\t\t\tLeft$\n\t\t\t(\"ABC\", 3)\n\nABC",
+  "examples": [
+    "Function ParsePartData(DataIn$ As String, ByRef PartNum$ As String, ByRef PartName$ As String, ByRef PartCount As Integer)",
+    "Integer pos\n\t\t  String temp$\n\npos = Instr(DataIn$, \",\")\n\t\t  PartNum$ = Left$(DataIn$, pos - 1)\n\nDataIn$ = Right$(datain$, Len(DataIn$) - pos)\n\t\t  pos = Instr(DataIn$, \",\")\n\nPartName$ = Left$(DataIn$, pos - 1)\n\nPartCount = Val(Right$(datain$, Len(DataIn$) - pos))\n\n\t\tFend",
+    "> Print\n\t\t\t\tLeft$\n\t\t\t(\"ABCDEFG\", 2)",
+    "AB",
+    "> Print\n\t\t\t\tLeft$\n\t\t\t(\"ABC\", 3)",
+    "ABC"
+  ]
+}

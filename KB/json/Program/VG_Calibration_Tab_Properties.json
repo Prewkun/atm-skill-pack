@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Window: Properties List",
+  "file": "VG_Calibration_Tab_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Window: Properties List\n\nCalibration Window: Properties List\n\nThe properties for the vision Calibration are shown in the Properties list, which looks similar to a small spreadsheet.  The name of the property is on the left side and the value is shown on the right.  Properties are set by first clicking on the Value field for a specific property and then either entering a value or selecting from a list which is displayed.\n\nFor information on Calibration properties, refer to Calibrations or the Vision Guide 8.0 Property and Results Reference Manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "VSaveImage Method, Spel Class",
+  "file": "vbg_VSaveImage",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VSaveImage (Sequence As String, Path As String)",
+  "parameters": "Sequence\tString containing the name of a sequence in the current EPSON RC+ project.\n\nPath\tFull path name of the file to save the model to, excluding the extension.",
+  "description": "Save a vision video window to a PC disk file.",
+  "notes": "When VSaveImage is executed, EPSON RC+ creates an image file in the specified path and file name. The file extension must be BMP (default format for Vision Guide), TIF, or JPG.",
+  "see_also": "VSaveModel\n\nVSaveImage Example\n\nVB Example:\n\nDim found as Boolean\n\nm_spel.VRun(\"Seq\")\n\nm_spel.VGet(\"Seq\", SpelVisionProps.AllFound, found)\n\nIf Not found Then\n\n   m_spel.VSaveImage(seq01, \"d:\\reject.bmp\")\n\nEnd If\n\nC# Example:\n\nbool found;\n\nm_spel.VRun(\"Seq\");\n\nm_spel.VGet(\"Seq\", SpelVisionProps.AllFound, out found);\n\nif (!found)\n\n   m_spel.VSaveImage(\"Seq\", @\"d:\\reject.mim\");",
+  "examples": [
+    "Dim found as Boolean\nm_spel.VRun(\"Seq\")\nm_spel.VGet(\"Seq\", SpelVisionProps.AllFound, found)\nIf Not found Then\n   m_spel.VSaveImage(seq01, \"d:\\reject.bmp\")\nEnd If",
+    "bool found;\nm_spel.VRun(\"Seq\");\nm_spel.VGet(\"Seq\", SpelVisionProps.AllFound, out found);\nif (!found)\n   m_spel.VSaveImage(\"Seq\", @\"d:\\reject.mim\");"
+  ]
+}

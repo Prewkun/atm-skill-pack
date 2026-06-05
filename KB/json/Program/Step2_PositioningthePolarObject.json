@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the Polar Object",
+  "file": "Step2_PositioningthePolarObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the Polar Object\n\nStep 2: Positioning the Polar Object\n\nYou should now see a Polar object similar to the one shown below:\n\nNew Polar Object\n\nPolar objects have a circular search window. You can change the position of the entire object or change it's radius.\n\nTo move the entire object, click the object name or anywhere along the outer circumference and while holding the left mouse button down drag the entire object to a new location on the screen. When you find the position you like, release the mouse and the Polar object will stay in this new position on the screen.\n\nTo change the radius, move the mouse pointer over one of the size handles, press the left mouse button down, then move the mouse to change the size of the radius.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Operators",
+  "file": "Operators",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Operators\n\nOperators\n\nThe following table shows the operators for the SPEL+ language.\n\nKeyword\n\t\t or Symbol\tExample\tDescription\n\n+\tA+B\tAddition\n\n-\tA-B\tSubtraction\n\n*\tA*B\tMultiplication\n\n/\tA/B\tDivision\n\n**\tA**B\tExponentiation\n\n=\tA=B\tEqual\n\n>\tA>B\tGreater than\n\n<\tA<B\tLess than\n\n>=\tA>=B\tGreater than or equal\n\n<=\tA<=B\tLess or than equal\n\n<>\tA<>B\tNot equal\n\nAnd\tA And B\tPerforms logical and bitwise AND\n\t\t operation.\n\nMod\tA Mod B\tReturns the remainder obtained\n\t\t by dividing a numeric expression by another numeric expression.\n\nNot\tNot A\tPerforms logical or bitwise negation\n\t\t of the operand.\n\nOr\tA Or B\tPerforms the bitwise Or operation\n\t\t on the values of the operands.\n\nXor\tA\n\t\t Xor B\tPerforms the bitwise Xor operation\n\t\t on the values of the operand.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

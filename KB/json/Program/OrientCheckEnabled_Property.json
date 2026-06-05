@@ -1,0 +1,12 @@
+{
+  "title": "OrientCheckEnabled Property",
+  "file": "OrientCheckEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets whether to check the arm orientation (Hand, Elbow, Wrist) when starting the force guide sequence.\n\nWhen specifying True, the force guide sequence starts when it matches the specified arm orientation.  If the arm orientations are not matched, the force guide sequence ends as a failure without executing the force guide object.  The next SPEL statement of FGRun is executed.\n\nWhen specifying False, the force guide object is executed surely without checking the arm orientation.\n\nValues\n\nTrue Check the arm orientation at the start.\n\nFalse You can start with any arm orientation without checking it at the start.\n\nDefault:  False\n\nSee Also: OrientCheckEnabled Property\n\nPosCheckEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "SpelOptionInfo Class",
+  "file": "SpelOptionInfo_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelOptionInfo Class\n\nSpelOptionInfo Class\n\nMember name\tType\tDescription\n\nName\tString\tOption name\n\nStatus\tSpelOptionStatus\tOption setting Status\n\nHere is an example.\n\nVB Example:\n\nDim info As SpelControllerInfo\n\ninfo = m_spel.GetControllerInfo()\n\nLabel1.Text = info.Options(1).Name + \" \" + info.Options(1).Status\n\nC#",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Dim info As SpelControllerInfo\ninfo = m_spel.GetControllerInfo()\nLabel1.Text = info.Options(1).Name + \" \" + info.Options(1).Status",
+    "SpelControllerInfo info;\ninfo = m_spel.GetControllerInfo();\nLabel1.Text = info.Options[1].Name + \" \" + info.Options[1].Status;"
+  ]
+}

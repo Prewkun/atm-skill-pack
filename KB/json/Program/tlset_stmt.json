@@ -1,0 +1,16 @@
+{
+  "title": "TLSet Statement",
+  "file": "tlset_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) TLSet toolNum , toolDefPoint\n\n(2) TLSet toolNum\n\n(3) TLSet",
+  "parameters": "toolNum\tInteger number from 1-15 representing which of 15 tools to define. (Tool 0 is the default tool and cannot be modified.)\n\ntoolDefPoint\tP number or P(expr) or point label or point expression.",
+  "description": "Defines the tool coordinate systems Tool 1, Tool 2 or Tool 3 by specifying tool coordinate system origin and rotation angle in relation to the Tool 0 coordinate system (Hand coordinate system).\n\nTLSet 1, XY(50,100,-20,30)\n\nTLSet 2, P10 +X(20)\n\nIn this case, the coordinate values of P10 are referenced and 20 is added to the X value. Arm attribute and local coordinate system numbers are ignored.\n\nTlSet for 6-Axis robots\n\nThe origin of Tool 0 is the flange side of the sixth joint.  When all joints are at the 0 degree position, the Tool 0 coordinate system's X axis is aligned with the robot coordinate system's Z axis, the Y axis is aligned with the robot coordinate system's X axis, and the Z axis is perpendicular to the flange face, and is aligned with the robot coordinate system's Y axis, as shown in the figure below:\n\nTool 0 coordinate systems are defined for ceiling and wall mounted robots as shown in the figures below.\n\nTLSet for N series robots\n\nWhen all joints are at the 0 degree position, the Tool 0 coordinate system's X axis is aligned with the robot coordinate system's -X axis, the Y axis is aligned with the robot coordinate system's Y axis, and the Z axis is aligned with the robot coordinate system's -Z axis, as shown in the figure below:\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "TLSet values are maintained\n\nThe TlSet values are preserved. Use TLClr to clear a tool definition.",
+  "see_also": "Arm\n\nArmSet\n\nTLClr\n\nTLSet Function\n\nTool\n\nTLSet Statement Example\n\nThe example shown below shows a good test which can be done from the command window to help understand the difference between moving when a tool is defined and when no tool is defined.\n\n> TlSet 1, XY(100, 0, 0, 0) 'Define tool coordinate system for\n\n'Tool 1 (plus 100 mm in x direction\n\n'from hand coordinate system)\n\n> Tool 1   'Selects Tool 1 as defined by TLSet\n\n> TGo P1   'Positions the Tool 1 tip position at P1\n\n> Tool 0   'Tells robot to use no tool for future motion\n\n> Go P1    'Positions the center of the U-Joint at P1",
+  "examples": [
+    "TLSet 1, XY(50,100,-20,30)",
+    "TLSet 2, P10 +X(20)",
+    "> TlSet 1, XY(100, 0, 0, 0) 'Define tool coordinate system for\n'Tool 1 (plus 100 mm in x direction\n'from hand coordinate system)\n> Tool 1   'Selects Tool 1 as defined by TLSet\n> TGo P1   'Positions the Tool 1 tip position at P1\n> Tool 0   'Tells robot to use no tool for future motion\n> Go P1    'Positions the center of the U-Joint at P1"
+  ]
+}

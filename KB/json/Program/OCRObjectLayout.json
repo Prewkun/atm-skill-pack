@@ -1,0 +1,12 @@
+{
+  "title": "OCR Object Layout",
+  "file": "OCRObjectLayout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "OCR Object Layout\n\nOCR Object Layout\n\nThe OCR object has a search window and a model window, as shown below.\n\nOCR Object Layout\n\nNote:  Character strings  arranged along with an arc can be recognized as a specific font or character size image by using an \"Arc\" search window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "AngleEnd Property",
+  "file": "AngleEnd_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the end angle of the range in which ArcFinder finds circular objects.",
+  "notes": "Specifies a range in which ArcFinder finds circular objects, or ArcInspector inspects circular objects. The range should be between AngleStart and AngleEnd.",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: ArcFinder, ArcInspector\n Property\n\nAngleStart Property\n\nVision Objects: AngleEnd Property\n\nArcFinder\n\nArcInspector",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "On VI",
+  "file": "On_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Turns on the specified output bit.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nBit Number\tOptional.  Integer representing one of the output bits. If Label is not specified, then Bit Number is used.\n\nLabel\tOptional.  String containing an input bit label.  If Label is specified, then Bit Number is ignored.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nOn Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

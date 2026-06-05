@@ -1,0 +1,14 @@
+{
+  "title": "PG_Scan Statement",
+  "file": "PG_Scan_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "PG_Scan direction As Integer",
+  "parameters": "direction\tSpinning direction\n\n0: + (CW) direction\n\n1: - (CCW) direction",
+  "description": "The PG_Scan starts the continuous spinning motion of the current PG robot. To execute the continuous spinning motion, you need to enable the PG parameter continuous spinning by the robot configuration.\n\nWhen the program execution task is completed, the continuous spinning stops.",
+  "notes": "",
+  "see_also": "Starts the continuous spinning motion of the PG robot axes.\n\nPG_FastStop\n\nPG_Scan Example\n\nThe following example spins the PG axis for 10 seconds and stops it suddenly.\n\nFunction main\n\n  Motor On\n\n  Power High\n\n  Speed 10; Accel 10, 10\n\n  PG_Scan 0\n\n  Wait 10\n\n  PG_SlowStop\n\nFend",
+  "examples": [
+    "Function main Motor On Power High Speed 10; Accel 10, 10 PG_Scan 0 Wait 10 PG_SlowStop\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Arms page: Robot Manager Window",
+  "file": "setup_arms_cmd",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Arms page: Robot Manager Window\n\n[Tools]-[Robot Manager]-[Arms] Page\n\nThis page allows you to define Arm settings for a robot. When the tab is selected, the current Arm values are displayed. The tab is disabled if the current robot does not support the Arm command.\n\nA grid is used to display all the values for all 15 arm configurations you can define.\n\nWhen an arm is undefined, then all fields for that arm will be blank.\n\nWhen you enter a value in any of the fields for an undefined arm, then the remaining fields will be set to zero and the tool will be defined when you click the [Apply] button.\n\nFor more details on arm settings, refer to the following manual:\n\nSPEL+ Language Reference - ArmSet Statement\n\nNavigating the grid\n\nPress the [Tab] key to move to the next cell. Press the [Shift] + [Tab] key to move to the previous cell. Press the arrow [↑] or [↓] key to move to the cell above or below.\n\nItem\tDescription\n\nArm Wizard\tOpen\n\t\t the wizard for configuring the additional arm using the camera.\n\nDefine the tool by following the instructions.\n\nFor more details, refer to the following\n\t\t manual:\n\n\t\tRefer to 7. Vision Calibration in the Vision Guide 8.0 Software\n\t\t manual.\n\nL2 Dist\tDistance\n\t\t between the center of joint 2 and the center of the orientation\n\t\t joint in millimeters.\n\nJ2 Offset\tAngle\n\t\t of the line from the center of joint 2 to the center of the orientation\n\t\t joint in degrees.\n\nZ Offset\tThe Z\n\t\t offset between the new orientation axis and the standard orientation\n\t\t axis.\n\nL1 Dist\tDistance\n\t\t between the center of the shoulder joint and the center of the\n\t\t elbow joint in millimeters.\n\nU Offset\tThe angle\n\t\t offset between the standard orientation zero position and the\n\t\t new orientation axis zero position in degrees.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nClear\tClears\n\t\t all selected values.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

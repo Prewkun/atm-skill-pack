@@ -1,0 +1,14 @@
+{
+  "title": "XYLimClr Statement",
+  "file": "XYLimClr_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "XYLimClr",
+  "parameters": "",
+  "description": "XYLimClr Statement\n\nXYLimClr Statement",
+  "notes": "",
+  "see_also": "Clears the XYLim definition.\n\nXYLim Statement\n\nXYLimDef Function\n\nXYLimClr Statement Example\n\nThis example uses the XYLimClr statement in a program:\n\nFunction ClearXYLim\n\n\t\t  If XYLimDef = True Then\n\nXYLimClr\n\nEndIf\n\n\t\tFend",
+  "examples": [
+    "Function ClearXYLim\n\t\t  If XYLimDef = True Then\n\n\t\t\t    XYLimClr\n\n\t\t  EndIf\n\t\tFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Pause Statement",
+  "file": "cmd_pause",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Pause",
+  "parameters": "",
+  "description": "When the Pause is executed, program execution for all tasks with pause enabled (tasks that does not use NoPause or NoEmgAbort in Xqt command) is suspended.  Also, if any task is executing a motion statement, it will be paused even if pause is not enabled for that task.\n\nHowever, Pause cannot stop the background tasks.",
+  "notes": "QP and its Affect on Pause:\n\nThe QP instruction is used to cause the arm to stop immediately upon Pause or to complete the current move and then Pause the program.  See the QP instruction help for more information.\n\nPause Statement Example\n\nThe example below shows the use of the Pause instruction to temporarily stop execution. The task executes program statements until the line containing the Pause command. At that point the task is paused. The user can then click the Run Window Continue Button to resume execution.\n\nFunction main\n\n\t\t  Xqt monitor\n\n\t\t  Go P1\n\n\t\t  On 1\n\n\t\t  Jump P2\n\n\t\t  Off 1\n\nPause 'Suspend program execution\n\n\t\t  Go P40\n\n\t\t  Jump P50\n\n\t\tFend",
+  "see_also": "",
+  "examples": [
+    "Function main\n\t\t  Xqt monitor\n\t\t  Go P1\n\t\t  On 1\n\t\t  Jump P2\n\t\t  Off 1\n\n\t\t\t  Pause 'Suspend program execution\n\t\t  Go P40\n\t\t  Jump P50\n\t\tFend"
+  ]
+}

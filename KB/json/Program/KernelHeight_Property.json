@@ -1,0 +1,12 @@
+{
+  "title": "KernelHeight Property",
+  "file": "KernelHeight_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the intensity of vertical de-noising for DefectFinder.",
+  "notes": "Sets and returns the intensity of vertical de-noising for DefectFinder. Setting value ranges from 1 to 15. Setting the KernelHeight property to 15 sets the de-noising intensity to maximum. Although a large setting value reduces the influence of noise, it also rejects small defects. Therefore, detectable defect size needs to be larger then then KernelHeight value.\n\nAdjust to an appropriate value according to the size of defect to be detected.\n\nSee Also: KernelHeight Property\n\nKernelWidth Property\n\nVision Objects: KernelHeight Property\n\nDefectFinder",
+  "see_also": "Applies To\n\nVision Objects: Defect Finder",
+  "examples": []
+}

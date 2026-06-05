@@ -1,0 +1,14 @@
+{
+  "title": "XYLim Statement",
+  "file": "xylim_stmt",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "XYLim minX, maxX, minY, maxY, [minZ], [maxZ]\n\nXYLim",
+  "parameters": "minX\tThe minimum\n\t\t X coordinate position to which the manipulator may travel. (The\n\t\t manipulator may not move to a position with the X Coordinate less\n\t\t than minX.)\n\nmaxX\tThe maximum\n\t\t X coordinate position to which the manipulator may travel. (The\n\t\t manipulator may not move to a position with the X Coordinate greater\n\t\t than maxX.)\n\nminY\tThe minimum\n\t\t Y coordinate position to which the manipulator may travel. (The\n\t\t manipulator may not move to a position with the Y Coordinate less\n\t\t than minY.)\n\nmaxY\tThe maximum\n\t\t Y coordinate position to which the manipulator may travel. (The\n\t\t manipulator may not move to a position with the Y Coordinate greater\n\t\t than maxY.)\n\nminZ\tOptional.\n\t\t  The minimum Z coordinate position to which the manipulator\n\t\t may travel. (The manipulator may not move to a position with the\n\t\t Z Coordinate less than minZ.)\n\nmaxZ\tOptional.\n\t\t  The maximum Z coordinate position to which the manipulator\n\t\t may travel. (The manipulator may not move to a position with the\n\t\t Z Coordinate greater than maxZ.)\n\nResult\n\nDisplays current XYLim values when used without parameters.",
+  "description": "The motion range established with XYLim values applies to monitor method configured in XYLimMode command. For details of monitor method, refer to XYLimMode statement.\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "Turning Off Motion Range Limit Checking\n\nThere are many applications which don't require Motion Range limit checking and for that reason there is a simple method to turn this limit checking off. To turn motion range limit checking off, define the Motion Range Limit values for minX, maxX, minY, and maxY to be 0. For example XYLim 0, 0, 0, 0.\n\nDefault Motion Range Limit Values\n\nThe default values for the XYLim instruction are \"0, 0, 0, 0\". (Motion Range Limit Checking is turned off.)\n\nTip\n\nPoint & Click Setup for XYLim\n\nEpson RC+ has a point and click dialog box for defining the motion range limits. The simplest method to set the XYLim values is by using the XYZ Limits page on the Robot Manager.",
+  "see_also": "XYZ Limits page: Robot Manager\n\nRange\n\nXYLimMode\n\nXYLim Statement",
+  "examples": [
+    "> xylim -200, 300, 0, 500\n\n> xyLim\n-200.000, 300.000, 0.000, 500.000"
+  ]
+}

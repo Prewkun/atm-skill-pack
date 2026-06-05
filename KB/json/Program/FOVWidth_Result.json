@@ -1,0 +1,12 @@
+{
+  "title": "FOVWidth Result",
+  "file": "FOVWidth_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the FOV (field of view) width of a calibration.",
+  "notes": "FOVWidth is the width of the camera field of view in millimeters. The calibration must be completed before FOVWidth can be retrieved.",
+  "see_also": "Applies To\n\nVision Calibration\n\nFOVHeight Result\n\nXmmPerPixel Result\n\nYmmPerPixel Result",
+  "examples": []
+}

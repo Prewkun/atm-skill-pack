@@ -1,0 +1,12 @@
+{
+  "title": "TargetOK VI",
+  "file": "TargetOK_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns a status indicating whether or not the PTP (Point to Point) motion from the current position to a target position is possible.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nPoint Number\tOptional.  Specifies the target end point by using the point number for a previously taught point in the Controller's point memory for the current robot.  If Point Expression is specified, then Point Number is ignored.\n\nPoint Expression\tOptional.  Specifies the target end point by using a string expression.  If Point Expression is not specified, then the Point Number input will be used.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nAt Home\tBoolean indicating if the current robot is at the home position.",
+  "notes": "",
+  "see_also": "BGo, Go, Jump, TGo\n\nTargetOK Example",
+  "examples": []
+}

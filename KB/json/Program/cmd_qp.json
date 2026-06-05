@@ -1,0 +1,14 @@
+{
+  "title": "QP Statement",
+  "file": "cmd_qp",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) QP { On | Off }\n\n(2) QP",
+  "parameters": "On | Off\tQuick Pause can be either On or Off.",
+  "description": "If during motion command execution either the Pause switch is pressed, or a pause signal is input to the controller, quick pause mode determines whether the robot will stop immediately, or will Pause after having executed the motion command.\n\nImmediately decelerating and stopping is referred to as a \"Quick Pause\".\n\nWith the On parameter specified, QP turns the Quick Pause mode On.\n\nWith the Off parameter specified, QP turns the Quick Pause mode Off.\n\nQP displays the current setting of whether the robot arm is to respond to the Pause input by stopping immediately or after the current arm operation is completed. QP is simply a status instruction used to display whether Quick Pause mode is on or off.",
+  "notes": "Quick pause mode defaults to on after power is turned on:\n\nThe Quick Pause mode set by the QP instruction remains in effect after the Reset instruction. However, when the PC power or Drive Unit power is turned off and then back on, Quick Pause mode defaults to On.\n\nQP and the Safe Guard Input\n\nEven if QP mode is set to Off, if the Safe Guard Input becomes open the robot will pause immediately.",
+  "see_also": "Pause\n\nQP Statement Example\n\nThis Command window example displays the current setting of whether the robot arm is to stop immediately on the Pause input. (i.e. is QP mode set On or Off)\n\n> qp\n\nQP ON\n\n> qp on 'Sets QP to Quick Pause Mode\n\n>",
+  "examples": [
+    "> qp\n\nQP ON\n\n> qp on 'Sets QP to Quick Pause Mode\n\n>"
+  ]
+}

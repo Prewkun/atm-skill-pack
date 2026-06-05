@@ -1,0 +1,12 @@
+{
+  "title": "Robot Coordinate Systems for Cartesian Robot",
+  "file": "Robot_Coordinate_Systems_for_Cartesian_Robot",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Coordinate Systems for Cartesian Robot\n\nRobot Coordinate Systems for Cartesian Robot\n\nX axis / Y axis in Robot Coordinate System of\n\nCartesian Robot\tU axis in Robot Coordinate System of Cartesian Robot\n\nZ axis in Robot Coordinate System of\n\nCartesian Robot",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

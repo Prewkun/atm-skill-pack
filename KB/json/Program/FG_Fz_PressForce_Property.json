@@ -1,0 +1,12 @@
+{
+  "title": "FG_Fz_PressForce Property",
+  "file": "FG_Fz_PressForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets pressing force to Fz direction during the execution of force guide objects.  It is used when Fz_ControlMode is Press+ or Press-.\n\nValues\n\nWhen ControlMode is Press+:\n\nMinimum value -250\n\nMaximum value 0\n\nDefault:  0\n\nWhen ControlMode is Press-:\n\nMinimum value 0\n\nMaximum value 250\n\nDefault:  0\n\nSee Also: Fz_PressForce Property\n\nFz_ControlMode Property",
+  "notes": "",
+  "see_also": "Applies To\n\nPress Object, PressMove Object",
+  "examples": []
+}

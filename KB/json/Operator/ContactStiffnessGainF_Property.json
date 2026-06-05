@@ -1,0 +1,12 @@
+{
+  "title": "ContactFirmnessF Property",
+  "file": "ContactStiffnessGainF_Property",
+  "section": "Operator",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set a firmness of the force control functions.\n\nContactFirmnessF : When ContactOrient is Fx, Fy, Fz",
+  "notes": "When setting a large value:\n\nThe force control function will become stronger.\n\nHowever, response to changes of the force/torque is slow.\n\nWhen setting a small value:\n\nThe force control function will become weaker.  Response to changes of the force/torque is fast, however, vibration is easy to occur.\n\nWhen setting a small absolute value:\n\nMovement speed of the contact motion will be fast.\n\nSee Also: ContractFirmnessF Property\n\nContactFirmnessT Property",
+  "see_also": "Applies To\n\nContact Object, ContactProbe Object",
+  "examples": []
+}

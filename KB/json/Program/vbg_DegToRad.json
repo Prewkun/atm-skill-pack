@@ -1,0 +1,16 @@
+{
+  "title": "DegToRad Method, Spel Class",
+  "file": "vbg_DegToRad",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function DegToRad (degrees As Double) As Double",
+  "parameters": "degrees\tThe number of Degrees to convert into Radians.",
+  "description": "Converts Degrees into Radians.",
+  "notes": "",
+  "see_also": "RadToDeg\n\nDegToRad Example\n\nVB Example:\n\nDim rad As Double\n\nrad = m_spel.DegToRad(45)\n\nC# Example:\n\ndouble rad;\n\nrad = m_spel.DegToRad(45);",
+  "examples": [
+    "Dim rad As Double\n\nrad = m_spel.DegToRad(45)",
+    "double rad;",
+    "rad = m_spel.DegToRad(45);"
+  ]
+}

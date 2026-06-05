@@ -1,0 +1,15 @@
+{
+  "title": "TLDef Method, Spel Class",
+  "file": "vbg_TLDef",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function TLDef (ToolNumber As Integer ) As Boolean",
+  "parameters": "ToolNumber\tInteger expression representing which tool to return status for.",
+  "description": "Returns if a tool is defined.",
+  "notes": "",
+  "see_also": "Tool\n\nTlClr\n\nTLDef Example\n\nVB Example:\n\nm_spel.TLDef(1)\n\nC# Example:\n\nm_spel.TLDef(1);",
+  "examples": [
+    "m_spel.TLDef(1)",
+    "m_spel.TLDef(1);"
+  ]
+}

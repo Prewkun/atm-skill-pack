@@ -1,0 +1,12 @@
+{
+  "title": "Inputs and outputs",
+  "file": "Inputs_and_outputs",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Inputs and outputs\n\nInputs and outputs\n\nLayout your I/O early in the design stages. Use I/O labels in your programs. You must purchase additional I/O boards if you need more than 24 inputs or 16 outputs. You can also use the Fieldbus option so the controller can be a Fieldbus slave.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

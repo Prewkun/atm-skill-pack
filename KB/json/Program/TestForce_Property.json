@@ -1,0 +1,12 @@
+{
+  "title": "TestForce Property",
+  "file": "TestForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "TestForce Property\n\nTestForce Property\n\nApplies To\n\nThis property sets the tensile force during the force guide object operation in the direction opposite to the operation specified by InsertOrient of the Insert object.\n\nInsertOrient is +Fx, +Fy, and +Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t0\n\nMaximum value\t50\n\nDefault: 5\n\nInsertOrient is -Fx, -Fy, and -Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t-50\n\nMaximum value\t0\n\nDefault: 5",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

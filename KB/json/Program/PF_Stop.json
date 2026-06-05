@@ -1,0 +1,17 @@
+{
+  "title": "PF_Stop",
+  "file": "PF_Stop",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_Stop part ID",
+  "parameters": "part\n\t\t ID\tSpecify\n\t\t the part ID (integer number from 1 to 32).",
+  "description": "Stops the Part Feeding process for the specified part.\n\nUnlike the PF_Abort command, PF_Stop will wait for running callback functions to finish.\n\nOnce callback functions are complete, the PF_CycleStop callback function will run.\n\nNothing will occur when using this function when the Part Feeding process has not been started.\n\nWhen using PF_Stop in a multi-part operation, any of the partID that specified with PF_Start can stop the Part Feeding process.\n\nYou cannot execute PF_Start immediately after executing PF_Stop.  If PF_Start is executed before the PF_CycleStop callback function has completed, a PF_STATUS_FEEDERINUSE_ERROR will occur.\n  This is because you are trying to run a new part on the feeder before the current part has completed.\n\nTo correct this situation, add code like to the following -\n\nPF_Stop 1 'For this example, Part 1 is running on Feeder 1 which uses task 32\n\nTaskWait 32 'Wait for the current part to finish\n\nPF_Start 2 'Now you can start a new part\n\nCannot be executed from a virtual controller or command window.\n\nPF_Stop Example\n\nPF_Stop 1",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_Stop 1 'For this example, Part 1 is running on Feeder 1 which uses task 32",
+    "TaskWait 32 'Wait for the current part to finish",
+    "PF_Start 2 'Now you can start a new part",
+    "PF_Stop 1"
+  ]
+}

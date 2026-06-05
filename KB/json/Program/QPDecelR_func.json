@@ -1,0 +1,14 @@
+{
+  "title": "QPDecelR Function",
+  "file": "QPDecelR_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "QPDecelR",
+  "parameters": "",
+  "description": "QPDecelR Function\n\nQPDecelR Function",
+  "notes": "",
+  "see_also": "Returns the set deceleration speed of quick pause for the change of tool orientation during the CP motion.\n\nQPDecelR\n\nQPDecelR Function Example\n\nReal savQPDecelR\n\nsavQPDecelR = QPDecelR",
+  "examples": [
+    "Real savQPDecelR\nsavQPDecelR = QPDecelR"
+  ]
+}

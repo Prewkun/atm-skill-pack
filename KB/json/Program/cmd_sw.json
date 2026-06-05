@@ -1,0 +1,17 @@
+{
+  "title": "Sw Function",
+  "file": "cmd_sw",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sw(\n\t\t\tbitNumber\n\t\t\t)",
+  "parameters": "bitNumber\tInteger expression representing an input port.",
+  "description": "Sw provides a status check for the inputs. Sw is most commonly used to check the status of one of the inputs which could be connected to a feeder, conveyor, gripper solenoid, or a host of other devices which works via discrete I/O. Obviously the input checked with the Sw instruction has 2 states (1 or 0). These indicate whether the device is On or Off.\n\nSee Also\n\nIn, InBCD, MemOn, MemOff, MemOut, MemSW, Off, OpBCD, Oport, Out, Wait\n\nSw Function Example\n\nThe example shown below simply checks the discrete input #5 and branches accordingly. On is used instead of 1 for more clarity.\n\nFunction main\n\n\t\t  Integer i, feed5Ready\n\n\t\t  feed5Ready = Sw(5)\n\n\t\t  'Check if feeder is ready\n\n\t\t  If feed5Ready = On Then\n\n\t\t    Call mkpart1\n\n\t\t  Else\n\n\t\t    Print \"Feeder #5 is not ready. Please reset and\"\n\n\t\t    Print \"then restart program\"\n\n\t\t  EndIf\n\n\t\tFend\n\nOther simple examples are as follows from the command window:\n\n> print s\n\t\t\tw(5)\n\n1\n\n>",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main\n\t\t  Integer i, feed5Ready\n\t\t  feed5Ready = Sw(5)\n\t\t  'Check if feeder is ready\n\t\t  If feed5Ready = On Then\n\t\t    Call mkpart1\n\t\t  Else\n\t\t    Print \"Feeder #5 is not ready. Please reset and\"\n\t\t    Print \"then restart program\"\n\t\t  EndIf\n\t\tFend",
+    "> print s\n\t\t\tw(5)",
+    "1",
+    ">"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Tx_Enabled, Ty_Enabled, Tz_Enabled Property",
+  "file": "Tx_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This activates/inactivates, or returns the force control function of the rotational direction.",
+  "notes": "This activates/inactivates, or returns the force control function of the rotational direction.\n\nFor SCARA robots (including RS series), the force control cannot be executed with the FC object when the following properties are \"True\".\n\nTx_Enabled property\n\nTy_Enabled property",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger\n Ty_Enabled, Tz_Enabled Property\n\nTx_Damper, Ty_Damper, Tz_Damper Property",
+  "examples": [
+    "> FSet FT1.Tz_Enabled, True"
+  ]
+}

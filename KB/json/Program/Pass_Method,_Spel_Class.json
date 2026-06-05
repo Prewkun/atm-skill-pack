@@ -1,0 +1,14 @@
+{
+  "title": "Pass Method, Spel Class",
+  "file": "Pass_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Pass(PointNumber  As Integer)\n\nSub Pass(PassExpr As String )",
+  "parameters": "PointNumber\tSpecifies a point using the taught point from point memory of the current robot saved in the Controller.\n\nPassExpr\tSpecifies a point using string expression.\n\nPoint specification [, {On | Off | MemOn | MemOff} bit number [,point specification ... ]] [LJM [Orientaiton flag]]\n\nPoint specification\n\nSpecifies a point number, P(expression), or point label.  If the point data is complete and listed in ascending or descending order, two point numbers can be combined using a colon and specified like P(1:5).\n\nBit number\n\nSpecifies I/O output bit or memory I/O bit to turn on/off using an integer or output label.\n\nLJM\n\nOptional.  Converts the departure coordinates, approach coordinates, and target coordinates using LJM function.\n\nOrientation flag\n\nOptional.  Specifies an orientation flag parameter for the LJM function.",
+  "description": "Specifies the PTP motion to pass a neighborhood of a specified point without stopping motion.",
+  "notes": "",
+  "see_also": "Jump\n\nGo\n\nPass Example\n\nm_m_spel.Jump(1)\n\nm_spel.Pass(2) 'Move the Arm #2 closer to P2 and execute the following command\n\nbefore reaching P2\n\nm_spel.On(2)\n\nm_spel.Pass(3)\n\nm_spel.Pass(4)\n\nm_spel.Off(0)\n\nm_spel.Pass(5)",
+  "examples": [
+    "m_m_spel.Jump(1)\nm_spel.Pass(2) 'Move the Arm #2 closer to P2 and execute the following command\nbefore reaching P2\nm_spel.On(2)\nm_spel.Pass(3)\nm_spel.Pass(4)\nm_spel.Off(0)\nm_spel.Pass(5)"
+  ]
+}

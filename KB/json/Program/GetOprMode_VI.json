@@ -1,0 +1,12 @@
+{
+  "title": "GetOprMode VI",
+  "file": "GetOprMode_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Reads the Epson RC+ 8.0 mode of operation.\n\nInputs\n\nSpel Ref\n\t\t In\tSpel reference from a previous Spel\n\t\t Ref Out.\n\nError In\tError condition from a previous Spel\n\t\t node.\n\nOutputs\n\nSpel Ref\n\t\t Out\tSpel reference output for next VI to\n\t\t use.\n\nError Out\tError condition output for subsequent\n\t\t Spel nodes.\n\nMode\tID\tDescription\n\nAuto\t1\tEpson RC+ 8.0 is in auto mode.\n\nProgram\t2\tEpson RC+ 8.0 is in program\n\t\t\t\t mode.\n\nEpson RC+ 8.0 is in program\n\t\t\t\t mode.",
+  "notes": "When Operation Mode is set to Program, the Epson RC+ 8.0 GUI for the associated server process is opened and the Controller operation mode is set to Program.  If the user closes the RC+ GUI, Operation Mode is set to Auto.  If Operation Mode is set to Auto, the RC+ GUI also closes.",
+  "see_also": "OprMode\n\nGetOprMode Example",
+  "examples": []
+}

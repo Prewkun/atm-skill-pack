@@ -1,0 +1,12 @@
+{
+  "title": "Cut command (Edit menu)",
+  "file": "edit_cut_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Cut command (Edit menu)\n\nCut Command (Edit menu)\n : Ctrl+X\n\nCopies the current selection into the Clipboard and then deletes the selection.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

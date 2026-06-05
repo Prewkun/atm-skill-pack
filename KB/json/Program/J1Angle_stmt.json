@@ -1,0 +1,14 @@
+{
+  "title": "J1Angle Statement",
+  "file": "J1Angle_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) J1Angle point, Step\n\n(2) J1Angle",
+  "parameters": "point\tP number or P(expr) or point label.\n\nStep\tOptional. Real value that specifies the set value.",
+  "description": "The J1Angle attribute can be used for the RS and N robot series.\n\nIf Step is omitted, the J1Angle value for the specified point will be displayed.\n\nIf both parameters are omitted, the J1Angle value of the current robot position will be displayed.\n\nRS series:\tSpecify the angle of the Joint #1 when both X and Y coordinate values of a point are \"0\" (singularity).  For other robot series points, J1Angle has no meaning.\n\nN series:\tSpecify the angle of the Joint #1 when the axis centers of \"Joint #1, #4, and #6\", \"Joint #1 and #6\", or \"Joint #1 and #4\" are on the straight line.  For other robot series points (not singularity), J1Angle has no meaning.",
+  "notes": "",
+  "see_also": "Hand\n\nJ1Angle Function\n\nJ1Flag\n\nJ2Flag\n\nJ1Angle Statement Example\n\nJ1Angle P0, 10.0\n\nJ1Angle P(mypoint), 0.0",
+  "examples": [
+    "J1Angle P0, 10.0\nJ1Angle P(mypoint), 0.0"
+  ]
+}

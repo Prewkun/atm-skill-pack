@@ -1,0 +1,17 @@
+{
+  "title": "Arc Method, Spel Class",
+  "file": "vbg_Arc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Arc (MidPoint As Integer, EndPoint As Integer)\n\nSub Arc (MidPoint As SpelPoint, EndPoint As SpelPoint)\n\nSub Arc (MidPoint As String, EndPoint As String)",
+  "parameters": "Each syntax has two parameters that specify the mid point and end point of the arc.\n\nMidPoint\tSpecifies\n\t\t the mid point by using an integer, SpelPoint or string expression.\n\nEndPoint\tSpecifies\n\t\t the end point by using an integer, SpelPoint or string expression.\n\t\t When using a string expression, you can include ROT, CP, SYNC,\n\t\t Till, Find, and a parallel processing statement.",
+  "description": "Arc moves the arm to the specified point using circular interpolation in the XY plane.",
+  "notes": "",
+  "see_also": "Go\n\nMove\n\nTGo\n\nFind\n\nArc Example\n\nVB",
+  "examples": [
+    "' Points specified using SpelPoint\nDim midPoint, endPoint as SpelPoint\nmidPoint = m_spel.GetPoint(\"P1\")\nendPoint = m_spel.GetPoint(\"P2\")\nm_spel.Arc(midPoint, endPoint)\n\n' Points specified using expressions\nm_spel.Arc(\"P1\", \"P2\")\nm_spel.Arc(\"P1\", \"P2 CP\")\n\n' Using parallel processing\nm_spel.Arc(\"P1\", \"P2 !D50; On 1; D90; Off 1!\")",
+    "// Points specified using SpelPoint\nSpelPoint midPoint, endPoint;\nmidPoint = m_spel.GetPoint(\"P1\");\nendPoint = m_spel.GetPoint(\"P2\");\nm_spel.Arc(midPoint, endPoint);",
+    "// Points specified using expressions\nm_spel.Arc(\"P1\", \"P2\");\nm_spel.Arc(\"P1\", \"P2 CP\");",
+    "// Using parallel processing\nm_spel.Arc(\"P1\", \"P2 !D50; On 1; D90; Off 1!\");"
+  ]
+}

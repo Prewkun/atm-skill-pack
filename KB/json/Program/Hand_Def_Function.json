@@ -1,0 +1,14 @@
+{
+  "title": "Hand_Def Function",
+  "file": "Hand_Def_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Hand_Def Function\n\nHand_Def Function",
+  "notes": "",
+  "see_also": "Acquires whether the hand has been defined.\n\nHand_Type Function\n\nHand_Label$ Function\n\nHand_Number Function",
+  "examples": [
+    "' Display the label for hand 1 if set, display \"Hand 1 is not defined\" in the Run window if not set\nIf Hand_Def(1) = True Then Print Hand_Label$(1)\nElse Print \"Hand 1 is not defined\"\nEndIf"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Running a Sequence Multiple Times",
+  "file": "RunningaSequenceMultipleTimes",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Running a Sequence Multiple Times\n\nRunning a Sequence Multiple Times\n\nWhen using the Run Sequence button, pay close attention to the Cycles text box which is located to the right of the Run Sequence button.  The number which is put in this box specifies how many times to run the Vision Sequence.   This is useful for testing the reliability of a vision sequence before writing any code to make it work with the robot.  By running a vision sequence multiple times and then using the Statistics feature of Vision Guide, you can see the Mean, Standard Deviation, Range, and Minimum and Maximum values for each vision object in the sequence.  This helps give you a good perspective on how well your vision sequence is performing.\n\nThe [Cycles] text box changes from white to yellow when the number to execute several cycles is input in the [Cycles] text box. (Any number larger than 1 will cause the [Cycles] text box color to change to yellow.)  This warns you that you are about to execute several cycles when you click the <Run Sequence> button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

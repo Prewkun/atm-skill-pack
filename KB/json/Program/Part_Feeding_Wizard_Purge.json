@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Purge",
+  "file": "Part_Feeding_Wizard_Purge",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Purge\n\nPurge\n\nThis screen is used to configure purge.\n\nItem\tDescription\n\nEnable Purge\tSelect this check box to enable purge.\n\nPurge Location\tSets the location for purge. Parts will move (shift) to arrow direction during the purge operation. Select either of A, C or D.\n\nThe location that can be set differs depending on feeder model.\n\nIF-80: A\n\nIF-240, 380, 530: C, D",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

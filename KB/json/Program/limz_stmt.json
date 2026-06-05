@@ -1,0 +1,14 @@
+{
+  "title": "LimZ Statement",
+  "file": "limz_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) LimZ\n\t\t\tzLimit\n\n(2) LimZ",
+  "parameters": "zLimit\tA coordinate value within the movable range of the Z joint.",
+  "description": "LimZ determines the maximum Z joint height which the arm move to when using the Jump instruction, wherein the robot arm raises on the Z joint, moves in the X-Y plane, then lowers on the Z joint.  LimZ is simply a default Z joint value used to define the Z joint ceiling position for use during motion caused by the Jump instruction.  When a specific LimZ value is not specified in the Jump instruction, the last LimZ setting is used for the Jump instruction.\n\nNote\n\nResetting LimZ to 0\n\nRestarting the controller, or executing the SFree, SLock, or Motor On commands will initialize LimZ to 0.\n\nLimZ Value is Not Valid for Arm, Tool, or Local Coordinates:\n\nLimZ Z joint height limit specification is the Z joint value for the robot coordinate system.  It is not the Z joint value for Arm, Tool, or Local coordinates.  Therefore take the necessary precautions when using tools or end effectors with different operating heights.\n\nLimZ does not affect Jump3 and Jump3CP\n\nLimZ has no affect on Jump3 or Jump3CP since the span motion is not necessarily perpendicular to the Z axis of the coordinate system.",
+  "notes": "",
+  "see_also": "LimZ Function\n\nJump\n\nLimZ Statement Example\n\nThe example below shows the use of LimZ in Jump operations.\n\nFunction main\n\nLimZ -10            'Set the default LimZ value\n\n\t\t  Jump P1             'Move up to Z=-10 position for Jump\n\n\t\t  Jump P2 LimZ -20    'Move up to Z=-20 position for Jump\n\n\t\t  Jump P3             'Move up to Z=-10 position for Jump\n\n\t\tFend",
+  "examples": [
+    "Function main\n\n\t\t\t  LimZ -10            'Set the default LimZ value\n\t\t  Jump P1             'Move up to Z=-10 position for Jump\n\t\t  Jump P2 LimZ -20    'Move up to Z=-20 position for Jump\n\t\t  Jump P3             'Move up to Z=-10 position for Jump\n\t\tFend"
+  ]
+}

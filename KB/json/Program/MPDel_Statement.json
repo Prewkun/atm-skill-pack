@@ -1,0 +1,14 @@
+{
+  "title": "MPDel Statement",
+  "file": "MPDel_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "This deletes the specified Mass Property Object.",
+  "notes": "This is used to delete the specified Mass Property Object while the program is being executed. The object data from the start object parameter to the end object parameter is deleted. The start object and the end object must be a Mass Property Object. Moreover, make the number of the start object smaller than the number of the end object. No error occurs when the object is not defined.",
+  "see_also": "MPDef Function",
+  "examples": [
+    "> MPDel MP1 ' Deletes Mass Property Object1\n> MPDel MP2, MP10 ' Deletes Mass Property Object2 through 10"
+  ]
+}

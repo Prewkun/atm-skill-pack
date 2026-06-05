@@ -1,0 +1,12 @@
+{
+  "title": "LogRobotLocal Property",
+  "file": "LogRobotLocal_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the position of the robot that is recorded during the force guide sequence execution, this property sets a Local coordinate system number as a reference.\n\nThe position of the robot is recorded as that of Tool coordinate system as viewed from the Local coordinate system specified by this property.\n\nValues\n\n0 (Base) Use the Local 0 coordinate system (Base coordinate system).\n\n1 to 15 Use the Local coordinate system of the specified number.\n\nDefault:  0 (Base)\n\nSee Also: LogRobotLocal Property\n\nLogInterval Property\n\nLogMaxTime Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

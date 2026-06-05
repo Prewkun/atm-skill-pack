@@ -1,0 +1,14 @@
+{
+  "title": "Plane Function",
+  "file": "Plane_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Plane (planeNum, [robotNumber])",
+  "parameters": "planeNum\tInteger expression representing the plane number from 1 to 15.\n\nrobotNum\tInteger values representing the robot number\n\nIf omitted, the current robot is used.",
+  "description": "Plane Function\n\nPlane Function",
+  "notes": "",
+  "see_also": "Returns the specified approach check plane.\n\nGetRobotInsidePlane\n\nInsidePlane\n\nPlane\n\nPlaneClr\n\nPlaneDef\n\nPlane Function Example\n\nP1 = Plane(1)",
+  "examples": [
+    "P1 = Plane(1)"
+  ]
+}

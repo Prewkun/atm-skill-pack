@@ -1,0 +1,12 @@
+{
+  "title": "FG_Name Property",
+  "file": "FG_Name_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a particular name that is assigned to force guide sequences.\n\nYou cannot create the force guide sequence with the same name.\n\nYou can change the name.  Set up 32 characters at the maximum.  Please use alphanumeric characters and underscore [ _ ].  Note: The initial character cannot be a numeric character..",
+  "notes": "",
+  "see_also": "Applies To\n\nSequences and Objects",
+  "examples": []
+}

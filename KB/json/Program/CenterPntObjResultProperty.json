@@ -1,0 +1,12 @@
+{
+  "title": "CenterPntObjResult Property",
+  "file": "CenterPntObjResultProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies which result to use from the CenterPointObject.",
+  "notes": "CenterPntObjResult enables you to attach several objects to the results of one CenterPointObject.  For example, you could create a blob object with NumberToFind set to 4.  Then you could attach a polar object to each one of the results by specifying the blob for the CenterPointObject of each polar and a different CenterPntObjResult for each polar.\n\nValues\n\nThe value can normally range from 1 to the NumberToFind value for the CenterPointObject.  If the CenterPointObject is 'Screen', then the value is always 1.  For ColorMatch objects, the value can be 0. In this case, a ColorMatch result will be created for each result of the CenterPointObject.\n\nDefalut: 1\n\nSee Also: CenterPntObjResult Property\n\nCenterPointObject Property\n\nCenterX Property\n\nCenterY Property\n\nVision Objects: CenterPntObjResult Property\n\nBlob\n\nBoxFinder\n\nColorMatch\n\nContour\n\nCornerFinder\n\nCorrelation\n\nGeometric\n\nPolar\n\nText",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, LineFinder, OCR, Polar, Text",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Positioning the Search Window",
+  "file": "PositioningtheSearchWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Positioning the Search Window\n\nPositioning the Search Window\n\nTo position the search window\n\n, click on the name of the vision object, or the search window itself, and then drag the Vision object to whatever position you like.  We recommend moving the vision object so that the top left corner is located in the proper position.  Then use the search window size handles (as described in the next section) to resize the search window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

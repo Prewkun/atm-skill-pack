@@ -1,0 +1,12 @@
+{
+  "title": "Edge Object Description",
+  "file": "EdgeObjectDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Edge Object Description\n\nEdge Object Description\n\nThe Edge object is used to locate edges in an image.  The edge of an object in an image is a change in gray value from dark to light or light to dark.  This change may span several pixels.  The Edge object finds the transition from Light to Dark or Dark to Light as defined by the Polarity property and defines that position as the edge position for a single edge.  You can also search for edge pairs by changing the EdgeType property.  With edge pairs, two opposing edges are searched for, and the midpoint is retured as the result.  The Edge object supports multiple results, so you can specify how many single edges or edge pairs you want to find.\n\nAn Edge object can be configured to search along a line or along an arc using the SearchType property.\n\nEdge objects with SearchType = Line are similar to Line objects in shape with a search length.  The search length of the Edge object is the length of the Edge object.  One of the powerful features of the Edge object with SearchType = Line is its ability to be positioned at any angle.  This allows a user to maintain an Edge object vector that is perpendicular to the region where you want to find an edge by changing the angle of the Edge object.  Normally this is done by making the Edge object relative to a Frame that moves with the region you are interested in.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the Frame Object",
+  "file": "Step2_PositioningtheFrameObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the Frame Object\n\nStep 2: Positioning the Frame Object\n\nYou should now see a Frame object similar to the one shown below:\n\nNew Frame Object\n\nFrame objects do not have a sizeable window.  Click the name label of the Frame object or anywhere along one of it's axes and while holding the mouse down drag the entire Frame object to a new location on the screen.  When you find the position you like, release the mouse and the Frame object will stay in this new position on the screen.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

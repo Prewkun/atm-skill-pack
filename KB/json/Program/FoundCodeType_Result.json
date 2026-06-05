@@ -1,0 +1,12 @@
+{
+  "title": "FoundCodeType Result",
+  "file": "FoundCodeType_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the type of the detected bar code.",
+  "notes": "Returns the bar code type found in CodeReader object. Return values are constants as shown below.\n\nCode\tConstant\tRemarks\n\nCodabar\tVISION_CODETYPE_CODABAR\n\nCode39\tVISION_CODETYPE_CODA39\n\nCode128\tVISION_CODETYPE_CODA128\n\nDataMatrix\tVISION_CODETYPE_DATAMATRIX\t2D Code\n\nEAN 8\tVISION_CODETYPE_EAN8\n\nEAN 13\tVISION_CODETYPE_EAN13\n\nInterleaved 2 of 5\tVISION_CODETYPE_INTERLEAVED25\tAlso called ITF\n\nPDF417\tVISION_CODETYPE_PDF417\t2D Code\n\nQR\tVISION_CODETYPE_QR\t2D Code\n\nUPC\tVISION_CODETYPE_UPC\n\nUPC A\tVISION_CODETYPE_UPCA\n\nUPC E\tVISION_CODETYPE_UPCE\n\nSee Also: FoundCodeType Result\n\nCodeType Property\n\nVision Objects: FoundCodeType Result\n\nCodeReader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

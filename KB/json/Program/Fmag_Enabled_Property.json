@@ -1,0 +1,12 @@
+{
+  "title": "Fmag_Enabled Property",
+  "file": "Fmag_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Activates/inactivates the trigger based on Fmag resultant force, or returns the status thereof.",
+  "notes": "This activates/inactivates or returns the trigger, which is tripped by the resultant force Fmag.\n\nSee Also: Fmag_Enabled Property\n\nFmag_Axes Property",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": []
+}

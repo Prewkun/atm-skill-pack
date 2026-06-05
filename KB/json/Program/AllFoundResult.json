@@ -1,0 +1,12 @@
+{
+  "title": "AllFound Result",
+  "file": "AllFoundResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The AllFound result returns whether all objects within the specified sequence were found.",
+  "notes": "The AllFound result is useful to determine that all objects within a specified sequence are found.  This result applies to sequences only and will not be found in object results.",
+  "see_also": "Applies To\n\nVision Sequence\n\nAllPassed Result\n\nFound Result\n\nPassed Result\n\nTime Result\n\nSequence window\n\nVision Sequences",
+  "examples": []
+}

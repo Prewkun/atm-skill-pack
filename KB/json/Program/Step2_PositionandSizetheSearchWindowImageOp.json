@@ -1,0 +1,12 @@
+{
+  "title": "Vision Objects - Using ImageOp Objects - Step 2: Position and Size the Search Window",
+  "file": "Step2_PositionandSizetheSearchWindowImageOp",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Objects - Using ImageOp Objects - Step 2: Position and Size the Search Window\n\nStep 2: Position and Size the Search Window\n\nYou should now see an ImageOp object similar to the one shown below:\n\nNew ImageOp Object Layout\n\nClick the name label of the ImageOp object and while holding the mouse down, drag the ImageOp object to the position where you would like the top left position of the search window to reside.\nResize the ImageOp object search window as required using the search window size handles.  Move the mouse pointer over a size handle, then while holding down the left mouse button, drag the handle to resize the window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

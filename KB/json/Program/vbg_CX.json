@@ -1,0 +1,15 @@
+{
+  "title": "CX, CY, CZ, CU, CV, CW, CR, CS, CT Methods, Spel Class",
+  "file": "vbg_CX",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function CX (PointExpr As String ) As Single\n\nFunction CY (PointExpr As String ) As Single\n\nFunction CZ (PointExpr As String ) As Single\n\nFunction CU (PointExpr As String ) As Single\n\nFunction CV (PointExpr As String ) As Single\n\nFunction CW (PointExpr As String ) As Single\n\nFunction CR (PointExpr As String ) As Single\n\nFunction CS (PointExpr As String ) As Single\n\nFunction CT (PointExpr As String ) As Single",
+  "parameters": "PointExpr\tA string expression specifying the point from which to retrieve the specified coordinate. Any valid point expresion can be used. P* can also be used to retrieve the coordinate from the current position.",
+  "description": "Retrieves a coordinate value from a point\n\nCV and CW are for the 6-axis robot\n\nCS and CT are for the additional axis\n\nCR is for the Joint 7-axis robot",
+  "notes": "",
+  "see_also": "GetPoint, SetPoint\n\nCX, CY, CZ, CU, CV, CW, CR, CS, CT Example\n\nVB Example:\n\nDim x As Single, y as Single\n\nx = m_spel.CX(\"P1\")\n\ny = m_spel.CY(\"P*\")\n\nC# Example:\n\nfloat x, y;\n\nx = m_spel.CX(\"P1\");\n\ny = m_spel.CY(\"P*\");",
+  "examples": [
+    "Dim x As Single, y as Single\nx = m_spel.CX(\"P1\")\ny = m_spel.CY(\"P*\")",
+    "float x, y;\nx = m_spel.CX(\"P1\");\ny = m_spel.CY(\"P*\");"
+  ]
+}

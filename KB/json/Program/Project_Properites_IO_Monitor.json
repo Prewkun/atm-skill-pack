@@ -1,0 +1,12 @@
+{
+  "title": "Project Properites IO Monitor",
+  "file": "Project_Properites_IO_Monitor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Properites IO Monitor\n\nIO Monitor page:  Project Properties\n\nUse this page to configure the I/O Monitor for operators.\n\nItem\tDescription\n\nSelect\n\t\t views for operators\tConfigures\n\t\t the I/O views that operators use when opening the [I/O Monitor]\n\t\t from the [Operator Window]. You can configure the custom views.\n\nAllow\n\t\t I/O status change for operator\tCheck\n\t\t this box if you want to allow operators to turn on or off the\n\t\t inputs and outputs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

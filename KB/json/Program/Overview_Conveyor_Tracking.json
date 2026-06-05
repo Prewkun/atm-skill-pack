@@ -1,0 +1,12 @@
+{
+  "title": "Overview Conveyor Tracking",
+  "file": "Overview_Conveyor_Tracking",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Overview Conveyor Tracking\n\nOverview\n\nConveyor Tracking is a process in which a robot picks up parts from a stationary or moving conveyor that are found by a vision system or sensor.\n\nThe Epson RC+ 8.0 Conveyor Tracking option supports both tracking and indexed conveyor systems.\n\nTracking conveyor system\n\nConveyor moves constantly. Vision system or sensor system finds the parts on it and robot picks them up as they move. During tracking, the robot can move along with the part as it picks up parts.\n\nIndexed conveyor system\n\nConveyor moves a specified distance and then stops. The vision system finds the parts and robot picks up each part. After finding and picking up all parts, the conveyor moves again.\n\nA total of 16 physical conveyors can be defined on each system. A physical conveyor has one encoder whose signals are received by an encoder board.\n\nUp to 16 logical conveyors can be defined in each project. To define a logical conveyor, set a conveyor number, a robot number, encoder number and select vision or sensor. Multiple conveyors and multiple-robot conveyors are supported.\n\nThere are two types of conveyors that can be used with the Conveyor Tracking option: straight conveyors and circular conveyors, as shown in the figure below. These conveyors have different calibration and programming methods.\n\n                                Straight conveyor tracking system\n\nCircular conveyor tracking system",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

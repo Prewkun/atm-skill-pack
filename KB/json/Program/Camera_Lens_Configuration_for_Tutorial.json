@@ -1,0 +1,12 @@
+{
+  "title": "Camera Lens Configuration for Tutorial",
+  "file": "Camera_Lens_Configuration_for_Tutorial",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Camera Lens Configuration for Tutorial\n\nCamera Lens Configuration for Tutorial\n\nWe mentioned earlier that our target field of view for this tutorial should be about 40 mm ´ 30 mm.  The working distance (WD) from the work surface is about 210 mm.  We have found that a 16mm lens and 1 mm extension tube work fine for this field of view at distances ranging from 167 mm up to 240 mm.  This means that a 16 mm lens and 1 mm extension tube will probably also work for your tutorial.\n\nIf you have not attached a lens to your camera and tried to focus your lens, it would probably be a good idea to do this at this time.  In the chapter Installation there is an explanation on how to determine which lens to use and focusing.  You will probably want to review this information before proceeding if you are not familiar with how to select a camera lens and focus the camera to your part.\n\nIn order to check your focus, obviously you will need to view an image from Vision Guide 8.0.  Since we already have the Vision Guide window open, we now only need to make sure we can properly see the target feature on the target sheet.  The steps to accomplish this are described in the next section.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

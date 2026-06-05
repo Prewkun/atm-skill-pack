@@ -1,0 +1,12 @@
+{
+  "title": "What is a Vision Sequence",
+  "file": "What_is_a_Vision_Sequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "What is a Vision Sequence\n\nVision Sequence\n\nA vision sequence is a group of vision objects in a specific order that can be executed from the Vision Guide window or from the SPEL+ language.  A vision sequence, like vision objects, has specific properties that are used to set up execution.  For example, the Camera property defines which camera will be used to acquire an image for this vision sequence and the RuntimeAcquire property defines how the image will be acquired for this vision sequence.\n\nWhile vision objects can be run and tested individually, most vision applications require a series of vision objects to be executed sequentially to compute the final result.  This is where vision sequences come in.  Vision sequences are used to run the vision objects in a specific order.  So once you have created and tested each of your individual vision objects you will then want to test them executing as a group.  Or in other words you will want to test your vision sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

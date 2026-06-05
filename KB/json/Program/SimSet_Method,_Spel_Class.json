@@ -1,0 +1,15 @@
+{
+  "title": "SimSet Method, Spel Class",
+  "file": "SimSet_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub SimSet (Object As String, Property As SpelSimProps, Value As Boolean)\n\nSub SimSet (RobotName As String, HandName As String, Property As SpelSimProps,\n\nValue As Boolean)\n\nSub SimSet (Object As String, Property As SpelSimProps, Value As Integer)\n\nSub SimSet (RobotName As String, HandName As String, Property As SpelSimProps,\n\nValue As Integer)\n\nSub SimSet (Object As String, Property As SpelSimProps, Value As Double)\n\nSub SimSet (RobotName As String, HandName As String, Property As SpelSimProps,\n\nValue As Double)\n\nSub SimSet (Object As String, Property As SpelSimProps, Value As String)\n\nSub SimSet (RobotName As String, HandName As String, Property As SpelSimProps,\n\nValue As String)",
+  "parameters": "Object\tString variable that indicates\n\t\t object names acquiring the property values.\n\nRobotName\tString variable that indicates\n\t\t the robot name which the hand specified by \"Hand\" is\n\t\t installed\n\nHandName\tString variable that indicates\n\t\t the hand name which acquires the property values.\n\nProperty\tProperty name that set values.\n\nValue\tFormula with new values",
+  "description": "Acquire the setting values of each object properties of simulator.",
+  "notes": "Use this method to set properties of each object of the simulator. Also, use the command to change the robot motion, objects, and simulator settings.\n\nNote:  You cannot specify SpelSimProps.Type for the property.\n\nEpson RC+ Language Reference SimSet",
+  "see_also": "SimGet\n\nSimSet Example\n\nVB",
+  "examples": [
+    "m_spel.SimSet(\"SBox_1\", SpelSimProps.PositionX, 100.0)",
+    "m_spel.SimGet(\"SBox_1\", SpelSimProps.PositionX, 100.0);"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CenterPntOffsetX Property",
+  "file": "CenterPntOffsetXProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the X offset of the center of the search window after it is positioned with the CenterPointObject.",
+  "notes": "The CenterPntOffsetX property can be used to shift a search window that has been positioned by a CenterPointObject.\n\nIf CenterPointObject property is set to \"None\", then CenterPntOffsetX has no effect.\n\nSee Also: CenterPntOffsetX Property\n\nCenterPntOffsetY Property\n\nVision Objects: CenterPntOffsetX Property\n\nBlob\n\nBoxFinder\n\nColorMatch\n\nContour\n\nCornerFinder\n\nCorrelation\n\nGeometric\n\nPolar\n\nText",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, LineFinder, OCR, Polar, Text",
+  "examples": []
+}

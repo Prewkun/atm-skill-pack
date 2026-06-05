@@ -1,0 +1,12 @@
+{
+  "title": "PG Board Specifications",
+  "file": "PG_Board_Specifications",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "PG Board Specifications\n\nPG Board Specifications\n\nThe table below shows the specification for the PG board.\n\nBoard Name\tH756\n\nCompatible\n\t\t Controller\tRC700 series/ RC90 series (Epson\n\t\t RC+ 8.0)\n\nBoard\n\t\t Extension Capability\t4 boards maximum\n\nEncoder\n\t\t channels\t4 channels / board\n\nEncoder\n\t\t Type\tABZ phase differential input (RS-422\n\t\t line receiver)\n\nInput\n\t\t Pulse Rate\tMax. 5 MPPS\n\nInput\n\t\t Signal\tConveyor pulse latch input\n\nBoard\n\t\t Address\tSet the DIP switch according the\n\t\t board number. (See DIP Switch Settings later in this chapter).\n\nconnector\tDX10A - 100S (Hirose Electric\n\t\t Co. ,Ltd.)\n\nExternal\n\t\t power supply\t24V ±2V 200mA or under\n\nThe following rotary encoder models have been tested:\n\nOMRON              E6B2-CWZ1X\n\nTAMAGAWA      TS5312N512-2000C/T\n\nThe figure below shows the layout of the PG board.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

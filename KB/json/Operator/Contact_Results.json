@@ -1,0 +1,12 @@
+{
+  "title": "Contact Results",
+  "file": "Contact_Results",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Result\tDescription\n\nEndStatus\tIt is a result of the execution.\n\nTime\tIt is the required time for execution.\n\nTimedOut\tIt is whether the time-out period set\n\t\t in Timeout property had been reached.\n\nEndForces\tIt is force and torque when force guide\n\t\t object ends.\n\nEndPos\tPositions when the force guide object\n\t\t ends.\n\nAvgForces\tAverage values of force and torque during\n\t\t the force guide object execution.\n\nPeakForces\tPeak values of force and torque during\n\t\t the force guide object execution.\n\nForceCondOK\tIt is whether to satisfy the end conditions\n\t\t related to force.\n\nTriggeredForces\n\t\t Result\tIt is the force and torque when satisfying\n\t\t the end conditions related to force.\n\nAcquire values of Fx, Fy, Fz, Tx, Ty,\n\t\t and Tz.\n\nUnit: Fx, Fy, Fz [N] / Tx, Ty, Tz [N.mm]\n\nTriggeredPos\n\t\t Result\tPositions when satisfying the end conditions\n\t\t related to force.  Acquire values of X, Y, Z, U, V, and W.\n\nUnit: X, Y, Z [mm] / U, V, W [deg]",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

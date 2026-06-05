@@ -1,0 +1,12 @@
+{
+  "title": "[Open File] (File Menu)",
+  "file": "file_open_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Open File] (File Menu)\n\n[Open File] (File Menu)\n : Ctrl+O\n\nOpen one or more files in the current project for editing. (You can open program files, include files, point files, or force data.)\n\nFiles excluded from the current project cannot be opened. You must add the file to the project before you can open it. (This also applies to include files, point files, and force data).\n\nItem\tDescription\n\nFile\n\t\t Type\tDisplays\n\t\t a list of current project files.\n\nYou can also\n\t\t specify program files, include files, point data, and force data.\n\nNOTE:\n\t\t For details on editing points, refer to 7.4 Editing Points.\n\nSelect\n\t\t file to open\tClick\n\t\t on the file name you want to open.\n\nYou can select\n\t\t more than one file by using the [Ctrl] key or [Shift] key.\n\n\t\tThe [Ctrl] key allows you to select or deselect any file.\n\n\t\tThe [Shift] key allows you to select a group of files.\n\nOpen\tOpens\n\t\t the selected file(s).\n\nCancel\tCancels\n\t\t the operation.\n\nTIP: You can also double click on a file name in the [Select file to open] box to open the file.\n\nYou do not need to click the [Open] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

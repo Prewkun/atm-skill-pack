@@ -1,0 +1,14 @@
+{
+  "title": "Force_GetForces Statement",
+  "file": "cmd_force_getforces",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Force_GetForces array()",
+  "parameters": "array()\tReal array with upper bound of 6.",
+  "description": "Use Force_GetForces to read all force and torque values at once.\n\nNote\n\nThis command will only work if the Force Sensing option (ATI Force Sensor) is installed.\n\nWhen using Force Sensor from EPSON, use each command of following manual.\n\n     EPSON RC+ 7.0 Option Force Guide 7.0 SPEL+ Language Reference",
+  "notes": "",
+  "see_also": "Force_GetForce Function\n\nForce_GetForces Statement Example\n\nReal fValues(6)\n\nForce_GetForces fValues()",
+  "examples": [
+    "Real fValues(6)\n\nForce_GetForces fValues()"
+  ]
+}

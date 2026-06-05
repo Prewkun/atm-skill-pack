@@ -1,0 +1,14 @@
+{
+  "title": "MPList Statement",
+  "file": "MPList_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays a list of Mass Property Objects.",
+  "notes": "The defined object data from the specified start object to the specified end object is displayed in the Command window or Run window.\n\nWhen \",\" and the end object are omitted, only the start object is displayed, and when \",\" is used and the end object is omitted, all objects from the start object on are displayed.\n\nThe output format for each line is the same format as the parameter for the MPSet Statement.\n\nObject.Property, Values\n\nObject\tObject name\n\nProperty\tProperty name\n\nValues\tThe number or format expressing the value depends on the property",
+  "see_also": "MPDef Function",
+  "examples": [
+    "> MPList MP1\nMP1.Label, \"Label1\"\nMP1.Mass, 0\nMP1.GravityCenter, 0, 0, 0\nMP1.Inertia, 0\nMP1.Description, \"\""
+  ]
+}

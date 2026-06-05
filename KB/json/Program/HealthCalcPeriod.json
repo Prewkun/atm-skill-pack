@@ -1,0 +1,14 @@
+{
+  "title": "HealthCalcPeriod Statement",
+  "file": "HealthCalcPeriod",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) HealthCalcPeriod [Period]\n\n(2) HealthCalcPeriod",
+  "parameters": "Period\tSpecify\n\t\t a period to calculate in integer (1~7).  (Unit: day) Default\n\t\t value is \"7\".",
+  "description": "Remaining months of parts consumption control information is automatically calculated based on the past operating condition.  HealthCalcPeriod command sets and displays an operating period for this calculation.\n\nWhen setting the period longer, \"remaining month\" that the influence of variations due to fluctuations within the period is suppressed.\n\nTherefore, even when the motion or speed is changed, it takes a time until it is reflected to the \"remaining month\".\n\nSetting value of HealthCalcPeriod is applied to all robot, joint, and part controlled by executed controller.\n\nNote\n\nSetting Period\n\nPeriod which is set in HealthCalcPeriod command is running hour of the controller.\n\nThe number of period is increased by 1 when 24 hours are accumulated.\n\nCalculation of \"remaining months\" and \"consumption rate\" when clearing.\n\nCalculates remaining months every day in spite of the setting value of HealthCalcPeriod until the setting period is reached for the first time after clearing the remaining months and parts consumption rate at the \"parts consumption control information\" in Epson RC+ or by executing HealthCtrlReset or HealthRBReset. During this period, the number of remaining months will vary widely.",
+  "notes": "",
+  "see_also": "Sets and displays a period calculating \"remaining months\" of parts consumption control information.\n\nHealthCalcPeriod Function\n\nHealthCtrlInfo\n\nHealthRBInfo\n\nHealthCtrlReset\n\nHealthRBReset\n\nHealthCalcPeriod",
+  "examples": [
+    "> HealthCalcPeriod 3\n> HealthCalcPeriod\n3"
+  ]
+}

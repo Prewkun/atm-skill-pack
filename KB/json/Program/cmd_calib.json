@@ -1,0 +1,15 @@
+{
+  "title": "Calib Statement",
+  "file": "cmd_calib",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Calib joint1, [joint2 ], [ joint3 ], [ joint4 ], [ joint5 ] , [ joint6 ] , [joint7] , [joint8] , [joint9]",
+  "parameters": "jointNumber\tInteger number from 1-9 which represents the joint number to calibrate. While normally only 1 joint may need calibration at a time, up to all nine joints may be calibrated with the Calib command at the same time.\n\nAdditional S axis is 8 and T axis is 9.",
+  "description": "Automatically calculates and specifies the offset (Hofs) value. This offset is necessary for matching the origin for each robot joint motor to the corresponding robot mechanical origin.\n\nThe Calib command should be used when the motor pulse value has changed. The most common occurrence for use is after changing a motor. Normally, the calibration position pulse values would match the CalPls pulse values. However, after maintenance operations such as changing the motors, these two sets of values will no longer match, and therefore calibration becomes necessary.\n\nCalibration may be accomplished by moving the arm to a desired calibration position, and then executing the Calib command. By executing Calib, the calibration position pulse value is changed to the CalPls value, (the correct pulse value for the calibration position)\n\nIn order to perform a proper calibration, Hofs values must be determined. To have Hofs values automatically calculated, move the arm to the desired calibration position, and execute Calib. The controller automatically calculates Hofs values based on the calibration pulse values and on the CalPls pulse values.",
+  "notes": "Use caution when using the Calib command\n\nCalib is intended to be used for maintenance purposes only. Execute Calib only when necessary.\n\nExecuting Calib causes the Hofs value to be replaced. Because unintended Hofs value changes can cause unpredictable robot motion, use caution in executing Calib only when necessary.\n\nFor supported robots of joint accuracy offset, when Calib is executed, offset value set in JointAccuracy for the specified axis becomes \"0\".\n\nPotential Errors\n\nNo Joint Number Specified Error\n\nIf the joint number is not specified with the Calib command, an error will occur.",
+  "see_also": "CalPls\n\nJointAccuracy\n\nHofsJointAccuracy\n\nHofs\n\nCalib Statement Example\n\nThe following example is done from the Command window.\n\n> CalPls  'Display current CalPls values\n\n65523, 43320, -1550 21351\n\n> Pulse  'Display current Pulse values\n\nPULSE: 1: 65526 pls 2: 49358 pls 3: 1542 pls 4: 21299 pls\n\n> Calib 2 'Execute calibration for joint 2 only\n\n> Pulse  'Display (changed) Pulse values\n\nPULSE: 1: 65526 pls 2: 43320 pls 3: 1542 pls 4: 21299 pls\n\n>",
+  "examples": [
+    "> CalPls  'Display current CalPls values\n65523, 43320, -1550 21351\n> Pulse  'Display current Pulse values\nPULSE: 1: 65526 pls 2: 49358 pls 3: 1542 pls 4: 21299 pls\n> Calib 2 'Execute calibration for joint 2 only\n> Pulse  'Display (changed) Pulse values\nPULSE: 1: 65526 pls 2: 43320 pls 3: 1542 pls 4: 21299 pls",
+    ">"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "New Horizontal Tab Group",
+  "file": "window_horizontal_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "New Horizontal Tab Group\n\n[New Horizontal Tab Group] (Window Menu)\n\nYou can split selected subwindows on the top and bottom to create a new tab group. This is useful when simultaneously referencing point data and other tabular data.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

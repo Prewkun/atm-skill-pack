@@ -1,0 +1,15 @@
+{
+  "title": "Date Statement",
+  "file": "cmd_date",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Date",
+  "parameters": "",
+  "description": "Date Statement\n\nDate Statement\n\nSee_Also Example\n\nDisplays the date.",
+  "notes": "",
+  "see_also": "Time\n\nDate$\n\nDate Example",
+  "examples": [
+    ">\n\t\t\t\tDate",
+    "2009/08/01"
+  ]
+}

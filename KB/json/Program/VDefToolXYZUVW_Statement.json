@@ -1,0 +1,15 @@
+{
+  "title": "VDefToolXYZUVW Statement",
+  "file": "VDefToolXYZUVW_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "VDefToolXYZ ToolNumber, ToolDefType, Sequence, [FinalAngle],[InitialAngle],[TargetTolerance]",
+  "parameters": "ToolNumber\tInteger variable\n\t\t representing a tool number to perform tool set. (1 to 15)\n\nToolDefType\tInteger variable\n\t\t representing a tool type.\n\nVISION_DEFTOOL_FIXEDNOCAL:\n\nTool set by\n\t\t using the fixed camera which is not calibrated.\n\nVISION_DEFTOOL_J4CAM:\n\t\t Calculates image center of the mobile J4 camera.\n\nVISION_DEFTOOL_J6CAM:\n\t\t Calculates image center of the mobile J6 camera.\n\nSequence\tName of a\n\t\t sequence or string expression containing a sequence name.\n\nFinalAngle\tReal variable\n\t\t containing an angle (degrees) to rotate the tool or camera tool.\n\nValue range:\n\t\t 5 to 180, -5 to -180[degrees]  Default: 90\n\nWhen specifying\n\t\t positive value, rotate to +U-axis direction of the tool coordinate\n\t\t system.  When specifying negative value, rotate to -U-axis\n\t\t direction of the tool coordinate system.\n\nIf omitted or\n\t\t \"0\" is specified, it is set to \"90\".\n\nInitialAngle\tInteger variable\n\t\t containing an angle (degrees) to rotate the tool or camera tool\n\t\t in provisional tool setting.\n\nIf omitted,\n\t\t it is set to 5 degrees.\n\nIf the provisional\n\t\t tool setting is not performed, specify 0.\n\nThis value must\n\t\t be smaller than finalAngle.\n\nTargetTolerance\tReal variable\n\t\t containing a pixel distance to consider that the vision detection\n\t\t result matches the target position.\n\nValue range:\n\t\t 0 to 3 pixels.  Default: 1",
+  "description": "VDefToolXYZUVW",
+  "notes": "VDefTool uses vision detection to calculate a tool offset value for TPC and mobile camera position.\n\nIf the tool type is the fixed camera, X and Y are set as tool offset of TCP.\n  At this time, 0 is set for Z, U, V, and W.  If the tool type is mobile J4 camera and J6 camera, X, Y, and U are set as tool offset for installation position of the mobile camera.  At this time, 0 is set for Z, V, and W.\n\nNote:  When the tool type is other than VISION_DEFTOOL_FIXEDWITHCAL, the robot operates automatically based on the detection results of the target.  Be careful of interference between the robot and peripherals.  Also, use with avoiding singularity nearby posture that each axis extends to prevent an error during the tool set.",
+  "see_also": "VDefArm\n\nVDefGetMotionRange\n\nVDefSetMotionRange\n\nVDefTool\n\nVGoCenter",
+  "examples": [
+    "'Calculate the position\n\t offsets of the tool tip marker.\n\tVDefToolXYZ 1, 0, 1, 2, seq01, seq02, 5, 30, 1, 5, 5\n\t' Calculate the position offsets of tool middle marker.\n\tVDefToolXYZ 2, 0, 3, 4, seq03, seq04, 5, 30, 1, 5, 5\n\t' Calculate the position offsets of tool root marker.\n\tVDefToolXYZ 3, 0, 5, 6, seq05, seq06, 5, 30, 1, 5, 5",
+    "' Calculate the pose\n\t offset of the tool and define tool number 1.\n\tVDefToolXYZUVW 1, 2, 3, VISION_DEFTOOL3D_BAR"
+  ]
+}

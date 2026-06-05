@@ -1,0 +1,12 @@
+{
+  "title": "FG_Enabled Property",
+  "file": "FG_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets whether to enable force guide objects.\n\nWhen specifying True, the force guide object is executed.\n\nWhen specifying False, execute the next force guide object without executing the force guide object.\n\nUse this property when you want to save the force guide sequence temporary or try with different parameters by copying the force guide object during the force guide sequence creation.\n\nValues\n\nTrue Enable a force guide object.\n\nFalse Disable a force guide object.\n\nDefault:  True",
+  "notes": "",
+  "see_also": "Applies To\n\nAll Objects\n\nAbortSeqOnFail Property",
+  "examples": []
+}

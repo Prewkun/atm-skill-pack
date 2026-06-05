@@ -1,0 +1,15 @@
+{
+  "title": "PF_QueSort_Function",
+  "file": "PF_QueSort_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "PF_QueSort(part ID)",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).",
+  "description": "Value\tDescription\n\n0\tDo not sort (use the parts coordinates queue registration order)\n\n1\tSort in ascending order by the X coordinate\n\n2\tSort in descending order by the X coordinate\n\n3\tSort in ascending order by the Y coordinate\n\n4\tSort in descending order by the Y coordinate\n\n5\tSort in ascending order by the user data.\n\n6\tSort in descending order by the user data.\n\n7\tSort in ascending order by the part orient.\n\n8\tSort in descending order by the part orient.\n\nPF_QueSort Function Example\n\nInteger quesort\n\nquesort = PF_QueSort(1)",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Integer quesort",
+    "quesort = PF_QueSort(1)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "OutW Statement",
+  "file": "outw_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "OutW wordPortNum, outputData [, Forced]",
+  "parameters": "wordPortNum\tInteger expression representing I/O output words.\n\noutputData\tSpecifies output data (integers from 0 to 65535) using an expression or numeric value.\n\nForced\tOptional. Usually omitted.",
+  "description": "Changes the current status of user I/O output port group specified by the word port number to the specified output data.",
+  "notes": "Forced Flag\n\nThis flag is used to turn On the I/O output at Emergency Stop and Safety Door Open from NoPause task or NoEmgAbort task (special task using NoPause or NoEmgAbort at Xqt), or background tasks. Be sure that the I/O outputs change by Emergency Stop and Safety Door Open when designing the system.",
+  "see_also": "In\n\nInW\n\nOut\n\nOutW Statement Example\n\nOutW 0, 25",
+  "examples": [
+    "OutW 0, 25"
+  ]
+}

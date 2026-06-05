@@ -1,0 +1,20 @@
+{
+  "title": "Cos Function",
+  "file": "cmd_cos",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Cos(\n\t\t\tnumber\n\t\t\t)",
+  "parameters": "number\tNumeric expression in Radians.",
+  "description": "Cos returns the cosine of the numeric expression.  The numeric expression (number) must be in radian units.  The value returned by the Cos function will range from -1 to 1\n\nTo convert from degrees to radians, use the DegToRad function.",
+  "notes": "",
+  "see_also": "Abs\tSgn\n\nAtan\tSin\n\nAtan2\tSqr\n\nInt\tStr$\n\nMod\tTan\n\nNot\tVal\n\nCos Function Example\n\nThe following example shows a simple program which uses Cos.\n\nFunction costest\n\nReal x\n\n\t\t  Print \"Please enter a value in degrees\"\n\n\t\t  Input x\n\n\t\t  Print \"COS of \", x, \" is \", Cos(DegToRad(x))\n\n\t\tFend\n\nThe following examples use Cos from the Command window.\n\nDisplay the cosine of 0.55:\n\n>print cos(0.55)\n\n0.852524522059506\n\n>\n\nDisplay cosine of 30 degrees:\n\n>print cos(DegToRad(30))\n\n0.866025403784439\n\n>",
+  "examples": [
+    "Function costest\n\nReal x\n\t\t  Print \"Please enter a value in degrees\"\n\t\t  Input x\n\t\t  Print \"COS of \", x, \" is \", Cos(DegToRad(x))\n\t\tFend",
+    ">print cos(0.55)",
+    "0.852524522059506",
+    ">",
+    ">print cos(DegToRad(30))",
+    "0.866025403784439",
+    ">"
+  ]
+}

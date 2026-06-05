@@ -1,0 +1,12 @@
+{
+  "title": "GGet Statement",
+  "file": "GGet",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GGet is used to get the values of properties for forms and controls in the current project.",
+  "notes": "GGet is used to retrieve the value of a property at runtime. If you enter strings over 255 characters into the property, the 1st to 255th characters are stored in the variable var.",
+  "see_also": "Statement\n\nGSet",
+  "examples": []
+}

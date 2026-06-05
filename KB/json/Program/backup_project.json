@@ -1,0 +1,12 @@
+{
+  "title": "Backup Project",
+  "file": "backup_project",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Backup Project\n\nBackup a project\n\nSee_Also\n\nTo make a backup copy of the current project, use the Copy Project command in the Project Menu to copy the project to another disk drive. Typically you will want to copy the project to a floppy disk drive.\n\nTo restore a project from a floppy disk (or different hard drive), open the project on the floppy, then use the Copy Project command to copy the project to the original disk",
+  "notes": "",
+  "see_also": "Copy Command (Project Menu)\n\nCreating a new project\n\nBuilding a project\n\nConfiguring a project\n\nRenaming a project\n\nMaking copies of a project",
+  "examples": []
+}

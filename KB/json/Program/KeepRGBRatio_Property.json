@@ -1,0 +1,12 @@
+{
+  "title": "KeepRGBRatio Property",
+  "file": "KeepRGBRatio_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / gets whether to maintain the ratio between R, G, B for the ColorStretch operation.",
+  "notes": "For the ImageOp ColorStretch operation, KeepRGBRatio sets whether to maintain the ratio between R, B, G values when performing the stretch.  When KeepRGB is false, the R. G, and B values are stretched individually.\n\nSee Also: KeepRGBRatio Property\n\nMaxRGB Property\n\nMinRGB Property\n\nVision Objects: KeepRGBRatio Property\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: ImageOp",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "VideoBox Properties",
+  "file": "VideoBoxProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "VideoBox Properties\n\nVideoBox Properties and Events\n\nThe following list is a summary of the VideoBox control properties with brief descriptions.  Click on the property names for more details.\n\nProperty\tDescription\n\nBorderStyle\tGets or sets the control's border style.\n\nDefault: 0 - None\n\nCamera\tSets/gets which camera to display video from.\n\nDefault: 0\n\nEnabled\tDetermines if the control is enabled or not.\n\nDefault: 1 - True\n\nEventTaskType\tThe type of task used for events.\n\nDefault: 0 - Normal\n\nFont\tSelects the font for the text in the control.\n\nDefault: Microsoft Sans Serif, 8.25pt.\n\nForeColor\tSelects the forecolor for the control.\n\nDefault: ControlText\n\nGraphicsEnabled\tDetermines whether vision graphics are displayed after a sequence is run.  This property can be set \"on the fly\" so that graphics can be turned on/off while sequences are being run.\n\nDefault: 0 - False\n\nHeight\tSpecifies the height of the control.\n\nDefault:\n\nLeft\tSpecifies the left location of the control.\n\nDefault:\n\nName\tUsed to assign a unique name to the VideoBox control.\n\nDefault: VideoBoxXX\n\nTabIndex\tSets the tab index for the control\n\nDefault: 0\n\nToolTipText\tSets the text for the tooltip.\n\nDefault:\n\nTop\tSets the location of the top of the VideoBox control.\n\nDefault:\n\nVideoEnabled\tDetermines whether video is displayed on the VideoBox.  This property can be set \"on the fly\" so that video can be turned on/off during program execution.\n\nDefault: 0- False\n\nVisible\tSets if the control is Visible or not.\n\nDefault: 1 - True\n\nWidth\tSets the width of the VideoBox control.\n\nDefault:\n\nEvent\tDescription\n\nClick\tExecutes when the user clicks the control with the mouse.\n\nDblClick\tExecutes when the user double clicks the control with the mouse.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

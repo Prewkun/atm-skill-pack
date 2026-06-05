@@ -1,0 +1,12 @@
+{
+  "title": "Automatic Operation",
+  "file": "Automatic_Operation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Automatic Operation\n\nAutomatic Operation\n\nEnsure that system automatic operation is enabled only while the following requirements are being met:\n\n\t\t\tEmergency stop switches are installed in the prescribed location and operate correctly.\n\t\t\tNo personnel are inside the safeguarded area of the system.\n\t\t\tSafety procedures that are established separately for the robot system (if applicable) are being followed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

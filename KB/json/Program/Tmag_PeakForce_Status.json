@@ -1,0 +1,14 @@
+{
+  "title": "Tmag_PeakForce Status",
+  "file": "Tmag_PeakForce_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the resultant torque peak.",
+  "notes": "Tmag_PeakForce returns the value of peak resultant torque.\n\nBefore executing Tmag_PeakForce, execute PeakForceClear.",
+  "see_also": "Applies To\n\nForce Monitor",
+  "examples": [
+    "Function CheckPeakForce Double PF FSet FC1.Enabled, False, False, False, True, False, False FSet FC1.TargetForces, 0, 0, 0, 200, 0, 0 FSet FS1.Reset FSet FM1.CoordinateSystem, FCS0 FSet FM1.PeakForceClear, False, False, False, False, False, False, False, True FCKeep FC1, 10 FGet FM1.Tmag_PeakForce, PF Print PF\nFend"
+  ]
+}

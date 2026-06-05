@@ -1,0 +1,14 @@
+{
+  "title": "ProgressBarStyle Property",
+  "file": "ProgressBarStyle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets the style of the ProgressBar.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.ProgressBar1.ProgressBarStyle, PROGRESSBAR_STYLE_MARQUEE"
+  ]
+}

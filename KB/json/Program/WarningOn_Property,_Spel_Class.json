@@ -1,0 +1,15 @@
+{
+  "title": "WarningOn Property, Spel Class",
+  "file": "WarningOn_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property WarningOn As Boolean\n\nType\n\nBoolean",
+  "parameters": "",
+  "description": "Returns status of the controller warning state.",
+  "notes": "",
+  "see_also": "ErrorOn\n\nEStopOn\n\nPauseOn\n\nSafetyOn\n\nWarningOn Example\n\nVB Example:\n\nIf m_spel.WarningOn Then\n\n    lblWarningStatus.Text = \"ON\"\n\nElse\n\n    lblWarningStatus.Text = \"OFF\"\n\nEnd If\n\nC# Example:\n\nif (m_spel.WarningOn)\n\n   lblWarningStatus.Text = \"ON\";\n\nelse\n\n   lblWarningStatus.Text = \"OFF\";",
+  "examples": [
+    "If m_spel.WarningOn Then\n    lblWarningStatus.Text = \"ON\"\nElse\n    lblWarningStatus.Text = \"OFF\"\nEnd If",
+    "if (m_spel.WarningOn)\n   lblWarningStatus.Text = \"ON\";\nelse\n   lblWarningStatus.Text = \"OFF\";"
+  ]
+}

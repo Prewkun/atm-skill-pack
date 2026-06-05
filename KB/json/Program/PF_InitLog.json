@@ -1,0 +1,12 @@
+{
+  "title": "PF_InitLog",
+  "file": "PF_InitLog",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_InitLog part ID, output path, append",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).\n\noutput path\tSpecify the log file output destination path (file path on the PC + file name).\n\nappend\tSet to True to append data when the specified output path exists.\n\nSet to False to overwrite the file.",
+  "description": "Run this function from the same task as the task running PF_Start. A log will not be created when this function is run from a different task.\n\nNothing will occur when using this function when the Part Feeding flow has not been started.\n\nA log will not be created when running this function while the Controller is not connected to the PC. Note that this will not cause an error to occur.\n\nAn error will occur when running PF_Start when the path does not exist, or when the system fails to write data to the file. Note that an error will not occur when running this function.\n\nCannot be executed from a virtual controller or command window.\n\nUser vibration commands (PF_Center, PF_CenterByShift, PF_Flip, PF_Shift) will be logged when they are executed inside of part feeding callback functions and PF_Start has been executed.\n\nIf user vibration commands are executed when PF_Start is not running then the vibrations will not be logged.\n\nThis command uses Timer for internal processing. For details, please refer to 1.3.6  Functions used in PartFeeding process.\n\nPF_InitLog Example\n\nRefer to the usage example provided for PF_Start.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

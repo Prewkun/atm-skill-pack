@@ -1,0 +1,12 @@
+{
+  "title": "FontBold Property TextObj",
+  "file": "FontBold_Property_TextObj",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays the character string rendered in bold.",
+  "notes": "You can switch the format of character strings rendered with the TextView object.  Set the FontBold property to True to render character strings in bold.\n\nVision Objects: FontBold Property\n\nText",
+  "see_also": "",
+  "examples": []
+}

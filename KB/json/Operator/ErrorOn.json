@@ -1,0 +1,12 @@
+{
+  "title": "ErrorOn",
+  "file": "ErrorOn",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "ErrorOn",
+  "parameters": "",
+  "description": "ErrorOn function is used only for NoEmgAbort task (special task using NoEmgAbort at Xqt) and background task.",
+  "notes": "Forced Flag\n\nThis program example uses Forced flag for On/Off command.\n\nBe sure that the I/O outputs change during error, or at Emergency Stop or Safety Door Open when designing the system.\n\nAfter Error Occurrence\n\nAs this program, finish the task promptly after completing the error handling.\n\nFunction main\n\n  Xqt ErrorMonitor, NoEmgAbort\n\n   ...\n\n   ...\n\nFend\n\nFunction ErrorMonitor\n\nWait ErrorOn\n\n  If 4000 < SysErr Then\n\nPrint \"Motion Error = \", SysErr\n\n    Off 10, Forced\n\nOn 12, Forced\n\nElse\n\nPrint \"Other Error = \", SysErr\n\nOff 11, Forced\n\nOn 13, Forced\n\nEndIf\n\nFend",
+  "see_also": "Returns the error status of the controller.\n\nSysErr\n\nWait\n\nXqt\n\nErrorOn Function Example\n\nThe following example shows a program that monitors the controller error and switches the I/O On/Off according to the error number when error occurs.",
+  "examples": []
+}

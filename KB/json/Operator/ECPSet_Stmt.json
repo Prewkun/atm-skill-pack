@@ -1,0 +1,14 @@
+{
+  "title": "ECPSet Statement",
+  "file": "ECPSet_Stmt",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "(1) ECPSet  ECPNum, ECPPoint\n\n(2) ECPSet   ECPNum\n\n(3) ECPSet",
+  "parameters": "ECPNum\tInteger number from 1-15 representing which of 15 external control points to define.\n\nECPPoint\tP number or P(expr) or point label or point expression.",
+  "description": "Defines an external control point.\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.\n\nNote\n\nThis command will only work if the External Control Point option is installed.\n\nECPSet Example\n\nECPSet 1, P1\n\nECPSet 2, 100, 200, 0, 0",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "ECPSet 1, P1\nECPSet 2, 100, 200, 0, 0"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Out Function",
+  "file": "out_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Out(\n\t\t\tportNumber\n\t\t\t)",
+  "parameters": "Portnum\tOutputs\n\n0\t0-7\n\n1\t8-15\n\n8-15",
+  "description": "Out Function\n\nOut Function\n\nSee_Also Example\n\nReturns the status of one byte of outputs.",
+  "notes": "",
+  "see_also": "Out Statement\n\nOut Function Example\n\nPrint Out(0)",
+  "examples": [
+    "Print Out(0)"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "ArmClr Method, Spel Class",
+  "file": "vbg_ArmClr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ArmClr (ArmNumber As Integer)",
+  "parameters": "ArmNumber\tInteger expression from 1-15.    Arm 0 is the standard (default) robot arm and cannot be cleared.  Arm(s) 1-15 are auxiliary arms defined by the ArmSet instruction.",
+  "description": "Clears (undefines) an arm for the current robot.",
+  "notes": "",
+  "see_also": "ArmSet, GetArm, Tool\n\nArmClr Example\n\nVB Example:\n\nm_spel.ArmClr(1)\n\nC# Example:\n\nm_spel.ArmClr(1);",
+  "examples": [
+    "m_spel.ArmClr(1)",
+    "m_spel.ArmClr(1);"
+  ]
+}

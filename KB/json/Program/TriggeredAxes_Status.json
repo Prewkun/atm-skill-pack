@@ -1,0 +1,14 @@
+{
+  "title": "TriggeredAxes Status",
+  "file": "TriggeredAxes_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the met/not met status of the force trigger by axis.",
+  "notes": "This returns the met/not met status by axis for the force trigger just before triggering.\n\nFor each axis of the force trigger, the corresponding bit is 1 when the conditions are met. The bit is 0 when not met.\n\nHowever, when under the Polarity Property FG_OUT is set, the UpperLevel and LowerLevel are set to 1 or 0.\n\nWhen FG_IN is set, both the UpperLevel and LowerLevel are set to 1 when the conditions are met.\n\nThis is used to accomplish branch processing based on the met/not met status of force in each axis.\n\nWhen a value is acquired for an Integer variable, depending on the met/not met status, there are times when the value is negative. Int32 or Int64 type variables are recommended.",
+  "see_also": "Applies To\n\nForce Trigger",
+  "examples": [
+    "Function TriggeredAxesTest Int64 iVar FCKeep FC1 Till FT1, 10 FGet FT1.TriggeredAxes, iVar If (iVar And &H01) <> 0 Then\n   ' The process when Fx LowerLevel conditions are met\n   -\n   -\n   - ElseIf (iVar And &H100) <> 0 Then\n   ' The process when Fx UpperLevel conditions are met\n   -\n   -\n   - EndIf\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "RecordStart Property",
+  "file": "RecordStart_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "RecordStart Property\n\nRecordStart Property",
+  "notes": "",
+  "see_also": "Application\n\nForce Monitor Object FM#\n\nComments\n\nBegins recording of sensor values, robot position/orientation, StepID, and the time of data acquisition.\n Property\n\nForce Monitor Object FM#",
+  "examples": [
+    "Function Test_Record\n    FSet FM1.ForceSensor, 1\n    FSet FM1.RecordStart, 60, 0.1\n       ...\n    FSet FM1.RecordEnd\nFend"
+  ]
+}

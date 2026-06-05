@@ -1,0 +1,15 @@
+{
+  "title": "TeachPoint Method, Spel Class",
+  "file": "TeachPoint_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function TeachPoint (PointFile As String, PointNumber as Integer, Prompt as String) As Boolean\n\nFunction TeachPoint (PointFile As String, PointName As String, Prompt As String) As Boolean\n\nFunction TeachPoint (PointFile As String, PointNumber As Integer, Prompt As String, Parent As Form) As Boolean\n\nFunction TeachPoint (PointFile As String, PointName As String, Prompt As String, Parent As Form) As Boolean",
+  "parameters": "PointFile\tA string containing the name of the point file.\n\nPointNumber\tThe point number to teach.\n\nPointName\tA string expression for an existing point label.\n\nPrompt\tA string containing the instructional text that is displayed on the bottom of the teach dialog.\n\nParent\tOptional. A .NET form that will be the parent of the window.",
+  "description": "Runs an a dialog that allows an operator to jog and teach one point.",
+  "notes": "Use TeachPoints to allow an operator to teach one robot point in the Controller.  When TeachPoints is executed, the point file is loaded from the Controller.  When the Teach button is clicked, the point is taught in the Controller and the point file is saved on the Controller.",
+  "see_also": "GetVar\n\nTeachPoint Example\n\nVB Example:\n\nSub btnTeachPick_Click( _\n\n       ByVal sender As System.Object, _\n\n       ByVal e As System.EventArgs) _\n\n       Handles btnTeachPick.Click\n\n    Dim sts As Boolean\n\n    Dim prompt As String\n\n    prompt = \"Jog to Pick position and click Teach\"\n\n    sts = m_spel.TeachPoint(\"points.pts\", 1, prompt)\n\nEnd Sub\n\nC# Example:\n\nvoid btnTeachPick_Click(object sender, EventArgs e)\n\n{\n\n   bool sts;\n\n   string prompt;\n\n   prompt = \"Jog to Pick position and click Teach\";\n\n   sts = m_spel.TeachPoint(\"points.pts\", 1, prompt);\n\n}",
+  "examples": [
+    "Sub btnTeachPick_Click( _\n       ByVal sender As System.Object, _\n       ByVal e As System.EventArgs) _\n       Handles btnTeachPick.Click\n    Dim sts As Boolean\n    Dim prompt As String\n    prompt = \"Jog to Pick position and click Teach\"\n    sts = m_spel.TeachPoint(\"points.pts\", 1, prompt)\n\nEnd Sub",
+    "void btnTeachPick_Click(object sender, EventArgs e)\n{\n   bool sts;\n   string prompt;\n   prompt = \"Jog to Pick position and click Teach\";\n   sts = m_spel.TeachPoint(\"points.pts\", 1, prompt);\n}"
+  ]
+}

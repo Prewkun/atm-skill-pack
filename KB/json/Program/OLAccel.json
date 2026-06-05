@@ -1,0 +1,15 @@
+{
+  "title": "OLAccel",
+  "file": "OLAccel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "OLAccel [On | Off]",
+  "parameters": "On | Off\tOn:Enables the automatic adjustment of acceleration/deceleration that is adjusted according to the overload rating.\n\nOff:Disables the automatic adjustment of acceleration/deceleration that is adjusted according to the overload rating.",
+  "description": "OLAccel can be used to enable the automatic adjustment function of acceleration and deceleration that is adjusted according to the robot loading rate (OLRate). When OLAccel is On, the acceleration and deceleration are automatically adjusted in accordance with the robot loading rate at PTP motion commands. This is done to prevent the over load error by reducing the acceleration/deceleration automatically when the loading rate is exceeding a certain value at PTP motion. Heretofore, when users were executing motion with heavy duty that may cause over load error, users had to stop the robot by the program or adjust the speed and acceleration to prevent the error. OLAccel statement lessens these measures. However, this statement do not prevent over load error at all types of cycles. When the cycle has very heavy duty and load, the over load error may occur. In this case, users need to stop the robot or adjust the speed and acceleration. In some operation environment, the motor temperature may rise by operating the robot without over load error and result in over heat error.\n\nThis statement is unnecessary at proper load operation. Use OLRate in the test cycle to check whether the over load error may occur or not.\n\nThe OLAccel value initializes to the default values (low acceleration) when any one of the following conditions occurs:\n\nController Startup\nMotor On\nSFree, SLock, Brake\nReset, Reset Error\nStop button or Quit All stops tasks\n\nNote: If OLAccel On is executed to a robot that does not support the automatic adjustment function of acceleration and deceleration, an error occurs.",
+  "notes": "",
+  "see_also": "Sets up the automatic adjustment of acceleration/deceleration that is adjusted according to the overload rating.\n\nOLAccel Function\n\nOLRate\n\nOLAccel Statement Example\n\n>olaccel on\n\n>olaccel\n\nOLACCEL is ON\n\nFunction main\n\n  Motor On\n\n  Power High\n\n  Speed 100\n\n  Accel 100, 100\n\n  OLAccel On\n\n  Xqt 2, MonitorOLRate\n\n  Do\n\n    Jump P0\n\n    Jump P1\n\n  Loop\n\nFend\n\nFunction MonitorOLRate\n\n  Do\n\n    OLRate\n\n    Wait 1\n\n  Loop\n\nFend",
+  "examples": [
+    ">olaccel on\n>olaccel\nOLACCEL is ON",
+    "Function main Motor On Power High Speed 100 Accel 100, 100 OLAccel On Xqt 2, MonitorOLRate Do\n    Jump P0\n    Jump P1 Loop\nFend\nFunction MonitorOLRate Do\n    OLRate\n    Wait 1 Loop\nFend"
+  ]
+}

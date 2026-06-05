@@ -1,0 +1,14 @@
+{
+  "title": "Weight Function",
+  "file": "weight_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Weight(paramNumber)",
+  "parameters": "paramNumber\tInteger expression containing one of the values below:\n\n1: Payload weight\n\n2: Arm length\n\n3: Load on the additional S axis\n\n4: Load on the additional T axis",
+  "description": "Weight Function\n\nWeight Function\n\nSee_Also Example\n\nReturns a Weight parameter.",
+  "notes": "",
+  "see_also": "Inertia, Weight Statement\n\nFor details of hand, refer to the Hand Function Manual.\n\nWeight Function Example\n\nPrint \"The current Weight parameters are: \", Weight(1)",
+  "examples": [
+    "Print \"The current Weight parameters are: \", Weight(1)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "TCSpeed Function",
+  "file": "tcspeed_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "TCSpeed",
+  "parameters": "",
+  "description": "TCSpeed Function\n\nTCSpeed Function\n\nSee_Also Example\n\nReturns the speed limit in the torque control.",
+  "notes": "",
+  "see_also": "TC\n\nTCSpeed Statement\n\nTCLim Statement\n\nTCSpeed Example\n\nInteger var\n\n\t\tvar = TCSpeed",
+  "examples": [
+    "Integer var\n\t\tvar = TCSpeed"
+  ]
+}

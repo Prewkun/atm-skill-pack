@@ -1,0 +1,12 @@
+{
+  "title": "Loading a robot configuration",
+  "file": "Loading_a_robot_configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Loading a robot configuration\n\nLoading robot calibration data\n\nTo load robot calibration data\n\nSelect\n\t [System Configuration] from the [Setup] menu.\n\nSelect\n\t [Controller]-[Robots]-[Robot**]-[Calibration].\n\nClick\n\t the [Load] button.\n\nSelect\n\t the desired MPD file and click the [Open] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

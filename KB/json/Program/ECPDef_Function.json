@@ -1,0 +1,21 @@
+{
+  "title": "ECPDef Function",
+  "file": "ECPDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "ECPDef(\n\t\t\tECPNumber\n\t\t\t)",
+  "parameters": "ECPNumber\tInteger expression representing which ECP to return status for.",
+  "description": "ECPDef Function\n\nECPDef Function",
+  "notes": "",
+  "see_also": "Returns ECP definition status.\n\nArm, Armset, ECPSet\n\nECPDef Example\n\nFunction DisplayECPDef(ecpNum As Integer)\n\n   If ECPDef(ecpNum) = False Then\n\n      Print \"ECP \", ecpNum, \"is not defined\"\n\n   Else\n\n      Print \"ECP \", ecpNum, \": \",\n\n      Print ECPSet(ecpNum)\n\n   EndIf\n\nFend",
+  "examples": [
+    "Function DisplayECPDef(ecpNum As Integer)",
+    "If ECPDef(ecpNum) = False Then",
+    "Print \"ECP \", ecpNum, \"is not defined\"",
+    "Else",
+    "Print \"ECP \", ecpNum, \": \",",
+    "Print ECPSet(ecpNum)",
+    "EndIf",
+    "Fend"
+  ]
+}

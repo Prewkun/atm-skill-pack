@@ -1,0 +1,12 @@
+{
+  "title": "Length Result",
+  "file": "LengthResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns a length in millimeters of the distance between the starting and ending point of the line.",
+  "notes": "The Length result can only be returned if calibration has been performed because the length is measured in millimeters.  This calibration can be done with or without the robot.\n\nThe Length result can be used for inspection and measurement applications where measurements are required. (For example, to measure spark plug gaps.)\n\nFor ArcInspector and LineInspector, Length is the length of a defect area.",
+  "see_also": "PixelLength Result\n\nVision Objects: Length Result\n\nLine",
+  "examples": []
+}

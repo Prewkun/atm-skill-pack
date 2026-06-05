@@ -1,0 +1,15 @@
+{
+  "title": "Brake Statement",
+  "file": "Brake_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Brake status, jointNumber",
+  "parameters": "status\tThe keyword\n\t\t On is used to turn the\n\t\t brake on. The keyword Off\n\t\t is used to turn the brake off.\n\njointNumber\tThe joint\n\t\t number from 1 to 6.",
+  "description": "The Brake command is used to turn brakes on or off for one joint of the 6 axis robot (including N series).\n\nIt's not available for SCARA Robot (include RS series).\n\nThis command is intended for use by maintenance personnel only.\n\nWhen the Brake statement is executed, the robot control parameter is initialized.\n\nSee Motor On for the details.\n\nWARNING\tUse extreme caution when turning off\n\t\t a brake.  Ensure that the joint is properly supported, otherwise\n\t\t the joint can fall and cause damage to the robot and personnel.\n\nBefore releasing the brake, be ready to use the emergency stop switch so that you can immediately press it.  When the controller is in emergency stop status, the motor brakes are locked.\n  Be aware that the robot arm may fall by its own weight when the brake is turned off with Brake command.",
+  "notes": "",
+  "see_also": "Turns brake on or off for specified joint of the current robot.\n\nBrake Function\n\nMotor\n\nPower\n\nReset\n\nSFree\n\nSLock\n\nBrake Example\n\n> brake on, 1\n\n> brake off, 1",
+  "examples": [
+    "> brake on, 1",
+    "> brake off, 1"
+  ]
+}

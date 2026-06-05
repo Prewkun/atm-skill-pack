@@ -1,0 +1,14 @@
+{
+  "title": "Gosub Command",
+  "file": "cmd_gosub",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "GoSub {label}\n\n{label\n\t\t\t:}\n\nstatements\n\nReturn",
+  "parameters": "label\tWhen the user specifies a label (rather than a line number) the program execution will jump to the line on which this label resides. The label can be up to 32 characters in length. However, the first character must be an alphabet character (not numeric).",
+  "description": "The GoSub instruction causes program control to branch to the user specified statement label.\n  The program then executes the statement on that line and continues execution through subsequent line numbers until a Return instruction is encountered. The Return instruction then causes program control to transfer back to the line which immediately follows the line which initiated the GoSub in the first place. (i.e. the GoSub instruction causes the execution of a subroutine and then execution returns to the statement following the GoSub instruction.) Be sure to always end each subroutine with Return. Doing so directs program execution to return to the line following the GoSub instruction.\n\nPotential Errors\n\nBranching to Non-Existent Statement\n\nIf the GoSub instruction attempts to branch control to a non-existent label then an error 3108 will be issued.\n\nReturn Found Without GoSub\n\nA Return instruction is used to \"return\" from a subroutine back to the original program which issued the GoSub instruction. If a Return instruction is encountered without a GoSub having first been issued then an Error 2383 will occur. A stand alone Return instruction has no meaning because the system doesn't know where to Return to.",
+  "notes": "",
+  "see_also": "Label Definitions\n\nGoTo\n\nOnErr\n\nReturn\n\nGoSub Statement Example\n\nThe following example shows a simple function which uses a GoSub instruction to branch to a label and execute some I/O instructions then return.\n\nFunction main\n\n\t\t  Integer var1, var2\n\nGoSub checkio 'GoSub using Label\n\n\t\t  On 1\n\n\t\t  On 2\n\n\t\t  Exit Function\n\ncheckio: 'Subroutine starts here\n\n\t\t  var1 = In(0)\n\n\t\t  var2 = In(1)\n\n\t\t  If var1 = 1 And var2 = 1 Then\n\n\t\t    On 1\n\n\t\t  Else\n\n\t\t    Off 1\n\n\t\t  EndIf\n\nReturn 'Subroutine ends here\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Integer var1, var2\n\nGoSub checkio 'GoSub using Label\n\t\t  On 1\n\t\t  On 2\n\t\t  Exit Function\n\ncheckio: 'Subroutine starts here\n\t\t  var1 = In(0)\n\t\t  var2 = In(1)\n\t\t  If var1 = 1 And var2 = 1 Then\n\t\t    On 1\n\t\t  Else\n\t\t    Off 1\n\t\t  EndIf\n\n\t\t\t  Return 'Subroutine ends here\n\t\tFend"
+  ]
+}

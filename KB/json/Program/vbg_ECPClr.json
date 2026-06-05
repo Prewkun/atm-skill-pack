@@ -1,0 +1,15 @@
+{
+  "title": "ECPClr Method, Spel Class",
+  "file": "vbg_ECPClr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ECPClr (ECPNumber As Integer)",
+  "parameters": "ECPNumber\tInteger expression representing which one of the 15 external control points to clear (undefine). (ECP 0 is the default and cannot be cleared.)",
+  "description": "Clears (undefines) an external control point for the current robot.",
+  "notes": "",
+  "see_also": "ECP, ECPDef\n\nECPClr Example\n\nVB Example:\n\nm_spel.ECPClr(1)\n\nC# Example:\n\nm_spel.ECPClr(1);",
+  "examples": [
+    "m_spel.ECPClr(1)",
+    "m_spel.ECPClr(1);"
+  ]
+}

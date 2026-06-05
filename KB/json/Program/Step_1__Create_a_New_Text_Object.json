@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Text Object",
+  "file": "Step_1__Create_a_New_Text_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Text Object\n\nStep 1: Create a New Text Object\n\n\tClick on the [All Tools] - the\n\t [Text] button on the Vision Guide toolbar.\n\tYou will see the mouse pointer change to the Text\n\t object icon.\n\tClick the Text icon and drag to the image display\n\t of the Vision Guide window.\n\n\tNotice that a name for the object is automatically created. In the\n\t example, it is called \"Text01\" because this is the first Text object\n\t created for this sequence.  (We will explain how to change the\n\t name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

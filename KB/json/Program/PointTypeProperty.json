@@ -1,0 +1,12 @@
+{
+  "title": "PointType Property",
+  "file": "PointTypeProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines whether the Point object will have its position based on either the position the Point object is placed on the Screen (Screen), the midpoint of a line (midpoint), or the intersection of 2 lines (intersection).",
+  "notes": "Point objects are useful to define the midpoint or intersection point of a line or lines.  This is their primary purpose.  The PointType property is used to define the what the position for a Point object will be based upon.  As mentioned before there are 3 choices.\n\nScreen: This is the default value for a Point object when it is first created but most of the time the PointType property is not set to this value.\n\nMidPoint : A point position can be set to coincide with the midpoint of the line defined by the LineObject1 property.  If the LineObject1 property does not specify a line, then an error dialog will appear if you try to set the PointType to MidPoint informing you that LineObject1 does not exist. (i.e. you cannot define a point as the midpoint of a non-existent line.)\n\nIntersection: A point position can be set to coincide with the intersection of 2 lines defined by the LineObject1 and LineObject2 properties.  If the either the LineObject1 or LineObject2 property does not specify a Line then an error dialog will appear if you try to set the PointType to Intersection informing you that one of the 2 lines required to form an intersection does not exist.\n\nNote: The intersection of 2 lines does not have to appear directly between the starting and ending points for the lines.  The intersection could occur somewhere along the imaginary extension of either or both lines. (This is why the ShowExtensions Property is useful for Line objects.)\n\nSee Also: PointType Property\n\nLineObject1 Property\n\nLineObject2 Property\n\nVision Objects: PointType Property\n\nLine",
+  "see_also": "Applies To\n\nVision Objects: Point",
+  "examples": []
+}

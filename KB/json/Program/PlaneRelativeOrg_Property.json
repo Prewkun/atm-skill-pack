@@ -1,0 +1,12 @@
+{
+  "title": "PlaneRelativeOrg Property",
+  "file": "PlaneRelativeOrg_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the end conditions related to positions, this property specifies which coordinate system sets the relative position setting Plane.\n\nIt is used when RelativePlane is specified by PosCheckType.\n\nValues\n\nBase Specify a relative position based on the Base coordinate system.\n\nLocal Specify a relative position based on the Local coordinate system.\n\nLocal coordinate system number is specified by PlaneRelativeRobotLocal.\n\nTool Specify a relative position based on the Tool coordinate system.\n\nDefault: Tool",
+  "notes": "See Also: PlaneRelativeOrg Property\n\nPosCheckType Property",
+  "see_also": "Applies To\n FollowMove Object, PressMove Object, PressProbe Object",
+  "examples": []
+}

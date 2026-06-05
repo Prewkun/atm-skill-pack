@@ -1,0 +1,12 @@
+{
+  "title": "ScaleFactorMin Property",
+  "file": "ScaleFactorMinProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the minimum scale factor applied to the ScaleTarget value.",
+  "notes": "ScaleFactorMax and ScaleFactorMin determine the scale range to search for as applied to the ScaleTarget property.  The minimum scale found is ScaleFactorMin * ScaleTarget.\n\nTo use ScaleFactorMax and ScaleFactorMin, you must set the ScaleEnabled property to True.\n\nSee Also: ScaleFactorMin Property\n\nScaleEnable Property\n\nScaleFactorMax Property\n\nScaleTarget Property\n\nVision Objects: ScaleFactorMin Property\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Geometric",
+  "examples": []
+}

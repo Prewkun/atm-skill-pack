@@ -1,0 +1,20 @@
+{
+  "title": "Int Function",
+  "file": "cmd_int",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Int\n\t\t\t(number)",
+  "parameters": "number\tA real number expression.",
+  "description": "Int(number) takes the value of number and returns the largest integer that is less than or equal to number.\n\nNote\n\nFor Values Less than 1 (Negative Numbers)\n\nIf the parameter number has a value of less than 1 then the return value have a larger absolute value than number. (For example, if number = -1.35 then -2 will be returned.)",
+  "notes": "",
+  "see_also": "Abs\tSgn\n\nAtan\tSin\n\nAtan2\tSqr\n\nCos\tStr$\n\nFix\tTan\n\nMod\tVal\n\nNot\n\nInt Function Example\n\nSome simple examples from the Command window are as follows:\n\n> Print Int(5.1)\n\n5\n\n> Print Int(0.2)\n\n0\n\n> Print Int(-5.1)\n\n-6\n\n>",
+  "examples": [
+    "> Print Int(5.1)",
+    "5",
+    "> Print Int(0.2)",
+    "0",
+    "> Print Int(-5.1)",
+    "-6",
+    ">"
+  ]
+}

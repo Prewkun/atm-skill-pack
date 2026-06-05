@@ -1,0 +1,12 @@
+{
+  "title": "Development Cycle",
+  "file": "VBG_Development_Cycle",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Development Cycle\n\nDevelopment Cycle\n\nFollow these basic steps to edit and run your .NET code:\n\nStop\n\t the .NET project.\n\nEdit\n\t the .NET project\n\nOpen\n\t Epson RC+ 8.0.\n\nMake\n\t changes in the Epson RC+ 8.0 project.\n\nBuild\n\t the Epson RC+ 8.0 project.\n\nClose\n\t the RC+ 8.0.\n\nSwitch\n\t to Visual Studio.\n\nRun\n\t the .NET project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

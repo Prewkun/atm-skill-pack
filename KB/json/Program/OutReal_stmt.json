@@ -1,0 +1,14 @@
+{
+  "title": "OutReal Statement",
+  "file": "OutReal_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "OutReal WordPortNumber\n\t\t\t,\n\t\t\tOutputData\n\t\t\t[\n\t\t\t,Forced\n\t\t\t]",
+  "parameters": "WordPortNumber\tInteger expression representing I/O output words.\n\nOutputData\tSpecifies the integer expression representing the output data (Real type value).\n\nForced\tOptional.  Normally omitted.",
+  "description": "Outputs the specified IEEE754 Real value to the output word port specified by word port number and the following output word port.\nOutput word lable can be used for the word port number parameter.\n\nNote: Forced Flag - This flag is used to turn On the I/O output at Emergency Stop and Safety Door Open from NoPause task or NoEmgAbort task (special task initiated by specidying NoPause or NoEmgAbort at Xqt).\n\nCarefully design the system because the I/O output changes by Emergency Stop and Safety Door Open.",
+  "notes": "",
+  "see_also": "The output data of real value is the floating-point data (IEEE754 compliant) of 32 bits.\nSet the status of output port 2 word (32 bits).\n\nIn, InW, InBCD, InReal, Out, OutW, OpBCD, OutReal Function\n\nOutReal Statement Example\n\nOutReal 0, 2.543",
+  "examples": [
+    "OutReal 0, 2.543"
+  ]
+}

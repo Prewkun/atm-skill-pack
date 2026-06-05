@@ -1,0 +1,14 @@
+{
+  "title": "ArmSet Function",
+  "file": "armset_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "ArmSet(armNumber, paramNumber)",
+  "parameters": "armNumber\tInteger expression representing the arm number to retrieve values for.\n\nparamNumber\tInteger expression representing the parameter to retrieve (0 to 5), as described below.\n\nSCARA Robots (including RS series)\n\nparamNumber\tValue Returned\n\n1\tHorizontal distance from joint #2 to orientation center (mm)\n\n2\tJoint #2 angle offset (degree)\n\n3\tHeight offset (mm)\n\n4\tHorizontal distance from joint #1 to joint #2 (mm)\n\n5\tOrientation joint angle offset in degrees.",
+  "description": "ArmSet Function\n\nArmSet Function\n\nSee_Also Example\n\nReturns one ArmSet parameter.",
+  "notes": "",
+  "see_also": "ArmClr\n\nArmSet Statement\n\nArmset Function Example\n\nReal x\n\nx = ArmSet(1, 1)",
+  "examples": [
+    "Real x\nx = ArmSet(1, 1)"
+  ]
+}

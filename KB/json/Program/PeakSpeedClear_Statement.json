@@ -1,0 +1,15 @@
+{
+  "title": "PeakSpeedClear Statement",
+  "file": "PeakSpeedClear_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PeakSpeedClear [j1 [,j2 [, j3 [, j4 [, j5 [, j6 [, j7 [, j8 [, j9]]]]]]]]]",
+  "parameters": "j1\n\t\t - j9\tInteger\n\t\t expression representing the joint number.  If no parameters\n\t\t are supplied, then the peak speed values are cleared  for\n\t\t all joints.\n\nThe\n\t\t additional S axis is 8 and T axis is 9.  If non-existent\n\t\t joint number is supplied, an error occurs.",
+  "description": "PeakSpeedClear clears the peak speed values for the specified joints.\n\nYou must execute PeakSpeedClear before executing PeakSpeed.\n\nThis command does not support the PG additional axes.",
+  "notes": "",
+  "see_also": "Clears and intializes the peak speed for one or more joints.\n\nAvgSpeed\n\nPeakSpeed\n\nPeakSpeedClear Statement Example\n\n[Example 1]\n\nThe following is the example to display the average speed values of specified joints after clearing the peak speed values of all joints.\n\n> PeakSpeedClear\n\n> Go P1\n\n> PeakSpeed 1\n -0.273\n\n> PeakSpeed\n -0.273   -0.164\n -0.080    0.258\n -0.005    0.401\n\n  0.000    0.000\n\n  0.000\n\n>\n\n[Example 2]\n\nThe following is the example to display the peak speed values of specified joints after clearing the peak speed values of J1, J4, and J5 for the vertical multi-axis robots.\n\n> PeakSpeedClear 4, 1, 5\n\n> Go P1\n\n> PeakSpeed 1\n\n  -0.273\n\n> PeakSpeed 4\n\n  0.258",
+  "examples": [
+    "> PeakSpeedClear\n> Go P1\n> PeakSpeed 1 -0.273\n> PeakSpeed -0.273   -0.164 -0.080    0.258 -0.005    0.401 0.000    0.000 0.000\n>",
+    "> PeakSpeedClear 4, 1, 5\n> Go P1\n> PeakSpeed 1 -0.273\n> PeakSpeed 4 0.258"
+  ]
+}

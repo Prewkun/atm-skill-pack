@@ -1,0 +1,15 @@
+{
+  "title": "CtReset Method, Spel Class",
+  "file": "vbg_CtReset",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub CtReset (BitNumber As Integer)",
+  "parameters": "BitNumber\tNumber of the input bit set as a counter. (Only 16 counters can be active at the same time.",
+  "description": "Resets the counter value of the specified input counter.  Also defines the input as a counter Input.",
+  "notes": "",
+  "see_also": "Ctr\n\nCtReset Example\n\nVB Example:\n\nm_spel.CtReset(2)\n\nC# Example:\n\nm_spel.CtReset(2);",
+  "examples": [
+    "m_spel.CtReset(2)",
+    "m_spel.CtReset(2);"
+  ]
+}

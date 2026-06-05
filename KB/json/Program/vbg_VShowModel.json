@@ -1,0 +1,15 @@
+{
+  "title": "VShowModel Method, Spel Class",
+  "file": "vbg_VShowModel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VShowModel (Sequence As String, Object As String, Parent As Form)",
+  "parameters": "Sequence\tString expression\n\t\t containing the name of a vision sequence in the current EPSON\n\t\t RC+ project.\n\nObject\tString expression\n\t\t containing the name of a vision object in the current EPSON RC+\n\t\t project.",
+  "description": "Display the object model. For more details, see the ShowModel Property in the Vision Guide Properties reference.",
+  "notes": "",
+  "see_also": "VShowSequence\n\nVShowModel Example\n\nVB",
+  "examples": [
+    "m_spel.VShowModel(\"myseq\", \"myobj\")",
+    "m_spel.VShowModel(\"myseq\", \"myobj\");"
+  ]
+}

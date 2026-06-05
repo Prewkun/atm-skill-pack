@@ -1,0 +1,15 @@
+{
+  "title": "Brake Method, Spel Class",
+  "file": "Brake_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Brake (JointNumber As Integer, State As Boolean)\n\nFunction Brake (JointNumber As Integer) As Boolean",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing the joint number.\n\nState\tThe keyword On is used to turn the brake on.\n\nThe keyword Off is used to turn the brake off.",
+  "description": "Reads or sets brake status for specified joint.",
+  "notes": "The Brake method is used to turn brakes on or off for one joint of the 6-axis robot (including N series). This method is intended for use by maintenance personnel only.\n\nWhen the Brake statement is executed, the robot control parameter is initialized.\n\nWarning:  Use extreme caution when turning off a brake. Ensure that the joint is properly supported, otherwise the joint can fall and cause damage to the robot and personnel.\n\nNote:  Before releasing the brake, be ready to use the emergency stop switch\n\nWhen the controller is in emergency stop status, the motor brakes are locked. Be aware that the robot arm may fall by its own weight when the brake is turned off with Brake command.",
+  "see_also": "Reset, SFree, SLock\n\nBrake Example\n\nVB Example:\n\nDim state As Boolean\n\nstate = m_spel.Brake(1)\n\nC# Example:\n\nbool state;\n\nstate = m_spel.Brake(1);",
+  "examples": [
+    "Dim state As Boolean\nstate = m_spel.Brake(1)",
+    "bool state;\nstate = m_spel.Brake(1);"
+  ]
+}

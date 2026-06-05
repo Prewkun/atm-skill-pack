@@ -1,0 +1,12 @@
+{
+  "title": "SpeedS VI",
+  "file": "SpeedS_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the arm speed for use with the Continuous Path instructions Jump3CP, Move, Arc, and CVMove.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nLinear Speed\tSpecifies the arm speed for use with the Continuous Path instructions Jump3CP, Move, Arc, and CVMove.\n\nDepart Speed\tDouble value between 1-5000 representing the Z axis upward motion speed for the Jump3CP instruction.\n\nAppro Speed\tDouble value between 1-5000 representing the Z axis downward motion speed for the Jump3CP instruction.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "Use SpeedS to set the linear speed for the current robot in millimeters / sec.  If Depart Speed is specified, then Appro Speed must also be specified.",
+  "see_also": "Accel, AccelS, Speed\n\nSpeedS Example",
+  "examples": []
+}

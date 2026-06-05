@@ -1,0 +1,15 @@
+{
+  "title": "GetIODef Method, Spel Class",
+  "file": "vbg_GetIODef",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub GetIODef (Type As SpelIOLabelTypes, Index As Integer, ByRef Label as String, ByRef Description As String)",
+  "parameters": "Type\tInteger expression representing the I/O type.\n\nInputBit = 1  InputByte = 2  InputWord = 3\n\nOutputBit = 4  OutputByte = 5  OutputWord = 6\n\nMemoryBit = 7  MemoryByte = 8  MemoryWord = 9\n\nInputReal = 10 OutputReal = 11\n\nIndex\tSpecifies the bit or port number.\n\nLabel\tReturns the label.\n\nDescription\tReturns the description.",
+  "description": "Gets the definition information for an input, output, or memory I/O bit, byte, or word.",
+  "notes": "Use GetIODef to get the labels and descriptions used for all I/O in the current project.",
+  "see_also": "SetIODef\n\nGetIODef Example\n\nVB Example:\n\nDim label As String\n\nDim desc As String\n\nm_spel.GetIODef (SpelIOLabelTypes.InputBit, 0, label, desc)\n\nC# Example:\n\nstring label, desc;\n\nm_spel.GetIODef(SpelIOLabelTypes.InputBit, 0, out label, out desc);",
+  "examples": [
+    "Dim label As String\nDim desc As String\n\nm_spel.GetIODef (SpelIOLabelTypes.InputBit, 0, label, desc)",
+    "string label, desc;\nm_spel.GetIODef(SpelIOLabelTypes.InputBit, 0, out label, out desc);"
+  ]
+}

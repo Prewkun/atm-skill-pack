@@ -1,0 +1,12 @@
+{
+  "title": "OCR Object Description",
+  "file": "OCRObjectDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "OCR Object Description\n\nOCR Object Description\n\nThe OCR object (Optical Character Recognition) is used to recognize single line character strings in an image for a specific font and character size.  The OCR object Gui includes a Font wizard that is used to create a font based on SEMI standards, or create a user defined font based on characters in an image or an ASCII description file.  You can export the fonts you create to disk and import them into other OCR objects in the same project or other projects.\n\nNote: OCR objects will only work if the OCR option is installed and enabled.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "RecoverPos Function",
+  "file": "RecoverPos_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "RecoverPos ( [ robotNumber ] )",
+  "parameters": "robotNumber\tInteger value that specifies a robot number\n\nIf omitted, the current robot number is used.",
+  "description": "This function returns the robot recovery position when using the Cont or Recover commands.",
+  "notes": "",
+  "see_also": "Returns the position where a robot was in when safeguard was open.\n\nThis is for the experienced and you need to understand the command specification before use.\n\nAbortMotion\n\nCont\n\nRecover\n\nRealPos\n\nRecoverPos Function Example\n\nIf the straight distance of recovery is less than 10 mm, it executes recovery. If more than 10 mm, it finishes the program.\n\nIf Dist(RecoverPos, RealPos) < 10 Then\n\n  Recover All\n\nElse\n\n  Quit All\n\nEndIf",
+  "examples": [
+    "If Dist(RecoverPos, RealPos) < 10 Then Recover All\nElse Quit All\nEndIf"
+  ]
+}

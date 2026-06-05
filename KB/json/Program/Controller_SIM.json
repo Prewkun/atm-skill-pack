@@ -1,0 +1,12 @@
+{
+  "title": "Simulator Page",
+  "file": "Controller_SIM",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Simulator Page\n\n[Setup]-[System Configuration]-[Controller]-[Simulator]\n\nThis page contains simulator preference settings. For details on simulators, refer to 8. Simulator.\n\nItem\tDescription\n\nEnable\n\t\t Simulator\tThis\n\t\t enables the simulator function. This setting cannot be changed\n\t\t if a virtual controller is connected.\n\nGenerate\n\t\t error when collision is detected\tIf a\n\t\t collision is detected while the SPEL+ program is running, an error\n\t\t will occur with the Controller and program execution will stop.\n\nDefault\tReverts\n\t\t back to the default settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

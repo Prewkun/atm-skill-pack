@@ -1,0 +1,14 @@
+{
+  "title": "JS Function",
+  "file": "cmd_js",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "JS",
+  "parameters": "",
+  "description": "JS is used in conjunction with the Jump and Sense instructions.  The purpose of the JS instruction is to provide a status result as to whether an input condition (as defined by the Sense instruction) is met during motion caused by the Jump instruction or not.  When the input condition is met, JS returns True.  When the input condition is not met and the arm reaches the target position, JS returns False.\n\nJS is simply a status check instruction and does not cause motion or specify which Input to check during motion.  The Jump instruction is used to initiate motion and the Sense instruction is used to specify which Input (if any) to check during Jump initiated motion.\n\nNote\n\nJS Works only with the Most Recent Jump, Jump3, JumpTLZ, Jump3CP Instruction\n\nJS can only be used to check the most recent Jump instruction's input check (which is initiated by the Sense instruction.) Once a 2nd Jump instruction is initiated, the JS instruction can only return the status for the 2nd Jump instruction. The JS status for the first Jump is gone forever. So be sure to always do any JS status check for Jump instructions immediately following the Jump instruction to be checked.",
+  "notes": "",
+  "see_also": "JT\n\nJump\n\nJump3\n\nJump3CP\n\nJumpTLZ\n\nSense\n\nJS Function Example\n\nFunction SearchSensor As Boolean\n\n  Sense Sw(5) = On\n\n  Jump P0\n\n  Jump P1 Sense\n\n  If JS = TRUE Then\n\n    Print \"Sensor was found\"\n\n    SearchSensor = TRUE\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function SearchSensor As Boolean Sense Sw(5) = On Jump P0 Jump P1 Sense If JS = TRUE Then\n    Print \"Sensor was found\"\n    SearchSensor = TRUE EndIf\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "When do you need to Calibrate",
+  "file": "When_do_you_need_to_Calibrate",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "When do you need to Calibrate\n\nWhen do you need to calibrate?\n\nCalibration is required anytime you want to make a physical measurement or locate a position in robot coordinates.  Several results reported for vision objects require calibration.  For example, the CameraX, CameraY, RobotX, RobotY, RobotU results require calibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

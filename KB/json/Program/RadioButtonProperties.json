@@ -1,0 +1,12 @@
+{
+  "title": "RadioButton Properties",
+  "file": "RadioButtonProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "RadioButton Properties\n\nRadioButton Properties and Events\n\nThe following list is a summary of the RadioButton control properties with brief descriptions.  Click on the property names for more details.\n\nProperty\tDescription\n\nBackColor\tSelects the background color for the\n\t\t object's label.\n\nDefault: Control\n\nChecked\tDetermines if the RadioButton control\n\t\t is checked or not.\n\nDefault: 0 -\n\t\t False\n\nEnabled\tDetermines if the control is enabled\n\t\t or not.\n\nDefault: 1 -\n\t\t True\n\nEventTaskType\tThe type of task used for events.\n\nDefault: 0 -\n\t\t Normal\n\nFont\tSelects the font for the text in the\n\t\t control.\n\nDefault: Microsoft\n\t\t Sans Serif, 8.25pt.\n\nFontBold\tThe bold attribute for the current font\n\t\t (Only available from SPEL+ programs).\n\nDefault: 0 - False\n\nFontItalic\tThe italic attribute for the current\n\t\t font (Only available from SPEL+ programs).\n\nDefault: 0 - False\n\nFontName\tThe name for the current font (Only\n\t\t available from SPEL+ programs).\n\nDefault: Microsoft Sans Serif\n\nFontSize\tThe size for the current font in points\n\t\t (Only available from SPEL+ programs).\n\nDefault: 8.25\n\nForeColor\tSelects the forecolor for the control.\n\nDefault: ControlText\n\nHeight\tSpecifies the height of the control.\n\nImage\tThe picture for the control.  To\n\t\t delete, press the [Delete] key.\n\nDefault: Empty\n\nImageAlign\tGets or sets the alignment of an image\n\t\t in the control.\n\nDefault: 5 -\n\t\t MiddleCenter\n\nLeft\tSpecifies\n\t\t the left location of the control.\n\nName\tUsed to assign a unique name to the\n\t\t RadioButton control.\n\nDefault: RadioButtonXX\n\nTabIndex\tSets the tab index for the control\n\nDefault: 0\n\nText\tSets the text for the RadioButton control.\n\nDefault: Name\n\t\t of control\n\nTextAlign\tDetermines alignment for the text.\n\nDefault: 1 -\n\t\t Left\n\nToolTipText\tSets the text\n\t\t for the tooltip.\n\nDefault: Empty\n\nTop\tSets the location of the top of the\n\t\t RadioButton control.\n\nVisible\tSets if the\n\t\t control is Visible or not.\n\nDefault: 1 -\n\t\t True\n\nWidth\tSets the width\n\t\t of the RadioButton control.\n\nEvent\tDescription\n\nClick\tExecutes when the user clicks the control\n\t\t with the mouse.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

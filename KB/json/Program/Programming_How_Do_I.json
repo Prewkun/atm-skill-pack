@@ -1,0 +1,12 @@
+{
+  "title": "Programming - How Do I?",
+  "file": "Programming_How_Do_I",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Programming - How Do I?\n\nProgramming - How Do I...?\n\nHow do I create programs?\n\nYou can create programs for your project using one of the following methods:\n\n\tSelect New\n\t from the File menu.\n\tSelect Edit\n\t from the Project menu.\n\tUse the Project Explorer context menu.  Right\n\t click on a folder and select New.\n\nHow do I use include files?\n\n\tCreate one or more include files in the current\n\t project.\n\tAdd #define statements in the include files.\n\tUse the #include statement in each program\n\t that needs to use definitions in an include file.\n\nHow do I handle errors?\n\nBy default, when an error occurs in a running program, it is handled by the system.  All tasks are paused and the source line that caused the error is highlighted in red.  Then all tasks must be stopped (you cannot continue).  You can handle errors in your programs and take the appropriate actions.  To handle errors in your programs, use the OnErr statement to define an error handler in one or more functions.   You should have at least one error handler in each of the main functions you are using.  For more details see Error handling.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

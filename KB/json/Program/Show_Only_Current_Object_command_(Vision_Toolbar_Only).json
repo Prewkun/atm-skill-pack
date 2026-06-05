@@ -1,0 +1,12 @@
+{
+  "title": "Show Only Current Object command (Vision Toolbar Only)",
+  "file": "Show_Only_Current_Object_command_(Vision_Toolbar_Only)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Show Only Current Object command (Vision Toolbar Only)\n\nShow Only Current Object (Vision Toolbar Only)\n\nWhen there are many objects in a sequence, sometimes it is difficult to select and work with the desired object.  By clicking the [Show Only Current Object] button, then only the current active object is displayed.  To display all objects again, click the Show Only Current Object again.  When only the current object is displayed, you can select which object to display by selecting it in the Objects list.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

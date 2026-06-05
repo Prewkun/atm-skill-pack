@@ -1,0 +1,14 @@
+{
+  "title": "PTCLR Statement",
+  "file": "PTCLR_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "PTCLR  [j1], [j2], [j3], [j4], [j5], [j6], [j7], [j8], [j9]",
+  "parameters": "j1 - j9\tOptional.  Integer expression representing the joint number.  If no parameters are supplied, then the peak torque values are cleared for all joints.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "PTCLR clears the peak torque values for the specified joints.\n\nYou must execute PTCLR before executing PTRQ.",
+  "notes": "",
+  "see_also": "Clears and initializes the peak torque for one or more joints.\n\nATRQ\n\nPTRQ\n\nPTCLR Statement Example\n\n> ptclr\n\n> go p1\n\n\t\t> ptrq 1\n\n\t\t0.227\n\n\t\t> ptrq\n\n\t\t0.227\n    0.118\n\n\t\t0.249\n    0.083\n\n\t\t0.000\n    0.000",
+  "examples": [
+    "> ptclr\n\n\t\t\t> go p1\n\t\t> ptrq 1\n\t\t0.227\n\t\t> ptrq\n\t\t0.227\n    0.118\n\t\t0.249\n    0.083\n\t\t0.000\n    0.000"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Window",
+  "file": "Part_Feeding_Window",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Window\n\nPart Feeding Window\n\nThe Part Feeding dialog is opened by selecting Epson RC+ 8.0-Menu-[Tools]-[Part Feeding].\n\nHere you can perform the following actions.\n\n1.  Configure part parameters.\n\n2.  Calibrate the feeder and manual adjustment/test.\n\nAnyone can easily calibrate by following the on-screen instructions.\n\nManual adjustment / test allows fine adjustment of feeder parameters and can be easily tested with the touch of a button.\n\nNote:\n  The Part Feeding window will not appear if Epson RC+ is not connected to the Controller.  An error will occur when attempting to open the Part Feeding window using a virtual controller or when offline.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

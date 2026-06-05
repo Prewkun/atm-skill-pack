@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Parts Detection Example",
+  "file": "Part_Feeding_Parts_Detection_Example",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Parts Detection Example\n\nExample of not picking up when contacting with the next parts\n\nThis section is an example of not making to the picking up object detecting the contact and a space with the next parts little.\n\nThe vision sequence is made as well as Parts that Require Gripper Clearance.\n\nNo contacting with the next parts.\n\nContacting with the next parts.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ECP Coordinate Systems (Option)",
+  "file": "ECP_Coordinate_Systems_(Option)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ECP Coordinate Systems (Option)\n\nECP Coordinate Systems (Option)\n\nSpecify a coordinate system whose origin point is on the tip of the outside fixed tool (hereafter referred to as the external control point or ECP) to move the robot arm holding a part in the trajectory made on the external control point along with the part's edges.\n\nThe following figures give a concrete example.\n\nAn ordinal Move statement controls the moving speed and orientation change of the tool center point (TCP). In the case of Move statement with the ECP argument, the part's edge is controlled to take a straight and constant-speed trajectory instead of TCP.\n\nIn the following example of no ECP, TCP takes a straight trajectory but the part's edge is distant from ECP.\n\nIf there is no orientation change, the trajectory is the same as normal operation of Move command.\n\nThe following commands are available for optional ECP:\n\n\tMove command\n\tArc3 command\n\tCurve and CVMove commands\n\tECP jog motion in Robot Manager\n\nUse the ECPSet statement for defining an ECP coordinate system.  A maximum of 15 ECP coordinate systems can be defined.\n\nFor details, refer to ECP Motion.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

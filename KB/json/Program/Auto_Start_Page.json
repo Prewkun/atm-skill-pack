@@ -1,0 +1,12 @@
+{
+  "title": "Auto Start Page",
+  "file": "Auto_Start_Page",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Auto Start Page\n\n[Setup]-[System Configuration]-[Startup]-[Auto Start] Page\n\nItem\tDescription\n\nAuto\n\t\t Start Epson RC+ after Windows start\tCheck\n\t\t this box if you want Epson RC+ 8.0 to automatically start after\n\t\t Windows starts.\n\nCommand\n\t\t line options\tEnter\n\t\t the command line options used when Epson RC+ 8.0 is automatically\n\t\t started. This is enable only when the [Start Epson RC+ 8.0 after\n\t\t Windows start] checkbox is checked. Up to 1024 characters can\n\t\t be entered.\n\nAuto\n\t\t start SPEL+ program\tIn Auto\n\t\t Mode, check this box if you want to execute the main program after\n\t\t a delay.\n\nThis is active only when starting in Operator\n\t\t mode and the control device is \"PC\".",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

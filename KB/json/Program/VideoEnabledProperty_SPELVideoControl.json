@@ -1,0 +1,12 @@
+{
+  "title": "VideoEnabled Property, SPELVideo Control",
+  "file": "VideoEnabledProperty_SPELVideoControl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "VideoEnabled\n\nType\n\nBoolean\n\nDefault Value\n\nFalse",
+  "parameters": "",
+  "description": "Determines whether video is displayed.",
+  "notes": "",
+  "see_also": "Camera\n\nGraphicsEnabled",
+  "examples": []
+}

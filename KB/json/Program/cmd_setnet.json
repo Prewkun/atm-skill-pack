@@ -1,0 +1,14 @@
+{
+  "title": "SetNet Statement",
+  "file": "cmd_setnet",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) SetNet #portNumber, hostAddress [, TCP_IP_PortNum [, terminator [, SWFlow [, timeOut, [, protocol [, CloseNet timeout]]]]]]\n\n(2) SetNet",
+  "parameters": "portNumber\tSpecifies which TCP/IP port to set parameters for. Valid values are 201 - 216.\n\nhostAddress\tSpecifies the host IP address.\n\nTCP_IP_PortNum\tSpecifies the TCP/IP port number for this node.\n\nterminator\tSpecifes the line termination characters. Valid values are CR, LF, CRLF.\n\nSWFlow\tSpecifies software control. Valid value is NONE.\n\ntimeOut\tSpecifes the maximun time for transmit or receive in seconds. If this value is 0, then there is no time out.\n\nprotocol\tSpecifies the protocol (TCP/UDP/UDP_SEND/UDP_RECV) of communication.\n\nTCP: TCP communication\n\nUDP: UDP communication\n\nUDP_SEND: UDP send\n\nUDP_RECV: UDP receive\n\nCloseNet timeOut\tSpecifies the time before closing the socket with CloseNet in seconds. (Integer from 0 to 5)\n\nWhen 0 is set, closes the socket without waiting for a response to the shutdown request.",
+  "description": "Parameters are stored to the Compact Flash inside the Controller.  When you execute SetNet, the data is written to the Compact Flash.  If a data is written to the Compact Flash frequently, it may shorten the Compact Flash life.  Using SetNet only when changing the parameter is recommended.",
+  "notes": "",
+  "see_also": "OpenNet\n\nWaitNet\n\nCloseNet\n\nSetCom\n\nSetNet Statement Example\n\nSetNet #201, \"192.168.0.1\", 2001, CRLF, NONE, 0, TCP, 5",
+  "examples": [
+    "SetNet #201, \"192.168.0.1\", 2001, CRLF, NONE, 0, TCP, 5"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "VSD Function",
+  "file": "VSD_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "VSD Function\n\nVSD Function",
+  "notes": "",
+  "see_also": "Returns the setting of the variable speed CP motion function for SCARA robot.\n\nVSD",
+  "examples": [
+    "If VSD = Off Then\n   Print \"Variable Speed Drive is off\"\nEndIf"
+  ]
+}

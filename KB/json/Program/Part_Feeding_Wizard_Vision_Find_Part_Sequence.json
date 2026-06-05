@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Vision Find Part Sequence",
+  "file": "Part_Feeding_Wizard_Vision_Find_Part_Sequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Vision Find Part Sequence\n\nVision Find Part Sequence\n\nThis screen is used to configure vision settings.\n\nItem\tDescription\n\nPart Vision Sequence\tRequired setting: This field is mandatory.\n\nSelect the name of the vision sequence\n\t\t used to detect parts.\n\nOnly sequence with robot calibrations\n\t\t can be selected.\n\nVision Object for front of part\tRequired setting: This field is mandatory.\n\nSelect the name of the vision object used\n\t\t to detect parts for picking up.  Only objects that return\n\t\t RobotXYU results are displayed.\n\nVision Object for back of part\tThis field is mandatory when flip is\n\t\t required (refer to General).\n\nSelect the name of the vision object used\n\t\t to detect parts that cannot be picked up because they are facing\n\t\t down  Only objects that return RobotXYU results are displayed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

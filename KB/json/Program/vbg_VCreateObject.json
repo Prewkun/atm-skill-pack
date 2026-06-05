@@ -1,0 +1,15 @@
+{
+  "title": "VCreateObject Method, Spel Class",
+  "file": "vbg_VCreateObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VCreateObject (Sequence As String, ObjectName As String, ObjectType As SpelVisionObjectTypes)",
+  "parameters": "Sequence\tString expression containing the name of a vision sequence in the current EPSON RC+ 7.0 project.\n\nObjectName\tString expression containing the name of an object to create in sequence Sequence.\n\nObjectType\tA SpelVisionObjectTypes that specifies the vision object type. (Constants shown below are also available)\n\nObject Type\tSpelVisionObjectTypes\tValue\n\nCorrelation\tCorrelation\t1\n\nBlob\tBlob\t2\n\nEdge\tEdge\t3\n\nPolar\tPolar\t4\n\nLine\tLine\t5\n\nPoint\tPoint\t6\n\nFrame\tFrame\t7\n\nImageOp\tImageOp\t8\n\nOcr\tOcr\t9\n\nCodeReader\tCodeReader\t10\n\nGeometric\tGeometric\t11\n\nColor Match\tColorMatch\t14\n\nLine Finder\tLineFinder\t15\n\nArc Finder\tArcFinder\t16\n\nDefect Finder\tDefectFinder\t17\n\nLine Inspector\tLineInspector\t18\n\nArc Inspector\tArcInspector\t19\n\nBox Finder\tBoxFinder\t20\n\nCorner Finder\tCornerFinder\t21\n\nContour\tContour\t22\n\nText\tText\t23\n\nDecision\tDecision\t26\n\nCoordinates\tCoordinates\t27",
+  "description": "Creates a vision object in the current project.",
+  "notes": "For a complete list of vision properties and how to use them, see the Vision Guide manuals.",
+  "see_also": "VCreateSequence\n\nVDeleteObject\n\nVDeleteSequence\n\nVCreateObject Example\n\nVB Example:\n\nm_spel.VCreateObject (\"myseq\", \"myblob\", SpelVisionObjectTypes.Blob)\n\nC# Example:\n\nm_spel.VCreateObject (\"myseq\", \"myblob\", SpelVisionObjectTypes.Blob);",
+  "examples": [
+    "m_spel.VCreateObject (\"myseq\", \"myblob\", SpelVisionObjectTypes.Blob)",
+    "m_spel.VCreateObject (\"myseq\", \"myblob\", SpelVisionObjectTypes.Blob);"
+  ]
+}

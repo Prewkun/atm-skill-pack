@@ -1,0 +1,12 @@
+{
+  "title": "Get and Set vision properties and results",
+  "file": "Get_and_Set_vision_properties_and_results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get and Set vision properties and results\n\nGet and Set vision properties and results\n\nUse VGet and VSet to retrieve and set property values just as you would when SPEL+ is running.  You cannot retrieve any robot coordinates if the calibration is for a mobile camera.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

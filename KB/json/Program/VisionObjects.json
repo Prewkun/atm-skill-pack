@@ -1,0 +1,12 @@
+{
+  "title": "Vision Objects",
+  "file": "VisionObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Objects\n\nVision Objects\n\nOverview\n\nVision Object Definition\n\nAnatomy of a Vision Object\n\nImageOp Object\n\nGeometric Object\n\nCorrelation Object\n\nBlob Object\n\nEdge Object\n\nPolar Object\n\nFrame Object\n\nLine Object\n\nCodeReader Object\n\nOCR Object\n\nPoint Object\n\nLineFinder Object\n\nArcFinder Object\n\nArcInspector Object\n\nLineInspector Object\n\nDefectFinder Object\n\nColorMatch Object\n\nBoxFinder Object\n\nCornerFinder Object\n\nContour Object\n\nText Object\n\nDecision Object\n\nCoordinates Object\n\nWorking with Multiple Results from a Single Object\n\nTurning All Vision Object Labels On and Off\n\nTurning All Vision Object Graphics On\n\nDelete Object command (Vision Menu or Toolbar)\n\nShow Only Current Object command (Vision Toolbar Only)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Model Property",
+  "file": "Model_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the model name of the force sensor.",
+  "notes": "This property is used when confirming the model name of the force sensor.",
+  "see_also": "Applies To\n\nForce Trigger\n\nOperator Property",
+  "examples": [
+    "Function Test_Model String model$ FGet FS1.Model, model$ Print model$\nFend"
+  ]
+}

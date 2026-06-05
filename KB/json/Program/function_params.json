@@ -1,0 +1,12 @@
+{
+  "title": "Function Parameters Dialog",
+  "file": "function_params",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Function Parameters Dialog\n\nFunction Parameters Dialog\n\nThis dialog appears when a function is started from the Run window that requires parameters.\n\nThe function syntax is displayed above the Parameters text box.\n\nEnter the parameters, separated by commas.\n\nClick OK to run the function, or Cancel to abort.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

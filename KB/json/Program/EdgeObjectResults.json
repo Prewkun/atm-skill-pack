@@ -1,0 +1,12 @@
+{
+  "title": "Edge Object Results",
+  "file": "EdgeObjectResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Edge Object Results\n\nEdge Object Results\n\nThe following list is a summary of the Edge object results with brief descriptions.  The details for each result are explained in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nResult\tDescription\n\nCameraX\tReturns the X coordinate position of the\n\t\t found Edge's position in the camera coordinate frame.\n\nCameraY\tReturns the\n\t\t Y coordinate position of the found Edge's position in the camera\n\t\t coordinate frame.\n\nCameraXYU\tRuntime only.\n\t\t Returns the CameraX, CameraY, and CameraU coordinates of the found\n\t\t part's position in the camera coordinate frame.\n\nClearanceOK\tReturns the\n\t\t result of decision for a clearance.\n\nContrast\tReturns the\n\t\t contrast of the found Edge.\n\nFound\tReturns whether\n\t\t the object was found. (i.e. did the feature or part you are looking\n\t\t at have a score which is above the Accept property's current setting.)\n\nNumberFound\tReturns the\n\t\t number of Edges found.\n\n(The detected\n\t\t number can be from 0 up to the number set with the NumberToFind\n\t\t property.)\n\nPassed\tReturns whether\n\t\t the object detection result was accepted.\n\nPixelX\tReturns the\n\t\t X coordinate position of the found Edge's position in pixels.\n\nPixelY\tReturns the\n\t\t Y coordinate position of the found Edge's position in pixels.\n\nPixelXYU\tRuntime only.\n\t\t Returns the PixelX, PixelY, and PixelU coordinates of the found\n\t\t Edge position in pixels.\n\nRobotX\tReturns the X coordinate position of the\n\t\t found Edge's position with respect to the Robot's Coordinate System.\n\nRobotY\tReturns the\n\t\t Y coordinate position of the found Edge's position with respect\n\t\t to the Robot's Coordinate System.\n\nRobotU\tReturns the\n\t\t U coordinate position of the found Edge's position with respect\n\t\t to the Robot's Coordinate System.\n\nRobotXYU\tRuntime only.\n\t\t Returns the RobotX, RobotY, and RobotU coordinates of the found\n\t\t Edge's position with respect to the Robot's Coordinate System.\n\nScore\tReturns an\n\t\t integer value that represents the overall score of the found edge.\n\nStrength\tReturns the\n\t\t strength of the found Edge.\n\nTime\tReturns the\n\t\t amount of time required to process the object (unit:  millisecond).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

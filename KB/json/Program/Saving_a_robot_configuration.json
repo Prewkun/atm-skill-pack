@@ -1,0 +1,12 @@
+{
+  "title": "Saving a robot configuration",
+  "file": "Saving_a_robot_configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Saving a robot configuration\n\nSaving robot calibration data\n\nYou can save and load individual robot calibration files. This is useful for moving a robot from one controller to another. When you save calibration data, a file is created with an MPD file extension. This file contains Hofs and CalPls values.\n\nTo save robot calibration data\n\nSelect\n\t [System Configuration] from the [Setup] menu.\n\nSelect\n\t [Controller]-[Robots]-[Robot**]-[Calibration].\n\nEnsure\n\t that the robot serial number is correct. The serial number will be\n\t used to create the default file name. It is recommended that the serial\n\t number be used.\n\nClick\n\t the [Save] button. Specify the destination directory and click the\n\t [Save] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

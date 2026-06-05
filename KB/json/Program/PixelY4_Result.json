@@ -1,0 +1,12 @@
+{
+  "title": "PixelY4 Result",
+  "file": "PixelY4_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Y (Y4) coordinate position for corner points of rectangles detected in a pixel coordinate system.",
+  "notes": "The pixel coordinates for the four corners of a rectangle can be retrieved as Pixel X1, 2, 3, 4 results and Pixel Y1, 2, 3, 4 results.  PixelY4 is used to retrieve the Y coordinate for the Corner4 point shown in the diagram below.",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: BoxFinder\n Result\n\nAngle Result\tRobotXYU\n\t\t Result\n\nRobotX Result\n\nPixelX Result\tX1 Property\n\nPixelX1\n\t\t Result\tX2 Property\n\nPixelY Result\tY1 Property\n\nPixelY1\n\t\t Result\tY2 Property\n\nPixelY2\n\t\t Result\n\nVision Objects: PixelY4 Result\n\nBoxFinder",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "YmmPerPixel Result",
+  "file": "YmmPerPixelResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Y millimeters/pixel value of the specified calibration.",
+  "notes": "YmmPerPixel is the number of millimeters per pixel along the camera Y axis. The calibration must be completed before YmmPerPixel can be retrieved.\n\nSee Also: YmmPerPixel Result\n\nFOVHeight Result\n\nFOVWidth Result\n\nXmmPerPixel\n\nYAvgError\n\nYMaxError",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

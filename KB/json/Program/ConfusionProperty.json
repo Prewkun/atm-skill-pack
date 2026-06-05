@@ -1,0 +1,12 @@
+{
+  "title": "Confusion Property",
+  "file": "ConfusionProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Indicates the amount of confusion expected in the image to be searched.  This is the highest shape score a feature can get that is not an instance of the feature for which you are searching. (i.e. Will there be patterns in the image which will \"confuse\" the searching algorithms?  To what level?)",
+  "notes": "Both the Confusion property and the Accept property affect searching and pattern finding speed.  The Confusion property allows the system to quit the Correlation Search or Polar Search before exploring all possible regions of the image, thus speeding up the process.\n\nSet the Confusion property based on the highest value you expect the \"wrong part\" to get (plus a margin for error).  The Confusion property should be greater than or equal to the Accept property.  Setting the Confusion property to a high value may increase the time of the search or find, but may be necessary to insure that the correct features are found.\n\nThe Confusion property becomes very important when there are multiple features within an image which are very similar. In these cases the proper setting of the Confusion property (i.e. at a high enough level) helps eliminate the wrong features from the Correlation Search or Polar Search.  However, when an image has few features which look the same then the Confusion property can be set a little lower.  This can help reduce processing time.\n\nSee Also: Confusion Property\n\nAccept Property\n\nScore Result\n\nVision Objects: Confusion Property\n\nCorrelation\n\nGeometric\n\nPolar",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric, Polar",
+  "examples": []
+}

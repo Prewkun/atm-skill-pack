@@ -1,0 +1,15 @@
+{
+  "title": "Space$ Function",
+  "file": "cmd_spacedol",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Space$(count)",
+  "parameters": "count\tThe number of spaces to put in the return string.",
+  "description": "Space$ returns a string of count space characters as specified by the user. Space$ can return up to 255 characters (the maximum number of characters allowed in a string variable).\n\nThe Space$ instruction is normally used to insert spaces before, after, or between other strings of characters.",
+  "notes": "",
+  "see_also": "Asc, Chr$, InStr, Left$, Len, LSet$, Mid$, Right$, RSet$, Str$, Val\n\nSpace$ Function Example\n\n> Print \"XYZ\" + Space$(1) + \"ABC\"\n\nXYZ ABC\n\n> Print Space$(3) + \"ABC\"\n\nABC\n\n>",
+  "examples": [
+    "> Print \"XYZ\" + Space$(1) + \"ABC\"\n\nXYZ ABC",
+    "> Print Space$(3) + \"ABC\"\n\nABC\n\n>"
+  ]
+}

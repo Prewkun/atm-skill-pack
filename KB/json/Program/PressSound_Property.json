@@ -1,0 +1,12 @@
+{
+  "title": "PressSound Property",
+  "file": "PressSound_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether a beep sounds when the control is clicked.",
+  "notes": "",
+  "see_also": "Applies To\n\nButton\n\nButton",
+  "examples": []
+}

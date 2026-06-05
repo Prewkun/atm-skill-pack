@@ -1,0 +1,12 @@
+{
+  "title": "ContactTorqueThresh Property",
+  "file": "ContactTorqueThresh_Property",
+  "section": "Operator",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a threshold of torque to determine the contact.\n\nIt is used when ContactOrient is rotation direction (+Tx to -Tz).\n\nIf the threshold set by this property is exceeded during execution of Contact object, the robot recognizes the contact and stops the motion.  Then, proceed to the next force guide object.\n\nValues\n\nWhen ContactOrient is in positive direction:\n\nMinimum value -1000\n\nMaximum value 0\n\nDefault:  -200\n\nWhen ContactOrient is in negative direction:\n\nMinimum value 0\n\nMaximum value 1000\n\nDefault:  -200\n\nSee Also: ContractTorqueThresh Property\n\nContactOrient Property",
+  "notes": "",
+  "see_also": "Applies To\n\nContact Object",
+  "examples": []
+}

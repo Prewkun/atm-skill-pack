@@ -1,0 +1,12 @@
+{
+  "title": "The property list toolbar and buttons",
+  "file": "The_property_list_toolbar_and_buttons",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The property list toolbar and buttons\n\nThe property list toolbar and buttons\n\nA toolbar and buttons are displayed above the property grid. The user can select properties for property list and result list (Default: Show basic properties).\n\nProperties:\n\nButton\tDescription\n\nShow\n\t\t basic properties:\n\nThe properties commonly used by the selected\n\t\t vision sequence, object, or calibration are displayed in the property\n\t\t list. Use this Basic mode if you are using the Vision Guide for\n\t\t the first time, or if you want to test the object with the minimum\n\t\t property value changes.\n\nShow\n\t\t advanced properties:\n\nAll properties available for the selected\n\t\t vision sequence, object, or calibration are displayed in the property\n\t\t list. Use this button to adjust for optimal vision operation by\n\t\t using all available properties and results.\n\nYour selection affects any sequence, object, or calibration and is remembered when Epson RC+ 8.0 is reopened.\n\nFor example, when you select Advanced properties, you will see advanced properties for all sequences, objects, and calibrations that you select.  After re-opening Epson RC+ 8.0, Advanced properties are displayed, which was your last selection.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

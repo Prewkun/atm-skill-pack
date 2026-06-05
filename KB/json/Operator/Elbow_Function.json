@@ -1,0 +1,14 @@
+{
+  "title": "Elbow Function",
+  "file": "Elbow_Function",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Elbow [(point)]",
+  "parameters": "point\tOptional.  Point expression.  If point is ommitted, then the elbow orientation of the current robot position is returned.",
+  "description": "Elbow Function\n\nElbow Function\n\nSee_Also",
+  "notes": "",
+  "see_also": "Elbow Statement, Hand, Wrist, J4Flag, J6Flag\n\nElbow Function Example\n\nPrint Elbow(pick)\n\nPrint Elbow(P1)\n\nPrint Elbow\n\nPrint Elbow(P1 + P2)",
+  "examples": [
+    "Print Elbow(pick)\n\nPrint Elbow(P1)\n\nPrint Elbow\n\n\t\t\tPrint Elbow(P1 + P2)"
+  ]
+}

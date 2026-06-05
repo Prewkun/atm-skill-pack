@@ -1,0 +1,12 @@
+{
+  "title": "Indent command (Edit menu)",
+  "file": "edit_indent_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Indent command (Edit menu)\n\nIndent command (Edit menu)\n : Tab\n\nMove the selected line one tab to the right.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "ECP Method, Spel Class",
+  "file": "vbg_ECP",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ECP ( ECPNumber As Integer)",
+  "parameters": "ECPNumber\tInteger number from 0-15 representing which of 16 ECP definitions to use with the next motion instructions.",
+  "description": "Selects the current ECP definition.",
+  "notes": "",
+  "see_also": "ECPSet\n\nECP Example\n\nVB Example:\n\nm_spel.ECP(1)\n\nm_spel.Move(\"P1 ECP\")\n\nC# Example:\n\nm_spel.ECP(1);\n\nm_spel.Move(\"P1 ECP\");",
+  "examples": [
+    "m_spel.ECP(1)\nm_spel.Move(\"P1 ECP\")",
+    "m_spel.ECP(1);\nm_spel.Move(\"P1 ECP\");"
+  ]
+}

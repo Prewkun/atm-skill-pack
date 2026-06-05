@@ -1,0 +1,25 @@
+{
+  "title": "CommandTask Property, Spel Class",
+  "file": "CommandTask_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property CommandTask As Integer\n\nDefault Value\n\nThe default value is 0 (do not use a reserved API task).",
+  "parameters": "",
+  "description": "Specifies the reserved API task to use in the Controller for executing robot commands.",
+  "notes": "Use CommandTask when you want to execute Spel robot commands on another thread in the Controller.  Normally, CommandTask is used on a multi-robot system.  Before using CommandTask, you must first reserve tasks in the Controller to be used by the API from Epson RC+ menu -[Setup]-[System Configuration]-[Controller]-[Preferences].  You can reserve up to 16 API tasks in the Controller.",
+  "see_also": "ServerInstance\n\nCommandTask Example\n\nVB Example:\n\n' In Robot1 thread\n\nm_spel.CommandTask = 1\n\nm_spel.Robot = 1\n\n' In Robot2 thread\n\nm_spel.CommandTask = 2\n\nm_spel.Robot = 2\n\nC#",
+  "examples": [
+    "' In Robot1 thread",
+    "m_spel.CommandTask = 1",
+    "m_spel.Robot = 1",
+    "' In Robot2 thread",
+    "m_spel.CommandTask = 2",
+    "m_spel.Robot = 2",
+    "// In Robot1 thread",
+    "m_spel.CommandTask = 1;",
+    "m_spel.Robot = 1;",
+    "// In Robot2 thread",
+    "m_spel.CommandTask = 2;",
+    "m_spel.Robot = 2;"
+  ]
+}

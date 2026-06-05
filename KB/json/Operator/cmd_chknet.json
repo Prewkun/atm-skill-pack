@@ -1,0 +1,14 @@
+{
+  "title": "ChkNet Function",
+  "file": "cmd_chknet",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "ChkNet (portNumber As Integer)",
+  "parameters": "portNumber\tTCP/IP port number (201 ~ 216)",
+  "description": "ChkNet Function\n\nChkNet Function\n\nSee_Also Example\n\nReturns number of characters in the reception buffer of a network port.",
+  "notes": "",
+  "see_also": "CloseNet\n\nOpenNet\n\nRead\n\nSetNet\n\nWrite\n\nChkNet Function Example\n\nInteger numChars\n\nnumChars = ChkNet(201)",
+  "examples": [
+    "Integer numChars\n\nnumChars = ChkNet(201)"
+  ]
+}

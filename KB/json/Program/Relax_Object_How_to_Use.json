@@ -1,0 +1,12 @@
+{
+  "title": "Relax Object How to Use",
+  "file": "Relax_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Relax Object How to Use\n\nRelax Object\n\nHow to use\n\n1. Specify the basic information.. (Name, Description, AutoStepID, StepID, AbortSeqOnFail property)\n\n2. Specify the I/O operation of when starting this object. (IOPreprocEnabled, IOPreprocOutputBit, IOPreprocOutputStatus property)\n\n3. Specify the control mode of each orientation. (Fx_ControlMode, ..., Tz_ControlMode property)\n\n4. Specify the firmness. (Fx_Firmness, ..., Tz_Firmness property)\n\n5. Specify the end condition about force. (ForceCheckEnabled, FollowCheckTolF, FollowCheckTolT, HoldTimeThresh property)\n\n6. Specify the end condition about I/O. (IOCheckEnabled, IOCheckInputBit, IOCheckInputStatus property)\n\n7. Specify the timeout time and the combination of end condition. (EndCheckOperator, Timeout property)\n\n8. Specify whether to connect the force control of this object and next force guide object. (CFEnabled property)\n\n9. Adjust parameter by cut and try. Mainly adjust the Firmness of each orientation, FollowCheckTolF, FollowCheckTolT, HoldTimeThresh property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

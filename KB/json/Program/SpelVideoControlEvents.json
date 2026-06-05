@@ -1,0 +1,12 @@
+{
+  "title": "SpelVideo Control Events",
+  "file": "SpelVideoControlEvents",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelVideo Control Events\n\nSpelVideo Control Events\n\nAll of the events for this control are standard .NET events.   See the Visual Basic on-line Help for details",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

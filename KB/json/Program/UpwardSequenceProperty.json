@@ -1,0 +1,12 @@
+{
+  "title": "UpwardSequence Property",
+  "file": "UpwardSequenceProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "UpwardSequence specifies the sequence used by an upward looking camera for a mobile calibration target reference.",
+  "notes": "",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

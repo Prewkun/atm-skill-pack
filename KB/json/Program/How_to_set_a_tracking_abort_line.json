@@ -1,0 +1,12 @@
+{
+  "title": "How to set a tracking abort line",
+  "file": "How_to_set_a_tracking_abort_line",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to set a tracking abort line\n\nHow to set a tracking abort line\n\nSet a tracking abort line in the following way.\n\nSelect\n\t [Tools]-[Conveyor Tracking].\n\nSelect\n\t the conveyor to configure.\n\nSelect\n\t [Track Abort Line].\n\nCheck\n\t the [Enable tracking abort line] checkbox.\n\n4.1  Click [Teach]. The GUI will be displayed.\n\n4.2\n  If you want to enable the diagonal tracking abort line, check the [Diagonal Track Abort Line] checkbox.\n\nClick [Teach]. The GUI will be displayed.\n\nFollow\n\t the steps in the window and finish the setting.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

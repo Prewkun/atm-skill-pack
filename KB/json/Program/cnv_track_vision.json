@@ -1,0 +1,12 @@
+{
+  "title": "Vision conveyors",
+  "file": "cnv_track_vision",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision conveyors\n\nVision conveyors\n\nA vision conveyor uses a camera to locate parts that will be retrieved by one or more robots.  In this section, instructions are provided for vision conveyor calibration.\n\nThe straight conveyor and circular conveyor have different calibration methods.\n\nVision conveyor camera and lighting\n\nVision calibration sequence\n\nVision conveyor calibration (Straight Conveyor)\n\nVision conveyor calibration (Circular Conveyor)\n\nVision conveyor operation check\n\nVision conveyor programming",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

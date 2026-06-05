@@ -1,0 +1,12 @@
+{
+  "title": "Controller - How Do I?",
+  "file": "Controller_How_Do_I",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controller - How Do I?\n\nController - How Do I...?\n\nHow do I backup and restore my controller settings?\n\nTo backup the current controller settings:\n\n\tSelect Controller\n\t from the Tools menu.\n\tClick the Backup\n\t Controller button.\n\nTo restore controller settings:\n\n\tSelect Controller\n\t from the Tools menu.\n\tClick the Restore\n\t Controller button.\n\nHow do I view controller error history?\n\nSelect System History from the View menu to view controller errors, events, and warnings.\n\nHow do I save and view controller status?\n\nYou can save the current controller status and send the information to Epson technical support when requested to do so.\n  You can save the current status of the controller using one of two methods:\n\n\tInsert a USB key into the USB device connector\n\t on the controller.  Then press the TRIG button to save the status\n\t on the USB key.\n\tSelect Controller from the Tools menu, then\n\t select Export Controller Status.  Choose the folder where you\n\t want to save the status information.\n\nTo view controller status data:\n\n\tSelect Controller from the Tools menu, then\n\t click the View Controller Status\n\t button.\n\tNavigate to the status folder and click OK.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

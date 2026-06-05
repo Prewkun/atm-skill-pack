@@ -1,0 +1,14 @@
+{
+  "title": "Hand_Label$ Function",
+  "file": "Hand_Label$_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "This function displays the hand label specified in the Configure Robot Hand screen. If a label has not been assigned, this will appear \" \" (blank).\n\nHand_Label$ Funcion Example\n\nPrint Hand_Label$(1)\n\nSee Also: Hand_Label$ Function\n\nHand_Number Function",
+  "notes": "",
+  "see_also": "Acquires the label set for the hand.",
+  "examples": [
+    "Print Hand_Label$(1)"
+  ]
+}

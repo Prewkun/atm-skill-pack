@@ -1,0 +1,15 @@
+{
+  "title": "Base Statement",
+  "file": "cmd_base",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) Base pCoordinateData\n\n(2) Base pOrigin, pXaxis, pYaxis, [ { X | Y } ]",
+  "parameters": "pCoordinateData\tPoint data representing the coordinate data of the origine and direction.\n\npOrigin\tInteger expression representing the origin point using robot coordinate system.\n\npXaxis\tInteger expression representing a point along the X axis using robot coordinate system if X alignment is specified.\n\npYaxis\tInteger expression representing a point along the Y axis using robot coordinate system if Y alignment is specified.\n\nX | Y\tOptional.  If X alignment is specified, then pXaxis is on the X axis of the new coordinate system and only the Z coordinate of pYaxis is used.  If Y alignment is specified, then pYaxis is on the Y axis of the new coordinate system and only the Z coordinate of pXaxis is used.  If omitted, X alignment is assumed.",
+  "description": "Defines the robot base coordinate system by specifying base coordinate system origin and rotation angle in relation to the robot absolute coordinate system.\n\nTo reset the Base coordinate system to default, execute the following statement. This will make the base coordinate system the same as the robot absolute coordinate system.\n\nBase XY(0, 0, 0, 0)\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "Changing the base coordinate system deletes affects all local definitions\n\nWhen base coordinates are changed, all local coordinate systems must be re-defined.",
+  "see_also": "Local\n\nBase Statement Example\n\nDefine base coordinate system origin at 100 mm on X axis and 100 mm on Y axis\n\n> Base XY(100, 100, 0, 0)",
+  "examples": [
+    "Base XY(0, 0, 0, 0)",
+    "> Base XY(100, 100, 0, 0)"
+  ]
+}

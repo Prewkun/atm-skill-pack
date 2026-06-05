@@ -1,0 +1,15 @@
+{
+  "title": "Or Operator",
+  "file": "cmd_or",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "expr1\n\t\t\tOr\n\t\t\texpr2",
+  "parameters": "expr1, expr2\tInteger or Boolean expressions.",
+  "description": "For integer expressions, the Or operator performs the bitwise OR operation on the values of the operands. Each bit of the result is 1 if one or both of the corresponding bits of the two operands is 1.  For Boolean expressions, the result is True if either of the expressions evaluates to True.",
+  "notes": "",
+  "see_also": "And\n\nLShift\n\nMod\n\nNot\n\nRShift\n\nXor\n\nOr Operator Example\n\nHere is an example of a bitwise OR.\n\n>print 1 or 2\n\n3\n\n>\n\nHere is an example of a logical OR.\n\nIf a = 1 Or b = 2 Then\n\n\t\t  c = 3\n\n\t\tEndIf",
+  "examples": [
+    ">print 1 or 2\n\n\t\t\t3\n\n\t\t\t>",
+    "If a = 1 Or b = 2 Then\n\t\t  c = 3\n\t\tEndIf"
+  ]
+}

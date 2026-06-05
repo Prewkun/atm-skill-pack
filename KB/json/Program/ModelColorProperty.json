@@ -1,0 +1,12 @@
+{
+  "title": "ModelColor Property",
+  "file": "ModelColorProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets / sets the color of a model.",
+  "notes": "The ModelColor property is used to set the color of a model at runtime.\n\nSee Also: ModelColor Property\n\nModelOK Property\n\nVision Objects: ModelColor Property\n\nColorMatch\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: ColorMatch, ImageOp",
+  "examples": []
+}

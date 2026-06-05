@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_QueReject Function",
+  "file": "cmd_cnv_quereject_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_QueReject (conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression that specifies the conveyor number (1 to 16)",
+  "description": "Cnv_QueReject Function\n\nCnv_QueReject Function\n\nSee_Also Example\n\nReturns the current part reject distance for a conveyor.",
+  "notes": "",
+  "see_also": "Cnv_QueGet\n\nCnv_QueReject Statement\n\nCnv_QueReject Function Example\n\nReal rejectDist\n\nRejectDist = Cnv_QueReject (1)",
+  "examples": [
+    "Real rejectDist\nRejectDist = Cnv_QueReject (1)"
+  ]
+}

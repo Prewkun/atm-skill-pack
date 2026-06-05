@@ -1,0 +1,15 @@
+{
+  "title": "VSetModelWin Method, Spel Class",
+  "file": "vbg_VSetModelWin",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VSetModelWin (Sequence As String, Object As String, Left As Integer, Top As Integer, Width As Integer, Height As Integer)",
+  "parameters": "Sequence\tString expression\n\t\t containing the name of a vision sequence in the current EPSON\n\t\t RC+ project.\n\nObject\tString expression\n\t\t containing the name of an object in sequence Sequence.\n\nLeft\tInteger expression\n\t\t representing left coordinate in pixels.\n\nTop\tInteger expression\n\t\t representing top coordinate in pixels.\n\nWidth\tInteger expression\n\t\t representing width in pixels.\n\nHeight\tInteger expression\n\t\t representing height in pixels.",
+  "description": "Sets model window coordinates.",
+  "notes": "",
+  "see_also": "VGetModelWin\n\nVGetSearchWin\n\nVSetSearchWin\n\nVSetModelWin Example\n\nVB",
+  "examples": [
+    "Dim left As Integer, top As Integer\nDim width As Integer, height As Integer\n\nWith m_spel\n    .VGetModelWin(\"testSeq\", \"corr01\", left, top, _ width, height)\n    .VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, _ width, height)\n    .VTeach(\"testSeq\", \"corr01\")\nEnd With",
+    "int left, top, width, height;\n\nm_spel.VGetModelWin(\"testSeq\", \"corr01\", out left, out top, out width, out height);\nm_spel.VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, width, height);\nm_spel.VTeach(\"testSeq\", \"corr01\");"
+  ]
+}

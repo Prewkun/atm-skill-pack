@@ -1,0 +1,12 @@
+{
+  "title": "CodeType Property",
+  "file": "CodeTypeProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns which type of bar code or matrix code to search for with the CodeReader object.",
+  "notes": "CodeType specifies the type of bar codes (one- or two-dimensional) to be searched for by the CodeReader object.\n\nCodeType is set to \"Auto\" as default, and the code types are detected automatically.",
+  "see_also": "Applies To\n\nVision Objects: CodeReader\n\nFound Result\n\nVision Objects: CodeType Property\n\nCodeReader",
+  "examples": []
+}

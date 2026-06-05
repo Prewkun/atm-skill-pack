@@ -1,0 +1,12 @@
+{
+  "title": "Start Mode",
+  "file": "Start_Mode",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start Mode\n\nStart Mode\n\nThe Start mode specifies the operation mode for Epson RC+ 8.0 when it starts.\n\nYou can set the Epson RC+ 8.0 to start in AUTO or PROGRAM mode.\n\nFor information on how to change the start mode, refer to Operation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Frame Object Layout",
+  "file": "FrameObjectLayout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Frame Object Layout\n\nFrame Object Layout\n\nThe Frame object looks like 2 Line objects which intersect.  The user can adjust the position of the Frame object by clicking on the Frame object's name and then dragging the object to a new position.  However, in most cases the Frame object position and orientation will be based on other vision object's position.\n\nFrame Object Layout",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

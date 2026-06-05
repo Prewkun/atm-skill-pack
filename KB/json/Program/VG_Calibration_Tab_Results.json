@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Tab: Results List",
+  "file": "VG_Calibration_Tab_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Tab: Results List\n\nCalibration Window: Results list\n\nThe results for the Vision Calibration are shown in the Results list that is located just below the Properties list.\n\nFor details on camera calibration, refer to Calibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "CommandInCycle Property, Spel Class",
+  "file": "CommandInCycle_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property CommandInCycle As Boolean",
+  "parameters": "",
+  "description": "Returns whether a method is being executed.",
+  "notes": "",
+  "see_also": "AsyncMode\n\nCommandInCycle Example\n\nVB Example:\n\nIf m_spel.CommandInCycle Then\n\n    MsgBox \"A SPEL command is executing, operation aborted\"\n\nEnd If\n\nC#",
+  "examples": [
+    "If m_spel.CommandInCycle Then\n    MsgBox \"A SPEL command is executing, operation aborted\"\nEnd If",
+    "if (m_spel.CommandInCycle)",
+    "MessageBox.Show(\"SPEL command is executing, operation aborted\");"
+  ]
+}

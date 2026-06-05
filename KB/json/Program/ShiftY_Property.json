@@ -1,0 +1,12 @@
+{
+  "title": "ShiftY Property",
+  "file": "ShiftY_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the amount of Shift of Y direction.",
+  "notes": "ShiftY can be set when the Operation of ImageOp is set \"Shift\".  When ShiftObject is set other than \"None\", the set value of ShiftX and ShiftY is invalid and the Shift processing is executed by the detection position of the object set to ShitObject.  When ShiftObject is set \"None\", Shift processing is executed by the set value of ShiftX and ShiftY.",
+  "see_also": "Applies To\n\nVision Objects: ImageOp\n\nImageOp Object\n\nOperation Property\n\nShiftObject Property\n\nShiftX Property\n\nVision Sequences",
+  "examples": []
+}

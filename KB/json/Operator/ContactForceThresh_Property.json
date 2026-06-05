@@ -1,0 +1,12 @@
+{
+  "title": "ContactForceThresh Property",
+  "file": "ContactForceThresh_Property",
+  "section": "Operator",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a threshold of force to determine the contact.\n\nIt is used when ContactOrient is the translation direction (+Fx to -Fz).\n\nIf the threshold set by this property is exceeded during execution of Contact object, the robot recognizes that the robot is contacted and stops the motion.  Then, proceed to the next force guide object.\n\nValues\n\nWhen ContactOrient is in positive direction:\n\nMinimum value -10\n\nMaximum value 0\n\nDefault:  -5\n\nWhen ContactOrient is in negative direction:\n\nMinimum value 0\n\nMaximum value 10\n\nDefault:  5\n\nSee Also: ContractForceThresh Property\n\nContactOrient Property",
+  "notes": "",
+  "see_also": "Applies To\n\nContact Object, ContactProbe Object",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Grid Editor",
+  "file": "Grid_Editor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Grid Editor\n\nGrid Editor\n\nThe grid editor is a dialog where the user can modify and set up the grid control.  It is only available at design time. It has many properties to set in order to best suit the user's needs. To get more information on the Grid Editor, refer to the GridEditor property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

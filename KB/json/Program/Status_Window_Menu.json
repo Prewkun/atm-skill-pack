@@ -1,0 +1,12 @@
+{
+  "title": "Status Window Menu",
+  "file": "Status_Window_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Status Window Menu\n\n[Status Window] (View Menu)\n\nSelect this to display the [Status Window].\n\nThe status pane displays status messages, such as project build status, system errors and warnings, etc.\n\nThe Status Window is located at the bottom of the main window by default. The Status Window can be moved to any position.\n\nNOTE: If the Status Window is closed and a message is displayed on the Status Window, such as during project build, the Status Window will automatically be opened so that the message can be seen.\n\n[Search Results] Command (View Menu)\n\nSelect this to display the [Search Results].\n\nExecute [Find All] in the [Find & Replace] dialog to show the search results.\n\nEach result shows the file name, line number, and line where the text was found. You can then double click on a result to open the file where the text was found.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Operator Property",
+  "file": "Operator_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the trigger conditions for Force Trigger Objects.",
+  "notes": "When OR conditions are selected, the trigger is pulled when any one of the conditions active in the XX_Enable Property is met.\n\nWhen AND conditions are selected, the trigger is pulled when all of the conditions active in the XX_Enable Property are met.",
+  "see_also": "Applies To\n\nForce Trigger\n\nNumber Property",
+  "examples": [
+    "Function Test_Operator Integer iVar FSet FT1.Fx_Enabled, True ' Activates X axis FSet FT1.Fy_Enabled, True ' Activates Y axis FSet FT1.Operator, FG_AND ' Sets the trigger condition to an AND condition FGet FT1.Operator, iVar ' Confirms the current trigger conditions Print iVar\nFend"
+  ]
+}

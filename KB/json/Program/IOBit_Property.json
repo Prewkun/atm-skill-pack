@@ -1,0 +1,12 @@
+{
+  "title": "IOBit Property",
+  "file": "IOBit_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the number of the I/Obit that indicates it to the LED Control.",
+  "notes": "",
+  "see_also": "Applies To\n\nLED Control\n\nIOType Property\n\nGUI Items: IOBit Property\n\nLED Control",
+  "examples": []
+}

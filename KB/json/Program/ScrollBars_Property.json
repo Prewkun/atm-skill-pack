@@ -1,0 +1,14 @@
+{
+  "title": "ScrollBars Property",
+  "file": "ScrollBars_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets which scroll bars should appear in a multiline TextBox control.",
+  "notes": "To use ScrollBars, the Multiline property for the TextBox control must be set to True.\n\nTo display the horizontal scroll bar, set WordWrap property to 0 - False.\n\nSee Also: ScrollBars Property\n\nMultiLine Property\n\nGUI Items: ScrollBars Property\n\nGrid\n\nTextBox",
+  "see_also": "Applies To\n\nTextBox, Grid",
+  "examples": [
+    "GSet frmMain.txtStatus.Scrollbars, SCROLLBARS_VERT"
+  ]
+}

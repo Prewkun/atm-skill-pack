@@ -1,0 +1,12 @@
+{
+  "title": "How to Cancel the Alarm",
+  "file": "How_to_Cancel_the_Alarm",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to Cancel the Alarm\n\nHow to Cancel the Alarm\n\nAn alarm occurs when it reaches the set expiration time.\n\nThere are following two methods to cancel the alarm.\n\nFrom the [Change Alarm] dialog box\n\nBy the input bit of the Remote I/O\n\nNote:  The alarm cannot be canceled by executing the Reset command or restarting the controller.\n\nAlarm Cancellation Dialog\n\nThe alarm can be canceled from the EPSON RC+ 7.0.\n\nBy referring to How to Edit the Alarm, change the alarm information in the same steps.\n\nRemote Input\n\nThe alarm can be canceled by the input bit of the Remote I/O.\n\nFor details, refer to the EPSON RC+ 7.0 User's Guide 12.1 Remote I/O.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

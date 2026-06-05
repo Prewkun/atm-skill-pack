@@ -1,0 +1,12 @@
+{
+  "title": "Adding the additional S axis",
+  "file": "Adding_S_Axis",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Adding the additional S axis\n\nAdding the additional S axis\n\nIn\n\t the Epson RC+ 8.0 menu, select [Setup]-[System Configuration]-[Robots]-[Robot**]-[Additional\n\t Axes].\n\nClick\n\t the [Add] button. The dialog shown below appears.\n\nSelect\n\t \"PG\" for a motion system.\n\nSelect\n\t a [PG Board A].\n\nClick\n\t the [OK] button. The controller will be restarted.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

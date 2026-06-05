@@ -1,0 +1,12 @@
+{
+  "title": "Contour Results",
+  "file": "Contour_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Contour Results\n\nContour Object Results\n\nThe following list is a summary of the Contour object results with brief descriptions. For details on each result, refer to Vision Guide 8.0 Properties and Results Reference.\n\nResults\tDescription\n\nCameraX\tReturns the\n\t\t X coordinate position of the contour point in the Camera coordinate\n\t\t system.\n\nCameraY\tReturns the\n\t\t Y coordinate position of the contour point in the Camera coordinate\n\t\t system.\n\nCameraXYU\tRuntime only.\n\nReturns the\n\t\t CameraX, CameraY, and CameraU coordinates of the contour point\n\t\t in the camera coordinate system.\n\nFound\tReturns whether\n\t\t the object was found.\n\nNumberFound\tReturns the\n\t\t total number of contour points.\n\nPassed\tReturns whether\n\t\t the object detection result was accepted.\n\nPixelX\tReturns the\n\t\t X coordinate of the contour point in pixels.\n\nPixelY\tReturns the\n\t\t Y coordinate of the contour point in pixels.\n\nPixelXYU\tRuntime only.\n\nReturns the\n\t\t PixelX, PixelY, and PixelU coordinates of the contour point position\n\t\t in pixels.\n\nRobotX\tReturns the\n\t\t X coordinate position of the contour point in the Robot coordinate\n\t\t system.\n\nRobotY\tReturns the\n\t\t Y coordinate position of the contour point in the Robot coordinate\n\t\t system.\n\nRobotXYU\tRuntime only.\n\nReturns the\n\t\t RobotX, RobotY, and RobotU coordinates of the contour point with\n\t\t respect to the Robot Coordinate System.\n\nShowAllResults\tDisplays a\n\t\t dialog box showing all results of the specified vision object\n\t\t in a table form.\n\nThis makes it\n\t\t easy to compare results.\n\nTime\tReturns the\n\t\t amount of time required to process the object (unit: millisecond)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

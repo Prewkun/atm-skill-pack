@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Calculate Tool Offset for Gripper/Rod",
+  "file": "Step_2__Calculate_Tool_Offset_for_Gripper_Rod",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Calculate Tool Offset for Gripper/Rod\n\nStep 2: Use the Tool Wizard to create a new tool\n\nIn order to use the robot with a vision system for a guidance application requires that precise measurement of the position of the tool or gripper mounted at the end of the arm.  Some tools are offset from the center of the Z-axis flange and other tools are mounted in line with the center of the Z-axis.  Regardless of how careful we are when mounting robot tooling, you can almost always guarantee that there will be some offset from the center of the Z axis.  For this reason we must use the Tools feature of SPEL+  to compensate for this adjustment.\n\nA good understanding of  tools is required to use Vision Guide for robot guidance.  We will use the Tool Wizard feature to create a tool for our calibration rod (gripper).\n\nClick\n\t the [Tools] tab.\n\nClick\n\t the [Tool Wizard] button.\n\nFor\n\t the first point in the Tool Wizard, jog the robot to the target position\n\t (position of washer on your paper target) so that the rod or gripper\n\t is located exactly in the center of the washer.  You will need\n\t to jog the robot downward so that you are close to touching the paper\n\t but don't quite touch the paper. (Anywhere from 5 to 10 mm space above\n\t the paper will be fine.  You just need to jog as close to the\n\t paper as is required to be able to see the rod (or gripper) well enough\n\t to center it on the washer.\n\nFor\n\t the second point in the Tool Wizard, jog the U axis approximately\n\t 180 deg, then jog the rod (or gripper) until it is centered over the\n\t washer.\n\nClick\n\t the [Finish] button to define the new tool and exit the Tool Wizard.\n\t  We have just defined the parameters for Tool 1.\n\nThe new tool values for Tool 1 will appear as shown in the figure below.\n\nThe [Tools] Tab (for defining tools)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

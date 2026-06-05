@@ -1,0 +1,12 @@
+{
+  "title": "[Part Feeding] (Tools menu)",
+  "file": "tools_PF_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Part Feeding] (Tools menu)\n\n[Part Feeding] (Tools menu)\n : Ctrl+F12\n\nOpens the [Part Feeding] window. For more details, refer to the following manual:\n\n  Epson RC+ 8.0 Option Part Feeding 8.0 Introduction & Software\n\n  Software  2.2 Part Wizard",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

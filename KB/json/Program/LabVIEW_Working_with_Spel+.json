@@ -1,0 +1,12 @@
+{
+  "title": "LabVIEW Working with Spel+",
+  "file": "LabVIEW_Working_with_Spel+",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "LabVIEW Working with Spel+\n\nWorking with Spel+ projects\n\nUsing a Spel+ project with your LabVIEW application is optional.  However, if you will be saving point data, or you want to use point labels and / or I/O labels, tasks, or vision sequences, then you will need to use a Spel+ project.\n\nBy default, the project is LabVIEW_Default, located in the \\EpsonRC80\\Projects\\LabVIEW folder.\n\nIf desired, you can create your own projects using Epson RC+ 8.0, and then specify which project you want to use with the Initialize VI Project input parameter, as shown below:\n\nTo work with Epson RC+ 8.0 projects, start the Epson RC+ 8.0 application.  Use the Project menu to create, open, and edit projects.  For more information, see the Epson RC+ 8.0 User's Guide.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

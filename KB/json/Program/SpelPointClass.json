@@ -1,0 +1,16 @@
+{
+  "title": "SpelPoint Class",
+  "file": "SpelPointClass",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelPoint Class\n\nSpelPoint Class\n\nThe SpelPoint class can be used in several motion methods and also in the GetPoint and SetPoint methods.\n\nHere are some examples:\n\nDim pt As New RCAPINet.SpelPoint(25.5, 100.3, -21, 0)\n\nm_spel.Go(pt)\n\nDim pt As New RCAPINet.SpelPoint\n\npt.X = 25.5\n\npt.Y = 100.3\n\npt.Z = -21\n\nm_spel.Go(pt)\n\nDim pt As New RCAPINet.SpelPoint\n\npt = m_spel.GetPoint(\"P*\")\n\npt.Y = 222\n\nm_spel.Go(pt)\n\nSpelPoint Properties\n\nX As Single\n\nY As Single\n\nZ As Single\n\nU As Single\n\nV As Single\n\nW As Single\n\nR As Single\n\nS As Single\n\nT As Single\n\nHand As SpelHand\n\nElbow As SpelElbow\n\nWrist As SpelWrist\n\nLocal As Integer\n\nJ1Flag As Integer\n\nJ2Flag As Integer\n\nJ4Flag As Integer\n\nJ6Flag As Integer\n\nJ1Angle As Single\n\nJ4Angle As Single\n\nSpelPoint Methods\n\nSub Clear ()\n\nClears all point data.\n\nSub New ()\n\nThe default constructor. Creates an empty point (all data is cleared).\n\nSub New (X As Single, Y As Single, Z As Single, U As Single [, V As Single] [, W As Single])\n\nThe optional constructor for a new point that specifies coordinates.\n\nFunction ToString([Format As String]) As String\n\nOverride for ToString that allows a Format to be specified. This returns the point as defined in SPEL+.\n\nFormat can be:\n\nEmpty\tReturns the entire point with all coordinates and attributes.\n\n\"XY\"\tReturns \"XY(...)\"\n\n\"XYST\"\tReturns \"XY(...) :ST(...)\"",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Dim pt As New RCAPINet.SpelPoint(25.5, 100.3, -21, 0)\nm_spel.Go(pt)",
+    "Dim pt As New RCAPINet.SpelPoint\npt.X = 25.5\npt.Y = 100.3\npt.Z = -21\nm_spel.Go(pt)",
+    "Dim pt As New RCAPINet.SpelPoint\npt = m_spel.GetPoint(\"P*\")\npt.Y = 222\nm_spel.Go(pt)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Elbow Statement",
+  "file": "Elbow_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) Elbow\n\t\t\tpoint, [value ]\n\n(2) Elbow",
+  "parameters": "point\tPnumber or P(expr) or point label.\n\nvalue\tInteger expression.\n\n1 = Above (/A)\n\n2 = Below (/B)",
+  "description": "Elbow Statement\n\nElbow Statement",
+  "notes": "",
+  "see_also": "Elbow Function, Hand, J4Flag, J6Flag, Wrist\n\nElbow Statement Example\n\nElbow P0, Below\n\nElbow pick, Above\n\nElbow P(myPoint), myElbow\n\nP1 = 0.000,  490.000,\n  515.000,\n   90.000,\n  -40.000,\n  180.000",
+  "examples": [
+    "Elbow P0, Below\n\n\t\t\tElbow pick, Above\n\n\t\t\tElbow P(myPoint), myElbow\n\nP1 = 0.000,  490.000, 515.000,\n   90.000, -40.000, 180.000"
+  ]
+}

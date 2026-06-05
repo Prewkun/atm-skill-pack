@@ -1,0 +1,12 @@
+{
+  "title": "Help",
+  "file": "Online_Help",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Help\n\nHelp\n\nEpson RC+ 8.0 has a help system that can be easily brought up when starting Epson RC+ 8.0.\n\nThere are several methods to get help.\n\n-  From the Windows desktop, click [Start]-[Programs]-[Epson RC+ 8.0]-[Epson RC+ 8.0 Help] to view help topics.\n\n-  In the Epson RC+ 8.0 menu, select [Help]-[Help] to browse help topics.\n\n-  When editing programs, place the cursor over the keyword of interest and press the [F1] key.\n\n-  When a dialog is open, press the [F1] key or click the Help button.\n\nFor dialogs, the Help button is located in the window title bar on the right side and is shown as a question mark icon as shown below.\n\nSymbol\tDescription\n\na\tDialog Help\n\t\t Button\n\nFor MDI child windows, the Help button is located on the main toolbar and is also shown as a question mark icon as shown below.\n\nSymbol\tDescription\n\na\tHelp button\n\t\t on the active sub-window",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

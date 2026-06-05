@@ -1,0 +1,12 @@
+{
+  "title": "Vision Guide 7.0 Software Configuration",
+  "file": "Vision_Guide_7.0_Software_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Guide 7.0 Software Configuration\n\nSoftware Configuration\n\nBefore you can use the Vision Guide 8.0 with the Epson RC+ 8.0, you need to configure the camera settings.\n\n- To use GigE cameras on PV1\n\nTo use the cameras with the Epson RC+ 8.0, you need to configure the TCP/IP settings of the cameras for communicating with PC via Ethernet.\n\nThe cameras use static IP addressing.  You must configure the IP address, IP Mask, and optionally the IP Gateway of the camera so that the PC can communicate with it.\n\nFor example, the table below shows typical IP address assignments for the PC, robot Controller, and camera on subnet 192.168.0.\n\nDevice\tIP Address\n\nDevelopment PC\t192.168.0.10\n\nController\t192.168.0.1\n\nCamera\t192.168.0.3\n\nTips:\n\nIP address which is in the same subnet as the robot Controller and the development PC should be set at camera configuration.\n\nDefault IP setting of the GigE camera is automatic (dynamic IP address). Be sure to set a static IP address for the GigE camera.\n\n- To use GigE cameras on CV2\n\nConnect the camera to the CV2 dedicated connection port.\n\nTo use with Epson RC+ 8.0, set CV2 to the same subnet IP address as the development PC.\n\nTips:\n\nTCP/IP settings for CV2 can be changed by connecting a monitor and a USB mouse.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

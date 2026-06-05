@@ -1,0 +1,18 @@
+{
+  "title": "DialogResult Property",
+  "file": "DialogResult_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the dialog result for a form.",
+  "notes": "DialogResult is used to indicated if the user accepted a form or canceled it. Typically, a dialog has an OK button and a Cancel button. When the user clicks the OK button, the DialogResult property is set to 1 - OK in the button click event. If the Cancel button is clicked, the DialogResult property is set to 2 - Cancel.\n\nGUI Items: DialogResult Property\n\nForms",
+  "see_also": "",
+  "examples": [
+    "Function frmSetSpeed_btnOK_Click(Sender$ As String)",
+    "GSet frmSetSpeed.DialogResult, DIALOGRESULT_OK",
+    "GClose frmSetSpeed\nFend",
+    "Function frmMain_btnSetSpeed_Click(Sender$ As String) Integer result String speed$ result = GShowDialog(frmSetSpeed) If result = DIALOGRESULT_OK Then",
+    "GGet frmSetSpeed.txtSpeed.Text, speed$\n     g_RobotSpeed = Val(speed$)\nFend"
+  ]
+}

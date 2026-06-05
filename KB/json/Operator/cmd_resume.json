@@ -1,0 +1,14 @@
+{
+  "title": "Resume Statement",
+  "file": "cmd_resume",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Resume { taskIdentifier | All }",
+  "parameters": "taskIdentifier\tTask name or integer expression representing the task number.\n\nTask name is a function name used in an Xqt statement or a function started from the Run window or Operator window.\n\nTask number range is:\n\nNormal tasks :\t1 ~ 32\n\nBackground task :\t65 ~ 80\n\nTrap tasks : \t257 ~ 267\n\nAll\tSpecifies that all tasks should be resumed.",
+  "description": "Resume continues the execution of the task suspended by the Halt instruction.",
+  "notes": "",
+  "see_also": "Halt\n\nQuit\n\nXqt\n\nResume Statement Example\n\nThis shows the use of Resume instruction after the Halt instruction.\n\nFunction main\n\n\t\t  Xqt 2, flicker 'Execute flicker as task 2\n\nDo\n\n\t\t    Wait 3 'Allow flicker to execute for 3 seconds\n\n\t\t    Halt flicker 'Halt the flicker task\n\n\t\t    Wait 3\n\nResume flicker 'Resume the flicker task\n\n\t\t  Loop\n\n\t\tFend\n\nFunction flicker\n\n\t\t  Do\n\n\t\t    On 1\n\n\t\t    Wait 0.2\n\n\t\t    Off 1\n\n\t\t    Wait 0.2\n\n\t\t  Loop\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Xqt 2, flicker 'Execute flicker as task 2\n\nDo\n\t\t    Wait 3 'Allow flicker to execute for 3 seconds\n\t\t    Halt flicker 'Halt the flicker task\n\t\t    Wait 3\n\n\t\t\t    Resume flicker 'Resume the flicker task\n\t\t  Loop\n\t\tFend\n\nFunction flicker\n\t\t  Do\n\t\t    On 1\n\t\t    Wait 0.2\n\t\t    Off 1\n\t\t    Wait 0.2\n\t\t  Loop\n\t\tFend"
+  ]
+}

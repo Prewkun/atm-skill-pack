@@ -1,0 +1,12 @@
+{
+  "title": "SearchWinAngleEnd Property",
+  "file": "SearchWinAngleEnd_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the end angle of the search window when SearchWinType property is Arc.",
+  "notes": "When SearchWinType property is Arc, use SearchWinAngleEnd property to set the end angle of the search window.  SearchWinAngleEnd property must be greater than or equal to SearchWinAngleStart property + 10 degrees. SearchWinAngleEnd property can also be changed by dragging the search window handle using a mouse in the Vision Guide GUI.  In this case, the property value will be updated automatically.\n\nSee Also: SearchWinAngleEnd Property\n\nSearchWinHeight Property\n\nSearchWinTop Property\n\nSearchWinWidth Property\n\nThe Search Window\n\nWindow Property\n\nVision Objects: SearchWinAngleEnd Property\n\nBlob\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Blob, Correlation, Geometric, OCR",
+  "examples": []
+}

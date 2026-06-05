@@ -1,0 +1,14 @@
+{
+  "title": "Camera Property",
+  "file": "Camera_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the camera number for the VideoBox control.",
+  "notes": "",
+  "see_also": "Applies To\n\nVideoBox\n\nVideoEnabled Property\n\nGUI Items: Camera Property\n\nVideoBox",
+  "examples": [
+    "GSet frmMain.VideoBox1.Camera, 1"
+  ]
+}

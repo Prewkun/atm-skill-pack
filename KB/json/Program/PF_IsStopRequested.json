@@ -1,0 +1,12 @@
+{
+  "title": "PF_IsStopRequested",
+  "file": "PF_IsStopRequested",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_IsStopRequested (part ID)",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).",
+  "description": "This is used to determine whether a Part Feeding end request has been issued within a callback function.\n\nWhen running loop processing, etc., code the program so that this function is called for each loop,\n\ndiscontinuing the loop and ending the callback function when an end request is issued.\n\nIn the case of multi-part operation, you can specify one of the part IDs specified by PF_Start.\n\nFor example, if you run PF_Start 1, 2, 3, 4, then PF_Stop 2 is executed, you can check exit request with this function by using Part ID1,2,3 or 4.\n\nCannot be executed from a virtual controller or command window.\n\nPF_IsStopRequested Example\n\nRefer to Part Feeding Callback Functions PF_Robot for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

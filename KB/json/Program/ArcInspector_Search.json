@@ -1,0 +1,12 @@
+{
+  "title": "ArcInspector Search",
+  "file": "ArcInspector_Search",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ArcInspector Search\n\nArcInspector Search\n\nThe image below shows part of a round object with a defect.\n\nThe ArcInspector finds the defect as shown below.  Note that each edge search position distance from the arc being inspected must exceed either the DefectLevelThreshPos or DefectLevelThreshNeg property values for a defect to be found.  Also, the defect area must be greater then MinArea and less then MaxArea.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

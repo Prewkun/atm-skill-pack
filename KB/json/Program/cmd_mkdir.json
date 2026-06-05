@@ -1,0 +1,16 @@
+{
+  "title": "MkDir command",
+  "file": "cmd_mkdir",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MkDir dirName",
+  "parameters": "dirName\tString expression that defines the name of the directory to create. See ChDisk for the details.",
+  "description": "Creates a subdirectory in the specified path. If omitted, a subdirectory is created in the current directory.\n\nNote: This statement is executable only with PC disk",
+  "notes": "",
+  "see_also": "ChDir\n\nChDrive\n\nRenDir\n\nRmDir\n\nMkDir Example\n\nThe following examples are done from the command window:\n\n> mkdir \\data\n\n> mkdir \\data\\PTS\n\n> mkdir \\TEST1　\\TEST2",
+  "examples": [
+    "> mkdir \\data",
+    "> mkdir \\data\\PTS",
+    "> mkdir \\TEST1　\\TEST2"
+  ]
+}

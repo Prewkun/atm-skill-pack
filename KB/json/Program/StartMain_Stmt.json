@@ -1,0 +1,15 @@
+{
+  "title": "StartMain Statement",
+  "file": "StartMain_Stmt",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "StartMain\n\t\t\tmainFuncname",
+  "parameters": "mainFuncname\tMain function name you want to execute (main ~ main63)",
+  "description": "To execute StartMain, you need to set the [Enable advanced task commands] preference in the Setup | System Configuration | Controller | Preferences page.\n\nIf a task is executed using the Xqt statement from a background task, the executed task becomes a background task.  With StartMain, you can execute the main function as a non-background task from a background task.\n\nIf you have already executed the main function or execute StartMain from a non-background task, an error occurs.\n\nCaution: \tWhen executing StartMain command from a program, you must understand the command specification and confirm that the system has the proper conditions for this command.  Improper use such as continuous execution of a command within a loop may deteriorate the system safety.",
+  "notes": "",
+  "see_also": "Executes the main function from a background task.\n\nThis command is for the experienced user and you need to understand the command\nspecification before use.\n\nXqt\n\nStartMain Example\n\nFunction bgmain\n\n\t\t\t...\n\nIf Sw(StartMainSwitch) = On And Sw(ErrSwitch) = Off Then\n\n\t\t    StartMain main\n\nEndIf\n\n...\n\n\t\tFend",
+  "examples": [
+    "Function bgmain\n\t\t\t...\n\n\t\t  If Sw(StartMainSwitch) = On And Sw(ErrSwitch) = Off Then\n\t\t    StartMain main\n\n\t\t\t  EndIf",
+    "...\n\t\tFend"
+  ]
+}

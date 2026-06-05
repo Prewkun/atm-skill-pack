@@ -1,0 +1,12 @@
+{
+  "title": "Working with the samples",
+  "file": "Simulator_WorkingWithSamples",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Working with the samples\n\nUsing the Simulator\n\nYou can try the simulation functions using the provided sample virtual controllers and projects.\n\nWorking with the samples\n\nYou can operate a robot easily using the samples provided.\n\nFollow the steps below:\n\n1. Connect with a sample virtual controller (robot)\n\n2. Open the corresponding sample project\n\n3. Display the [Robot Simulator] window\n\n4. Operate the robot by executing a program\n\n5. Next step\n\n1. Connect with a sample virtual controller\n\nSelect \"C4 Sample\" from the Epson RC+ 8.0 toolbar [Connection] list box. When the connection is complete, the [Connection] list box shows \"C4 Sample\".\n\n2.  Open a project\n\n(1)   Click [Open...] from [Project] on Epson RC+ 8.0 menu.\n\n(2)   Select [Projects]-[SimulatorDemos]-[C4 Sample].\n\n(3)   Click the [Open] button. Then, the following program window appears.\n\n3. Display the [Robot Simulator] window\n\nClick the toolbar [Simulator ] button. The [Robot Simulator] window appears.\n\n4. Operate the robot by executing program\n\n(1)   Click the toolbar [Run Window  ] button. The project will be built and the [Run] window will appear.\n\n(2)   Click the [Start] button.\n\nWhen the message \"Are you ready to start?\" appears, click [Yes].\n\nThe program starts and the robot moves in the 3D display.\n\n5. Next step\n\nIf you want to change the sample, follow the steps in Working with the user created system - Steps 5 to 7. If you want to create your own system, start from Step 1.\n\nIf you want to change the sample virtual controller, follow the steps in Virtual controller - Copy the sample or configured virtual controller and change the copied sample.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

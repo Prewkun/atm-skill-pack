@@ -1,0 +1,12 @@
+{
+  "title": "Window Menu",
+  "file": "Window_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Window Menu\n\nWindow Menu\n\nThe [Window] menu contains selections for managing the currently open Epson RC+ 8.0 child windows.\n\n[Floating]\n\t [Docking]\n\t [Docking\n\t As Tabbed Document] [Auto\n\t Hide] [Hide]\n\n[Save Window\n\t Layout] [Apply\n\t Window Layout] [Manage\n\t Window Layouts] [Reset\n\t Window Layout]\n\n[Close all\n\t windows]\n\n[New Horizontal\n\t Tab Group]\n\n[New Vertical\n\t Tab Group]\n\n[Move To Previous\n\t Tab] [Move\n\t To Next Tab Group]\n\nList of Open Windows",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

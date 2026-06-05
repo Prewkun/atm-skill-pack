@@ -1,0 +1,12 @@
+{
+  "title": "Timer Control",
+  "file": "GUI_Timer",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Timer is a control that raises an event at regular intervals.  It is executable even when the emergency stop occurs or other normal tasks are paused.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

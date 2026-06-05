@@ -1,0 +1,14 @@
+{
+  "title": "IONumber Function",
+  "file": "IONumber_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "IONumber(IOlabel)",
+  "parameters": "IOlabel\tString expression that specifies the standard I/O or memory I/O label.",
+  "description": "IONumber Function\n\nIONumber Function",
+  "notes": "",
+  "see_also": "Returns the I/O number of the specified I/O label.\n\nIOLabel$\n\nIONumber Function Example\n\nInteger IObit\n\nIObit = IONumber(\"myIO\")\n\nIObit = IONUmber(\"Station\" + Str$(station) + \"InCycle\")",
+  "examples": [
+    "Integer IObit\n\nIObit = IONumber(\"myIO\")\n\nIObit = IONUmber(\"Station\" + Str$(station) + \"InCycle\")"
+  ]
+}

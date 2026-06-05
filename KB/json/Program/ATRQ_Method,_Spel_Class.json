@@ -1,0 +1,15 @@
+{
+  "title": "ATRQ Method, Spel Class",
+  "file": "ATRQ_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function ATRQ (JointNumber As Integer) As Single",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing the joint number.",
+  "description": "Returns the average torque for the specified joint.",
+  "notes": "",
+  "see_also": "ATCLR, PTCLR, PTRQ\n\nATRQ Example\n\nVB Example:\n\nDim avgTorque As Single\n\nDim i As Integer\n\nFor i = 1 To 4\n avgTorque = m_spel.ATRQ(i)\n\nNext i\n\nC# Example:\n\nfloat avgTorque;\n\nfor(int i = 1; i <= 4; i++)\n avgTorque = m_spel.ATRQ(i);",
+  "examples": [
+    "Dim avgTorque As Single\nDim i As Integer\nFor i = 1 To 4 avgTorque = m_spel.ATRQ(i)\nNext i",
+    "float avgTorque;\nfor(int i = 1; i <= 4; i++) avgTorque = m_spel.ATRQ(i);"
+  ]
+}

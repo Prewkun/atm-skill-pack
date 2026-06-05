@@ -1,0 +1,16 @@
+{
+  "title": "J1_Polarity Property",
+  "file": "J1_Polarity_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "J1_Polarity Property\n\nJ1_Polarity, J2_Polarity, J3_Polarity, J4_Polarity, J5_Polarity, J6_Polarity Property",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis returns the status of or sets whether the force motion restriction is triggered by either being within the thresholds\n\nor being outside of the thresholds for the axis position.",
+  "examples": [
+    "Function SettingPolarity",
+    "FSet FMR1.JointEnabled, True, False, False, False, False, False\n    FSet FMR1.J1_Polarity, FG_OUT\n    FSet FMR1.J1_Levels, -90, 90\n    Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError\n    AbortMotion All\nFend"
+  ]
+}

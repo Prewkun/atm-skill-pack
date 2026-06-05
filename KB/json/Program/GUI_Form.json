@@ -1,0 +1,15 @@
+{
+  "title": "Form",
+  "file": "GUI_Form",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Form is the basic building block of your GUI application. It allows you to display a window or dialog box with controls for user interaction. Your GUI application can have one form or many forms.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "result = GShowDialog(frmSetSpeed)",
+    "GShow frmIODiags"
+  ]
+}

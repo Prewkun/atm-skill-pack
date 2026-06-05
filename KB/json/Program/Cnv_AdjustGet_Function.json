@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_AdjustGet Function",
+  "file": "Cnv_AdjustGet_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_AdjustGet(conveyorNumber, modeNumber)",
+  "parameters": "conveyorNumber\tAn expression or a number (1 to 16) representing the conveyor number.\n\nmodeNumber\t0: Offset acquisition result\n\n1: Offset amount\n\n2: Offset time",
+  "description": "If the follow-up delay offset value for conveyor tracking has not been acquired using the Cnv_Adjust statement and the Cnv_QueGet function, the return value for each mode number (0 to 2) will be \"0\".\n\nNote\n\nThis command is only available when the Conveyor Tracking option is installed.",
+  "notes": "",
+  "see_also": "Cnv_Adjust\n\nCnv_AdjustSet\n\nCnv_AdjustClear\n\nCnv_QueGet function\n\nCnv_AdjustGet Function Example\n\nPrint Cnv_AdjustGet(1, 1)",
+  "examples": [
+    "Print Cnv_AdjustGet(1, 1)"
+  ]
+}

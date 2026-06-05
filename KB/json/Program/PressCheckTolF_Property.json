@@ -1,0 +1,12 @@
+{
+  "title": "PressCheckTolF Property",
+  "file": "PressCheckTolF_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the range of the end conditions related to force.\n\nIt is used when ForceCheckEnabled is True.\n\nIt determines that the force of the direction specified by PressOrient property enters into a range from PressForce -PressCheckTolF to PressForce +PressCheckTolF.\n\nValues\n\nMinimum value 0.1\n\nMaximum value 10\n\nDefault:  1\n\nSee Also: PressCheckTolF Property\n\nPressCheckTolT Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSurfaceAlign Object, Press Object, PressMove Object",
+  "examples": []
+}

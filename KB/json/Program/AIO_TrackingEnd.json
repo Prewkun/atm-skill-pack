@@ -1,0 +1,14 @@
+{
+  "title": "AIO_TrackingEnd",
+  "file": "AIO_TrackingEnd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AIO_TrackingEnd",
+  "parameters": "",
+  "description": "End the distance tracking function started by AIO_TrackingStart.",
+  "notes": "",
+  "see_also": "AIO_TrackingSet, AIO_TrackingStart, AIO_TrackingOn Function\n\nAIO_TrackingEnd  Statement Example\n\nThe following is an example program which moves the robot by using the distance tracking function.\n\n(P1: Start point, P2: relay point, P3: End point)\n\nCaution:  The parameters set in the example are reference values.\n\nPlease note that the operation may not be successful or the motion may be vibratory depending on the set parameters and some operating conditions.\n\nIf the robot moves abnormally, immediately hold down the emergency button.\n\nFunction Main\n\n  Motor On\n\n  Power High\n\n  SpeedS 30\n\n  AccelS 300,300\n\n  Go P1                           ' Move to P1: start point\n\n  AIO_TrackingSet 1,1,0,-5,5,0,2  ' Set the distance tracking function\n\n  AIO_TrackingStart 1,5,5,5       ' Start the distance tracking function\n\n  Move P2                         ' Move to P2 with executing the distance tracking function\n\n  Move P3                         ' Move to P3 with executing the distance tracking function\n\n  AIO_TrackingEnd                 ' End the distance tracking function\n\n  Motor Off\n\nFend",
+  "examples": [
+    "Function Main Motor On Power High SpeedS 30 AccelS 300,300 Go P1                           ' Move to P1: start point AIO_TrackingSet 1,1,0,-5,5,0,2  ' Set the distance tracking function AIO_TrackingStart 1,5,5,5       ' Start the distance tracking function Move P2                         ' Move to P2 with executing the distance tracking function Move P3                         ' Move to P3 with executing the distance tracking function AIO_TrackingEnd                 ' End the distance tracking function Motor Off\nFend"
+  ]
+}

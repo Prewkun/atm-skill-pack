@@ -1,0 +1,12 @@
+{
+  "title": "IP Addresses",
+  "file": "IP_Addresses",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "IP Addresses\n\nIP Addresses\n\nThe controller has a fixed IP address that you can configure from Epson RC+ 8.0. To configure the IP address, mask, and gateway for the controller, refer to 5.13.2  [System Configuration] Command (Setup Menu).\n\nThe following table shows a typical IP address configuration.\n\nHost\n\t\t Name\tIP\n\t\t Address\tSubnet\tSubnet\n\t\t Mask\n\nPC1\t192.168.0.1\t192.168.0\t255.255.255.0\n\nPC2\t192.168.0.2\t192.168.0\t255.255.255.0\n\nController1\t192.168.0.3\t192.168.0\t255.255.255.0\n\nController2\t192.168.0.4\t192.168.0\t255.255.255.0\n\nIn this example, the network address (subnet) is 192.168.0. With a subnet mask of 255.255.255.0, there can be 254 hosts on this subnet. (0 and 255 cannot be used.)\n\nRefer to the Microsoft Windows operating system manual for instructions on setting the PC IP address.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

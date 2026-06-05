@@ -1,0 +1,12 @@
+{
+  "title": "Teaching the points for Use with Vision Guidance",
+  "file": "Teaching_the_points_for_Use_with_Vision_Guidance",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teaching the points for Use with Vision Guidance\n\nTeaching Points for Vision Guidance\n\nNow we must teach a few points to define the Z height of the washer pickup position, the position where the camera will take a picture of the washer for processing, and a safe position that for this tutorial will act as a starting position.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

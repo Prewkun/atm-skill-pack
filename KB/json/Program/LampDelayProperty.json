@@ -1,0 +1,12 @@
+{
+  "title": "LampDelay Property",
+  "file": "LampDelayProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the amount of time to wait for a calibration lamp to turn ON.",
+  "notes": "Use the LampDelay property to allow time for a lamp to turn ON before calibration continues.  This is especially useful for a lighting apparatus, such as a flourescent lamp, which requires time until the light source becomes stable.\n\nSee Also: LampDelay Property\n\nLamp Property",
+  "see_also": "",
+  "examples": []
+}

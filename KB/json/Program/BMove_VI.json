@@ -1,0 +1,12 @@
+{
+  "title": "BMove VI",
+  "file": "BMove_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Executes linear interpolated relative motion in the selected local coordinate system\n\nInputs\n\nSpel Ref\n\t\t In\tSpel reference from a previous Spel\n\t\t Ref Out.\n\nError In\tError condition from a previous Spel\n\t\t node.\n\nPoint Number\tOptional.  Specifies the target\n\t\t end point by using the point number for a previously taught point\n\t\t in the Controller's point memory for the current robot.  If\n\t\t Point Expression is specified, then Point Number is ignored.\n\nPoint Expression\tOptional. Specifies the target end point\n\t\t by using a string expression. If Point\n\t\t Expression is not specified, then the Point\n\t\t Number input will be used. When using a string expression,\n\t\t you can include ROT, SYNC, Till, Find, and parallel processing\n\t\t statement.\n\nOutputs\n\nSpel Ref\n\t\t Out\tSpel reference output for next VI to\n\t\t use.\n\nError Out\tError condition output for subsequent\n\t\t Spel nodes.",
+  "notes": "",
+  "see_also": "AccelS, Arc, Arc3, BGo, Go, Jump, Jump3, Move, SpeedS, TGo, TMove, Find, Till\n\nBMove Example",
+  "examples": []
+}

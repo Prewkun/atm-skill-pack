@@ -1,0 +1,12 @@
+{
+  "title": "PF_QueRemove",
+  "file": "PF_QueRemove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_QueRemove part ID [, index | All]",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).\n\nindex\tSpecify the index of the parts coordinates queue data to delete as an integer number.\n\nThe initial index value is 0.  This can be omitted.\n\nSpecify All to delete all data items.",
+  "description": "Deletes data (point data) from the parts coordinates queue.\n\nThis is used to delete data used from the parts coordinates queue.\n\nPF_QueRemove Example\n\nRefer to Part Feeding Callback Functions PF_Robot for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Conveyor Tips Conveyor Calibration",
+  "file": "Conveyor_Tips_Conveyor_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Conveyor Tips Conveyor Calibration\n\nTips for Conveyor Calibration\n\nWork Piece and Tool\n\nIn order to realize precise pickups, it is necessary to perform a correct teaching in the conveyor calibration.  To move the center of the end effector to the feature point (e.g. the center point) of the work piece detected by the camera, it is recommended, for example, to use a work piece and a tool as described below.\n\nWork piece: Teaching point is easy to be found\n\nTool: Tip point is easy to be found (Make sure to configure the tool settings.)\n\nExample of the work piece and the tool used in the conveyor calibration\n\nNote:  Perform a model teaching by overlaying the model origin of the Corr or Geom object on the teaching point, and adjust the positions of the camera coordinate system and the conveyor coordinate system correctly.  If the teaching point is the center of balance of the work piece (a perfect circle or a square), the center can be detected as the model origin by the Blob object.\n\nZ Value Adjustment\n\nThe work piece and the tool used in the conveyor calibration can have a different height from those used in actual work piece handling.  By adjusting the Z value after replacing the tool and the work piece, errors related to the Z offset can be solved.\n\nIn the following cases, Z value adjustment is effective.\n\nTool cannot reach and pick up the work piece.  (Z offset is too large)\n\nRobot collides with the work piece and damages it.  (Z offset is too small)\n\nLike the above cases, redoing of the whole conveyor calibration process may not be required.  If there is a problem in the pickup height, adjust the Z value as a first step.\n\nNote:  For details on the Z value adjustment, refer to Adjusting the Z value.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

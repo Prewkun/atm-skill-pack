@@ -1,0 +1,14 @@
+{
+  "title": "JT Method, Spel Class",
+  "file": "JT_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function JT () As Integer",
+  "parameters": "",
+  "description": "Returns the status of the most recent Jump, Jump3, or Jump3CP instruction for the current robot.",
+  "notes": "",
+  "see_also": "Jump\n\nJump3\n\nJump3CP\n\nSense\n\nTill\n\nJT Example\n\nDim status As Integer\n\nWith m_spel\n\n  .Till(\"Sw(1) = On\")\n\n  .Jump(\"P1 Till\")\n\n  If .JT() And 4 = 4 Then\n\n   MessageBox.Show(\"Motion stopped during decent\")\n EndIf\n\nEnd With",
+  "examples": [
+    "Dim status As Integer\n\nWith m_spel .Till(\"Sw(1) = On\") .Jump(\"P1 Till\") If .JT() And 4 = 4 Then\n   MessageBox.Show(\"Motion stopped during decent\") EndIf\nEnd With"
+  ]
+}

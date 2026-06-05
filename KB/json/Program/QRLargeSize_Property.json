@@ -1,0 +1,12 @@
+{
+  "title": "QRLargeSize Property",
+  "file": "QRLargeSize_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set this property to \"True\" when the QR code is large in the field of view.",
+  "notes": "Setting this property to \"True\" when the QR code is large for the field of view may increase search speed.\n\nSetting range: True / False\n\nDefault: False\n\nSee Also: QRLargeSize Property\n\nQRMinContrast Property\n\nVision Objects: QRLargeSize Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "GroupBox Control",
+  "file": "GUI_GroupBox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GroupBox controls are used to provide an identifiable grouping for other controls. Typically, you use group boxes to subdivide a form by function. For example, you may have a setup form that specifies robot speed options.. Grouping all options in a group box gives the user a logical visual cue.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

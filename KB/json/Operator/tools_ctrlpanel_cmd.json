@@ -1,0 +1,12 @@
+{
+  "title": "Control Panel page, Robot Manager Dialog",
+  "file": "tools_ctrlpanel_cmd",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Control Panel page, Robot Manager Dialog\n\nControl Panel Page, Robot Manager Window\n\nThe [Robot Manager] window contains buttons for basic robot operations, such as turning motors on/off. It shows the emergency stop, safeguard, and error status.\n\nItem\tDescription\n\nRobot\tSelect\n\t\t a robot.\n\nEmergency\n\t\t Stop\tIndicates\n\t\t if Emergency Stop has occurred. The display will show red if an\n\t\t Emergency Stop has occurred.\n\nTo clear the Emergency Stop status, click\n\t\t the [Reset] button.\n\nSafeguard\tIndicates\n\t\t whether the Safeguard input is on or off. When on, the display\n\t\t is yellow.\n\nError\tIndicates\n\t\t whether an error status has occurred. When an error occurs, the\n\t\t display is red.\n\nMotor:\n\t\t Off / On\tTurns\n\t\t all robot motors on or off.\n\nPower:\n\t\t Low / High\tPuts\n\t\t the robot servo system in high power mode or low power mode.\n\nReset\tResets\n\t\t the robot servo system and Emergency Stop condition.\n\nLocal\tThis\n\t\t drop down list is used to select the local coordinate system for\n\t\t jogging and teaching.\n\nTool\tThis\n\t\t drop down list is used to select the tool for jogging and teaching.\n\nArm\tThis\n\t\t drop down list is used to select the arm for jogging and teaching.\n\t\t Vertical 6-axis robot (including the N series) are not shown.\n\nECP\tThis\n\t\t drop down list is used to select the ECP for jogging.\n\nVRT\tThis\n\t\t drop down list is used to select the number set for VRT parameters.\n\nWhen you switch to the [Robot Manager] window, the robot's speed setting will be set to the speed (high, low) on the Jog & Teach window.\n\nMotion command after the above operation will be executed at this speed. Set the speed again by the commands such as Motor, Speed, and Accel.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

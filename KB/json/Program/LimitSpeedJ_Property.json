@@ -1,0 +1,14 @@
+{
+  "title": "LimitSpeedJ Property",
+  "file": "LimitSpeedJ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the maximum velocity limit for joint movement during force control.",
+  "notes": "This sets or returns the maximum joint velocity during force control.\n\nThe value established in LimitSpeedJ Property expresses a ratio with respect to the maximum velocity.\n\nWhen, during force control, the robot attempts to move at a velocity in excess of the value established in LimitSpeedJ Property, the velocity is automatically limited.  The limitation is always active during force control.\n\nIn LowPower mode, with force control active, when the value established in LimitSpeedJ Property is in excessof the Speed Default value, the Speed is automatically adjusted to the Speed default value.",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": [
+    "Function LimitSpeedJTest FSet FCS1.Orientation, FG_TOOL ' Sets the force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets the virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets the virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets the virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control to active FSet FC1.LimitSpeedJ, 5 ' Maximum joint velocity is set to 5% SpeedS 2 ' Sets the CP motion velocity to 2[mm/sec] Move P0 FC1 ' A Move motion with force control\nFend"
+  ]
+}

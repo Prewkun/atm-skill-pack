@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the LineInspector Object",
+  "file": "Step_2__Positioning_the_LineInspector_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the LineInspector Object\n\nStep 2: Positioning the LineInspector Object\n\nYou should now see a LineInspector object similar to the one shown below:\n\nNew LineInspector Object\n\nClick the name label of the LineInspector object and, while holding the mouse down, drag the LineInspector object to the position where you would like the top left position of the search window to reside.\n\nResize the LineInspector object search window as required using the search window size handles.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

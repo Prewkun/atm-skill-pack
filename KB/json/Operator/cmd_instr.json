@@ -1,0 +1,14 @@
+{
+  "title": "InStr Function",
+  "file": "cmd_instr",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "InStr(string, searchString)",
+  "parameters": "string\tString expression to be searched.\n\nsearchString\tString expression to be searched for within string\n\t\t\t\t\t\t.",
+  "description": "InStr Function\n\nInStr Function\n\nSee_Also Example\n\nReturns position of one string within another.",
+  "notes": "",
+  "see_also": "Mid$\n\nInstr Function Example\n\nInteger pos\n\npos = InStr(\"abc\", \"b\")",
+  "examples": [
+    "Integer pos\n\npos = InStr(\"abc\", \"b\")"
+  ]
+}

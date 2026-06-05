@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Test the New Tool",
+  "file": "Step_4__Test_the_New_Tool",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Test the New Tool\n\nStep 3: Test the New Tool\n\nYou should now be back in the Jog and Teach Window.\n  And since we haven't jogged the robot since we positioned it above the target position (the washer), the robot's gripper (or rod) should still be located just above the target position.\n\n\tJog the robot about 10 to 15 mm up in the\n\t Z direction (+Z). This will get our gripper (or rod) away from the\n\t work surface just in case there is a problem.\n\tClick the\n\t down arrow for the [Tool] of the Jog and Teach Window.\n\nClick \"1\"\n\t since we want to select Tool 1. (Remember this was the tool we just\n\t taught in Step 4.)\n\nNow try jogging the U axis in the positive\n\t or negative direction. You should see the tip of the gripper (or rod)\n\t stay in its current XY position while the robot rotates around this\n\t point. (This is easily seen for tools that are offset from the center\n\t of the Z-axis.  If you are using a rod that comes straight down\n\t from the Z-axis, this may be difficult to see.\n\tYou should expect some movement of the gripper\n\t (rod) from the XY position when the U axis is moving.  However,\n\t the gripper should return to the XY position of the target (the washer)\n\t after each U axis jog step is complete.\n\tIf your tool doesn't appear to be working\n\t properly, go back to the beginning of step 2 and try again.\n\tClose the Robot Manager.  We are now\n\t finished defining and testing the tool.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "FGRun Method, Spel Class",
+  "file": "FGRun_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub FGRun (Sequence As String)",
+  "parameters": "Sequence\tForce guide sequence name or string\n\t\t variable representing Force Guide sequence name",
+  "description": "Executes a Force Guide sequence.",
+  "notes": "Executes a specified Force Guide sequence. The Force Guide sequence starts from the position where the FGRun statement was executed. Execute after moving to the assumed start position by the Go statement, Move statement, or other motion commands.\n\nWhen the specified Force Guide sequence ends, the program proceeds to the next statement.\n\nTo acquire the results of sequences executed by FGRun, use FGGet.\n\nWhen path motion is enabled by the CP parameter or CP statement, the program waits until the robot stops and then executes a Force Guide sequence.\n\nWhen any of the following conditions is fulfilled at the time of execution start, an error occurs.\n\n- The robot specified in the program differs from the robot specified by the RobotNumber property.\n\nSpecify the correct robot by the Robot statement.\n\n- The robot type specified in the program differs from the robot type specified by the RobotType property.\n\nSpecify the correct robot by the Robot statement.\n\n- The tool number specified in the program differs from the tool number specified by the RobotTool property.\n\nSpecify the correct tool number by the Tool statement.\n\n- Motor is in OFF state.\n\nSwitch to ON state by the Motor statement.\n\n- Force control function is currently being executed.\n\nStop force control by the FCEnd statement.\n\n- Conveyor tracking is currently being executed.\n\nStop conveyor tracking by the Cnv_AbortTrack statement.\n\n- Currently in the torque control mode.\n\nDisable the torque control mode by the TC statement.\n\nFGRun, when executed, automatically overwrites the following properties; therefore, it cannot be used together with the following properties:\n\nFM object\n\nAvgForceClear property\n\nPeakForceClear property",
+  "see_also": "FGGet\n\nFGRun Example\n\nVB",
+  "examples": [
+    "Dim errCode As Integer\nm_spel.MotorsOn = True\nm_spel.FGRun(\"Sequence1\")\nerrCode = m_spel.FGGet(\"Sequence1\", SpelForceProps.EndStatus, val)",
+    "int errCode;\nm_spel.MotorsOn = true;\nm_spel.FGRun(\"Sequence1\");\nerrCode = m_spel.FGGet(\"Sequence1\", SpelForceProps.EndStatus, val);"
+  ]
+}

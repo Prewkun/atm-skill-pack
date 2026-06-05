@@ -1,0 +1,14 @@
+{
+  "title": "PG_FastStop Statement",
+  "file": "PG_FastStop_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "PG_FastStop",
+  "parameters": "",
+  "description": "The PG_FastStop stops the current PG robot immediately with no deceleration.\n\nTo stop normally, use the PG_SlowStop statement.",
+  "notes": "",
+  "see_also": "Stop the PG axes immediately.\n\nPG_Scan\n\nPG_SlowStop\n\nPG_FastStop Example\n\nThe following program moves the PG axis for 10 seconds and stops it.\n\nFunction main\n\nMotor On\n\n\t\t  PG_Scan 0\n\n\t\t  Wait 10\n\n\t\t  PG_FastStop                           ' Immediately stops the continuous motion\n\n\t\tFend",
+  "examples": [
+    "Function main\n\n\t\t\t  Motor On\n\t\t  PG_Scan 0\n\t\t  Wait 10\n\t\t  PG_FastStop                           ' Immediately stops the continuous motion\n\t\tFend"
+  ]
+}

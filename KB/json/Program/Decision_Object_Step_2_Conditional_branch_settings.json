@@ -1,0 +1,12 @@
+{
+  "title": "Decision Object Step 2 Conditional branch settings",
+  "file": "Decision_Object_Step_2_Conditional_branch_settings",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Decision Object Step 2 Conditional branch settings\n\nDecision Object\n\nStep 2: Conditional branch settings\n\n(1) Select the object for which you want to check the result from the dropdown list of the ConditionObject property of the Decision object.  ConditionObject can only be set to an object that executes in the sequence before the Decision object.  In this example, we set ConditionObject to Geom01.\n\n(2) Specify the condition that the value of the Passed result of the object selected in (1) by setting the TrueCond property of the Decision object.\n\nIf TargetPassed (default) is specified, then the True branch objects will be executed when the Passed result of the object in (1) is True.\n\nIf you want to execute a True branch when the Passed result is False, set the TrueCond property to TargetFailed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

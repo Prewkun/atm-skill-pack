@@ -1,0 +1,12 @@
+{
+  "title": "Local Keyword",
+  "file": "cmd_local",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Local Keyword\n\nLocal Keyword\n\nThe Local keyword is used in these contexts:\n\nLocal Statement\n\nLocal Function",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

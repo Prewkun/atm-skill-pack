@@ -1,0 +1,12 @@
+{
+  "title": "Open the Vision Guide Window",
+  "file": "Open_the_Vision_Guide_Window",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Open the Vision Guide Window\n\nOpening the Vision Guide Window\n\nThe Vision Guide window is opened from within the Epson RC+ 8.0 development environment.\n\nAfter Epson RC+ 8.0 has been started, the Vision Guide window can be opened in 2 different ways:\n\nFrom\n\t\t the main Toolbar:\tFrom\n\t\t the main toolbar in Epson RC+ 8.0 you should see the [Vision]\n\t\t button.  Clicking on the button will open the Vision Guide\n\t\t window.\n\nFrom\n\t\t the Tools menu:\tSelecting\n\t\t [Vision] from the Tools menu will open the Vision Guide window.\n\nOnce the Vision Guide window is open we can now begin using Vision Guide 8.0.  The next few pages describe the basic parts of the Vision Guide window.?",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

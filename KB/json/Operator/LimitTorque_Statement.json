@@ -1,0 +1,14 @@
+{
+  "title": "LimitTorque Statement",
+  "file": "LimitTorque_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "(1) LimitTorque AllMax\n\n(2) LimitTorque j1Max, j2Max, j3Max, j4Max\n\n(3) LimitTorque j1Max, j2Max, j3Max, j4Max, j5Max, j6Max\n\n(4) LimitTorque",
+  "parameters": "AllMax\tspecify the percentage of high power torque upper limit value for all axes to the maximum momentary torque of each axis by an integer number\n\nj #n Max\tspecify the percentage of high power torque upper limit  value for axis #n to the maximum momentary torque of axis #n by an integer number",
+  "description": "Sets the upper limit value of torque in high power mode.  Normally, the maximum torque is set and there is no need to change this setting value.  This statement is useful to restrict the torque not to exceed which is necessary for the specific motion in order to reduce damage to the manipulator and equipment caused by collision with peripherals.\n\nThe upper limit value is a peak torque in specific motion measured by PTRQ with allowance considering the variation added (approximately 10%).\n\nThe torque lower than the upper limit for Low power mode cannot be set by this command.  The smallest values vary for models and joints.  Display the setting value and confirm the actual upper limit value after setting the value.\n\nNote\n\nToo low LimitTorque setting\n\nLimitTorque limits the torque for the specific motion as the upper limit value to operate the manipulator with the set acceleration/deceleration regardless of the torque size necessary for the motion.  As a result of this, if the motion requires larger torque than the set upper limit value, the roobt may not be able to operate properly and cause vibrational motion, noise, or position deviation and overrun.  Make sure to measure PTRQ before using the torque control.  If the above problems occur, set the upper limit value larger and adjust the value so that the manipulator can operate properly.",
+  "notes": "",
+  "see_also": "Sets / returns the upper torque value in High power mode.\n\nLimitTorque Function\n\nPower\n\nPTrq\n\nRealTorque\n\nLimitTorque Statement Example\n\nFollowing is the example which operates the manipulator with the maximum torque of Joint #1 at 80 %.\n\nFunction main\n Motor On\n Power high\n Speed 100; Accel 100, 100\n LimitTorque 80,100,100,100   ' Restricts the maximum torque of Joint #1 to 80%\n Jump P1  ' Executes the Jump motion\n\nFend",
+  "examples": [
+    "Function main Motor On Power high Speed 100; Accel 100, 100 LimitTorque 80,100,100,100   ' Restricts the maximum torque of Joint #1 to 80% Jump P1  ' Executes the Jump motion\nFend"
+  ]
+}

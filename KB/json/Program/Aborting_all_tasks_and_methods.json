@@ -1,0 +1,22 @@
+{
+  "title": "Aborting all tasks and methods",
+  "file": "Aborting_all_tasks_and_methods",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Aborting all tasks and methods\n\nAborting all tasks\n\nIf you are running tasks and want to abort all tasks at once, you can use the Stop method of the Spel class.  The Stop method has an optional parameter that allows you to additionally stop all background tasks.\n\nFor example:\n\nVB Example:\n\nSub btnStop_Click( _\n\n       ByVal sender As System.Object, _\n\n       ByVal e As System.EventArgs) _\n\n       Handles btnStop.Click\n\n    m_spel.Stop\n\n    btnStop.Enabled = False\n\n    btnStart.Enabled = True\n\nEnd Sub\n\nC# Example:\n\nvoid btnStop_Click(object sender, EventArgs e)\n\n{\n\n  m_spel.Stop();\n\n  btnStop.Enabled = false;\n\n  btnStart.Enabled = true;\n\n}",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Sub btnStop_Click( _",
+    "ByVal sender As System.Object, _",
+    "ByVal e As System.EventArgs) _",
+    "Handles btnStop.Click",
+    "m_spel.Stop",
+    "btnStop.Enabled = False",
+    "btnStart.Enabled = True",
+    "End Sub",
+    "void btnStop_Click(object sender, EventArgs e)\n{ m_spel.Stop(); btnStop.Enabled = false; btnStart.Enabled = true;\n}"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "What is a Property?",
+  "file": "What_is_a_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "What is a Property?\n\nProperty\n\nProperties can be thought of as parameters that are set for each vision object or vision sequence.  The setting of vision properties can be done in a point and click fashion from the Vision Guide window that provides for a quick method to build and test vision applications.  Vision properties can also be set and checked from the SPEL+ language.  This provides the flexibility required for dynamic modifications of vision objects at runtime.  Vision sequence and vision object properties are very powerful because they are easily modified and help make vision objects easier to understand and use while at the same time they don't limit the flexibility required for more complex applications.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

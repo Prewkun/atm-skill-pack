@@ -1,0 +1,14 @@
+{
+  "title": "SF_LimitSpeedS Function",
+  "file": "SF_LimitSpeedS_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SF_LimitSpeedS(SLSNumber)",
+  "parameters": "SLSNumber\tThe SLS number\n\t\t as an integer value or the constant listed below.\n\nConstant\tValue\tDescription\n\nSLS_1\t1\tSpeed adjustment function when SLS_1\n\t\t is enabled\n\nSLS_2\t2\tSpeed adjustment function when SLS_2\n\t\t is enabled\n\nSLS_3\t3\tSpeed adjustment function when SLS_3\n\t\t is enabled\n\nSLS_T\t9\tSpeed adjustment function when SLS_T\n\t\t is enabled\n\nSLS_T2\t10\tSpeed adjustment function when SLS_T2\n\t\t is enabled",
+  "description": "Returns the speed adjustment value [mm/sec] for the SLS number specified by the function that adjusts speed when SLS is enabled.\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_LimitSpeedS Function",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Integer i\ni = SF_LimitSpeedS(SLS_1)\nPrint \"SLS_1 limit speed is \", i"
+  ]
+}

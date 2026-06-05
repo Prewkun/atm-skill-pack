@@ -1,0 +1,12 @@
+{
+  "title": "Remote RS232 Error Response",
+  "file": "Remote_RS232_Error_Response",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote RS232 Error Response\n\nError Response\n\nWhen the Controller can not receive the remote command correctly, the error response is shown in the following format.\n\nNAK\n\t\tCommand\n\t\tError Code\n\t\tETX\n\t\tBCC\n\n1Byte\t1Byte\t2Byte\t1Byte\t1Byte\n\nNAK ： &H06\n\nETX ： &H03\n\nBCC ： Checksum of sent and received data\n\nXOR value from the command to ETX per 1Byte\n\nFormat: ![Remote command],[Error code] terminator\n\nError Code\tContents\n\n10\tRemote\n\t\t command does not begin with $\n\n11\tRemote\n\t\t command is wrong\n\n\t\tLogin is not executed\n\n12\tRemote\n\t\t command format is wrong\n\n13\tLogin\n\t\t command password is wrong\n\n14\tSpecified\n\t\t number to acquire is out of range\n\n\t\t(Less than 1 or more than 100)\n\n\t\tNumber to acquire is omitted\n\n\t\tSpecified a string parameter\n\n15\tParameter\n\t\t does not exist\n\n\t\tDimension of parameter is wrong\n\n\t\tElement out of range is called\n\n16\tBCC is\n\t\t wrong\n\n19\tRequest\n\t\t time out\n\n20\tController\n\t\t is not ready\n\n21\tCannot\n\t\t execute since the Execute is running\n\n99\tSystem\n\t\t error\n\n\t\tCommunication error\n\nCommunication Sequence",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

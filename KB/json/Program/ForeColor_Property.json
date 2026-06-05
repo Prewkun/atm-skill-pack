@@ -1,0 +1,14 @@
+{
+  "title": "ForeColor Property",
+  "file": "ForeColor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the foreground color of a control.",
+  "notes": "See Also: ForeColor Property\n\nBackColor Property\n\nGUI Items: ForeColor Property\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, GroupBox",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, GroupBox, LED, ProgressBar, StatusBar",
+  "examples": [
+    "GSet frmMain.btnOK.ForeColor, \"Blue\""
+  ]
+}

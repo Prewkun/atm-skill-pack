@@ -1,0 +1,14 @@
+{
+  "title": "RTrim$ Function",
+  "file": "cmd_rtrimdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "RTrim$(string)",
+  "parameters": "string\tString expression.",
+  "description": "RTrim$ Function\n\nRTrim$ Function\n\nSee_Also Example\n\nReturns a string equal to specifed string without trailing spaces.",
+  "notes": "",
+  "see_also": "LTrim$\n\nRTrim$ Function Example\n\nst$ = \" data \"\n\nst$ = RTrim$(st$) ' st$ = \"..data\"",
+  "examples": [
+    "st$ = \" data \"\n\nst$ = RTrim$(st$) ' st$ = \"..data\""
+  ]
+}

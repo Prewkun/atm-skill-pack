@@ -1,0 +1,14 @@
+{
+  "title": "InW Function",
+  "file": "cmd_inw",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "InW(WordPortNum)",
+  "parameters": "WordPortNum\tInteger expression representing the I/O Input Word.",
+  "description": "InW Function\n\nInW Function\n\nSee_Also Example\n\nReturns the status of the specified input word port. Each word port contains 16 input bits.",
+  "notes": "",
+  "see_also": "In\n\nOut\n\nOutW\n\nInW Function Example\n\nLong word0\n\nword0 = InW(0)",
+  "examples": [
+    "Long word0\n\nword0 = InW(0)"
+  ]
+}

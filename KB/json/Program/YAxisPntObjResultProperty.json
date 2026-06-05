@@ -1,0 +1,12 @@
+{
+  "title": "YAxisPntObjResult Property",
+  "file": "YAxisPntObjResultProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies which result to use from the YAxisPointObject.",
+  "notes": "Use the YAxisPntObjResult property to specify a result number other than one for a Frame object's YAxisPoint.\n\nSee Also: YAxisPntObjResult Property\n\nOriginPoint Property\n\nYAxisPoint Property\n\nOriginPntObjResult Property\n\nVision Objects: YAxisPntObjResult Property\n\nFrame",
+  "see_also": "Applies To\n\nVision Objects: Frame",
+  "examples": []
+}

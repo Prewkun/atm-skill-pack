@@ -1,0 +1,12 @@
+{
+  "title": "Geometric Object Fine Tuning",
+  "file": "Geometric_Object_Fine_Tuning",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Geometric Object Fine Tuning\n\nGeometric Object Fine Tuning\n\nFine tuning of the Geometric object is normally required to get the object working just right. Following is a description for the primary properties associated with fine tuning of a Geometric object and model addition:\n\n\tAccept property\n\t - When you set the Accept property lower, the Geometric object can\n\t run faster.  However, lower Accept property values can also cause\n\t features to be found which are not what you want to find. Try to run\n\t the Geometric object several times and if you are getting know about\n\t how the value of shape score that returned from Score result would\n\t be, adjust the value of Accept property. Find an appropriate value\n\t through several trial runs in order to acquire reliable feature at\n\t the best execution speed.\n\tConfusion property\n\t - If there are multiple features within the search window which look\n\t similar, you will need to set the Confusion property relatively high.\n\t This will guarantee that the feature you are interested in is found\n\t rather than one of the confusing features. However, higher confusion\n\t costs execution speed. If you don't have multiple features within\n\t the search window which look similar, you can set the Confusion property\n\t lower to help reduce execution time.\n\tAdd another sample\n\t - \"Add another sample\" can be selected when teaching is\n\t performed with the model window whose size is same as the current\n\t model's model window.  When the model slightly changes (shape\n\t or pattern is slightly different, shadow appears differently, etc.),\n\t selecting the changed model to add a new model may stabilize the score\n\t at object execution.  The original model will be kept if the\n\t angle is largely out of position, or the model cannot be added due\n\t to significant difference.\n\nOnce you have completed making adjustments and have tested the Geometric object until you are satisfied with the results, you are finished with creating this vision object and can go on to creating other vision objects or configuring and testing an entire vision sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

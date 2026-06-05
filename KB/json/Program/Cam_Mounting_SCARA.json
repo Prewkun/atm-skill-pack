@@ -1,0 +1,12 @@
+{
+  "title": "Cam Mounting SCARA",
+  "file": "Cam_Mounting_SCARA",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Cam Mounting SCARA\n\nSCARA Robot\n\nParts list\n\nUniversal camera adapter plate: 1\n\nCamera bracket base: 1\n\nCamera bracket side base: 1\n\nHexagon socket head bolts M3 x 8: 3 Tightening torque 245 N*cm (25kgf/cm)\n\nHexagon socket head bolts M4 x 12: 10 Tightening torque 280 N*cm (29kgf/cm)\n\nInstallation\n\nInstall the camera adapter to the Arm #2.  (See the figure below.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "FBusIO_GetDeviceStaus Function",
+  "file": "FBusIO_GetDeviceStatus_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "FBusIO_GetDeviceStatus (busNumber, deviceID)",
+  "parameters": "busNumber\tInteger expression\n\t\t representing the Fieldbus system number. This number must be 16.\n\t\t This is the ID for the bus connected to the Fieldbus master board\n\t\t on the PC side of the controller.\n\ndeviceID\tInteger expression\n\t\t representing the Fieldbus ID of the device.",
+  "description": "FbusIO_GetDeviceStatus can be used to verify the general status of a Fieldbus device.\n\nNote:\n  Response time of the fieldbus I/O varies depending on factors such as baud rate, scan rate, numbers and types of device, and numbers of SPEL+ tasks.  EPSON RC+ does not guarantee the real-time response for I/O input and message input of the fieldbus I/O.  If accurate response for the I/O input is required, use EPSON digital I/O (standard or extension).",
+  "notes": "",
+  "see_also": "Returns the status of the specified Fieldbus device.\n\nFBusIO_GetBusStatus\n\nFBusIO_SendMsg\n\nFBusIO_GetDeviceStatus Function Example\n\nLong sts\n\nsts = FbusIO_GetDeviceStatus(1, 10)",
+  "examples": [
+    "Long sts\nsts = FbusIO_GetDeviceStatus(1, 10)"
+  ]
+}

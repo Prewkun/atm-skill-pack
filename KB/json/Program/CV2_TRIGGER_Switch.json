@@ -1,0 +1,12 @@
+{
+  "title": "CV2 TRIGGER Switch",
+  "file": "CV2_TRIGGER_Switch",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 TRIGGER Switch\n\nCV2 TRIGGER Switch\n\nCV2 can be reset to factory default by pressing the TRIGGER switch.\n\n(IP address initialization, project deletion, local monitor setting initialization)\n\nBy pressing the switch after normal startup, status data of CV2 can be saved to the USB flash memory.  Saved data is available when end user sends data to us or SIer to solve a problem.  (A compressed file that name is \"Compact Vision model name serial number date/time\" after \"S_\" is output.  It is date and time notation in UTC that does not depend on time zone.)\n\nInstallation environment (CV2/Camera)\n\nIn order to optimize the product's performance for safety, CV2 and the camera(s) must be\n\nplaced in an environment that satisfies the following conditions.\n\n- Install indoors only and place in a well-ventilated area.\n\n- Keep away from direct sunlight and radiation heat.\n\n- Keep away from dust, oily mist, oil, salinity, metal powder or other contaminants.\n\n- Keep away from water.\n\n- Keep away from shocks or vibrations.\n\n- Keep away from sources of electronic noise.\n\n- Prevent the occurrence of strong electric or magnetic field.\n\nMounting Direction (CV2)\n\nThe CV2 can be installed both horizontally and vertically (using the fixing brackets).\n\nFor fixing the CV2, use the attached fixing brackets.\n\nBrackets installed on the bottom\tBrackets installed on the side\n\nNote:  Allow at least 50 mm from the wall to prevent blocking the fan filter and the air holes.\n\nWhen installing the CV2 vertically, install it so as not to block ventilation of the air holes on the side where the fixing brackets are mounted.\n\nDo not install the product near instruments with huge heating value.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

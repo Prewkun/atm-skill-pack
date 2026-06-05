@@ -1,0 +1,12 @@
+{
+  "title": "Maintenance",
+  "file": "Maintenance_Instructions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Maintenance\n\nMaintenance\n\nIn order to keep the robot and robot system operating safely, maintenance (and inspection) is important.  Adequately trained personnel should perform the procedures required to do the maintenance work safely.  Make sure that maintenance is performed according to the instructions in the robot and controller manuals (maintenance editions).\n\nIf maintenance is required inside the safeguarded area, take the following precautions:\n\n\t\t\tShut off the power supply using lockout / tagout to prevent anyone from turning ON the robot power supply by mistake.  For further details, refer to the section Procedure of Lockout/Tagout in the chapter Safety Precautions in the controller manual.\n\t\t\tIf the robot system power supply cannot be shut off, strictly observe the following:\n\n(1) Visually inspect the robot system to ensure that there are no conditions that could lead to a malfunction.\n\n(2) If it is discovered that the robot system is damaged or malfunctioning, perform the required repairs and retest it before allowing the operator to go inside the safeguard system.\n\n\t\t\tGrant full control of the robot and robot system to those performing maintenance and/or repairs inside the safeguard system.\n\t\t\tEnsure that the robot system does not respond to any remote control devices.\n\t\t\tEnsure that all emergency stop devices are functioning correctly.\n\t\t\tBefore starting the robot system in automatic operation, return all temporarily disabled safety devices to their original enabled status.\n\t\t\tDo not use tweezers or other metal tools to aid in battery replacement.  This could cause a battery short.  Replace a battery using only the specified type and be careful to observe the polarity of the battery.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

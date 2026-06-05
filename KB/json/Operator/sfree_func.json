@@ -1,0 +1,14 @@
+{
+  "title": "SFree Function",
+  "file": "sfree_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "SFree(jointNumber)",
+  "parameters": "jointNumber\tInteger expression representing the joint number to check.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "SFree Function\n\nSFree Function\n\nSee_Also Example\n\nReturns free joint status for a specified joint.",
+  "notes": "",
+  "see_also": "SFree Statement\n\nSFree Function Example\n\nIf SFree(1) Then\n\n  Print \"Joint 1 is free\"\n\nEndIf",
+  "examples": [
+    "If SFree(1) Then Print \"Joint 1 is free\"\nEndIf"
+  ]
+}

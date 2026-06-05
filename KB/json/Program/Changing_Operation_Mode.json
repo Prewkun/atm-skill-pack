@@ -1,0 +1,12 @@
+{
+  "title": "Changing Operation Mode",
+  "file": "Changing_Operation_Mode",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Changing Operation Mode\n\nChanging Operation Mode\n\nYou can change from AUTO operation mode or PROGRAM operation mode to TEACH mode by setting the mode selector key switch on the Teach Pendant to the TEACH position as described below.\n\nTP1, TP2: Teach\n\nTP3, TP4: TEACH/T1, TEACH/T2\n\nWhen the mode selector key switch is changed as described below to send a release latch input signal, the operation mode is returned to the previous operation mode.\n\nTP1, TP2:         Auto\n\nTP3, TP4:         AUTO\n\nThe AUTO operation mode can be changed to PROGRAM mode during the Epson RC+ 8.0 startup sequence. A password can be used to allow only certain personnel to change the startup operation mode.\n\nWhen Epson RC+ 8.0 starts in AUTO operation mode, the AUTO operation mode cannot be changed to PROGRAM operation mode after the system has started. To change the operation mode, restart the system and log into PROGRAM mode, then set the start mode again and restart Epson RC+ 8.0.\n\nFor details on the Start Mode, refer to Start Mode.\n\nTo change to TEST operation mode:\n\nTP1:          Switch the mode selector key switch on the Teach Pendant to Teach, and then select Function key F1: Test Mode.\n\nTP3, TP4:  Switch the mode selector key switch on the Teach Pendant to TEACH/T1 or TEACH/T2, and then tap the [Test] tab.\n\nFor details, refer to the following manual.\n\nRobot Controller option Teach Pendant\n\nTP1 manual, Functions 4. Operation Mode (TEACH/AUTO/TEST)\n\nTP2 manual, Functions 4. Operation Mode (TEACH/AUTO)\n\nTP3 manual, Functions 4. Operation Mode (TEACH/AUTO/TEST)\n\nTP4 manual, 2.4. Operation Mode (TEACH/AUTO/TEST)\n\nNOTE:  T2 mode cannot be used on RC700-A and RC700-D Controllers complying with the UL standards. T2 mode can be used on RC700-E Controllers complying with the UL standards.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

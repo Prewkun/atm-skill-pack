@@ -1,0 +1,14 @@
+{
+  "title": "SpeedFactor Statement",
+  "file": "SpeedFactor_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) SpeedFactor speedRatio\n\n(2) SpeedFactor",
+  "parameters": "speedRatio\tInteger expression or value between 1-100 representing the speed ratio of manipulator motion. (Unit: %)",
+  "description": "SpeedFactor specifies the speed factor for all manipulators and motions set to the Controller.  Usually, SpeedFactor is set to 100 % and speed for each manipulator/motion command is set by Speed or SpeedR.  SpeedFactor is useful to set specific speed to all motions of all manipulators at one time.  For example, the motion with Speed = 80 % operates at 40% of the speed, when speed ratio is 50%.\n\nSpeedFactor also changes the acceleration at the same rate in consideration of a balance of acceleration and deceleration of the manipulator motion.\n\nSpeedFactor is equivalent to the speed ratio setting in the operator window and changes along with the value.\n\nSpeedFactor will be initialized to 100% at the Controller startup.",
+  "notes": "",
+  "see_also": "Sets and returns the setting value of speed factor for manipulator motions.\n\nSpeedFactor Function\n\nSpeedFactor Statement Example\n\nFunction main\n\n   Motor On\n\n   Power High\n\n   SpeedFactor 80\n\n   Speed 100; Accel 100,100\n\n   Go P1            'Operates with Speed 80; Accel 80,80\n\n   Speed 50; Accel 50,50\n\n   Go P2            'Operates with Speed 40; Accel 40,40\n\nFend",
+  "examples": [
+    "Function main\n   Motor On\n   Power High\n   SpeedFactor 80\n   Speed 100; Accel 100,100\n   Go P1            'Operates with Speed 80; Accel 80,80\n   Speed 50; Accel 50,50\n   Go P2            'Operates with Speed 40; Accel 40,40\nFend"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "PF_PurgeGate",
+  "file": "PF_PurgeGate",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_PurgeGate feeder number/feeder name, On/Off",
+  "parameters": "feeder\n\t\t number\tSpecify\n\t\t the feeder number (integer number from 1 to 4) as an expression\n\t\t or a numerical value.\n\nfeeder\n\t\t name\tSpecify\n\t\t the feeder name as a character string.\n\nOn/Off\tSet\n\t\t On(1) / Off(0).\n\nWhen\n\t\t On is specified, the purge gate opens.\n\nWhen\n\t\t Off is specified, the purge gate closes.",
+  "description": "Control will be returned immediately after this command is executed.\n\nIf you wish to wait for the hopper operation to finish, please refer to the Example of PF_PurgeGateStatus.\n\nIf \"Purge gate installed\" is not checked in [System Configuration] - [Controller] - [Parts Feeder], error 2593 (Feeder purge output is not valid) will occur.\n\nThis function cannot be executed from the virtual controller or command window.\n\nPF_Stop, Abort, emergency stop and safeguard open does not immediately stop the purge gate open and close.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_PurgeGate 1, On\nWait 5.0",
+    "' Next action",
+    "Integer looplim\nlooplim = 50\nPF_PurgeGate 1, Off",
+    "Do While PF_PurgeGateStatus(1) = On And looplim > 0\nWait 0.1\nlooplim = looplim -1\nLoop",
+    "If looplim <= 0 Then ' Error Purge gate cannot close\nEndIf",
+    "' Next action"
+  ]
+}

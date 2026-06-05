@@ -1,0 +1,16 @@
+{
+  "title": "Atan Method, Spel Class",
+  "file": "vbg_Atan",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Atan(number As Double) As Double",
+  "parameters": "number\tNumeric expression representing the tangent of an angular value.",
+  "description": "Returns the arc tangent of a numeric expression.",
+  "notes": "",
+  "see_also": "Atan2\n\nAtan Example\n\nVB Example:\n\nDim angle As Double\n\nangle = m_spel.Atan(.7)\n\nC# Example:\n\ndouble angle;\n\nangle = m_spel.Atan(.7);",
+  "examples": [
+    "Dim angle As Double\n\nangle = m_spel.Atan(.7)",
+    "double angle;",
+    "angle = m_spel.Atan(.7);"
+  ]
+}

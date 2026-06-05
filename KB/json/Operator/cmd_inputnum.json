@@ -1,0 +1,17 @@
+{
+  "title": "Input # Statement",
+  "file": "cmd_inputnum",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Input # portNumber, varName [ , varName, varName,... ]",
+  "parameters": "portNumber\tThe ID number that specifies a file, communication port, database, or device. The File number can be specified in ROpen, WOpen, and AOpen statements.\n\nCommunication port number can be specified in OpenCom (RS-232C) and OpenNet (TCP/IP) statements.\n\nThe database number can be specified in OpenDB statement.\n\nDevice ID is:\n\n21 RC+\n\n24 TP (TP1 only)\n\n20 TP3\n\nvarName\tVariable name to receive the data.",
+  "description": "The Input # instruction receives numeric or string data from the device specified by PortNum, and assigns the data to the variable(s).",
+  "notes": "Rules for Numeric Input\n\nWhen inputting numeric values and non-numeric data is found in the input other than the delimiter (comma), the Input instruction discards the non-numeric data and all data following that non-numeric data.\n\nRules for String Input\n\nWhen inputting strings, numeric and alpha characters are permitted as data.\n\nMaximum data length\n\nThis command can handle up to 256 bytes.\n\nHowever, when the target is the database, it can handle up to 4096 bytes.\n\nOther Rules for the Input Instruction\n\n- When more than one variable is specified in the instruction, the numeric data input intended for each variable has to be separated by a comma (\",\") character or blank (\" \").\n\n- When more than one string variable or both of numeric variable and string variable is specified, the numeric data has to be separated by a comma (\",\") character or blank (\" \").\n\n- Numeric variable names and string variable names are allowed. However, the input data type must match the variable type.\n\nThe following programs are examples to exchange the string variable and numeric variable between the controllers using a communication port.\n\nSending end (Either pattern is OK.)\n\nPrint #PortNum, \"$Status,\", InData, OutData\n\nPrint #PortNum, \"$Status\", \",\",InData, OutData\n\nReceiving end\n\nInput #PortNum, Response$, InData, OutData\n\nPotential Errors\n\nNumber of variables and input data differ\n\nWhen the number of the variables specified in the instruction is different from the number of numeric data received from the device, an Error 2505 will occur.",
+  "see_also": "Input\n\nLine Input\n\nLine Input #\n\nPrint #\n\nRead\n\nReadBin\n\nInput # Statement Example\n\nThis is a simple program example using Input # statement.\n\nFunction GetData\n\n  Integer A\n\n  String B$\n\n  OpenCom #1\n\n  Print #1, \"Send\"\n\n  Input #1, A   'Get a numeric value from Port #1\n\n  Input #1, B$  'Get a string from Port #1\n\n  CloseCom #1\n\nFend",
+  "examples": [
+    "Print #PortNum, \"$Status,\", InData, OutData",
+    "Print #PortNum, \"$Status\", \",\",InData, OutData",
+    "Input #PortNum, Response$, InData, OutData",
+    "Function GetData Integer A String B$ OpenCom #1 Print #1, \"Send\" Input #1, A   'Get a numeric value from Port #1 Input #1, B$  'Get a string from Port #1 CloseCom #1\nFend"
+  ]
+}

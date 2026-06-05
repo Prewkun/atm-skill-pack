@@ -1,0 +1,14 @@
+{
+  "title": "UCase$ Function",
+  "file": "cmd_ucasedol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "UCase$ (string)",
+  "parameters": "string\tString expression.",
+  "description": "UCase$ Function\n\nUCase$ Function\n\nSee_Also Example\n\nReturns a string that has been converted to uppercase.",
+  "notes": "",
+  "see_also": "LCase$, LTrim$, Trim$, RTrim$\n\nUCase$ Function Example\n\nstr$ = \"Data\"\n\n\t\tstr$ =\n\t\t\t\tUCase$\n\t\t\t(str$) ' str$ = \"DATA\"",
+  "examples": [
+    "str$ = \"Data\"\n\t\tstr$ =\n\t\t\t\tUCase$\n\t\t\t(str$) ' str$ = \"DATA\""
+  ]
+}

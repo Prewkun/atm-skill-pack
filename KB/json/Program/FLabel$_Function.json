@@ -1,0 +1,14 @@
+{
+  "title": "FLabel$ Function",
+  "file": "FLabel$_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the label for all Force Objects and Force Sensor Objects.",
+  "notes": "Returns the label for all force objects and force sensor objects.",
+  "see_also": "FNumber Function",
+  "examples": [
+    "> FSet FC1.Label, \"Label1\"\n> Print FLabel$(FC1)\nLabel1"
+  ]
+}

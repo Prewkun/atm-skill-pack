@@ -1,0 +1,12 @@
+{
+  "title": "TrackBar Control",
+  "file": "TrackBar_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "A TrackBar control is used to allow the operator to set a value by dragging a slider.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

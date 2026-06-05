@@ -1,0 +1,12 @@
+{
+  "title": "What is a Runtime Vision Command?",
+  "file": "What_is_a_Runtime_Vision_Command",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "What is a Runtime Vision Command?\n\nRuntime Vision Command\n\nA series of vision commands have been added to the SPEL+ robot language to provide a seamless integration of robot motion and vision guidance.\n\nCommands such as VRun allow a user to initiate a vision sequence from the SPEL+ language with just one function call.\n\nVGet allows a user to get the results that are returned from vision objects, sequences, and calibrations.  This is very powerful because vision sequences are created, modified and maintained from within the Vision Guide 8.0 point and click development environment but all things created within Vision Guide 8.0 are also accessible from the SPEL+ language.\n\nRequired Vision Hardware\n\nTo use the Vision Guide 8.0, either of the following hardware is required.\n\nCompact\n\t Vision  CV2 (with the firmware ver. 3.2.0.3 or later)\n\nPC\n\t Vision  PV1\n\nFor details on hardware, refer to Vision Guide 8.0 Hardware & Setup manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

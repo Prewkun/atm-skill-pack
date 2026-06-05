@@ -1,0 +1,12 @@
+{
+  "title": "Working with Multiple Results from a Single Object",
+  "file": "WorkingwithMultipleResultsfromaSingleObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Working with Multiple Results from a Single Object\n\nWorking with Multiple Results from a Single Object\n\nBlob and Correlation objects can be used to find more that only 1 feature within a single search window\n\n.\n  The properties and results which you will need to understand for working with multi-result vision objects are listed below:\n\nCurrentResult property\n\n\t\t\t\tNumberToFind property\n\n\t\t\t\tNumberFound result\n\n\t\t\t\tShowAllResults result\n\nThe Default and Maximum # of Features a Vision Object Can Have\n\nThe Sorting Order of the Features that are Found\n\nExamining the Vision Object's Multiple Results\n\nExamining All the Multiple Results at Once\n\nUsing the Multiple Results Dialog to Debug Searching Problems\n\nAccessing Multiple Results from the SPEL Language\n\nMultiple Results Items to Watch Out For",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

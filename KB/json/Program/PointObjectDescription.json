@@ -1,0 +1,12 @@
+{
+  "title": "Point Object Description",
+  "file": "PointObjectDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Point Object Description\n\nPoint Object Description\n\nPoint object is used for defining points. Point objects can be thought of as a type of utility object that is normally used with other vision objects.\n\nPoint objects are most useful in defining a position references for Polar and Line objects as follows:\n\n\tPolar Objects:\n\t Point objects can be used to define the CenterPoint property which\n\t is used as the center of the Polar object (the CenterX and CenterY\n\t property).\n\tLine Objects: Point objects\n\t can be used to define the startpoint, midpoint, or endpoint of a single\n\t line or the intersection point of 2 lines.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

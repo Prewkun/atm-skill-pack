@@ -1,0 +1,15 @@
+{
+  "title": "SpelRobotInfo Class",
+  "file": "SpelRobotInfo_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelRobotInfo Class\n\nSpelRobotInfo Class\n\nMember name\tType\tDescription\n\nRobotModel\tString\tRobot model name.\n\nRobotName\tString\tRobot name.\n\nRobotNumber\tInteger\tRobot number.\n\nRobotSerial\tString\tRobot serial number.\n\nRobotType\tSpelRobotType\tRobot type.\n\nHere is an example.\n\nVB Example:\n\nDim info As SpelRobotInfo\n\ninfo = m_spel.GetRobotInfo()\n\nLabel1.Text = info.RobotNumber + \" \" + info.RobotModel\n\nC# Example:\n\nSpelRobotInfo info;\n\ninfo = m_spel.GetRobotInfo();\n\nLabel1.Text = info.RobotNumber + \" \" + info.RobotModel;",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Dim info As SpelRobotInfo\ninfo = m_spel.GetRobotInfo()\nLabel1.Text = info.RobotNumber + \" \" + info.RobotModel",
+    "SpelRobotInfo info;\ninfo = m_spel.GetRobotInfo();\nLabel1.Text = info.RobotNumber + \" \" + info.RobotModel;"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Iterations Property",
+  "file": "IterationsProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines how many times to execute the image operation.",
+  "notes": "The Iterations property affects the following ImageOp operations:\n\nOpen, Close, Erode, Dilate, Smooth, Sharpen1, Sharpen2, HorizEdge, VertEdge, EdgeDetect1, EdgeDetect2, LaPlaceEdge1, LaPlaceEdge2, Thin, Thicken.\n\nSee Also: Iterations Property\n\nImageOp Object\n\nOperationProperty\n\nSequence window\n\nVision Sequences",
+  "see_also": "",
+  "examples": []
+}

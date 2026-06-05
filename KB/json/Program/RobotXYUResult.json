@@ -1,0 +1,12 @@
+{
+  "title": "RobotXYU Result",
+  "file": "RobotXYUResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the RobotX, RobotY and RobotU position coordinates of the found part's position with respect to the robot coordinate system.",
+  "notes": "The RobotXYU result returns a position in the robot coordinate system and therefore can be used for robot guidance applications.  The RobotXYU result xVar and yVar values are always returned in millimeters.  The uVar value is always returned in degrees.  When used for a Point object, uVar always returns 0.\n\nIt should be noted that the RobotXYU result can only be calculated for vision sequences which have been calibrated with the robot coordinate system.  If no calibration has been assigned to the vision sequence then the RobotXYU result cause an error to occur.",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, ColorMatch, Correlation, DefectFinder, Edge, Geometric, LineInspector, Point, Polar, Coordinates\n\nCameraXYU Result\tRobotU Result\n\nCameraX Result\tRobotX Result\n\nCameraY Result\tRobotY Result\n\nFound Result\n\nPixelXYU Result\n\nVision Objects: RobotXYU Result\n\nBlob\n\nCoordinates\n\nCorrelation\n\nEdge\n\nPoint\n\nPolar",
+  "examples": []
+}

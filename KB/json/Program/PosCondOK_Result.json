@@ -1,0 +1,12 @@
+{
+  "title": "PosCondOK Result",
+  "file": "PosCondOK_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "It is whether to satisfy the end conditions related to position.",
+  "notes": "",
+  "see_also": "IOCondOK Result\n\nFGGet",
+  "examples": []
+}

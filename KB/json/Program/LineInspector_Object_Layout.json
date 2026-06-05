@@ -1,0 +1,12 @@
+{
+  "title": "LineInspector Object Layout",
+  "file": "LineInspector_Object_Layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "LineInspector Object Layout\n\nLineInspector Object Layout\n\nThe LineInspector object looks similar to the LineFinder tool.  The LineInspector object's search window contains several edge search lines.  The LineInspector object searches for a transition (light to dark or dark to light) somewhere along each search line in the direction indicated by the direction indicators. The data from the edge searches is used to determine defects along the line.\n\nLineInspector Object Layout\n\nThe LineInspector object can be positioned and rotated to search in any direction (not just along the vertical and horizontal directions). To rotate, drag one of the outer size handles in a clockwise or counter-clockwise direction.\n\nTo change the width of the line to be inspected, drag one of the outer size handles away from or toward the center of the line.\n\nTo change the size of the edge searches, drag one of the inner size handles.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

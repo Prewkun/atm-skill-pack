@@ -1,0 +1,12 @@
+{
+  "title": "ThresholdLow Property",
+  "file": "ThresholdLowProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the ThresholdLow value for a Blob, DefectFinder, or ImageOp object.",
+  "notes": "The ThresholdLow property works with the ThresholdHigh property to define the grey level regions which represent the feature (or object), the background and the edges of the image. The ThresholdLow property defines the lower bound for grey level values that are considered to be a blob. Any part of the image which falls within the grey level region between ThresholdLow and ThresholdHigh will be assigned a pixel weight of 1. (i.e. it is a blob.)\n\nIf the Polarity property is set to DarkOnLight, then grey levels between ThesholdLow and ThresholdHigh will changed to black pixels and all other pixels will be white.\n\nIf the Polarity property is set to LightOnDark, then grey levels between ThesholdLow and ThresholdHigh will changed to white pixels and all other pixels will be black.\n\nOne of the problems regarding the ThresholdLow and ThresholdHigh Properties is finding the correct values to use for each. This is where the Histogram feature of Vision Guide comes in. You can run a Histogram on an image to see the relationship between the pixel counts at various grey levels. From the Histogram dialog, you can adjust each of the threshold values and view the results.",
+  "see_also": "Property\n\nPolarity Property\n\nThresholdHigh Property\n\nVision Objects: ThresholdLow Property\n\nBlob Object, Contour Object, DefectFinder Object, ImageOp Object",
+  "examples": []
+}

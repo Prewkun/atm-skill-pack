@@ -1,0 +1,12 @@
+{
+  "title": "ImportFont Property",
+  "file": "ImportFontProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Runs a file dialog from the Vision Guide GUI that allows you to import a font file.",
+  "notes": "Use the ImportFont property to import a font file that has been previously exported with the ExportFont property.  You can import font files created in any project.\n\nPoint-and-Click and SPEL Language Support\n\nThe ImportFont property is only available from the Vision Guide point and click interface (in the Object Tab).\n\nSee Also: ImportFont Property\n\nExportFont Property\n\nVision Objects: ImportFont Property\n\nOCR",
+  "see_also": "Applies To\n\nVision Objects: OCR",
+  "examples": []
+}

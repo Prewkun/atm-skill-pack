@@ -1,0 +1,12 @@
+{
+  "title": "SearchWinWidth Property",
+  "file": "SearchWinWidthProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the width of the area to be searched. (i.e. the Search Window width)",
+  "notes": "The SearchWinWidth property is available for the Blob, Correlation, Geometric, and ImageOp objects.  Each of these object types have similar rectangular Search Windows used to define the area to search within.  The SearchWinWidth property is set automatically when the user drags the left or right vertical window handles for the search window of each object type.  However, the width of an object's search window can also be adjusted by simply entering a new value in the SearchWinWidth property.\n\nThere are cases where the user may want to expand or position the search window dynamically and for that reason the SearchWinWidth property can also be set from the SPEL+ Language.\n\nDo not the set the SearchWinWidth setting too large. If the value is too large, the detection time gets longer and may result in false detection. Also, a value greater than 4096 cannot be set in Correlation and Geometric objects.\n\nSee Also: SearchWinWidth Property\n\nSearchWinHeight Property\n\nSearchWinLeft Property\n\nSearchWinTop Property\n\nThe Search Window\n\nWindow Property\n\nVision Objects: SearchWinWidth Property\n\nBlob\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Blob, Correlation, Geometric, ImageOp",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Arch Method, Spel Class",
+  "file": "vbg_Arch",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Arch (ArchNumber As Integer, DepartDist As Integer, ApproDist As Integer )",
+  "parameters": "ArchNumber\tThe Arch number to define.  Valid Arch numbers are (0-6) making a total of 7 entries into the Arch table.\n\nDepartDist\tThe depart distance in millimeters moved at the beginning of the Jump instruction before starting horizontal motion.\n\nApproDist\tThe approach distance in millimeters above the target position of the Jump instruction.",
+  "description": "Defines ARCH parameters (Z height to move before beginning horizontal motion) for use with the JUMP instruction.",
+  "notes": "",
+  "see_also": "Jump\n\nJump3\n\nJump3CP\n\nArch Example\n\nVB Example:\n\nSub SetArchs()\n\n  With m_spel\n\n    .Arch(1, 30, 30)\n\n    .Arch(2, 60, 60)\n\n   .Jump(\"P1 C1\")\n\n   .Jump(\"P2 C2\")\n\n  End With\n\nEnd Sub\n\nC# Example:\n\nvoid SetArchs()\n\n{\n\n   m_spel.Arch(1, 30, 30);\n\n   m_spel.Arch(2, 60, 60);\n\n   m_spel.Jump(\"P1 C1\");\n\n   m_spel.Jump(\"P2 C2\");\n\n}",
+  "examples": [
+    "Sub SetArchs() With m_spel\n    .Arch(1, 30, 30)\n    .Arch(2, 60, 60)\n   .Jump(\"P1 C1\")\n   .Jump(\"P2 C2\") End With\nEnd Sub",
+    "void SetArchs()\n{\n   m_spel.Arch(1, 30, 30);\n   m_spel.Arch(2, 60, 60);\n   m_spel.Jump(\"P1 C1\");\n   m_spel.Jump(\"P2 C2\");\n}"
+  ]
+}

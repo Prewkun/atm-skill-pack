@@ -1,0 +1,14 @@
+{
+  "title": "GravityCenter Property",
+  "file": "GravityCenter_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the value of the center of gravity for the overall robot hand and workpiece/payload at the leading end side from the force sensor.",
+  "notes": "Sets or returns the value of the center of gravity for the overall robot hand and workpiece/payload at the leading end side from the the force sensor (not including the force sensor).\n\nSet the position of the center of gravity for the Tool 0 coordinate system (robot hand center datum).\n\nMass Property Object is used to compensate for the effects of gravity on the force control function.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "> MPSet MP1.GravityCenter, 10, 10, 100\n> MPSet MP1.Mass, 2\n> MP 1\n> Move CurPos +TLW(10) FC1 ROT"
+  ]
+}

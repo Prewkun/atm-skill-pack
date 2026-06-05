@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Add New",
+  "file": "Part_Feeding_Wizard_Add_New",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Add New\n\nAdd a new part\n\n(1)  In Epson RC+ 8.0, select Menu-[Tool] to open the [Part Feeding] dialog box.\n\n(2)  Click the [Add] button.  Run the Part Wizard.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

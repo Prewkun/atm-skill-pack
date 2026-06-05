@@ -1,0 +1,15 @@
+{
+  "title": "Spel Class Instance Termination",
+  "file": "Spel_Class_InstanceTermination",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Spel Class Instance Termination\n\nSpel Class Instance Termination\n\nWhen your application exits, you need to execute Dispose for each Spel class instance. This can be done in your main form's FormClosed event. If Dispose is not executed, the application will not shutdown properly.\n\nFor Visual Basic and Visual C#, use the Dispose method:\n\n  m_spel.Dispose\n\nFor Visual C++, if your Spel class instance was created on the heap (with gcnew), then use delete:\n\n  delete m_spel;",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "m_spel.Dispose",
+    "delete m_spel;"
+  ]
+}

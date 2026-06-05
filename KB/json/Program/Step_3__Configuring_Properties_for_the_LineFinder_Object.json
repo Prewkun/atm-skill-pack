@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Configuring Properties for the LineFinder Object",
+  "file": "Step_3__Configuring_Properties_for_the_LineFinder_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Configuring Properties for the LineFinder Object\n\nStep 3: Configuring Properties for the LineFinder Object\n\nWe can now set property values for the LineFinder object.  To set any of the properties simply click the associated property's value field and then either enter a new value or if a drop down list is displayed click one of the items in the list.\n\nShown below are some of the more commonly used properties for the LineFinder object.  Explanations for other properties such as AbortSeqOnFail, Graphics, etc. which are used on many of the different vision objects can be seen in the Vision Guide 8.0 Properties and Results Reference Manual or in the LineFinder Object Properties found previously in this section.\n\n\tEdgeType (Single)\n\t - Select the type of the edge to be searched.  For edge pairs,\n\t an edge is found from each direction and thecenter of the pair is\n\t reported as the position.\n\tName property\n\t - The default name given to a newly created LineFinder object is \"LineFindxx\"\n\t where xx is a number which is used to distinguish between multiple\n\t LineFinder objects within the same vision sequence. If this is the\n\t first LineFinder object for this vision sequence then the default\n\t name will be \"LineFind01\".  To change the name, click\n\t the Value field of the Name property, type a new name and press the\n\t return key.  You will notice that once the name property is modified,\n\t every place where the LineFinder object's name is displayed is updated\n\t to reflect the new name.\n\tNumberOfEdges\n\t  - You can search for 1 or more edges along the search line.\n\tPolarity\n\t - If you are looking for a DarkToLight edge, change polarity.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

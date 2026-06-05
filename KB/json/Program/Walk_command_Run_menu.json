@@ -1,0 +1,12 @@
+{
+  "title": "Walk command (Run menu)",
+  "file": "Walk_command_Run_menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Walk command (Run menu)\n\nWalk Command (Run Menu)\n : F12\n\nExecute lines until after the next motion command or output command, and stop at the next line. Configure whether to stop at an output command by checking the [Walk stops for output commands] checkbox in the [Setup]-[System Configuration]-[Controller]-[Preferences] tab.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

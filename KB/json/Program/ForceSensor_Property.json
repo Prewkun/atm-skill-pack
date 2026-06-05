@@ -1,0 +1,14 @@
+{
+  "title": "ForceSensor Property",
+  "file": "ForceSensor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the number of the force sensor in question.",
+  "notes": "This sets the number of the subject force sensor, or when confirming, uses the properties thereof.",
+  "see_also": "Applies To\n\nForce Monitor\n\nForce Trigger",
+  "examples": [
+    "Function Test_ForceSensor Integer iVar FSet FM1.ForceSensor, 3 FGet FM1.ForceSensor, iVar Print iVar\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "SearchWin Property",
+  "file": "SearchWinProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the position and size of a search window .",
+  "notes": "The SearchWin property was added to provide easy access to the SearchWinTop, SearchWinLeft, SearchWinWidth, and SearchWinHeight Properties or SearchWinCenterX, SearchWinCenterY, SearchWinRadiusInner, and SearchWinRadiusOuter Properties from the SPEL+ Language.  The SearchWin property allows the setting of all four properties with one function call.  There are cases where the user may want to define the position and size of the search window dynamically and for that reason the SearchWin property was created.\n\nThe Left and Top values specify the location of the upperleft corner of the window, even when the window is rotated.\n\nSearchWinRadiusInner and SearchWinRadiusOuter originally use a real value, however, use an integer value only when executing VSet and VGet with this property.\n\nAvoid setting SearchWin too large.  If the value is too large, the detection time gets longer and may also result in false detection.\n\nSee Also: SearchWin Property\n\nSearchWinHeight Property\n\nSearchWinLeft Property\n\nSearchWinTop Property\n\nSearchWinWidth Property\n\nThe Search Window\n\nVision Objects: SearchWin Property\n\nBlob\n\nBoxFinder\n\nCorrelation\n\nGeometric\n\nImageOp",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: Blob, BoxFinder, CodeReader, ColorMatch, Contour, CornerFinder, Correlation, DefectFinder, Geometric, ImageOp, LineFinder, OCR, Text",
+  "examples": []
+}

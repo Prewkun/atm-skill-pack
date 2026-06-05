@@ -1,0 +1,12 @@
+{
+  "title": "[Simulator] (Tools Menu)",
+  "file": "tools_SIM_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Simulator] (Tools Menu)\n\n[Simulator] (Tools Menu)\n : Ctrl+F5\n\nOpens the [Simulator] window. For details, refer to 8. Simulator.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

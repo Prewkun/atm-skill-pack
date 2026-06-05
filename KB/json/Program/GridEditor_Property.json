@@ -1,0 +1,12 @@
+{
+  "title": "GridEditor Property",
+  "file": "GridEditor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Opens a designer to set up the Grid control.",
+  "notes": "Use the designer to configure the grid and how it will first appear at runtime.  You can add text to cells at designtime and/or add data at runtime.\n\nColumns can be moved by dragging and dropping them to desired locations. They can also be swapped with other columns by using the drop down arrow in the column header.\n\nColumns can be renamed by double clicking on the desired column header.\n\nThe designer supports cut, copy, paste, undo, and redo operations using a right-click menu and shortcuts.\n\nMultiple rows can be selected when Show Row Selectors is set to True.\n\nSee Also: GridEditor Property\n\nGrid",
+  "see_also": "Applies To\n\nGrid",
+  "examples": []
+}

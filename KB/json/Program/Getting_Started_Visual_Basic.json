@@ -1,0 +1,28 @@
+{
+  "title": "Getting Started Visual Basic",
+  "file": "Getting_Started_Visual_Basic",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Getting Started Visual Basic\n\nGetting started using Visual Basic\n\nTo use RCAPINet in a Visual Basic .NET project, declare a Spel Class object, as shown in the example below.  g_spel can now be used in your project.\n\nIn Visual Studio\n\t .NET, select File | Project.\n\nSelect the following\n\t type for the Visual Basic project.\n\n-\n\t\t .NET Framework : \"Windows Forms App (.NET Framework)\"\n\n-\n\t\t .NET6 : \"Windows Forms App\"\n\nFrom the Project\n\t menu, select Add Reference.\n\nIn the [Browse]\n\t tab, select the \"RCAPINt2.dll\" file under the \"\\API\"\n\t directory.\n\n-\n\t\t .NET Framework : \\Assembly\\net462\n\n-\n\t\t .NET6 : \\Assembly\\net6.0-windows\n\nFrom the Project\n\t menu, create a new module and add the following code.\n\nModule Module1\n\n  Public WithEvents g_spel As RCAPINet.Spel\n\n  Public Sub InitApp()\n\n    g_spel = New RCAPINet.Spel\n\n    With g_spel\n\n      .Initialize\n\n      .Project = \"c:\\EpsonRC80\\projects\\API_Demos\\Demo1\\demo1.sprj\"\n\n    End With\n\n  End Sub\n\n  Public Sub EventReceived(ByVal sender As Object, _\n\n    ByVal e As RCAPINet.SpelEventArgs) Handles g_spel.EventReceived\n\n    MsgBox(\"received event \" & e.Event)\n\n  End Sub\n\nEnd Module\n\nNote: When your application exits, you need to execute Dispose for each Spel class instance. This can be done in your main form's FormClosed event. If Dispose is not executed, the application will not shutdown properly.\n\ng_spel.Dispose()",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Module Module1",
+    "Public WithEvents g_spel As RCAPINet.Spel",
+    "Public Sub InitApp()",
+    "g_spel = New RCAPINet.Spel",
+    "With g_spel",
+    ".Initialize",
+    ".Project = \"c:\\EpsonRC80\\projects\\API_Demos\\Demo1\\demo1.sprj\"",
+    "End With",
+    "End Sub",
+    "Public Sub EventReceived(ByVal sender As Object, _",
+    "ByVal e As RCAPINet.SpelEventArgs) Handles g_spel.EventReceived",
+    "MsgBox(\"received event \" & e.Event)",
+    "End Sub",
+    "End Module",
+    "g_spel.Dispose()"
+  ]
+}

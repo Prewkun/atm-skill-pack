@@ -1,0 +1,14 @@
+{
+  "title": "Value Property",
+  "file": "Value_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the value that represents the control's current position.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet form1.ProgressBar1.Value, 75"
+  ]
+}

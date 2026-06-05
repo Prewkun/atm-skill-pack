@@ -1,0 +1,12 @@
+{
+  "title": "Positioning a camera for a pallet search",
+  "file": "Positioningacameraforapalletsearch",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Positioning a camera for a pallet search\n\nPositioning a camera for a pallet search\n\nWhen using a J2 or J5 mount camera for pallet search, the camera imaging position is hard to control. However, the camera moves easily to each imaging position on the pallet by defining an Arm for the camera using the Arm command. For details on the Arm command, refer to Epson RC+ 8.0 SPEL+ language Reference.\n\nTips:\n\nThe Arm command is only available for the SCARA robots.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

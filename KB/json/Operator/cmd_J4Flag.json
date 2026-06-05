@@ -1,0 +1,14 @@
+{
+  "title": "J4Flag Function",
+  "file": "cmd_J4Flag",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "J4Flag [(point)]",
+  "parameters": "point\tOptional.  Point expression.  If point is omitted, then the J4Flag setting of the current robot position is returned.",
+  "description": "J4Flag Function\n\nJ4Flag Function\n\nReturns the J4Flag attribute of a point.",
+  "notes": "",
+  "see_also": "Elbow, Hand, Wrist, J4Flag Statement, J6Flag\n\nJ4Flag Function Example\n\nPrint J4Flag(pick)\n\nPrint J4Flag(P1)\n\nPrint J4Flag\n\nPrint J4Flag(Pallet(1, 1))",
+  "examples": [
+    "Print J4Flag(pick)\n\nPrint J4Flag(P1)\n\nPrint J4Flag\n\nPrint J4Flag(Pallet(1, 1))"
+  ]
+}

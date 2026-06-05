@@ -1,0 +1,12 @@
+{
+  "title": "Distance Tracking DifferentialGain Setting",
+  "file": "Distance_Tracking_DifferentialGain_Setting",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Distance Tracking DifferentialGain Setting\n\nDifferentialGain Setting\n\nDifferentialGain is a parameter to improve the responsiveness of correction.\n\nAdjust value of DifferentialGain and repeat the program execution to calculate a proper value.\n\nIncrease the value of DifferentialGain gradually. Changing the value to a larger one at one time is extremely hazardous and the robot may move unintentionally.\n\nWhen adjusting DifferentialGain, enter the value calculated in 18.4.5 for ProportionalGain and the value calculated in 18.4. 6 for DifferentialGain.\n\nWhen adjusting DifferentialGain, the responsiveness of correction is improved.\n\nHowever, if increasing the value too much, the robot motion will be vibratory.\n\nRefer to the upper graph: D=100\n\nDifferentialGain value without robot vibrations and the best correction accuracy is an optimum value.\n\nRefer to the upper graph: D=40\n\nNow, gain adjustment is completed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

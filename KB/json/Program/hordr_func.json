@@ -1,0 +1,14 @@
+{
+  "title": "Hordr Function",
+  "file": "hordr_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Hordr(stepNumber)",
+  "parameters": "stepNumber\tInteger expression representing which Hordr step to retrieve.",
+  "description": "Hordr Function\n\nHordr Function\n\nSee_Also Example\n\nReturns Hordr value for a specified step.",
+  "notes": "",
+  "see_also": "Hordr Statement\n\nHordr Function Example\n\nInteger a\n\na =\n\t\t\t\tHordr\n\t\t\t(1)",
+  "examples": [
+    "Integer a\n\na =\n\t\t\t\tHordr\n\t\t\t(1)"
+  ]
+}

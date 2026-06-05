@@ -1,0 +1,12 @@
+{
+  "title": "Decision Object Description",
+  "file": "Decision_Object_Description",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Decision Object Description\n\nDecision Object Description\n\nThe Decision object is used to control the flow of sequence execution based on the success or failure of a specified vision object.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

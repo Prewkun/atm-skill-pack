@@ -1,0 +1,14 @@
+{
+  "title": "VxTrans Function",
+  "file": "VxTrans_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "VxTrans (CalNo, P(pixel)[, P(camRobot)] ) As Point",
+  "parameters": "CalNo\tInteger expression that specifies the calibration data number.  The range is from 0 to 15; up to 16 calibrations may be defined.\n\nP(pixel)\tSpecifies the vision pixel coordinates (X,Y,U only) using point data\n\nP(camRobot)\tOptional.  For a mobile camera, this is the position where the robot was located when the image was acquired.  If not specified, then the current robot position is used.\n\nThe point should be in BASE: 0, TOOL: 0, ARM: 0.",
+  "description": "This command converts pixel coordinates to robot coordinates using the calibration data of the specified calibration number.\n\nWhen using a mobile camera, specify P(camRobot)  if the robot has been moved from the position where the image was acquired.  Ensure that P(camRobot) is in BASE: 0, TOOL: 0, ARM: 0.  The Joint #4 and Joint #6 angles of the set robot coordinates are used for the calculation.",
+  "notes": "",
+  "see_also": "VxCalib\n\nVxCalInfo Function\n\nVxCalDelete\n\nVxCalSave\n\nVxCalLoad\n\nVxTrans Function Example\n\nP52 = VxTrans(0, P51, P50)",
+  "examples": [
+    "P52 = VxTrans(0, P51, P50)"
+  ]
+}

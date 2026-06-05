@@ -1,0 +1,14 @@
+{
+  "title": "AIO_Out",
+  "file": "AIO_Out",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AIO_Out Channel Number, Outputdata [, Forced]",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.\n\nOutput Data\tSpecify the real number of Real type which indicates output voltage [V] or current value [mA] in formula or value.\n\nForced\tOptional.  Usually omitted.",
+  "description": "Output the Real value indicating specified voltage [V] or current [mA] to analog output port which specified on channel port.  Set the voltage output range of analog output port or selection of voltage and current output by the switch on the board.  If setting a value which out of range of analog I/O port, output the border value (maximum and minimum value) which is not out of the range.\n\nAIO_Out command becomes an error if outputting the speed information by specified channel.  Stop the speed information output and execute the AIO_Out command.\n\nNote\n\nForced Flag: Specify the flag if outputting the analog I/O when operating emergency stop or opening the Safety Door by NoPause task and NoEmgAbort task (special task specified NoPause or NoEmgAbort to start when executing Xqt).\n\nNeed to be careful about the system design since analog I/O output changes when operating emergency stop or opening the Safety Door.",
+  "notes": "",
+  "see_also": "Output analog value from the optional analog I/O output channel.\n\nAIO_In Function, AIO_OutW, AIO_Out Function, AIO_OutW Function, AIO_Set, Wait\n\nAIO_Out Example\n\nOutput 7.0 [V] from the analog I/O channel 1.\n\nAIO_Out 1, 7.0",
+  "examples": [
+    "AIO_Out 1, 7.0"
+  ]
+}

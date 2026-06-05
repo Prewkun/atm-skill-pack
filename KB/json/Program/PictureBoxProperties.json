@@ -1,0 +1,12 @@
+{
+  "title": "PictureBox Properties",
+  "file": "PictureBoxProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "PictureBox Properties\n\nPictureBox Properties and Events\n\nThe following list is a summary of the PictureBox control properties with brief descriptions.  Click on the property names for more details.\n\nProperty\tDescription\n\nBackColor\tSelects the background color for the\n\t\t object's label.\n\nDefault: Control\n\nBorderStyle\tDetermines the Border style of the control.\n\nDefault: 0 -\n\t\t None\n\nEnabled\tDetermines if the control is enabled\n\t\t or not.\n\nDefault: 1 -\n\t\t True\n\nEventTaskType\tThe type of task used for events.\n\nDefault: 0 -\n\t\t Normal\n\nHeight\tSpecifies the height of the control.\n\nDefault:\n\nImage\tSpecifies the image to be displayed.\n\t\t  To delete, press the [Delete] key.\n\nLeft\tSpecifies\n\t\t the left location of the control.\n\nDefault:\n\nName\tUsed to assign a unique name to the\n\t\t PictureBox control.\n\nDefault: PictureBoxXX\n\nSizeMode\tIndicates how the image is displayed.\n\nDefault: 0 -\n\t\t Normal\n\nTabIndex\tSets the tab index for the control\n\nDefault: 0\n\nToolTipText\tSets the text\n\t\t for the tooltip.\n\nDefault:\n\nTop\tSets the location of the top of the\n\t\t PictureBox control.\n\nDefault:\n\nVisible\tSets if the\n\t\t control is Visible or not.\n\nDefault: 1 -\n\t\t True\n\nWidth\tSets the width\n\t\t of the PictureBox control.\n\nDefault:\n\nEvents\tDescription\n\nClick\tExecutes when the user clicks the control\n\t\t with the mouse.\n\nDblClick\tExecutes when the user double clicks\n\t\t the control with the mouse.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

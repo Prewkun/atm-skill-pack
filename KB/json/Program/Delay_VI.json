@@ -1,0 +1,12 @@
+{
+  "title": "Delay VI",
+  "file": "Delay_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Delays processing for the specified number of milliseconds.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nMilliseconds\tThe number of milliseconds to delay.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nDelay Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "[Save As] (File Menu)",
+  "file": "file_saveas_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Save As] (File Menu)\n\n[Save As] (File Menu)\n\nSave the program file, include file, point file, or force file with a new file name. The original file will be removed from the project but will remain on the hard disk.\n\nTo display the original excluded file, select [Project Explorer]-[Show files except project build].\n\nIf you use [Save As] on an include file, you must rename the file in each of your #include statements that refer to it.\n\n[Save All] (File Menu)\n : Ctrl+Shift+S\n\nSaves all open files. This menu selection cannot be selected if there is no new file to be saved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Hand_Off Function",
+  "file": "Hand_Off_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "This function acquires the following information.\n\nFor grippers : Whether the hand is in a release state\n\nFor electric screwdrivers : Whether the hand has finished screw loosening.\n\nOnce the release operation has been performed with the Hand_Off command, use the Hand_Off() function\n\nto acquire operation results and determine whether the workpiece has been released properly, or whether\n\nscrew loosening is complete.\n\nThe released state refers to a state in which the input bit specified in the Hand_Off definition area is in the specified I/O state.\n\nNote\n\nIf one input bit has been set, combine this function with the following commands to change the robot motion based on whether the hand enters the released state.\n\nFind command, Sense command, Till command, Trap command, Wait command\n\nHand_Off Funcion Example\n\n' When setting an electric screwdriver to hand 1, and operating the hand in combination with a force sensor\n\n'\n\n' Open and close Hand 1 registered to Robot 1.\n\n' When executing a Jump command to move Robot 1 from Home to P1,\n\n' the Hand_Off command is executed when the robot has moved up to half of the total travel distance.\n\n' When P1 is reached, the workpiece is gripped with the Hand_On command.\n\n' (Use Hand_Off during motion to reduce takt times)\n Robot 1\n Tool 1\n Hand_Off 1\n Bmove XY(-10, 0, 0, 0, 0, 0) FC1 Till Hand_Off(1) = True",
+  "notes": "",
+  "see_also": "For grippers: Determines whether the hand is in the release state.\n\nFor electric screwdrivers: Determines whether the hand has finished screw loosening.\n\nHand_On\n\nHand_Off\n\nHand_On Function\n\nHand_TW Function\n\nHand_Def Function",
+  "examples": [
+    "' When setting an electric screwdriver to hand 1, and operating the hand in combination with a force sensor\n'\n' Open and close Hand 1 registered to Robot 1.\n' When executing a Jump command to move Robot 1 from Home to P1,\n' the Hand_Off command is executed when the robot has moved up to half of the total travel distance.\n' When P1 is reached, the workpiece is gripped with the Hand_On command.\n' (Use Hand_Off during motion to reduce takt times) Robot 1 Tool 1 Hand_Off 1 Bmove XY(-10, 0, 0, 0, 0, 0) FC1 Till Hand_Off(1) = True"
+  ]
+}

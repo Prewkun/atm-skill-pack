@@ -1,0 +1,12 @@
+{
+  "title": "Step 4: Configure Contour Point Properties",
+  "file": "Step_4__Configure_Contour_Point_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 4: Configure Contour Point Properties\n\nStep 4: Configure Contour Point Properties\n\nConfigure properties to adjust trajectory accuracy, the number of contour points and other settings.\n\nShown below are properties used.  For details on each property, refer to Vision Guide 8.0 Properties and Results Reference.\n\nSamplingPitch\tDefines the maximum number of contour\n\t\t points reduced.\n\nWhen set to \"5\", the number of contour\n\t\t points is, at most, reduced to around 1/5 of the number of contour\n\t\t points initially detected.\n\nContourTolerance\tDefines the tolerance when reducing\n\t\t contour points.\n\nReduce this value to restrict the number\n\t\t of contour points that run counter to the work shape from being\n\t\t deleted.  Check object runtime results to adjust this to\n\t\t the level of accuracy required.\n\nStartPointObject,\n\t\t EndPointObject\tSpecifies the starting and ending\n\t\t position of a trajectory.\n\nWhen set, create Point objects and adjust\n\t\t the vision sequence order to have these run before the Contour\n\t\t object.  Place Point objects near the points where you want\n\t\t to start/end the trajectory.\n\nRotationDirection,\n\t\t LineDirection\tSpecifies the trajectory direction.\n\nIf ContourMode is set to Blob or Arc,\n\t\t this sets the direction of rotation of the trajectory (CW/CCW).\n\t\t  If ContourMode is set to Line, this specifies the direction\n\t\t left or right (LeftToRight/RightToLeft) from the edge search line\n\t\t when facing vertically downwards.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

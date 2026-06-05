@@ -1,0 +1,12 @@
+{
+  "title": "PixelX Result",
+  "file": "PixelXResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the X position coordinate of the found part's position in pixel coordinates.",
+  "notes": "The PixelX result is the X coordinate of the objects position in the image coordinate system.  The value is a real number that has a fractional component because of the sub-pixeling feature.\n\nStatistics\n\nFor the PixelX result, the following statistics are available. PixelXMax, PixelXMean, PixelXMin, PixelXStdDev.  Please see Statistics in the Vision Guide manual for details about using statistics.",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, LineInspector, OCR, Point, Polar, Text, Coordinates\n\nAngle Result\n\nCameraXYU Result\tPixelXYU Result\n\nCameraX Result\tRobotXYU Result\n\nFound Result\tRobotX Result\n\nVision Objects: PixelX Result\n\nBlob\n\nBoxFinder\n\nColorMatch\n\nContour\n\nCoordinates\n\nCornerFinder\n\nCorrelation\n\nEdge\n\nGeometric\n\nPoint\n\nPolar\n\nText",
+  "examples": []
+}

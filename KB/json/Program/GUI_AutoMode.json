@@ -1,0 +1,12 @@
+{
+  "title": "Auto Mode",
+  "file": "GUI_AutoMode",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Auto Mode\n\nAuto Mode\n\nAfter you have developed your application, you will need to setup Epson RC+  to run in Auto mode.  At startup time, you can choose to show one of your GUI forms, or you can show the Operator Window and then display one of your forms from your program.\n\nTo set Epson RC+ to start in Auto mode\n\nOpen\n\t Setup | System Configuration.\n\nIn\n\t the Start Mode page, check Auto and click Apply, then click Close.\n\nTo configure a form to be displayed at startup\n\nOpen the GUI Builder window.\n\tIn the Forms Explorer, right click on the\n\t form you want displayed at startup and select Startup Form.\n\tClick the Project Save button on the main\n\t toolbar.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

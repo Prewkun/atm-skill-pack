@@ -1,0 +1,17 @@
+{
+  "title": "Version Propety, Spel Class",
+  "file": "Version_Propety,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property Version As String",
+  "parameters": "",
+  "description": "Returns the current Epson RC+ 8.0 software version.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "' Get version of software",
+    "curVer = m_spel.Version",
+    "// Get version of software",
+    "curVer = m_spel.Version;"
+  ]
+}

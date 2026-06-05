@@ -1,0 +1,12 @@
+{
+  "title": "The Robot Tab",
+  "file": "The_Robot_Tab",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Robot Tab\n\nThe Robot Tab\n\nThe Robot tab can be displayed by clicking the <Robot> button below the Jog tab at the right side of the sequence and calibration trees.  The Robot tab is also a fly-out panel that can be placed at arbitrary position.\n\nThe Robot tab is used for setting various functions that may be necessary for jogging the robot. You can do the following operations:\n\nSelect the current robot\n\nTurn motor power on and off\n\nChange power\n\nFree joints\n\nExecute Home or MCal\n\nExecute Reset",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

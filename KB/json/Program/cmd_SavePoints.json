@@ -1,0 +1,14 @@
+{
+  "title": "SavePoints Statement",
+  "file": "cmd_SavePoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SavePoints\n\t\t\tfileName",
+  "parameters": "fileName\tString expression containing the file into which points will be stored.  The extension must be .PTS.\n\nYou cannot specify a file path and fileName doesn't have any effect from ChDisk.  See ChDisk for the details.",
+  "description": "SavePoints saves points for the current robot to the specified file.  The specified fileName will have the extension .PTS appended to the end so no extension is to be specified by the user.\n\nThe point data is stored in the compact flash inside of the controller.  Therefore, SavePoints starts writing into the compact flash.  Frequent writing into the compact flash will shorten the compact flash lifetime.  We recommend using SavePoints only for saving the point data.\n\nPotential Errors\n\nOut of Disk Space\n\nIf there is no space remaining an error will occur.\n\nPoint file for another robot.\n\nIf fileName is a point file for another robot, an error will occur\n\nA Path Cannot be Specified\n\nIf fileName contains a path, an error will occur.  Only a file name in the current project can be specified.\n\nBad File name\n\nIf a file name is entered which has spaces in the name, or other bad file name characteristics an error will be issued.",
+  "notes": "",
+  "see_also": "ClearPoints\n\nLoadPoints\n\nSavePoints Statement Example\n\nClearPoints\n\n\t\tFor i = 1 To 10\n\n\t\t  P(i) = XY(i, 100, 0, 0 )\n\n\t\tNext i\n\nSavePoints \"TEST.PTS\"",
+  "examples": [
+    "ClearPoints\n\t\tFor i = 1 To 10\n\t\t  P(i) = XY(i, 100, 0, 0 )\n\t\tNext i\n\n\t\t\tSavePoints \"TEST.PTS\""
+  ]
+}

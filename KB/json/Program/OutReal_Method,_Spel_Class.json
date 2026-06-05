@@ -1,0 +1,15 @@
+{
+  "title": "OutReal Method, Spel Class",
+  "file": "OutReal_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function OutReal (WordPortNumber As Integer) As Single\n\nSub OutReal (WordPortNumber As Integer, Value As Single)",
+  "parameters": "WordPortNumber\tInteger representing output port\n\nValue\tReal vale representing output data",
+  "description": "Gets or sets the output port status as the 32 bits floating-point data (IEEE754 compliant).",
+  "notes": "",
+  "see_also": "In, InBCD, InReal, InW, Out, OutW\n\nOutReal Example\n\nVB",
+  "examples": [
+    "Dim val As Single\nval = m_spel.OutReal(32)",
+    "float val;\nval = m_spel.OutReal(32);"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "ShowWindow Method, Spel Class",
+  "file": "ShowWindow_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ShowWindow (WindowID As SpelWindows, [, Parent As Form])",
+  "parameters": "WindowID\tThe ID of\n\t\t the Epson RC+ 8.0 window to show.\n\nParent\tOptional.\n\t\t A .NET form that will be the parent of the window.",
+  "description": "Shows an Epson RC+ 8.0 window.",
+  "notes": "When ServerOutOfProcess is False and your application is using .NET, you can use the Parent parameter to specify the .NET parent form for the window. Otherwise, you must omit the Parent parameter and use the ParentWindowHandle property to set the handle of the parent.",
+  "see_also": "HideWindow\n\nRunDialog\n\nServerOutOfProcess\n\nShowWindow Example\n\nVB",
+  "examples": [
+    "Sub btnShowIOMonitor_Click( _\n       ByVal sender As System.Object, _\n       ByVal e As System.EventArgs) _\n       Handles btnShowIOMonitor.Click\n    m_spel.ShowWindow(RCAPINet.SpelWindows.IOMonitor)\nEnd Sub",
+    "void btnShowIOMonitor_Click(object sender, EventArgs e)\n{ m_spel.ShowWindow(RCAPINet.SpelWindows.IOMonitor, this);\n}"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PF_Number",
+  "file": "PF_Number",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_Number(part name)",
+  "parameters": "part name\tSpecify the part name (character string).",
+  "description": "Returns −1 if the corresponding part name does not exist.\n\nIf multiple parts with the same name exist, the part with the smallest ID will be retrieved.\n\nCannot be executed from a virtual controller or command window.\n\nPF_Number Example\n\nPrint \"Part1 part number = \", PF_Number(\"Part1\")",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print \"Part1 part number = \", PF_Number(\"Part1\")"
+  ]
+}

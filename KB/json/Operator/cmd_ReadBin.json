@@ -1,0 +1,14 @@
+{
+  "title": "ReadBin Statement",
+  "file": "cmd_ReadBin",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "ReadBin #portNumber, var\n\nReadBin #portNumber, array(), count",
+  "parameters": "portNumber\tID number representing a file or communications port to read from.\n\nFile number can be specified in BOpen statement.\n\nCommunication port number can be specified in OpenCom (RS-232C) or OpenNet (TCP/IP) statements.\n\nvar\tName of a byte, integer, or long variable that will receive the data byte.\n\narray()\tName of a byte, integer, or long array variable that will receive the data byte.  Specify a one dimension array variable.\n\ncount\tSpecify the number of bytes to read.\n\nThe specified count has to be less than or equal to the number of array elements and also smaller than 256 bytes.\n\nIf the communication port (TCP/IP) is the subject, the count has to be less than or equal to the number of array and also smaller than 1024 bytes.",
+  "description": "ReadBin Statement\n\nReadBin Statement\n\nReads binary data from a file or communications port.",
+  "notes": "",
+  "see_also": "Write, WriteBin, Read\n\nReadBin Statement Example\n\nInteger data\n\nInteger dataArray(10)\n\nnumOfChars = ChkCom(1)\n\nIf numOfChars > 0 Then\n\n  ReadBin #1, data\n\nEndIf\n\nNumOfChars = ChkCom(1)\n\nIf numOfChars > 10 Then\n\n  ReadBin #1, dataArray(), 10\n\nEndIf",
+  "examples": [
+    "Integer data\nInteger dataArray(10)\n\nnumOfChars = ChkCom(1)\nIf numOfChars > 0 Then ReadBin #1, data\nEndIf\n\nNumOfChars = ChkCom(1)\nIf numOfChars > 10 Then ReadBin #1, dataArray(), 10\nEndIf"
+  ]
+}

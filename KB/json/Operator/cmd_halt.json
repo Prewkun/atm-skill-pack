@@ -1,0 +1,15 @@
+{
+  "title": "Halt Statement",
+  "file": "cmd_halt",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Halt taskIdentifier",
+  "parameters": "taskIdentifier\tTask name or integer expression representing\n\t\t the task number.\n\nA task name is the function name used\n\t\t in an Xqt statement or a function started from the Run window\n\t\t or Operator window.  If an\n\t\t integer expression is used, the range is from 1 to 16 for normal\n\t\t tasks and from 257-261 for trap tasks.",
+  "description": "Halt temporarily suspends the task being executed as specified by the task name or number.\n\nTo continue the task where it was left off, use Resume. To stop execution of the task completely, use Quit. To display the task status, click the TASK Manager Icon on the Epson RC+ Toolbar to run the TASK manager.\n\nHalt also pauses the task when the specified task is NoPause task or NoEmgAbort task (special task using NoPause or NoEmgAbort at Xqt), trap tasks, or the background tasks. .However, stopping these tasks needs enough consideration. Normally, Halt is not recommended for the special task.",
+  "notes": "",
+  "see_also": "Quit\n\nResume\n\nXqt\n\nHalt Statement Example\n\nThe example below shows a function named \"flicker\" that is started by Xqt, then is temporarily stopped by Halt and continued again by Resume.\n\nFunction main\n\n  Xqt flicker 'Execute flicker function\n\n  Do\n\n    Wait 3 'Execute task 2 for 3 seconds\n\n    Halt flicker\n\n    Wait 3 'Halt task 2 for 3 seconds\n\n    Resume flicker\n\n  Loop\n\nFend\n\nFunction flicker\n\n  Do\n\n    On 1\n\n    Wait 0.2\n\n    Off 1\n\n    Wait 0.2\n\n  Loop\n\nFend",
+  "examples": [
+    "Function main Xqt flicker 'Execute flicker function Do\n    Wait 3 'Execute task 2 for 3 seconds\n    Halt flicker\n\n    Wait 3 'Halt task 2 for 3 seconds\n    Resume flicker Loop\nFend",
+    "Function flicker Do\n    On 1\n    Wait 0.2\n    Off 1\n    Wait 0.2 Loop\nFend"
+  ]
+}

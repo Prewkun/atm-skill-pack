@@ -1,0 +1,12 @@
+{
+  "title": "ContrastVariation Property",
+  "file": "ContrastVariationProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the amount of contrast variation for the ContrastTarget property..",
+  "notes": "Use ContrastVariation to set the amount of contrast variation allowed for the edge search with the value set in ContrastTarget.\n\nSee Also: ContrastVariation Property\n\nContrast Result\n\nContrastTarget Property\n\nVision Objects: ContrastVariation Property\n\nArcFinder\n\nArcInspector\n\nBoxFinder\n\nContour\n\nCornerFinder\n\nEdge\n\nLineFinder\n\nLineInspector",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, BoxFinder, Contour, CornerFinder, Edge, LineFinder, LineInspector",
+  "examples": []
+}

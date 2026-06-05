@@ -1,0 +1,14 @@
+{
+  "title": "Decision Object Step 4 Using Coordinates Objects",
+  "file": "Decision_Object_Step_4_Using_Coordinates_Objects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Decision Object Step 4 Using Coordinates Objects\n\nDecision Object\n\nStep 4: Using Coordinates objects\n\nIn some cases, you need pixel, camera, or robot coordinates based on an object processing in a True or False branch of a Decision object.  You can store results from objects that provide coordinate results in a Coordinates object, then in your program, you can access the coordinates from the Coordinates object results.\n\n(1) Add a Coordinates object to the sequence.\n\n(2) Set the CoordObject property for the objects from which you want to store coordinates.  Any number of objects can store coordinates in the same Coordinates object.  When each object using CoordObject executes, it overwrites the previous coordinates.  In this example, CoordObject is set to Coords01 for both Geom01 and Corr01.\n\nIn your program, use VGet to retrieve coordinates from the Coordinates object.  In this example, if Geom01 is Passed, then Geom01 coordinate results are copied to Coords01.  If Geom01 is not Passed, then Corr01 executes.  If Corr01 is Passed, then the Corr01 coordinate results are copied to Coords01.\n\nIn the SPEL program, we can get the robot coordinates from Coords01:\n\nVGet test.Coords01.RobotXYU, found, x, y, u",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "VGet test.Coords01.RobotXYU, found, x, y, u"
+  ]
+}

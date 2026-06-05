@@ -1,0 +1,12 @@
+{
+  "title": "FG_IO_CheckInputStatus Property",
+  "file": "FG_IO_CheckInputStatus_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the determination conditions of the end conditions related to I/O.\n\nIt is used when IOCheckEnabled is True.\n\nAccording to the bit specified by IOCheckInputBit, it is determine as the end conditions are satisfied.\n\nValues\n\nOff When the input bit is OFF (0), it is determined as the end conditions are satisfied.\n\nOn When the input bit is ON (1), it is determined as the end conditions are satisfied.\n\nDefault: Off\n\nSee Also: IOCheckInputStatus Property\n\nIOCheckInputBit Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object, FollowMove Object, Press Object",
+  "examples": []
+}

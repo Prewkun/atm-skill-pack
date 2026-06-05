@@ -1,0 +1,12 @@
+{
+  "title": "Ethernet Cable",
+  "file": "Connect_Ethernet_Cables",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Ethernet Cable\n\nEthernet Cable\n\nConnect the Ethernet cable for the Ethernet HUB or the Robot Controller to the Ethernet connecter.\n\n- Use Category 5e (with a shield) for the Ethernet cable.\n\n- Install the cable so as not to apply load on the Ethernet connector.\n\n- Put the Ethernet cable as far from the surrounding noise as possible.\n\nConnection example 1:\n\nCV1 and Robot Controller need to be connected in the same subnet.  PC network setting does not need to be set as same as Robot Controller.\n\n(1) Connect an ethernet cable between Robot Controller (LAN) and the Compact Vision.  Both straight and crossing cables can be used.\n\n(2) Connect a USB cable between Robot Controller and PC.\n\nNote:  The following connection cannot be used.\n\nConnection example 2\n\nCompact Vision, PC, and Robot Controller need to be connected in the same subnet using a switch or hub.\n\n(1) Connect an Ethernet cable between the camera and the hub.\n\n(2) Connect an Ethernet cable between the Controller and the hub.\n\n(3) Connect an Ethernet cable between the PC and the hub.\n\n*  When Vision Guide 7.0 is enabled, you must connect the controller, and the Compact Vision as shown above.\n\nWhen the image of the camera is not monitored while operating the robot system, you do not have to connect the EPSON RC+7.0 PC to use the Vision Guide 7.0.\n\nCaution:  You can use the general Ethernet hub or Ethernet switch for connection.  However, be sure to a use product complying with the industrial standards or noise resistant Ethernet cable (STP cable).  If you use an office use product or UTP cable, it may cause communication errors and may not offer the proper performance.\n\nConnection example 3\n\nCV1 can be used with multiple Robot Controllers.\n\n(1) Connect an Ethernet cable between the camera, the Controller, and the PC.\n\nNote:  The project numbers for the CV1 should be set to the projects transmitted to each Robot Controller without duplication.\n\nOne camera cannot be shared by two robot controllers. In this example, you need to connect two cameras for each controller.\n\nFor details of setting, refer to the section for the project setting in the EPSON RC+ User's Guide.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

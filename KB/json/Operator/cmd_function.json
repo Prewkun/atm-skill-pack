@@ -1,0 +1,16 @@
+{
+  "title": "Function...Fend Command",
+  "file": "cmd_function",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Function\n\t\t\tfuncName [(argList)]\n\t\t\t[As\n\t\t\t type]\n\nstatements\n\nFend",
+  "parameters": "funcName\tThe name which is given to the specific group of statements bound between the Function and Fend instructions. The function name must contain alphanumeric characters and may be up to 64 characters in length. Underscores are also allowed.\n\nargList\tOptional. List of variables representing arguments that are passed to the Function procedure when it is called. Multiple variables are separated by commas.\n\nThe arglist argument has the following syntax:\n\n[ {ByRef | ByVal} ] varName [( )] As\n\t\t\ttype\n\nByRef\tOptional.  Specify ByRef when you refer to the variable to be seen by the calling function.  In this case, the argument change in a function can be reflected to the variable of the calling side.\n\nByVal\tOptional. Specify ByVal when you do not want any changes in the value of the variable to be seen by the calling function.  This is the default.\n\nvarName\tRequired. Name of the variable representing the argument; follows standard variable naming conventions.  If you use an array variable as argument, you should specify ByRef.\n\ntype\tRequired. You must declare the type of argument.",
+  "description": "The Function statement indicates the beginning of a group of SPEL+ statements. To indicate where a function\n\t\t\tends we use the Fend statement. All statements located between the Function and Fend statements are considered part of the function.\n\nThe Function...Fend combination of statements could be thought of as a container where all the statements located between the Function and Fend statements belong to that function. Multiple functions may exist in one program file.",
+  "notes": "",
+  "see_also": "Function Naming Conventions\n\nSimplest Application\n\nCall\n\nHalt\n\nQuit\n\nReturn\n\nXqt\n\nFunction...Fend Example\n\nThe following example shows 3 functions which are within a single file. The functions called task2 and task3 are executed as background tasks while the main task called main executes in the foreground.\n\nFunction main\n\n\t\t  Xqt 2, task2 'Execute task2 in background\n\n\t\t  Xqt 3, task3 'Execute task3 in background\n\n\t\t  '..more statements here\n\nFend\n\nFunction task2\n\n\t\t  Do\n\n\t\t    On 1\n\n\t\t    On 2\n\n\t\t    Off 1\n\n\t\t    Off 2\n\n\t\t  Loop\n\nFend\n\nFunction task3\n\n\t\t  Do\n\n\t\t    On 10\n\n\t\t    Wait 1\n\n\t\t    Off 10\n\n\t\t  Loop\n\nFend",
+  "examples": [
+    "Function main\n\t\t  Xqt 2, task2 'Execute task2 in background\n\t\t  Xqt 3, task3 'Execute task3 in background\n\t\t  '..more statements here\n\nFend",
+    "Function task2\n\t\t  Do\n\t\t    On 1\n\t\t    On 2\n\t\t    Off 1\n\t\t    Off 2\n\t\t  Loop\n\n\t\t\tFend",
+    "Function task3\n\t\t  Do\n\t\t    On 10\n\t\t    Wait 1\n\t\t    Off 10\n\t\t  Loop\n\n\t\t\tFend"
+  ]
+}

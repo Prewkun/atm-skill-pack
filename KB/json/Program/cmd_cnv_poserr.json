@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_PosErr Function",
+  "file": "cmd_cnv_poserr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_PosErr(conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.",
+  "description": "Note\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Point\n\nCnv_PosErr Function Example\n\nPrint \"Conveyor 1 position error: \",\n\t\t\t\tCnv_PosErr\n\t\t\t(1)",
+  "examples": [
+    "Print \"Conveyor 1 position error: \",\n\t\t\t\tCnv_PosErr\n\t\t\t(1)"
+  ]
+}

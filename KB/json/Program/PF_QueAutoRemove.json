@@ -1,0 +1,14 @@
+{
+  "title": "PF_QueAutoRemove",
+  "file": "PF_QueAutoRemove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_QueAutoRemove part ID, {True | False}",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).\n\nTrue | False\tFalse: Disables the auto remove function (default).\n\nTrue: Enables the auto remove function.",
+  "description": "Configures the auto remove function for the parts coordinates queue.\n\nWhen the auto remove function is enabled, point data is automatically deleted from the parts coordinates queue when using PF_QueGet to retrieve point data from the parts coordinates queue.\n\nPoint data is not deleted when the auto remove function is disabled.  Use PF_QueRemove to delete point data.\n\nThe auto remove function can be enabled/disabled for each part ID.\n\nPF_QueAutoRemove Example\n\nPF_QueAutoRemove 1, True",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_QueAutoRemove 1, True"
+  ]
+}

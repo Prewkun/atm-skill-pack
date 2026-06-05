@@ -1,0 +1,12 @@
+{
+  "title": "EndPoint Property",
+  "file": "EndPoint_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "EndPoint Property\n\nEndPoint Property\n\nThis property sets the end position of the continuous moving trajectory.\n\nIt is used when specifying MultiStraight or MultiStraightCP in MotionTrajecroty.\n\nValue\n\nMinimum value 0\n\nMaximum value 999\n\nDefault: 0",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

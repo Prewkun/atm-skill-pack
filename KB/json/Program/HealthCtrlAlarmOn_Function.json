@@ -1,0 +1,14 @@
+{
+  "title": "HealthCtrlAlarmOn Function",
+  "file": "HealthCtrlAlarmOn_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "HealthCtrlAlarmOn Function\n\nHealthCtrlAlarmOn Function",
+  "notes": "",
+  "see_also": "Returns the status of the parts consumption alarm for the specified Controller parts.",
+  "examples": [
+    "Function PrintAlarm If HealthCtrlAlarmOn(HEALTH_CONTROLLER_TYPE_BATTERY) = True Then\n   Print \"Controller Battery NG\" Else\n   Print \"Controller Battery OK\" EndIf\nFend"
+  ]
+}

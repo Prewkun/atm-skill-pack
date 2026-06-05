@@ -1,0 +1,12 @@
+{
+  "title": "Controller Config page",
+  "file": "Controller_Config_tab",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controller Config page\n\n[Setup]-[System Configuration]-[Controller]-[Configuration] Page\n\nThis page allows the user to view and change the controller configuration settings.\n\nItem\tDescription\n\nName\tUse this\n\t\t text box to change the controller name.\n\n\t\tYou may use any name up to 16 characters long using alphanumeric\n\t\t characters and underscore.\n\nIP Address\tUse this\n\t\t text box to set current IP address of the LAN-1 port.\n\nThe IP Address must be on the same subnet\n\t\t as the PC.\n\nIP Mask\tUse this\n\t\t text box to set the IP mask of the LAN-1 port.\n\nNote that the IP Mask must match the IP\n\t\t mask used for your network.\n\nIP Gateway\tUse this\n\t\t text box to set the IP gateway of the LAN-1 port.\n\nThis is only required if you will be accessing\n\t\t the controller from outside of the local network.\n\nControl\n\t\t Device\tAllows\n\t\t you to select the Control Device.\n\nConnection\n\t\t Password\tAllows\n\t\t you to change authentication passwords for the Ethernet connecting\n\t\t Controller and PC connection destination.\n\nTP Password\tAllows\n\t\t you to change the TP password.\n\nT2 Password\tAllows\n\t\t you to change the TP2 password.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

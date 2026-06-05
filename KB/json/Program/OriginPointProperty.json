@@ -1,0 +1,12 @@
+{
+  "title": "OriginPoint Property",
+  "file": "OriginPointProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the vision object to be used as the Origin Point for the Frame.",
+  "notes": "When a Frame object is first drag-and-dropped onto the Image Display area of the Vision Guide Window, the default OriginPoint property is set to \"Screen\". (i.e. the position where the Frame object is dragged to.)  However, the Frame objects are normally attached to other vision objects.  This is the purpose of the OriginPoint and YAxisPoint.  Through these 2 properties the user can define a frame of reference for other objects to have their position based upon.\n  This capability is very useful when specific features can be used to find reference points (i.e. define a frame of reference) on a part and then other vision object tools can be applied to the image with respect to the frame position defined.\n\nThe OriginPoint and YAxisPoint properties are used together to define a Vision Frame which has an origin at the OriginPoint and a Y Axis direction defined by the YAxisPoint property.\n\nIt is important to note that for each specific vision sequence, only those vision objects which are executed prior to the Frame object in the vision sequence steps will be available to use as an OriginPoint. (The order of the vision object execution can be adjusted from the flow chart.)\n\nPoint-and-Click and SPEL Language Support\n\nWhen using the GUI to change the OriginPoint property Value, a drop down list will appear showing a list of available vision objects (along with the default value Screen) which can be used to define the Origin of the Frame.  Click one of the choices and the value field will be set accordingly.\n\nWhen using the property list to set the OriginPoint property it is important to note that only those objects which are defined prior to the Frame object are displayed in the drop down list.  This helps reduce the chances of the user defining an OriginPoint which isn't defined prior to the Frame object.\n\nNote:\n  Vision Guide automatically checks which vision objects can be used as the OriginPoint and displays only those object Names in the drop down list.",
+  "see_also": "Property\n\nYAxisPoint Property\n\nVision Objects: OriginPoint Property\n\nFrame",
+  "examples": []
+}

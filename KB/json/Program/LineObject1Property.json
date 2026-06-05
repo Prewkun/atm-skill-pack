@@ -1,0 +1,12 @@
+{
+  "title": "LineObject1 Property",
+  "file": "LineObject1Property",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the 1st Line object or LineFinder Object to use for defining the position of a Point object.  (LineObject1 defines the line which is used by the PointType property for defining the position of the Point object. )",
+  "notes": "When a Point object is first created, the default LineObject1 property is set to \"None\".  However, if you want to position a point on the midpoint of a line, then the LineObject1 property defines which Line object to use.  In this case the LineObject1 property must be set first and then the PointType property can be set to \"1 - MidPoint\". A MidPoint of a line can only be specified for LineObject1. (i.e. you cannot specify the MidPoint of the LineObject2 property.)\n\nLineObject1 can also be used to define the 1st of 2 lines when you want to define a Point object position as the intersection point between 2 lines. (LineObject2 defines the other Line to use for the intersection point.)\n\nNote: It is important to note that for each specific vision sequence, only those Line objects which are executed prior to the Point object in the vision sequence steps or LineFinder Object will be available to use as LineObject1. (The order of the vision object Execution can be adjusted from the flow chart.)\n\nClick the LineObject1 property Value Field and a drop down list will appear showing a list of available Line objects and LineFinder Objects which can be used for the LineObject1 property.  Click one of the choices and the value field will be set accordingly.\n\nWhen setting the LineObject1 property on the property list,  it is important to note that only those objects which are defined prior to the Point object are displayed in the drop down list.  This helps reduce the chances of the user defining a Line object or LineFinder Object which isn't defined prior to the Point object.\n\nNote:  Vision Guide automatically checks which vision objects may be used as LineObject1 and only displays those items in the LineObject1 drop down list.\n\nSee Also: LineObject1 Property\n\nLineObject2 Property\n\nPointType Property\n\nVision Objects: LineObject1 Property\n\nLine\n\nLineFinder\n\nPoint",
+  "see_also": "Applies To\n\nVision Objects: Point",
+  "examples": []
+}

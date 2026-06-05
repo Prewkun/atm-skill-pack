@@ -1,0 +1,12 @@
+{
+  "title": "Open Project Dialog Box",
+  "file": "project_open_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Open Project Dialog Box\n\nOpen Command (Project Menu)\n\nCtrl+Shift+O\n\nUse this command to open an Epson RC+ 8.0 project. When the project is opened, the previous project is closed. You will be prompted to save changes.\n\nItem\tDescription\n\nProject\n\t\t save destination\tSelect\n\t\t the save destination for the project you want to open.\n\n\t\tWhen specifying a new destination, click the [...] button to set\n\t\t the save destination. Set the destination in advance in the Epson\n\t\t RC+ menu, [Setup]-[Preferences]-[Workspace]-[Project Save Destination].\n\nSelect\n\t\t Project to open\tSelect\n\t\t a project name from the list box. To open a folder, double click\n\t\t on the folder or click \"\"\n\t\t located to the left of the folder.\n\nRead\n\t\t Only\tIf you\n\t\t set this checkbox and open a project, you cannot edit the program\n\t\t file, include file, point file, force file, I/O label, and user\n\t\t error.\n\nOpen\tOpens\n\t\t the selected project.\n\nCancel\tCancels\n\t\t the operation and closes the dialog.\n\nProject\n\t\t Info\tDisplays\n\t\t general project properties for the selected project. To view project\n\t\t information, first select a project in the list, then click the\n\t\t [Project Info] button.\n\nNOTE: Project information for a project can be changed by selecting [Properties] from the [Project] menu after opening the project",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

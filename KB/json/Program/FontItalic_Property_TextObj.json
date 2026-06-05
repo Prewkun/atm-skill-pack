@@ -1,0 +1,12 @@
+{
+  "title": "FontItalic Property TextObj",
+  "file": "FontItalic_Property_TextObj",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays the character string rendered in italics.",
+  "notes": "You can switch the format of character strings rendered with the TextView object.  Set the Fontitalic property to True to render character strings in italics.\n\nVision Objects: FontItalic Property\n\nText",
+  "see_also": "",
+  "examples": []
+}

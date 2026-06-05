@@ -1,0 +1,12 @@
+{
+  "title": "RotationCenterTLY Property",
+  "file": "RotationCenterTLY_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "When RotationCenterType is Relative, this property sets a distance in Y direction to the rotation center of the force control function.\n\nIt is the Y direction of the Tool coordinate system which is selected in RobotTool.\n\nValues\n\nMinimum value -2000\n\nMaximum value 2000\n\nDefault:  0\n\nSee Also: RotationCenterTLY Property\n\nRotationCenterTLX Property\n\nRotationCenterTLZ Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "SysErr",
+  "file": "SysErr",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "SysErr [(infoNo)]",
+  "parameters": "infoNo\tOptional. Integer number representing the error code or warning code to get.\n\n0 : Error code (When the parameter is omitted, 0 is automatically selected.)\n\n1 : Warning code",
+  "description": "SysErr is used only for NoEmgAbort task (special task using NoEmgAbort at Xqt) and background tasks.\n\nError codes or warning codes of controller are the error codes or warning codes displayed on the LCD.\n\nWhen there are no errors or warnings, the return value will be 0.",
+  "notes": "Forced Flag\n\nThis program example uses Forced flag for On/Off command. Be sure that the I/O outputs change during error, or at Emergency Stop or Safety Door Open when designing the system.\n\nAfter Error Occurance\n\nAs this program, finish the task promptly after completing the error handling.\n\nFunction main\n\n  Xqt ErrorMonitor, NoEmgAbort\n\n  :\n\n  :\n\nFend\n\nFunction ErrorMonitor\n\n  Wait ErrorOn\n\n  If 4000 < SysErr Then\n\n    Print \"Motion Error = \", SysErr\n\n    Off 10, Forced\n\n    On 12, Forced\n\n  Else\n\n    Print \"Other Error = \", SysErr\n\n    Off 11, Forced\n\n    On 13, Forced\n\n  EndIf\n\nFend",
+  "see_also": "Returns the latest error status or warning status.\n\nErrMsg$\n\nErrorOn\n\nXqt\n\nSysErr Function Example\n\nThe following example shows a program that monitors the controller error and switches the I/O On/Off according to the error number when error occurs.",
+  "examples": [
+    "Function main Xqt ErrorMonitor, NoEmgAbort : :\nFend",
+    "Function ErrorMonitor Wait ErrorOn If 4000 < SysErr Then\n    Print \"Motion Error = \", SysErr\n    Off 10, Forced\n    On 12, Forced Else\n    Print \"Other Error = \", SysErr\n    Off 11, Forced\n    On 13, Forced EndIf\nFend"
+  ]
+}

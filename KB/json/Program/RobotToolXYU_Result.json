@@ -1,0 +1,14 @@
+{
+  "title": "RobotToolXYU Result",
+  "file": "RobotToolXYU_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the tool X, tool Y and and tool U values of the found part's position as a robot tool.",
+  "notes": "The RobotToolXYU result returns the tool offsets of the found part with an upward camera and therefore can be used to define a tool for robot guidance applications.  The RobotToolXYU result xVar and yVar values are always returned in millimeters.  The uVar value is always returned in degrees.  When used for a Point object, uVar always returns 0.\n\nIt should be noted that the RobotToolXYU result can only be calculated for vision sequences which have been calibrated with the robot coordinate system with the CameraOriention set to Fixed Upward.  If an invalid calibration has been assigned to the vision sequence then the RobotToolXYU result cause an error to occur.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, Correlation, DefectFinder, Edge, Geometric, LineInspector, Point, Polar",
+  "examples": [
+    "VGet Seq.Geom01.RobotToolXYU, f, tx, ty, tu\nIf f = True then Tlset 1, xY(tx,ty,u,tu) Tool 1\nEndIf\nJump Placepos"
+  ]
+}

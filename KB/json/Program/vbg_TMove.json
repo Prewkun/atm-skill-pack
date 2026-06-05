@@ -1,0 +1,18 @@
+{
+  "title": "TMove Method, Spel Class",
+  "file": "vbg_TMove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub TMove (PointNumber As Integer)\n\nSub TMove (Point As SpelPoint)\n\nSub TMove (Point As SpelPoint, AttribExpr As String)\n\nSub TMove (PointExpr As String)",
+  "parameters": "Each syntax has one parameter that specifies the end point which the arm travels to during the TMove motion. This is the final position at the end of the linear interpolated motion.\n\nPointNumber\tSpecifies\n\t\t the end point by using the point number for a previously taught\n\t\t point in the Controller's point memory for the current robot.\n\nPoint\tSpecifies the end point by using a\n\t\t SpelPoint data type.\n\nAttribExpr\tSpecifies the end point attributes by\n\t\t using a string expression.\n\nPointExpr\tSpecifies the end point by using a\n\t\t string expression.",
+  "description": "Executes linear interpolation relative motion, in the selected tool coordinate system",
+  "notes": "",
+  "see_also": "Go\n\nJump\n\nMove\n\nTGo\n\nFind\n\nTMove Example\n\n' Point specified using point number\n\nm_spel.Tool(1)\n\nm_spel.TMove(10)\n\n' Point specified using SpelPoint\n\nDim pt As SpelPoint\n\npt = m_spel.GetPoint(\"P*\")\n\npt.X = 125.5\n\nm_spel.TMove(pt)\n\n' Point specified using expression\n\nm_spel.TMove(\"P0\")\n\nm_spel.TMove(\"XY(0, 0, -20, 0)\")\n\n' Using parallel processing\n\nm_spel.TMove(\"P1 !D50; On 1; D90; Off 1!\")\n\n' Point specified using label\n\nm_spel.TMove(\"pick\")",
+  "examples": [
+    "' Point specified using point number\nm_spel.Tool(1)\nm_spel.TMove(10)",
+    "' Point specified using SpelPoint\nDim pt As SpelPoint\npt = m_spel.GetPoint(\"P*\")\npt.X = 125.5\nm_spel.TMove(pt)",
+    "' Point specified using expression\nm_spel.TMove(\"P0\")\nm_spel.TMove(\"XY(0, 0, -20, 0)\")",
+    "' Using parallel processing\nm_spel.TMove(\"P1 !D50; On 1; D90; Off 1!\")",
+    "' Point specified using label\nm_spel.TMove(\"pick\")"
+  ]
+}

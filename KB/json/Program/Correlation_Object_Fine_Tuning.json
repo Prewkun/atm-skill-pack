@@ -1,0 +1,12 @@
+{
+  "title": "Correlation Object Fine Tuning",
+  "file": "Correlation_Object_Fine_Tuning",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Correlation Object Fine Tuning\n\nCorrelation Object Fine Tuning\n\nFine tuning of the Correlation object is normally required to get the object working just right.  Following is a description for the primary properties associated with fine tuning of a Correlation object and model addition:\n\n\tAccept property\n\t - After you have run the Correlation object a few times, you will\n\t become familiar with the shape score which is returned in the Score\n\t result.  Use these values when determining new values to enter\n\t for the Accept property. The lower the Accept property, the faster\n\t the Correlation object can run.  However, lower Accept property\n\t values can also cause features to be found which are not what you\n\t want to find.  A happy medium can usually be found with a little\n\t experimentation which results in reliable feature finds which are\n\t fast to execute.\n\tConfusion property\n\t - If there are multiple features within the search window which look\n\t similar, you will need to set the Confusion property relatively high.\n\t  This will guarantee that the feature you are interested in is\n\t found rather than one of the confusing features.  However, higher\n\t confusion costs execution speed.  If you don't have multiple\n\t features within the search window which look similar, you can set\n\t the Confusion property lower to help reduce execution time.\n\tAdd another sample\n\t - \"Add another sample\" can be selected when teaching is\n\t performed with the model window whose size is same as the current\n\t model's model window.  When\n\t the model slightly changes (shape or pattern is slightly different,\n\t shadow appears differently, etc.), selecting the changed model to\n\t add a new model may stabilize the score at object execution.  The\n\t original model will be kept if the angle is largely out of position,\n\t or the model cannot be added due to significant difference.\n\nOnce you have completed adjusting and have tested the Correlation object until you are satisfied with the results, you are finished with creating this vision object and can go on to creating other vision objects or configuring and testing an entire vision sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

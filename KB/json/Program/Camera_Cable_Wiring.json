@@ -1,0 +1,12 @@
+{
+  "title": "Camera Cable Wiring",
+  "file": "Camera_Cable_Wiring",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Camera Cable Wiring\n\nCamera Cable Wiring\n\nWhen wiring the USB and trigger cables, be sure to satisfy the following:\n\n- Do not bend the cable within 100 mm from the camera connector.\n\n- Bend radius must be 60 mm or longer.\n\n- Install the cable so as not to apply load on the connector.\n\n- Put the USB camera cable as far from the surrounding noise as possible.\n\nThe CV2 system uses USB cameras that connect via standard USB cables to the front panel of the CV2 Controller.  You can connect one or two cameras.  Connect the cameras to any USB receptacle on the front panel.\n\nYou can only use the USB cameras provided by Epson.\n  The system was specifically designed for use with these cameras.\n\nCables for connecting cameras differ depending on the working condition: installing the camera as a fixed camera or as a mobile camera.  Select the cable based on your working condition.\n\nIt is recommended that you use a camera bracket supplied by Epson for mounting the remote camera head to the robot.\n\nConnect the USB camera cable to any of USB1 to USB4 connectors of CV2.\n\n- Do not use USB hubs or USB repeaters.\n\n- Install the cable not to apply load on the USB connector.\n\n- Keep the USB camera cable as far away from surrounding noise source as possible.\n\n- Use our designated flexible cable when installing the camera on a movable part.\n\nNote:\n\nEnsure that the following cables are not bound together when installing the camera.\n  Otherwise, distortion of an image may occur due to the noise.\n\nCable for connecting the camera head and the body (camera unit)\n\nCable that could be noise sources such as the power cable\n\n- Do not use the cable for fixed cameras at moving parts.\n\nOtherwise, it may cause problems such as a breaking of cable in a short time.\n\nCAUTION:  Do not use the USB hub, USB repeater or USB extender cable.  It may cause problem on your system.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

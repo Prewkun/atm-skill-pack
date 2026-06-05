@@ -1,0 +1,16 @@
+{
+  "title": "Multi-tasking",
+  "file": "multitasking",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Multi-tasking\n\nMulti-tasking\n\nFor some applications, you may want to control other equipment besides the robot, such as conveyors, pick and place units, etc.  By using multi-tasking, you can control this other equipment with their own tasks.\n\nSPEL+ supports up to 32 normal tasks and 16 background tasks (48 tasks in total) running simultaneously. A task is a function that has been started by the system or by the Xqt statement.\n\nUse the Xqt statement to start another task from within a function. You can optionally specify a task number from 1 to 32 in the Xqt statement.\n\nA task started from a background task is started as a background task. You can execute up to 16 background tasks simultaneously.\n\nThe table below shows the program instructions that are used for multitasking.\n\nStatement\tDescription\n\nXqt\tStarts a function as a task.\n\nHalt\tTemporarily suspends execution of\n\t\t a task.\n\nResume\tResumes a task that has been halted.\n\nQuit\tStops a task.\n\nSignal\tSends a signal to one or more tasks\n\t\t that are waiting for the signal using WaitSig.\n\nSyncLock\tLocks a resource for use by the current\n\t\t task and blocks other tasks from using the resource until SyncUnlock\n\t\t is executed.\n\nWaitSig\tWaits for a signal from another task.\n\nPause\tPause all tasks.\n\nOne example for starting another task is to run a conveyor system for the robot work cell.\n\nProgram: MAINTASK.PRG\n\nFunction Main\n\n   Xqt Conveyor        ' Start the conveyor task\n\n    Do\n\n        ...\n\n        ...\n\n    Loop\n\nFend\n\nProgram: CONVTASK.PRG\n\nFunction Conveyor\n\n  Do\n\n    Select True\n\n        Case Sw(10) = On\n\n            Off convCtrl\n\n        Case Sw(11) = On\n\n            On convCtrl\n\n    Send\n\n  Loop\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Main\n   Xqt Conveyor        ' Start the conveyor task\n    Do\n        ...\n        ...\n    Loop\nFend",
+    "Function Conveyor Do\n    Select True\n        Case Sw(10) = On\n            Off convCtrl\n        Case Sw(11) = On\n            On convCtrl\n    Send Loop",
+    "Fend"
+  ]
+}

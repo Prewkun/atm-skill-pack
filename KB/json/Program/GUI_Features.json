@@ -1,0 +1,12 @@
+{
+  "title": "Features",
+  "file": "GUI_Features",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Features\n\nFeatures\n\nThe following features are supported in the GUI Builder 8.0 package:\n\nYour GUI is integrated completely within\n\t the Epson RC+ environment for easy design, debugging, and display\n\t at runtime.  No third party tools are required.\n\nYou can create and debug GUI forms in\n\t your Epson RC+ project.\n\nSeveral standard controls are provided,\n\t including button, label, textbox, etc.  In addition, controls\n\t are provided for displaying video, variable status, and I/O status.\n\nForm and control events are executed as\n\t SPEL+ tasks.  You can specify whether these task run in Normal,\n\t NoPause, or NoEmgAbort modes.\n\nIn Auto mode, Epson RC+ can automatically\n\t display your main form at startup, or you can show forms from your\n\t SPEL+ code.:",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

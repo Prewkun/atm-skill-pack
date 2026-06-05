@@ -1,0 +1,12 @@
+{
+  "title": "Conveyor encoder configuration",
+  "file": "Conveyor_encoder_configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Conveyor encoder configuration\n\nConveyor encoder configuration\n\nBefore you can create any conveyors in a project, you must first add conveyor encoders to the system. Each physical conveyor must have an encoder.\n\nFirst, you must install one PG board for every four encoders in the PC Control Unit and wire the encoders to the board(s).\n\nTo define system encoders in Epson RC+, select [Setup]-[System Configuration] and select the [Conveyor Encoders].\n\nClick the [Add] button to add an encoder. Encoders are added in the order of Axis number.\n\nYou can delete the last encoder in the list. Select it, then click the [Delete] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

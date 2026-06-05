@@ -1,0 +1,12 @@
+{
+  "title": "RelativeRobotLocal Property",
+  "file": "RelativeRobotLocal_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the number of local coordinate system for the coordinate system that moves relatively.\n\nIt is used when specifying Relative in DestType and Local in RelativeOrient.\n\nValues\n\n0 (Base) Use the Local 0 coordinate system (Base coordinate system).\n\nIt is the same as when specifying Base in RelativeOrient\n\n1 to 15 Use the Local coordinate system of the specified number.\n\nDefault:  0 (Base)\n\nSee Also: RelativeRobotLocal Property\n\nRelativeOrient Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object",
+  "examples": []
+}

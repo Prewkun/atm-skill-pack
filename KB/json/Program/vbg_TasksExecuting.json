@@ -1,0 +1,15 @@
+{
+  "title": "TasksExecuting Method, Spel Class",
+  "file": "vbg_TasksExecuting",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function TasksExecuting As Boolean",
+  "parameters": "",
+  "description": "Returns True if any SPEL+ tasks are executing.",
+  "notes": "",
+  "see_also": "TaskState\n\nXqt\n\nTasksExecuting Example\n\nVB Example:\n\ntasksRunning = m_spel.TasksExecuting()\n\nC# Example:\n\ntasksRunning = m_spel.TasksExecuting();",
+  "examples": [
+    "tasksRunning = m_spel.TasksExecuting()",
+    "tasksRunning = m_spel.TasksExecuting();"
+  ]
+}

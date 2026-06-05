@@ -1,0 +1,15 @@
+{
+  "title": "AIO_InW Function",
+  "file": "AIO_InW_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_InW(IChannel Number)",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.",
+  "description": "AIO_InW Function\n\nAIO_InW Function",
+  "notes": "",
+  "see_also": "Reads analog value from optional analog I/O input channel.\n\nAIO_In Function, AIO_Out, AIO_OutW, AIO_Out Function, AIO_OutW Function, AIO_Set, Wait\n\nAIO_InW Function Example\n\nLong word0\n\nword0 = AIO_InW(1)",
+  "examples": [
+    "Long word0",
+    "word0 = AIO_InW(1)"
+  ]
+}

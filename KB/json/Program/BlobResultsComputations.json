@@ -1,0 +1,12 @@
+{
+  "title": "Blob Results Computations",
+  "file": "BlobResultsComputations",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Blob Results Computations\n\nBlob Results Computations\n\nOnce all the other steps for blob analysis are complete, results can be computed for the blob that was found.  The list of all results returned for the Blob object is shown in the section Blob Object Results previously described in this section.\n\nA detailed explanation of every result for all vision objects is given in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nSome of the results described in the Vision Guide 8.0 Properties and Results Reference Manual apply to many different vision objects such as the Found, Time, or PixelX results.  While the Found and Time results are pretty generic and generally can be applied the same across all vision objects, some of the results such as the position related results have special meaning when applied to Blob objects.  These are described below:",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

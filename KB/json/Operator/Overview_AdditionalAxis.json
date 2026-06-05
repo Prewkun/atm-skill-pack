@@ -1,0 +1,12 @@
+{
+  "title": "Additional Axis Overview",
+  "file": "Overview_AdditionalAxis",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Additional Axis Overview\n\nOverview\n\nYou can attach up to two drive axes (per manipulator) which can operate in association\nwith the manipulator. The position data of the additional axis is saved with the robot point\ndata. The additional axis can move simultaneously with the manipulator by motion\ncommands and you can realize the application using a traveling axis (manipulator on the\nstraight axis) with a simple programming.\n\nNote: If you want to operate the manipulator and drive axis separately, you need to define the\nadditional axis as another manipulator using the multi-manipulators function.\n\nCaution: When you use the additional axis as traveling axis and mount a manipulator(s) on the axis, the\nreaction force of manipulator(s) is put on the traveling axis. Therefore, you should limit the\nacceleration/deceleration speed with the Accel setting so that it is within the allowable\ninertia of traveling axis. In addition, the manipulator may swing widely at the positioning\nand possibly break the additional axis.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

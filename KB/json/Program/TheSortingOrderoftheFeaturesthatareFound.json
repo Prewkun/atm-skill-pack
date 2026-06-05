@@ -1,0 +1,12 @@
+{
+  "title": "The Sorting Order of the Features that are Found",
+  "file": "TheSortingOrderoftheFeaturesthatareFound",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Sorting Order of the Features that are Found\n\nThe Sorting Order of the Features that are Found\n\nWhen a multi-result object is first run, the CurrentResult is automatically set to 1 indicating that the 1st result for the multi-result vision object should have its results displayed in the Results list on the object window.\n\nFor a Correlation or Geometric object, the first result is the one with the highest score (as compared to all the features found for that Correlation object).  The second result is the one with the second highest score and so on.\n\nFor a Blob and DefectFinder objects, the first result is the one returned based on the values for the SizeToFind and Sort properties.  (For example, if SizeToFind is set to \"Largest\" then the first result will be the largest object found.) See the SizeToFind and Sort properties in the Vision Guide 8.0 Properties and Results Manual for more info regarding sorting results.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

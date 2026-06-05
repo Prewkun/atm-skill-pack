@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Mode Statement",
+  "file": "Cnv_Mode_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_Mode (conveyorNumber , modeNumber)",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number (1- 16).\n\nmodeNumber\t0: Picking quantity-priority mode\n\n1: Picking accuracy-priority mode\n\n2: Variable speed conveyor mode",
+  "description": "Sets the tracking mode of Conveyor Tracking.\n\nCnv_Mode is only available for the linear conveyors.\n\nSets the tracking mode before starting the tracking motion.  If the parameters are not set, the picking quantity priority mode will be set.\n\nPicking quantity-priority mode: Although this mode is inferior in picking accuracy to the picking accuracy-priority mode, it takes less time to catch up with the moving work pieces. Therefore, this mode is suitable for the conveyor systems in which space between the work pieces is narrow or the fast-speed conveyor systems.\n\nPicking accuracy-priority mode: Although this mode takes longer time to catch up with the work pieces compared to the picking quantity-priority mode, this improves the picking accuracy. Therefore, this mode is suitable for the conveyor systems for small work pieces.\n\nVariable speed-conveyor mode: This mode can be used for conveyor system which stops and moves a conveyor while contacting with a workpiece.\n\nThe mode \"0\" is only supported by the circular conveyors.  When \"1\" or \"2\" are specified, the manipulator moves as same as the mode \"0\".\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Mode Function\n\nCnv_Mode Statement Example\n\nCnv_Mode 1, 1",
+  "examples": [
+    "Cnv_Mode 1, 1"
+  ]
+}

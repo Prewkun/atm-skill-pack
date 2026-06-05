@@ -1,0 +1,12 @@
+{
+  "title": "Robot Manager",
+  "file": "Robot_Manager",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Manager\n\nRobot Manager\n\nThe Robot Manager is a dialog box that can have any number of the following pages, depending on how it was setup.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,17 @@
+{
+  "title": "DiffPoint Function",
+  "file": "DiffPoint_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "DiffPoint (pointData1, pointData2)",
+  "parameters": "pointData1\tSpecifies the first point data.\n\npointData2\tSpecifies the second point data.",
+  "description": "Returns the position and orientation of pointData2 in a coordinate system with pointData1 as the origin. This function uses default values as returned the local number of the point data, and flag information such as Hand.\n\nIf point data is left undefined for either point data, the undefined values will be calculated as \"0\".\n\nFor example, if pointData1 is specified as \"XY (10,0,0,0,0,0): ST (10, 10)\", and pointData2 is specified as \"XY (10,0,0,0,0,0)\", the S and T values are undefined for pointData2 while the values are defined for pointData1, and thus the values calculated with the S and T values for pointData2 as \"0\" will be returned.\n\nDiffPoint Function Example\n\n'Display the position and orientation of P2 as seen from P1.\n\nPrint DiffPoint(P1, P2)\n\n'Display the position and orientation of P1 as seen from the current position (Here).\n\nPrint DiffPoint(Here, P1)",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "'Display the position and orientation of P2 as seen from P1.",
+    "Print DiffPoint(P1, P2)",
+    "'Display the position and orientation of P1 as seen from the current position (Here).",
+    "Print DiffPoint(Here, P1)"
+  ]
+}

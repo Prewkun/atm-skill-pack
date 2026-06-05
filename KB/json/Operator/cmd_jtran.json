@@ -1,0 +1,14 @@
+{
+  "title": "JTran Statement",
+  "file": "cmd_jtran",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "JTran\n\t\t\tjointNumber, distance",
+  "parameters": "jointNumber\tInteger expression representing which joint to move.\n\nThe additional S axis is 8 and T axis is 9.\n\ndistance\tReal expression representing the distance to move in degrees for rotational joints or millimeters for linear joints.",
+  "description": "Use JTran to move one joint a specified distance from the current position.",
+  "notes": "",
+  "see_also": "Go\n\nJump\n\nMove\n\nPTran\n\nJTran Statement Example\n\nJTran 1, 20",
+  "examples": [
+    "JTran 1, 20"
+  ]
+}

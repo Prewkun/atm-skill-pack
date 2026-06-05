@@ -1,0 +1,14 @@
+{
+  "title": "LocalClr Statement",
+  "file": "LocalClr_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "LocalClr localNumber",
+  "parameters": "localNumber\tInteger expression representing which of 15 locals (integer from 1 to 15) to clear (undefine).",
+  "description": "Robot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "",
+  "see_also": "Clears (undefines) a local coordinate system.\n\nArm\n\nArmset\n\nLocal\n\nTool\n\nTLClr\n\nTLSet\n\nLocalClr Example\n\nLocalClr 1",
+  "examples": [
+    "LocalClr 1"
+  ]
+}

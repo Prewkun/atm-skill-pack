@@ -1,0 +1,15 @@
+{
+  "title": "ClearPoints Method, Spel Class",
+  "file": "vbg_ClearPoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ClearPoints ()",
+  "parameters": "",
+  "description": "Clears the robot position memory for the current robot.",
+  "notes": "",
+  "see_also": "LoadPoints, Robot, SavePoints, SetPoint\n\nClearPoints Example\n\nVB Example:\n\nWith m_spel\n\n  .ClearPoints()\n\n  .SetPoint(1, 100, 200, -20, 0, 0, 0)\n\n  .Jump(1)\n\nEnd With\n\nC# Example:\n\nm_spel.ClearPoints();\n\nm_spel.SetPoint(1, 100, 200, -20, 0, 0, 0);\n\nm_spel.Jump(1);",
+  "examples": [
+    "With m_spel .ClearPoints() .SetPoint(1, 100, 200, -20, 0, 0, 0) .Jump(1)\nEnd With",
+    "m_spel.ClearPoints();\nm_spel.SetPoint(1, 100, 200, -20, 0, 0, 0);\nm_spel.Jump(1);"
+  ]
+}

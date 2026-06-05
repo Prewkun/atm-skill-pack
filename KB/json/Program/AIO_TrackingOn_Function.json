@@ -1,0 +1,16 @@
+{
+  "title": "AIO_TrackingOn Function",
+  "file": "AIO_TrackingOn_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_TrackingOn(robotNumber)",
+  "parameters": "robotNumber\tAn integer expression representing a robot number which you want to acquire.",
+  "description": "AIO_TrackingOn Function\n\nAIO_TrackingOn Function\n\nSee_Also     Example\n\nReturns whether the specified robot is executing the distance tracking function or not.",
+  "notes": "",
+  "see_also": "AIO_TrackingSet, AIO_TrackingStart, AIO_TrackingEnd\n\nAIO_TrackingOn  Functiont Example\n\nFunction Main\n\n  Integer i\n\n  i = AIO_TrackingOn(1)\n\n  print i\n\nFend",
+  "examples": [
+    "Function Main Integer i i = AIO_TrackingOn(1) print i\nFend\n\nExample on command window",
+    "＞print AIO_TrackingOn(1)",
+    "0"
+  ]
+}

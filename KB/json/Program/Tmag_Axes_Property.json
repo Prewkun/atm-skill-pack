@@ -1,0 +1,14 @@
+{
+  "title": "Tmag_Axes Property",
+  "file": "Tmag_Axes_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the subject axis for calculating the resultant torque.",
+  "notes": "Tmag is the resultant force from the subject axes selected from X, Y, and Z axes.\n\nThis property is used when when setting or checking the subject axes to obtain the resultant torque with respect to the Force Trigger Object and Force Monitor Object.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function Test_Tmag_Axes Integer iVar FSet FM1.Tmag_Axes, FG_ZX FGet FM1.Tmag_Axes, iVar Print iVar\nFend"
+  ]
+}

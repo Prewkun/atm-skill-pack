@@ -1,0 +1,14 @@
+{
+  "title": "MyTask Function",
+  "file": "cmd_mytask",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MyTask",
+  "parameters": "",
+  "description": "MyTask returns the task number of the current program with a numeral. The MyTask instruction is inserted inside a specific program and when that program runs the MyTask function will return the task number that the program is running in.",
+  "notes": "",
+  "see_also": "Xqt\n\nMyTask Function Example\n\nThe following program switches On and Off the I/O ports from 1 to 8.\n\nFunction main\n\n\t\t  Xqt 2, task \t'Execute task 2.\n\n\t\t  Xqt 3, task \t'Execute task 3.\n\n\t\t  Xqt 4, task \t'Execute task 4.\n\n\t\t  Xqt 5, task \t'Execute task 5.\n\n\t\t  Xqt 6, task \t'Execute task 6.\n\n\t\t  Xqt 7, task \t'Execute task 7.\n\n\t\t  Xqt 8, task \t'Execute task 8.\n\n\t\t  Call task\n\n\t\tFend\n\nFunction task\n\n\t\t  Do\n\n\t\t    On MyTask                   'Switch On I/O port which has the\n\n'same number as current task number\n\n\t\t    Off MyTask               'Switch Off I/O port which has the\n\n'same number as current task number\n\n\t\t  Loop\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Xqt 2, task \t'Execute task 2.\n\t\t  Xqt 3, task \t'Execute task 3.\n\t\t  Xqt 4, task \t'Execute task 4.\n\t\t  Xqt 5, task \t'Execute task 5.\n\t\t  Xqt 6, task \t'Execute task 6.\n\t\t  Xqt 7, task \t'Execute task 7.\n\t\t  Xqt 8, task \t'Execute task 8.\n\t\t  Call task\n\t\tFend\n\nFunction task\n\t\t  Do\n\t\t    On MyTask                   'Switch On I/O port which has the\n\n\t\t                  'same number as current task number\n\n\t\t    Off MyTask               'Switch Off I/O port which has the\n\n\t\t                  'same number as current task number\n\n\t\t  Loop\n\t\tFend"
+  ]
+}

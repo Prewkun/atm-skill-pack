@@ -1,0 +1,12 @@
+{
+  "title": "InsertDepth Property",
+  "file": "MatingLength_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "InsertDepth Property\n\nInsertDepth Property\n\nThis property sets the length of insertion for the workpiece.\n\nThe robot travels in the direction specified by the InsertOrient property for the force guide object in the coordinate system specified by the ForceOrient property for the force guide sequence.\n\n\tValue (Unit: [mm])\n\nMinimum value\t0\n\nMaximum value\t300\n\nDefault: 30",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CaptionVGChecksYAxisPoint",
+  "file": "CaptionVGChecksYAxisPoint",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CaptionVGChecksYAxisPoint\n\nVision Guide automatically checks which vision objects can be used as the YAxisPoint and displays only those object Names in the drop down list.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

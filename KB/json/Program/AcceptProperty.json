@@ -1,0 +1,12 @@
+{
+  "title": "Accept Property",
+  "file": "AcceptProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Accept property specifies the score that a feature must equal or exceed to be considered found.",
+  "notes": "(Only Correlation, Geometric, Polar) The Accept property can also affect the searching speed by providing a hint as to how far to pursue the search in a given area of the Region of Interest.\n  When the Accept property is high, features must be very similar to the original model, so many regions can be ruled out by a cursory examination and not pursued further.  However, if the Accept property is low, features that are only slightly similar to the model may exceed the Accept property, so that a detailed examination of more regions in the scene is needed.  Thus, raising the Accept property tends to reduce the time required for searches.\n\nIf the specified value is small, it may result in false detection.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, BoxFinder, ColorMatch, Contour, CornerFinder, Correlation, Edge, Geometric, LineFinder, LineInspector, Polar\n Property\n\nConfusion Property\n\nScore Result\n\nVision Objects: Accept Property\n\nCodeReader\n\nColorMatch\n\nCorrelation\n\nEdge\n\nGeometric\n\nPolar\n\nArcFinder\n\nLineFinder\n\nArcInspector\n\nLineInspector\n\nBoxFinder\n\nCornerFinder\n\nContour",
+  "examples": []
+}

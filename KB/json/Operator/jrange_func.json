@@ -1,0 +1,14 @@
+{
+  "title": "JRange Function",
+  "file": "jrange_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "JRange(jointNumber, paramNumber)",
+  "parameters": "jointNumber\tSpecifies reference joint number (integer from 1 - 9) by an expression or numeric value.\n\nThe additional S axis is 8 and T axis is 9.\n\nparamNumber\tInteger expression containing one of two values:\n 1: Specifies lower limit value.\n 2: Specifies upper limit value.",
+  "description": "JRange Function\n\nJRange Function\n\nSee_Also Example\n\nReturns the permissible working range of the specified joint in pulses.",
+  "notes": "",
+  "see_also": "Range Statement\n\nJRange Statement\n\nJRange Function Example\n\nLong i, oldRanges(3, 1)\n\nFor i = 0 To 3\n\n\t\t  oldRanges(i, 0) = JRange(i + 1, 1)\n\n\t\t  oldRanges(i, 1) = JRange(i + 1, 2)\n\n\t\tNext i",
+  "examples": [
+    "Long i, oldRanges(3, 1)\n\nFor i = 0 To 3\n\t\t  oldRanges(i, 0) = JRange(i + 1, 1)\n\t\t  oldRanges(i, 1) = JRange(i + 1, 2)\n\t\tNext i"
+  ]
+}

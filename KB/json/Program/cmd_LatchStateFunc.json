@@ -1,0 +1,14 @@
+{
+  "title": "LatchState Function",
+  "file": "cmd_LatchStateFunc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "LatchState",
+  "parameters": "",
+  "description": "LatchState Function\n\nLatchState Function\n\nSee_Also Example\n\nReturns the latch state of robot position using the R-I/O.",
+  "notes": "",
+  "see_also": "LatchEnable\n\nLatchPos Function\n\nSetLatch\n\nLatchState Function Example\n\nFunction main\n\n  SetLatch 24 , SETLATCH_TRIGGERMODE_LEADINGEDGE\n  LatchEnable On          'Enables the latch function\n  Go P1\n  Wait LatchState = True   'Wait a trigger\n  Print LatchPos           'Display the latched position\n  LatchEnable Off          'Disable the latch function\n\nFend",
+  "examples": [
+    "Function main SetLatch 24 , SETLATCH_TRIGGERMODE_LEADINGEDGE   LatchEnable On          'Enables the latch function   Go P1   Wait LatchState = True   'Wait a trigger   Print LatchPos           'Display the latched position   LatchEnable Off          'Disable the latch function\nFend"
+  ]
+}

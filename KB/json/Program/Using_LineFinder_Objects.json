@@ -1,0 +1,12 @@
+{
+  "title": "Using LineFinder Objects",
+  "file": "Using_LineFinder_Objects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using LineFinder Objects\n\nUsing LineFinder Objects\n\nNow that we've reviewed how LineFinder works we have set the foundation for understanding how to use Vision Guide LineFinder objects.  This next section will describe the steps required to use LineFinder objects as listed below:\n\nHow to create a new LineFinder object\nPosition and Size the search window\nConfigure the properties associated with the LineFinder object\nTest the LineFinder object & examine the results\nMake adjustments to properties and test again\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use. If you have no vision sequence to work with, you can create a new vision sequence by clicking on the New Sequence  toolbar button.  You can also select a sequence which was created previously by clicking on the Sequence tree in the Vision Guide window.  See Vision Sequences for details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New LineFinder Object\n\nStep 2: Positioning the LineFinder object\n\nStep 3: Configuring Properties for the LineFinder Object",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

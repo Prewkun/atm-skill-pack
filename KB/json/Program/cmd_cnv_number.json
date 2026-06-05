@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Number Function",
+  "file": "cmd_cnv_number",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_Number (conveyorName)",
+  "parameters": "conveyorName\tString expression representing the conveyor name.\n\nReturn Values\n\nInteger conveyor number.",
+  "description": "Note\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Name$\n\nCnv_Number Function Example\n\nInteger cnvNum\n\ncnvNum =\n\t\t\t\tCnv_Number\n\t\t\t(\"Main Conveyor\")",
+  "examples": [
+    "Integer cnvNum\n\ncnvNum =\n\t\t\t\tCnv_Number\n\t\t\t(\"Main Conveyor\")"
+  ]
+}

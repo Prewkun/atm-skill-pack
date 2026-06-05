@@ -1,0 +1,15 @@
+{
+  "title": "OpenCom Statement",
+  "file": "cmd_opencom",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "OpenCom #portNumber",
+  "parameters": "portNumber\tInteger expression\n\t\t for RS-232C port number to open.\n\nThe range of\n\t\t port number is:\n\nReal Part1 ~\n\t\t 8\n\nWindows Part1001\n\t\t to 1008",
+  "description": "You need to connect the specified RS-232C port to the controller.\n\nTo use the SPEL+ real part ports, option I/O board must be installed to the Controller.\n\nTo use Windows part ports, RC+ setting must be done.  For details, refer to the description about RC-232C in the Epson RC+ User's Guide 5.13 [Setup] Menu.",
+  "notes": "",
+  "see_also": "ChkCom, CloseCom, SetCom\n\nOpenCom Statement",
+  "examples": [
+    "Integer PortNo\nPortNo = 1001",
+    "OpenCom #PortNo\nPrint #PortNo, \"Data from COM1\"\nCloseCom #PortNo"
+  ]
+}

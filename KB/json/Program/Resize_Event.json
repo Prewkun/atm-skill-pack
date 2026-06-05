@@ -1,0 +1,14 @@
+{
+  "title": "Resize Event",
+  "file": "Resize_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when the control is resized.",
+  "notes": "",
+  "see_also": "Applies To\n\nForm\n\nClick Event\n\nGUI Items: Resize Event\n\nForm",
+  "examples": [
+    "Function frmMain_Resize(Sender$ As String)\n\n\t\t  Integer width\n\n\t\t  GGet frmMain.Width, width\n\n\t\t  GSet frmMain.btnOK.Left, width / 2 - 100\n\n\t\t  GSet frmMain.btnCancel.Left, width / 2 + 10\n\nFend"
+  ]
+}

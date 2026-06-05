@@ -1,0 +1,12 @@
+{
+  "title": "AcquireState Result",
+  "file": "AcquireStateResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The AcquireState result is used determine if a picture has been taken for a sequence after the external trigger becomes active.\n\nTo use the external trigger (strobe), set RuntimeAcquire property of the sequence to Strobed.",
+  "notes": "After calling VRun for a sequence to use the external trigger (strobe), the SPEL+ program can wait for the external trigger input becomes active (strobe flashes) and the AcquireState to become 3 before further vision processing can continue.  If the program does not wait for AcquireState to become 3, then executing vision commands for the same sequence will wait automatically for AcquireState to become 3 before executing.",
+  "see_also": "",
+  "examples": []
+}

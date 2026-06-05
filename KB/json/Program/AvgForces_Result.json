@@ -1,0 +1,14 @@
+{
+  "title": "AvgForces Result",
+  "file": "AvgForces_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns average values of force and torque during execution of a force guide object.",
+  "notes": "Returns average values of force and torque during execution of a force guide object.\n\nIf the number of elements in a specified array variable is less than six, returns force and torque in each direction for the defined element numbers.  Also, if the number of elements in the array variable exceeds six, returns force and torque in each direction from element number 0 to 5, while making no change to element number 6 and above.",
+  "see_also": "Result\n\nFGGet",
+  "examples": [
+    "Function AvgForceTest\n     Double dArray(6)\n    Motor On\n     FGRun Sequence1\n     FGGet Sequence1.Contact01.AvgForces, dArray()  ' Acquisition of AvgForces\n    Print dArray(FG_FX)\nFend"
+  ]
+}

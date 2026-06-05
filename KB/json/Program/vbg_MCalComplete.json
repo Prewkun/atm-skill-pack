@@ -1,0 +1,15 @@
+{
+  "title": "MCalComplete Method, Spel Class",
+  "file": "vbg_MCalComplete",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function MCalComplete () As Boolean",
+  "parameters": "",
+  "description": "Returns True if MCal has been completed successfully.",
+  "notes": "",
+  "see_also": "MCal\n\nMCalComplete Example\n\nVB Example:\n\nIf m_spel.MCalComplete() Then\n\n  lblStatus.Text = \"MCal Complete\"\n\nElse\n\n  lblStatus.Text = \"MCal Not Complete\"\n\nEnd If\n\nC# Example:\n\nif (m_spel.MCalComplete())\n\n  lblStatus.Text = \"MCal Complete\";\n\nelse\n\n  lblStatus.Text = \"MCal Not Complete\";",
+  "examples": [
+    "If m_spel.MCalComplete() Then lblStatus.Text = \"MCal Complete\"\nElse lblStatus.Text = \"MCal Not Complete\"\nEnd If",
+    "if (m_spel.MCalComplete()) lblStatus.Text = \"MCal Complete\";\nelse lblStatus.Text = \"MCal Not Complete\";"
+  ]
+}

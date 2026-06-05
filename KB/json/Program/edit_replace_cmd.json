@@ -1,0 +1,12 @@
+{
+  "title": "Replace command (Edit menu)",
+  "file": "edit_replace_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Replace command (Edit menu)\n\nReplace Command (Edit Menu)\n : Ctrl+R\n\nSearch for a text string and replace it with new text.\n\nItem\tDescription\n\nFind\n\t\t What\tType\n\t\t the text you want to search for. When executing [Replace] with\n\t\t a string selected, the selected string is displayed. If no text\n\t\t was selected, then the text from the last Find will be displayed.\n\nReplace\n\t\t With\tEnter\n\t\t the replacement text here.\n\n\t\tThe replacement text can be empty.\n\nCurrent\n\t\t File\tSearches\n\t\t only in the current program file and include file.\n\nAll Files\tSearches\n\t\t all files in the project.\n\nWhole\n\t\t Word\tSearches\n\t\t for the full word by itself and not as part of another word.\n\nMatch\n\t\t Case\tText\n\t\t must also match lower and upper case in order to be found.\n\nReplace\n\t\t All\tReplaces\n\t\t all occurrences.\n\nReplace\tIf already\n\t\t found, replaces the current find, otherwise searches for the next\n\t\t occurrence.\n\nFind\n\t\t Next / Find Previous\tFinds\n\t\t the next, or previous occurrence.\n\n\t\t(Click the []\n\t\t button to select the search method.)\n\nClose\tCloses\n\t\t the dialog box.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

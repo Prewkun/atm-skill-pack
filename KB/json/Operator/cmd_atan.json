@@ -1,0 +1,14 @@
+{
+  "title": "ATan Function",
+  "file": "cmd_atan",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Atan( number )",
+  "parameters": "number\tNumeric expression\n\t\t representing the tangent of an angular value.",
+  "description": "Atan returns the arctangent of the numeric expression.  The numeric expression (number) may be any numeric value. The value returned by Atan will range from -PI to PI radians.\n\nTo convert from radians to degrees, use the RadToDeg function.",
+  "notes": "",
+  "see_also": "Abs, Val , Tan, Sin, Sgn, RadToDeg, DegToRad , Cos, Atan2 , Asin, Acos\n\nAtan Function Example\n\nThe following example shows a simple program which uses Atan.\n\nFunction atantest\n\n  Real x, y\n\n  x = 0\n\n  y = 1\n\n  Print \"Atan of \", x, \" is \", Atan(x)\n\n  Print \"Atan of \", y, \" is \", Atan(y)\n\nFend",
+  "examples": [
+    "Function atantest Real x, y x = 0 y = 1 Print \"Atan of \", x, \" is \", Atan(x) Print \"Atan of \", y, \" is \", Atan(y)\nFend"
+  ]
+}

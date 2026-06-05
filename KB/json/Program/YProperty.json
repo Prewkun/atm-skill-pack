@@ -1,0 +1,12 @@
+{
+  "title": "Y Property",
+  "file": "YProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the Y position of a Point object.",
+  "notes": "The Y property is used to locate vertical position of the Point object.  This property is initially set to the Y position where the user drops a newly created Point object. However, if a Point object is associated with another object in the sequence (i.e. the PointType property is set to another vision object and not set to \"Screen\"), then the Y property for the Point object is automatically modified according to the associated property.\n\nWhen the PointType property is set to \"Screen\", there are 2 methods which can be used to move the Point object:\n\nClick the Point object's label and drag the object to the position you want to place it.\nType in X and Y Pixel Coordinate positions for the center of the Point object.  After you type in a value to the X property or Y property and move off that property the Point object will move to that new X or Y position.\n\nThere are cases where the user may want to position a Point object dynamically and for that reason the Y property can also be set from the SPEL+ Language.",
+  "see_also": "Applies To\n\nVision Objects: Points\n\nX Property\n\nVision Objects: Y Property\n\nPoint",
+  "examples": []
+}

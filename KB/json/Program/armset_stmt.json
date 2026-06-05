@@ -1,0 +1,21 @@
+{
+  "title": "ArmSet Statement",
+  "file": "armset_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) ArmSet armNumber, link2Dist, joint2Offset, zOffset, [link1Dist ], [orientAngOffset]\n\n(2) ArmSet armNumber\n\n(3) ArmSet",
+  "parameters": "armNumber\tInteger expression: Valid range from 1-15. The user may define up to 15 different auxiliary arms.\n\nlink2Dist\t(For SCARA Robots) The horizontal distance from the center line of the elbow joint to the center line of the new orientation joint. (i.e. the position where the new auxiliary arm's orientation axis center line is located.)\n\njoint2Offset\t(For SCARA Robots) The offset (in degrees) between the line formed between the normal Elbow center line and the normal orientation Axis center line and the line formed between the new auxiliary arm elbow center line and the new orientation axis center line. (These 2 lines should intersect at the elbow center line and the angle formed is the joint2Offset.)\n\nzOffset\t(For SCARA Robots) The Z height offset difference between the new orientation axis center and the old orientation axis center. (This is a distance.)\n\nlink1Dist\t(For SCARA Robots) The distance from the shoulder center line to the elbow center line of the elbow orientation of the new auxiliary axis.\n\norientAngOffset\t(For SCARA Robots) The angular offset (in degrees) for the new orientation axis vs. the old orientation axis.",
+  "description": "Allows the user to specify auxiliary arm parameters to be used in addition to the standard arm configuration. This is most useful when an auxiliary arm or hand is installed to the robot. When using an auxiliary arm, the arm is selected by the Arm instruction.\n\nThe link1Dist and orientAngOffset parameters are optional. If they are omitted, the default values are the standard arm values.\n\nThe auxiliary arm configuration capability is provided to allow users to configure the proper robot parameters for their robots when the actual robot configuration is a little different than the standard robot. For example, if the user mounted a 2nd orientation joint to the 2nd robot link, the user will probably want to define the proper robot linkages for the new auxiliary arm which is formed. This will allow the auxiliary arm to function properly under the following conditions:\n\n- Specifying that a single data point be moved through by 2 or more arms.\n\n- Using Pallet\n\n- Using Continuous Path motion\n\n- Using relative position specifications\n\n- Using Local coordinates\n\nFor SCARA robots with rotating joints used with a Cartesian coordinate system, joint angle calculations are based on the parameters defined by the ArmSet parameters. Therefore, this command is critical if any auxiliary arm or hand definition is required.\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "Arm 0\n\nArm 0 cannot be defined or changed by the user. It is reserved since it is used to define the standard robot configuration. When the user sets Arm to 0 this means to use the standard robot arm parameters.",
+  "see_also": "Arm\n\nArmset Function\n\nArmClr Statement\n\nArmSet Statement Example\n\nThe following examples are potential auxiliary arm definitions using the ArmSet and Arm instructions. ArmSet defines the auxiliary arm and Arm defines which Arm to use as the current arm. (Arm 0 is the default robot arm and cannot be adjusted by the user.)\n\nFrom the command window:\n\n> armset 1, 300, -12, -30, 300, 0\n\n> armset\n\narm0 250 0 0 300 0\n\narm1 300 -12 -30 300 0\n\n> arm 0\n\n> jump p1  'Jump to P1 using the Standard Arm Config\n\n> arm 1\n\n> jump p1  'Jump to P1 using auxiliary arm 1",
+  "examples": [
+    "> armset 1, 300, -12, -30, 300, 0",
+    "> armset",
+    "arm0 250 0 0 300 0",
+    "arm1 300 -12 -30 300 0",
+    "> arm 0",
+    "> jump p1  'Jump to P1 using the Standard Arm Config",
+    "> arm 1",
+    "> jump p1  'Jump to P1 using auxiliary arm 1"
+  ]
+}

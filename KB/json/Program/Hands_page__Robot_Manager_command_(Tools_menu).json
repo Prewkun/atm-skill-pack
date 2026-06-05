@@ -1,0 +1,12 @@
+{
+  "title": "Hands page: Robot Manager command (Tools menu)",
+  "file": "Hands_page__Robot_Manager_command_(Tools_menu)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "of the hand.\n\nConfigure\tSelect\n\t\t one hand and click this button to display the [Configure Robot\n\t\t Hand: *] window where you can register a new hand and change or\n\t\t delete the registration information.\n\nClear\tWhen\n\t\t you select a registered hand and press this button, the hand deletion\n\t\t confirmation dialog will be displayed.\n\n\t\tIf you select the [Yes] button here, the registered hand information\n\t\t will be deleted.\n\nSelect one hand from hands 1 to 15 and press the [Configure...] button to display the [Configure Robot Hand:] screen.\n\nFor more details on hand settings, refer to the following manual:\n\nHand Function Manual",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

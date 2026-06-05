@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Contour Object",
+  "file": "Step_1__Create_a_New_Contour_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Contour Object\n\nStep 1: Create a New Contour Object\n\n\tClick the [All Tools] - the\n\t [Contour] button on the Vision Guide toolbar.\n\tMove the mouse over the image display.\n\n\tYou will see the mouse pointer change to the Contour object icon.\n\tClick the left mouse button to create the object.\n\tNotice that a name for the\n\t object is automatically created.\n\n\tIn the example, it is called \"Contour01\" because this is the first\n\t Contour object created for this sequence.  (We will explain how\n\t to change the name later.)\n\nChange ContourMode based on the type of trajectory you wish to acquire.  For more information on types of ContourMode available for selection, refer to the table below.\n\nContourMode\n\t\t setting\tJudgment\n\t\t criteria\n\nBlob\tUsed to acquire trajectories that\n\t\t completely circle the workpiece.\n\nUsed to acquire the trajectory of complex\n\t\t shapes.\n\nLine\tUsed to acquire the trajectory of\n\t\t part of a workpiece.\n\nUsed to acquire simple line trajectories\n\t\t with little undulation.\n\nArc\tUsed to acquire the trajectory of\n\t\t part of a workpiece.\n\nUsed to acquire circular arc trajectories\n\t\t with little undulation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

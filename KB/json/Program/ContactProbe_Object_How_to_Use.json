@@ -1,0 +1,12 @@
+{
+  "title": "ContactProbe Object How to Use",
+  "file": "ContactProbe_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ContactProbe Object How to Use\n\nContactProbe Object\n\nHow to use\n\n1. Specify the basic information.. (Name, Description, AutoStepID, StepID, AbortSeqOnFail property)\n\n2. Specify the I/O operation of when starting this object. (IOPreprocEnabled, IOPreprocOutputBit, IOPreprocOutputStatus property)\n\n3. Specify the trajectory, speed and acceleration of probing. (ProbeTrajectory, AccelS, SpeedS, SpiralDiam, SpiralPitch, DestRelativeX, DestRelativeY, DestRelativeZ property)\n\n4. Specify the orientation, distance and interval of contact. (ContactOrient, ContactDist, ContactDistMargin, ContactInterval property)\n\n5. Specify the firmness. (ContactFirmness property)\n\n6. Specify the end condition about force. (ContactForceThresh property)\n\n7. Specify the end condition about position. (PosCheckEnabled,  PlaneNumber, PlaneEndCond, PlaneRelativeOrg, PlaneRelativeX, PlaneRelativeY, PlaneRelativeZ, PlaneRelativeOrient, PlaneAxes, PlaneRelativeRobotLocal property)\n\n8. Specify the timeout time. (Timeout property)\n\n9. Specify whether to connect the force control of this object and next force guide object. (CFEnabled property)\n\n10. Adjust parameter by cut and try. Mainly adjust the ContactInterval, ContactStiffnessGainF, ContactForceThresh property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

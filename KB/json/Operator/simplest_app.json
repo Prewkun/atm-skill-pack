@@ -1,0 +1,12 @@
+{
+  "title": "Creating the simplest application",
+  "file": "simplest_app",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Creating the simplest application\n\nCreating the simplest application\n\nThe simplest SPEL+ application has one program and one point file. This is what is automatically defined for you when you create a new project. A blank program named \"Main.prg\" and a blank point file named \"Points.pts\" are created.\n\nTo write and run a simple application\n\nSelect\n\t [New Project] from the [Project]\n\t menu to create a new project.\n\nWrite\n\t your program source code in the file that was created for you called\n\t \"Main.prg\".\n\nTeach\n\t the robot points using the [Robot Manager]-[Jog\n\t & Teach] page.\n\nRun\n\t the program by selecting [Run] Window from the [Run] menu or by pressing\n\t [F5] (the shortcut key for the [Start] command).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

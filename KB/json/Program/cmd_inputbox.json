@@ -1,0 +1,14 @@
+{
+  "title": "InputBox Statement",
+  "file": "cmd_inputbox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "InputBox prompt, title, default, answer$",
+  "parameters": "prompt\tString expression displayed as a message in the dialog box.\n\ntitle\tString expression displayed in the title bar of the dialog box.\n\ndefault\tString expression displayed in the text box as the default response. If no default is desired, use an empty string (\"\").\n\nanswer$\tA string variable which will contain what the user typed. If the user entered nothing or clicks Cancel, this string will be \"@\".",
+  "description": "InputBox displays the dialog and waits for the user to click OK or Cancel. answer is a string that contains what the user typed in.",
+  "notes": "",
+  "see_also": "MsgBox\n\nInputBox Statement Example\n\nThis function shows an InputBox example.\n\nFunction GetPartName$ As String\n\n  String prompt$, title$, answer$\n\n  prompt$ = \"Enter \" + Chr$(34) + \"part name\" + Chr$(34) + \":\"\n\n  title$ = \"Sample Application\"\n\n  InputBox prompt$, title$, \"\", answer$\n\n  If answer$ <> \"@\" Then\n\n    GetPartName$ = answer$\n\n  EndIf\n\nFend\n\nThe following picture shows the example output from the InputBox example code shown above.",
+  "examples": [
+    "Function GetPartName$ As String String prompt$, title$, answer$ prompt$ = \"Enter \" + Chr$(34) + \"part name\" + Chr$(34) + \":\" title$ = \"Sample Application\" InputBox prompt$, title$, \"\", answer$ If answer$ <> \"@\" Then\n    GetPartName$ = answer$ EndIf\nFend"
+  ]
+}

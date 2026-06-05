@@ -1,0 +1,12 @@
+{
+  "title": "CaptionOnlyAfterCalib",
+  "file": "CaptionOnlyAfterCalib",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CaptionOnlyAfterCalib\n\nThe RobotX, RobotY, RobotU, and RobotXYU results only return values when robot to camera calibration has been performed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

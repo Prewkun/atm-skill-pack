@@ -1,0 +1,12 @@
+{
+  "title": "Calibrating the Robot with a Mobile Camera",
+  "file": "Calibrating_the_Robot_with_a_Mobile_Camera",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibrating the Robot with a Mobile Camera\n\nCalibrating the Robot Camera\n\nThis part of the tutorial will guide you through how to calibrate the robot with the mobile camera that is mounted to the end of joint 2 on a SCARA.  Calibration provides the mechanism to allow the vision system to understand the robot's coordinate system.  Once calibrated, the vision system can be used to find the robot coordinate position of parts for the robot to pick up.  However, before we start calibration we need to prepare the robot for use by turning the motors ON and calibrating (homing) the robot.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

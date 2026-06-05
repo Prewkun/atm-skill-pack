@@ -1,0 +1,12 @@
+{
+  "title": "EllipseMinorDiam Property",
+  "file": "EllipseMinorDiam_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies length of the minor axis of the ellipse which is the inspection base line of ArcInspector.",
+  "notes": "EllipseMinorDiam is used to specify length of the ellipse's minor axis when the ellipse is specified as a base line used by ArcInspector.\n\nSee Also: EllipseMinorDiam Property\n\nArcInspector\n\nEllipseAngle Property\n\nEllipseMajorDiam Property",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector",
+  "examples": []
+}

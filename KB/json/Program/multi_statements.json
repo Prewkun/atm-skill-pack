@@ -1,0 +1,14 @@
+{
+  "title": "Multi-statements",
+  "file": "multi_statements",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Multi-statements\n\nMulti-statements\n\nA program statement can contain several statements separated by semi-colons.\n\nThe total length of a multi-statement program line cannot exceed 255 characters.\n\nFor example:\n\nFunction Test\n\n    Pass P1; Pass P2; Go P3    ' Multi-statement\n\nFend\n\nIt is not recommended to use multi-statements. Multi-statements can make your code more difficult to read and debug.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Test\n    Pass P1; Pass P2; Go P3    ' Multi-statement\nFend"
+  ]
+}

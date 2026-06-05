@@ -1,0 +1,12 @@
+{
+  "title": "LineObj2Result Property",
+  "file": "LineObj2Result_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns what number of detection results for Line objects set in the LineObject2 property to be used.",
+  "notes": "Sets / returns which result to use for the object specified with the LineObject2 property.  The Line object itself does not have more than one result.  However, when it is dependent on other objects, such as a Frame object, it may have several results.  In such cases, this property sets what number of the result values to be used.\n\nSee Also: LineObj2Result Property\n\nPointType Property\n\nVision Objects: LineObj2Result Property\n\nLine\n\nPoint",
+  "see_also": "Applies To\n\nVision Objects: Point",
+  "examples": []
+}

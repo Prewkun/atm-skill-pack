@@ -1,0 +1,12 @@
+{
+  "title": "RotationCenterType Property",
+  "file": "RotationCenterType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property specifies the type of the rotation center which rotates due to the adjustments of the force control functions during the force guide sequence execution.\n\nWhen specifying CurrentTool, rotate around the selecting Tool coordinate system.\n\nWhen specifying Relative, rotate around the relative position from the Tool coordinate system which is specified below.\n\nValues\n\nRotationCenterTLX, RotationCenterTLY, RotationCenterTLZ\n\nCurrentTool Set a position of the currently selected Tool coordinate system as a center of rotation.\n\nRelative Set a position where is apart from the currently selected Tool coordinate system by the specified distance as a center of rotation.\n\nDefault:  CurrentTool\n\nSee Also: RotationCenterType Property\n\nRotationCenterTLY Property\n\nRotationCenterTLZ Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

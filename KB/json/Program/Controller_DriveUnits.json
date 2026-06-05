@@ -1,0 +1,12 @@
+{
+  "title": "Drive Units Page",
+  "file": "Controller_DriveUnits",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Drive Units Page\n\n[Setup]-[System Configuration]-[Controller]-[Drive Units]\n\nThis page displays the status of the Drive Unit. It shows Output, Robot, and Axis settings of each Drive Unit.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

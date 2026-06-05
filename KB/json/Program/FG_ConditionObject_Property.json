@@ -1,0 +1,12 @@
+{
+  "title": "FG_ConditionObject Property",
+  "file": "FG_ConditionObject_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set the force guide object to be a target of the conditional determination.\n\nSpecify the force guide object which is written before the Decision object.  Based on that result, the program proceeds to True or False branch.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

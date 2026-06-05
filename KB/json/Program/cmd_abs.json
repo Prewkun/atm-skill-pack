@@ -1,0 +1,20 @@
+{
+  "title": "Abs Function",
+  "file": "cmd_abs",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Abs(number)",
+  "parameters": "number\tAny valid\n\t\t numeric expression.",
+  "description": "The absolute value of a number is its unsigned magnitude.  For example, Abs(-1) and Abs(1) both return 1.",
+  "notes": "",
+  "see_also": "Atan\tSgn\n\nAtan2\tSin\n\nCos\tSqr\n\nInt\tStr$\n\nMod\tTan\n\nNot\tVal\n\nAbs Function Example\n\nThe following examples are done from the command window using the Print instruction.\n\n> print abs(1)\n\n1\n\n> print abs(-1)\n\n1\n\n> print abs(-3.54)\n\n3.54\n\n>",
+  "examples": [
+    "> print abs(1)",
+    "1",
+    "> print abs(-1)",
+    "1",
+    "> print abs(-3.54)",
+    "3.54",
+    ">"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Conveyor Tips Overview",
+  "file": "Conveyor_Tips_Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Conveyor Tips Overview\n\nOverview\n\nThis section provides the tips for improving the robot's performance to handle the work pieces in the Conveyor Tracking, which uses the vision system to detect the work pieces.\n\nProcess of Accuracy Improvement\n\nPrepare the conveyor tracking in the following steps.\n\nSystem construction\n\nVision calibration\n\nConveyor calibration\n\nCheck of the work piece detection accuracy and the detection rate\n\nCheck of the work piece handling accuracy\n\nIn order to improve the handling accuracy, proper preparations and adjustments in each step are necessary.  The following sections describe tips for accuracy improvement for each step.\n\nSubsequent descriptions use the SCARA robot.  Please note that the tips are common in SCARA and 6-Axis robots.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

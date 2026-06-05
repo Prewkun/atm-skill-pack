@@ -1,0 +1,12 @@
+{
+  "title": "Using LabVIEW VI Reference",
+  "file": "Using_LabVIEW_VI_Reference",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using LabVIEW VI Reference\n\nVI Reference\n\nThis section contains information for all VIs used in the Epson RC+ 8.0 LabVIEW Library.\n\nThe following information is provided for each VI:\n\nTool Palette\tThe tool palette where the VI is contained.\n\nDescription\tBrief description of the function.\n\nInputs\tInput parameters\n\nOutputs\tOutput parameters\n\nRemarks\tAdditional details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

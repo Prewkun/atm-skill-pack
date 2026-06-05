@@ -1,0 +1,12 @@
+{
+  "title": "Histogram Analysis",
+  "file": "HistogramAnalysis",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Histogram Analysis\n\nThresholding\n\nThe Blob object uses thresholding to determine the weight of each pixel in an image.  Two user defined thresholds are used: ThresholdLow and ThresholdHigh.  Pixels whose grayscale values are between the thresholds are assigned a pixel weight of 1 and all others 0.  The ThresholdColor property is used to define the color of the pixels for weight 1.  This is the color (black or white) between the thresholds.\n\nBased on these derived pixel weights, the Blob object segments the image into feature (pixels having weight 1) and background (pixels having weight 0).  The Polarity property is used to configure the Blob object to find blobs containing either black or white pixels.\n  When Polarity is DarkOnLight, then blobs contain black pixels.  When Polarity is LightOnDark, then blobs contain white pixels.\n\nUsing Histograms to Determine Thresholds\n\nBy using the Vision Guide 8.0 Histogram tool, the user can determine which values to use for ThresholdLow and ThresholdHigh.\n\nAs an example, consider an ideal binary image of a black blob on a white background.  The picture below illustrates such an image and its histogram.\n\nIdeal binary image and its histogram\n\nNote that only two grey-scale values have non-zero contents in this histogram: the grey-scale value of the blob and the grey-scale value of the background.\n\nReal images never have histograms such as this.\n  The effects of noise from various sources (uneven printing, irregular lighting and electrical noise, for example) combine to spread out the peaks.  A more realistic histogram is shown below.\n\nSetting the threshold values using a histogram\n\nIn the histogram show above, each of the peaks is clearly evident.  The peak areas are in the same proportion as those in the previous ideal histogram, but each has now spread to involve more than one greyscale value.  The less populated greyscale values between the two principal peaks represent the edges of the blob, which are neither wholly dark nor wholly light.  You should adjust the threshold values so that the blob feature will have pixels weights of 1.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

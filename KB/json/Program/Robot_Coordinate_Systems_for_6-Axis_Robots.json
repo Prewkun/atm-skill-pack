@@ -1,0 +1,12 @@
+{
+  "title": "Robot Coordinate Systems for 6-Axis Robots",
+  "file": "Robot_Coordinate_Systems_for_6-Axis_Robots",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Coordinate Systems for 6-Axis Robots\n\nRobot Coordinate Systems of 6-Axis Robot\n\nTable Top Mounting\tCeiling Mounting\n\nSide (Wall) Mounting\n\nIn the robot coordinate system, +Z axis is defined in the opposite direction of gravity.  X and Y axes are defined in horizontal plane as shown in the figures above.\n\nThe position and orientation are designated by the position data (X, Y, Z) and the orientation data (U, V, W).\n\nRoll-Pitch-Yaw angles are used for the orientation data.\n\nU corresponds to roll (Z-axis rotation), V corresponds to pitch (Y-axis rotation), and W corresponds to yaw (X-axis rotation).\n\nThe orientation is designated by rotating the coordinate axis of U, V, and W, in that order (movable axis expression).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

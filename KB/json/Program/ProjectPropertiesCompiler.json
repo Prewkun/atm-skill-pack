@@ -1,0 +1,12 @@
+{
+  "title": "Project: Properties: Compiler",
+  "file": "ProjectPropertiesCompiler",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project: Properties: Compiler\n\nProject: Properties: Compiler Page\n\nThis page allows you to configure the compiler settings.\n\nItem\tDescription\n\nCompiler\n\t\t Version\t[Default]\n\t\t is the normal setting.\n\nWhen the projects cannot be built because\n\t\t new SPEL+ language keywords have been added that conflict with\n\t\t your variable names, you can select a previous version to build\n\t\t the projects. Specify the controller version that compiles the\n\t\t project.\n\nEpson RC+ 8.0 is compatible with EPSON\n\t\t RC+ 7.0.\n\n\t\tFor details on compatibility, refer to the following manual.\n\nSPEL+ Language Reference - Appendix B:\n\t\t Precaution of Compatibility\n\nStrict\n\t\t Compile\tChecks\n\t\t the Boolean type strictly.\n\nIf the program contains following descriptions,\n\t\t an error will occur. Boolean variables are assigned to other numerical\n\t\t types\n\n\t\tSpecifies a wait time to Wait\n\n\t\tCompares Boolean types\n\nGlobals\n\t\t must be\n\n\t\tdeclared in each\n\n\t\tfile used\tChecks\n\t\t the Global variables (including Global Preserve variables) for\n\t\t each file.\n\nWhen this item is checked, you must declare\n\t\t Global variables in each file in which they are used, otherwise\n\t\t an error will occur at build time.\n\nTIP: Enabling this item reduces\n\t\t a build time of a project which uses many Global variables.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

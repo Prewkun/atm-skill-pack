@@ -1,0 +1,12 @@
+{
+  "title": "The Model Window",
+  "file": "TheModelWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Model Window\n\nThe Model Window\n\nCorrelation, Geometric and Polar objects contain a model window\n\nand a search window.  We will use the Correlation object model window for the purpose of this discussion.\n\nCorrelation objects have a model window as shown in the Figure below.  The model window is the inside box as shown in the Figure and is magenta in color. (Except at run time where it changes to green when the object is found.) The model window is used for defining the boundaries of the model. (Remember that a model is an idealized representation of a feature.  In general, it's what you will be searching for.)\n\nThe Model Window",
+  "notes": "",
+  "see_also": "Positioning the Model Window\n\nResizing the Model Window",
+  "examples": []
+}

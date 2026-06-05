@@ -1,0 +1,14 @@
+{
+  "title": "PTRQ Function",
+  "file": "PTRQ_Function",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "PTRQ(jointNumber)",
+  "parameters": "jointNumber\tInteger expression representing the joint number.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "PTRQ Function\n\nPTRQ Function",
+  "notes": "",
+  "see_also": "Returns the peak torque for the specified joint.\n\nATRQ\n\nPTCLR\n\nPTRQ Statement\n\nPTRQ Function Example\n\nThis example uses the PTRQ function in a program:\n\nFunction DisplayPeakTorque\n\n  Integer i\n\n  Print \"Peak torques:\"\n\n  For i = 1 To 4\n\n    Print \"Joint \", i, \" = \", PTRQ(i)\n\n  Next i\n\nFend",
+  "examples": [
+    "Function DisplayPeakTorque Integer i Print \"Peak torques:\" For i = 1 To 4\n    Print \"Joint \", i, \" = \", PTRQ(i) Next i\nFend"
+  ]
+}

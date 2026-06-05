@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Part Area Calibration",
+  "file": "Part_Feeding_CalWiz_Part_Area_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Part Area Calibration\n\nPart Area\n\nCalibrate the part area (the number of pixels per part).\n\n1.  Description of display items\n\nItem\tDescription\n\nPart Area\tNumber of pixels in the part area\n\n2. Calibration\n\n  (1) Place one part on the platform.\n\n  (2) Click the [Run] button.\n\n       The number of pixels in the part area is measured.\n\n  (3) Click the [Apply] button.\n\n       Result saved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

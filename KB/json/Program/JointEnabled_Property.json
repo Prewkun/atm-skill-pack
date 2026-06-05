@@ -1,0 +1,12 @@
+{
+  "title": "JointEnabled Property",
+  "file": "JointEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "JointEnabled Property\n\nJointEnabled\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nActivates/inactivates, or returns the force motion restriction function for each axis collectively.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

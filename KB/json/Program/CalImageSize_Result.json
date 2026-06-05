@@ -1,0 +1,12 @@
+{
+  "title": "CalImageSize Result",
+  "file": "CalImageSize_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns a image size in a calibration.",
+  "notes": "Acquire the image size in the calibration.  For details of values, refer to ImageSize property.",
+  "see_also": "Applies To\n\nVision Calibration\n Result\n\nImageSizeProperty",
+  "examples": []
+}

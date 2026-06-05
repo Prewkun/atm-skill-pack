@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_QueUserData Statement",
+  "file": "cmd_cnv_queuserdata_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_QueUserData\n\t\t\tconveyorNumber, [index ], [ userData ]",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.\n\nindex\tOptional. Integer expression specifying the index of the item number in the queue.\n\nuserData\tOptional. Real expression specifying user data.",
+  "description": "Cnv_QueUserData is used to store your own data with each item in a conveyor queue. User data is optional. It is not necessary for normal operation.\n\nAnother way to set the user data for a queue entry is to use the optional UserData argument in Cnv_QueAdd.\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_QueAdd\n\nCnv_QueGet\n\nCnv_QueUserData Statement Example\n\nCnv_QueUserData\n 1, 1, angle",
+  "examples": [
+    "Cnv_QueUserData 1, 1, angle"
+  ]
+}

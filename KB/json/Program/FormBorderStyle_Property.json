@@ -1,0 +1,14 @@
+{
+  "title": "FormBorderStyle Property",
+  "file": "FormBorderStyle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the border style of the form.",
+  "notes": "See Also: FormBorderStyle Property\n\nForm\n\nGUI Items: FormBorderStyle Property\n\nForms",
+  "see_also": "Applies To\n\nForms",
+  "examples": [
+    "GSet frmMain.FormBorderStyle, FORMBORDERSYTLE_NONE"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Reset Method, Spel Class",
+  "file": "Reset_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Reset",
+  "parameters": "",
+  "description": "Resets the Controller to the initialized state.",
+  "notes": "",
+  "see_also": "ResetAbort\n\nReset Example\n\nVB Example:\n\nm_spel.Reset()\n\nC# Example:\n\nm_spel.Reset();",
+  "examples": [
+    "m_spel.Reset()",
+    "m_spel.Reset();"
+  ]
+}

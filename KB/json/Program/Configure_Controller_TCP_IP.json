@@ -1,0 +1,12 @@
+{
+  "title": "Configure Controller TCP/IP",
+  "file": "Configure_Controller_TCP_IP",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Configure Controller TCP/IP\n\nConfigure Controller TCP/IP\n\nThe robot Controller needs to communicate with the camera when vision commands are executed.  The TCP/IP settings in the Controller must be configured to communicate on the same subnet as the camera and PC.\n\nTo configure the Controller TCP/IP settings, refer to the RC700 Controller manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

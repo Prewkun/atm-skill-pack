@@ -1,0 +1,12 @@
+{
+  "title": "DefectFinder Object Layout",
+  "file": "DefectFinder_Object_Layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "DefectFinder Object Layout\n\nDefectFinder Object Layout\n\nThe DefectFinder object layout is rectangular just like the Blob objects. However, DefectFinder objects require a teaching to register images to the system. For image registration, whole search window will be used. There is no model window like the Correlation object.\n\nThe search window defines the area within which DefectFiner searches for a defective (image difference). Also, it defined the registration range of the template image. An example of the DefectFinder object is shown below:\n\nDefectFinder Object Layout",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

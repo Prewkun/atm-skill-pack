@@ -1,0 +1,12 @@
+{
+  "title": "Overview Absolute Accuracy Calibration",
+  "file": "Overview_Absolute_Accuracy_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Overview Absolute Accuracy Calibration\n\nOverview\n\nDifferences in ideal robot performance and actual robot performance are caused by mechanical errors and the robot's structure. Absolute accuracy calibration compensates for these differences to ensure that the actual position and trajectory of the robot match the coordinates and trajectory specified.\n\nUsing absolute accuracy calibration to improve robot accuracy is expected to provide the following benefits.\n\nReduce\n\t the number of teaching points required\n\nHigh-precision\n\t assembly\n\nReduction\n\t of start-up time during restoration",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

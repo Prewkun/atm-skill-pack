@@ -1,0 +1,12 @@
+{
+  "title": "LoadPoints VI",
+  "file": "LoadPoints_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Loads a SPEL+ point file into the Controller's point memory for the current robot.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nFile Name\tA valid point file that is in the current Spel project or was previously saved with the SavePoints VI.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "GetPoint, Robot, SavePoints, SetPoint\n\nLoadPoints Example",
+  "examples": []
+}

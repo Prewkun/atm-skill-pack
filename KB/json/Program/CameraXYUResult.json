@@ -1,0 +1,12 @@
+{
+  "title": "CameraXYU Result",
+  "file": "CameraXYUResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the CameraX, CameraY and Angle position coordinates of the found part's position in the camera coordinate frame.",
+  "notes": "The xVar and yVar values are returned in millimeters since the Camera Coordinate Frame is calibrated in millimeters.  The uVar value is returned in degrees.\n\nIt should be noted that the CameraXYU result can only be calculated for vision sequences which have been associated with a calibration.  If no calibration has been assigned to the vision sequence then if VGet is used to retrieve the CameraXYU result, an error will occur.\n\nThe CameraXYU result can be calculated only when valid calibration data is set to the Calibration property of the vision sequence.  If the calibration has not been completed or the Calibration property has not been set, the CameraXYU result will be an error.\n\nThe CameraXYU result is available at runtime only.",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: ArcFinder, Blob, BoxFinder, CornerFinder, Correlation, Edge, Geometric, LineInspector, Point, Polar, Coordinates\n\nAngle Result\n\nCameraX Result\n\nCameraY Result\n\nFound Result\n\nRobotXYU Result\n\nVision Objects: CameraXYU Result\n\nArcFinder\n\nBlob\n\nBoxFinder\n\nCoordinates\n\nCorrelation\n\nCornerFinder\n\nEdge\n\nGeometric\n\nPoint\n\nPolar",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ImageBuffer1File Property",
+  "file": "ImageBuffer1File_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the first image file to be used for the SubtractAbs operation.",
+  "notes": "Set the ImageBuffer1File property to use images stored on disk by the SaveImage property or by VSaveImage for the SubtractAbs operation. When ImageBuffer1 is set to \"File\", the ImageBuffer1File property is available.\n\nThe image files are stored in a project subfolder in the Compact Vision and can be shared by all sequences in the project.\n  Multiple sequences in the same project can use the same file, or different files.  You cannot use a file with the same name from different paths.  Use unique filenames when necessary.\n\nYou can also use image files stored in a USB memory connected to the Compact Vision.\n\nTo set the value to \"None\" from the Vision Guide window, select the ImageBuffer1File property, then press the Del key.\n\nTo specify the file in the USB memory of Compact Vision, put \"CVUSB\" at the beginning.\n\nCompact Vision only allows the use of ASCII character file names.\n\nSupported formats for bitmap files:\n\n(All of the following conditions must be satisfied.)\n\nUncompressed Windows Bitmap\n\nBit depth: either of 8, 24, or 32 (RGB888)\n\nFollowing formats are not supported.\n\nOS/2\n\nCompressed files\n\nBit depth: 1, 4",
+  "see_also": "Property\n\nImageBuffer Property\n\nImageBuffer2 Property\n\nImageOp Object",
+  "examples": []
+}

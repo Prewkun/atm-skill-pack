@@ -1,0 +1,20 @@
+{
+  "title": "HealthRBAnalysis Statement",
+  "file": "HealthRBAnalysis_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Simulates and displays the usable months for the specified parts in a particular robot operation cycle.  This command calculates and displays how many months the parts can be used if they are new and used for 24 hours a day.  The past usage is not considered.\n\nReturns \"-1\" when the specified parts are not installed on the specified joint.",
+  "notes": "- This command does not function in Auto mode.\n\n- This command does not function in dry run mode (including the virtual controller).\n\nHealthRBAnalysis Statement Example\n\nThe example below displays the usable months for all parts of all joints on SCARA robot.\n\n> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_ALL\n\nBELT                -1.000,   -1.000,   38.689,   95.226\n\nGREASE              47.265,   39.827,   21.130,   -1.000\n\nMOTOR              240.000,  240.000,  240.000,  240.000\n\nGEAR               240.000,  224.357,   -1.000,   -1.000\n\nBALL_SCREW_SPLINE   -1.000,   -1.000,  240.000,   -1.000\n\n>\n\nThe example below displays the usable months for the reduction gear units of all joints on SCARA robot.\n\n> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_GEAR\n\nGEAR               240.000,  224.357,   -1.000,   -1.000\n\n>\n\nThe example below displays the usable months for the Joint #2 motor on 6-axis robot.\n\n> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_MOTOR, 2\n\nMOTOR              224.357\n\n>\n\nSee Also: HealthRBAnalysis Statement\n\nHealthRBStart\n\nHealthRBStop",
+  "see_also": "Simulates and displays the usable months for the specified parts in a particular robot operation cycle.",
+  "examples": [
+    "> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_ALL\nBELT                -1.000,   -1.000,   38.689,   95.226\nGREASE              47.265,   39.827,   21.130,   -1.000\nMOTOR              240.000,  240.000,  240.000,  240.000\nGEAR               240.000,  224.357,   -1.000,   -1.000\nBALL_SCREW_SPLINE   -1.000,   -1.000,  240.000,   -1.000\n>",
+    "> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_GEAR",
+    "GEAR               240.000,  224.357,   -1.000,   -1.000",
+    ">",
+    "> HealthRBAnalysis 1, HEALTH_ROBOT_TYPE_MOTOR, 2",
+    "MOTOR              224.357",
+    ">"
+  ]
+}

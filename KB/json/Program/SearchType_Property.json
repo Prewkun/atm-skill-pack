@@ -1,0 +1,12 @@
+{
+  "title": "SearchType Property",
+  "file": "SearchType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the search type.",
+  "notes": "Sets and returns the search type.  Available values are as follows:\n\n1 - Line   Search along a line\n\n2 - Arc    Search along an arc.\n\nSee Also: SearchType Property\n\nObject Tab\n\nVision Objects: SearchType Property\n\nEdge",
+  "see_also": "Applies To\n\nVision Objects: Edge",
+  "examples": []
+}

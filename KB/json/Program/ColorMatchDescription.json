@@ -1,0 +1,12 @@
+{
+  "title": "ColorMatch Description",
+  "file": "ColorMatchDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ColorMatch Description\n\nColorMatch Description\n\nThe ColorMatch object is used to detect colors that match one or more color models.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

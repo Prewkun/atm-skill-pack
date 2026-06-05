@@ -1,0 +1,12 @@
+{
+  "title": "Normalized Correlation",
+  "file": "NormalizedCorrelation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Normalized Correlation\n\nNormalized Correlation\n\nNormalized correlation is the searching algorithm which is used with Vision Guide Correlation objects because it is both powerful and robust.  Normalized correlation is a measure of the geometric similarity between an image and a model, independent of any linear differences in search window or model brightness.\n\nNormalized correlation is used as the searching algorithm for Correlation objects of the Vision Guide 8.0 since it is powerful and robust.  The normalized correlation value does not change in any of the following situations:\n\n\tIf all search window or model pixels are\n\t multiplied by some constant\n\tIf a constant is added to all search window\n\t or model pixels\n\nOne of the most important characteristics of normalized correlation is that the correlation value is independent of linear brightness changes in either the Search window or the model.  This is an important characteristic because the overall brightness and contrast of an image are determined by such factors as illumination intensity, scene reflectivity, camera aperture, sensor gain and offset (including possible automatic gain control circuitry), and the gain and offset of the image digitizer, all of which are hard to control in most production situations.  For example, bulbs age, ambient light levels can change with time of day, cameras and digitizers may be defective and need to be replaced, and the reflectivity of objects being inspected can vary.\n\nAnother important characteristic of normalized correlation is that the shape score value (see Normalized Correlation Shape Score subheading in the next topic) has absolute significance; that is, you can define a perfect match that is the same for all models and search windows.  It is independent not only of image brightness and contrast but also of model brightness, contrast, and size.  It is this property that allows the shape scores to be used as a measure of feature quality for inspection applications.  If the shape score calculated for a search window and model is 900, they are very similar. If the value is 100, they are not similar.  These statements are valid without knowing anything about the model or search window area.  This means the correlation coefficient has absolute meaning.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

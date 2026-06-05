@@ -1,0 +1,12 @@
+{
+  "title": "Mounting a Network Camera",
+  "file": "Mounting_a_Network_Camera",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Mounting a Network Camera\n\nMounting a Network Camera\n\nThere are two mounting types of network cameras: fixed and mobile.  You need to decide which type to use for your application.\n\nFixed Network Cameras\n\nUse fixed network cameras when it is necessary for the camera to be stationary. Ensure that the camera is mounted such that it cannot be easily moved out of position.\n\nNote:  Fixed cameras are not designed for use with a robot or any other motion device.\n\nMobile Network Cameras\n\nThese models are designed for mounting on a robot.\n  They have a remote camera head that is mounted on the robot that connects with the camera main unit using a hi-flex cable.\n\nIt is recommended that you use a camera bracket supplied by EPSON for mounting the remote camera head to the robot.\n\nNote:  When installing the mobile network camera, always make sure of the following guidelines.  Using the product under unsatisfactory conditions may cause malfunction of the system and/or safety problems.\n\n\t\t\tDo not remove the cable that connects the camera head and the body (camera unit) while power is ON, otherwise the camera could be damaged and will need to be sent in for repair.\n\t\t\tEnsure that you properly connect and fasten both the camera head and the body (camera unit) to the cable prior to connecting power.\n\t\t\tEnsure that the following cables do not bind when laying cables.\n\n\t\t\tThe cable for connecting the camera head and the body (camera unit)\n\n\t\t\tCables that could be noise sources such as the power cable\n\t\t\tEnsure that the camera frame is grounded. If the camera frame is not grounded properly, the camera may be susceptible to noise. Use the camera mounting screw for the camera frame ground",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PF_BacklightBrightness",
+  "file": "PF_BacklightBrightness",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_BacklightBrightness feeder number | feeder name, brightness",
+  "parameters": "feeder number\tSpecify the feeder number (integer number from 1 to 4) as an expression or a numerical value.\n\nfeeder name\tSpecify the feeder name as a character string.\n\nbrightness\tThe percentage of brightness (integer number) from 0 to 100%.",
+  "description": "Normally, the built-in backlight brightness to be used for a part is set in the Part Feeding Configuration dialog. If changes to brightness are required at runtime, you can use this command to change it.\n\nCannot be executed from a virtual controller or command window.\n\nNote:  Although the percentage of brightness can be set from 0 to 100%, the minimum, physical intensity may be limited depending upon the feeder model. The physical brightness is limited because even illumination cannot be achieved below certain brightness settings.\n\nFeeder Model\tBrightness Setting\tPhysical Brightness Intensity\n\nIF-80\tNo limitation\tNo limitation\n\nIF-240\t<=25%\t25%\n\nIF-380\t<=1%\t1%\n\nIF-530\t<=1%\t1%\n\nIf you would like 0% backlight brightness, use the PF_Backlight statement to turn off thebacklight.\n\nPF_BacklightBrightness Example\n\nPF_BacklightBrightness 1, 80",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_BacklightBrightness 1, 80"
+  ]
+}

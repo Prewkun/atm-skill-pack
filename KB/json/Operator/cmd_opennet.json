@@ -1,0 +1,15 @@
+{
+  "title": "OpenNet Statement",
+  "file": "cmd_opennet",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "OpenNet #portNumber\n\t\t\tAs { Client | Server }",
+  "parameters": "portNumber\tInteger expression for TCP/IP port number to open. Range is 201 - 216.",
+  "description": "OpenNet opens a TCP/IP port for communication with another computer on the network.\n\nOne system should open as Server and the other as Client. It does not matter which one executes first.",
+  "notes": "",
+  "see_also": "ChkNet\n\nCloseNet\n\nSetNet\n\nOpenNet Statement Example\n\nFor this example, two controllers have their TCP/IP settings configured as follows:\n\nController #1:\n\nPort: #201\n\nHost Name: 192.168.0.2\n\nTCP/IP Port: 1000\n\nFunction tcpip1\n\nOpenNet #201 As Server\n\n\t\t  WaitNet #201\n\n\t\t  Print #201, \"Data from host 1\"\n\n\t\t  CloseNet #201\n\n\t\tFend\n\nController #2:\n\nPort: #201\n\nHost Name: 192.168.0.1\n\nTCP/IP Port: 1000\n\nFunction tcpip2\n\n\t\t  String data$\n\nOpenNet #201 As Client\n\n\t\t  WaitNet #201\n\n\t\t  Input #201, data$\n\n\t\t  Print \"received '\", data$, \"' from host 1\"\n\n\t\tFend",
+  "examples": [
+    "Function tcpip1\n\n\t\t\t  OpenNet #201 As Server\n\t\t  WaitNet #201\n\t\t  Print #201, \"Data from host 1\"\n\t\t  CloseNet #201\n\t\tFend",
+    "Function tcpip2\n\t\t  String data$\n\n\t\t\t  OpenNet #201 As Client\n\t\t  WaitNet #201\n\t\t  Input #201, data$\n\t\t  Print \"received '\", data$, \"' from host 1\"\n\t\tFend"
+  ]
+}

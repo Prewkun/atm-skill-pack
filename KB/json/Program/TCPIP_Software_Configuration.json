@@ -1,0 +1,12 @@
+{
+  "title": "TCPIP Software Configuration",
+  "file": "TCPIP_Software_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TCPIP Software Configuration\n\nTCP/IP Software Configuration\n\nYou can configure TCP/IP settings for the controller in a SPEL+ program using the SetNet command.\n\nYou can also configure settings from the [TCP/IP] tab on the [Setup]-[System Configuration] dialog.\n\nTo configure a TCP/IP port\n\nSelect\n\t the TCP/IP port you want to configure from [Setup]-[System Configuration]-[Controller]-[TCP/IP].\n\nEnter\n\t the IP address for the controller or PC that you want this controller\n\t to communicate with.\n\n\tThe controller does not support DNS. You must specify an IP address\n\t for the host you are communicating with. You cannot specify a name\n\t for the host.\n\nEnter\n\t the TCP/IP port number. This must be the same port number that is\n\t used on the host device. It must be different from any of the other\n\t TCP/IP port numbers used for the other TCP/IP ports.\n\nChange\n\t the other settings as desired.\n\nClick\n\t the [Apply] button. The new settings are saved.\n\nClick\n\t the [Close] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

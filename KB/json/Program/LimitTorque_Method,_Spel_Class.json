@@ -1,0 +1,15 @@
+{
+  "title": "LimitTorque Method, Spel Class",
+  "file": "LimitTorque_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub LimitTorque (AllJointsMax As Integer)\n\nSub LimitTorque (J1Max As Integer, J2Max As Integer, J3Max As Integer, J4Max As Integer, J5Max As Integer, J6Max As Integer)",
+  "parameters": "AllJointsMax\tInteger expression\n\t\t for the desired upper limit of torque for all joints in high power\n\t\t mode.\n\nJ1Max\n\t\t - J6Max\tInteger expression\n\t\t for the desired upper limit of torque for each joint in high power\n\t\t mode.",
+  "description": "Sets the upper limit torque in high power mode for the current robot.",
+  "notes": "",
+  "see_also": "GetRealTorque, GetRobotPos\n\nLimitTorque Example\n\nVB",
+  "examples": [
+    "Dim j1LimitTorque As Double\nj1LimitTorque = m_spel.LimitTorque(1)",
+    "int j1LimitTorque;\nj1LimitTorque = m_spel.LimitTorque(1);"
+  ]
+}

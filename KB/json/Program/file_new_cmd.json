@@ -1,0 +1,12 @@
+{
+  "title": "[New File] (File Menu)",
+  "file": "file_new_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[New File] (File Menu)\n\n[New File] (File Menu)\n : Ctrl + N\n\nThe New command is used to add new files to the current project.\n\nWhen the [New File] is selected, the [New File] dialog is opened.\n\nItem\tDescription\n\nFile\n\t\t Name\tEnter\n\t\t a name for the new file in this box.\n\nUp to 24 characters can be input.\n\nFile\n\t\t Type\tYou can\n\t\t also specify program files, include files, point data, and force\n\t\t data.\n\nTarget\n\t\t Robot\tSelect\n\t\t the robot to which you want to apply the point file or force file.\n\nCommon: Applies to all robots\n\nrobot x : Only apply to the specified\n\t\t robot\n\nExisting\n\t\t Files\tShows\n\t\t the files for the selected type currently in the Project folder.\n\nOK\tCreates\n\t\t a new file.\n\nCancel\tCancels\n\t\t the operation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

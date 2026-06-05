@@ -1,0 +1,14 @@
+{
+  "title": "AvgForceClear Property",
+  "file": "AvgForceClear_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "FSet Object. AvgForceClear, bValueFx, bValueFy, bValueFz, bValueTx, bValueTy, bValueTz [, bValueFmag, bValueTmag]",
+  "parameters": "Object\tObject name or string variable defining object name\n\nThe object is specified as either of FM(numerical value) or FM(label).\n\nbValueFx\tA Boolean value or formula defining the new value of the property\n\nbValueFy\tA Boolean value or formula defining the new value of the property\n\nbValueFz\tA Boolean value or formula defining the new value of the property\n\nbValueTx\tA Boolean value or formula defining the new value of the property\n\nbValueTy\tA Boolean value or formula defining the new value of the property\n\nbValueTz\tA Boolean value or formula defining the new value of the property\n\nbValueFmag\tA Boolean value or formula defining the new value of the property\n\nbValueTmag\tA Boolean value or formula defining the new value of the property\n\nValues\n\nbValueFx, bValueFy, bValueFz, bValueTx, bValueTy, bValueTz, bValueFmag, bValueTmag\n\nName of Constants\tValues\tDescription\n\nFalse\t0\tInactivates the subject axis. (default)\n\nTrue\t-1\tActivates the subject axis.",
+  "description": "AvgForceClear activates/inactivates force and torque averaging simultaneously.\n\nBe sure to execute AvgForceClear prior to executing AvgForces and XX_AvgForce. Without executing AvgForceClear, 0 is returned.",
+  "notes": "",
+  "see_also": "Activates/inactivates force and torque averaging simultaneously.\n\nAvgForces Status\n\nAvgForceClear Example\n\nFunction CheckAverageForces\n Double AF(7)\n FSet FC1.Enabled, True, False, False, False, False, False\n FSet FC1.TargetForces, 10, 0, 0, 0, 0, 0\n FSet FS1.Reset\n FSet FM1.CoordinateSystem, FCS0\n FSet FM1.AvgForceClear, True, False, False, False, False, False, False, False\n FCKeep FC1, 10\n FGet FM1.AvgForces, AF()\n Print AF(FG_FX)\n\nFend",
+  "examples": [
+    "Function CheckAverageForces Double AF(7) FSet FC1.Enabled, True, False, False, False, False, False FSet FC1.TargetForces, 10, 0, 0, 0, 0, 0 FSet FS1.Reset FSet FM1.CoordinateSystem, FCS0 FSet FM1.AvgForceClear, True, False, False, False, False, False, False, False FCKeep FC1, 10 FGet FM1.AvgForces, AF() Print AF(FG_FX)\nFend"
+  ]
+}

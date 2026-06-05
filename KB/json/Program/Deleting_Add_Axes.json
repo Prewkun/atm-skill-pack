@@ -1,0 +1,12 @@
+{
+  "title": "Deleting the additional axes",
+  "file": "Deleting_Add_Axes",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Deleting the additional axes\n\nDeleting the additional axes\n\nNote: When the additional T axis is installed, delete it first.\n\nWhen only the additional S axis is installed, delete it.\n\nSelect System Configuration form the Setup menu.\nUnder the Robot folder in the tree on the left, select Robot** | Additional Axes\n\nClick Delete and the next dialog will appear\n\nClick Yes and the controller will be rebooted.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

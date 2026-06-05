@@ -1,0 +1,14 @@
+{
+  "title": "AIO_OutW",
+  "file": "AIO_OutW",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AIO_OutW Channel Number, Output data [, Forced]",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.\n\nOutput data\tSpecify the output data (Integer expression from 0 to 65535) in formula or value.\n\nForced\tOptional.  Usually omitted.",
+  "description": "Output to analog I/O channel specified by channel number.\n\nFor the output data, specify integer expression from 0 to 65535 in formula or value.\n\nOutput voltage (current) is as follows according to output range configuration which is set by the switch on the board.\n\nOutput Data\tOutput Range Configuration\n\nHexadecimal\tDecimal\t±10(V)\t±5(V)\t0-5(V)\t0-10(V)\t4-20(mA)\t0-20(mA)\n\n0xFFFF\t65535\t9.99970\t4.99985\t5.00000\t10.00000\t20.00000\t20.00000\n\n0x8001\t32769\t0.00031\t0.00015\t2.50008\t5.00015\t12.00024\t10.00031\n\n0x8000\t32768\t0.00000\t0.00000\t2.50000\t5.00000\t12.00000\t10.00000\n\n0x0000\t0\t-10.00000\t-5.00000\t0.00000\t0.00000\t4.00000\t0.00000\n\nNote\n\nForced Flag:  Specify the flag if outputting the analog I/O when operating emergency stop or opening the Safety Door by NoPause task, NoEmgAbort task (special task specified NoPause or NoEmgAbort to start when executing Xqt), and background task.\n\nNeed to be careful about the system design since analog I/O output changes when operating emergency stop or opening the Safety Door.",
+  "notes": "",
+  "see_also": "Output 16 bits analog value from optional analog I/O output channel.\n\nAIO_In Function, AIO_Out, AIO_OutW, AIO_Out Function, AIO_Set, Wait\n\nAIO_OutW Example\n\nAIO_OutW 1, &H8000",
+  "examples": [
+    "AIO_OutW 1, &H8000"
+  ]
+}

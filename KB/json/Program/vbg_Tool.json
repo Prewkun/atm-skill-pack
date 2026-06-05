@@ -1,0 +1,15 @@
+{
+  "title": "Tool Method, Spel Class",
+  "file": "vbg_Tool",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Tool (ToolNumber As Integer)",
+  "parameters": "ToolNumber\tInteger number from 0-15 representing which of 16 tool definitions to use with the subsequent motion instructions.",
+  "description": "Selects the current robot tool.",
+  "notes": "",
+  "see_also": "TLSet\n\nArm\n\nTGo\n\nTMove\n\nTool Example\n\nVB Example:\n\nm_spel.Tool(1)\n\nm_spel.TGo(100)\n\nC# Example:\n\nm_spel.Tool(1);\n\nm_spel.TGo(100);",
+  "examples": [
+    "m_spel.Tool(1)\nm_spel.TGo(100)",
+    "m_spel.Tool(1);\nm_spel.TGo(100);"
+  ]
+}

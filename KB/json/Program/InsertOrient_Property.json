@@ -1,0 +1,12 @@
+{
+  "title": "InsertOrient Property",
+  "file": "InsertOrient_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "InsertOrient Property\n\nInsertOrient Property\n\nThis property sets the direction of motion for insert operations in the coordinate system specified by the ForceOrient property for the force guide sequence.\n\nValue\tDescription\n\n+Fx\tSets the direction of motion to the +Fx direction in the specified coordinate system.\n\n-Fx\tSets the direction of motion to the -Fx direction in the specified coordinate system.\n\n+Fy\tSets the direction of motion to the +Fy direction in the specified coordinate system.\n\n-Fy\tSets the direction of motion to the -Fy direction in the specified coordinate system.\n\n+Fz\tSets the direction of motion to the +Fz direction in the specified coordinate system.\n\n-Fz\tSets the direction of motion to the -Fz direction in the specified coordinate system.\n\nDefault: +Fz",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

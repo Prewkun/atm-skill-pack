@@ -1,0 +1,14 @@
+{
+  "title": "ToolTipText Property",
+  "file": "ToolTipText_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Used to show a small rectangular pop-up window that displays a brief description of a control's purpose when the user rests the pointer on the control.",
+  "notes": "",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, LED, ProgressBar, TrackBar, StatusBar, Grid",
+  "examples": [
+    "GSet frmMain.btnStart.ToolTipText, \"Click Here to Start\""
+  ]
+}

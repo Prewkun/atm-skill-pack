@@ -1,0 +1,12 @@
+{
+  "title": "ColorMatch Object Layout",
+  "file": "ColorMatchObjectLayout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ColorMatch Object Layout\n\nColorMatch Object Layout\n\nThe ColorMatch object has a rectangle, rotated rectangle, or circular layout layout and as such has a center point and radius. The position of the ColorMatch object can be moved by clicking on the name of the object or anywhere on the outer perimeter of the search window and then dragging the object to a new position.\n\nColorMatch Object Layout\n\nNote: The ColorMatch object center position (defined by the CenterPoint property) can also be based upon the position of another object. This means that even though you may reposition a ColorMatch object, once you run the object or Sequence the object center position may change.\n\nThe search area for a ColorMatch object can be a rectangle, rotated rectangle, or circle.\n\nTo resize the search window outer boundary for the ColorMatch object where the SearchWinType is Circle, click one of the search window size handles and drag the ring inward or outward as desired to change the radius.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

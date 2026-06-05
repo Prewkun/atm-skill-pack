@@ -1,0 +1,12 @@
+{
+  "title": "Relax Object",
+  "file": "Relax_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Relax Object\n\nRelax Object\n\nRelax object moves the robot to a position where the force to the specified direction will be 0.  This object is used for safety releasing of pressing status after pressing by Press object or removal of extra force which is applied during assembly.  Also, by combining with the hand motions, this object can follow and grasp.  Even if the workpiece dimension or the grasp positions of the workpiece have a margin of error, the robot can grasp the workpiece stably without applying extra force.\n\nHow to use\n\nProperties\n\nResults",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

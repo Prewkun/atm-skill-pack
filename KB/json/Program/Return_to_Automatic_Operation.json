@@ -1,0 +1,12 @@
+{
+  "title": "Return to Automatic Operation",
+  "file": "Return_to_Automatic_Operation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Return to Automatic Operation\n\nReturn to Automatic Operation\n\nIf there are safety devices that have been temporarily disabled for system inspection or other reasons, always return them to their original status before restarting automatic operation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

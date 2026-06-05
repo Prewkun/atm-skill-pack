@@ -1,0 +1,15 @@
+{
+  "title": "Stat Function",
+  "file": "cmd_stat",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Stat (address)",
+  "parameters": "address\tDefines which status bits to check.",
+  "description": "The Stat instruction returns information as shown in the table below:\n\nAddress\tBit\tValue\tController Status Indicated When Bit is On\n\n0\t0\n\nto\n\n15\t&H1\n\nto\n\n&H8000\tTask 1 is being executed (Xqt) or in Halt State\n\nto\n\nTask 16 is being executed (Xqt) or in Halt State\n\n\t16\t&H10000\tTask(s) is being executed\n\n\t17\t&H20000\tPause condition\n\n\t18\t&H40000\tError Condition\n\n\t19\t&H80000\tTeach mode\n\n\t20\t&H100000\tEmergency Stop Condition\n\n\t21\t&H200000\tLow Power Mode (Power Low)\n\n\t22\t&H400000\tSafe Guard Input is Closed\n\n\t23\t&H800000\tEnable Switch is Open\n\n\t24\t&H100000\tUndefined\n\n\t25\t&H200000\tUndefined\n\n\t26\t&H400000\tTest mode\n\n\t27\t&H800000\tT2 mode\n\n\t28-31\t\tUndefined\n\n1\t0\t&H1\tLog of Stop above target position upon satisfaction of condition in Jump...Sense statement. (This log is erased when another Jump statement is executed).\n\n\t1\t&H2\tLog of stop at intermediate travel position upon satisfaction of condition in Go/Jump/Move...Till statement. (This log is erased when another Go/Jump/Move...Till statement is executed\n\n\t2\t&H4\tUndefined\n\n\t3\t&H8\tLog of stop at intermediate travel position upon satisfaction of condition in Trap statement\n\n\t4\t&H10\tMotor On mode\n\n\t5\t&H20\tCurrent position is home position\n\n\t6\t&H40\tLow power state\n\n\t7\t&H80\tUndefined\n\n\t8\t&H100\t4th Joint Motor is On\n\n\t9\t&H200\t3rd Joint Motor is On\n\n\t10\t&H400\t2nd Joint Motor is On\n\n\t11\t&H800\t1st Joint Motor is On\n\n\t12\t&H1000\t6th Joint Motor is On\n\n\t13\t&H2000\t5th Joint Motor is On\n\n\t14\t&H4000\tAxis T motor is on\n\n\t15\t&H8000\tAxis S motor is on\n\n\t16\t&H10000\t7th Joint motor is on\n\n\t17-31\t\tUndefined\n\n2\t0-15\t&H1 to &H8000\tTask (17~32) is being executed (Xqt) or in Halt State",
+  "notes": "",
+  "see_also": "EStopOn\n\nTillOn\n\nPauseOn\n\nSafetyOn\n\nStat Function Example\n\nFunction StatDemo\n Integer rbt1_sts\n\n  rbt1_sts = RShift((Stat(0) And &H070000), 16)\n\n  Select TRUE\n\n    Case (rbt1_sts And &H01) = 1\n\n      Print \"Tasks are running\"\n\n    Case (rbt1_sts And &H02) = 2\n\n      Print \"Pause Output is ON\"\n\n    Case (rbt1_sts And &H04) = 4\n\n      Print \"Error Output is ON\"\n\n  Send\n\nFend",
+  "examples": [
+    "Function StatDemo Integer rbt1_sts rbt1_sts = RShift((Stat(0) And &H070000), 16) Select TRUE\n    Case (rbt1_sts And &H01) = 1\n      Print \"Tasks are running\"\n    Case (rbt1_sts And &H02) = 2\n      Print \"Pause Output is ON\"\n    Case (rbt1_sts And &H04) = 4\n      Print \"Error Output is ON\" Send",
+    "Fend"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "PosX_Levelsl Property",
+  "file": "PosX_LowerLevel_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "PosX_Levelsl Property\n\nPosX_Levels, PosY_Levels, PosZ_Levels",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis sets or returns the lower threshold value and upper threshold value for position of specified axis.",
+  "examples": [
+    "Function SettingLevels\n    FSet FMR1.PosEnabled, True, False, False, False, False\n    FSet FMR1.PosX_Polarity, FG_OUT\n    FSet FMR1.PosX_Levels, -500, 500\n    Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError\n    AbortMotion All\nFend"
+  ]
+}

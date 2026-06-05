@@ -1,0 +1,14 @@
+{
+  "title": "AutoOrientationFlag",
+  "file": "AutoOrientationFlag",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AutoOrientationFlag { On | Off }",
+  "parameters": "On | Off\tOn: Enables the AutoOrientationFlag.\n\nOff: Disables the AutoOrientationFlag.  (Default)",
+  "description": "AutoOrientationFlag is available for following commands:\n\nGo, BGo, TGo, Jump3, JumpTLZ\n\nChange the following orientation flag:\n\n*1: Wrist orientation flag is changed only when you change the elbow orientation flag.  When you change the wrist orientation flag, it will be the orientation flag which minimizes the movement of Joint #4.\n\nUse AutoOrientationFlag with LJM Function\n\nWhen you use the command with LJM Function, Wrist Flag, J4Flag, and J6Flag will be the orientation selected by LJM Function.\n\nFor example, when you set orientationFlag of LJM Function to \"3\", \"Wrist Flag\", \"J4Flag\", and \"J6Flag\" are selected so that Joint #5 will be the shortest movement.  When you do not use LJM Function, \"Wrist Flag\", \"J4Flag\", and \"J6Flag\" are selected so that Joint #4 will be the shortest movement.\n\nNote\n\nWhen setting the AutoOrientationFlag to \"ON\":\n\nFlag is changed as follows due to the position of point P and the red line.\n\nPoint P is above the red line: Above\n\nPoint P is below the red line: Below",
+  "notes": "",
+  "see_also": "Changes orientation flag of N6-A1000**.\n\nAutoOrientationFlag Function\n\nAutoOrientationFlag Example\n\nMotor On\n\nPower High\n\nAutoOrientationFlag On\n\nGo P1\n\nGo P2",
+  "examples": [
+    "Motor On\nPower High\nAutoOrientationFlag On\nGo P1\nGo P2"
+  ]
+}

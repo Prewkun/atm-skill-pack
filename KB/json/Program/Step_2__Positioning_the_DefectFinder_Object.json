@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the DefectFinder Object",
+  "file": "Step_2__Positioning_the_DefectFinder_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the DefectFinder Object\n\nStep 2: Positioning the DefectFinder Object\n\nYou should now see a DefectFinder object similar to the one shown below:\n\nNew DefectFinder Object\n\nClick the name label of the DefectFinder object and, while holding the mouse down, drag the DefectFinder object to the position where you would like the top left position of the search window to reside.\n\nResize the DefectFinder object search window as required using the search window size handles.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

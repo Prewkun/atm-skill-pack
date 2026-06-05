@@ -1,0 +1,16 @@
+{
+  "title": "Call Method, Spel Class",
+  "file": "vbg_Call",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Call (FuncName As String, [Parameters As String] ) As Object",
+  "parameters": "FuncName\tThe\n\t\t name of a function which has already been defined in the current\n\t\t EPSON RC+ project and group.\n\nSpecify a list\n\t\t of arguments.  Use arguments separated by commas (,).",
+  "description": "Calls (executes) a SPEL+ function which can optionally return a value.",
+  "notes": "Use the Call method to call a SPEL+ function and retrieve the return value. When assigning the result of Call to a variable, ensure that the correct data type is used, otherwise a type mismatch error will occur.\n\nYou can also call DLL functions declared in your SPEL+ code from your Visual Basic application.  The function executed by Call method cannot be stopped/paused by Stop, Pause, Halt, or Quit method.\n\nNote\n\nThe function executed by Call method cannot be stopped/paused by Stop, Pause, Halt, or Quit method.\n\nIf you need to stop or pause, use Xqt Method.\n\nIf you need to stop or pause, use Xqt Method.",
+  "see_also": "Xqt\n\nCall Example\n\n' Visual Basic Code\n\nDim errCode As Integer\n\nerrCode = m_spel.Call(\"GetPart\", \"\"\"Test\"\",2\")\n\n// C# Code\n\nint errCode;\n\nerrCode = m_spel.Call(\"GetPart\", \"\"\"Test\"\",2\")\n\n'SPEL+ function\n\nFunction GetPart(Info$ As String, Timeout As Integer) As Integer\n\n  Long errNum\n\n  OnErr Goto GPErr\n Print Info$\n\n  errNum = 0\n\n  Jump P1\n\n  On vacuum\n\n  Wait SW(vacOn) = On, Timeout\n\n  If TW(0) = 1 Then\n\n    errNum = VAC_TIMEOUT\n\n  EndIf\n\n  GetPart = errNum\n\n  Exit Function\n\nGPErr:\n\n  errNum = Err\n\nFend",
+  "examples": [
+    "' Visual Basic Code\nDim errCode As Integer\nerrCode = m_spel.Call(\"GetPart\", \"\"\"Test\"\",2\")",
+    "// C# Code\nint errCode;\nerrCode = m_spel.Call(\"GetPart\", \"\"\"Test\"\",2\")",
+    "'SPEL+ function\nFunction GetPart(Info$ As String, Timeout As Integer) As Integer Long errNum OnErr Goto GPErr Print Info$ errNum = 0 Jump P1 On vacuum Wait SW(vacOn) = On, Timeout If TW(0) = 1 Then\n    errNum = VAC_TIMEOUT EndIf GetPart = errNum Exit Function\nGPErr: errNum = Err\nFend"
+  ]
+}

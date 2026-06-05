@@ -1,0 +1,12 @@
+{
+  "title": "Other Utilities for Geometric Objects",
+  "file": "OtherUtilitiesforGeometricObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Other Utilities for Geometric Objects\n\nOther Utilities for Geometric Objects\n\nAt this point you may want to consider examining the Histogram feature of Vision Guide.  Histograms are useful because they graphically represent the distribution of grayscale values within the search window .  The details regarding Vision Guide 8.0 Histogram usage are to examine the Geometric object's results statistically.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

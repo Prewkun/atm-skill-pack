@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Parts Detection Special Vis",
+  "file": "Part_Feeding_Parts_Detection_Special_Vis",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Parts Detection Special Vis\n\nSpecial Vision Configurations\n\nWhen using two or more vision sequences, or multiple lighting sources to detect parts, you can enable the vision callback function to describe all lighting controls and part detection processes.\n\nRefer to PF_Vision for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

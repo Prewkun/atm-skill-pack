@@ -1,0 +1,16 @@
+{
+  "title": "Find Statement",
+  "file": "cmd_find",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Find [condition]",
+  "parameters": "condition\tInput status specified as a trigger\n\n[Event] comparative operator ( =, <>, >=, >, <, <=) [Integer expression]\n\nThe following functions and variables can be used in the Event:\n\nFunctions :  Sw, In, InW, Oport, Out, OutW, MemSw, MemIn, MemInW, Ctr, GetRobotInsideBox, GetRobotInsidePlane, AIO_In, AIO_InW, AIO_Out, AIO_OutW, Hand_On, Hand_Off\n\nVariables :   Byte, Int32, Integer, Long, Short, UByte, UInt32, UShort, global preserve variable, Global variable, module variable\n\nIn addition, using the following operators you can specify multiple event conditions.\n\nOperator :   And, Or, Xor",
+  "description": "Find statement can be used by itself or as a modifier of a motion command.\n\nThe Find condition must include at least one of the functions above.\n\nWhen variables are included in the Find condition, their values are computed when setting the Find condition. No use of variable is recommended. Otherwise, the condition may be an unintended condition. Multiple Find statements are permitted. The most recent Find condition remains current.\n\nWhen parameters are omitted, the current Find definition is displayed.",
+  "notes": "Find setting at Main Power On\n\nAt power on, the find condition is:\n\nFind Sw(0)=On ' Input bit 0 is on.\n\nUse of PosFond Function to Verify Find\n\nUse PosFound function to verify if the Find condition has been satisfied after executing a motion command using Find modifier.\n\nUse Variables in Event Condition Expression\n\nAvailable variables are Integer type (Byte, Int32, Integer, Long, Short, UByte, UInt32, UShort)\n\nArray variables are not available\n\nLocal variables are not available\n\nIf a variable value cannot satisfy the event condition for more than 0.01 seconds, the system cannot retrieve the change in variables.\n\nUp to 64 can wait for variables in one system (including the ones used in the event condition expressions such as Wait). If it is over 64, an error occurs during the project build.\n\nIf you try to transfer a variable waiting for variables as a reference with Byref, an error occurs.\n\nWhen a variable is included in the right side member of the event condition expression, the value is calculated when starting the motion command. We recommend not using variables in an integer expression to avoid making unintended conditions.",
+  "see_also": "FindPos\n\nGo\n\nJump\n\nPosFound\n\nFind Statement Example\n\nFind Sw(5) = On\n\nGo P10 Find\n\nIf PosFound Then\n\n  Go FindPos\n\nElse\n\n  Print \"Cannot find the sensor signal.\"\n\nEndIf",
+  "examples": [
+    "Find Sw(5) = On",
+    "Find Sw(5) = On And Sw(6) = Off",
+    "Find Sw(5) = On\nGo P10 Find\nIf PosFound Then Go FindPos\nElse Print \"Cannot find the sensor signal.\"\nEndIf"
+  ]
+}

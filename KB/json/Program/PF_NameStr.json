@@ -1,0 +1,14 @@
+{
+  "title": "PF_NameStr",
+  "file": "PF_NameStr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_Name$(part ID)",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).",
+  "description": "This will return \"\" (blank string) if the specified part ID is invalid.\n\nCannot be executed from a virtual controller or command window.\n\nPF_Name$ Function Example\n\nPrint PF_Name$(1)",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print PF_Name$(1)"
+  ]
+}

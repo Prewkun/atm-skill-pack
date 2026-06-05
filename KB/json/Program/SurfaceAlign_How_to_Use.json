@@ -1,0 +1,12 @@
+{
+  "title": "SurfaceAlign How to Use",
+  "file": "SurfaceAlign_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SurfaceAlign How to Use\n\nSurfaceAlign Object\n\nHow to use\n\n1. Specify the basic information.. (Name, Description, AutoStepID, StepID, AbortSeqOnFail property)\n\n2. Specify the I/O operation of when starting this object. (IOPreprocEnabled, IOPreprocOutputBit, IOPreprocOutputStatus property)\n\n3. Specify the orientation and force of press. (PressOrient, PressForce property)\n\n4. Specify the firmness. (PressFirmnessF, FollowFirmnessT property)\n\n5. Specify the end condition. (ForceCheckEnabled, FollowCheckTolF, FollowCheckTolT, HoldTimeThresh, Timeout property)\n\n6. Specify whether to connect the force control of this object and next force guide object. (CFEnabled property)\n\n7. Adjust parameter by cut and try. Mainly adjust the PressStiffnessGainF, FollowStiffnessGainT, FollowCheckTolF, FollowCheckTolT, HoldTimeThresh property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

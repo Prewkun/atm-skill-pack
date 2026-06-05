@@ -1,0 +1,14 @@
+{
+  "title": "CurDisk$ Function",
+  "file": "cmd_curdiskdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "CurDisk$",
+  "parameters": "",
+  "description": "CurDisk$ Function\n\nCurDisk$ Function\n\nSee_Also Example\n\nReturns a string representing the current disk.",
+  "notes": "",
+  "see_also": "ChDrive\n\nCurDir$\n\nCurDisk$ Function Example\n\nPrint \"The current disk is: \",\n\t\t\t\tCurDisk$",
+  "examples": [
+    "Print \"The current disk is: \",\n\t\t\t\tCurDisk$"
+  ]
+}

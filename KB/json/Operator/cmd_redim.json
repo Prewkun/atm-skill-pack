@@ -1,0 +1,14 @@
+{
+  "title": "Redim Statement",
+  "file": "cmd_redim",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Redim [Preserve] arrayName\n\t\t\t(\n\t\t\tsubscripts\n\t\t\t)",
+  "parameters": "Preserve\tOptional.  Specifies to preserve the previous contents of the array.  If omitted, the array will be cleared.\n\narrayName\tName of the array variable; follows standard variable naming conventions.  The array must have already been declared.\n\nsubscripts\tNew dimensions of the array variable.  You must supply the same number of dimensions as when the variable was declared.\n  The syntax is as follows\n\n(\n\t\t\t\t\t\tdim1 [, dim2 [, dim3]])\n\ndim1, dim2, dim3 can be an integer expression from 0 - 2147483646.\n\nOthers than String\tString\n\nLocal variable\t2000\t200\n\nGlobal Preserve variable\t4000\t400\n\nGlobal variable and module variable\t100000\t10000\n\n10000",
+  "description": "Use Redim to change an array's dimensions at run time.  Use Preserve to retain previous values.  The array variable declared by Byref cannot use Redim.\n\nFrequent Redim will decrease the speed of program execution.  Especially, we recommend using the minimum of Redim for the global preserve variables.",
+  "notes": "",
+  "see_also": "UBound\n\nRedim Statement Example\n\nInteger i, numParts, a(0)\n\nPrint \"Enter number of parts:\"\n\n\t\tInput numParts\n\nRedim a(numParts)\n\nFor i= 0 to UBound(a)\n\n\t\t  a(i) = i\n\n\t\tNext\n\n' Redimension the array with 20 more elements\n\nRedim Preserve a(numParts + 20)\n\n' The first element values are retained\n\n\t\tFor i = 0 to UBound(a)\n\n\t\t  Print a(i)\n\n\t\tNext",
+  "examples": [
+    "Integer i, numParts, a(0)\n\nPrint \"Enter number of parts:\"\n\t\tInput numParts\n\nRedim a(numParts)\n\nFor i= 0 to UBound(a)\n\t\t  a(i) = i\n\t\tNext\n\n' Redimension the array with 20 more elements\n\n\t\t\tRedim Preserve a(numParts + 20)\n\n' The first element values are retained\n\t\tFor i = 0 to UBound(a)\n\t\t  Print a(i)\n\t\tNext"
+  ]
+}

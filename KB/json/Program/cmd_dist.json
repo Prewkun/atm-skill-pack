@@ -1,0 +1,14 @@
+{
+  "title": "Dist Function",
+  "file": "cmd_dist",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Dist (point1, point2)",
+  "parameters": "point1, point2\tSpecifies two robot point expressions.",
+  "description": "Even if you are using the additional axis, only the robot travel distance is returned.\n\nIt doesn't include the travel distance of additional axis while you use the additional axis as running axis.\n\nFor the Joint type robot, the return value of this function means nothing.",
+  "notes": "",
+  "see_also": "CX, CY, CZ, CU, CV, CW, CR, CS, CT Functions\n\nCX, CY, CZ, CU, CV, CW, CR, CS, CT Statements\n\nDist Function Example\n\nReal distance\n\ndistance =\n\t\t\t\tDist\n\t\t\t(P1, P2)",
+  "examples": [
+    "Real distance\n\ndistance =\n\t\t\t\tDist\n\t\t\t(P1, P2)"
+  ]
+}

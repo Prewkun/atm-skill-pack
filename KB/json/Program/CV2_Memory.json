@@ -1,0 +1,12 @@
+{
+  "title": "CV2 Memory",
+  "file": "CV2_Memory",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 Memory\n\nMemory\n\nTo replace the memory, follow the steps below.\n\n(1) Remove the top cover. (Refer to Internal Structure of CV2)\n\n(2) Remove the memory while gently opening the clips on each of the memory socket outside.\n\n(3) Remove the memory from the memory socket.\n\n(4) Insert the new memory to the memory slot obliquely and fix it with the tabs on the memory socket by pushing the memory lightly toward the CPU.\n\n(5) Install the top cover.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

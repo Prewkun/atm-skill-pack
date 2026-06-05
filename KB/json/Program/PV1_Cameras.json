@@ -1,0 +1,12 @@
+{
+  "title": "Installation Precautions",
+  "file": "PV1_Cameras",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Installation Precautions\n\nInstallation Precautions\n\nPV1 supports eight types of GigE cameras.\n\nModel\tResolution\n\t\t (color, monochrome)\n\nStandard GigE camera\t640\n\t\t x 480 (monochrome)\n\nStandard 2 GigE camera\t640\n\t\t x 480 (monochrome)\n\n1.3 mega-pixel 2 GigE camera\t1280\n\t\t x 1024 (monochrome)\n\n2 mega-pixel 2 GigE camera\t1600\n\t\t x 1200 (monochrome)\n\n2 mega-pixel 2 GigE color camera\t1600\n\t\t x 1200 (color)\n\n2 mega-pixel GigE camera\t1600\n\t\t x 1200 (monochrome)\n\n2 mega-pixel GigE color camera\t1600\n\t\t x 1200 (color)\n\n5 mega-pixel GigE camera\t2560\n\t\t x 1920 (monochrome)\n\n5 mega-pixel GigE color camera\t2560\n\t\t x 1920 (color)\n\n5 mega-pixel 2 GigE camera\t2560\n\t\t x 1920 (monochrome)\n\n5 mega-pixel 2 GigE color camera\t2560\n\t\t x 1920 (color)\n\n10 mega-pixel GigE camera\t3664\n\t\t x 2748 (monochrome)\n\n10 mega-pixel GigE color camera\t3664\n\t\t x 2748 (color)\n\n20 mega-pixel GigE camera*\t5472\n\t\t x 3648 (monochrome)\n\n20 mega-pixel GigE color camera *\t5472\n\t\t x 3648 (color)\n\nFor detailed specifications of each camera, refer to Camera.\n\nFor details of available network Controllers, refer to System Requirements.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

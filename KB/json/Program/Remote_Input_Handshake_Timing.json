@@ -1,0 +1,12 @@
+{
+  "title": "Remote Input Handshake Timing",
+  "file": "Remote_Input_Handshake_Timing",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Input Handshake Timing\n\nRemote Input Handshake Timing\n\nThe following charts indicate the timing sequences for the primary operations of the Controller.\n\nThe indicated time lapses (time durations) should be referred to only as reference values. The actual timing values vary depending on some factors such as the numbers of manipulators and running tasks.\n\nCheck carefully and refer to the following charts for the timing interrelation when you enter an input signal. During system design, make sure that you actuate only one remote input operation at a time, otherwise an error will occur.\n\nThe pulse width of an input signal must be 25 or more milliseconds to be detected.\n\n[Unit: msec]\n\nTiming Diagram for Operation Execution Sequence\n\n*1 The motion of the CmdRunnig can be different from this figure according to the condition.\n\n*2 Refer to only as reference value for a robot. It can be different according to the number of robots.\n\nTiming Diagram for Program Execution Sequence\n\n*1 Differs according to the setting condition of Quick Pause and the program running condition when the PAUSE is input.\n\n*2 Shutdown input can be accepted when the Ready output is ON.\n\nTiming Diagram for Safety Door Input Sequence\n\nTiming Diagram for Emergency Stop Sequence\n\nIf an error occurs, the Error remote output is turned on. To clear the error, turn on the Reset input. In an error condition, no other input will be accepted.\n\nTiming Diagram for Recover Sequence",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

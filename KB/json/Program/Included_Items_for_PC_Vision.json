@@ -1,0 +1,12 @@
+{
+  "title": "Included Items and Optional Products for PC Vision",
+  "file": "Included_Items_for_PC_Vision",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Included Items and Optional Products for PC Vision\n\nIncluded Items and Optional Products for PC Vision PV1\n\nVision Guide (already setup in the Controller)\n\nMain optional products\n\nacA640-100gm (Standard monochrome camera)\n\nacA640-120gm (Standard 2 monochrome camera)\n\nacA1300-60gm(1.3 mega-pixel monochrome camera)\n\nacA1600-20gm (2 mega-pixel 2 monochrome camera)\n\nacA1600-20gc (2 mega-pixel 2 color camera)\n\nacA640-100cm (2 mega-pixel color camera)\n\nacA2500-14gm (5 mega-pixel monochrome camera)\n\nacA2500-14cm (5 mega-pixel color camera)\n\nacA2500-20gm (5 mega-pixel 2 monochrome camera) *1\n\nacA2500-20gc (5 mega-pixel 2 color camera) *1\n\nacA3800-10gm (10 mega-pixel monochrome camera)\n\nacA3800-10gc (10 mega-pixel color camera)\n\nacA5472-5gm (20 mega-pixel monochrome camera)\n\nacA5472-5gc (20 mega-pixel color camera)\n\nFlexible GigE camera cable (5 m, 10 m) CAT5e ethernet cable (5 m, 10 m)\n\nFlexible GigE camera trigger cable (5 m, 10m)\n\nStandard camera lens (8 mm, 12 mm, 16 mm, 25 mm, 50 mm)\n\nMegapixel camera lens (8 mm, 12 mm, 16 mm, 25 mm, 50 mm)\n\nMegapixel lens (HF) (8mm, 12mm, 16mm, 25mm, 35mm)\n\n1 inch lens (8mm, 12mm, 16mm, 25mm, 35mm, 50mm)\n\nOCR\n\n*1: acA2500-20gm (5 mega-pixel 2 monochrome camera), acA2500-20gc (5 mega-pixel 2 color camera), acA5472-5gm (20 mega-pixel monochrome camera), and acA5472-5gc (20 mega-pixel color camera) are cameras equipped with 1-inch sensor.\n  Be sure to use a lens for 1-inch camera.  1 inch lens series (optional) is available.  If you use other lens, mechanical vignetting may occur.\n\nExample of support lens for 1-inch sensor:\n\nVS technology  VS-H1 series\n\n(VS-0814H1,VS-1214H1,VS-1614H1N,VS-2514H1,VS-3514H1, VS-5018H1)\n\nNote:\n\nThe license of Vision Guide and the license of OCR are setup in the Robot Controller.\n\nWhen you change the Robot Controller to be connected, the license of Vision Guide and the license of OCR should be setup in the new Controller as well.\n\nIf the licenses are not setup in the connected Controller, they are invalid.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

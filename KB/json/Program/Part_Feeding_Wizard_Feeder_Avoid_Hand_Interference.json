@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Avoid Hand Interference",
+  "file": "Part_Feeding_Wizard_Feeder_Avoid_Hand_Interference",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Avoid Hand Interference\n\nAvoid Hand Interference\n\nThis screen is used to configure Avoid Hand Interference settings.\n\nItem\tDescription\n\nAvoid interference with robot hand\tSelect this check box to enable a function used to avoid interference between the end effector and the platform.\n\nHand Clearance Radius\tParts within this distance from the circumference of the platform (set in the vision search window) will not be included in the coordinates queue.\n\nUnits are in mm.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Robot Coordinate System",
+  "file": "Robot_Coordinate_System",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Coordinate System\n\nRobot Coordinate System\n\nThe robot coordinate system is physical coordinates which the robot has.  Units are in millimeters.  To obtain coordinates in this system, a camera must be calibrated using camera orientation in the robot coordinate system.  For details on the robot coordinate system, refer to the Epson RC+ 8.0 User's Guide manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

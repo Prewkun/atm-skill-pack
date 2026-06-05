@@ -1,0 +1,12 @@
+{
+  "title": "MinorDiameter Result",
+  "file": "MinorDiameter_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the minor axis of the detected blob approximated to an ellipse.",
+  "notes": "Returns the minor axis of the detected blob approximated to an ellipse. The unit is pixel.\n\nThe major axis can be acquired by the MajorDiameter result.\n\nSee Also: MinorDiameter Result\n\nMajorDiameter Result\n\nVision Objects: MinorDiameter Result\n\nBlob\n\nDefect Finder",
+  "see_also": "Applies To\n\nVision Objects: Blob, Defect Finder",
+  "examples": []
+}

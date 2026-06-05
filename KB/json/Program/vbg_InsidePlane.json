@@ -1,0 +1,15 @@
+{
+  "title": "InsidePlane Method, Spel Class",
+  "file": "vbg_InsidePlane",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function InsidePlane (PlaneNumber As Integer) As Boolean",
+  "parameters": "PlaneNumber\tInteger expression from 1 to 15 representing which approach check plane to return status for.",
+  "description": "Returns the check status of the approach check plane.",
+  "notes": "",
+  "see_also": "InsideBox\n\nPlane\n\nInsidePlane Example\n\nVB Example:\n\nDim isInside As Boolean\n\nisInside = m_spel.InsidePlane(1)\n\nC# Example:\n\nbool isInside;\n\nisInside = m_spel.InsidePlane(1);",
+  "examples": [
+    "Dim isInside As Boolean\nisInside = m_spel.InsidePlane(1)",
+    "bool isInside;\nisInside = m_spel.InsidePlane(1);"
+  ]
+}

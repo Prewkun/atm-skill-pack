@@ -1,0 +1,12 @@
+{
+  "title": "Jogging in Teach Mode",
+  "file": "Teach_Mode",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Jogging in Teach Mode\n\nJogging in Teach Mode\n\nYou can jog and move the robot at slow speed with the safeguard open by using the Teach Pendant. For more details, refer to the following manual:\n\nRobot Controller option Teach Pendant TP1 manual.\n\nRobot Controller option Teach Pendant TP2 manual.\n\nRobot Controller option Teach Pendant TP3 manual.\n\nRobot Controller option Teach Pendant TP4 manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

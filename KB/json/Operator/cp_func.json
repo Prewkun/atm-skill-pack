@@ -1,0 +1,14 @@
+{
+  "title": "CP Function",
+  "file": "cp_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "CP",
+  "parameters": "",
+  "description": "CP Function\n\nCP Function\n\nSee_Also Example\n\nReturns status of path motion.",
+  "notes": "",
+  "see_also": "CP Statement\n\nCP Function Example\n\nIf CP = Off Then\n\n\t\t  Print \"CP is off\"\n\n\t\tEndIf",
+  "examples": [
+    "If CP = Off Then\n\t\t  Print \"CP is off\"\n\t\tEndIf"
+  ]
+}

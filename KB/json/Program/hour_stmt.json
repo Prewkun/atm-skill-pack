@@ -1,0 +1,15 @@
+{
+  "title": "Hour Statement",
+  "file": "hour_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Hour",
+  "parameters": "",
+  "description": "Displays the amount of time the controller has been turned on and running SPEL. (Accumulated Operating Time) Time is always displayed in units of hours.",
+  "notes": "",
+  "see_also": "Hour Function\n\nTime\n\nHour Statement Example\n\nThe following example is done from the Command window:\n\n>\n\t\t\t\thour\n\n2560",
+  "examples": [
+    ">\n\t\t\t\thour",
+    "2560"
+  ]
+}

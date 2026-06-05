@@ -1,0 +1,15 @@
+{
+  "title": "InReal Function",
+  "file": "InReal_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "InReal (\n\t\t\tWordPortNumber\n\t\t\t)\n\nParameter\n\nWordPortNumber\tInteger expression representing the I/O Input Word.",
+  "parameters": "",
+  "description": "From the input word port specified by the word port number, retrieve the 2 input word values as IEEE754 Real type value.  Input word label can be used for the word port number parameter.\nInReal Function cannot be used for the Wait command, or the condition of Till, Find, Sense.",
+  "notes": "",
+  "see_also": "In, InW, InBCD, Out, OutW, OpBCD, OutReal\n\nInReal Example\n\nReal rdata01\n\nrdata01 = InReal(0)",
+  "examples": [
+    "Real rdata01",
+    "rdata01 = InReal(0)"
+  ]
+}

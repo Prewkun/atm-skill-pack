@@ -1,0 +1,12 @@
+{
+  "title": "Items to check after supplying with power",
+  "file": "Items_to_check_after_supplying_with_power",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Items to check after supplying with power\n\nItems to check after supplying with power\n\n\t\t\tStart/stop, mode selection, and other functions work properly.\n\t\t\tMoving axes operate normally, and that the area of motion is limited as stipulated in the specifications.\n\t\t\tEmergency stop circuit functions correctly.\n\t\t\tPower supply can be shut off.\n\t\t\tTeach operation mode is functioning properly.\n\t\t\tSafety device and interlock switch function correctly.\n\t\t\tOther safeguards (if applicable) are installed correctly in their prescribed locations.\n\t\t\tRobot operates accurately in restricted status (low power status).\n\t\t\tRobot operates properly under rated loads and at maximum speed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

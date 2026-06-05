@@ -1,0 +1,14 @@
+{
+  "title": "SingularityAngle Statement",
+  "file": "SingularityAngle_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SingularityAngle {Angle}",
+  "parameters": "Angle\tSpecify the Joint #5 angle (real number equals to or greater than 0.1. Unit: deg) by a formula or a value for determining the wrist singularity neighborhood of the vertical 6-axis robot (including N series).\n\nResult\n\nCurrent SingularityAngle value will be displayed if the parameter is omitted.",
+  "description": "This command is enabled only when the singularity avoiding function is being used.\n\nDefault is 5 deg. This command can be used to adjust the start position of the singularity avoidance. If the value smaller than the default is specified, avoidance motion starts at the point closer to the singularity. Usually, it is not necessary to change the parameter. This may be useful to reduce errors which occur when passing the singularity.\n\nIf SingularityAngle parameter is changed, the current setting is effective until the next controller startup.",
+  "notes": "",
+  "see_also": "Sets the singularity neighborhood angle necessary for the singularity avoiding function.\n\nAvoidSingularity\n\nSingularityAngle Function\n\nSingularitySpeed\n\nSingularityAngle Statement Example\n\nSingularityAngle 7.0 'Sets the singularity neighborhood angle at 7 degrees",
+  "examples": [
+    "SingularityAngle 7.0 'Sets the singularity neighborhood angle at 7 degrees"
+  ]
+}

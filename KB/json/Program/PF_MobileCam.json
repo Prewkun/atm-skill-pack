@@ -1,0 +1,26 @@
+{
+  "title": "PF_MobileCam",
+  "file": "PF_MobileCam",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function PF_MobileCam(part ID As Integer, Action as Integer) As Integer\n\n  '  (Move the robot to image capture position)\n\n  ' (Retract the robot)\n\nFend",
+  "parameters": "part ID\tThe part ID (integer number from 1 to 32) goes here.\n\nWhen multi-part operation, the active part goes here.\n\nAction\tThe type of movement goes here.\n\nType of Movement\tConstant (defined in PartFeeding.inc)\n\nMove the robot to the image capture position (and perform vision imaging and feeder operations after this)\tPF_MOBILECAM_BEFORE\n\nRetract the robot\n\n(and run the PF_Robot callback function after this)\tPF_MOBILECAM_AFTER",
+  "description": "This function runs before image capturing, and before the PF_Robot callback function is called.\n\nAfter describing this function, test whether the robot can travel to the assigned destination points safely.\n\nProgram Example\n\nThe following example describes a program used to move a mobile camera to the image capture position and retract it.\n\nPositions are defined as point data, and labeled as VisionPos for the image capture position, and HomePos for the retraction position.\n\n' ** Point **\n\n' VisionPos  Mobile camera image capture position\n\n' HomePos  Mobile camera retraction position\n\n'\n\nFunction PF_MobileCam(partID As Integer, Action As Integer) As Integer\n\nSelect Action\n\nCase PF_MOBILECAM_BEFORE ' Move the robot to image capture position\n\n    Jump VisionPos\n\n  Case PF_MOBILECAM_AFTER ' Retract the robot\n\n    Jump HomePos\n\n  Send\n\nMobileCam = PF_CALLBACK_SUCCESS\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "' ** Point **",
+    "' VisionPos  Mobile camera image capture position",
+    "' HomePos  Mobile camera retraction position",
+    "'",
+    "Function PF_MobileCam(partID As Integer, Action As Integer) As Integer",
+    "Select Action",
+    "Case PF_MOBILECAM_BEFORE ' Move the robot to image capture position",
+    "Jump VisionPos",
+    "Case PF_MOBILECAM_AFTER ' Retract the robot",
+    "Jump HomePos",
+    "Send",
+    "MobileCam = PF_CALLBACK_SUCCESS",
+    "Fend"
+  ]
+}

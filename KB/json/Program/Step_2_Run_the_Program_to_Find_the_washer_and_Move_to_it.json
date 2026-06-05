@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Run the Program to Find the washer and Move to it",
+  "file": "Step_2_Run_the_Program_to_Find_the_washer_and_Move_to_it",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Run the Program to Find the washer and Move to it\n\nStep 2: Run the Program to Find the Washer and Move to it\n\nClick the [Run]\n\t button on the Epson RC+ 8.0 main toolbar.  This will cause the\n\t program to be compiled and then open the Run window.\n\nClick the [Start]\n\t button on the Run window.\n\nYour program will\n\t now find the washer and move the robot to it.  After you successfully\n\t find the washer, try moving the washer a little and then click the\n\t [Yes] button in the dialog box that asks if you would like to run\n\t another cycle.  If the washer is not found, a different dialog\n\t box will appear asking whether you would like to try again.  Clicking\n\t [No] in either dialog box will cause the program to stop running.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

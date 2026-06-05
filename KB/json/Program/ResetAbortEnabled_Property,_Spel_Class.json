@@ -1,0 +1,15 @@
+{
+  "title": "ResetAbortEnabled Property, Spel Class",
+  "file": "ResetAbortEnabled_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property ResetAbortEnabled As Boolean\n\nDefaultValue\n\nTrue\n\nReturnValue\n\nTrue if ResetAbort is enabled, False if not.",
+  "parameters": "",
+  "description": "Sets / returns whether ResetAbort should be enabled or not.",
+  "notes": "",
+  "see_also": "ResetAbort\n\nResetAbortEnabled Example\n\nVB Example:\n\n' Enable reset abort\n\nm_spel.ResetAbortEnabled = True\n\nC# Example:\n\n// Enable reset abort\n\nm_spel.ResetAbortEnabled = true;",
+  "examples": [
+    "' Enable reset abort\nm_spel.ResetAbortEnabled = True",
+    "// Enable reset abort\nm_spel.ResetAbortEnabled = true;"
+  ]
+}

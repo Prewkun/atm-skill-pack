@@ -1,0 +1,12 @@
+{
+  "title": "DictionaryMode Property",
+  "file": "DictionaryMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the dictionary mode.",
+  "notes": "OCR recognizes characters by using the system dictionary and user definition dictionary. Common fonts are registered in the system dictionary in advance. Also, the user definition dictionary includes characters used in projects and imported to projects.\n\nThe DictionaryMode property switches mode of the system dictionary. The all character type mode is recognized by common fonts used in Europe, the United State, and Japan. The English restricted mode is recognized by common fonts of alphabet (A-Z, a-z), number (0-9), and ASCII character code such as \"!,\".  The non-use for system dictionary mode uses the user definition dictionary only to recognize.\n\nThe user definition dictionary is used all registered characters regardless of the dictionary mode.\n\nSee Also: DictionaryMode Property\n\nOCR Object\n\nVision Objects: DictionaryMode Property\n\nOCR Object",
+  "see_also": "Applies To\n\nVision Objects: OCR",
+  "examples": []
+}

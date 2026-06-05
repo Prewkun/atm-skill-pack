@@ -1,0 +1,14 @@
+{
+  "title": "Using an upward looking camera to calculate tool offsets",
+  "file": "Usinganupwardlookingcameratocalculatetooloffsets",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using an upward looking camera to calculate tool offsets\n\nUsing a fixed upward camera to calculate tool offsets\n\nHere is an example of how to use a fixed upward camera to calculate tool offsets.   It uses the RobotToolXYU result to determine the tool offsets. The function first runs a sequence to locate the tip of the tool.  Then the tool offsets are retrieved using VGet RobotToolXYU.\n\nFunction DefineTool\n\n  Integer found\n\n  Real xTool, yTool, uTool\n\n  VRun findTip\n\n  VGet findTip.tip.RobotToolXYU, found, xTool, yTool, uTool\n\n  If found Then\n\n    TLSet 1, XY(xTool, yTool, 0, 0)\n\n  EndIf\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function DefineTool Integer found Real xTool, yTool, uTool VRun findTip VGet findTip.tip.RobotToolXYU, found, xTool, yTool, uTool If found Then\n    TLSet 1, XY(xTool, yTool, 0, 0) EndIf\nFend"
+  ]
+}

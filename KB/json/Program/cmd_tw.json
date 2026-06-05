@@ -1,0 +1,14 @@
+{
+  "title": "TW Function",
+  "file": "cmd_tw",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "TW",
+  "parameters": "",
+  "description": "The Timer Wait function TW returns the status of the preceding Wait condition with time interval with False (wait condition was satisfied) or True (time interval has elapsed).",
+  "notes": "",
+  "see_also": "TMOut, Wait, Hand_TW\n\nTW Function Example\n\nWait Sw(0)=On, 5   'Waits up to 5 seconds for input bit 0 On\n\nIf TW = True Then\n\n  Print \"Time Up\"  'Displays \"Time UP\" after 5 seconds\n\nEndIf",
+  "examples": [
+    "Wait Sw(0)=On, 5   'Waits up to 5 seconds for input bit 0 On\nIf TW = True Then Print \"Time Up\"  'Displays \"Time UP\" after 5 seconds\nEndIf"
+  ]
+}

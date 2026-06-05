@@ -1,0 +1,14 @@
+{
+  "title": "SLock Statement",
+  "file": "cmd_slock",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "SLock jointNumber [ , jointNumber,... ]",
+  "parameters": "jointNumber\tThe servo joint number (1 ~ 9).\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "SLock release the free joint state which was free joint state by the SFree instruction for the direct teaching or part installation.\n\nIf the joint number is omitted, all joints are released free joint.\n\nExecuting SLock the 3rd joint (Z) causes the brake to release.\n\nExecuting SLock while in Motor Off state will cause an error.\n\nSLock initializes the robot control parameter.\n\nSee Motor On for the details.\n\n6-axis robots (including N series) cannot be free joint state by the SFree instruction.  When SLock is executed, an error occurs.",
+  "notes": "SLock Sets Some System Items back to Their Initial State:\n\nSLock, for safety purposes, initializes parameters concerning the robot arm speed (Speed and SpeedS), acceleration (Accel and AccelS) and the LimZ parameter.",
+  "see_also": "Brake\n\nLimZ\n\nReset\n\nSFree\n\nSLock Statement Example\n\nThis is a simple example on the usage of the SLock instruction.  The Motion with SFree controller preference must be enabled for this example to work.\n\nFunction test\n\n  .\n\nSFree 1, 2   'State J1 and J2 to free joint\n\n               'and control the Z and U joints for part installation.\n\n  Go P1\n\n  SLock 1, 2   'Release the free joint state of J1 and J2.\n\n  .\n\n  .\n\nFend",
+  "examples": [
+    "Function test .\n\nSFree 1, 2   'State J1 and J2 to free joint\n               'and control the Z and U joints for part installation. Go P1 SLock 1, 2   'Release the free joint state of J1 and J2. . .\nFend"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Not Operator",
+  "file": "cmd_not",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Not operand",
+  "parameters": "operand\tInteger, Long, or Boolean expression.",
+  "description": "Not is a unary operator (has one operand).  For Boolean expressions, Not returns True or False.  For number expressions, Not returns the bitwise complement on the value of the operand.  Each bit of the result is the complement of the corresponding bit in the operand, effectively changing 0 bits to 1, and 1 bits to 0.",
+  "notes": "",
+  "see_also": "Abs\tRShift\n\nAnd\tSgn\n\nAtan\tSin\n\nAtan2\tSqr\n\nCos\tStr$\n\nInt\tTan\n\nLShift\tVal\n\nMod\tXor\n\nOr\n\nNot Operator Example\n\n>print not 1\n\n-2\n\n>\n\nFunction main\n\n\t\t  Boolean result\n\nresult = False\n\nIf Not result Then\n\n\t\t    Print \"result was true\"\n\n\t\t  EndIf\n\n\t\tFend",
+  "examples": [
+    ">print not 1",
+    "-2",
+    ">",
+    "Function main\n\t\t  Boolean result\n\nresult = False\n\nIf Not result Then\n\t\t    Print \"result was true\"\n\t\t  EndIf\n\t\tFend"
+  ]
+}

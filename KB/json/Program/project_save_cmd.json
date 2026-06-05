@@ -1,0 +1,12 @@
+{
+  "title": "Save Command, Project Menu",
+  "file": "project_save_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Save Command, Project Menu\n\nSave Command (Project Menu)\n\nThis command saves the active program file, include file, point file, force file, I/O label, or user errors. This menu selection will be dimmed if nothing needs to be saved.\n\nTIP: It's a good idea to save files frequently while you are editing project files. Just click the [Save all files]  button on the toolbar to save all of your files.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

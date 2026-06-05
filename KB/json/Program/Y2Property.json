@@ -1,0 +1,12 @@
+{
+  "title": "Y2 Property",
+  "file": "Y2Property",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the Y2 position of an object where the X2, Y2 coordinate pair define the position of the ending point of the object.",
+  "notes": "Line Object:\n\nThe Y2 property is used to locate the vertical position for the ending point of a Line object.  This property is initially set to the ending point Y position where the user drops a newly created Line object.  However, if a Point object is associated with another object in the sequence (i.e. the EndPointType property is set to another vision object and not set to \"Screen\"), then the Y2 property for the Line object is automatically modified according to the associated property.\n\nWhen the EndPointType property is set to \"Screen\" there are 2 methods which can be used to move the Line object:\n\nClick the Line object's label and drag the object to the position you want to place it.\nChange the X1, Y1, X2, or Y2 coordinates.\n\nEdge Object:\n\nThe Y2 property is used to locate the vertical position for the ending point of an Edge object.",
+  "see_also": "Applies To\n\nVision Objects: Line, Edge\n\nEndPointObject Property\n\nEndPointType Property\n\nX1 Property\n\nX2 Property\n\nY1 Property\n\nVision Objects: Y2 Property\n\nLine Object\n\nEdge Object",
+  "examples": []
+}

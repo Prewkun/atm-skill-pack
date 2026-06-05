@@ -1,0 +1,12 @@
+{
+  "title": "CornerFinder Object Layout",
+  "file": "CornerFinder_Object_Layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CornerFinder Object Layout\n\nCornerFinder Object Layout\n\nSimilar to LineFinder, CornerFinder objects have a direction indicator showing the edge search direction within the search window.  This differs from LineFinder in that a direction indicator covers each direction for two sides of the search window.  The number of edge search lines is specified with the NumberOfEdges property.  The search direction can be specified using the Direction property.\n\nCornerFinder Object Layout\n\nThe CornerFinder object can be positioned to search in any direction (not just along the vertical and horizontal directions).  Similar to SearchWinType=AngledRectangle for Blob objects, use the handle for rotating the CornerFinder object search window to move the CornerFinder object in the intended edge detection direction.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "DistExpected Property",
+  "file": "DistExpect_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "DistExpected Property\n\nDistExpected Property\n\nThis property sets the distance from the height inspection start point to the position to be contacted.  Use this property when DistInspect is set for the InspectMethod property of the force guide sequence.\n\nValue (unit: [mm])\n\nMinimum value 0\n\nMaximum value 50\n\nDefault: 10",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

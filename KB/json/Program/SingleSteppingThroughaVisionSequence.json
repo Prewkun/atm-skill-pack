@@ -1,0 +1,12 @@
+{
+  "title": "Single Stepping Through a Vision Sequence",
+  "file": "SingleSteppingThroughaVisionSequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Single Stepping Through a Vision Sequence\n\nSingle Stepping Through a Vision Sequence\n\nOne of the other nice debugging features for the Vision Guide 8.0 Development Environment is the Single Step feature.\n\nLocated on the Run Panel is the [Step] button.\n  Clicking on this button causes the vision sequence to single step one vision object at a time.\n\nYou can also change properties for any of the vision objects prior to their execution during single stepping.\n\nThe first click of the [Step] button will cause all vision objects to go in an inactive state.  They will become blue in color.  The next click of the [Step] button will cause the first vision object in the Sequence to execute.  It will be green in color if the object is found and red if it was not found.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "How to teach points",
+  "file": "jog_howtoteach",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to teach points\n\nHow to teach points\n\nTo move the robot to the target point, the point data indicating the robot position is necessary.\n\nFollow these steps to teach points from the [Robot Manager]:\n\nSelect\n\t the point file you are teaching points for from the [Point File] dropdown\n\t list box on the [Teach] page.\n\nSelect\n\t the point number you want to teach in the [Points] box.\n\nJog\n\t the robot to the desired position. Alternatively, free the robot joints\n\t in the [Free Joints] tab, and manually move the robot into position.\n\t (Direct teaching)\n\nClick\n\t the [Teach] button. This will save the robot's current position data.\n\n\tIn the Epson RC+ 8.0 menu, if the [Setup]-[Preferences]-[Jog &\n\t Teach]-[Prompt for new point information] check box is selected, you\n\t can enter point labels and comments. Point labels can include up to\n\t 32 alphanumeric characters and underscores. Only alphabets can be\n\t used for the first letter. Characters can be upper case or lower case.\n\nNOTE:  As an alternative to clicking the [Teach] button, on the [Points] tab you can type in the coordinates of the point.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

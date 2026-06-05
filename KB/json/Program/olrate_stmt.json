@@ -1,0 +1,20 @@
+{
+  "title": "OLRate Statement",
+  "file": "olrate_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "OLRate [jointNumber]",
+  "parameters": "jointNumber\tInteger expression from 1 - 9.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "OLRate can be used to check whether a cycle is causing stress on the servo system.\n  Factors such as temperature and current can cause servo errors during applications with high duty cycles.  OLRate can help to check if the robot system is close to having a servo error.\n\nDuring a cycle, run another task to monitor OLRate. If OLRate exceeds 1.0 for any joint, then a servo error will occur.\n\nServo errors are more likely to occur with heavy payloads.  By using OLRate during a test cycle, you can help insure that the speed and acceleration settings will not cause a servo error during production cycling.\n\nTo get valid readings, you must execute OLRate while the robot is moving.",
+  "notes": "",
+  "see_also": "OLRate Function\n\nOLRate Statement Example\n\n>olrate\n\n0.10000 0.20000\n\n0.30000 0.40000\n\n0.50000 0.60000\n\nFunction main\n\n\t\t  Power High\n\n\t\t  Speed 50\n\n\t\t  Accel 50, 50\n\n\t\t  Xqt 2, MonitorOLRate\n\n\t\t  Do\n\n\t\t    Jump P0\n\n\t\t    Jump P1\n\n\t\t  Loop\n\n\t\tFend\n\nFunction MonitorOLRate\n\n\t\t  Do\n\nOLRate       ' Display OLRate\n\n\t\t    Wait 1\n\n\t\t  Loop\n\nFend",
+  "examples": [
+    ">olrate",
+    "0.10000 0.20000",
+    "0.30000 0.40000",
+    "0.50000 0.60000",
+    "Function main\n\t\t  Power High\n\t\t  Speed 50\n\t\t  Accel 50, 50\n\t\t  Xqt 2, MonitorOLRate\n\t\t  Do\n\t\t    Jump P0\n\t\t    Jump P1\n\t\t  Loop\n\t\tFend",
+    "Function MonitorOLRate\n\t\t  Do\n\n\t\t\t    OLRate       ' Display OLRate\n\t\t    Wait 1\n\t\t  Loop",
+    "Fend"
+  ]
+}

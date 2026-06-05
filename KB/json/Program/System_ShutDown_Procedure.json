@@ -1,0 +1,12 @@
+{
+  "title": "System Shutdown Procedure",
+  "file": "System_ShutDown_Procedure",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Shutdown Procedure\n\nSystem Shutdown Procedure\n\nIt is very important to shutdown the system properly. If the PC is turned off before shutdown, the controller UPS battery becomes overloaded and deteriorated, and also the files on the PC can be damaged.\n\nThere are three methods to shutdown the system:\n\nShutdown from the Windows Start menu\n\tShutdown from the Shutdown dialog with Epson\n\t RC+ 8.0 shutdown\n\tExecute the Shutdown command from the SPEL+\n\t program\n\tShutdown input from the Remote Console\n\nShutdown from Windows\n\nFollow this procedure to shutdown the system:\n\nStop all tasks.\n\n\tYou cannot shutdown Epson RC+ 8.0 while tasks are running.\n\tShutdown Epson RC+ 8.0 by executing File\n\t | Exit.\n\tShutdown Windows.\n\nShutdown with Epson RC+ 8.0 Shutdown\n\nShutdown the system with the dialog shown below that appears when you shutdown Epson RC+ 8.0.\n\nShutdown from the SPEL+ program\n\nYou can shutdown the system using the Shutdown command.\n\nFor details refer to the Epson RC+ Online Help or SPEL+ Language Reference manual.\n\nShutdown input from the Remote Console\n\nWith the Shutdown input from the Remote Console, the controller starts the shutdown processing.\n\nFor details refer to Remote Inputs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

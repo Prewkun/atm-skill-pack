@@ -1,0 +1,12 @@
+{
+  "title": "StrobeDelay Property",
+  "file": "StrobeDelay_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the delay time between receiving the hardware trigger signal and turning on the camera's strobe lamp output.",
+  "notes": "Use StrobeDelay to set the time delay between the hardware trigger signal and turning on the strobe lamp output.\n\nSee Also: StrobeDelay Property\n\nExposureTime Property\n\nExposureDelay Property\n\nRuntimeAcquire Property\n\nStrobeTime Property",
+  "see_also": "Applies To\n\nVision Sequences",
+  "examples": []
+}

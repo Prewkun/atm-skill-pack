@@ -1,0 +1,14 @@
+{
+  "title": "J4Flag Statement",
+  "file": "J4Flag_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "(1) J4Flag\n\t\t\tpoint, [value ]\n\n(2) J4Flag",
+  "parameters": "point\tPnumber or P(expr) or point label.\n\nvalue\tOptional.  Integer expression.\n\n0 (/J4F0) J4 range is -180 to +180 degrees\n\n1 (/J4F1) J4 range is from -360 to -180 or +180 to +360 degrees",
+  "description": "J4Flag Statement\n\nJ4Flag Statement",
+  "notes": "",
+  "see_also": "Elbow, Hand, J4Flag Function, J6Flag, Wrist\n\nJ4Flag Statement Example\n\nJ4Flag P0, 1\n\nJ4Flag P(mypoint), 0",
+  "examples": [
+    "J4Flag P0, 1\n\n\t\t\tJ4Flag P(mypoint), 0"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Initialize Method, Spel Class",
+  "file": "Initialize_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Initialize ()",
+  "parameters": "",
+  "description": "Initializes the Spel class instance.",
+  "notes": "Normally, the Spel class instance is automatically initialized when the first method has been executed.  Initialization can take several seconds as Epson RC+ 8.0 loads into memory.  So in some cases, you may want to call initialize first in your application during startup.\n\nInitialize starts RC+ as a server process according to ServerInstance.  Each ServerInstance corresponds to one controller and one project.\n\nIf using the ServerInstance property, it must be set before executing Initialize.",
+  "see_also": "Connect, Disconnect, ServerInstance\n\nInitialize Example\n\nVB",
+  "examples": [
+    "m_spel.Initialize()",
+    "m_spel.Initialize();"
+  ]
+}

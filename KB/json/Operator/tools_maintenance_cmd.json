@@ -1,0 +1,12 @@
+{
+  "title": "Controller command (Tools menu)",
+  "file": "tools_maintenance_cmd",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controller command (Tools menu)\n\n[Controller] Command (Tools Menu)\n\nSelect Controller from the [Tools] menu to open the [Controller Tools] dialog box.\n\nFrom the [Controller Tools] dialog box, you can save and restore the complete controller configuration and the project using the [Backup Controller] and [Restore Controller] commands. You can also save and view controller status, and reset the controller.\n\nBefore servicing the system, you should execute [Backup Controller] and store the system configuration on an external media such as a USB memory key.\n\nIf required, you can use [Restore Controller] to restore previously stored data.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Global Statement",
+  "file": "cmd_global",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Global [ Preserve ] dataType varName [( subscripts )] [, varName [( subscripts )] , ...]",
+  "parameters": "Preserve\tOptional.  If Preserve is specified, then the variable retains it's values.  The values are cleared by project changes.\n\ndataType\tData type including Boolean, Int32, Integer, Long, Real, Short, Double, Byte, String, UByte, UInt32, or UShort.\n\nvarName\tVariable name. Names may be up to 32 characters in length.\n\nsubscripts\tOptional.  Dimensions of an array variable; up to 3 dimensions may be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2], [ubound3])\n\nubound1, ubound2, ubound3 each specify the maximum upper bound for the associated dimension.\n\nThe elements in each dimension of an array are numbered from 0 to the upper bound value.\n\nThe total available number of array elements for global variables is 10000 for strings and 100000 for all other types.\n\nThe total available number of array elements for global preserve variables is 400 for strings and 4000 for all other types.\n\nTo calculate the total elements used in an array, use the following formula.  (If a dimension is not used, substitute 0 for the ubound value.)\n\ntotal elements = (ubound1 + 1) * (ubound2 + 1) * (ubound3 + 1)",
+  "description": "Global variables are variables which can be used in more than 1 file within the same project. They are cleared whenever a function is started from the Run window or Operator window unless they are declared with the Preserve option.\n\nGlobal variables can used in the command window after the project build is complete.\n\nWhen declared in Preserve option, the variable retains the value at turning off the controller.\n\nGlobal Preserve variables can also be used with the RC+ Connectivity option.\n\nIt is recommended that global variable names begin with a \"g_\" prefix to make it easy to recognize globals in a program. For example:\n\nGlobal Long g_PartsCount",
+  "notes": "",
+  "see_also": "Data Types Overview\n\nVariable Declarations\n\nVariable Naming Conventions\n\nBoolean\n\nByte\n\nDouble\n\nInt32\n\nInteger\n\nLong\n\nReal\n\nShort\n\nString\n\nUByte\n\nUInt32\n\nUShort\n\nGlobal Statement Example\n\nThe following example shows 2 separate program files. The first program file defines some global variables and initializes them. The second file then also uses these global variables.\n\nFILE1 (Main.prg)\n\nGlobal Integer g_Status\n\nGlobal Real g_MaxValue\n\nFunction Main\n\n  g_Status = 10\n\n  g_MaxValue = 1.1\n\n  .\n\n  .\n\nFend\n\nFILE2 (Test.prg)\n\nFunction Test\n\n  Print \"status1 = , g_Status\n\n  Print \"MaxValue = , g_MaxValue\n\n  .\n\n  .\n\nFend",
+  "examples": [
+    "Global Long g_PartsCount",
+    "Global Integer g_Status\nGlobal Real g_MaxValue\n\nFunction Main g_Status = 10 g_MaxValue = 1.1 . .\nFend",
+    "Function Test Print \"status1 = , g_Status Print \"MaxValue = , g_MaxValue . .\nFend"
+  ]
+}

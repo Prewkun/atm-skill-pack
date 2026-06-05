@@ -1,0 +1,15 @@
+{
+  "title": "AIO_OutW Function",
+  "file": "AIO_OutW_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_OutW(Channel Number)",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.",
+  "description": "AIO_OutW Function\n\nAIO_OutW Function",
+  "notes": "",
+  "see_also": "Returns output analog value in Long integers from 0 to 65535 which is output on optional analog I/O channel.\n\nAIO_In Function, AIO_Out, AIO_OutW, AIO_Out Function, AIO_Set, Wait\n\nAIO_OutW Function Example\n\nLong word0\n\nword0 = AIO_OutW(1)",
+  "examples": [
+    "Long word0",
+    "word0 = AIO_OutW(1)"
+  ]
+}

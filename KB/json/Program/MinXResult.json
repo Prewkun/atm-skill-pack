@@ -1,0 +1,12 @@
+{
+  "title": "MinX Result",
+  "file": "MinXResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the minimum X pixel coordinate of the blob extrema.",
+  "notes": "The MinX, MaxX, MinY, and MaxY results together define a blob's smallest enclosing rectangle that is aligned with the coordinate axes and completely encloses the blob.  This rectangle is known as the extrema.\n\nThe MinX, MaxX, MinY, and MaxY results can hold fractional values.  For example, 100.5 would be between the 100 and 101 pixels.",
+  "see_also": "Applies To\n\nVision Objects: Blob, DefectFinder, OCR\n\nArea Result\n\nMaxX Result\n\nMaxY Result\n\nMinY Result\n\nExtrema Result\n\nVision Objects: MinX Result\n\nBlob\n\nDefectFinder\n\nOCR",
+  "examples": []
+}

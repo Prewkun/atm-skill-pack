@@ -1,0 +1,14 @@
+{
+  "title": "TMOut Statement",
+  "file": "cmd_tmout",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "TMOut\n\t\t\tseconds",
+  "parameters": "seconds\tReal expression representing the number of seconds until a timeout occurs.  Valid range is 0-2147483 seconds in 1 second intervals.",
+  "description": "TMOut sets the amount of time to wait (when using the Wait instruction) until a timeout error is issued.  If a timeout of 0 seconds is specified, then the timeout is effectively turned off.  In this case the Wait instruction waits indefinitely for the specified condition to be satisfied.\n\nThe default initial value for TMOut is 0.",
+  "notes": "",
+  "see_also": "In, MemSW, OnErr, Sw, Tw, Wait\n\nTMOut Statement Example\n\nTMOut 5\n\n\t\tWait MemSw(0) = On\n\n\t\tIf TW Then\n\n\t\t  Print \"Time out occurred\"\n\n\t\tEndIf",
+  "examples": [
+    "TMOut 5\n\t\tWait MemSw(0) = On\n\t\tIf TW Then\n\t\t  Print \"Time out occurred\"\n\t\tEndIf"
+  ]
+}

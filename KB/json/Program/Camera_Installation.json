@@ -1,0 +1,12 @@
+{
+  "title": "Camera Installation",
+  "file": "Camera_Installation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Camera Installation\n\nCamera installation\n\nSelect a camera installation for each calibration.  Calibration methods vary (requirements for vision sequences, calibration procedure) depending on the camera installation methods.\n\nNote that the wrong setting may result in improper calibration.\n\nVision Guide 8.0 supports the following camera installations:\n\nCamera\n\t\t Installation\tDescription\n\nMobile\n\t\t Camera\n\n\t\t(mounted on Joint #2)\tCamera is mounted\n\t\t on Joint #2 on SCARA robot or Cartesian robot.\n\nMobile\n\t\t Camera\n\n\t\t(mounted on Joint #4)\tCamera is mounted\n\t\t on Joint #4 on SCARA robot or Cartesian robot.\n\nMobile\n\t\t Camera\n\n\t\t(mounted on Joint #5)\tCamera is mounted\n\t\t on Joint #5 on 6-Axis robot.\n\nMobile\n\t\t Camera\n\n\t\t(mounted on Joint #6)\tCamera is mounted\n\t\t on Joint #6 on 6-Axis robot.\n\nFixed\n\t\t downward Camera\tCamera and\n\t\t target objects do not move and are fixed in the work envelope\n\t\t of the robot.  The vision system uses the camera to\n\t\t acquire position information in the robot coordinate system.\n\nIf\n\t\t the camera is not installed vertically to the XY plane of the\n\t\t specified coordinate system, correction of lens distortion and\n\t\t camera tilt must be performed.\n\nSpecified\n\t\t coordinate systems are robot base and local coordinate systems.\n\nFixed\n\t\t upward Camera\tCamera does\n\t\t not move and is looking up into a portion of the robot work envelope.\n\nFor\n\t\t example, this installation method is used to check the position\n\t\t of the object which is carried by the robot.\n\nThe\n\t\t calibration target is on the end effector or the object held by\n\t\t the robot.\n\nStandalone\n\t\t Camera\tCamera can\n\t\t be installed anywhere.  Camera does not have a relation\n\t\t with the robot.  With this method, position information\n\t\t in the Robot coordinate system cannot be acquired.  However,\n\t\t it can be converted from the image coordinate system to the camera\n\t\t coordinate system.  That is, simple length measurement\n\t\t can be performed.\n\nTips:\n\nCorrection of lens distortion and camera tilt can be configured for all camera installation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

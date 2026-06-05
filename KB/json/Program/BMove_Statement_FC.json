@@ -1,0 +1,14 @@
+{
+  "title": "BMove Statement (Force Control)",
+  "file": "BMove_Statement_FC",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "BMove P# [FC#] [ROT] [CP] [CF] [Till | Find] [!parallel processing!] [SYNC]",
+  "parameters": "P#\tSpecifies\n\t\t the point data to define the amount of movement.\n\nFC#\tSpecifies\n\t\t the force control object.\n\nCF\tContinues\n\t\t the force control function. Can be omitted.\n\nDetailed Explanation\n\nBy adding a force control object as a parameter to a normal BMove command, a BMove motion is carried with the force control function active.\n\nFor BMove motion details, refer to the following manual.\n\nEpson RC+ 8.0 SPEL+ Language Reference\n\n  BMove\n\nFor details on the force control function, refer to Move Statement.",
+  "description": "BMove Statement (Force Control)\n\nBMove Statement\n\nSee_Also Example\n\nThis executes in the local selected coordinate system an offset linear interpolation motion with the force control active.",
+  "notes": "",
+  "see_also": "Move Statement\n\nBMove Statement",
+  "examples": [
+    "Function ForceBMoveTest FSet FCS1.Orientation, FG_TOOL ' Sets the force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control function to active BMove XY(100,0,0,0) FC1 ' Executes the BMove motion with the force ' control function active\nFend"
+  ]
+}

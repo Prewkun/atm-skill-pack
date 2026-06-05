@@ -1,0 +1,12 @@
+{
+  "title": "ModelWinHeight Property",
+  "file": "ModelWinHeightProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the height of the model window used for Correlation and Geometric object models.",
+  "notes": "The Model Window always fits inside the search window.\n\nCorrelation and Geometric objects have rectangular model windows which define the position and size of the model to be taught. The ModelWinHeight property is set automatically when the user drags the upper or lower horizontal sides of the model window.\n\nKeep in mind that larger model windows cause the taught model to be bigger, which in turn cause the execution time to increase.\n\nThe ModelWinHeight property can be set by directly inputting the value from the property list of Vision Guide and by using the SPEL+ Language.  Also, it can be set by clicking on the upper or lower horizontal sides of the model window and then dragging them vertically.\n\niTo set a value from the property list, click the ModelWinHeight property Value Field and simply enter in the value.  Once you move the cursor off the value field, the ModelWinHeight will be adjusted for the associated vision object.\n\nSee Also: ModelWinHeight Property\n\nAnatomy of a Vision Object\tModelWinLeft Property\n\nModelOrgAutoCenter Property\tModelWinTop Property\n\nModelOrgX Property\tModelWinWidth Property\n\nModelOrgY Property\n\nModelWin Property\n\nVision Objects: ModelWinHeight Property\n\nCorrelation\n\nGeometric\n\nImageOp\n\nOCR",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric, ImageOp, OCR",
+  "examples": []
+}

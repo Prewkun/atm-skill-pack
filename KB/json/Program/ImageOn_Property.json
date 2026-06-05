@@ -1,0 +1,12 @@
+{
+  "title": "ImageOn Property",
+  "file": "ImageOn_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the image that is displayed when LED control is on.",
+  "notes": "",
+  "see_also": "Applies To\n\nLED Control\n Property\n\nImageOff Property\n\nGUI Items: ImageOn Property\n\nLED Control",
+  "examples": []
+}

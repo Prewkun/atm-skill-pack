@@ -1,0 +1,14 @@
+{
+  "title": "Sgn Function",
+  "file": "cmd_sgn",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Sgn(Operand )",
+  "parameters": "Operand\tA numeric expression.",
+  "description": "The Sgn function determines the sign of the numeric value of the operand.",
+  "notes": "",
+  "see_also": "Abs\tNot\n\nAnd\tSin\n\nAtan\tSqr\n\nAtan2\tStr$\n\nCos\tTan\n\nInt\tVal\n\nMod\tXor\n\nOr\n\nSgn Function Example\n\nThis is a simple command window example on the usage of the Sgn function.\n\n>print sgn(123)\n\n1\n\n>print sgn(-123)\n\n-1\n\n>",
+  "examples": [
+    ">print sgn(123)\n\n1\n\n>print sgn(-123)\n\n-1\n\n>"
+  ]
+}

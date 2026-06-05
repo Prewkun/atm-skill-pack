@@ -1,0 +1,12 @@
+{
+  "title": "Deleting a Robot",
+  "file": "Deleting_a_Robot",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Deleting a Robot\n\nDeleting a standard Robot\n\nSelect\n\t the Epson RC+ 8.0 menu-[Setup]-[System Configuration].\n\nSelect\n\t [Controller]-[Robots]-[Robot**].\n\nNOTE:  You can only delete the last robot.\n\nClick\n\t the [Delete] button. The message shown below will appear.\n\nClick\n\t the [Yes] button. The controller will be restarted.\n\nNOTE:  If you delete only an additional axis from its installed robot, refer to Deleting the additional axes.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

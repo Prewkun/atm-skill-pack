@@ -1,0 +1,21 @@
+{
+  "title": "LShift Function",
+  "file": "cmd_lshift",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "LShift (number, shiftBits)",
+  "parameters": "number\tInteger expression to be shifted.\n\nshiftBits\tThe number of bits (integer from 0 to 31) to shift number to the left.",
+  "description": "LShift shifts the specified numeric data (number) to the left (toward a higher order digit) by the specified number of bits (shiftBits).  The low order bits shifted are replaced by 0.\n\nThe simplest explanation for LShift is that it simply returns the result of number * 2shiftBits.\n\nNote\n\nNumeric Data Type:\n\nThe numeric data (number) may be any valid numeric data type. LShift works with data types: Byte, Double, Int32, Integer, Long, Real, Short, UByte, UInt32, and UShort.",
+  "notes": "",
+  "see_also": "And\n\nNot\n\nOr\n\nRShift\n\nXor\n\nLShift Function Example\n\nFunction lshiftst\n\n  Integer i\n\n  Integer num, snum\n\n  num = 1\n\n  For i = 1 to 10\n\n    Print \"i =\", i\n\n    snum = LShift(num, i)\n\n    Print \"The shifted num is \", snum\n\n  Next i\n\nFend\n\nSome other example results from the LShift instruction from the command window.\n\n> Print LShift (2,2)\n\n8\n\n> Print LShift (5,1)\n\n10\n\n> Print LShift (3,2)\n\n12\n\n>",
+  "examples": [
+    "Function lshiftst Integer i Integer num, snum num = 1 For i = 1 to 10\n    Print \"i =\", i\n    snum = LShift(num, i)\n    Print \"The shifted num is \", snum Next i\nFend",
+    "> Print LShift (2,2)",
+    "8",
+    "> Print LShift (5,1)",
+    "10",
+    "> Print LShift (3,2)",
+    "12",
+    ">"
+  ]
+}

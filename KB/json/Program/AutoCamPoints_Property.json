@@ -1,0 +1,12 @@
+{
+  "title": "AutoCamPoints Property",
+  "file": "AutoCamPoints_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines whether to generate camera point automatically.",
+  "notes": "The AutoCamPoints Property is used to set whether to enable a function that automatically generates nine camera points for calibration which requires nine camera points.  When the function is enabled, nine camera points can be automatically generated when calibration is executed only by specifying one camera point near the center of FOV when teaching points.",
+  "see_also": "Applies To\n\nVision Calibration\n Property\n\nVCal Statement\n\nVCalPoints Statement",
+  "examples": []
+}

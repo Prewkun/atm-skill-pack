@@ -1,0 +1,17 @@
+{
+  "title": "Getting Started C Sharp",
+  "file": "Getting_Started_C_Sharp",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Getting Started C Sharp\n\nGetting started using Visual C#\n\nIn Visual Studio\n\t .NET, select File | Project.\n\nSelect the following\n\t type for the Visual C# project.\n\n-\n\t\t .NET Framework : \"Windows Forms App (.NET Framework)\"\n\n-\n\t\t .NET6 : \"Windows Forms App\"\n\nFrom the Project\n\t menu, select Add Reference.\n\nIn the [Browse]\n\t tab, select the \"RCAPINt2.dll\" file under the \"\\API\"\n\t directory.\n\n-\n\t\t .NET Framework : \\Assembly\\net462\n\n-\n\t\t .NET6 : \\Assembly\\net6.0-windows\n\nIn the Form1\n\t class, declare a Spel variable as shown below.\n\nprivate RCAPINet.Spel m_spel;\n\nIn the Form_Load\n\t event, add initialization code, as shown below.\n\nprivate void Form1_Load(object sender, EventArgs e)\n\n{\n\n    m_spel = new RCAPINet.Spel();\n\n    m_spel.Initialize();\n\n    m_spel.Project = \"c:\\\\EpsonRC80\\\\projects\\\\API_Demos\\\\Demo1\\\\demo1\";\n\n   m_spel.EventReceived += new\n\n   RCAPINet.Spel.EventReceivedEventHandler(m_spel_EventReceived);\n\n}\n\n\tAdd the event handler, as shown below.\n\npublic void m_spel_EventReceived(object sender, RCAPINet.SpelEventArgs e)\n\n{\n\n}\n\nNote: When your application exits, you need to execute Dispose for each Spel class instance. This can be done in your main form's FormClosed event. If Dispose is not executed, the application will not shutdown properly.\n\nm_spel.Dispose()",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "private RCAPINet.Spel m_spel;",
+    "private void Form1_Load(object sender, EventArgs e)\n{\n    m_spel = new RCAPINet.Spel();\n    m_spel.Initialize();\n    m_spel.Project = \"c:\\\\EpsonRC80\\\\projects\\\\API_Demos\\\\Demo1\\\\demo1\";\n\n   m_spel.EventReceived += new\n   RCAPINet.Spel.EventReceivedEventHandler(m_spel_EventReceived);\n}",
+    "public void m_spel_EventReceived(object sender, RCAPINet.SpelEventArgs e)\n{\n}",
+    "m_spel.Dispose()"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Usage Example",
+  "file": "Usage_Example",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Sw(0)  =  On  And Sw(1)  =  Off"
+  ]
+}

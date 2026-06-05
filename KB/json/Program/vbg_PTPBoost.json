@@ -1,0 +1,15 @@
+{
+  "title": "PTPBoost Method, Spel Class",
+  "file": "vbg_PTPBoost",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub PTPBoost (BoostValue As Integer [, DepartBoost As Integer] [, ApproBoost As Integer])",
+  "parameters": "BoostValue\tInteger expression from 0 - 100.\n\nDepartValue\tOptional.  Jump depart boost value.  Integer expression from 0 - 100.\n\nApproBoost\tOptional.  Jump approach boost value.  Integer expression from 0 - 100.",
+  "description": "Sets the boost parameters for short distance PTP (point to point) motion.",
+  "notes": "",
+  "see_also": "PTPBoostOK\n\nPTPBoost Example\n\nVB Example:\n\nm_spel.PTPBoost(50)\n\nm_spel.PTPBoost(50, 30, 30)\n\nC# Example:\n\nm_spel.PTPBoost(50);\n\nm_spel.PTPBoost(50, 30, 30);",
+  "examples": [
+    "m_spel.PTPBoost(50)\nm_spel.PTPBoost(50, 30, 30)",
+    "m_spel.PTPBoost(50);\nm_spel.PTPBoost(50, 30, 30);"
+  ]
+}

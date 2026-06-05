@@ -1,0 +1,14 @@
+{
+  "title": "Sin Function",
+  "file": "cmd_sin",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sin(\n\t\t\tradians\n\t\t\t)",
+  "parameters": "radians\tReal expression in Radians.",
+  "description": "Sin returns the sine of the numeric expression.  The numeric expression (radians) must be in radian units.  The value returned by the Sin function will range from -1 to 1\n\nTo convert from radians to degrees, use the RadToDeg function.",
+  "notes": "",
+  "see_also": "Abs\tNot\n\nAtan\tSgn\n\nAtan2\tSqr\n\nCos\tStr$\n\nInt\tTan\n\nMod\tVal\n\nSin Function Example\n\nThe following example shows a simple program which uses Sin.\n\nFunction sintest\n\n\t\t  Real x\n\n\t\t  Print \"Please enter a value in radians:\"\n\n\t\t  Input x\n\n\t\t  Print \"Sin of \", x, \" is \", Sin(x)\n\n\t\tFend",
+  "examples": [
+    "Function sintest\n\t\t  Real x\n\t\t  Print \"Please enter a value in radians:\"\n\t\t  Input x\n\t\t  Print \"Sin of \", x, \" is \", Sin(x)\n\t\tFend"
+  ]
+}

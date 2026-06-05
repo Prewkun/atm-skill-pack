@@ -1,0 +1,14 @@
+{
+  "title": "PNumber Function",
+  "file": "cmd_pnumber",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PNumber(pointLabel)",
+  "parameters": "pointLabel\tA point label used in the current point file or string expression containing a point label.",
+  "description": "PNumber Function\n\nPNumber Function\n\nSee_Also Example\n\nReturns the point number associated with a point label.",
+  "notes": "",
+  "see_also": "PDef\n\nPLabel$\n\nPNumber Function Example\n\nInteger pNum\n\nString pointName$\n\npNum = PNumber(pick)\n\npNum = PNumber(\"pick\")\n\npointName$ = \"place\"\n\npNum = PNumber(pointName$)",
+  "examples": [
+    "Integer pNum\n\nString pointName$\n\npNum = PNumber(pick)\n\npNum = PNumber(\"pick\")\n\npointName$ = \"place\"\n\npNum = PNumber(pointName$)"
+  ]
+}
