@@ -1,0 +1,14 @@
+{
+  "title": "Fine Function",
+  "file": "fine_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Fine(joint)",
+  "parameters": "joint\tInteger expression representing the joint number for which to retrieve the Fine setting.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "Fine Function\n\nFine Function\n\nSee_Also Example\n\nReturns Fine setting for a specified joint.",
+  "notes": "",
+  "see_also": "Fine Statement\n\nFine Function Example\n\nThis example uses the Fine function in a program:\n\nFunction finetst\n\n\t\t  Integer a\n\n\t\t  a = Fine(1)\n\n\t\tFend",
+  "examples": [
+    "Function finetst\n\t\t  Integer a\n\t\t  a = Fine(1)\n\t\tFend"
+  ]
+}

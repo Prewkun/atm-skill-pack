@@ -1,0 +1,12 @@
+{
+  "title": "Disabling Power to the System using lock out tag out",
+  "file": "Disabling_Power_to_the_System_using_lock_out_tag_out",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Disabling Power to the System using lock out tag out\n\nDisabling Power to the System using lock out / tag out\n\nThe power connection for the robot controller should be such that it can be locked and tagged in the off position to prevent anyone from turning on power while someone else is in the safeguarded area.  For further details, refer to the section Procedure of Lockout/Tagout in the chapter Safety Precautions in the controller manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

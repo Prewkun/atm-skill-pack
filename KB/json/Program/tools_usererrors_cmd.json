@@ -1,0 +1,14 @@
+{
+  "title": "User Error Editor",
+  "file": "tools_usererrors_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "User Error Editor\n\n[User Error Editor] (Tools Menu)\n : Ctrl+U\n\nThe User Error Editor allows you to define user",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main On Vacuum Wait Sw(VacOn), 1 If TW = 1 Then\n    Error ER_VACUUM EndIf\nFend"
+  ]
+}

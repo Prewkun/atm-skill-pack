@@ -1,0 +1,12 @@
+{
+  "title": "StepID Property",
+  "file": "FG_StepID_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets StepID during the execution of the force guide objects.\n\nIt is only used when AutoStepID is False.\n\nValues\n\nMinimum value 0\n\nMaximum value 32767\n\nDefault: Automatically set according to the numbers of the force guide sequence and the force guide object.",
+  "notes": "",
+  "see_also": "Applies To\n\nContact Object, PressMove Object\n\nAutoStepID Property",
+  "examples": []
+}

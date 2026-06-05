@@ -1,0 +1,16 @@
+{
+  "title": "VGetSearchWin Method, Spel Class",
+  "file": "vbg_VGetSearchWin",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VGetSearchWin ( Sequence As String, Object As String, ByRef Left As Integer, ByRef Top As Integer, ByRef Width As Integer, ByRef Height As Integer)",
+  "parameters": "Sequence\tString expression containing the name of a vision sequence in the current EPSON RC+ project.\n\nObject\tString expression containing the name of an object in sequence Sequence.\n\nLeft\tInteger variable that will contain left coordinate in pixels.\n\nTop\tInteger variable that will contain top coordinate in pixels.\n\nWidth\tInteger variable that will contain width in pixels.\n\nHeight\tInteger variable that will contain height in pixels.",
+  "description": "Retrieves search window coordinates.",
+  "notes": "",
+  "see_also": "VGetModelWin\n\nVSetModelWin\n\nVSetSearchWin\n\nVGetSearchWin Example\n\nVB Example:\n\nDim left As Integer, top As Integer\n\nDim width As Integer, height As Integer\n\nWith m_spel\n\n  . VGetSearchWin(\"testSeq\", \"corr01\", left, top, width, height)\n\n  .VSetSearchWin(\"testSeq\", \"corr01\", newLeft, top, width, height)\n\n  .VRun(\"testSeq\")\n\nEnd With\n\nC# Example:\n\nint left, top, width, height;\n\nm_spel.VGetSearchWin(\"testSeq\", \"corr01\", out left, out top,\n\n      out width, out height);\n\nm_spel.VSetSearchWin(\"testSeq\", \"corr01\", newLeft, top,\n\n      width, height);\n\nm_spel.VRun(\"testSeq\");",
+  "examples": [
+    "Dim left As Integer, top As Integer\nDim width As Integer, height As Integer\n\nWith m_spel . VGetSearchWin(\"testSeq\", \"corr01\", left, top, width, height) .VSetSearchWin(\"testSeq\", \"corr01\", newLeft, top, width, height) .VRun(\"testSeq\")\nEnd With",
+    "int left, top, width, height;\nm_spel.VGetSearchWin(\"testSeq\", \"corr01\", out left, out top,\n      out width, out height);\nm_spel.VSetSearchWin(\"testSeq\", \"corr01\", newLeft, top,\n      width, height);",
+    "m_spel.VRun(\"testSeq\");"
+  ]
+}

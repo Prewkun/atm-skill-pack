@@ -1,0 +1,14 @@
+{
+  "title": "WindowsStatus Function",
+  "file": "WindowsStatus_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "WindowsStatus",
+  "parameters": "",
+  "description": "This function is used to check the controller startup status when the controller configuration is set to \"Independent mode\". When the controller configuration is set to \"Cooperative mode\", programs cannot be started until both RC+ function and PC function turn available.\n\nWindowsStatus Function Example\n\nPrint \"The current PC Booting up Status is: \", WindowsStatus",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print \"The current PC Booting up Status is: \", WindowsStatus"
+  ]
+}

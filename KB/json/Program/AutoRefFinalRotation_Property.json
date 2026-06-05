@@ -1,0 +1,12 @@
+{
+  "title": "AutoRefFinalRotation Property",
+  "file": "AutoRefFinalRotation_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the final angle of rotation for the tool when automatically calculating the calibration reference point.",
+  "notes": "If a positive value is set, the tool will rotate in the direction of the +U axis in the tool coordinate system.  If a negative value is set, the tool will rotate in the direction of the -U axis within the tool coordinate system.  Absolute values must always be greater than the AutoRefInitRotation.  Using large values (90 degrees or more) is recommended to ensure greater reference point accuracy.\n\nFurther, as this property is used to set the angle of rotation of the tool, it cannot be used for mobile J2 camera calibration.\n\nValues\n\nReal value from -180 to -5, 5 to 180 (Unit: degrees)\n\nDefault: 15\n\nSee Also: AutoRefFinalRotation Property\n\nVCal\n\nVDefTool Statement\n\nAutoRefInitRotation Property",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

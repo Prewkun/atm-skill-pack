@@ -1,0 +1,15 @@
+{
+  "title": "SpeedS Method, Spel Class",
+  "file": "vbg_SpeedS",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub SpeedS  (LinearSpeed As Single [, JumpDepartSpeed As Single] [, JumpApproSpeed As Single])",
+  "parameters": "LinearSpeed\tSpecifies the arm speed for use with the Continuous Path instructions Jump3CP, Move, Arc, and CVMove.\n\nJumpDepartSpeed\tSingle expression between 1-5000 representing the Z axis upward motion speed for the Jump3CP instruction.\n\nJumpApproSpeed\tSingle expression between 1-5000 representing the Z axis downward motion speed for the Jump3CP instruction.",
+  "description": "Specifies the arm speed for use with the Continuous Path instructions Move, Arc, and Carc.",
+  "notes": "",
+  "see_also": "AccelS\n\nJump3CP\n\nMove\n\nTMove\n\nSpeedS Example\n\nVB Example:\n\nm_spel.SpeedS(500)\n\nC# Example:\n\nm_spel.SpeedS(500);",
+  "examples": [
+    "m_spel.SpeedS(500)",
+    "m_spel.SpeedS(500);"
+  ]
+}

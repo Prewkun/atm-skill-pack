@@ -1,0 +1,15 @@
+{
+  "title": "PosUpperLevels Property",
+  "file": "PosUpperLevels_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "PosUpperLevels Property\n\nPosUpperLevels\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis sets or returns the upper threshold value of position of each axis, movement distance and rotation angle at the same time.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function SettingLevels FSet FMR1.PosEnabled, True, True, True, True, True FSet FMR1.PosPolarities, FG_OUT, FG_OUT, FG_OUT, FG_OUT, FG_OUT FSet FMR1.PosUpperLevels, 100, 100, 100, 100, 100 Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError AbortMotion All\nFend"
+  ]
+}

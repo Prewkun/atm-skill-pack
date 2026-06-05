@@ -1,0 +1,22 @@
+{
+  "title": "Input Statement",
+  "file": "cmd_input",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Input varName [ , varName, varName,... ]",
+  "parameters": "varName\tVariable name. Multiple variables can be used with the Input command as long as they are separated by commas.",
+  "description": "Input receives data from the display device and assigns the data to the variable(s) used with the Input instruction.\n\nWhen executing the Input instruction, a (?) prompt appears at the display device. After inputting data press the return key (Enter) on the keyboard.",
+  "notes": "Rules for Numeric Input\n\nWhen inputting numeric values and non-numeric data is found in the input other than the delimiter (comma), the Input instruction discards the non-numeric data and all data following that non-numeric data.\n\nRules for String Input\n\nWhen inputting strings, numeric and alpha characters are permitted as data.\n\nOther Rules for the Input Instruction\n\n- When more than one variable is specified in the instruction, the numeric data input intended for each variable has to be separated by a comma (\",\") character.\n\n- Numeric variable names and string variable names are allowed. However, the input data type must match the variable type.\n\nPotential Errors\n\nNumber of variables and input data differ\n\nFor multiple variables, the number of input data must match the number of Input variable names. When the number of the variables specified in the instruction is different from the number of numeric data received from the keyboard, an Error 2505 will occur.",
+  "see_also": "Input #\n\nLine Input\n\nLine Input #\n\nPrint\n\nString\n\nInput Statement Example\n\nThis is a simple program example using Input statement.\n\nFunction InputNumbers\n\n  Real A, B, C\n\n  Print \"Please enter 1 number\"\n\n  Input A\n\n  Print \"Please enter 2 numbers separated by a comma\"\n\n  Input B, C\n\n  Print \"A = \", A\n\n  Print \"B = \", B, \" C = \", C\n\nFend\n\nA sample session of the above program running is shown below:\n\n(Use the Run menu or F5 key to start the program)\n\nPlease enter 1 number\n\n?-10000\n\nPlease enter 2 numbers separated by a comma\n\n?25.1, -10000\n\nA = -10000\n\nB = 25 C = -10000",
+  "examples": [
+    "Function InputNumbers Real A, B, C Print \"Please enter 1 number\" Input A Print \"Please enter 2 numbers separated by a comma\" Input B, C Print \"A = \", A Print \"B = \", B, \" C = \", C\nFend",
+    "A sample session of the above program running is shown below:",
+    "(Use the Run menu or F5 key to start the program)",
+    "Please enter 1 number",
+    "?-10000",
+    "Please enter 2 numbers separated by a comma",
+    "?25.1, -10000",
+    "A = -10000",
+    "B = 25 C = -10000"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Exit Statement",
+  "file": "cmd_exit",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Exit { Do | For | Function }",
+  "parameters": "",
+  "description": "The Exit statement syntax has these forms:\n\nStatement\tDescription\n\nExit Do\tProvides a way to exit a Do...Loop statement. It can be used only inside a Do...Loop statement. Exit Do transfers control to the statement following the Loop statement. When used within nested Do...Loop statements, Exit Do transfers control to the loop that is one nested level above the loop where Exit Do occurs.\n\nExit For\tProvides a way to exit a For loop. It can be used only in a For...Next loop. Exit For transfers control to the statement following the Next statement. When used within nested For loops, Exit For transfers control to the loop that is one nested level above the loop where Exit For occurs.\n\nExit Function\tImmediately exits the Function procedure in which it appears. Execution continues with the statement following the statement that called the Function.",
+  "notes": "",
+  "see_also": "Do...Loop\n\nFor...Next\n\nFunction...Fend\n\nExit Statement Example\n\nFor i = 1 To 10\n\n\t\t  If Sw(1) = On Then\n\nExit For\n\nEndIf\n\n\t\t  Jump P(i)\n\n\t\tNext i",
+  "examples": [
+    "For i = 1 To 10\n\t\t  If Sw(1) = On Then\n\n\t\t\t    Exit For\n\n\t\t  EndIf\n\t\t  Jump P(i)\n\t\tNext i"
+  ]
+}

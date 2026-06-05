@@ -1,0 +1,16 @@
+{
+  "title": "Joint Statement",
+  "file": "Joint_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "Joint",
+  "parameters": "",
+  "description": "Joint Statement\n\nJoint Statement",
+  "notes": "",
+  "see_also": "Displays the current position for the robot in joint coordinates.\n\nPulse\n\nWhere\n\nJoint Statement Example\n\n>joint\n\nJOINT:  1:\n   -6.905 deg 2:   23.437 deg 3:   -1.999 mm  4:  -16.529 deg\n\n>",
+  "examples": [
+    ">joint",
+    "JOINT:  1:\n   -6.905 deg 2:   23.437 deg 3:   -1.999 mm  4:  -16.529 deg",
+    ">"
+  ]
+}

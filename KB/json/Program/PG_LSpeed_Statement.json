@@ -1,0 +1,16 @@
+{
+  "title": "PG_LSpeed Statement",
+  "file": "PG_LSpeed_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PG_LSpeed\n\naccelSpeed\n\t\t\tAs Integer\n\t\t\t, [decelSpeed\n\t\t\tAs Integer]",
+  "parameters": "speed\tInteger expression that contains the pulse speed (1 ~ 32767 pulse/second)\n\ndecelSpeed\tInteger expression that contains the pulse speed (1 ~ 32767 pulse/second)",
+  "description": "PG_LSpeed specifies the pulse speed when the PG axis starts accelerating and finishes decelerating.  It is useful when setting the initial/ending speed of a stepping motor to higher within the range of max starting frequency to offer the best performance of motor, or setting the speed to lower to prevent the stepping motor from stepping out.  The default is 300 pulse/second and do not change to use.\n\nIf omitted the finishing speed of deceleration, the speed set value is used.\n\nThe PG_LSpeed value initializes to the default values when any one of the following conditions occurs:\n\nController Startup\n\nMotor On\n\nSFree, SLock\n\nReset\n\nStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "PG_LSpeed Function\n\nPG_LSpeed Example\n\nYou can use the PG_LSpeed in the command window or in the program.  The following examples show both cases.\n\nFunction pglspeedtst\n\n\t\t  Motor On\n\n\t\t  Power High\n\n\t\t  Speed 30; Accel 30, 30\n\n\t\t  PG_LSpeed 1000\n\n\t\t  Go P0\n\n\t\tFend\n\nTo set the PG_LSpeed value from the command window.\n\n>\n\t\t\tPG_LSpeed 1000, 1100\n\n>",
+  "examples": [
+    "Function pglspeedtst\n\t\t  Motor On\n\t\t  Power High\n\t\t  Speed 30; Accel 30, 30\n\t\t  PG_LSpeed 1000\n\t\t  Go P0\n\t\tFend",
+    "To set the PG_LSpeed value from the command window.",
+    ">\n\t\t\tPG_LSpeed 1000, 1100\n\n>"
+  ]
+}

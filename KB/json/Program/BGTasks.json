@@ -1,0 +1,12 @@
+{
+  "title": "Background Task",
+  "file": "BGTasks",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Background Task\n\nBackground tasks\n\nPrimary Features of Background Task\n\nSetup and Start the Background task\n\nHolding Background Task (from being activated)\n\nCommands that will cause error in the Background task\n\nBackground Task and the Remote",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

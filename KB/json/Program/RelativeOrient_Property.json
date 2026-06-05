@@ -1,0 +1,12 @@
+{
+  "title": "RelativeOrient Property",
+  "file": "RelativeOrient_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the coordinate system that moves relatively.\n\nIt is used when specifying Relative in DestType.\n\nValues\n\nBase Specify a relative distance based on the Base coordinate system.\n\nLocal Specify a relative distance based on the Local coordinate system.\n\nTool Specify a relative distance based on the Tool coordinate system.\n\nDefault:  Tool\n\nSee Also: RelativeOrient Property\n\nRelativeRobotLocal Property",
+  "notes": "",
+  "see_also": "Applies To\n\nPressMove Object",
+  "examples": []
+}

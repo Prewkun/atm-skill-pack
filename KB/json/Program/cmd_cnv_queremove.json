@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_QueRemove Statement",
+  "file": "cmd_cnv_queremove",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_QueRemove\n\t\t\tconveyorNumber [, index | All\n\t\t\t]",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.\n\nindex\tOptional. Integer expression specifying the index of the first item to remove or all is specified.",
+  "description": "Use Cnv_QueRemove to remove one or more items from a conveyor queue. Typically, you remove items from the queue after you are finished with the data.\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_QueAdd\n\nCnv_QueRemove Statement Example\n\nJump Cnv_QueGet(1)\n\n\t\tOn gripper\n\n\t\tWait .1\n\n\t\tJump place\n\n\t\tOff gripper\n\n\t\tWait .1\n\n' Remove the data from the conveyor\n\nCnv_QueRemove\n\t\t\t 1",
+  "examples": [
+    "Jump Cnv_QueGet(1)\n\t\tOn gripper\n\t\tWait .1\n\t\tJump place\n\t\tOff gripper\n\t\tWait .1\n\n' Remove the data from the conveyor\n\nCnv_QueRemove\n\t\t\t 1"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "StartPointTolX Property",
+  "file": "StartPointTolX_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "To check the position when the force guide sequence starts, this property sets an available range in X direction.\n\nIt is used when PosCheckEnabled is True.\n\nWhen the robot is between the position specified by StartCheckPoint and the position specified by this property in X direction of Local coordinate system specified by StartPntTolLocal, it is determined as conditions are satisfied.  Conditions of each direction are determined as AND.  Therefore, if one or more of X, Y, Z, or Rot is out of the range, it is determined as failure.\n\nValues\n\nMinimum value 0\n\nMaximum value 100\n\nDefault:  0\n\nSee Also: StartPointTolX Property\n\nStartCheckPoint Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

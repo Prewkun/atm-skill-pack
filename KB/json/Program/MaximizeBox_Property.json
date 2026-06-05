@@ -1,0 +1,14 @@
+{
+  "title": "MaximizeBox Property",
+  "file": "MaximizeBox_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether the maximize button is displayed in the title bar of the form.",
+  "notes": "A Maximize button enables users to maximize a window to full screen.\n\nSee Also: MaximizeBox Property\n\nMinimizeBox Property\n\nGUI Items: MaximizeBox Property\n\nForm",
+  "see_also": "Applies To\n\nForms",
+  "examples": [
+    "GSet frmMain.MaximizeBox, True"
+  ]
+}

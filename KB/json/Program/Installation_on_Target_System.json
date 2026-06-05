@@ -1,0 +1,12 @@
+{
+  "title": "Installation on Target System",
+  "file": "Installation_on_Target_System",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Installation on Target System\n\nInstallation on Target System\n\nYou should make an installation program for your .NET project by using a Visual Studio setup project.  Then follow these steps to setup a target system for your .NET application:\n\nInstall Epson RC+ 8.0.\n\nInstall\n\t your Epson RC+ 8.0 project.\n\nInstall\n\t your .NET application.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

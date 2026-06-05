@@ -1,0 +1,14 @@
+{
+  "title": "CloseDB Statement",
+  "file": "cmd_closedb",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "CloseDB #fileNumber",
+  "parameters": "fileNumber\tDatabase number specified with OpenDB from 501 ~ 508",
+  "description": "CloseDB closes the database and Excel book, and releases the database number.\n\nNote\n\nConnection of PC with installed RC+ is required.",
+  "notes": "",
+  "see_also": "OpenDB\n\nSelectDB\n\nUpdateDB\n\nDeleteDB\n\nCloseDB Statement Example\n\nCloseDB #1",
+  "examples": [
+    "CloseDB #1"
+  ]
+}

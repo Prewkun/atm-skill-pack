@@ -1,0 +1,12 @@
+{
+  "title": "PF_QuePartOrient_Function",
+  "file": "PF_QuePartOrient_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "PF_QuePartOrient(part ID [, index])",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).\n\nindex\tOptional. Integer expression that represents the index of the parts coordinates queue data. (the first index number is 0).",
+  "description": "PF_QuePartOrient retrieves the part orientation from the parts coordinates queue.  If the index is omitted, this function will retrieve the initial queue data entry.  If an index is specified, part orientation for the index specified will be returned.\n\nPF_QuePartOrient Function Example\n\nRefer to Part Feeding Callback Functions PF_Robot for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

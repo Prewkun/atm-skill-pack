@@ -1,0 +1,18 @@
+{
+  "title": "StepID Property",
+  "file": "StepID_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the step number so the user understands the task or job progression situation.",
+  "notes": "This property is used to set or confirm the step ID so the task or job progression situation is understood.",
+  "see_also": "Applies To\n\nRobot Object\n\nReset Property",
+  "examples": [
+    "Function Test_SetStepID(iStepID As Integer) ' Process to set StepID FSet Robot.StepID, iStepID\nFend",
+    "Function Test_GetStepID ' Process to acquire the StepID Integer iStepID Robot.StepID, iStepID Print iStepID\nFend",
+    "Function Test_Main ' Main process executing the force control function ･･･ Move P0 FC1 CF Test_SetStepID(1) ' Setting StepID=1 ･･･",
+    "Move P1 FC2 CF Test_SetStepID(2) ' Setting StepID=2 ・・・ FSet FS1.Reset Test_SetStepID(3) ' Setting StepID=3 ･･･ Move P3 FC3 CF Test_SetStepID(4) ' Setting StepID=4 ・・・\nFend",
+    "Function Test_Sub ' Sub-process which monitors at 5 second intervals Do\n   Test_GetStepID\n   Wait(5) Loop\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "LimZMargin Statement",
+  "file": "LimZMargin_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) LimZMargin LimZmargin\n\n(2) LimZMargin",
+  "parameters": "LimZmargin\ta margin value for LimZ error detection",
+  "description": "When Jump command is executed, Joint #3 lifts up to the position set by LimZ.  However, if the start position of the joint is above the LimZ position, an error will occur.  LimZMargin sets a margin value for the error detection.  Default is 0.02mm.\n\nNote\n\nResetting LimZ to default\n\nRestarting the controller, or executing the SFree, SLock, Motor On commands will initialize LimZ to the default value.",
+  "notes": "",
+  "see_also": "Sets and returns the setting value for error detection when operation starts at higher than the LimZ value.\n\nLimZMargin Function\n\nLimZ\n\nLImZMargin Statement Example\n\nFollowing is a usage example of LimZMargin in Jump operation.\n\nFunction main\n LimZ -10                       ' sets LimZ default value\n LimZMargin 0.03                ' sets 0.03 mm for a margin of LimZ error detection\n Jump P1                        ' horizontal movement with -10 at Jump execution\n Jump P2 LimZ -20               ' horizontal movement with -20 at Jump execution\n Jump P3                        ' horizontal movement with -10 at Jump execution\n\nFend",
+  "examples": [
+    "Function main LimZ -10                       ' sets LimZ default value LimZMargin 0.03                ' sets 0.03 mm for a margin of LimZ error detection Jump P1                        ' horizontal movement with -10 at Jump execution Jump P2 LimZ -20               ' horizontal movement with -20 at Jump execution Jump P3                        ' horizontal movement with -10 at Jump execution\nFend"
+  ]
+}

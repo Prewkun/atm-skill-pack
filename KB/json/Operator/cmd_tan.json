@@ -1,0 +1,15 @@
+{
+  "title": "Tan Function",
+  "file": "cmd_tan",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Tan(\n\t\t\tradians\n\t\t\t)",
+  "parameters": "radians\tReal expression given in radians.",
+  "description": "Tan returns the Tangent of the numeric expression. The numeric expression (radians) may be any numeric value as long as it is expressed in radian units.\n\nTo convert from radians to degrees, use the RadToDeg function.",
+  "notes": "",
+  "see_also": "Abs\tNot\n\nAtan\tSgn\n\nAtan2\tSin\n\nCos\tSqr\n\nInt\tStr$\n\nMod\tVal\n\nTan Function Example\n\nFunction tantest\n\n\t\t  Real num\n\n\t\t  Print \"Enter number in radians to calculate tangent for:\"\n\n\t\t  Input num\n\n\t\t  Print \"The tangent of \", num, \"is \", Tan(num)\n\n\t\tFend\n\nThe examples shown below show some typical results using the Tan instruction from the command window.\n\n> print tan(0)\n\n\t\t0.00\n\n\t\t> print tan(45)\n\n\t\t1.6197751905439\n\n>",
+  "examples": [
+    "Function tantest\n\t\t  Real num\n\t\t  Print \"Enter number in radians to calculate tangent for:\"\n\t\t  Input num\n\t\t  Print \"The tangent of \", num, \"is \", Tan(num)\n\t\tFend",
+    "> print tan(0)\n\t\t0.00\n\t\t> print tan(45)\n\t\t1.6197751905439\n\n>"
+  ]
+}

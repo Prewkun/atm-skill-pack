@@ -1,0 +1,14 @@
+{
+  "title": "HelpButton Property",
+  "file": "HelpButton_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether a Help button should be displayed in the caption box of the form.",
+  "notes": "When this property is set to true, a small button with a question mark appears in the caption bar to the left of the Close button (when MaximizeBox, MinimizeBox properties are set to \"False\"). You can use this button to display help for your application.\n\nSee Also: HelpButton Property\n\nHelpID Property\n\nGUI Items: HelpButton Property\n\nForm",
+  "see_also": "Applies To\n\nForm",
+  "examples": [
+    "GSet frmMain.HelpButton, True"
+  ]
+}

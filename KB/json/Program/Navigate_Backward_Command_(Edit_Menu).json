@@ -1,0 +1,12 @@
+{
+  "title": "Navigate Backward Command (Edit Menu)",
+  "file": "Navigate_Backward_Command_(Edit_Menu)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Navigate Backward Command (Edit Menu)\n\nNavigate Backward Command (Edit Menu)\n\nCtrl+F2\n\nMove the cursor to the line that was previously displayed by [Go to Definition] command.\n\nRepeat the operation to move the cursor through the history of [Go to Definition], starting with the most recent one.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

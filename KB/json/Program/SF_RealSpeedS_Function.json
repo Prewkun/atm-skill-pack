@@ -1,0 +1,14 @@
+{
+  "title": "SF_RealSpeedS Function",
+  "file": "SF_RealSpeedS_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SF_RealSpeedS(Speed monitoring point number)",
+  "parameters": "Speed\n\t\t monitoring point number\tThe\n\t\t speed monitoring point number as an integer value (1 or 2).\n\nValue\tDescription\n\n1\tHand\n\n2\tElbow",
+  "description": "Returns the current speed [mm/sec] of the specified speed monitoring point.\n\nThe speed of the hand is the speed at the TCP offset position set in Safety Function Manager.\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_RealSpeedS Function",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print \"Hand real speed is \", SF_RealSpeedS (1)"
+  ]
+}

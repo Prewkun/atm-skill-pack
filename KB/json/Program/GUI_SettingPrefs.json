@@ -1,0 +1,12 @@
+{
+  "title": "Setting GUI Builder Preferences",
+  "file": "GUI_SettingPrefs",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Setting GUI Builder Preferences\n\nSetting GUI Builder Preferences\n\nUse [Snap To Grid] and [Snap Lines] in the status bar of the GUI Builder window. You can change how controls are managed on the forms in the GUI Builder window design area by setting the GUI Builder preferences.\n\nClick the [Snap To Grid] in the status bar.\n\nWhen the [Snap To Grid] is selected, GUI Builder shows grid and places the controls on the grid.\n\nTo change the size of the grid (distance between dots), right-click the [Snap To Grid] and change the value of [Grid Width].\n\nWhen the [Snap Lines] is selected, GUI Builder shows line and place controls along the line.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

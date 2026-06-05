@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_End_Processing",
+  "file": "Parts_Feeding_End_Processing",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_End_Processing\n\nParts Feeding End Processing\n\nUse one of the following methods to terminate a Part Feeding process from a user-prepared program.\n\n1.\tExecute a PF_Stop command\n\nExecute a PF_Stop command from a user-prepared program.\n\nThe Part Feeding process will end the callback function currently being processed, and will terminate once the PF_CycleStop callback function   has ended.\n\nFor more details, refer to 3.  Part Feeding SPEL+ Command Reference PF_Stop.\n\n2.\tExecute a PF_Abort command\n\nExecute a PF_Abort command from a user-prepared program.\n\nThis immediately terminates the Part Feeding process.  When this happens, the callback function currently being processed will end immediately.\n\nFor more details, refer to 3.  Part Feeding SPEL+ Command Reference PF_Abort.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

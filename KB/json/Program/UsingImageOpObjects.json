@@ -1,0 +1,12 @@
+{
+  "title": "Using ImageOp Objects",
+  "file": "UsingImageOpObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using ImageOp Objects\n\nUsing ImageOp Objects\n\nNow we have set the foundation for understanding how to use Vision Guide ImageOp objects.  This next section will describe the steps required to use ImageOp objects as listed below:\n\n\tHow to create a new ImageOp object\n\tPosition and size the search window\n\tConfigure the properties associated with\n\t the ImageOp object\n\tTeach colors when using the ColorFilter operation\n\tTest the ImageOp object & examine the\n\t results\n\tMake adjustments to properties and test again\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use.  If you have no vision sequence to work with, you can create a new vision sequence by clicking on the [New Sequence] button on the Vision Guide toolbar.  You can also select a sequence which was created previously by clicking on the [Sequence] tab in the Vision Guide window and clicking on the dropdown list box which is located towards the top of the [Sequence] tab.  See 5.2 Creating a New Vision Sequence for more details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New ImageOp Object\n\nStep 2: Position and Size the Search Window\n\nStep 3: Configure the ImageOp Object Properties\n\nStep 4: Teach colors for the ImageOp object\n\nStep 5: Test the ImageOp Object\n\nStep 6: Make Adjustments to Properties and Test Again",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

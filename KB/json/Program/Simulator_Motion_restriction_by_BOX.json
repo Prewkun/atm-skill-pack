@@ -1,0 +1,12 @@
+{
+  "title": "Simulator_Motion restriction by BOX",
+  "file": "Simulator_Motion_restriction_by_BOX",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Simulator_Motion restriction by BOX\n\nMotion restriction by BOX\n\nBy using the BOX command together with the GetRobotInsideBox function or the OnErr command, robot power and motion can be restricted when the tool center point (TCP) enters the approach check area (BOX).\n\nSample project using BOX\n\nIn the sample project, BOX2 is set outside BOX1.  When the tool center point calculated based on the currently selected tool enters BOX2, the robot will stop temporarily. If the program execution is continued, the robot will resume operation in the restricted status (low speed, low power).\n\nThen, when the robot enters BOX1 inside BOX2, the robot will abort operation.\n\nUse the sample project to execute the motion restriction using BOX.\n\nThe sample project is in \\EpsonRC80\\projects\\SimulatorDemos\\BOX_sample.\n\nFor details of the usage of the project, refer to Working with the samples.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

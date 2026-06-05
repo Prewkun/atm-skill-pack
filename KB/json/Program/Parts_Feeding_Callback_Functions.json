@@ -1,0 +1,12 @@
+{
+  "title": "Parts Feeding Callback Functions",
+  "file": "Parts_Feeding_Callback_Functions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts Feeding Callback Functions\n\nPart Feeding Callback Functions\n\nCallback functions are SPEL functions that are automatically called from the PF_Start command process when predetermined conditions are met.\n\nProgram files (PartFeeding.prg, PartFeeding.inc) that include templates for each callback function will be added to the project when registering the first part as a new entry.  Users describe the required commands in SPEL based on the specifications of the user's system setup in use.\n\nFunction\tDescription/Application\n\nPF_Robot\tSyntax for robot behavior (pick, place).\n\nPF_Control\tSyntax for hopper, user lighting operations.\n\nPF_Status\tSyntax for error processing.\n\nPF_MobileCam\tSyntax for moving/retracting the mobile camera to the image capture position.\n\nPF_Vision\tSyntax for unique vision processing\n\n(e.g.: determining parts based on multiple vision sequence results).\n\nPF_Feeder\tSyntax for unique feeder operation (e.g. Processing parts by platform customer manufactured).\n\nPF_CycleStop\tSyntax for processing after PF_Stop has been executed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

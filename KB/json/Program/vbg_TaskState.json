@@ -1,0 +1,15 @@
+{
+  "title": "TaskState Method, Spel Class",
+  "file": "vbg_TaskState",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function TaskState(TaskNumber As Integer) As SpelTaskState\n\nFunction TaskState(TaskName As String) As SpelTaskState",
+  "parameters": "TaskNumber\tTask Number to return the execution status of.\n\nTaskName\tString expression containing the name of the task.",
+  "description": "Returns the status of a task.",
+  "notes": "",
+  "see_also": "TasksExecuting\n\nXqt\n\nTaskStatus Example\n\nVB Example:\n\nDim taskState As SpelTaskState\n\ntaskState = m_spel.TaskState(2)\n\nC# Example:\n\nSpelTaskState taskState;\n\ntaskState = m_spel.TaskState(2);",
+  "examples": [
+    "Dim taskState As SpelTaskState\ntaskState = m_spel.TaskState(2)",
+    "SpelTaskState taskState;\ntaskState = m_spel.TaskState(2);"
+  ]
+}

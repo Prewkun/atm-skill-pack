@@ -1,0 +1,12 @@
+{
+  "title": "Signal Connections Conveyor",
+  "file": "Signal_Connections_Conveyor_Tracking",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Signal Connections Conveyor\n\nSignal Connections\n\nThe table below lists the connectors on the PG board and the compatible connectors for wiring:\n\nReceptacle on the Board\tDXA10A-100S\n\n(manufacturer: Hirose Electric Co.,Ltd.)\n\nWiring Plug Connectors\tIndividually pressed-in type\tDX30-100P (for AWG#30)\n\nDX30A-100P (for AWG#28)\n\nPressed-in-as-a-whole type\tDX31-100P (for AWG#30)\n\nDX31A-100P (for AWG#28)\n\nSoldered type\tDX40-100P\n\nConnector for Wiring to the Cover\tDX-100-CV1",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

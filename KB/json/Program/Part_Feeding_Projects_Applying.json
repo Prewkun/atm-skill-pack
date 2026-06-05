@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Projects Applying",
+  "file": "Part_Feeding_Projects_Applying",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Projects Applying\n\nApplying the Part Feeding Option to a Project\n\nTo apply the Part Feeding option to a project, follow the procedure below.\n\n(1) Open the existing project you wish to apply the option to.\n\nOr, create a new project.\n\n(2) Epson RC+ 8.0-Menu-[Tools]-[Part Feeding].\n\nThe following window is displayed.\n\n(3) Click the [Add] button.\n\nRun the Part Wizard.\n\n(4) Follow the steps of the Part Wizard to complete the part setting. For details, refer to the Software Part Wizard.\n\nWhen this happens, a Part Feeding option-specific program file will be added to the project. Refer to Creating a Project for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Sequence Window:Flow Chart",
+  "file": "Sequence_Window_Flow_Chart",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sequence Window:Flow Chart\n\nSequence Window: Flow Chart\n\nLocated at the right side of the image display is the sequence flow chart. This flow chart displays all the vision objects that have been defined for this vision sequence.\n\nThe order in the flow chart corresponds to the execution order of the vision objects.\n\nRefer to Change Order of Sequences for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

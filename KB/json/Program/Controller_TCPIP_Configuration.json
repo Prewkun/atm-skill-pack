@@ -1,0 +1,12 @@
+{
+  "title": "TCPIP Software Configuration",
+  "file": "Controller_TCPIP_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TCPIP Software Configuration\n\n[Setup]-[System Configuration]-[Controller]-[TCP/IP] Pages\n\nThere is one page for each TCP / IP port in the controller.\n\nTo configure a TCP/IP port\n\n1. In the Epson RC+ 8.0 menu, select [Setup]-[System Configuration]-[TCP/IP].\n\nSelect a port from the tree.\n\n2. Enter the IP address in the [IP Address] dialog box.\n\n3. Enter the TCP/IP port number in the [TCP/IP Port] box.\n\nThis must be the same port number that is used on the host device. It must be different from any of the other TCP/IP port numbers used for the other TCP/IP ports.\n\n4. Change the other settings as desired.\n\n5. Click the [Apply] button to save the new settings.\n\n6. Click the [Close] button to close the dialog.\n\nNOTE:  If set to a virtual port, the [Communication response / Output folder...] button appears. This opens the communication input/output file folder.\n\nFor details, refer to 8.4.5 Restriction on SPEL+ command execution.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "InReal Method, Spel Class",
+  "file": "InReal_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function InReal (PortNumber As Integer) As Single",
+  "parameters": "PortNumber\tInteger expression representing the\n\t\t I/O Input port.",
+  "description": "Returns the input data of 2 words (32 bits) as the floating-point data (IEEE754 compliant) of 32 bits.",
+  "notes": "",
+  "see_also": "In, InBCD, InW, Out, OutW, OutReal\n\nInReal Example\n\nVB",
+  "examples": [
+    "Dim val As Single\nval = m_spel.InReal(32)",
+    "float val;\nval = m_spel.InReal(32);"
+  ]
+}

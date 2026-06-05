@@ -1,0 +1,15 @@
+{
+  "title": "Hour Method, Spel Class",
+  "file": "vbg_Hour",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Hour () As Single",
+  "parameters": "",
+  "description": "Returns the accumulated system operating time in hours.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Dim hoursRunning As Single\nhoursRunning = m_spel.Hour",
+    "float hoursRunning;\nhoursRunning = m_spel.Hour();"
+  ]
+}

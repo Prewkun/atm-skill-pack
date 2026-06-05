@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Fine Function",
+  "file": "cmd_cnv_fine_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_Fine(conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.",
+  "description": "Note\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Fine Statement\n\nCnv_Fine Function Example\n\nReal f\n\nf = Cnv_Fine\n\t\t\t(1)",
+  "examples": [
+    "Real f\n\nf = Cnv_Fine\n\t\t\t(1)"
+  ]
+}

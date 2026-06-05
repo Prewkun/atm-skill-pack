@@ -1,0 +1,15 @@
+{
+  "title": "RefPos Status",
+  "file": "RefPos_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the command-position, with force control, for the first variable. For the second variable, the command-position, which reflects only the position control without the effects of force control, is returned.",
+  "notes": "This returns the command position reflecting the position control-command position and the effects of force control.\n\nThe position control command-position defines the virtual path that the original motion command tries to follow.\n\nThe force control command-position defines the actual robot path of movement, which is the calculated path reflecting the effect of force control on the position control command-position.\n\nBy looking at the amount of difference between the two command values, you see how much the movement is veered from the original path. This is effective when checking to see if the path differs from the original path more than was expected, or to analyze movement tendencies.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger\n\nFx_Enabled Property",
+  "examples": [
+    "Function RefPosTest FSet FCS1.Orientation, FG_TOOL ' Sets force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets the virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets the virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets the virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control to active Xqt RefPosCheck ' Launches a separate task to monitor Move P0 FC1 ' A Move motion with force control Quit RefPosCheck ' Ends the separate monitored task\nFend",
+    "Function RefPosCheck Do\n   FGet Robot.RefPos, P1, P2 ' Acquires RefPos\n   If Abs(CX(P1) - CX(P2)) 50 Then' Checks to see if the difference is 50 or greater\n     Print \"Err\" ' An error occurs if the difference is too large\n     AbortMotion All ' Stops motion\n   EndIf\n   Wait 0.1 Loop\nFend"
+  ]
+}

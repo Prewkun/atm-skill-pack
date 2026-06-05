@@ -1,0 +1,12 @@
+{
+  "title": "ForceCondOK Result",
+  "file": "ForceCondOK_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "It is whether to satisfy the end conditions related to force.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

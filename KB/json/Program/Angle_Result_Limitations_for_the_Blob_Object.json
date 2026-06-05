@@ -1,0 +1,12 @@
+{
+  "title": "Angle Result Limitations for the Blob Object",
+  "file": "Angle_Result_Limitations_for_the_Blob_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Angle Result Limitations for the Blob Object\n\nAngle Result Limitation(s) for the Blob Object\n\nJust a reminder that the Angle result for the Blob object is limited in it's range.  The Angle result for a Blob object returns angle values which range from +90 to -90.  The Blob object is not able to return an angular result which ranges through an entire 360 degrees.\n\nNote: It should be noted that a Blob object does not always return results as reliably as a Polar object.  Because the range of the Blob object Angle result is limited and in some cases not reliable, we DO NOT recommend using a Blob object Angle result for robot guidance.  Instead we strongly recommend using a Polar object to compute angular orientation of a part.  The Polar object can use the X, Y position found as the center of mass from a Blob object and then compute an angle based from the center of mass of the Blob object.  This is explained in detail later in Polar Object.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

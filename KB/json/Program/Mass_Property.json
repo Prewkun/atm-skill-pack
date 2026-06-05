@@ -1,0 +1,14 @@
+{
+  "title": "Mass Property",
+  "file": "Mass_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value for the robot hand and workpiece/payload.",
+  "notes": "Sets or returns the value of the overall weight of the robot hand and workpiece/payload at the leading end side from the force sensor (not including the force sensor).\n\nMass Property Object is used to compensate for the effects of gravity on the force function.",
+  "see_also": "Applies To\n\nForce Trigger\n\nOperator Property",
+  "examples": [
+    "Function GetPeakForces MPSet MP1.GravityCenter, 10, 10, 100 MPSet MP1.Mass, 2 MP 1 Move CurPos +TLW(10) FC1 ROT\nFend"
+  ]
+}

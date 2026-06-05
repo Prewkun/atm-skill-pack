@@ -1,0 +1,12 @@
+{
+  "title": "AccelS VI",
+  "file": "AccelS_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the linear acceleration and deceleration for the current robot.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nAccel\tDouble value for linear acceleration.\n\nDecel\tDouble value for linear acceleration.\n\nDepart Accel\tOptional.  Integer value for Jump depart acceleration.\n\nDepart Decel\tOptional.  Integer value for Jump depart deceleration.\n\nAppro Accel\tOptional.  Integer value for Jump approach acceleration.\n\nAppro Decel\tOptional.  Integer value for Jump approach deceleration.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "Use AccelS to set the linear acceleration and deceleration values for the current robot.  All values are in millimeters / sec2.  If Depart Accel is specified, then the remaining inputs must also be specified.",
+  "see_also": "Accel, Speed, SpeedS\n\nAccelS Example",
+  "examples": []
+}

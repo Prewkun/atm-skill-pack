@@ -1,0 +1,12 @@
+{
+  "title": "Selecting an Object",
+  "file": "VG_Selecting_an_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Selecting an Object\n\nObject Tab: Selecting an object\n\nNotice the drop down list box shown at the top of the Object tab.  This drop down list box is used to select the vision object to display in the Object tab. Clicking on the down arrow displays a list of all the vision objects for the current vision sequence. You can then click on any one of the vision objects to select which one you want to work on or examine.\n\nSelecting the current vision object to work with can also be accomplished by clicking on the label of a vision object or its search window as displayed in the image display area.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

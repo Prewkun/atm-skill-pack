@@ -1,0 +1,12 @@
+{
+  "title": "Configuring start up for Operator Window",
+  "file": "Configuring_start_up_for_Operator_Window",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Configuring start up for Operator Window\n\nConfiguring startup for Operator Window\n\nThe system can be configured to automatically log into Windows and start EPSON RC+ 7.0 in one of the operator modes. You can also configure the Operator Window to auto start the program. See Startup Configuration for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

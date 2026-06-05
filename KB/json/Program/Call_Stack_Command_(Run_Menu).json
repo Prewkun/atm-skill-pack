@@ -1,0 +1,12 @@
+{
+  "title": "Call Stack Command (Run Menu)",
+  "file": "Call_Stack_Command_(Run_Menu)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Call Stack Command (Run Menu)\n\nCall Stack Command (Run Menu)\n\nThe Call Stack dialog displays the function call stack for one task.\n\nThe Call Stack command is available when a program window is clicked which contains a function that is currently halted.\n\nThe most recent function is at the top of the list, and parent functions are listed afterwards in descending order. The last function is the task function.\n\nEach row in the list shows a program, function, and line number.\n\nYou can view the code for any of the function calls in the list by selecting a function, then clicking the [Show] button. The program window for the function you selected is then displayed, and then move the cursor to the line of the function call.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

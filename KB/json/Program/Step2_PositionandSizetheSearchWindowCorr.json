@@ -1,0 +1,12 @@
+{
+  "title": "Vision Objects - Using Correlation Objects - Step 2: Position and Size the Search Window",
+  "file": "Step2_PositionandSizetheSearchWindowCorr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Objects - Using Correlation Objects - Step 2: Position and Size the Search Window\n\nStep 2: Position and Size the Search Window\n\nYou should now see a Correlation object similar to the one shown below:\n\nNew Correlation object layout\n\nClick the name label (or on one of the sides) of the Correlation object and while holding the mouse down, drag the Correlation object to the position where you would like the top left position of the search window to reside.\nResize the Correlation object search window as required using the search window size handles.  (This means click a size handle and drag the mouse.) (The search window is the area within which we will search.)\n\nCAUTION\tAmbient lighting and external equipment noise may affect vision sequence image and results. A corrupt image may be acquired and the detected position could be any position in an object's search area. Be sure to create image processing sequences with objects that use search areas that are no larger than necessary.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

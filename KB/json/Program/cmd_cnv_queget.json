@@ -1,0 +1,17 @@
+{
+  "title": "Cnv_QueGet Function",
+  "file": "cmd_cnv_queget",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_QueGet(conveyorNumber [,index] )",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.\n\nindex\tOptional. Integer expression representing the index of the queue data to retrieve.",
+  "description": "Use Cnv_QueGet to retrieve points from the conveyor queue. When queNumber is omitted, the first point in the queue is returned. Otherwise, the point from the specified queNumber is returned.\n\nCnv_QueGet does not delete the point from the queue. Instead, you must use Cnv_QueRemove to delete it.\n\nTo track a part as the conveyor moves, you must use Cnv_QueGet in a motion command statement.   For",
+  "notes": "",
+  "see_also": "Cnv_QueLen\n\nCnv_QueGet Function Example\n\n' Jump to the first part in the queue and track it\n\n\t\tJump\n\t\t\t\tCnv_QueGet\n\t\t\t(1)\n\n\t\tOn gripper\n\n\t\tWait .1\n\n\t\tJump place\n\n\t\tOff gripper\n\n\t\tWait .1\n\n\t\tCnv_QueRemove 1",
+  "examples": [
+    "Jump Cnv_QueGet(1) ' this tracks the part",
+    "P1 = Cnv_QueGet(1)",
+    "Jump P1  ' this does not track the part",
+    "' Jump to the first part in the queue and track it\n\t\tJump\n\t\t\t\tCnv_QueGet\n\t\t\t(1)\n\t\tOn gripper\n\t\tWait .1\n\t\tJump place\n\t\tOff gripper\n\t\tWait .1\n\t\tCnv_QueRemove 1"
+  ]
+}

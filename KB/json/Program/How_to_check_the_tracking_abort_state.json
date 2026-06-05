@@ -1,0 +1,12 @@
+{
+  "title": "How to check the tracking abort state",
+  "file": "How_to_check_the_tracking_abort_state",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to check the tracking abort state\n\nHow to check the tracking abort state\n\nYou can check the tracking state in relation to the tracking abort line using the Cnv_Flag function.\n\nA Cnv_Flag return value of \"0\" indicates normal operation, while \"other than 0\" indicates that tracking has been canceled or aborted.  If the return value is \"other than 0\", perform the following adjustments.\n\nWhen 1:\n\nTracking has been canceled as the workpiece is expected to exceed the tracking abort line before tracking commences.\n\nMotion start may be delayed due to the downstream limit position setting.  Set a downstream limit that is further toward the upstream side than the current position.\n\nWhen 2:\n\nTracking has been aborted as the tracking abort line was crossed during tracking (before pickup).\n\nMotion start and completion could be delayed due to an improper downstream limit position and robot standby position.  Set a downstream limit that is further toward the upstream side than the current position.  Alternatively, bring the robot standby position closer to the downstream limit.\n\nWhen 3:\n\nTracking has been aborted as the tracking abort line was crossed during tracking (during pickup).\n\nMotion start and completion could be delayed due to an improper downstream limit position and robot standby position, or an improper pickup time.  Set a downstream limit that is further toward the upstream side than the current position.  Alternatively, bring the robot standby position closer to the downstream limit.  Try reducing the workpiece pickup time.\n\nWhen 4:\n\nTracking has been canceled as the workpiece was outside the Pickup Area during motion command execution.\n\nRefer to the sample program to put the robot on standby until the workpiece exceeds the upstream limit.\n\nIf this still occurs even when performing the above, the number of workpieces in the work flow may exceed the robot's processing capacity, causing the workpieces to exceed the downstream limit.  Try performing the following adjustments.\n\n- Reduce the number of workpieces\n\n- Increase acceleration using Cnv_Accel\n\n- Setup a downstream conveyor\n\nNote:  If tracking motion is canceled or aborted, the program will continue to execute the subsequent instruction without stopping.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

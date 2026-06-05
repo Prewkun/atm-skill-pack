@@ -1,0 +1,12 @@
+{
+  "title": "StrobeBlackVideo Property",
+  "file": "StrobeBlackVideo_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Determines whether video is cleared to black before the trigger is received.",
+  "notes": "When RuntimeAcquire is set to Strobed, and VRun executes, by default the video is cleared to black until a trigger is received.  For some applications, such as conveyor tracking, it may be easier to see vision results if the video is not cleared to black after each VRun.\n\nSee Also: StrobeBlackVideo Property\n\nSequence Tab\n\nVision Sequences\n\nRuntimeAcquire Property",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

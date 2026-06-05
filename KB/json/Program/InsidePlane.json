@@ -1,0 +1,14 @@
+{
+  "title": "InsidePlane Function",
+  "file": "InsidePlane",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "InsidePlane(planeNum [, robotNumber | All])",
+  "parameters": "planeNum\tInteger expression\n\t\t from 1 to 15 representing which approach check plane to return\n\t\t status for.\n\nrobotNumber\tInteger value\n\t\t that contains the robot number you want to search.\n\nIf omitted,\n\t\t the current robot will be specified.\n\nIf you specify\n\t\t All, True is returned if one robot is in the check area.",
+  "description": "InsidePlane Function\n\nInsidePlane Function",
+  "notes": "",
+  "see_also": "Returns the check status of the approach check plane.\n\nInsideBox\n\nGetRobotInsidePlane\n\nPlane\n\nPlaneClr\n\nPlaneDef\n\nInsidePlane Function",
+  "examples": [
+    "Function PrintInsidePlane If InsidePlane(3,1) = True Then\n     Print \"Inside Plane3\" Else\n     Print \"Outside Plane3\" EndIf\nFend"
+  ]
+}

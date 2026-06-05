@@ -1,0 +1,12 @@
+{
+  "title": "Controlling position accuracy",
+  "file": "Controlling_position_accuracy",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controlling position accuracy\n\nControlling position accuracy\n\nUse the Fine command to adjust position accuracy for the end of a motion command.  Fine specifies, for each joint, the allowable positioning error for detecting completion of any given move.  The lower the Fine settings, the more accurate the final position of the joint, which can cause slower performance.  Conversely, large Fine settings can speed up motion commands, but position accuracy will decrease.  For many applications, the default settings can be used.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

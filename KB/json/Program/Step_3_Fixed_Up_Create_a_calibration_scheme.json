@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Create a calibration scheme",
+  "file": "Step_3_Fixed_Up_Create_a_calibration_scheme",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Create a calibration scheme\n\nStep 3: Create a calibration scheme\n\n\t\t\tClick the New Calibration  button on the Vision Guide tool bar or select New Calibration from the Vision menu.   Enter the name for the new scheme.\n\t\t\tSet the TargetSequence property.\n\t\t\tSet the Lamp property, if required.\n\t\t\tSet the RobotArm, RobotAccel, RobotLocal, RobotNumber, RobotSpeed, and RobotTool properties.\n  For small fields of view, or if the calibration target is not near the center of the U axis, you must define a tool.  This is so that when the calibration software turns the U axis 180 degrees, the target will be near the same position.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

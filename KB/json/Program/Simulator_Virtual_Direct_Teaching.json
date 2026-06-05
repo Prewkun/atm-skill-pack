@@ -1,0 +1,12 @@
+{
+  "title": "Simulator_Virtual Direct Teaching",
+  "file": "Simulator_Virtual_Direct_Teaching",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Simulator_Virtual Direct Teaching\n\nVirtual Direct Teaching\n\nVirtual direct teaching is a function to perform a jog operation by dragging the robot. The operation simulates direct teaching.\n\nHow to use virtual direct teaching\n\n(1)\n  Click the [Direct Teach  ] button on the Epson RC+ 8.0 toolbar.\n\nWhen you mouse over the robot, the selected joint will appear in yellow.\n\n(2)  Click the robot.\n\nThe mouse cursor matches TCP.\n\n(3)  Operate the robot by dragging.\n\nThe robot operates so that the mouse cursor matches TCP.\n\nThe robot operates with the arm orientation reflects the robot operation panel.\n\nVirtual direct teaching restriction\n\nWhen the mouse cursor is outside the robot operating range:\n\nMouse cursor does not match TCP. The robot will be elbow singularity.\n\nNOTE:  You can also rotate objects when the [Direct Teach] button is clicked. For details, refer to \"8.3.1 (4) 3D Display Rotate the robot / layout object\".",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

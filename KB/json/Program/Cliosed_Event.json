@@ -1,0 +1,14 @@
+{
+  "title": "Closed Event",
+  "file": "Cliosed_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when a form has been closed.",
+  "notes": "You can use this event to perform tasks after a form has been closed.",
+  "see_also": "Applies To\n\nForm\n\nLoad Event",
+  "examples": [
+    "Function frmMain_Closed(Sender$ As String)\n   Print \"frmMain was closed\"\nFend"
+  ]
+}

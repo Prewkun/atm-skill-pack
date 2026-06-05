@@ -1,0 +1,12 @@
+{
+  "title": "ImageFileScale Property",
+  "file": "ImageFileScale_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the scale for the image specified with the ImageFile property.",
+  "notes": "Real value specifying the image scale.\n\nDefault: 0\n\nBy default (ImageFileScale = 0), an image file is automatically scaled to ImageSize.  Set ImageFileScale to specify a scale.  For example, if ImageFileScale is set to 1, then the image from the file is scaled by a factor of 1 (no change).  If ImageFileScale is set to 2, then the image is twice as large, and so on.  The image is scaled from the top left corner and portions of the image that are outside of ImageSize are cropped.  If the scaled image is smaller than ImageSize, then the remaining portions of the grab image are filled with black.\n\nSee Also: ImageFileScale Property\n\nSequence window\n\nVision Sequences\n\nSaveImage Property\n\nImageFile Property\n\nImageSource Property",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "AxisLocked Method, Spel Class",
+  "file": "vbg_AxisLocked",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function AxisLocked(AxisNumber As Integer) As Boolean",
+  "parameters": "AxisNumber\tNumeric expression representing the axis number. The value can be from 1 - 9.",
+  "description": "Returns True when specified axis release free joint state.",
+  "notes": "",
+  "see_also": "SLock, SFree\n\nAxisLocked Example\n\nVB Example:\n\nIf m_spel.AxisLocked(1) Then\n\n  lblAxis1.Text = \"Robot axis #1 is locked\"\n\nElse\n\n  lblAxis1.Text = \"Robot axis #1 is free\"\n\nEnd If\n\nC# Example:\n\nif (m_spel.AxisLocked(1))\n\n   lblAxis1.Text = \"Robot axis #1 is locked\";\n\nelse\n\n   lblAxis1.Text = \"Robot axis #1 is free\";",
+  "examples": [
+    "If m_spel.AxisLocked(1) Then lblAxis1.Text = \"Robot axis #1 is locked\"\nElse lblAxis1.Text = \"Robot axis #1 is free\"\nEnd If",
+    "if (m_spel.AxisLocked(1))\n   lblAxis1.Text = \"Robot axis #1 is locked\";\nelse\n   lblAxis1.Text = \"Robot axis #1 is free\";"
+  ]
+}

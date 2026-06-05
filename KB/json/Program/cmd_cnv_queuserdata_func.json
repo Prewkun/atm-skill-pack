@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_QueUserData Function",
+  "file": "cmd_cnv_queuserdata_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_QueUserData (conveyorNumber [, index ])",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.\n\nindex\tOptional. Integer expression specifying the index of the item number in the queue.",
+  "description": "Cnv_QueUserData Function\n\nCnv_QueUserData Function\n\nSee_Also Example\n\nReturns the user data value associated with an item in a conveyor queue.",
+  "notes": "",
+  "see_also": "Cnv_QueGet\n\nCnv_QueUserData Function Example\n\n' Add to queue\n\n\t\tCnv_QueAdd 1, Cnv_Point(1, x, y), angle\n\n' Remove from queue\n\n\t\tangle =\n\t\t\t\tCnv_QueUserData\n\t\t\t(1) ' default to queue index of 0\n\n\t\tJump Cnv_QueGet(1) :U(angle)\n\n\t\tCnv_QueRemove 1",
+  "examples": [
+    "' Add to queue\n\t\tCnv_QueAdd 1, Cnv_Point(1, x, y), angle\n\n' Remove from queue\n\t\tangle =\n\t\t\t\tCnv_QueUserData\n\t\t\t(1) ' default to queue index of 0\n\t\tJump Cnv_QueGet(1) :U(angle)\n\t\tCnv_QueRemove 1"
+  ]
+}

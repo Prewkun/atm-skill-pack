@@ -1,0 +1,12 @@
+{
+  "title": "Teach Pendant",
+  "file": "Teach_Control_Device",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teach Pendant\n\nTeach Pendant\n\nOperators can use the teach pendant to operate the robot in the TEACH or TEST operation mode.\n\nFor operation instructions, refer to the following manuals.\n\nRobot Controller option Teach Pendant TP1 manual.\n\nRobot Controller option Teach Pendant TP2 manual.\n\nRobot Controller option Teach Pendant TP3 manual.\n\nRobot Controller option Teach Pendant TP4 manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

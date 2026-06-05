@@ -1,0 +1,12 @@
+{
+  "title": "LineObjResult Property",
+  "file": "LineObjResult_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the result which the LineObject property uses.",
+  "notes": "LineObjResult enables you to attach several objects to the results of one LineObject.\n\nSee Also: LineObjResult Property\n\nLineObject Property\n\nVision Objects: LineObjResult Property\n\nLineInspector",
+  "see_also": "Applies To\n\nVision Objects: LineInspector",
+  "examples": []
+}

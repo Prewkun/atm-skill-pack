@@ -1,0 +1,12 @@
+{
+  "title": "The Operator Window",
+  "file": "The_Operator_Window",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Operator Window\n\nThe Operator Window\n\nThe Operator Window can be used as a simple interface for operators. You can configure Epson RC+ 8.0 to open only the Operator Window when started. In addition, when Remote Control is being used, the Operator Window can be displayed for monitoring purposes.\n\nSymbol\tItem\n\na\tTitle\n\nb\tStatus Bar\n\nc\tOperator Button\n\nItem\tDescription\n\nStatus\n\t\t Bar\tThe status\n\t\t bar is located at the top of the window and shows emergency stop\n\t\t and safeguard status.\n\n\t\tIn addition, if a warning is detected from the controller (such\n\t\t as low encoder battery), a warning label will be displayed on\n\t\t the right side of the status bar. If the mouse is over this label,\n\t\t you can see the warning error message. When there is no warning,\n\t\t the warning label is hidden.\n\nProgram\n\t\t to Run\tSelect\n\t\t a program to run.\n\nStart\tStarts\n\t\t the selected program.\n\nStop\tStops\n\t\t all tasks.\n\nPause\tPauses\n\t\t all tasks that are enabled for pause.\n\nContinue\tContinues\n\t\t paused tasks.\n\nRobot\n\t\t Manager\tDisplay\n\t\t the [Robot Manager] dialog in operator mode. It cannot be shown\n\t\t while the program is running.\n\nI/O Monitor\tOpens\n\t\t the I/O Monitor in operator mode.\n\n\t\tThis window can remain open while programs are running.\n\nSystem\n\t\t History\tDisplay\n\t\t the [System History] window.\n\n\t\tThis window can remain open while programs are running.\n\nSimulator\tOpens\n\t\t the [Simulator] window.\n\n\t\tThis window can remain open while programs are running.\n\nNumber\n\t\t of Displays\tSets\n\t\t the number of displays to be shown.\n\nCamera\tProject\n\t\t cameras appear in a drop-down list.\n\nConfigure\tOpens\n\t\t the [Configure Video Displays] window.\n\nYou can set the window to be displayed\n\t\t as the main window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

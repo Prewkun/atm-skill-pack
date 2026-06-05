@@ -1,0 +1,21 @@
+{
+  "title": "TCPIP Example",
+  "file": "TCPIP_Example",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TCPIP Example\n\nTCP/IP Example\n\nThis example shows how to configure 2 PCs running EPSON RC+ 7.0 to communicate using TCP/IP.  Note that for the OpenNet command, one PC is the server, and the other is a client.\n\nController #1:\n\nPort: #201\n\nIP Address: 192.168.0.1\n\nTCP/IP Port: 1000\n\nFunction tcpip1\n\n\t\t  String reply$\n\n\t\t  OpenNet #201 As Server\n\n\t\t  WaitNet #201\n\n\t\t  Do\n\n\t\t    Print \"Sending data to host 2\"\n\n\t\t    Print #201, \"Data from host 1\"\n\n\t\t    Input #201, reply$\n\n\t\t    Print \"Received reply: \", reply$\n\n\t\t  Loop\n\n\t\tFend\n\nController #2:\n\nPort: #201\n\nIP Address: 192.168.0.2\n\nTCP/IP Port: 1000\n\nFunction tcpip2\n\n\t\t  String data$\n\n\t\t  OpenNet #201 As Client\n\n\t\t  WaitNet #201\n\n\t\t  Do\n\n\t\t    Input #201, data$\n\n\t\t    Print \"Received '\", data$, \"' from host 1\"\n\n\t\t    Print #201, \"Received data\"\n\n\t\t  Loop\n\n\t\tFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Port: #201",
+    "IP Address: 192.168.0.1",
+    "TCP/IP Port: 1000",
+    "Function tcpip1\n\t\t  String reply$\n\t\t  OpenNet #201 As Server\n\t\t  WaitNet #201\n\t\t  Do\n\t\t    Print \"Sending data to host 2\"\n\t\t    Print #201, \"Data from host 1\"\n\t\t    Input #201, reply$\n\t\t    Print \"Received reply: \", reply$\n\t\t  Loop\n\t\tFend",
+    "Port: #201",
+    "IP Address: 192.168.0.2",
+    "TCP/IP Port: 1000",
+    "Function tcpip2\n\t\t  String data$\n\t\t  OpenNet #201 As Client\n\t\t  WaitNet #201\n\t\t  Do\n\t\t    Input #201, data$\n\t\t    Print \"Received '\", data$, \"' from host 1\"\n\t\t    Print #201, \"Received data\"\n\t\t  Loop\n\t\tFend"
+  ]
+}

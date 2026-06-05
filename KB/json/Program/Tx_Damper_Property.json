@@ -1,0 +1,14 @@
+{
+  "title": "Tx_Damper, Ty_Damper, Tz_Damper Property",
+  "file": "Tx_Damper_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the virtual coefficient of viscosity for force control in the specified axis of the force coordinate system.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Control\n Ty_Damper, Tz_Damper Property\n\nTx_Enabled, Ty_Enabled, Tz_Enabled Property",
+  "examples": [
+    "Function ForceControlTest FSet FCS1.Orientation, FG_TOOL FSet FC1.CoordinateSystem, FCS1 FSet FC1.Enabled, False, False, False, True, False, False FSet FC1.Tx_Spring, 20000 FSet FC1.Tx_Damper, 8000 FSet FC1.Tx_Mass, 10000 Move CurPos +TLW(10) FC1 ROT\nFend"
+  ]
+}

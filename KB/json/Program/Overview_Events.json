@@ -1,0 +1,12 @@
+{
+  "title": "Events Overview",
+  "file": "Overview_Events",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Events Overview\n\nEvents Overview\n\nThe Spel Class supports two types of events: system events and user events.  System events are notifications of system status.  User defined events are sent from any SPEL+ task to the .NET application.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

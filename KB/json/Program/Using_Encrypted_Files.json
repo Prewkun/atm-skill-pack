@@ -1,0 +1,12 @@
+{
+  "title": "Using Encrypted Files",
+  "file": "Using_Encrypted_Files",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Encrypted Files\n\nUsing Encrypt Files\n\nEncrypted files allow you to prevent end users from viewing your source code. When a file is encrypted, you must supply a password to open the file. Other users cannot view the file contents, even with an external editor, such as Notepad.\n\nEach encrypted file can have its own password, or you can choose to encrypt multiple files with one password. You can encrypt program files, include files, Vision Guide, and GUI Builder.\n\nIf an encrypted file is imported from another project, it will remain encrypted in the current project.\n\nAs an example, assume you have some special SPEL+ programming code that you do not want your end users to view. But you want to allow end users to change some of the code in the project. To do this, put all of the functions you want to be hidden in one or more encrypted program and include files. Portions that can be modified by the end user should be saved as a separate program file and not encrypted. As a result, the end user will only be able to modify some programs that are not encrypted.\n\nWhen files are encrypted, their icons are shown with a lock in the Project Explorer and also in the title bar of the program window.\n\nIn the screenshot below, the file MainCycle.prg is encrypted, so its icons include a lock image.\n\nWhen you open an encrypted file, you will be prompted for the password.\n\nNOTE:  Up to 64 characters can be entered for password.\n\nCAUTION\t■\tUSE EXTREME\n\t\t CAUTION!\n\nKeep\n\t\t a record of the password(s) used for encryption in a safe place.\n\t\t Once a file is encrypted, it can only be opened with the password\n\t\t you enter. If you forget\n\t\t the password, the file contents CANNOT BE RECOVERED.\n\nTo configure encrypted files in your project, select [Project Properties] from the project menu, then select [Encrypted Files] in the tree on the left.\n\nRefer to section [Properties] Command (Project Menu) for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "JT Function",
+  "file": "cmd_jt",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "JT",
+  "parameters": "",
+  "description": "Use JT to determine the status of the most recent Jump command that was stopped before completion by Sense, Till, abort, etc.",
+  "notes": "",
+  "see_also": "JS\n\nJump\n\nJump3\n\nJump3CP\n\nJumpTLZ\n\nSense\n\nTill\n\nJT Function Example\n\nFunction SearchTill As Boolean\n\n  Till Sw(5) = On\n\n  Jump P0\n\n  Jump P1 Till\n\n  If JT And 4 Then\n\n  Print \"Motion stopped during descent\"\n\n    SearchTill = TRUE\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function SearchTill As Boolean Till Sw(5) = On Jump P0 Jump P1 Till If JT And 4 Then Print \"Motion stopped during descent\"\n    SearchTill = TRUE EndIf\nFend"
+  ]
+}

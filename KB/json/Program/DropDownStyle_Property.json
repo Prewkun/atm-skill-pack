@@ -1,0 +1,14 @@
+{
+  "title": "DropDownStyle Property",
+  "file": "DropDownStyle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value specifying the style of the combo box.",
+  "notes": "The DropDownStyle property controls the interface that is presented to the user. You can enter a value that provides a simple drop-down list box, where the list always displays, a drop-down list box, where the text portion is not editable and you must select an arrow to view the drop-down, or the default drop-down list box, where the text portion is editable and the user must press the arrow key to view the list. To always display a list that the user cannot edit, use a ListBox control.\n\nGUI Items: DropDownStyle Property\n\nComboBox",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.cmbPartNames.DropDownStyle, DROPDOWNSTYLE_SIMPLE"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Maintenance Parts List for CV2",
+  "file": "Maintenance_Parts_List_for_CV2",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Maintenance Parts List for CV2\n\nCompact Vision CV2\n\nPart\n\t\t Name\tCode\n\nCPU\n\t\t Board\tFor CV2-S/L/SA\t2175329\n\nFor CV2-H/HA\t2175328\n\nFor CV2-LB\t2230207\n\nFor CV2-SB\t2230208\n\nFor CV2-HB\t2230210\n\nPoE\n\t\t Board *\t2168503\n\nPoE\n\t\t Board-A *\t2204519\n\nPoE\n\t\t board-B *\t2230214\n\nLED/SW\n\t\t Board\t2168504\n\nMemory\tFor CV2-S/H/L (2GB)\t2208280\n\nFor CV2-SA/HA (4GB)\t2182048\n\nFor CV2-LB/SB/HB\t2230215\n\nCFast\tFor CV2-S/H (2GB)\t2168501\n\nFor CV2-L (2G)\t2194001\n\nFor CV2-SA/HA (8GB)\t2182047\n\nFor CV2-LB/SB/HB\t2230212\n\nBattery\t2168507\n\nChassis\n\t\t Fan\t2168505\n\nFan\n\t\t Filter\t1653513\n\nPower\n\t\t Supply Connector\t2168506\n\nMounting\n\t\t Bracket\t1653498\n\n* When the PoE board is replaced, choose the one referring to the following table.\n\nFirmware\n\t\t version\tThe\n\t\t replaced board\n\nCV2-S/H/L\t2.3.3.2 or before\n\nor the version\n\t\t is unclear\tPoE board\n\n(Code 2168503)\n\n2.3.3.3 or later\tPoE board-A\n\n(Code 2204519)\n\nCV2-SA/HA\n\nCV2-LB/SB/HB\t** PoE board-B\n\n** Maintenance parts for CV2-LB/SB/HB contact the supplier of your region.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

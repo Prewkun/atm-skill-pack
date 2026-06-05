@@ -1,0 +1,14 @@
+{
+  "title": "TargetForces Property",
+  "file": "TargetForces_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of target force and torque for each of the 6 axes in the force coordinate system at the same time.",
+  "notes": "This returns the value of or sets the target force and torque for the force control function for the 6 axes at the same time.\n\nIt sets the following target forces and torques.\n\nrValueFx: Fx rValueFy: Fy rValueFz: Fz\n\nrValueTx: Tx rValueTy: Ty rValueTz: Tz\n\nWhen using the force control function having set the target force and torque, there are times that the target force is not achieved even after sufficient time. In such instances, activate the TargetForcePriorityMode when wanting to accurately match the target force.\n\nHowever, when the TargetForcePriorityMode is activated, operation of the robot will not be in accordance with the established values for the virtual coefficients of elasticity, viscosity, and inertia, and the motion may be slowed at times.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function ForceControlTest FSet FCS1.Orientation, FG_TOOL FSet FC1.CoordinateSystem, FCS1 FSet FC1.Enabled, False, True, True, False, False, False FSet FC1.Fy, 0.01, 4, 5 FSet FC1.Fz, 0.01, 4, 5 FSet FC1.TargetForces, 0, 10, -10, 0, 0, 0 FCKeep FC1, 5\nFend"
+  ]
+}

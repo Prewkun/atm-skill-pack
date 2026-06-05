@@ -1,0 +1,12 @@
+{
+  "title": "Build command (Project menu)",
+  "file": "project_build_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Build command (Project menu)\n\nBuild command (Project menu)\n : Ctrl+B\n\nThis command builds the current project so that it can be executed.\n\nThe Build command does the minimum amount of work required to bring the project up to date in the robot controller. For example, if a change was made to one program file in the project, then Build will compile the changed file, link it with the remaining object files (if they exist), and send the new files to the controller.\n\nNOTE: When sending the required files to the compact vision, make sure to rebuild not build.\n\nDuring the build process, the status window displays each step of the build. If there are any errors, they will be displayed on the status window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

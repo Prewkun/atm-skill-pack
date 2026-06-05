@@ -1,0 +1,14 @@
+{
+  "title": "InBCD Function",
+  "file": "cmd_inbcd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "InBCD(\n\t\t\tportNumber\n\t\t\t)",
+  "parameters": "portNumber\tInteger number between 0-63 representing one of the 64 input groups (each group contains 8 inputs) which make up the 512 inputs available with EPSON RC+ 7.0.",
+  "description": "InBCD simultaneously reads 8 input lines using the BCD format. The 512 user inputs are broken into 64 groups of 8. The portNumber parameter for the InBCD instruction defines which group of 8 inputs to read where portNumber = 0 means inputs 0-7, portNumber = 1 means inputs 8-15, etc.\n\nThe resulting value of the 8 inputs is returned in BCD format. The return value may have 1 or 2 digits between 0 and 99. The 1st digit (or 10's digit) corresponds to the upper 4 outputs of the group of 8 outputs selected by portNumber. The 2nd digit (or 1's digit) corresponds to the lower 4 outputs of the group of 8 outputs selected by portNumber.\n\nSince valid entries in BCD format range from 0-9 for each digit, every I/O combination cannot be met. The table below shows some of the possible I/O combinations and their associated return values assuming that portNumber is 0.\n\nInput Settings (Input number)",
+  "notes": "Difference between InBCD and In\n\nThe InBCD and In instructions are very similar in the SPEL language. However, there is one major difference between the two. This difference is shown below:\n\n- The InBCD instruction uses the Binary Coded Decimal format for specifying the return value format for the 8 inputs. Since Binary Coded Decimal format precludes the values of &HA, &HB, &HC, &HD, &HE or &HF from being used, all combinations for the 8 inputs cannot be satisfied.\n\n- The In instruction works very similarly to the InBCD instruction except that In allows the return value for all 8 inputs to be used. (i.e. 0-255 vs. 0-99 for InBCD) This allows all possible combinations for the 8 bit input groups to be read.",
+  "see_also": "In, MemOff, MemOn, MemOut, MemSW, Off, On, OpBCD, Oport, Out, Sw, Wait\n\nInBCD Function Example\n\nSome simple examples from the Command window are as follows:\n\nAssume that inputs 0, 4, 10, 16, 17, and 18 are all On (The rest of the inputs are Off)\n\n> Print InBCD(0)\n\n\t\t11\n\n\t\t> Print InBCD(1)\n\n\t\t04\n\n\t\t> Print InBCD(2)\n\n\t\t07\n\n>",
+  "examples": [
+    "> Print InBCD(0)\n\t\t11\n\t\t> Print InBCD(1)\n\t\t04\n\t\t> Print InBCD(2)\n\t\t07\n\n>"
+  ]
+}

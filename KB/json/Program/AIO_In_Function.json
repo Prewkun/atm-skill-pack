@@ -1,0 +1,14 @@
+{
+  "title": "AIO_In Function",
+  "file": "AIO_In_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_In(IChannel Number)",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.",
+  "description": "AIO_In Function\n\nAIO_In Function",
+  "notes": "",
+  "see_also": "Reads analog value from optional analog I/O input channel.\n\nAIO_InW Function, AIO_Out, AIO_OutW, AIO_Out Function, AIO_OutW Function, AIO_Set, Wait\n\nAIO_In Function Example\n\nFunction main\n\n   Real var1\n\n   var1 = AIO_In(2)  'Acquires input state of analog channel input 2\n\n   If var1 > 5.0 Then\n\n       Go P1\n\n       Go P2\n\n       'Execute other motion command here\n\n       '.\n\n       '.\n\n   Else\n\n       Print \"Error in initialization!\"\n\n       Print \"Sensory Inputs not ready for cycle start\"\n\n       Print \"Please check analog inputs 2.\"\n\n   EndIf\n\nFend",
+  "examples": [
+    "Function main\n   Real var1\n   var1 = AIO_In(2)  'Acquires input state of analog channel input 2\n   If var1 > 5.0 Then\n       Go P1\n       Go P2\n       'Execute other motion command here\n       '.\n       '.\n   Else\n       Print \"Error in initialization!\"\n       Print \"Sensory Inputs not ready for cycle start\"\n       Print \"Please check analog inputs 2.\"\n   EndIf\nFend"
+  ]
+}

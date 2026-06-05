@@ -1,0 +1,16 @@
+{
+  "title": "JointAccuracy Statement",
+  "file": "JointAccuracy_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) JointAccuracy  jointNumber, settingValue1, settingValue2, settingValue3, settingValue4\n\n(2) JointAccuracy jointNumber",
+  "parameters": "jointNumber\tSpecifies the joint number.\n\nsettingValue1\tSpecifies the first setting value (integer) as a numerical value. The value is within a range of 0 to 2000.\n\nsettingValue2\tSpecifies the second setting value (integer) as a numerical value. The value is within a range of 0 to 999.\n\nsettingValue3\tSpecifies the third setting value (integer) as a numerical value. The value is within a range of 0 to 2000.\n\nsettingValue4\tSpecifies the fourth setting value (integer) as a numerical value. The value is within a range of 0 to 999.\n\nJoints compatible with joint accuracy offset settings vary from manipulator to manipulator. Setting joint accuracy offset settings on a joint that does not support it will result in an error. For more information about compatible joints, refer to the Manipulator manual.",
+  "description": "JointAccuracy sets the offset value for the specified joint. Setting the offset value properly will improve robot trajectory accuracy.",
+  "notes": "Do not change JointAccuracy unless absolutely necessary.\n\nJointAccuracy contains factory settings that have been precisely set. Changing this value unnecessarily may adversely impact trajectory accuracy. JointAccuracy is set automatically when running the calibration wizard. Do not change JointAccuracy unless absolutely necessary.\n\nUsing Calib and Hofs\n\nRunning the Calib and Hofs commands when JointAccuracy is set will return the joint accuracy offset value for the altered joint to \"0\". To change the Hofs value without changing the JointAccuracy offset value, run HofsJointAccuracy.",
+  "see_also": "HofsJointAccuracy\n\nCalib\n\nHofs\n\nJointAccuracy Statement Example\n\nThe following is a simple example using the Command window. In this example, the joint accuracy offset value for Joint #1 is set to \"1000\" for the first setting value, \"420\" for the second setting value, \"100\" for the third setting value, and \"240\" for the fourth setting value. Once set, the current joint accuracy offset value is displayed for Joint #1.\n\n> JointAccuracy 1, 1000, 420, 100, 240\n\n> JointAccuracy 1\n\n1000, 420, 100, 240\n\n>",
+  "examples": [
+    "> JointAccuracy 1, 1000, 420, 100, 240",
+    "> JointAccuracy 1\n1000, 420, 100, 240",
+    ">"
+  ]
+}

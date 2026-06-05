@@ -1,0 +1,12 @@
+{
+  "title": "Ethernet Hardware",
+  "file": "Ethernet_Hardware",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Ethernet Hardware\n\nEthernet Hardware\n\nThe Controller includes a built in Ethernet interface with an RJ45 connector accessible from the controller front panel. It supports 10BaseT (10 Mbps) and 10BaseTX (100 Mbps).\n\nYour PC will need a 10BaseT 10/100 adapter to communicate with the Controller via Ethernet.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

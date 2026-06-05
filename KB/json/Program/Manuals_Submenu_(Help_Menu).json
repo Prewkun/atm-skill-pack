@@ -1,0 +1,12 @@
+{
+  "title": "Manuals (Help Menu)",
+  "file": "Manuals_Submenu_(Help_Menu)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Manuals (Help Menu)\n\n[Manuals] (Help Menu)\n\nShows a list of manuals in the browser. The Help Menu Manuals submenu contains selections for each of the manuals in PDF format. These include, the Safety Manual, and manuals for Epson RC+ 8.0, SPEL+ Language Reference, Controller, Robot, and the Options.\n\nNOTE:  Manuals are provided in PDF. To view the manuals, use the PDF viewer included with Windows. You can also install Adobe Acrobat Reader or other PDF viewer.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

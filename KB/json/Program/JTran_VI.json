@@ -1,0 +1,12 @@
+{
+  "title": "JTran VI",
+  "file": "JTran_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Executes a relative joint move.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nJointNumber\tThe specific joint to move.\n\nDistance\tThe distance to move.  Units are in degrees for rotary joints and millimeters for linear joints.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nJTran Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

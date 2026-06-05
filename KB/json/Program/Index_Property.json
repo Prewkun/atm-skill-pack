@@ -1,0 +1,12 @@
+{
+  "title": "Index Property",
+  "file": "Index_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the index number of the vision sequence.",
+  "notes": "The Index property returns the index number of the vision sequence.  The index number of the vision sequence is given automatically at the time of sequence creation.\n\nThe Index value is necessary when running sequences from Extended Remote I/O.",
+  "see_also": "Applies To\n\nVision sequence\n\nObjects Property\n\nCount Property\n\nSequence window",
+  "examples": []
+}

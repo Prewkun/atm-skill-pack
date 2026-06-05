@@ -1,0 +1,14 @@
+{
+  "title": "VDeleteCalibration Statement",
+  "file": "VDeleteCalibration_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "VDeleteCalibration deletes a vision calibration at runtime.",
+  "notes": "Use VDeleteCalibration to delete a vision calibration at runtime.  If the calibration does not exist, no error occurs.\n  Use VSave to save vision settings after deleting the calibration.",
+  "see_also": "VCreateCalibration, VDeleteObject, VDeleteSequence, VSave",
+  "examples": [
+    "VDeleteCalibration \"mycal\""
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PF_ActivePart",
+  "file": "PF_ActivePart",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_ActivePart part ID",
+  "parameters": "part\n\t\t ID\tSpecify\n\t\t the part ID (integer number from 1 to 32).",
+  "description": "In the case of multi-part operation, the first Part ID in PF_Start Statement is the initial Active Part.  When a different part is desired, you can use this command to switch the Active Part.  The system will feed (use the correct vibration settings, supply parts from the hopper etc...) for the Part ID that was specified in the PF_ActivePart Statement.\n\nThe ActivePart is normally set prior to exiting the PF_Robot callback so that the feeding action will be specific to the desired part.\n\nIf no Part Feeding operation has started, this command does not cause anything.\n\nWhen it is not a multipart operation (when only one ID is specified at the time of PF_Start execution),  this command does not cause anything.\n\nWhen you specify an ID that was not used in the Multi-Part Operation,  this command does not cause anything.\n\nCannot be executed from a virtual controller or command window.\n\nPF_ActivePart Example\n\nThis example illustrates how to alternate between Parts 1 and 2 using the PF_ActivePart statement.\n\nFunction PF_Robot(PartID As Integer) As Integer\n Select PartID\n\n   Case 1\n\n      If PF_QueLen(1) > 0 Then\n\n          MemOn PartsToPick1\n\n          Wait MemSw(PartsToPick1) = Off\n\n          PF_ActivePart 2 'Switch to Part 2\n\n      Else\n\n          PF_ActivePart 1 'Part 1 is still needed\n\n      EndIf\n\n  Case 2\n\n      If PF_QueLen(2) > 0 Then\n\n         MemOn PartsToPick2\n\n         Wait MemSw(PartsToPick2) = Off\n\n         PF_ActivePart 1 'Switch to Part 1\n\n     Else\n\n         PF_ActivePart 2 'Part 2 is still needed\n\n    EndIf\n Send\n\n   PF_Robot = PF_CALLBACK_SUCCESS\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function PF_Robot(PartID As Integer) As Integer Select PartID\n   Case 1\n      If PF_QueLen(1) > 0 Then\n          MemOn PartsToPick1\n          Wait MemSw(PartsToPick1) = Off\n          PF_ActivePart 2 'Switch to Part 2\n      Else\n          PF_ActivePart 1 'Part 1 is still needed\n      EndIf Case 2\n      If PF_QueLen(2) > 0 Then\n         MemOn PartsToPick2\n         Wait MemSw(PartsToPick2) = Off\n         PF_ActivePart 1 'Switch to Part 1\n     Else\n         PF_ActivePart 2 'Part 2 is still needed\n    EndIf Send\n   PF_Robot = PF_CALLBACK_SUCCESS\nFend"
+  ]
+}

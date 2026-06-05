@@ -1,0 +1,14 @@
+{
+  "title": "Power Function",
+  "file": "power_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Power",
+  "parameters": "",
+  "description": "Power Function\n\nPower Function\n\nSee_Also Example\n\nReturns status of power.",
+  "notes": "",
+  "see_also": "Power Statement\n\nPower Function Example\n\nIf Power = 0 Then\n\n\t\t  Print \"Low Power Mode\"\n\n\t\tEndIf",
+  "examples": [
+    "If Power = 0 Then\n\t\t  Print \"Low Power Mode\"\n\t\tEndIf"
+  ]
+}

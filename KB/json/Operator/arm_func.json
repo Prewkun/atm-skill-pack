@@ -1,0 +1,14 @@
+{
+  "title": "Arm Function",
+  "file": "arm_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Arm",
+  "parameters": "",
+  "description": "Arm Function\n\nArm Function\n\nSee_Also Example\n\nReturns the current arm number for the current robot.",
+  "notes": "",
+  "see_also": "Arm Statement\n\nArm Function Example\n\nPrint \"The current arm number is: \", Arm",
+  "examples": [
+    "Print \"The current arm number is: \", Arm"
+  ]
+}

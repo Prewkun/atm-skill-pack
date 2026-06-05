@@ -1,0 +1,12 @@
+{
+  "title": "The Title Bar",
+  "file": "VG_The_Title_Bar",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Title Bar\n\nThe Title Bar\n\nThe Vision Guide window has a title bar that includes the title of the window, the camera type and resolution, and the name of the current sequence.  The vision sequence name is put in brackets.  A sample title bar is shown below.  It shows that we are running Vision Guide 8.0 with a Compact Vision and currently using the \"BlobTut\" vision sequence.\n\nNOTE:\n\nIt is important to understand the difference between the main title bar for the Epson RC+ 8.0 environment and the Vision Guide title bar.  The Epson RC+ 8.0 title bar contains the name of the current project while the Vision Guide window title bar contains the name of the current sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

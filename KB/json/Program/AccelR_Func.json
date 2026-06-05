@@ -1,0 +1,14 @@
+{
+  "title": "AccelR Function",
+  "file": "AccelR_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AccelR(paramNumber)",
+  "parameters": "paramNumber\tInteger expression which can have the\n\t\t following values:\n\n1: acceleration\n\t\t specification value\n\n2: deceleration\n\t\t specification value",
+  "description": "AccelR Function\n\nAccelR Function",
+  "notes": "",
+  "see_also": "Returns specified tool rotation acceleration value.\n\nAccelR Statement\n\nAccelR Function",
+  "examples": [
+    "Real currAccelR, currDecelR\n' Get current accel and decel\ncurrAccelR = AccelR(1)\ncurrDecelR = AccelR(2)"
+  ]
+}

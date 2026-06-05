@@ -1,0 +1,12 @@
+{
+  "title": "SearchWinTop Property",
+  "file": "SearchWinTopProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the upper most position of the area to be searched. (i.e. the Search Window top side)",
+  "notes": "The SearchWinTop property is available for the Blob, Correlation, Geometric, and ImageOp objects.  Each of these object types have similar rectangular Search Windows used to define the area to search within.  The SearchWinTop property is set automatically when the user drags the upper horizontal window handle of a specific object's search window or moves an object's search window vertically.  However, the Top position of an object's search window can also be moved by simply entering a new value in the SearchWinTop property.\n\nThere are cases where the user may want to position the search window dynamically and for that reason the SearchWinTop property can also be set from the SPEL+ Language.\n\nSee Also: SearchWinTop Property\n\nSearchWinHeight Property\n\nSearchWinLeft Property\n\nSearchWinWidth Property\n\nThe Search Window\n\nWindow Property\n\nVision Objects: SearchWinTop Property\n\nBlob\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Blob, Correlation, Geometric, ImageOp",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Working with files",
+  "file": "Working_with_files",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Working with files\n\nWorking with files\n\nSPEL+ has several commands for handling files.\n\nKeyword\tDescription\n\nAOpen\tOpens\n\t\t a file for append.\n\nBOpen\tOpens\n\t\t a file for binary access.\n\nClose\tCloses\n\t\t a file.\n\nFileExists\tChecks\n\t\t if a file exists.\n\nFolderExists\tCheck\n\t\t if a folder exists.\n\nFreeFile\tReturns\n\t\t an unused file handle.\n\nInput\tInputs\n\t\t one or more variables from a file\n\nKill\tDeletes\n\t\t a file.\n\nLine Input\tInputs\n\t\t line from a file.\n\nRead\tReads\n\t\t a specified number of bytes into a string variable.\n\nReadBin\tReads\n\t\t binary data.\n\nROpen\tOpens\n\t\t a file for reading.\n\nSeek\tSets\n\t\t the current file pointer.\n\nFlush\tWrites\n\t\t data buffer to disk.\n\nWOpen\tOpens\n\t\t a file for writing.\n\nWrite\tWrites\n\t\t out a variable at the current file pointer without appending a\n\t\t line terminator.\n\nWriteBin\tWrites\n\t\t binary data.\n\nBefore using a file you must open it with one of the following commands: AOpen, Bopen, ROpen, and WOpen. And specify a file number in the Open statement. File number can be 30 ~ 63.\n\nHere is an example to save a text file and read it.\n\nString data$(10)\n\nFunction SaveData()\n\n  Integer fNum, i\n\n  fNum = FreeFile\n\n  WOpen \"c:\\mydata\\data.txt\" As #fNum\n\n  ' Store the count\n\n  Print #fNum, UBound(data$)\n\n  For i = 0 To UBound(data$)\n\n    Print #fNum, data$(i)\n\n  Next i\n\n  Close #fNum\n\nFend\n\nFunction LoadData()\n\n  Integer fNum, i\n\n  fNum = FreeFile\n\n  ROpen \"c:\\mydata\\data.txt\" As #fNum\n\n  Input #fNum, i\n\n  Redim data$(i)\n\n  For i = 0 To UBound(data$)\n\n    Input #fNum, data$(i)\n\n  Next i\n\n  Close #fNum\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "String data$(10)\n\nFunction SaveData() Integer fNum, i fNum = FreeFile WOpen \"c:\\mydata\\data.txt\" As #fNum ' Store the count Print #fNum, UBound(data$) For i = 0 To UBound(data$)\n    Print #fNum, data$(i) Next i Close #fNum\nFend\n\nFunction LoadData() Integer fNum, i fNum = FreeFile ROpen \"c:\\mydata\\data.txt\" As #fNum Input #fNum, i Redim data$(i) For i = 0 To UBound(data$)\n    Input #fNum, data$(i) Next i Close #fNum\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "FGGet Statement",
+  "file": "FGGet_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Acquires a result of a force guide sequence or force guide object.",
+  "notes": "Acquires a specified result.\n\nIf a result other than EndStatus is specified while the target force guide sequence or force guide object has not been executed by FGRun, an error will occur.",
+  "see_also": "FGRun",
+  "examples": [
+    "Function FGGetTest\n     Integer iResult\n     Motor On\n     FGRun Sequence1                    ' Execution of a force guide sequence\n     FGGet Sequence1.EndStatus, iResult ' Acquisition of results\n     Print iResult\nFend"
+  ]
+}

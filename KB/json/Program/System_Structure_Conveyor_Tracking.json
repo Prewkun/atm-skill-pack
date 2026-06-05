@@ -1,0 +1,12 @@
+{
+  "title": "System Structure Conveyor Tracking",
+  "file": "System_Structure_Conveyor_Tracking",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Structure Conveyor Tracking\n\nSystem Structure\n\nStructure of Vision Conveyor Tracking System\n\nThe structure of a vision conveyor tracking system is shown in the figures below.\n\nNot to reduce the picking accuracy, you need to set the same timing for the camera to search for parts on the conveyor and for the encoder on the conveyor to latch position. It is also recommended to use a photoelectric sensor to match the timing of imaging a moving workpiece.\n\nThere are hardware trigger and software trigger as trigger methods for latching the camera image and encoder count.\n\nHardware trigger :\tStructure that inputs from the photoelectric sensor or controller I/O to the trigger terminal of the camera and the encoder latch terminal of the PG board\n\nAsynchronous reset mode\n\nSoftware trigger :\tStructure without trigger signal\n\nThe work is imaged by executing the vision sequence, and the SPEL command that latches the encoder count is executed.\n\nVision Conveyor Tracking Structure Example (using a hardware trigger)\n\nTrigger signal that latches the camera image and encoder count is output from the controller I/O\n\nVision Conveyor Tracking Structure Example 2 (using a hardware trigger)\n\nTrigger signal that latches the camera image and encoder count is output from the photoelectric sensor\n\nVision Conveyor Tracking Structure Example 3 (using a software trigger)\n\nTrigger signal is not be used.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

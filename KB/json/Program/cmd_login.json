@@ -1,0 +1,15 @@
+{
+  "title": "Logln Statement",
+  "file": "cmd_login",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "LogIn logID, password",
+  "parameters": "logID\tString expression\n\t\t that contains user login id.\n\npassword\tString expression\n\t\t that contains user password.",
+  "description": "You can utilize Epson RC+ security in your application.\n  For example, you can display a menu that allows different users to log into the system.  Each type of user can have its own security rights.  For more details on security, see the Epson RC+ User's Guide.\n\nWhen you are running programs in the development environment, the user before programs are started will be restored after programs stop running.\n\nWhen running the Operator Window in Auto Mode, the application is logged in as a guest user, unless Auto LogIn is enabled, in which case the application is logged in as the current Windows user if such user has been configured in the Epson RC+ system.\n\nNote\n\nThis command will only work if the Security option is installed.",
+  "notes": "",
+  "see_also": "GetCurrentUser$\n\nLogIn Statement",
+  "examples": [
+    "Integer errCode",
+    "errCode = LogIn(\"operator\", \"oprpass\")"
+  ]
+}

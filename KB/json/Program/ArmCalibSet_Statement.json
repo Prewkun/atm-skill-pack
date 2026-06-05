@@ -1,0 +1,14 @@
+{
+  "title": "ArmCalibSet Statement",
+  "file": "ArmCalibSet_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) ArmCalibSet setValue1, setValue2, setValue3\n\n(2) ArmCalibSet",
+  "parameters": "setValue\tSCARA robots\n\n1\tHorizontal distance from Joint #1 to Joint #2 (mm)\n\n2\tHorizontal distance from Joint #2 to orientation center (mm)\n\n3\tJoint #2 angle offset ()",
+  "description": "ArmCalibSet sets parameters related to the arm length and joint offsets. Distance accuracy can be increased by using the length and joint offset of each arm that were precisely calculated at the factory and configuring settings using this command.\n\nRobot parameter data is stored in the compact flash memory in the controller. Therefore, writing to the compact flash memory occurs when executing this command. Frequent writing to the compact flash memory affects the lifetime of the compact flash memory. We recommend limiting the use of this command at a minimum.\n\nNote\n\nDo not use ArmCalibSet unless absolutely necessary.\n\nArmCalibSet contains factory settings that have been precisely set. (When purchasing the Arm Length Calibration Option)\n\nAccidentally changing these settings adversely affects distance accuracy and trajectory accuracy. Do not change ArmCalibSet unless absolutely necessary.",
+  "notes": "",
+  "see_also": "ArmCalib\n\nArmCalibClr\n\nArmCalibDef\n\nArmCalibSet Statement Example\n\nThe following example is executed from the Command window.\n\n> ArmCalibSet 299.989, 250.001, 0.012",
+  "examples": [
+    "> ArmCalibSet 299.989, 250.001, 0.012"
+  ]
+}

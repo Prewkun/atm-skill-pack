@@ -1,0 +1,12 @@
+{
+  "title": "Tracking Abort Line",
+  "file": "Tracking_Abort_Line",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Tracking Abort Line\n\nTracking Abort Line\n\nThe tracking abort lines cancel or abort the robot's tracking motion in following cases:\n\n- When it is predicted before the robot starts tracking that it catches up the work piece beyond the abort tracking line.\n\n- When the work piece passes the tracking abort line while the robot performs the tracking motion.  At this time, there is a function to detect whether the Z axis is descending for picking and to ascend in the height direction for safety.  This height can be set arbitrarily.\n\nWhen you set the tracking abort line, the out of motion range error will not occur during conveyor tracking.\n\nNote:  If errors such as the out of motion range error occurs even though the tracking abort line is set, it is possible that the robot motion range has been reached during deceleration. Set the line more upstream than the current position.\n\nThe circular conveyor does not support the setting of the tracking abort line.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

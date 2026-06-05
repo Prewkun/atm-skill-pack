@@ -1,0 +1,17 @@
+{
+  "title": "SpeedS Statement",
+  "file": "speeds_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) SpeedS speed, [departSpeed], [approSpeed ]\n\n(2) SpeedS",
+  "parameters": "speed\tReal expression representing the CP motion speed in units of mm/sec.\n\ndepartSpeed\tOptional.  Real expression representing the Jump3 depart speed in units of mm/sec.\n\napproSpeed\tOptional.  Real expression representing the Jump3 approach speed in units of mm/sec.\n\nValid entries range of the parameters:\n\nOther than N series: 0.1 to 2000\n\nN series: 0.1 to 1120",
+  "description": "SpeedS specifies the tool center point speed for use with all the continuous path motion instructions.  This includes motion caused by the Move and Arc instructions.\n\nSpeedS is specified in mm/Sec which represents a Tool Center Point velocity for the robot arm.  Valid entries for SpeedS range is 1-2000 for 6-axis robots and 1-1120 for other robots.  The default value varies from robot to robot. See the robot manual for the default SpeedS values for your robot model.  This is the initial SpeedS value set up automatically by the controller each time main power is turned on.\n\nThe SpeedS value initializes to its default value when any one of the following is performed:\n\nController Startup\n\nMotor On\n\nSFree, SLock, Brake\n\nReset, Reset Error\n\nStop button or Quit All stops tasks\n\nIn Low Power Mode, the effective SpeedS setting is lower than the default value.  If a higher speed is specified directly (from the command window) or in a program, the speed is set to the default value.  In High Power Mode, the motion SpeedS setting is the value of SpeedS.\n\nIf higher speed motion is required, set high power mode using Power High and close the safety door.  If the safety door is open, the SpeedS settings will be changed to their default value.\n\nIf SpeedS is executed when the robot is in low power mode, the following message is displayed.  The following example shows that the robot will move at the default speed (50) because it is in Low Power Mode even though the speed setting value by SpeedS is 800.\n\n> SpeedS 800\n\nLow Power State: SpeedS is limited to 50\n\n>\n\n> SpeedS\n\nLow Power State: SpeedS is limited to 50\n\n800\n\n>",
+  "notes": "",
+  "see_also": "Robot motion commands\n\nAccelS\n\nArc\n\nJump3, Jump3CP\n\nMove\n\nSpeed\n\nSpeedS Statement Example\n\nSpeedS can be used from the command window or in a program. Shown below are simple examples of both methods.\n\nFunction speedtst\n\n  Integer slow, fast, i\n\n  slow = 50\n\n  fast = 500\n\n  For i = 1 To 10\n\n    SpeedS slow\n\n    Move P0\n\n    Move P1\n\n    SpeedS fast\n\n    Move P0\n\n    Move P1\n\n  Next i\n\nFend\n\nFrom the command window the user can also set SpeedS values.\n\n> speeds 1000\n\n> speeds 500\n\n> speed 30 'set point to point speed\n\n> go p0 'point to point move\n\n> speeds 100 'set straight line speed in mm/Sec\n\n> move P1 'move in straight line",
+  "examples": [
+    "> SpeedS 800\nLow Power State: SpeedS is limited to 50\n>\n> SpeedS\nLow Power State: SpeedS is limited to 50\n800\n>",
+    "Function speedtst Integer slow, fast, i slow = 50 fast = 500 For i = 1 To 10\n    SpeedS slow\n    Move P0\n    Move P1\n    SpeedS fast\n    Move P0\n    Move P1 Next i",
+    "Fend",
+    "> speeds 1000\n> speeds 500\n> speed 30 'set point to point speed\n> go p0 'point to point move\n> speeds 100 'set straight line speed in mm/Sec\n> move P1 'move in straight line"
+  ]
+}

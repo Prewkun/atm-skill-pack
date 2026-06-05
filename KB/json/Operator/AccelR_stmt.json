@@ -1,0 +1,14 @@
+{
+  "title": "AccelR Statement",
+  "file": "AccelR_stmt",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "(1) AccelR accel , [ decel ]\n\n(2) AccelR",
+  "parameters": "accel\tReal\n\t\t expression in degrees / second2.\n\ndecel\tReal\n\t\t expression in degrees / second2.\n\nValid entries range of the parameters\n\naccel\n\t\t / decel (deg/sec2)\n\nVT\n\t\t series\t0.1\n\t\t to 1000\n\nC\n\t\t series, N series, T series,\n\t\t G series, GX series, RS series,\n\nLS-B\n\t\t series\t0.1\n\t\t to 5000",
+  "description": "AccelR is effective when the ROT modifier is used in the Move, Arc, Arc3, BMove, TMove, and Jump3CP motion commands.\n\nThe AccelR value initializes to the default values when any one of the following conditions occurs:\n\nController Startup\n\n\t\tMotor On\n\n\t\tSFree, SLock, Brake\n\n\t\tReset, Reset Error\n\n\t\tStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "Sets or displays the acceleration and deceleration values for tool rotation control of CP motion.\n\nArc, Arc3, BMove, Jump3CP, Power, SpeedR, TMove\n\nAccelR Statement",
+  "examples": [
+    "AccelR 360, 200"
+  ]
+}

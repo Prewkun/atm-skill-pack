@@ -1,0 +1,12 @@
+{
+  "title": "Rebuild command (Project menu)",
+  "file": "project_rebuild_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Rebuild command (Project menu)\n\nRebuild command (Project menu)\n\nCtrl+Shift+B\n\nRebuilds the entire current projects. All program files are re-compiled, linked, and sent to the controller. All point files in the project are sent to the controller.\n\nNOTE: If using the camera of the compact vision, rebuild to send the required files to the compact vision.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

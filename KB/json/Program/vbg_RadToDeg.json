@@ -1,0 +1,16 @@
+{
+  "title": "RadToDeg Method, Spel Class",
+  "file": "vbg_RadToDeg",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function RadToDeg (Radians As Double ) As Double",
+  "parameters": "Radians\tDouble expression containing the radians to convert into degrees.",
+  "description": "Converts Radians into Degrees.",
+  "notes": "",
+  "see_also": "DegToRad\n\nRadToDeg Example\n\nVB Example:\n\nDim deg As Double\n\ndeg = m_spel.RadToDeg(1)\n\nC# Example:\n\ndouble deg;\n\ndeg = m_spel.RadToDeg(1);",
+  "examples": [
+    "Dim deg As Double\n\ndeg = m_spel.RadToDeg(1)",
+    "double deg;",
+    "deg = m_spel.RadToDeg(1);"
+  ]
+}

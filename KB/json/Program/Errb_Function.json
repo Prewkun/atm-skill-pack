@@ -1,0 +1,32 @@
+{
+  "title": "Errb Function",
+  "file": "Errb_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Errb",
+  "parameters": "taskNumber\tOptional.\n\t\t Integer expression representing a task number from 0-32.  0\n\t\t specifies the current task.",
+  "description": "Errb finds and returns the robot number where the error occurred.  If the robot is not the cause of the error, \"0\" will be returned.",
+  "notes": "",
+  "see_also": "Era\n\nErf$\n\nErl\n\nErrMsg$\n\nErt\n\nOnErr\n\nErrb Function Example\n\nFunction main\n\n  OnErr Goto eHandler\n\n  Do\n\n    Call PickPlace\n\n  Loop\n\n  Exit Function\n\neHandler:\n\n  Print \"The Error code is \", Err\n\n  Print \"The Error Message is \", ErrMsg$(Err)\n\n  errTask = Ert\n\n  If errTask > 0 Then\n\n    Print \"Task number in which error occurred is \", errTask\n\n    Print \"The line where the error occurred is Line \", Erl(errTask)\n\n    If Era(errTask) > 0 Then\n\n      Print \"Joint which caused the error is \", Era(errTask)\n\n    EndIf\n\n  Print \"Robot number in which error occurred is \", errb\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function main",
+    "OnErr Goto eHandler",
+    "Do",
+    "Call PickPlace",
+    "Loop",
+    "Exit Function",
+    "eHandler:",
+    "Print \"The Error code is \", Err",
+    "Print \"The Error Message is \", ErrMsg$(Err)",
+    "errTask = Ert",
+    "If errTask > 0 Then",
+    "Print \"Task number in which error occurred is \", errTask",
+    "Print \"The line where the error occurred is Line \", Erl(errTask)",
+    "If Era(errTask) > 0 Then",
+    "Print \"Joint which caused the error is \", Era(errTask)",
+    "EndIf",
+    "Print \"Robot number in which error occurred is \", errb",
+    "EndIf",
+    "Fend"
+  ]
+}

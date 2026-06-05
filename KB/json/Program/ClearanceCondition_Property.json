@@ -1,0 +1,12 @@
+{
+  "title": "ClearanceCondition Property",
+  "file": "ClearanceCondition_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies how to judge clearance.",
+  "notes": "ClearanceCondition is used to judge whether clearance is OK when CheckClearanceFor specifies an object.  When ClearanceCondition is Found and the object result is found, then ClearanceOK is set to True.  When ClearanceCondition is NotFound and the object result is not found, then ClearanceOK is set to True.\n\nSee Also: ClearanceConditionProperty\n\nCheckClearanceFor Property, ClearanceOK Result",
+  "see_also": "Applies To\n\nVision Objects: Arc Finder, Blob, Correlation, Defect Finder, Edge, Geometric, Line Finder, Polar",
+  "examples": []
+}

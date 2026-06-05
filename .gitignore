@@ -1,0 +1,19 @@
+# Generated .prg output files
+output/*.prg
+
+# Environment / secrets
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binary — rebuild with: python scripts/kb_cleanup.py
+# Uncomment next line to exclude the pickle and force rebuild on clone
+# KB/spel_search_index.pkl

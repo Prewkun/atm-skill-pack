@@ -1,0 +1,12 @@
+{
+  "title": "Vision Object Definition",
+  "file": "VisionObjectDefinition",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Object Definition\n\nVision Object Definition\n\nA vision object is a vision tool which can be applied to an image.  At first glance many vision developers think vision objects are just another name for the algorithms which we support for Vision Guide.  However, after using Vision Guide you will find that the vision algorithms are only one part of what defines a vision object. Vision objects are like containers that hold the information required to use a specific Vision algorithm.  The unique manner with which this data can be easily manipulated and examined (through properties and results) is what makes vision objects so powerful and allows users to develop new vision applications so much more quickly than with other vision systems.\n\nSome of the vision object tools supported include: Correlation Search, Blob Analysis, Polar Search, Edge Detection, Line Creation, Points, and Frames.  All vision objects can be executed (applied to the current Image) and all return results such as how much time the vision object took to execute, position information, angle information, and whether or not the vision object was even found.  Refer to each individual vision object explanation later in this section for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

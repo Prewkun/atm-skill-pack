@@ -1,0 +1,12 @@
+{
+  "title": "ModelColorTol Property",
+  "file": "ModelColorTol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets / sets the color of a model.",
+  "notes": "The ModelColorTol property is used to set the color tolerance of a model at runtime.\n\nSee Also: ModelColorTol Property\n\nModelColor Property\n\nVision Objects: ModelColorTol Property\n\nColorMatch\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: ImageOp",
+  "examples": []
+}

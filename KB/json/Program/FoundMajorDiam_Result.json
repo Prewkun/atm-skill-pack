@@ -1,0 +1,12 @@
+{
+  "title": "FoundMajorDiam Result",
+  "file": "FoundMajorDiam_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns length of the major axis of the ellipse detected by ArcFinder.",
+  "notes": "Returns length of the major axis of the ellipse detected by ArcFinder in millimeters.  To obtain the value in pixels, use the PixelMajorDiam result.\n\nSee Also: FoundMajorDiam Result\n\nArcSearchType Property\n\nFoundMinorDiam Result\n\nPixelMajorDiam Result\n\nPixelMinorDiam Result\n\nVision Objects: FoundMajorDiam Result\n\nArcFinder",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder",
+  "examples": []
+}

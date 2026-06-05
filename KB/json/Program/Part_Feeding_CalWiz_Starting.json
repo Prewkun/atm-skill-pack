@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Starting",
+  "file": "Part_Feeding_CalWiz_Starting",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Starting\n\nStarting the Wizard\n\nClick the <Calibration> button to open the dialog shown below.\n\nIf you are performing calibration for the first time, Part Area calibration is mandatory and Shift calibration is mandatory if a pick region other than Anywhere has been selected.\n\nFor subsequent calibrations, you can select specific items to calibrate for.\n\nFor more details, refer to Recalibrating the Feeder.\n\nNote:  Flip & Separation Calibration is optional but recommended.  The auto-calibration attempts to find the optimal vibration parameters for the part.  If the calibration cannot successfully determine the correct vibration parameters, you will see the following Calibration Error -\n\nWhen this error occurs, you will have to manually adjust the vibration parameters from the Calibration page.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

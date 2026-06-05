@@ -1,0 +1,12 @@
+{
+  "title": "Armset VI",
+  "file": "Armset_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines an auxiliary robot arm.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nArmNumber\tInteger number: Valid range from 1-15.\n\nParam1\t(For SCARA Robots) The horizontal distance from the center line of the elbow joint to the center line of the new orientation axis. (I.E. the position where the new auxiliary arm's orientation axis center line is located.)\n\n(For Cartesian Robots) X axis direction position offset from the original X position specified in mm.\n\nParam2\t(For SCARA Robots) The offset (in degrees) between the line formed between the normal Elbow center line and the normal orientation Axis center line and the line formed between the new auxiliary arm elbow center line and the new orientation axis center line. (These 2 lines should intersect at the elbow center line and the angle formed is the Param2.)\n\n(For Cartesian Robots) Y axis direction position offset from the original Y position specified in mm.\n\nParam3\t(For SCARA & Cartesian Robots) The Z height offset difference between the new orientation axis center and the old orientation axis center. (This is a distance.)\n\nParam4\t(For SCARA Robots) The distance from the shoulder center line to the elbow center line of the elbow orientation of the new auxiliary axis.\n\n(For Cartesian Robots) This is a dummy parameter (Specify 0)\n\nParam5\t(For SCARA & Cartesian Robots) The angular offset (in degrees) for the new orientation axis vs. the old orientation axis.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nArmSet Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

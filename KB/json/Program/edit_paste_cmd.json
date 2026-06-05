@@ -1,0 +1,12 @@
+{
+  "title": "Paste command (Edit menu)",
+  "file": "edit_paste_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Paste command (Edit menu)\n\nPaste Command (Edit Menu)\n : Ctrl+V\n\nPuts the contents of the Clipboard into the currently active document starting at the insertion point.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

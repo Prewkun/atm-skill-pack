@@ -1,0 +1,12 @@
+{
+  "title": "Frame Object Description",
+  "file": "FrameObjectDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Frame Object Description\n\nFrame Object Description\n\nFrame objects provide a type of dynamic positioning reference for vision objects. Once a Frame object is defined other vision objects can be positioned with respect to that Frame. This proves useful for a variety of situations. It also helps reduce application cycle time because once a rough position is found and a Frame defined, the other vision objects which are based on that Frame object need not have large search windows. (Reducing the size of search windows helps reduce vision processing time.)\n\nFrame objects are best used when there is some type of common reference pattern on a part (such as fiducials on a printed circuit board) which can then be used as a base position on which other vision objects search window\n\nlocations are based.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

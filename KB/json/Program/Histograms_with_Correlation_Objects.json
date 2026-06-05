@@ -1,0 +1,12 @@
+{
+  "title": "Histograms with Correlation Objects",
+  "file": "Histograms_with_Correlation_Objects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Histograms with Correlation Objects\n\nHistograms with Correlation Objects\n\nFigure below shows the [Histogram] dialog box that was generated for the Corr01 object.  Notice that it shows the spread of pixels over the various gray levels very nicely so that we can see how the image is dispersed.  You can easily see that there are a lot more light pixels than dark pixels which is true since most of the image in 8.2 Example of Histograms is the gray background and not the dark rings.\n\nExample Histogram for Correlation object \"Corr01\"",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

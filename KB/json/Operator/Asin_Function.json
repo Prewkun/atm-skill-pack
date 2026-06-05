@@ -1,0 +1,14 @@
+{
+  "title": "Asin Function",
+  "file": "Asin_Function",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Asin(number)",
+  "parameters": "number\tNumeric\n\t\t expression representing the sine of an angle.",
+  "description": "Asin returns the arcsine of the numeric expression.\n  Values range is from -1 to 1.  The value returned by Asin will range from -PI / 2 to PI / 2 radians.  If number is -1 or 1, an error occurs.\n\nTo convert from radians to degrees, use the RadToDeg function.",
+  "notes": "",
+  "see_also": "Returns the arcsine of a numeric expression.\n\nAbs, Acos, ATan, ATan2, Cos, DegToRad, RadToDeg, Sgn, Sin, Tan, Val\n\nAsin Function Example\n\nFunction asintest\n\n  Double x\n\n  x = Sin(DegToRad(45))\n\n  Print \"Asin of \", x, \" is \", Asin(x)\n\nFend",
+  "examples": [
+    "Function asintest Double x x = Sin(DegToRad(45)) Print \"Asin of \", x, \" is \", Asin(x)\nFend"
+  ]
+}

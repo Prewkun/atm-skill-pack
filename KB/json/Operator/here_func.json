@@ -1,0 +1,14 @@
+{
+  "title": "Here Function",
+  "file": "here_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Here",
+  "parameters": "",
+  "description": "Use Here to retrieve the current position of the current manipulator.",
+  "notes": "",
+  "see_also": "Here Statement\n\nHere Function Example\n\nP1 =\n\t\t\t\tHere",
+  "examples": [
+    "P1 =\n\t\t\t\tHere"
+  ]
+}

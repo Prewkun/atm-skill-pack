@@ -1,0 +1,12 @@
+{
+  "title": "Step 4: Running the Frame Object and Examining the Results",
+  "file": "Step4_RunningtheFrameObjectandExaminingtheResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 4: Running the Frame Object and Examining the Results\n\nStep 4: Running the Frame Object and Examining the Results\n\nTo run the Frame object, simply do the following:\n\nClick the [Run] button of the object on the execution panel.   If either the OriginPoint or YAxisPoint properties are not Screen, then the respective objects will be run first.  For example, if the OriginPoint is a Blob object, then the blob will be run first to determine the position of the origin of the frame.\n\nResults for the Frame object will now be displayed.\n  The primary results to examine at this time are:\n\n\tAngle\n\t - The angle of the frame.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

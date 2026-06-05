@@ -1,0 +1,14 @@
+{
+  "title": "Fmag_LPF_Enabled Property",
+  "file": "Fmag_LPF_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Activates/inactivates or returns the resultant force low-pass filter.",
+  "notes": "This activates/inactivates or returns the status of the low-pass filter for resultant force.\n\nWhen the low-pass filter is active, signal noise can be reduced, but the following performance for quick signal changes deteriorates.\n\nThe low-pass filter is used with AvgForces status, PeakForces status, the Force Trigger Function, and Force Monitor, but is not applied to Forces status.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function GetPeakForceTest Real myPeakForce FSet FCS1.Orientation, FG_TOOL FSet FM1.CoordinateSystem, FCS1 FSet FM1.Fmag_Axes, FG_XYZ FSet FM1.Fmag_LPF_Enabled, True FSet FM1.Fmag_LPF_TimeConstant, 0.02 FSet FM1.PeakForceClear, True, True, True, True, True, True, True, True Wait 10 FGet FM1.Fmag_PeakForce, myPeakForce Print myPeakForce\nFend"
+  ]
+}

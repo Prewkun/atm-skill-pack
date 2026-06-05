@@ -1,0 +1,15 @@
+{
+  "title": "EnableEvent Method, Spel Class",
+  "file": "vbg_EnableEvent",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub EnableEvent(Event As SpelEvents, Enabled As Boolean)",
+  "parameters": "Event\tThe event to enable or disable.\n\nEnabled\tSet to True to enable the event and False to disable it.",
+  "description": "Enables certain system events for the EventReceived event.",
+  "notes": "Use the EnableEvent method to enable system events. Several system events are enabled by default. See EventReceived.",
+  "see_also": "EventReceived\n\nEnableEvent Example\n\nVB Example:\n\nWith m_spel\n\n  .EnableEvent(RCAPINet.SpelEvents.ProjectBuildStatus, True)\n\n  .BuildProject()\n\nEnd With\n\nC# Example:\n\nm_spel.EnableEvent(RCAPINet.SpelEvents.ProjectBuildStatus, true);\n\nm_spel.BuildProject();",
+  "examples": [
+    "With m_spel .EnableEvent(RCAPINet.SpelEvents.ProjectBuildStatus, True) .BuildProject()\nEnd With",
+    "m_spel.EnableEvent(RCAPINet.SpelEvents.ProjectBuildStatus, true);\nm_spel.BuildProject();"
+  ]
+}

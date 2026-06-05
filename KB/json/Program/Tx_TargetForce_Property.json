@@ -1,0 +1,14 @@
+{
+  "title": "Tx_TargetForce, Ty_TargetForce, Tz_TargetForce Property",
+  "file": "Tx_TargetForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the target torque in the specified axis in the direction of rotation in the force coordinate system.",
+  "notes": "This sets or returns the value of the target torque in the specified axis in the direction of rotation in the force coordinate system.\n\nWhen using the force control function having set the target torque, there are times that the target force is not achieved even after sufficient time. In such instances, activate the TargetForcePriorityMode when wanting to accurately match the target force. However, when the TargetForcePriorityMode is activated, operation of the robot will not be in accordance with the established values for the virtual coefficients of elasticity, viscosity, and inertia, and the motion may be slowed at times.",
+  "see_also": "Applies To\n\nForce Control\n Ty_TargetForce, Tz_TargetForce Property\n\nTx_Mass, Ty_Mass, Tz_Mass Property",
+  "examples": [
+    "FSet FCS1.Orientation, FG_TOOL\nFSet FC1.CoordinateSystem, FCS1\nFSet FC1.Enabled, False, False, False, True, False, False\nFSet FC1.Tx_Spring, 20000\nFSet FC1.Tx_Damper, 8000\nFSet FC1.Tx_Mass, 10000\nFSet FC1.Tx_TargetForce, 0.1\nFCKeep FC1, 5"
+  ]
+}

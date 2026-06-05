@@ -1,0 +1,14 @@
+{
+  "title": "Position Property",
+  "file": "Position_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets the position of the origin in the force coordinate system for the selected tool coordinate system.",
+  "notes": "This sets the position of the force coordinate system in the tool coordinate system being used using the tool center point as the datum.\n\nWhen the datum coordinate system is changed via the Tool or TLSet commands after the Position property are set, the coordinate system established when setting the Position property is not used, but the coordinate system used when using the force function is applied.",
+  "see_also": "Applies To\n\nForce Coodinate System\n\nOrientation Property",
+  "examples": [
+    "Function PositonTest Double ForceValue(8) FSet FCS1.Position, 100, 0, 0 ' Sets the position FSet FCS1.Orientation, FG_TOOL ' Sets the direction FSet FM1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FM1.ForceSensor, FS1 ' Sets the number of the force sensor to be used Tool 1 ' Selects Tool1 FGet FM1.Forces, ForceValue() ' Acquires sensor reading for the X:100 position of Tool1 Tool 2 ' Selects Tool2 FGet FM1.Forces, ForceValue() ' Acquires sensor reading for the X:100 position of Tool2\nFend"
+  ]
+}

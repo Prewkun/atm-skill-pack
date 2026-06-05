@@ -1,0 +1,12 @@
+{
+  "title": "CaptionCameraXYNote",
+  "file": "CaptionCameraXYNote",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CaptionCameraXYNote\n\nThe CameraX and CameraY results only return values when the current sequence has an associated calibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

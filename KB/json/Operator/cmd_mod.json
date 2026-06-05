@@ -1,0 +1,19 @@
+{
+  "title": "Mod Operator",
+  "file": "cmd_mod",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "number\n\t\t\tMod\n divisor",
+  "parameters": "number\tThe number being divided. (the dividend)\n\ndivisor\tThe number which number is divided by.",
+  "description": "Mod is used to get the remainder after dividing 2 numbers.  The remainder is a whole number. One clever use of the Mod instruction is to determine if a number is odd or even.  The method in which the Mod instruction works is as follows: number is divided by divisor.  The remainder left over after this division is then the return value for the Mod instruction.",
+  "notes": "",
+  "see_also": "Abs\tSgn\n\nAtan\tSin\n\nAtan2\tSqr\n\nCos\tStr$\n\nInt\tTan\n\nNot\tVal\n\nMod Operator Example\n\nThe example shown below determines if a number (var1) is even or odd.  When the number is even the result of the Mod instruction will return a 0.\n  When the number is odd, the result of the Mod instruction will return a 1.\n\nFunction modtest\n\n\t\t  Integer var1, result\n\nPrint \"Enter an integer number:\"\n\n\t\t  Input var1\n\n\t\t  result = var1 Mod 2\n\n\t\t  Print \"Result = \", result\n\n\t\t  If result = 0 Then\n\n\t\t    Print \"Result = \", result\n\n\t\t    Print \"The number is EVEN\"\n\n\t\t  Else\n\n\t\t    Print \"Result = \", result\n\n\t\t    Print \"The number is ODD\"\n\n\t\t  EndIf\n\n\t\tFend\n\nSome other example results from the Mod instruction from the Command window.\n\n> Print 36 Mod 6\n\n> 0\n\n> Print 25 Mod 10\n\n> 5\n\n>",
+  "examples": [
+    "Function modtest\n\t\t  Integer var1, result\n\nPrint \"Enter an integer number:\"\n\t\t  Input var1\n\t\t  result = var1 Mod 2\n\t\t  Print \"Result = \", result\n\t\t  If result = 0 Then\n\t\t    Print \"Result = \", result\n\t\t    Print \"The number is EVEN\"\n\t\t  Else\n\t\t    Print \"Result = \", result\n\t\t    Print \"The number is ODD\"\n\t\t  EndIf\n\t\tFend",
+    "> Print 36 Mod 6",
+    "> 0",
+    "> Print 25 Mod 10",
+    "> 5",
+    ">"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Ethernet Cable CV2",
+  "file": "Ethernet_Cable_CV2",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Ethernet Cable CV2\n\nEthernet Cable\n\nConnect the Ethernet cable for the Ethernet HUB/switch or the Robot Controller to the LAN1 or LAN2 connecter.\n\n- Use Category 5e (with a shield) for the Ethernet cable.\n\n- Install the cable so as not to apply load on the Ethernet connector.\n\n- Put the Ethernet cable as far from the surrounding noise as possible.\n\nConnection example 1:\n\nCV2 and Robot Controller need to be connected in the same subnet.  PC network setting does not need to be set as same as Robot Controller.\n\n(1) Connect an ethernet cable between Robot Controller (LAN) and the CV2.  Both straight and crossing cables can be used.\n\n(2) Connect a USB cable between Robot Controller and PC.\n\nNote:\n  The following connection cannot be used.\n\nConnection example 2\n\nCV2, PC, and Robot Controller need to be connected in the same subnet using a switch or hub.\n\n(1) Connect an Ethernet cable between the CV2 and the Ethernet hub/switch.\n\n(2) Connect an Ethernet cable between the Controller and the Ethernet hub/switch.\n\n(3) Connect an Ethernet cable between the PC and the  Ethernet hub/switch.\n\nWhen the image of the camera is not monitored while operating the robot system, you do not have to connect the EPSON RC+8.0 PC to use the Vision Guide 8.0.\n\nTip:\n\nLAN1 and LAN2 of the CV2 can be functioned as Ethernet switches.  In this connection example, the PC and the Robot Controller can be connected to LAN1 and LAN2 for each.\n\nCaution:\n  You can use the general Ethernet hub or Ethernet switch for connection.\n  However, be sure to a use product complying with the industrial standards or noise resistant Ethernet cable (STP cable).  If you use an office use product or UTP cable, it may cause communication errors and may not offer the proper performance.\n\nConnection",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

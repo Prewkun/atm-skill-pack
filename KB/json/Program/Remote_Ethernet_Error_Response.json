@@ -1,0 +1,12 @@
+{
+  "title": "Remote Ethernet Error Response",
+  "file": "Remote_Ethernet_Error_Response",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Ethernet Error Response\n\nRemote Ethernet Error Response\n\nWhen the Controller can not receive the remote command correctly, the error response is shown in the following format.\n\nFormat: ![Remote command],[Error code] terminator\n\nError Code\tContents\n\n10\tRemote command does not begin with $\n\n11\tRemote command is wrong\n\nLogin is not executed\n\n12\tRemote command format is wrong\n\n13\tLogin command password is wrong\n\n14\tSpecified number to acquire is out of range\n\n(Less than 1 or more than 100)\n\nNumber to acquire is omitted\n\nSpecified a string parameter\n\n15\tParameter is not existed\n\nDimension of parameter is wrong\nElement out of range is called\n\n20\tController is not ready\n\n21\tCannot execute since the Execute is running\n\n99\tSystem error\n\nCommunication error\n\nCommunication Sequence",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

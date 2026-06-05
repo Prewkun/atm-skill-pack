@@ -1,0 +1,12 @@
+{
+  "title": "How to adjust feeder parameters",
+  "file": "How_to_adjust_feeder_parameters",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to adjust feeder parameters\n\nHow to adjust feeder parameters\n\nNote:  Each parameter is pre-set to the appropreate value.\n\nTherefore, you usually do not need to adjust these parameters manually.\n\n1. Vibration amplitude\n\nSetting a higher value speeds up the movement of the part. This reduces the time it takes to distribute and move parts and reduces cycle times.\n\nOn the other hand, if you increase the value too much, parts may jump out of the platform.  The preferred method is to set a minimum value that is determined to be sufficient to move or distribute the part.\n\n2. Vibration duration\n\nSetting a longer time increases the amount of variance and movement of the part. This has the effect of increasing the number of parts that can be obtained in a per feeder operation.\n\nOn the other hand, if you increase the value too much, the cycle time will be longer.  The preferred method is to set a minimum value that is determined to be sufficient to move or distribute the part.\n\n3. Vibration frequency\n\nThis value is preset to the resonant frequency, which is based on the weight of the platform and the spring constant of the feeder. Therefore, when working with heavy parts (such as metal), setting a value that is a little smaller than the set value may improve operation. In addition, changing the frequency when using a custom platform may improve the behavior of the part.\n\nIf you change this value, side effects such as changes in the movement behavior of the part may occur, so be careful when changing the value.\n\nIf the frequency is changed, the vibration noise produced may become louder. This is not a fault.\n\nIf you are concerned about the vibration noise, change the frequency by a few Hz from the frequency at which the noise is loudest (= the resonance frequency).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

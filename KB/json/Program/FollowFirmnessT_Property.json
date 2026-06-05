@@ -1,0 +1,12 @@
+{
+  "title": "FollowFirmnessT Property",
+  "file": "FollowFirmnessT_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the firmness in relation to the force control function for torque in the\n\nfollowing direction during the execution of the force guide object.\n\nThe larger the FollowFirmnessT value, the stronger the force control function for torque\n\nbecomes in the following direction. This slows response to changes in torque, but reduces\n\nvibration.\n\nThe smaller the FollowFirmnessT value, the weaker the force control function for torque\n\nbecomes in the following direction. This speeds up response to changes in torque, but increases vibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

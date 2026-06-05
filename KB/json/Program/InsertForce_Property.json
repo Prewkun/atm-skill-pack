@@ -1,0 +1,12 @@
+{
+  "title": "InsertForce Property",
+  "file": "InsertForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "InsertForce Property\n\nInsertForce Property\n\nThis property sets the pressing force in the direction of motion specified by the InsertOrient property for the force guide object during the execution of the force guide object.\n\nIf the InsertOrient is +Fx, +Fy, or +Fz:\n\nValue (Unit: [N])\n\nMinimum value -50\n\nMaximum value 0\n\nDefault: -10\n\nIf the InsertOrient is -Fx, -Fy, or -Fz:\n\nValue (Unit: [N])\n\nMinimum value 0\n\nMaximum value 50\n\nDefault: -10",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

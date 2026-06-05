@@ -1,0 +1,14 @@
+{
+  "title": "Fx_Damper, Fy_Damper, Fz_Damper Properties",
+  "file": "Fx_Damper_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the virtual coefficient of viscosity for force control in the specified axis for the force in the direction of translation.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Control\n Fy_Damper, Fz_Damper Property\n\nFx_Enabled, Fy_Enabled, Fz_Enabled Property",
+  "examples": [
+    "FSet FCS1.Orientation, FG_TOOL\nFSet FC1.CoordinateSystem, FCS1\nFSet FC1.Enabled, True, False, False, False, False, False\nFSet FC1.Fx_Spring, 0.01\nFSet FC1.Fx_Damper, 4\nFSet FC1.Fx_Mass, 5\nMove CurPos +X(10) FC1"
+  ]
+}

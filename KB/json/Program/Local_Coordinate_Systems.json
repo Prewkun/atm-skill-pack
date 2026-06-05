@@ -1,0 +1,12 @@
+{
+  "title": "Local Coordinate Systems",
+  "file": "Local_Coordinate_Systems",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Local Coordinate Systems\n\nLocal Coordinate Systems\n\nThis is a user defined coordinate system.\n\nWith SPEL+, up to 15 relative positional relationships from the robot coordinate system can be defined as local coordinate systems.\n\nPoint data is assigned with a local number from 1 to 15 as the local coordinate system, and the numbers can be used for point data attributes.\n\nFor example, program change can be minimized by using the local coordinate system, even when the robot orientation and position are changed.\n\nTo define a local coordinate system, use the Local statement or Robot Manager of the Epson RC+.\n\nThe local coordinate system \"0\" matches the robot coordinate system (Base). Therefore, when \"0\" is used for the local number in the point editor or simulator, it is same as specifying the robot coordinate system.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

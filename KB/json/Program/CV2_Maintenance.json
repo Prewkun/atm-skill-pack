@@ -1,0 +1,12 @@
+{
+  "title": "CV2 Maintenance",
+  "file": "CV2_Maintenance",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 Maintenance\n\nMaintenance\n\nInternal Structure of CV2\n\nFan Filter\n\nLED / SW Board\n\nPoE Board\n\nCPU Board\n\nBackup Battery\n\nCFast\n\nMemory\n\nChassis Fan\n\nUpdating CV2 Firmware\n\nResetting to the Factory Default",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

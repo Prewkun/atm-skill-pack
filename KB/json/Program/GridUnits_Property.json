@@ -1,0 +1,12 @@
+{
+  "title": "GridUnits Property",
+  "file": "GridUnits_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "When the grid type for the vision sequence is Rectangle, specifies the unit of GridPitchX and GridPitchY property values.",
+  "notes": "When the grid type for the vision sequence is Rectangle, specifies the unit of GridPitchX and GridPitchY property values.\n\nSee Also: GridUnits Property\n\nVision Sequences\n\nGridColor Property\n\nGridPitchX Property\n\nGridPitchY Property\n\nGridShow Property\n\nGridType Property",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

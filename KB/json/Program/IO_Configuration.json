@@ -1,0 +1,12 @@
+{
+  "title": "IO Configuration",
+  "file": "IO_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "IO Configuration\n\nI/O Configuration\n\nTo view the current I/O configuration, click [Setup]-[System Configuration]-[Controller]-[Inputs/Outputs]. This will show you what I/O is installed on the controller.\n\nStandard and expansion I/O\n\nThe board is automatically configured by the controller. To add expansion I/O boards, refer to Robot Controller manual.\n\nThe standard I/O in the Drive Unit automatically increases depending on the number of Drive Unit.\n\nFieldbus master I/O and fieldbus slave I/O\n\nFor details on how to configure, add, and check boards, refer to the following manual:\n\nRobot Controller Option: Fieldbus I/O Manual\n\nAnalog I/O\n\nThe board is automatically configured by the controller. To configure, add, or confirm the analog I/O boards, refer to Robot Controller manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Purge Test and Adjust",
+  "file": "Part_Feeding_CalWiz_Purge_Test_and_Adjust",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Purge Test and Adjust\n\nPurge - Test & Adjust\n\nTest and adjust the purge parameters.\n\nThis item is displayed when Purge enabled. (See Purge)\n\n1.  Description of display items\n\nItem\tDescription\n\nAmplitude\tSet the strength of the amplitude\n\t\t of the vibration.\n\nUnit:   %\n\nDuration\tSet the duration of the vibration.\n\nUnit:   ms\n\nFrequency\tSet the frequency of the vibration.\n\nUnit:   Hz\n\nPurge Gate\tOperate the Purge Gate.\n\nPurge Gate Closed\tStatus indicator for the Purge Gate\n\t\t sensor\n\nClosed : Green, Not closed : Gray\n\nOpen / Close\tAllows opening and closing of the\n\t\t Purge Gate\n\nNote:\n  Even if the vibration amplitude is set to 0%, the feeder will still vibrate slightly.\n\nThis is a specification.\n\nNote: Purge Gate Closed will only be visible if the \"Purge Gate Installed\" check box was checked in the Epson RC+ 8.0-Menu-[Setup]-[System Configuration]-[Controller]-[Part Feeders].\n\nNote: If you try to move to another tab when the Purge Gate is not closed, the dialog \"Purge gate will now be closed. Continue?\" is displayed. Press OK to close the Purge Gate.\n\n2.  Guidelines for adjustment\n\nAdjust the amplitude and frequency so that the part is ejected from the feeder as quickly as possible.\n\nSet the vibration time to the time it takes for the parts to be completely ejected.\n\n3.  Test\n\n  (1) Put the appropriate number of parts (e.g., the optimum number of parts).\n\n  (2) Open the purge gate (provided by the customer).\n\n       In the case of the IF-80, empty the purge box (optional).\n\n  (3) Check the operation.\n\n       Adjust the parameters as necessary and click the [Run] button again.\n\n(For more detail, see How to adjust feeder parameters.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

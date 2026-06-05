@@ -1,0 +1,12 @@
+{
+  "title": "Using the Simulator",
+  "file": "Simulator_Using",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using the Simulator\n\nUsing the Simulator\n\nYou can try the simulation functions using the provided sample virtual controllers and projects. See section Working with the samples.\n\nYou can also select the robot model and build your own system. See section Working with a user created system.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

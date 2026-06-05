@@ -1,0 +1,12 @@
+{
+  "title": "Vision Sequence for Distortion Correction",
+  "file": "Vision_Sequence_for_Distortion_Correction",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Sequence for Distortion Correction\n\nVision Sequence for Distortion Correction\n\nTo perform distortion correction, a vision sequence needs to be created in the following steps in advance.\n\n1. Set a square grid pattern.\n\n2. Create a sequence to detect the square grid pattern.\n\n3. Select Lamp property as necessary.\n\n4. Create a Blob object and expand a search area to the entire window.\n\n5. Set NumberToFind property to \"All\".\n\n6. Set RejectOnEdge property to \"True\".\n\n7. Set ThresholdAuto, ThresholdHigh, ThresholdLow, MinArea, MaxArea and other properties to detect the dots.\n\n8. Execute the created sequence.  Check if more than 100 points can be detected.\n\nImage example of square grid pattern captured by camera with tilt angle",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

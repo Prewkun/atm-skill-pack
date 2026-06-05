@@ -1,0 +1,14 @@
+{
+  "title": "Xor Operator",
+  "file": "cmd_xor",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "result = expr1  Xor  expr2",
+  "parameters": "expr1, expr2\tA numeric value, or a variable name.\n\nr\n\t\t\t\t\t\tesult\tAn integer.",
+  "description": "The Xor operator performs the bitwise Xor operation on the values of the operands. Each bit of the result is the Xored value of the corresponding bits of the two operands.\n\nIf bit in expr1 is\tAnd bit in expr2 is\tThe result is\n\n0\t0\t0\n\n0\t1\t1\n\n1\t0\t1\n\n1\t1\t0",
+  "notes": "",
+  "see_also": "And\n\nLShift\n\nNot\n\nOr\n\nRShift\n\nXor Example\n\n>print 2 Xor 6\n\n4\n\n>",
+  "examples": [
+    ">print 2 Xor 6\n\n4\n\n>"
+  ]
+}

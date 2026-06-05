@@ -1,0 +1,12 @@
+{
+  "title": "Vision Guide 8.0 Software Installation",
+  "file": "Vision_Guide_7.0_Software_Installation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Guide 8.0 Software Installation\n\nVision Guide 8.0 Software Installation\n\nVision Guide 8.0 is included in the Epson RC+ 8.0.\n\nFollow the instructions in the Epson RC+ 8.0 User's Guide for installing the Epson RC+ 8.0.\n\nTo use PV1 (PC Vision), select the GigE camera driver option from Epson RC+ 8.0 - [Setup] - [Options].\n\nSoftware Option Key\n\nTo use the following functions of the Vision Guide, software option key should be enabled.\n\nPV1\n\t (PC Vision)\n\nOCR\n\t function\n\nFor details on the option key, refer to Options Command (Setup Menu) in the Epson RC+ 8.0 User's Guide.\n\nPC Vision Software Option Key\n\nThis is a software option key for using the PV1 (PC Vision).\n\nThe option key will be stored in the Robot Controller.\n  Therefore, enable the option key after connecting to the Controller.\n\nTip:\n\nThis software option key is not necessary when you use the CV2.\n\nOCR Software Option Key\n\nThis is a software option key for using the OCR function.\n\nThe option key will be stored in the Robot Controller.\n  Therefore, enable the option key after connecting to the Controller.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

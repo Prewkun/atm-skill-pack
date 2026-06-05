@@ -1,0 +1,12 @@
+{
+  "title": "Force Sensing Commands",
+  "file": "Force_Sensing_Commands",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force Sensing Commands\n\nLegacy Force Sensing Commands\n\nAll Force Sensing commands begin with the same prefix: \"Force_\".  Here is a list of all of the commands.  For details, please see the online help or SPEL+ Language Reference Manual.\n\nForce_Calibrate\tZeros out all axes for the current sensor.\n\nForce_Cleartrigger\tClears all trigger conditions for the current sensor.\n\nForce_GetForce\tReturns the current value for one axis for the current sensor.\n\nForce_GetForces\tReturns the current values for all axes for the current sensor in an array.\n\nForce_Sensor\tSets / returns the current sensor for the current task.\n\nForce_SetTrigger\tSets /displays the force limit triggers for the current sensor.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

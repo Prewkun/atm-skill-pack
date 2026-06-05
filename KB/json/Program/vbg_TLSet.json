@@ -1,0 +1,15 @@
+{
+  "title": "TLSet Method, Spel Class",
+  "file": "vbg_TLSet",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub TLSet (ToolNumber As Integer , Point As SpelPoint)\n\nSub TLSet (ToolNumber As Integer, XCoord As Single, YCoord As Single, ZCoord As Single, UCoord As Single, VCoord As Single, WCoord As Single)",
+  "parameters": "ToolNumber\tIInteger expression from 1-15 representing which of 15 tools to define. (Tool 0 is the default tool and cannot be modified.)\n\nPoint\tA SpelPoint containing the point data.\n\nXCoord\tThe tool coordinate system origin X coordinate.\n\nYCoord\tThe tool coordinate system origin Y coordinate.\n\nZCoord\tThe tool coordinate system origin Z coordinate.\n\nUCoord\tThe tool coordinate system rotation about the Z axis.\n\nVCoord\tOptional.  The tool coordinate system rotation about the Y axis.\n\nWCoord\tOptional.  The tool coordinate system rotation about the X axis.",
+  "description": "Defines a tool coordinate system.",
+  "notes": "",
+  "see_also": "Arm\n\nArmSet\n\nGetTool\n\nTool\n\nTLSet Example\n\nVB Example:\n\nm_spel.TLSet(1, .5, 4.3, 0, 0, 0, 0)\n\nC# Example:\n\nm_spel.TLSet(1, .5, 4.3, 0, 0, 0, 0);",
+  "examples": [
+    "m_spel.TLSet(1, .5, 4.3, 0, 0, 0, 0)",
+    "m_spel.TLSet(1, .5, 4.3, 0, 0, 0, 0);"
+  ]
+}

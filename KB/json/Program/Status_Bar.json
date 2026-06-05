@@ -1,0 +1,12 @@
+{
+  "title": "Status Bar",
+  "file": "Status_Bar",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Status Bar\n\nStatus Bar\n\nThe status bar is located at the bottom of the main window. This displays the following.\n\nSymbol\tItem\tDescription\n\na\tMessage\n\t\t area\tDisplays\n\t\t the syntax error for the current line and system messages.\n\nb\tOperation Mode status\tIndicates the controller operation\n\t\t mode.\n\nc\tEmergency Stop status\t\"EStop\" is displayed\n\t\t in color if emergency stop is active.\n\nd\tSafeguard status\t\"Safety\" is displayed\n\t\t in color if a safeguard circuit is open.\n\ne\tError status\t\"Error\" is displayed\n\t\t in color if the controller is in the error state.\n\nf\tWarning status\t\"Warning\" is displayed\n\t\t in color if there is a warning. Put the mouse cursor over the\n\t\t Warning status area to see the warning message.\n\ng\tCurrent robot\tDisplays the currently selected\n\t\t robot number, name, type number, and the dry run status.\n\nh\tTasks running status\tIndicates that one or more tasks\n\t\t are running.\n\ni\tCurrent Line and Column\tWhen a program editor window is\n\t\t active, the current line and column are displayed.\n\nj\tINS / OVR\tIndicates \"insert\" or\n\t\t \"overtype\" mode.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

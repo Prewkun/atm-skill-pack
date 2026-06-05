@@ -1,0 +1,12 @@
+{
+  "title": "Edit Menu",
+  "file": "Edit_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Edit Menu\n\nEdit Menu\n\nYou can edit the program files from the Epson RC+ 8.0 menu-[Edit].\n\nTip:\n  You can also access the Edit Menu by right-clicking anywhere in a program editor window.\n\nUndo\n\nRedo\n\nCut\n\nCopy\n\nPaste\n\nFind\n\nFind Next\n\nReplace\n\nSelect All\n\nIndent\n\nOutdent\n\nComment Block\n\nUncomment Block\n\nGo To Definition\n\nNavigate Backward\n\nNavigate Forward",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,29 @@
+{
+  "title": "PF_Robot",
+  "file": "PF_Robot",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function PF_Robot(part ID As Integer) As Integer\n\n  ' Robot movement\n\nFend",
+  "parameters": "part\n\t\t ID\tThe\n\t\t part ID (integer number from 1 to 32) goes here.\n\nWhen\n\t\t multi-part operation, the active part goes here.",
+  "description": "This function should contain the following operations:\n\n1. Get the coordinates of the part from the coordinate queue (using PF_QueGet function).\n\n2. Move the robot to the part coordinates on the feeder\n\n3. Grasping a part by operating a hand, etc.\n\n4. Move the robot to the part placement coordinates.\n\n5. Releasing a part by operating a hand, etc.\n\n6. Delete a coordinate queue (using the PF_QueRemove command)\n\nNormally steps 1 -6 (listed above) are executed in a loop until all the coordinate queue data has been removed.\n\nThe list of coordinates for parts detected in the most recent vision process are added to the coordinates queue.  Coordinates are defined in the local coordinate system. In the case of multi-part operation, a coordinate queue is generated for each part ID.\n\nThe Robot #  used in the PF_Robot callback function needs to match the robot # that was selected for the part. In the case of multi-robot, you can use Robot statements to switch the robot # (refer to Epson RC+ 8.0 SPEL+ Language Reference   Robot ).\n\nCaution\n\nTo acquire part ID using the parameters is recommended.\n\nBe careful not to change to wrong robot number when changing the robot number in the callback function in a multi-robot system.\n\nProgram Example\n\nThe following is an example of a simple program written to use a vacuum end effector to process all parts.\n\nA vacuum sensor is used to monitor suction when picking up parts.\n\nThree attempts are made when suction cannot be applied.  User error code 8001 is returned as a return value if suction still cannot be applied.\n\n'\n\n' ** IO Label (Output) **\n\n' O_VacOn  Suction\n\n' O_VacRelease     Release\n\n'\n\n' ** IO Label (Input) **\n\n' I_VacSensed       Suction sensor\n\n'\n\n' ** Point **\n\n' PlacePos Parts place position\n\n'\n\n' ** User Error **\n\n' 8001 Suction timeout occurred\n\n'\n\nFunction PF_Robot(partID As Integer) As Integer\n\n   Byte retry\n\n' Process entire coordinates queue, or loop until a stop request is issued\n\n   Do While PF_QueLen(partID) > 0 And PF_IsStopRequested(partID) = False\n\n      ' Move the robot to pick up position\n\n      Jump PF_QueGet(partID)\n\n' Vacuum ON & suction check (retry three times)\n\n      On O_Adsorb\n\n      retry = 3\n\n      Do While retry > 0\n\n         Wait Sw(I_VacSensed) = On, 0.5\n\n         If TW = True Then\n\n            ' If timed out, stop and reapply suction\n\n            Off O_VacOn\n\n            Wait 0.1\n\n            On O_VacOn\n\n         EndIf\n\n      Loop\n\n      If TW = True Then\n\n         ' Terminate with error as suction still cannot be applied after reattempts\n\n         ' Perform error processing according to Status callback function\n\n         PF_Robot = 8001\n\n         Exit Function\n\n      EndIf\n\n' Move the robot to place position\n\n      Jump PlacePos\n\n' Vacuum OFF & vacuum break\n\n      Off O_VacOn\n\n      On O_VacRelease\n\n      Wait 0.1\n\n      Off O_VacRelease\n\n' Delete one data entry in the coordinates queue\n\n      PF_QueRemove partID\n\nLoop\n\n   PF_Robot = PF_CALLBACK_SUCCESS\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "'\n' ** IO Label (Output) **\n' O_VacOn  Suction\n' O_VacRelease     Release\n'",
+    "' ** IO Label (Input) **\n' I_VacSensed       Suction sensor\n'",
+    "' ** Point **\n' PlacePos Parts place position\n'",
+    "' ** User Error **\n' 8001 Suction timeout occurred",
+    "'",
+    "Function PF_Robot(partID As Integer) As Integer",
+    "Byte retry",
+    "' Process entire coordinates queue, or loop until a stop request is issued\n   Do While PF_QueLen(partID) > 0 And PF_IsStopRequested(partID) = False",
+    "' Move the robot to pick up position\n      Jump PF_QueGet(partID)",
+    "' Vacuum ON & suction check (retry three times)\n      On O_Adsorb\n      retry = 3\n      Do While retry > 0\n         Wait Sw(I_VacSensed) = On, 0.5\n         If TW = True Then\n            ' If timed out, stop and reapply suction\n            Off O_VacOn\n            Wait 0.1\n            On O_VacOn\n         EndIf\n      Loop",
+    "If TW = True Then\n         ' Terminate with error as suction still cannot be applied after reattempts\n         ' Perform error processing according to Status callback function\n         PF_Robot = 8001\n         Exit Function\n      EndIf",
+    "' Move the robot to place position\n      Jump PlacePos",
+    "' Vacuum OFF & vacuum break\n      Off O_VacOn\n      On O_VacRelease\n      Wait 0.1\n      Off O_VacRelease",
+    "' Delete one data entry in the coordinates queue\n      PF_QueRemove partID",
+    "Loop\n\n   PF_Robot = PF_CALLBACK_SUCCESS",
+    "Fend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "HealthRBAlarmOn Function",
+  "file": "HealthRBAlarmOn_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "HealthRBAlarmOn Function\n\nHealthRBAlarmOn Function",
+  "notes": "",
+  "see_also": "Returns the status of the parts consumption alarm for the specified robot parts.",
+  "examples": [
+    "Function PrintAlarm4 If HealthRBAlarmOn(1, HEALTH_ROBOT_TYPE_GREASE, 3) = True Then\n   Print \"Robot1 Joint2 Grease NG\" Else\n   Print \"Robot1 Joint2 Grease OK\" EndIf\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Find VI",
+  "file": "Find_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies a condition for storing coordinates during motion.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nCondition\tString expression that contains functions and operators.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "Use Find to specify when a position should be stored during motion.  When the condition is satisfied, the current position is stored in FindPos.\n\nFind Example",
+  "see_also": "",
+  "examples": []
+}

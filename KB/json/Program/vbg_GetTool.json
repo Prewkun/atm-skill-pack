@@ -1,0 +1,15 @@
+{
+  "title": "GetTool Method, Spel Class",
+  "file": "vbg_GetTool",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetTool () As Integer",
+  "parameters": "",
+  "description": "Returns the current Tool number for the current robot.",
+  "notes": "",
+  "see_also": "Arm\n\nTLSet\n\nTool\n\nGetTool Example\n\nVB Example:\n\nsaveTool = m_spel.GetTool()\n\nm_spel.Tool(2)\n\nC# Example:\n\nsaveTool = m_spel.GetTool();\n\nm_spel.Tool(2);",
+  "examples": [
+    "saveTool = m_spel.GetTool()\nm_spel.Tool(2)",
+    "saveTool = m_spel.GetTool();\nm_spel.Tool(2);"
+  ]
+}

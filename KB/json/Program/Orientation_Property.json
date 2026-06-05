@@ -1,0 +1,12 @@
+{
+  "title": "Orientation Property",
+  "file": "Orientation_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the orientation of the bar code.",
+  "notes": "Sets and returns the expected orientation of the bar code.\n\nSee Also: Orientation Property\n\nCompactness Result\n\nVision Objects: Orientation Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

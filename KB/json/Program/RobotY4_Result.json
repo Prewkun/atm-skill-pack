@@ -1,0 +1,12 @@
+{
+  "title": "RobotY4 Result",
+  "file": "RobotY4_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Y (Y4) coordinate position for corner points of rectangles detected in a robot coordinate system.",
+  "notes": "The robot coordinates for the four corners of a rectangle can be retrieved as Robot X1, 2, 3, 4 results and Robot Y1, 2, 3, 4 results.  RobotY4 is used to retrieve the Y coordinate for the Corner4 point shown in the diagram below.\n\nThe Robot Y4 result always displays the position of the robot coordinates in millimeters.\n\nIt should be noted that the RobotY4 result can only be calculated for vision sequences which have been calibrated with the robot coordinate system.  If no calibration has been assigned to the vision sequence then the RobotY4 result will cause an error.",
+  "see_also": "Applies To\n\nVision Objects: BoxFinder\n\nAngle Result\tRobotXYU Result\n\n\tRobotX Result\n\nPixelX Result\tX1 Property\n\nPixelX1 Result\tX2 Property\n\nPixelY Result\tY1 Property\n\nPixelY1 Result\tY2 Property\n\nPixelY2 Result\n\nVision Objects: RobotY4 Result\n\nBoxFinder",
+  "examples": []
+}

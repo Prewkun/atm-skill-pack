@@ -1,0 +1,15 @@
+{
+  "title": "Start Method, Spel Class",
+  "file": "vbg_Start",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Start (ProgramNumber As Integer)",
+  "parameters": "ProgramNumber\tThe program number to start, corresponding to the 8 main functions in SPEL+ as shown in the table below. The range is 0 to 7.\n\nProgram Number\tSPEL+ Function Name\n\n0\tmain\n\n1\tmain1\n\n2\tmain2\n\n3\tmain3\n\n4\tmain4\n\n5\tmain5\n\n6\tmain6\n\n7\tmain7\n\nmain7",
+  "description": "Start one SPEL+ program.",
+  "notes": "When Start is executed, control will return immediately to the calling program.  You cannot start a program that is already running. Note that Start causes global variables in the controller to be cleared and default robot points to be loaded.",
+  "see_also": "Pause\n\nStop\n\nXqt\n\nStart Example\n\nVB Example:\n\nSub btnStart_Click( _\n\n       ByVal sender As System.Object, _\n\n       ByVal e As System.EventArgs) _\n\n       Handles btnStart.Click\n\n    m_spel.Start(0)\n\nEnd Sub\n\nC# Example:\n\nvoid btnStart_Click(object sender, EventArgs e)\n\n{\n\n  m_spel.Start(0);\n\n}",
+  "examples": [
+    "Sub btnStart_Click( _\n       ByVal sender As System.Object, _\n       ByVal e As System.EventArgs) _\n       Handles btnStart.Click\n    m_spel.Start(0)\nEnd Sub",
+    "void btnStart_Click(object sender, EventArgs e)\n{ m_spel.Start(0);\n}"
+  ]
+}

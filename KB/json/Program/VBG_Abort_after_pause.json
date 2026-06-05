@@ -1,0 +1,21 @@
+{
+  "title": "Abort after pause",
+  "file": "VBG_Abort_after_pause",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Abort after pause\n\nAbort after pause\n\nYou can also execute the Stop method if you don't want to continue after a pause.\n\n(Visual Basic)\n\nSub btnStop_Click( _\n\n       ByVal sender As System.Object, _\n\n       ByVal e As System.EventArgs) _\n\n       Handles btnStop.Click\n\n    m_spel.Stop\n\n    btnContinue.Enabled = False\n\n    btnPause.Enabled = False\n\nEnd Sub",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Sub btnStop_Click( _",
+    "ByVal sender As System.Object, _",
+    "ByVal e As System.EventArgs) _",
+    "Handles btnStop.Click",
+    "m_spel.Stop",
+    "btnContinue.Enabled = False",
+    "btnPause.Enabled = False",
+    "End Sub"
+  ]
+}

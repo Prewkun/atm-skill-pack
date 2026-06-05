@@ -1,0 +1,12 @@
+{
+  "title": "The Image Display Area",
+  "file": "TheImageDisplayArea",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Image Display Area\n\nThe Image Display Area\n\nThe image display area is located directly beneath the Vision Guide Toolbar. This is the area of the Vision Guide Window where the image which is seen by the camera is displayed. This image is overlaid on the Vision Window to fit within the area we call the image display area. The image display area is also used to display graphics for each of the vision objects which are used to process the images. For example, you may see boxes and cross hairs displayed at various positions in the image display area. These graphics help developers use the Vision Object Tools.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

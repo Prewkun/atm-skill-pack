@@ -1,0 +1,15 @@
+{
+  "title": "Pls Method, Spel Class",
+  "file": "vbg_Pls",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Pls (JointNumber As Integer ) As Integer",
+  "parameters": "JointNumber\tThe specific joint for which to get the current encoder pulse count.",
+  "description": "Returns the current encoder pulse count for each joint at the current position.",
+  "notes": "",
+  "see_also": "Agl\n\nPulse\n\nPls Example\n\nVB Example:\n\nj1pulses = m_spel.Pls(1)\n\nC# Example:\n\nj1pulses = m_spel.Pls(1);",
+  "examples": [
+    "j1pulses = m_spel.Pls(1)",
+    "j1pulses = m_spel.Pls(1);"
+  ]
+}

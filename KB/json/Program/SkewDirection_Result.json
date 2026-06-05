@@ -1,0 +1,12 @@
+{
+  "title": "SkewDirection Result",
+  "file": "SkewDirection_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the distortion direction of a detected object.",
+  "notes": "SkewDirection returns the distortion direction when SkewFitEnable is set to True.  If the property is set to False, it returns 0.0.\n\nStatistics",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: Correlation, Geometric\n Result\n\nSkewFitEnable\n\t\t Property\n\nSkewRatio\n\t\t Result\n\nVision Objects: SkewDirection Result\n\nCorrelation\n\nGeometric",
+  "examples": []
+}

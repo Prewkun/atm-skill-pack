@@ -1,0 +1,12 @@
+{
+  "title": "Step 5: Test the DefectFinder Object and Examine the Results",
+  "file": "Step_5__Test_the_DefectFinder_Object_and_Examine_the_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 5: Test the DefectFinder Object and Examine the Results\n\nStep 5: Test the DefectFinder Object and Examine the Results\n\nTo run the DefectFinder object, click the [Run] button of the object on the execution panel.  Results for the DefectFinder object will now be displayed.  The primary results to examine at this time are shown below.  There are others that you will find useful in the future as well though.\n\nFound result - Returns whether the defect was found.  If the defect that was found does not meet the area constraints defined by the MinArea and MaxArea properties then the Found result will return as False.\n\nPassed result\n  - Returns whether the detection result of the DefectFinder object was accepted.\n\nArea result - The area of the defect found. (unit: pixel)\n\nAngle result - The angle at which the defect is oriented.  This is computed from the angle of the minor axis and will be a value between +/- 90 deg.\n\nTime result - The amount of time it took for the DefectFinder object to execute.\n\nPixelX, PixelY - The XY position of the center of mass of the found defect. (unit: pixel)\n\nMinX, MinY, MaxX, MaxY - Combined these 4 values return circumscribed rectangle of the defect.\n\nNote: The RobotXYU, RobotX, RobotY, Robot U and CameraX, CameraY, CameraXYU results will return [no cal] at this time. This means that no calibration was performed so it is impossible for the vision system to calculate the coordinate results with respect to the Robot World or Camera World. See Calibration for more information.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "VCreateCalibration Statement",
+  "file": "VCreateCalibration_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "VCreateCalibration creates a vision calibration at runtime.",
+  "notes": "Here are the basic steps to create a runtime calibration:\n\n\tExecute VCreateCalibration.\n\tUse VSet to set CameraOrientation and TargetSequence\n\t properties.  Set other properties as necessary.\n\tIf the camera is not Standalone, you must\n\t create a point file for the calibration using the same name, or call\n\t VCalPoints to teach calibration points.\n\tExecute VCal to run the calibration.\n\tSet the Calibration property for one or more\n\t sequences that will use the new calibration.\n\tExecute VSave to save the changes.\n\nTo make changes to the vision configuration permanent, you must call VSave.",
+  "see_also": "VCreateObject, VCreateSequence, VSave",
+  "examples": [
+    "Function CreateCal String cal$ cal$ = \"mycal\" VCreateCalibration cal$ VSet cal$.CameraOrientation, VISION_CAMORIENT_MOBILEJ2 VSet cal$.TargetSequence, \"calSeq\" VCalPoints cal$ VCal cal$ VSave\nFend"
+  ]
+}

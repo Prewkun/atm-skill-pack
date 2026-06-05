@@ -1,0 +1,16 @@
+{
+  "title": "J4Angle Statement",
+  "file": "J4Angle_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) J4Angle point, [value ]\n\n(2) J4Angle",
+  "parameters": "point\tP number or P(expr) or point label.\n\nvalue\tOptional.  Integer expression.",
+  "description": "The J4Angle attribute is used only for N robot series.\n\nIt specifies the angle of the Joint #4 when the axis centers of the Joint #4 and #6 are on the straight line.\n\nIf the point is not singularity, J4Angle has no meaning.\n\nIf value is ommited, the J4Angle value for the specified point is displayed.  When both parameters are omitted, the J4Angle value is displayed for the current robot position.\n\nNote\n\nWhen both J4Flag and J4Angle are used, J4Angle is prioritized as follows:\n\nJ4Angle P0,0\n\nJ4Flag P0,1",
+  "notes": "",
+  "see_also": "Hand\n\nJ1Angle Function\n\nJ4Angle Function\n\nJ4Angle Statement Example\n\nJ4Angle P0, 10.0\n\nJ4Angle P(mypoint), 0.0",
+  "examples": [
+    "J4Angle P0,0",
+    "J4Flag P0,1",
+    "J4Angle P0, 10.0\nJ4Angle P(mypoint), 0.0"
+  ]
+}

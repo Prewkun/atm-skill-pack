@@ -1,0 +1,14 @@
+{
+  "title": "WorkQue_List Statement",
+  "file": "WorkQue_List_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "WorkQue_List  WorkQueNum [, numOfItems ]",
+  "parameters": "WorkQueNum\tInteger expression (1 - 16) that specifies the work queue number.\n\nnumOfItems\tOptional.  Integer expression to specify how many items to display.  If omitted, all items are displayed.\n\nNote:  This command will only work in the command window",
+  "description": "WorkQue_List Statement\n\nWorkQue_List Statement",
+  "notes": "",
+  "see_also": "Displays the work queue data list (point data and user data) of the specified work queue.\n\nWorkQue_Add\n\nWorkQue_Get\n\nWorkQue_Remove\n\nWorkQue_List Example\n\nFrom the command window:\n\n> WorkQue_List 1\n\nQueue 0  = XY( 1.000,  1.000,  0.000,  0.000 )/R /0 ( 0.000)\n\nQueue 1  = XY( 3.000,  1.000,  0.000,  0.000 )/R /0 ( 2.000)\n\nQueue 2  = XY( 4.000,  1.000,  0.000,  0.000 )/R /0 ( 3.000)\n\nQueue 3  = XY( 5.000,  1.000,  0.000,  0.000 )/R /0 ( 4.000)\n\nQueue 4  = XY( 6.000,  1.000,  0.000,  0.000 )/R /0 ( 5.000)",
+  "examples": [
+    "> WorkQue_List 1\nQueue 0  = XY( 1.000,  1.000,  0.000,  0.000 )/R /0 ( 0.000)\nQueue 1  = XY( 3.000,  1.000,  0.000,  0.000 )/R /0 ( 2.000)\nQueue 2  = XY( 4.000,  1.000,  0.000,  0.000 )/R /0 ( 3.000)\nQueue 3  = XY( 5.000,  1.000,  0.000,  0.000 )/R /0 ( 4.000)\nQueue 4  = XY( 6.000,  1.000,  0.000,  0.000 )/R /0 ( 5.000)"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "PF_CycleStop",
+  "file": "PF_CycleStop",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function PF_CycleStop(part ID As Integer) As Integer\n\n  ' (Processes when stopped)\n\nFend",
+  "parameters": "part ID\tThe part ID (integer number from 1 to 32) goes here.\n\nWhen multi-part operation, the active part goes here.",
+  "description": "This function runs after the callback function in progress stops running once PF_Stop has been executed.  System processes are described here.  Processes to be described include returning the robot to its home position and turning off the robot motors.\n\nProgram Example\n\nThe following program executes processes to return the robot to its home position and turn off the motors when the PF_Stop command is issued.\n\nFunction PF_CycleStop(partID As Integer) As Integer\n\n   Home\n\n   Motor Off\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function PF_CycleStop(partID As Integer) As Integer",
+    "Home\n   Motor Off",
+    "Fend"
+  ]
+}

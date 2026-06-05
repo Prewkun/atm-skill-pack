@@ -1,0 +1,12 @@
+{
+  "title": "Remote Ethernet Security",
+  "file": "Remote_Ethernet_Security",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Ethernet Security\n\nRemote Ethernet\n\nTo login via Remote Ethernet, password authentication is required.\n\nAll commands are not available until you log in via Remote Ethernet.\n\nIf the command is executed without login via Remote Ethernet, error \"11\" occurs.\n\nFor details on the error, refer to 12.2.7 Response-Error response.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "AcceptButton Property",
+  "file": "AcceptButton_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the button on the form that is clicked when the user presses the ENTER key.",
+  "notes": "This property allows you to designate a default action to occur when the user presses the ENTER key in your application. The button assigned to this property must be a Button that is on the current form or located within a container on the current form.\n\nYou can use this property to allow the user to quickly navigate a simple form by allowing them to simply press the ENTER key when they are finished instead of manually clicking the accept button with their mouse.\n\nThe accept button might not be activated if the currently selected control on the form intercepts the ENTER key and processes it. For example, a multiline text box control allows the ENTER key to be pressed when it is selected to insert a new line character in the control.\n\nSee Also: AcceptButton Property\n\nCancelButton Property\n\nGUI Items: AcceptButton Property\n\nForms",
+  "see_also": "Applies To\n\nForm",
+  "examples": [
+    "GSet frmMain.AcceptButton, \"btnOK\""
+  ]
+}

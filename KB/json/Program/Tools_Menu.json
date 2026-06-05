@@ -1,0 +1,12 @@
+{
+  "title": "Tools Menu",
+  "file": "Tools_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Tools Menu\n\nTools Menu\n\nEpson RC+ 8.0 has several GUI tools to support the system development. All tools can be accessed from the [Tools] menu. Many also have tool bar buttons and hot keys.\n\nThe Tools Menu includes the following selections:\n\nRobot\n\t Manager\n\n\tMotor control, Jog & Teach, change robot parameters.\n\nCommand\n\t Window\n\n\tExecute SPEL+ commands directly.\n\nI/O Monitor\n\n\tMonitor and change I/O status.\n\nTask\n\t Manager\n\n\tMonitor and control task status.\n\nMacros\n\n\tOpens the Macro Window.\n\nI/O\n\t Label Editor\n\n\tEdit I/O labels.\n\nUser\n\t Error Editor\n\n\tEdit user errors.\n\nController\n\n\tDo maintenance on the controller, such as backup, restore, and export\n\t status.\n\nSimulator\n\n\tCheck the robot orientation and motion in a 3D display.\n\nGUI\n\t Builder\n\n\tYou can create a GUI (graphical user interface). This product is a\n\t paid add-on\n\n\tthat requires a separate license.\n\nConveyor\n\t Tracking\n\n\tThis is used for conveyor tracking calibration. This is not supported\n\t by virtual\n\n\tcontrollers. This product is a paid add-on that requires a separate\n\t license.\n\nPart Feeding\n\n\tThis sets and calibrates part feeding parameters. This is not supported\n\t by virtual\n\n\tcontrollers. This product is a paid add-on that requires a separate\n\t license.\n\nVision\n\n\tThis uses Vision Guide for image processing.\n\nForce Guide\n\n\tThis uses Force Guide to create a force sensor application.\n\nForce Monitor\n\n\tThis displays the current force value, and provides analysis and comparisons\n\t of historical\n\n\tvalues.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

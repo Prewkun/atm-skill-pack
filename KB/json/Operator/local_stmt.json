@@ -1,0 +1,31 @@
+{
+  "title": "Local Statement",
+  "file": "local_stmt",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "(1) Local localNumber , ( pLocal1 : pBase1 ) , ( pLocal2 : pBase2 ), [ { L | R } ], [ BaseU ]\n\n(2) Local localNumber, pCoordinateData\n\n(3) Local localNumber, pOrigin,  [pXaxis], [pYaxis], [ { X | Y } ]\n\n(4) Local localNumber",
+  "parameters": "localNumber\tThe local coordinate system number. A total of 15 local coordinate systems (of the integer value from 1 to 15) may be defined.\n\npLocal1, pLocal2\tPoint variables with point data in the local coordinate system.\n\npBase1, pBase2\tPoint variables with point data in the base coordinate system.\n\nL | R\tOptional. Align local origin to left (first) or right (second) base points.\n\nBaseU\tOptional. When supplied, U axis coordinates are in the base coordinate system. When omitted, U axis coordinates are in the local coordinate system.\n\nX\tLocal coordinate system X axis origin.\n\nY\tLocal coordinate system Y axis origin.\n\nZ\tLocal coordinate system Z axis origin.\n\nU\tLocal coordinate system rotation angle about the Z axis.\n\nV\tOptional.  Local coordinate system rotation angle about the Y axis.\n\nW\tOptional.  Local coordinate system rotation angle about the X axis.\n\npCoordinateData\tPoint data representing the coordinate data of the origin and direction.\n\nWhen it's SCARA Robots (include RS series), specify V coordinate and W coordinate to \"0\".\n\npOrigin\tInteger expression representing the origin point using robot coordinate system.\n\npXaxis\tOptional. Integer expression representing a point along the X axis using robot coordinate system if X alignment is specified.\n\npYaxis\tOptional. Integer expression representing a point along the Y axis using robot coordinate system if Y alignment is specified.\n\nX | Y\tOptional.  If X alignment is specified, then pXaxis is on the X axis of the local and only the Z coordinate of pYaxis is used.  If Y alignment is specified, then pYaxis is on the Y axis of the local and only the Z coordinate of pXaxis is used.  If ommitted, X alignment is assumed.",
+  "description": "(1) Local defines a local coordinate system by specifying 2 points, pLocal1 and pLocal2, contained in it that coincide with two points, pBase1 and pBase2, contained in the base coordinate system.",
+  "notes": "",
+  "see_also": "Armset\n\nBase\n\nLocalClr\n\nTLSet\n\nWhere\n\nLocal Statement Example\n\nHere are some examples from the command window:\n\nLeft aligned local:\n\n> p1 = 0, 0, 0, 0/1\n\n> p2 = 100, 0, 0, 0/1\n\n> p11 = 150, 150, 0, 0\n\n> p12 = 300, 150, 0, 0\n\n> local 1, (P1:P11), (P2:P12), L\n\n> p21 = 50, 0, 0, 0/1\n\n> go p21\n\nLocal defined with only the origin point:\n\n> local 1, 100, 200, -20, 0\n\nLocal defined with only the origin point rotated 45 degrees about the X axis:\n\n> local 2, 50, 200, 0, 0, 45, 0\n\n3D Local with p2 aligned with the X axis of the local:\n\n> local 3, p1, p2, p3, x\n\n3D Local with p3 aligned with the Y axis of the local:\n\n> local 4, p1, p2, p3, y",
+  "examples": [
+    "Local 1, (P1:P11), (P2:P12)",
+    "Local 1, XY(x, y, z, u)\nLocal 1, XY(x, y, z, u, v, w)\nLocal 1, P1",
+    "Local 1, P1, P2, P3\nLocal 1, P1, P2, P3, X\nLocal 1, P1, P2, P3, Y",
+    "> p1 = 0, 0, 0, 0/1",
+    "> p2 = 100, 0, 0, 0/1",
+    "> p11 = 150, 150, 0, 0",
+    "> p12 = 300, 150, 0, 0",
+    "> local 1, (P1:P11), (P2:P12), L",
+    "> p21 = 50, 0, 0, 0/1",
+    "> go p21",
+    "Local defined with only the origin point:",
+    "> local 1, 100, 200, -20, 0",
+    "Local defined with only the origin point rotated 45 degrees about the X axis:",
+    "> local 2, 50, 200, 0, 0, 45, 0",
+    "3D Local with p2 aligned with the X axis of the local:",
+    "> local 3, p1, p2, p3, x",
+    "3D Local with p3 aligned with the Y axis of the local:",
+    "> local 4, p1, p2, p3, y"
+  ]
+}

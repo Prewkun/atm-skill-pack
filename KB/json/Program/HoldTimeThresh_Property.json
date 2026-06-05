@@ -1,0 +1,12 @@
+{
+  "title": "HoldTimeThresh Property",
+  "file": "HoldTimeThresh_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the duration time until the determination of the end conditions related to force.\n\nIt is used when ForceCheckEnabled is True.\n\nIf the state within the range specified by either FollowCheckTolF or FollowCheckTolT continues for the time specified by HoldTimeThresh, it is determined as the end conditions are satisfied.\n\nValues\n\nMinimum value 0\n\nMaximum value 10\n\nDefault:  0\n\nSee Also: HoldTimeThresh Property\n\nForceCheckEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object, SurfaceAlign Object, Press Object, PressMove Object",
+  "examples": []
+}

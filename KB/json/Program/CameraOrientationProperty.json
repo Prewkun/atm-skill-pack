@@ -1,0 +1,12 @@
+{
+  "title": "CameraOrientation Property",
+  "file": "CameraOrientationProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the CameraOrientation type for the specified calibration.",
+  "notes": "The CameraOrientation property must be set before teaching calibration points.\n\nSee Also: CameraOrientation Property\n\nCamera Property\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

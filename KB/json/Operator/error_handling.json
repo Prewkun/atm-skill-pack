@@ -1,0 +1,14 @@
+{
+  "title": "Error handling",
+  "file": "error_handling",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Error handling\n\nError Handling\n\nWhen an error occurs in a SPEL+ function, you can cause execution to be transferred to an error handling routine for processing the error. The routine must be inside a function definition.\n\nThe table on the next page shows the program instructions that are used for error handling.\n\nItem\tDescription\n\nOnErr\tUse the OnErr statement to define\n\t\t the location of the error handling routine.\n\nErr\tUse Err to retrieve the number for\n\t\t the current error status.\n\n\t\tUse this in the error handling routine to determine which error\n\t\t has occurred.\n\nError\tGenerate a user defined error which\n\t\t can be caught by an error handler.\n\nEra\tUse Era to retrieve the axis number\n\t\t for which the error occurred.\n\n\t\tThis is normally used in the error handling routine.\n\nErl\tUse Erl to retrieve the line number\n\t\t in which the error occurred.\n\n\t\tThis is normally used in the error handling routine.\n\nErt\tUse Ert to retrieve the task number\n\t\t in which the error occurred.\n\n\t\tThis is normally used in the error handling routine.\n\nErrMsg$\tUse ErrMsg$ to retrieve the error\n\t\t message associated with a specified error number.\n\nErrb\tUse Errb to retrieve the robot number\n\t\t in which the error occurred.\n\n\t\tThis is normally used in the error handling routine.\n\nUser Errors\n\nYou can define your own error messages by using the User Error Editor which is available from the Tools Menu. For details refer to 5.12.7 User Error Editor Command (Tools Menu).",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Main\n    String cont$\n    Integer i\n    OnErr Goto Errhandler\n    For i = 1 To 10\n    Jump P(i)\n    Next i\nExit Function\n\n' *** Error handler ***\nErrhandler:\n    enum = Err\n    Print \"Error #\", enum, \" occurred\"\n    Print \"Continue (Y or N)?\"\n    Line Input cont$\n    Select cont$\n      Case \"y\", \"Y\"\n        EResume Next\n      Default\n        Quit All\n    Send\nFend"
+  ]
+}

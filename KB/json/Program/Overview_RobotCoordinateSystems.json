@@ -1,0 +1,12 @@
+{
+  "title": "Coordinate Systems Overview",
+  "file": "Overview_RobotCoordinateSystems",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Coordinate Systems Overview\n\nCoordinate Systems Overview\n\nThis section describes the coordinate systems for different types of robots supported in SPEL+.\n\nRight-handed rule is used for all coordinate systems. The following coordinate systems are used in SPEL+:\n\nRobot Coordinate System\n\nThis is the native coordinate system of the robot.\n\nThis is also known as the default base coordinate system or world coordinate system.\n\nLocal Coordinate System\n\nThis is a user defined coordinate system located somewhere within the working envelop. (Local)\n\nTool Coordinate System\n\nThis is the coordinate system of the tool mounted on the robot end-effector. This is also known as the end effector coordinate system.\n\nFigure: Transform order of the position/orientation from origin to tool.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

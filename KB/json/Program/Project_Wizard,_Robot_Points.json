@@ -1,0 +1,12 @@
+{
+  "title": "Project Wizard, Robot Points",
+  "file": "Project_Wizard,_Robot_Points",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Wizard, Robot Points\n\nRobot Points\n\nFor pick and place project types, you will be prompted by the wizard to teach robot points, shown in the table below. Point labels for the new project are automatically created and used in the generated SPEL+ program.\n\nRobot\n\t\t point\tDescription\n\nPark\tThis is the idle position for\n\t\t the robot when waiting for the next cycle to start\n\nPick\tThis is the part pick position.\n\nPickCam\tFor vision pick and place.\n\nThis is the\n\t\t position of the robot mobile camera over the part to be picked.\n\nPickAppro\tUsed for 6 axis robots.\n\nThis is the\n\t\t approach position above the pick position.\n\nUpCam\tFor vision pick and place.\n\nThis is the\n\t\t position of the grasped part over the upward looking camera.\n\nPlace\tThis is the part place position.\n\nPlaceAppro\tUsed for 6 axis robots. This is\n\t\t the approach position above the place position.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

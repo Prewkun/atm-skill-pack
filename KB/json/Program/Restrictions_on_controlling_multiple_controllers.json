@@ -1,0 +1,12 @@
+{
+  "title": "Restrictions on controlling multiple controllers",
+  "file": "Restrictions_on_controlling_multiple_controllers",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Restrictions on controlling multiple controllers\n\nRestrictions on controlling multiple Controllers\n\nControlling multiple Controllers has restrictions as described in the following sections.\n\nRestrictions on Controller options\n\nThe following Controller options controlled by each Controller have restrictions.\n\nPC\n\t vision\n\nFieldbus\n\t master\n\nWhen one of the above three options is already connected to the active Controller, these options cannot be used for other (the second or later) Controllers.\n\nRestrictions on simulator\n\nSimulator window display\n\nEpson RC+ 8.0 simulator window can be used from the .NET application.\n\nFor details, refer to 10.1 Windows in this manual.\n\nIf the simulator window is opened for each Controller when multiple Controllers are connected, the cycle time may increase by 100 to 200 msec compared to not displaying the simulator windows.\n\nAlso, if the program is executed with the simulator windows open, the CPU utilization increases near 100% and a huge load may be put on the PC.\n\nIt is recommended to use the system with the simulator windows closed, except when debugging the program.\n\nCollision detection\n\nTo avoid collision with peripherals using the simulator, set 15 mm or more margins around the simulator object to avoid collision detection.\n\nCollision detection in the simulator does not guarantee the accuracy.  When applying to the actual system, make sure to set the margins and check operation adequately.\n\nFor details on each restriction, refer to 8.4 Simulator Specifications and Restrictions in Epson RC+ User's Guide.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

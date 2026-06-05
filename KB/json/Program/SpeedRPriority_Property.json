@@ -1,0 +1,12 @@
+{
+  "title": "SpeedRPriority Property",
+  "file": "SpeedRPriority_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpeedRPriority Property\n\nSpeedRPriority Property\n\nThis property sets whether to prioritize tool orientation changes during force guide object execution.\n\nWhen prioritizing tool orientation changes:\n\nThe robot moves using the SpeedR property.\n\nWhen not prioritizing tool orientation changes:\n\nThe robot moves using the SpeedS property.\n\nThe following values can be specified:\n\nValue\tDescription\n\nDisabled\tWhen the moving distance is not 0, executes the force guide object using the SpeedS property. When the moving distance is 0, uses the SpeedR property.\n\n- Does not give priority to the tool orientation changes.\n\n- Gives priority to the SpeedS property.\n\nEnabled\tWhen the orientation change is not 0, executes the force guide object using the SpeedR property. When the orientation change is 0, uses the SpeedS property.\n\n- Gives priority to the tool orientation changes.\n\n- Does not give priority to the SpeedR property.\n\nAutoDistOrientRatio\tExecutes the force guide object by automatically determining whether to give priority to the SpeedR property based on the moving distance and the orientation change.\n\nDefault: AutoDistOrientRatio",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

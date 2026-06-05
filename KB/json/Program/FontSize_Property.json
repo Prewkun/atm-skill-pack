@@ -1,0 +1,14 @@
+{
+  "title": "FontSize Property",
+  "file": "FontSize_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the font size of the text used on a control.",
+  "notes": "",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, GroupBox, LED, StatusBar\n\nFontBold Property\n\nGUI Items: FontSize Property\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, GroupBox",
+  "examples": [
+    "GSet frmMain.btnOK.FontSize, 16"
+  ]
+}

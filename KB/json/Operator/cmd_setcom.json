@@ -1,0 +1,14 @@
+{
+  "title": "SetCom Statement",
+  "file": "cmd_setcom",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "SetCom #portNumber, [baud [, dataBits [, stopBits [, parity [, terminator [, HWFlow [, SWFlow [, timeOut ]]]]]]]]\n\nWhen all parameters are omitted, displays a communication port setting.\n\nIf the several ports are used in the communication at one time with more than 19200 baud rate, error 2929 or 2922 may occur. In this case, select the lower baud rate or avoid using several ports at one time.\n\nWhen using the Windows Part port, some data may drop in the baud rate of 19200 or more.\n\nIf any data drops, select the lower baud rate or use the Real Part port.\n\nParameter is stored to the Compact Flash inside the Controller. When you execute SetCom, the data is written to the Conpact Flash. If a data is written to the Compact Flash fequentlly, it may shorten the Compact Flash life. Using SetCom only when changing the parameter is recommended.",
+  "parameters": "portNumber\tInteger value representing a RS-232C port number\n\nReal Part1 ~ 8\n\nWindows Part1001 to 1008\n\n110\t2400\t19200\n\n300\t4800\t38400\n\n600\t9600\t56000\n\n1200\t14400\t115200\n\n(Default: 9600)\n\nWhen using the Windows Part port , some data may drop in the baud rate of 19200 or more.\n\n(Default: 9600)\n\ndataBits\tOptional. Specifies the number of data bits per character. Valid values are 7 and 8.\n\nstopBits\tOptional. Specifies the number of stop bits per character. Valid values are 1 and 2.\n\nparity\tOptional. Specifies the parity. Valid values are O (Odd), E (Even), and N (None).\n\nterminator\tOptional. Specifies the line termination characters. Valid values are CR, LF, CRLF.\n\nHWFlow\tOptional. Specifies hardware control. Valid values are RTS and NONE.\n\nSWFlow\tOptional. Specifies software control. Valid values are XON and NONE.\n\ntimeOut\tOptional. Specifies the maximum time for transmit or receive in seconds. If this value is 0, then there is no time out.",
+  "description": "SetCom Statement\n\nSetCom Statement\n\nSee_Also Example\n\nSets or displays parameters for a communications port.",
+  "notes": "",
+  "see_also": "OpenCom\n\nCloseCom\n\nSetNet\n\nSetCom Statement Example\n\nSetCom #1, 9600, 8, 1, N, CRLF, NONE, NONE, 0\n\nSetCom #2, 4800",
+  "examples": [
+    "SetCom #1, 9600, 8, 1, N, CRLF, NONE, NONE, 0\n\nSetCom #2, 4800"
+  ]
+}

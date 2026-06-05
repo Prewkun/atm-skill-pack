@@ -1,0 +1,12 @@
+{
+  "title": "[Force Monitor] (Tools Menu)",
+  "file": "tools_FM_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Force Monitor] (Tools Menu)\n\n[Force Monitor] (Tools Menu)\n : Ctrl+F10\n\nOpens the [Force Monitor] window. For more details, refer to the following manual:\n\n  Epson RC+ 8.0 Option Force Guide 8.0\n\n  Software  3.5.2 [Force Monitor] (Tools Menu)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Using events",
+  "file": "VBG_Using_events",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using events\n\nUser events from SPEL+\n\nYou can cause events to occur in your .NET application from your SPEL+ programs.  For example, you can inform the .NET application about a continuous cycle loop.  This is a better method to use than polling for variable values in the Controller from .NET.\n\nTo fire an event in .NET from SPEL+, use the SPELCom_Event command in a SPEL+ program statement.  For example:\n\n    SPELCom_Event 1000, cycNum, lotNum, cycTime\n\nThe SPELCom_Event command is similar to a PRINT command.  You can specify one or more pieces of data to be sent to the .NET application.  See SPELCom_Event for more details.\n\nBefore you can receive events, you must declare your Spel class variable using the WithEvents clause.\n\nPublic WithEvents g_spel As RCAPINet.Spel\n\nCatch the event in the EventReceived routine for the Spel class instance.  To edit this routine, in the module where the Spel class is declared select EventReceived from the procedure list.\n\nHere is an example of code in the EventReceived routine that updates some labels when an event occurs.\n\nVB Example:\n\nSub m_spel_EventReceived (ByVal sender As Object, ByVal e As RCAPINet.SpelEventArgs) Handles m_spel.EventReceived\n\n  Dim tokens() As String\n\n  Select Case e.Event\n\n    Case 2000\n\n      tokens = e.Message.Split(New [Char]() {\" \"c}, _\n\n        System.StringSplitOptions.RemoveEmptyEntries)\n\n      lblCycCount.Text = tokens(0)\n\n      lblLotNumber.Text = tokens(1)\n\n      lblCycTime.Text = tokens(2)\n\n  End Select\n\nEnd Sub\n\nC# Example:\n\nvoid m_spel_EventReceived(object sender, SpelEventArgs e)\n\n{\n\n  string[] tokens = new string[3];\n\n  switch(e.Event)\n\n  {\n\n    case 2000:\n\n      tokens = e.Message.Split(' ');\n\n      lblCycCount.Text = tokens(0);\n\n      lblLotNumber.Text = tokens(1);\n\n      lblCycTime.Text = tokens(2);\n\n      break;\n\n    default:\n\n      break;\n\n  }\n\n}",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "SPELCom_Event 1000, cycNum, lotNum, cycTime",
+    "Public WithEvents g_spel As RCAPINet.Spel",
+    "Sub m_spel_EventReceived (ByVal sender As Object, ByVal e As RCAPINet.SpelEventArgs) Handles m_spel.EventReceived Dim tokens() As String Select Case e.Event\n    Case 2000\n      tokens = e.Message.Split(New [Char]() {\" \"c}, _\n        System.StringSplitOptions.RemoveEmptyEntries)\n      lblCycCount.Text = tokens(0)\n      lblLotNumber.Text = tokens(1)\n      lblCycTime.Text = tokens(2) End Select\nEnd Sub",
+    "void m_spel_EventReceived(object sender, SpelEventArgs e)\n{ string[] tokens = new string[3]; switch(e.Event) {\n    case 2000:\n      tokens = e.Message.Split(' ');\n      lblCycCount.Text = tokens(0);\n      lblLotNumber.Text = tokens(1);\n      lblCycTime.Text = tokens(2);\n      break;\n    default:\n      break; }\n}"
+  ]
+}

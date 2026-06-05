@@ -1,0 +1,14 @@
+{
+  "title": "FDef Function",
+  "file": "FDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Identifies whether the specified force object is defined or not.",
+  "notes": "Identifies whether the specified force object is defined or not.",
+  "see_also": "FCEnd Statement",
+  "examples": [
+    "Function main If FDef(FC9) Then\n   Print \"FC9 is defined\" EndIf\nFend"
+  ]
+}

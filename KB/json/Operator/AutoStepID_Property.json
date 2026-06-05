@@ -1,0 +1,12 @@
+{
+  "title": "AutoStepID Property",
+  "file": "AutoStepID_Property",
+  "section": "Operator",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set whether to set StepID of force guide object automatically.\n\nStepID is an ID which is recorded in the log data.\n  It helps you to understand which log data support a process.\n\nValues\n\nTrue : Normal\n\nFalse : When you want to set StepID manually.",
+  "notes": "",
+  "see_also": "Applies To\n\nSequences\n Property\n\nStepID Property",
+  "examples": []
+}

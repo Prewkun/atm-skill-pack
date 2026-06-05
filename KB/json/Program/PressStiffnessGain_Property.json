@@ -1,0 +1,12 @@
+{
+  "title": "PressFirmnessF Property",
+  "file": "PressStiffnessGain_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a gain that indicates a firmness of force control functions to pressing direction during the execution of SurfaceAlign object.\n\nWhen the value of PressFirmnessF increases, the force control function will become stronger.  Response to changes of the force is slow, however, vibration hardly occurs.\n\nWhen the value of PressFirmnessF decreases, the force control function will become weaker.  Response to changes of the force is fast, however, vibration is easy to occur.\n\nValue\n\nMinimum value 0.1 (C8 series: 0.5)\n\nMaximum value 200\n\nDefault: 10",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

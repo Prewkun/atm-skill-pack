@@ -1,0 +1,15 @@
+{
+  "title": "AvgSpeedClear Method, Spel Class",
+  "file": "AvgSpeedClear_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function AvgSpeedClear ()",
+  "parameters": "",
+  "description": "Clears and initializes the average of the absolute speed values for one or more joints.",
+  "notes": "AvgSpeedClear clears the average of the absolute speed values for the specified joints.\n\nYou must execute AvgSpeedClear before executing AvgSpeed.\n\nThis method does not support the PG additional axes.",
+  "see_also": "AvgSpeed, PeakSpeed, PeakSpeedClear\n\nAvgSpeedClear Example\n\nVB Example:\n\nm_spel.AvgSpeedClear()\n\nC# Example:\n\nm_spel.AvgSpeedClear();",
+  "examples": [
+    "m_spel.AvgSpeedClear()",
+    "m_spel.AvgSpeedClear();"
+  ]
+}

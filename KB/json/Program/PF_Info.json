@@ -1,0 +1,12 @@
+{
+  "title": "PF_Info Function",
+  "file": "PF_Info",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) PF_Info(part ID, property ID)\n\n(2) PF_Info(part name, property ID)",
+  "parameters": "part ID\tSpecify the part ID (integer number 1 to 32).\n\npart name\tSpecify the part name (character string).\n\nproperty ID\tSpecify the property ID.\n\nProperties that can be retrieved are as follows.\n\nProperty ID\tDetails\n\nPF_INFO_ID_FEEDER_CALIB_CORRECT_MAXNUM\tResults of calibration for the optimum number of parts\n\nUsed to calculate the number of parts to feed.\n\nPF_INFO_ID_FEEDER_NO\tReturns the feeder number used by the part.\n\nPF_INFO_ID_ROBOT_NO\tReturns the robot number used by the part.",
+  "description": "Returns part property values.  Use this value to customize system behavior within the callback function.\n\nCannot be executed from a virtual controller or command window.\n\nPF_Info Example\n\nRefer to Part Feeding Callback Functions PF_Control for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

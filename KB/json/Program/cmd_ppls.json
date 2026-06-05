@@ -1,0 +1,14 @@
+{
+  "title": "PPls Function",
+  "file": "cmd_ppls",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PPls (point, jointNumber)",
+  "parameters": "point\tPoint expression\n\njointNumber\tExpression or numeric value specifying the joint number (integer from 1 to 9)\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "PPls Function\n\nPPls Function\n\nSee_Also Example\n\nReturn the pulse position of a specified joint value from a specified point.",
+  "notes": "",
+  "see_also": "Agl\n\nCX, CY, CZ, CU, CV, CW, CR, CS, CT Keywords\n\nPAgl\n\nPPls Function Example\n\nLong pulses1\n\npulses1 = PPls(P10, 1)",
+  "examples": [
+    "Long pulses1\n\npulses1 = PPls(P10, 1)"
+  ]
+}

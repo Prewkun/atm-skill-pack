@@ -1,0 +1,14 @@
+{
+  "title": "Local Function",
+  "file": "local_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Local(localNumber)",
+  "parameters": "localNumber\tLocal coordinate system number (integer from 1 to 15) using an expression or numeric value.",
+  "description": "Local Function\n\nLocal Function\n\nSee_Also Example\n\nReturns the specified local coordinate system data as a point.",
+  "notes": "",
+  "see_also": "Local Statement\n\nLocal Function Example\n\nP1 = Local (1)",
+  "examples": [
+    "P1 = Local (1)"
+  ]
+}

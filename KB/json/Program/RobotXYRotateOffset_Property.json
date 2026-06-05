@@ -1,0 +1,12 @@
+{
+  "title": "RobotXYRotateOffset Property",
+  "file": "RobotXYRotateOffset_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns whether to rotate the offset by the RobotXOffset, RobotYOffset property according to the Angle result.",
+  "notes": "If False, the RobotXOffset, RobotYOffset properties do not consider the Angle result to be detected and are simply an offset to the robot coordinate system. If True, the RobotXOffset, RobotYOffset property will be the offset with respect to the coordinate system rotated according to the Angle result to be detected.\n\nSee Also: RobotXYRotateOffset Property\n\nRobotXOffset Property\n\nRobotYOffset Property",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

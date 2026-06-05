@@ -1,0 +1,16 @@
+{
+  "title": "Scroll Event",
+  "file": "Scroll_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when the track bar slider has been moved.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function frmMain_TrackBar1_Scroll(Sender$ As String, Value As Integer)",
+    "Print \"The trackbar value after scroll is\", Value",
+    "Fend"
+  ]
+}

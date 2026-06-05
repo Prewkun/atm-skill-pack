@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_Dialog_Pick",
+  "file": "Parts_Feeding_Dialog_Pick",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_Dialog_Pick\n\nPick\n\nThis page configures settings relating to the feeder layout and part pick up.\n\nItem\tDescription\n\nFeeder Orientation\tSets the feeder orientation as viewed by the camera.\n\nPick Region\tSets the region for picking up parts when seen from the camera.\n\nSelect either of Anywhere, Region A, B, C or D. Note that when Anywhere is not selected, then Shift calibration is required.\n\nIF-80: Anywhere\n\nIF-240: Anywhere, Region A, Region B, Region C, Region D\n\nIF-380 & IF-530: Anywhere, Region A, Region B\n\nAvoid interface with robot hand\tSelect this check box to enable a function used to avoid interference between the end effector and the platform tray walls.\n\nHand Clearance Radius\tParts within this distance from the circumference of the platform tray (set in the vision search window) will not be included in the coordinates queue.\n\nUnits are in mm.\n\nTeach\tOpens the Teach dialog to allow teaching of the Z coordinate at part pick up.\n\nWhen using a 6-axis robot, the V and W orientations are taught in addition to the Z coordinate.\n\nRefer to 2.3.6.  Teach Window for more details.\n\nPick Z\tThis is the Z coordinate (local coordinates) at part pick up.  The Z coordinate used for teaching will be shown here.  Enter a new value to manually change this.\n\nUnits are in mm.\n\nNote:  Check that interference does not occur between the end effector and the platform when \"Avoid interface with robot hand\" is enabled and the Hand radius has been adjusted.\n\nNote:  When \"User processes vision for part via PF_Vision callback\" is selected on the Vision screen and \"Avoid interface with robot hand\" is enabled, it is important to note that parts within the Hand radius distance from the platform edge will be included in the parts coordinates queue.\n\nTip:  While V and W positional orientation values will not appear on the dialog when using a 6-axis robot, these values will be stored in internal memory.\n\nButton\tDescription\n\nClose\tCloses the screen.\n\nApply\tApplies changes\n\nRestore\tiUndoes changes",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

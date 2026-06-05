@@ -1,0 +1,12 @@
+{
+  "title": "Mass Gravity Wizard",
+  "file": "Mass_Gravity_Wizard",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Mass Gravity Wizard\n\nMass/Gravity Wizard\n\n(1)   Click the [Mass / Gravity Wizard] button.\n\n[Step 1: Select Mass Properties Number] appears in the [Mass / Gravity Wizard] window.\n\nYou can define the mass properties.\n\n(2)   Select the number in [Select mass properties to define].\n\nThe mass properties label for the selected number is displayed in [Enter mass properties label].  The label name can be changed.\n\n(3)   Click the [Next] button.\n\n[Step 2: Teach initial point] appears in the [Mass / Gravity Wizard] window.\n\n(4)   Click the [Teach...] button.\n\nThe [Jog & Teach] window appears.\n\nMount the workpiece to the end effector (hand tip) of the robot and move the robot to the position where J4, J5, and J6 can move at 60 degrees.\n\n(5)   Click the [OK] button.\n\nThe position information is saved.\n\n[Step 3: Move robot to collect data] appears in the [Mass / Gravity Wizard] window.  In this step, the robot moves in 8 steps.\n\nYou can select the motion direction of joints [J4], [J5], and [J6] from \"+\" and \"-\" in [Joint Motion Directions].\n\nYou can select the speed for the posture check using step buttons from \"Low\" and \"High\" in [Motion speed].\n\nClick the [Step] button in (5) to view the posture of each step.\n\nThe following message appears.\n\nClick the [Yes] button to display the [Execute Command] dialog box and start moving the robot.\n\nClick the [Step] button to check if the robot interferes with the end effector and peripherals for the posture of each step.\n\nTo stop the robot part way through, click the [STOP] button.\n\nClick the [Execute] button in (5) to execute all the steps to measure the mass properties.  The following message appears.\n\nClick the [Yes] button to display the [Mass / Gravity Calibration] dialog box and start moving the robot.\n\nTo stop the robot part way through, click the [STOP] button.\n\n(6)  When the movement is completed, the [Finish] button appears in the [Mass / Gravity Wizard] window.\n\nThe mass properties and gravity direction values are displayed in [Previous Values] and [New Values].\n\n(7)  Click either of the following buttons.\n\n[Finish] button       : Saves the new values.\n\n[Cancel] button      : Cancel the new values.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

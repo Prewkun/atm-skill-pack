@@ -1,0 +1,12 @@
+{
+  "title": "LineFinder Description",
+  "file": "LineFinder_Description",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "LineFinder Description\n\nLineFinder Description\n\nLineFinder objects are used to identify the position of a line in the image.\n\nLineFinder objects process multiple Edge objects automatically to identify the edge position and obtain the line identified from each edge position.\n\nThe edge of an object in an image is a change in gray value from dark to light or light to dark. This change may span several pixels.\n\nThe LineFinder object finds the transition from Light to Dark or Dark to Light as defined by the Polarity property and defines that position as the edge position for a single edge. You can also search for edge pairs by changing the EdgeType property. With edge pairs, two opposing edges are searched for, and the midpoint is retured as the result.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

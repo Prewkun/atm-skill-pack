@@ -1,0 +1,12 @@
+{
+  "title": "TriggerDebounce Property",
+  "file": "TriggerDebounce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns hardware strobe trigger debounce value.",
+  "notes": "This property is only available for the GigE cameras.\n\nUse TriggerDebounce to filter noise on the strobe trigger signal.  When the TriggerDebounce value is greater than zero, a new trigger signal is not accepted until the amount of debounce time has passed.\n\nNote\n\nThis property is only available for the GigE cameras and has no effect on the USB cameras.\n\nSee Also: TriggerDebounce Property\n\nSequence window\n\nVision Sequences\n\nTriggerMode Property",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

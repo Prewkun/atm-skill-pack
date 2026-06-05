@@ -1,0 +1,12 @@
+{
+  "title": "EdgeSort Property",
+  "file": "EdgeSort_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the edge sorting order.",
+  "notes": "Select the sorting order to use when multiple edges are detected on a search line.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Contour, CornerFinder, Edge, LineFinder, LineInspector, BoxFinder\n\nArcFinder\n\nArcInspector\n\nContour\n\nEdge Object\n\nLineFinder\n\nLineInspector",
+  "examples": []
+}

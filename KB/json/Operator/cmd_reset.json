@@ -1,0 +1,15 @@
+{
+  "title": "Reset Statement",
+  "file": "cmd_reset",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "(1) Reset\n\n(2) Reset Error",
+  "parameters": "",
+  "description": "Reset resets the items shown below.\n\nReset Error finishes all non-background tasks and resets the error status and robot control parameters.\n\nTo execute the Reset Error statement from programs you need to set the [Enable advanced task commands] preference in the [Setup]-[System Configuration]-[Controller]-[Preference] page of the Epson RC+.\n\nEmergency Stop Status (reset by Reset only)\n\nError status\n\nOutput Bits (reset by Reset only)\n\nAll Output Bits output set to Off except the I/O for Remote and the I/O for hand..\n\nUser can set Option Switch to turn this feature off.\n\nRobot Control parameter\n\nSpeedR, SpeedS- (Initialized to default values)\n\nQPDecelR , QPDecelS- (Initialized to default values)\n\nLimZ parameter- (Initialized to 0)\n\nCP parameter - (Initialized to Off)\n\nSoftCP parameter - (Initialized to Off)\n\nFine - (Initialized to default values)\n\nPower Low - (Low Power Mode set to On)\n\nPTPBoost- (Initialized to default values)\n\nTCLim, TCSpeed - (Initialized to default values)\n\nPgLSpeed - (Initialized to default values)\n\nFor servo related errors, Emergency Stop status, and any other conditions requiring a Reset, no command other than Reset will be accepted. In this case first execute Reset, then execute other processing as necessary.\n\nFor example, after an emergency stop, first verify safe operating conditions, execute Reset, and then execute Motor On.\n\nCritical error state will not be canceled by Reset.\n\nWhen a critical error occurs, turn Off the controller and solve the cause of the error.\n\nThe Reset Statement cannot be executed from a background task or tasks started with the Trap Emergency or Trap Error. Emergency Stop status cannot be reset from programs.",
+  "notes": "Reset Outputs Preference\n\n(Setup | System Configuration | Preferences page) If the \"Reset turns off outputs\" controller preference is on, then when the Reset instruction is issued, all outputs except bit for hand will be turned off. This is important to remember when wiring the system such that turning the outputs off should not cause tooling to drop or similar situations.\n\nFor details of hand, refer to Hand Function Manual.",
+  "see_also": "Accel\n\nAccelS\n\nLimZ\n\nMotor On\n\nOff\n\nOn\n\nPTPBoost\n\nSFree\n\nSLock\n\nSpeed\n\nSpeedS\n\nReset Statement",
+  "examples": [
+    ">reset",
+    ">"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Sequence Window: Results List",
+  "file": "VG_Sequence_Tab_Results_List",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sequence Window: Results List\n\nSequence Window: Results List\n\nThe results for the vision sequence are shown in the Results list that is located just below the Properties list.  The Results list will only display values in the value field after a vision sequence is executed.  Prior to execution the result field will not display anything.\n\nThe following results are displayed in the result column:\n\nAllPassed\tDisplays\n\t\t whether all vision objects were accepted.\n\nTime\tThe amount\n\t\t of time it took to process the vision sequence",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Open EPSON RC+ 7.0 Dialogs at run time",
+  "file": "Open_EPSON_RC+_Dialogs_at_run_time",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Open EPSON RC+ 7.0 Dialogs at run time\n\nOpen EPSON RC+ 7.0 Dialogs at run time\n\nYou can also open individual EPSON RC+ 7.0 dialogs from your application instead of opening EPSON RC+ 7.0, such as Jog and Teach, I/O monitor, etc.\n\nSee the chapter Running EPSON RC+ 7.0 dialogs from your application.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

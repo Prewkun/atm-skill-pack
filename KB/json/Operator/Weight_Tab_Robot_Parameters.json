@@ -1,0 +1,12 @@
+{
+  "title": "Weight page, Robot Manager dialog",
+  "file": "Weight_Tab_Robot_Parameters",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Weight page, Robot Manager dialog\n\n[Tools]-[Robot Manager]-[Weight] Panel\n\nThis page is for changing the Weight parameters for the robot.\n\nFor more details on Weight settings, refer to the following manual:\n\nSPEL+ Language Reference - Weight Statement\n\nYou can also set by following \"Weight, Inertia, and Eccentricity/offset Measurement Utility\".\n\nThe following section describes the details.\n\nWeight, Inertia, and Eccentricity/offset Measurement Utility\n\nItem\tDescription\n\nWeight\tType\n\t\t in the new total weight of the payload on the robot.\n\nkg/lbs\tSelect\n\t\t which unit you would like to view. (kg/lbs)\n\nLength\tChange\n\t\t it when you use SCARA robots with special specifications which\n\t\t length of Arm #2 has been changed. The arm length is the distance\n\t\t from the center of the second axis to the center of the third\n\t\t axis.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nDefaults\tDisplays\n\t\t factory default settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

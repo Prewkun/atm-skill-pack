@@ -1,0 +1,12 @@
+{
+  "title": "Formulas for Lenses",
+  "file": "Formulas_for_Lenses",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Formulas for Lenses\n\nApproximate Calculation Formulas for Lenses\n\nWhen WD is longer than approx. 200 mm:\n\nDistance to the object: L [mm]\n\nFocal distance: f [mm]\n\nField of View (Height) Approximate Calculation Formula\n\nH = L x CCD vertical dimension / (f+l)\n\n* CCD vertical dimension = Pixel size x number of pixels\n\n* For the pixel size, reef to the specification of each camera.\n\nWhen WD is roughly shorter than approx. 200 mm:\n\nDistance to the object: L\n\nFocal distance: f\n\nDistance from the focal point to the imaging element: l\n\nDistance from the virtual lens to the imaging element (CCD/CMOS): (f+l)\n\nTip:\n\n\"Distance to the object: L\" in the above figure differs from the work distance.\n\n\"Distance to the object: L\" is a distance from the \"position of the virtual lens\", while a work distance is a distance from the \"lens end\".\n\nTherefore, a relation ship of L, (f+l) and WD in the above figure is as follows:\n\nL + (f+l) = WD + Lens length + 17.526mm\n\nDistance from the virtual lens to the imaging element (CCD/CMOS) (f+l)\n\n(f+l) = (L x f) / (L - f)\n\nL including the extension tube (t)\n\nL = f x ((f+l) + t) / (((f+l) + t) - f)\n\nField of View (Height) Approximate Caluculation Formula\n\nH = L x CCD vertical dimention / (f+l)\n\n* CCD vertical dimention = Pixel size x number of pixels\n\n* For the pixel size, refer to the specification of each camera.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

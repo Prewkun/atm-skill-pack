@@ -1,0 +1,15 @@
+{
+  "title": "Function and Variable Names",
+  "file": "var_names",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Function and Variable Names\n\nFunction and Variable Names (Naming restriction)\n\nThe function name can include up to 64 characters. The variable name can include up to 32 alphanumeric, Japanese, or underscore characters. Characters can be upper case or lower case.\n\nThe following names are valid:\n\nFunction main\n\nReal real_var\n\nInteger IntVar\n\nFunction and variable names cannot begin with an underscore.\n\nSPEL+ keywords cannot be used as function or variable names. (Example: Go, On)\n\nString variables must have an additional dollar sign ('$') suffix. An example is shown below.\n\nFunction Test\n\n    String modname$\n\n    Print \"Enter model name:\"\n\n    Line Input modname$\n\n    Print \"model is \", modname$\n\nFend\n\nRestrictions for naming in SPEL+ language\n\nCharacters\n\t can be alphanumeric, Japanese, or underscore character.\n\nUse\n\t alphabets for the first letter.\n\nCharacters\n\t can be upper case or lower case.\n\nNo\n\t keywords can be used.\n\nMaximum\n\t limits of names are as follows. (For one -byte character)\n\nName\tMax.\n\t\t limit\n\nPoint label\t32\n\nI/O\n\t\t label\t32\n\nUser\n\t\t error label\t32\n\nFunction\n\t\t name\t64\n\nVariable\n\t\t name\t32\n\nLine\n\t\t label\t32",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main\nReal real_var\nInteger IntVar",
+    "Function Test\n    String modname$\n    Print \"Enter model name:\"\n    Line Input modname$\n    Print \"model is \", modname$\nFend"
+  ]
+}

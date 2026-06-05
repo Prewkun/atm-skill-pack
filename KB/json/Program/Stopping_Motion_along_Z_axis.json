@@ -1,0 +1,16 @@
+{
+  "title": "Stopping Motion along Z axis",
+  "file": "Stopping_Motion_along_Z_axis",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Stopping Motion along Z axis\n\nStopping Motion along Z axis\n\nUse a trigger on the ZForce axis to stop the robot during Z axis motion.\n\nFor example:\n\n' Set the force trigger to fire when force on Z axis is less than -10\n\nForce_ClearTrigger\n\nForce_SetTrigger FORCE_ZFORCE, -10, FORCE_LESS\n\nTill Force\n\nJump P1\n\nSpeeds 1\n\nMove P2 Till\n\nYou can combine other conditions with Force in the Till command:\n\nTill Sw(1) = On Or Force\n\nYou can combine other force/torque conditions by calling Force_SetTrigger more than once.  In this case, clear all triggers first before setting them.\n\nForce_ClearTrigger\n\nForce_SetTrigger FORCE_ZFORCE, -10, FORCE_LESS\n\nForce_SetTrigger FORCE_XFORCE, 5, FORCE_GREATER",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "' Set the force trigger to fire when force on Z axis is less than -10\n\nForce_ClearTrigger\nForce_SetTrigger FORCE_ZFORCE, -10, FORCE_LESS\nTill Force\nJump P1\nSpeeds 1\nMove P2 Till",
+    "Till Sw(1) = On Or Force",
+    "Force_ClearTrigger\nForce_SetTrigger FORCE_ZFORCE, -10, FORCE_LESS\nForce_SetTrigger FORCE_XFORCE, 5, FORCE_GREATER"
+  ]
+}

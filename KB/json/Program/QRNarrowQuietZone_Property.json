@@ -1,0 +1,12 @@
+{
+  "title": "QRNarrowQuietZone Property",
+  "file": "QRNarrowQuietZone_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the quiet zone width (Normal or Narrow) of QR codes.",
+  "notes": "Setting this value to \"True\" sets the quiet zone narrow and setting it to \"False\" sets the quiet zone to normal.\n\nSetting range: True / False\n\nDefault: False\n\nSee Also: QRNarrowQuietZone Property\n\nQRLargeSize Property\n\nVision Objects: QRNarrowQuietZone Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

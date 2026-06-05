@@ -1,0 +1,15 @@
+{
+  "title": "MemOff Method, Spel Class",
+  "file": "vbg_MemOff",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub MemOff ( BitNumber As  Integer )\n\nSub MemOff ( Label As  String )",
+  "parameters": "BitNumber\tNumber between 0-511 representing one of the 512 S/W memory I/O bits.\n\nLabel\tString expression containing a memory I/O bit label.",
+  "description": "Turns Off the specified bit of the S/W memory I/O.",
+  "notes": "",
+  "see_also": "In\n\nInBCD\n\nMemOut\n\nMemSw\n\nSw\n\nOff\n\nOn\n\nOport\n\nMemOff Example\n\nVB Example:\n\nm_spel.MemOff(500)\n\nC# Example:\n\nm_spel.MemOff(500);",
+  "examples": [
+    "m_spel.MemOff(500)",
+    "m_spel.MemOff(500);"
+  ]
+}

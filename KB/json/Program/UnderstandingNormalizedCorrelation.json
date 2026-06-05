@@ -1,0 +1,12 @@
+{
+  "title": "Understanding Normalized Correlation",
+  "file": "UnderstandingNormalizedCorrelation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Understanding Normalized Correlation\n\nUnderstanding Normalized Correlation\n\nThe purpose of Correlation is to locate and measure the quality of one or more previously trained features in a search window .  Correlation objects can be used to find parts, detect presence and absence of parts or features, detect flaws and a wide variety of other things.  While Vision Guide 8.0 has a wide variety of vision object tools, the Correlation object is the most commonly used tool due to its speed and overall reliability.\n  For example, in many applications Edge Tools can be used to find the edges of an object.  However, if there are many potential edges within the same area which may confuse an Edge object, then a Correlation object may be able to be used instead to find the position of the edge.\n  There are also instances where Correlation objects are used over Blob objects (when a model can be taught) because they are more reliable.\n\nOver the next few sections we will explain the basics of the Correlation object. This information will include the following topics:\n\nCorrelation Object Models and Features\n\nBasic Searching Concepts\n\nNormalized Correlation\n\nNormalized Correlation Shape Score\n\nNormalized Correlation Optimization (Accept and Confusion)\n\nSetting the Accept and Confusion property values\n\nAdditional Hints Regarding Accept and Confusion properties\n\nUsing the Multiple Results Dialog to Debug Searching Problems\n\nCorrelation objects and rotation\n\nModel Training for angle searching\n\nSearching repeatability and accuracy\n\nCalibrating the camera to subject distance",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Exit Command (File Menu)",
+  "file": "file_exit_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Exit Command (File Menu)\n\nExit Command (File Menu)\n\nAlt + F4\n\nExits from Epson RC+ 8.0.\n\nIf you are running a program from the [Run] window and the control device is PC, you will see a message that a program is running and you will not be allowed to exit. You must stop all tasks first before you can exit.\n\nA dialog will appear prompting you to save any unsaved program files, include files, point files, I/O labels, or user errors. Click the [Yes], [No], or [Cancel] button to continue.\n\nSelect [Yes] to save the file and close RC+.\n\nSelect [No] to close RC+ without saving the files.\n\nSelect [Cancel] to return to the Epson RC+ 8.0 main window.\n\nIf the display of the dialog at Epson RC+ 8.0 shutdown is enabled, the following dialog will be displayed at the shutdown and you can select a termination process.\n\nFor details on the shutdown dialog, refer to 5.13.3 [Preferences] Command (Setup Menu).\n\nItem\tDescription\n\nExit\n\t\t Epson RC+\tExits\n\t\t the Epson RC+ 8.0.\n\nShutdown\n\t\t Epson RC+ and Windows\tExits\n\t\t the Epson RC+ 8.0 and shutdown the Windows.\n\nShutdown\n\t\t Epson RC+ and Restart Windows\tExits\n\t\t the Epson RC+ 8.0 and reboot the Windows.\n\nOK\tExecutes\n\t\t the selected operation.\n\nCancel\tCancels\n\t\t the operation and closes the dialog.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

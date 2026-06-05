@@ -1,0 +1,14 @@
+{
+  "title": "XYLim Function",
+  "file": "xylim_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "XYLim(limit)",
+  "parameters": "limit\tInteger expression that specifies which limit to return.\n\n1: Lower limit.\n\n2: Upper limit.",
+  "description": "XYLim Function\n\nXYLim Function\n\nSee_Also Example\n\nReturns point data for either upper or lower limit of XYLim region.",
+  "notes": "",
+  "see_also": "XYLim Statement\n\nXYLim Function Example\n\nP1 = XYLim(1)\n\nP2 = XYLim(2)",
+  "examples": [
+    "P1 = XYLim(1)\nP2 = XYLim(2)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Text Property",
+  "file": "Text_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the text associated with the control.",
+  "notes": "",
+  "see_also": "Applies To\n\nForms, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, LED, StatusBar\n\nTextAlign Property\n\nGUI Items: Text Property\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox",
+  "examples": [
+    "GSet frmMain.lblName.Text, \"Name: \""
+  ]
+}

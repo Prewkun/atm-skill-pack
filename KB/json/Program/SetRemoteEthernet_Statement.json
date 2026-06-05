@@ -1,0 +1,14 @@
+{
+  "title": "SetRemoteEthernet Statement",
+  "file": "SetRemoteEthernet_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SetRemoteEthernet palletNumber",
+  "parameters": "palletNumber",
+  "description": "SetRemoteEthernet Statement\n\nSetRemoteEthernet Statement",
+  "notes": "",
+  "see_also": "SetRemoteCom\n\nSetRemoteEthernet Statement Example\n\nSetRemoteEthernet 1",
+  "examples": [
+    "SetRemoteEthernet 1"
+  ]
+}

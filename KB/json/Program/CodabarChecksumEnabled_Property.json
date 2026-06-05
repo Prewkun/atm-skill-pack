@@ -1,0 +1,12 @@
+{
+  "title": "CodabarChecksumEnabled Property",
+  "file": "CodabarChecksumEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to use the check sum during Codabar detection.",
+  "notes": "Sets whether to use the check sum during Codabar detection.\n\nSetting range: True / False\n\nDefault: False\n\nSee Also: CodabarChecksumEnabled Property\n\nCodabarOutputChecksum Property\n\nCodabarOutputStartStop Property\n\nVision Objects: CodabarChecksumEnabled Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader\n\nDesigntime only",
+  "examples": []
+}

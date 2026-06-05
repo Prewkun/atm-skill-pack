@@ -1,0 +1,12 @@
+{
+  "title": "Teaching Robot Points",
+  "file": "Teaching_Robot_Points",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teaching Robot Points\n\nTeaching Robot Points\n\nIf possible, teaching should be performed with no personnel inside the safeguarded area.\n\nTeach mode can be used to allow the robot to be jogged or moved at slow speed when the safeguard is open. Before going inside the safeguarded area, robot operators that need to move the robot under servo control must switch Teach mode to ON by using the mode selector key switch of the teach pendant. Operators then carry the teach pendant while inside the safeguarded area. As a result, the operation mode cannot be changed from outside the safeguarded system while somebody is inside the safeguarded area.\n\nAuto Mode and Program Mode\n\nWith the safeguard circuit open, the robot motors will be turned off and the robot cannot be jogged under power.\n  However, the robot can be moved by hand to a position with the safeguard circuit open and the position can then be taught.\n\nTeach Mode\n\nThe robot can be jogged or moved at slow speed as long as the three position enable (dead man) switch is engaged.\n\nPlease observe the following guidelines for teaching points:\n\n\t\t\tRobot operators must receive training that utilizes the same type of robot. Before teaching, the operator should be thoroughly familiar with teaching procedures.\n\t\t\tBefore teaching, remove all errors and malfunctions.\n\t\t\tBefore the robot operator goes inside the safeguard system, confirm that the robot motors go off when the safeguard is open and that emergency stop switches are functioning correctly.\n\t\t\tThe robot operator should visually check the robot system and safeguard system interior to ensure that there are no potential hazards.\n\t\t\tDesign the system in such a way that prevents the overall robot system from being started up from any location while the operator is inside the safeguarded area.\n\t\t\tIf there is a possibility of a dangerous situation arising from the operation of a device other than the robot, such as an actuator, take steps to prevent such operation or ensure that these devices can only be controlled by the teaching operator.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

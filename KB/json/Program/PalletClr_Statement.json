@@ -1,0 +1,14 @@
+{
+  "title": "PalletClr Statement",
+  "file": "PalletClr_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PalletClr palletNumber",
+  "parameters": "palletNumber\tPallet number represented by integer expression 0 to 15.",
+  "description": "PalletClr Statement\n\nPalletClr Statement",
+  "notes": "",
+  "see_also": "Clears a defined pallet.\n\nPallet\n\nPalletClr Statement Example\n\nPalletClr 1",
+  "examples": [
+    "PalletClr 1"
+  ]
+}

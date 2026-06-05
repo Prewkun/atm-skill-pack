@@ -1,0 +1,12 @@
+{
+  "title": "FG_AbortSeqOnFail Property",
+  "file": "FG_AbortSeqOnFail_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets operations when force guide object fails.\n\nWhen specifying True, the program ends force guide sequence and proceeds to the next SPEL statement if force guide object fails.\n\nWhen specifying False, the program proceeds to the next force guide object without ending the force guide sequence if the force guide object fails.\n\nUse this property when you want to continue the force guide sequence (e.g. the recovery processes are included in the force guide sequence when the force guide object fails.)\n\nValues\n\nTrue Abort the force guide sequence when the force guide object fails.\n\nFalse Start the next force guide sequence when the force guide object fails.\n\nDefault:  True\n\nSee Also: AbortSeqOnFail Property\n\nEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nContact Object, Follow Object, Relax Object",
+  "examples": []
+}

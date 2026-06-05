@@ -1,0 +1,12 @@
+{
+  "title": "Configure Controller LAN Port TCP/IP",
+  "file": "Vision_Guide_Software_Camera_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Configure Controller LAN Port TCP/IP\n\nConfigure Controller LAN Port TCP/IP\n\nThe Controller needs to communicate with the camera when vision commands are executed. The TCP/IP settings in the Controller must be configured to communicate on the same subnet as the camera and PC.\n\nTo configure the Controller TCP/IP settings, refer to the Robot Controller manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

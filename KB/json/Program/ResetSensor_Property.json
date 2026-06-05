@@ -1,0 +1,12 @@
+{
+  "title": "ResetSensor Property",
+  "file": "ResetSensor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets whether to reset a force sensor when starting force guide object other than Decision object and SPELFunc object for the first time in the force guide sequence.\n\nValues\n\nTrue Reset the force sensor when starting a force guide object other than Decision object and SPELFunc object.\n\nFalse Force sensor is not reset.\n\nDefault:  True\n\nSee Also: ResetSensorAt Property\n\nRobotNumber Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

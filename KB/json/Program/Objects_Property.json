@@ -1,0 +1,12 @@
+{
+  "title": "Objects Property",
+  "file": "Objects_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Array of objects in a sequence.  Used to access object properties and results with an index.",
+  "notes": "Use the Objects property to access the objects in a sequence by using an index instead of a name.",
+  "see_also": "Applies To\n\nVision Objects: Sequences\n Property\n\nCount Property\n\nType Property",
+  "examples": []
+}

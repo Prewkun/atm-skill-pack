@@ -1,0 +1,12 @@
+{
+  "title": "Found Result",
+  "file": "FoundResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns whether the object was found.",
+  "notes": "The Found result simply returns whether the part or the current object is looking for was found.  For example, and Edge object returns whether an Edge was found and a Correlation object returns whether an image was found which matches the taught model.\n\nThe Found result also can be acquired by the RobotXYU, PixelXYU, and CameraXYU results.\n\nYou can also configure how an object is considered to be Passed by using PassType.  For example, set PassType = AllNotFound for DefectFinder object to consider the result as \"failed\" if there was a found object. (defect).",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, Defect Finder, Edge, Frame, Geometric, Line, LineFinder, LineInspector, OCR, Point, Polar, Text, Coordinates\n\nCameraXYU Result\n\nCurrentResult Property\n\nFoundOnEdge Result\n\nNumberFound Result\n\nNumberToFind Property\n\nRobotXYU Result\n\nScore Result\n\nVision Objects: Found Result\n\nBlob\n\nBoxFinder\n\nColorMatch\n\nContour\n\nCoordinates\n\nCornerFinder\n\nCorrelation\n\nEdge\n\nFrame\n\nGeometric\n\nLine\n\nPoint\n\nPolar\n\nText",
+  "examples": []
+}

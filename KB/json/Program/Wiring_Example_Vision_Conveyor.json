@@ -1,0 +1,12 @@
+{
+  "title": "Wiring Example Vision Conveyor",
+  "file": "Wiring_Example_Vision_Conveyor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Wiring Example Vision Conveyor\n\nWiring example of Vision Conveyor Tracking System\n\nExample of Hardware Trigger (Asynchronous Reset Mode)\n\nWire the trigger terminal of the camera and the encoder latch terminal of the PG board to the I/O output of the controller.  The PG board detects the trigger when the I/O output turns from OFF to ON.  Set the camera so that it also detects the trigger when the I/O output turns from OFF to ON.\n\nFor software trigger, it is not necessary to connect the trigger terminal of the camera to the encoder latch terminal of the PG board.\n\nWiring example of the hardware conveyor trigger\n\n(CV1, Controller I/O output pin10 and Counter 1 are used)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

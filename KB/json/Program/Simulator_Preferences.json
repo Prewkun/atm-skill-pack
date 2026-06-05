@@ -1,0 +1,12 @@
+{
+  "title": "Simulator Preferences",
+  "file": "Simulator_Preferences",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Item\tDescription\n\nDisplay\tChoose MDI Window or Modeless Window",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

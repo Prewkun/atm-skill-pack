@@ -1,0 +1,15 @@
+{
+  "title": "RobotModel Property, Spel Class",
+  "file": "vbg_RobotModel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property RobotModel As String",
+  "parameters": "",
+  "description": "Returns the model name for the current robot.",
+  "notes": "",
+  "see_also": "Robot\n\nRobotType\n\nRobotModel Example\n\nVB Example:\n\nlblRobotModel.Text = m_spel.RobotModel\n\nC# Example:\n\nlblRobotModel.Text = m_spel.RobotModel;",
+  "examples": [
+    "lblRobotModel.Text = m_spel.RobotModel",
+    "lblRobotModel.Text = m_spel.RobotModel;"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CornerFinder Results",
+  "file": "CornerFinder_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CornerFinder Results\n\nCornerFinder Results\n\nThe following list is a summary of the CornerFinder object results with brief descriptions. For details on each result, refer to Vision Guide 8.0 Properties and Results Reference.\n\nResults\tDescription\n\nAngle\tReturns the\n\t\t angle of the detected corner.\n\nCameraX\tReturns the\n\t\t X coordinate of the detected corner in the Camera coordinate system.\n\nCameraY\tReturns the\n\t\t Y coordinate of the detected corner in the Camera coordinate system.\n\nCameraXYU\tRuntime only.\n\nReturns the\n\t\t CameraX, CameraY, and CameraU coordinates of the detected corner\n\t\t position in the camera coordinate system.\n\nContrast\tReturns the\n\t\t contrast of the found Edge.\n\nFitError\tReturns the\n\t\t distance between each edge point and detected corner in the root\n\t\t mean square (RMS).\n\nFound\tReturns whether\n\t\t the object was found. (i.e. did the feature or part you are looking\n\t\t at have a shape score that is above the Accept property's current\n\t\t setting.)\n\nMaxError\tReturns the\n\t\t maximum difference from the detected line edge in pixel length.\n\nPassed\tReturns whether\n\t\t the object detection result was accepted.\n\nPixelX\tReturns the\n\t\t X coordinate of the detected corner in the Image coordinate system.\n\nPixelY\tReturns the\n\t\t Y coordinate of the detected corner in the Image coordinate system.\n\nPixelXYU\tRuntime only.\n\nReturns the\n\t\t PixelX, PixelY, and PixelU coordinates of the detected corner\n\t\t position in pixels.\n\nRobotX\tReturns the\n\t\t X coordinate of the detected corner in the Robot coordinate system.\n\nRobotY\tReturns the\n\t\t Y coordinate of the detected corner in the Robot coordinate system.\n\nRobotU\tReturns the\n\t\t U coordinate of the detected corner in the Robot coordinate system.\n\nRobotXYU\tRuntime only.\n\nReturns the\n\t\t RobotX, RobotY, and RobotU coordinates of the detected corner\n\t\t position with respect to the Robot Coordinate System.\n\nShowAllResults\tDisplays a\n\t\t dialog box showing all results of the specified vision object\n\t\t in a table form.\n\nStrength\tReturns the\n\t\t strength of the found edge.\n\nTime\tReturns the\n\t\t amount of time required to process the object (unit: millisecond).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

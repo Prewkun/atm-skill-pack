@@ -1,0 +1,12 @@
+{
+  "title": "Commands that will cause error in the Background task",
+  "file": "BGTaskCmdsError",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Commands that will cause error in the Background task\n\nCommands that will cause error in the Background task\n\nThe following commands are prohibited in background tasks and execution will result in error: commands that relate to the Manipulator operation or operation settings commands that relate to the Vision relation instruction TRAP commands If a program that is to be executed as the background task includes any of the following commands, it will result in error when executed.\n\nHowever, using the command related to the Manipulator operation settings or the Manipulator settings to gain the current setting values or refer to them will not result in error:\n\nCommands that will cause error are almost the same as with NoEmgAbort, but there are some commands such as Xqt that can be executed in a background task. For details, refer to Help or the following manual:\n\nSPEL+ Language Reference\n  Xqt",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Hardware I/O",
+  "file": "Hardware_I_O",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Hardware I/O\n\nHardware I/O\n\nThere are 24 DC inputs and 16 DC outputs on a standard controller.\n\nBy purchasing I/O boards, you can add additional inputs and outputs. You can expand the I/O by using the Fieldbus I/O master option and Fieldbus I/O slave option. Also, you can input/output the Analog signal by using the Analog I/O board option. Refer to 11. Inputs and Outputs for details.\n\nNOTE:  I/O boards cannot be added to T series and VT series manipulators.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

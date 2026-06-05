@@ -1,0 +1,14 @@
+{
+  "title": "ShowPrint Property",
+  "file": "ShowPrint_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets whether to display output from Print statements or not.",
+  "notes": "When ShowPrint is True, then all output from Print statements executed in Spel tasks will be displayed in the text box.  If multiple text boxes have ShowPrint set to True, then all of the text boxes will show the print output.\n\nSee Also: ShowPrint Property\n\nAppendText Property\n\nGUI Items: ShowPrint Property\n\nTextBox\n\nScrollBars",
+  "see_also": "Applies To\n\nTextBox",
+  "examples": [
+    "GSet frmMain.txtStatus.ShowPrint, True"
+  ]
+}

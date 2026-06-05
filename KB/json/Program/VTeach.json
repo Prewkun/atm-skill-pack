@@ -1,0 +1,14 @@
+{
+  "title": "VTeach Statement",
+  "file": "VTeach",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "VTeach enables you to teach a vision model from a SPEL program.",
+  "notes": "The object must exist before you can call VTeach. When VTeach executes, a snapshot is taken first, then the model is taught using the current model window (except for Blob objects, which use the search window).\n\nWhen using the ColorMatch or ImageOp objects, you must first set the CurrentModel property before executing VTeach.\n\nNote: After executing VTeach, you must call VSaveModel to make the changes permanent.",
+  "see_also": "VLoadModel\n\nVSaveModel\n\nVTrain\n\nVision Sequences",
+  "examples": [
+    "Integer status\n\nVTeach seq1.corr01, status\nIf status = 1 Then VSaveModel seq1.corr01, \"c:\\models\\corr01\"\nEndIf"
+  ]
+}

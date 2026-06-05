@@ -1,0 +1,15 @@
+{
+  "title": "PosPolarities Property",
+  "file": "PosPolarities_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "PosPolarities Property\n\nPosPolarities\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis returns the status of or sets whether the force motion restriction is activated for position of each axis, movement distance and rotation angle by the value being either within the thresholds or outside of the thresholds.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function SettingPolarities FSet FMR1.PosEnabled, True, True, True, True, True FSet FMR1.PosPolarities, FG_OUT, FG_OUT, FG_OUT, FG_OUT, FG_OUT FSet FMR1.PosLowerLevels, -100, -100, -100, 0, 0 FSet FMR1.PosUpperLevels, 100, 100, 100, 100, 100 Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError\n    AbortMotion All\nFend"
+  ]
+}

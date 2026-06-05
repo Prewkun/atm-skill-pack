@@ -1,0 +1,12 @@
+{
+  "title": "Range page, Robot Manager",
+  "file": "Range_Tab_Robot_Parameters",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Range page, Robot Manager\n\n[Tools]-[Robot Manager]-[Range] Page\n\nThis page allows you to configure the robot joint software limits.\n\nFor more details on Range settings, refer to the following manual:\n\nSPEL+ Language Reference - Range Statement\n\nNOTE:  When using Safety Function (the Controller with Safety Board), the Safety Limited Position (SLP) of the Safety Function can be used.\n\nSet them using the Safety Function Manager. For more details, refer to the following manual:\n\nRobot Controller Safety Function Manual 4.3.4 Setting Safety Limited Position (SLP)\n\nItem\tDescription\n\nJ1 -\n\t\t J6\tType\n\t\t in the minimum and maximum encoder pulse values for each joint.\n\nRead\n\t\t Current\tClick\n\t\t this button to read the current joint value of the robot into\n\t\t the current field.\n\n\t\tThe button text will change depending on which text field has focus.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nDefaults\tReverts\n\t\t back to the default settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

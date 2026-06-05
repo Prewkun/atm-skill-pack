@@ -1,0 +1,12 @@
+{
+  "title": "Correlation Object Problems",
+  "file": "Correlation_Object_Problems",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Correlation Object Problems\n\nCorrelation Object Problems\n\nIf the Correlation object returns a Found result of False, there are a few places to immediately examine.\n\n\tLook at the Score result which was returned. Is the\n\t score result lower than the Accept property setting.  If the\n\t Score result is lower, try changing the Accept property a little lower\n\t (for example, below the current score result) and run the Correlation\n\t object again.\n\tLook at the FoundOnEdge result.  Does it have\n\t a return value of True?  If it is True, this means that the feature\n\t was found but it was found where a part of the feature is touching\n\t the search\n\t window .  This causes the Found result to be returned as\n\t False.  To correct this situation, make the search window larger\n\t or if this is impossible, try changing the position of the camera,\n\t or resizing the model window .\n\nIf the Correlation object finds the wrong feature, there are a couple of places to look:\n\n\tWas the Accept property set high enough?  If\n\t it is set rather low this could allow another feature to be found\n\t in place of the feature you are interested in.\n\tWas the Confusion property set high enough? Is it\n\t higher than the Accept property? The Confusion property should normally\n\t be set to a value equal to or higher than the Accept property.  But\n\t if there are features within the search window which are similar to\n\t the feature you are interested in, then the Confusion property must\n\t be moved to a higher value to make sure that your feature is found\n\t instead of one of the others.\n\tAdjust the search window so that it more closely isolates\n\t the feature which you are interested in.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

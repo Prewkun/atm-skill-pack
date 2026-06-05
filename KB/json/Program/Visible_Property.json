@@ -1,0 +1,14 @@
+{
+  "title": "Visible Property",
+  "file": "Visible_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether the control is displayed at runtime.",
+  "notes": "If GGet is executed without loading a form by GShow or GShowDialog, the return value will be False.",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, LED, ProgressBar, StatusBar, TrackBar, Grid\n\nEnabled Property\n\nGUI Items: Visible Property\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox",
+  "examples": [
+    "GSet frmMain.txtStatus.Visible, True"
+  ]
+}

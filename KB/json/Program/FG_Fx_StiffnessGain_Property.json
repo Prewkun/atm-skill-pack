@@ -1,0 +1,12 @@
+{
+  "title": "FG_Fx_Firmness Property",
+  "file": "FG_Fx_StiffnessGain_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a firmness of force control functions in Fx direction during the execution of force guide object.\n\nIt is used when Fx_ControlMode is Follow.\n\nWhen the value of Fx_Firmness increases, the force control function in Fx direction will become stronger.  Response to changes of the force is slow, however, vibration does not occur.\n\nWhen Fx_Firmness decreases, the force control function in Fx direction will become weaker.  Response to changes of the force is fast, however, vibration is easy to occur.\n\nValues\n\nMinimum value 0.1\n\nMaximum value 200\n\nDefault:  10\n\nSee Also: Fx_Firmness Property\n\nFx_ControlMode Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object",
+  "examples": []
+}

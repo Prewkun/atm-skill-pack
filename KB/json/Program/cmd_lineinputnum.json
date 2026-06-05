@@ -1,0 +1,14 @@
+{
+  "title": "Line Input # Statement",
+  "file": "cmd_lineinputnum",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Line Input # portNumber, stringVar$",
+  "parameters": "portNumber\tThe communications handle or the device ID.  Communication handles can be specified in OpenCom (RS-232C) and OpenNet (TCP/IP) statements.\n\nDevice ID integers are as follows.\n\n21 RC+\n\n23 OP\n\n24 TP (TP1 only)\n\n20 TP3\n\nstringVar$\tA string variable. (string variables must end with a $ character.)",
+  "description": "Line Input # reads string data of one line from the device specified with the handle parameter, and assigns the data to the string variable stringVar$.",
+  "notes": "",
+  "see_also": "Input\n\nInput #\n\nLine Input\n\nLine Input # Statement Example\n\nThis example receives the string data from the communication port number 1, and assigns the data to the string variable A$.\n\nFunction lintest\n\n  String a$\n\n  Print #1, \"Please input string to be sent to robot\"\n\n  Line Input #1, a$\n\n  Print \"Value entered = \", a$\n\nFend",
+  "examples": [
+    "Function lintest String a$ Print #1, \"Please input string to be sent to robot\" Line Input #1, a$ Print \"Value entered = \", a$\nFend"
+  ]
+}

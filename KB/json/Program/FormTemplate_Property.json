@@ -1,0 +1,12 @@
+{
+  "title": "FormTemplate Property",
+  "file": "FormTemplate_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Selects and sets the size of a form from the template.\n\nUse this when you want to resize the form size for the display size of Teach Pendant TP4.",
+  "notes": "If you set the value to 1 or 2, the following properties are fixed.\n\nFormBorderStyle\n\nHeight\n\nLeft\n\nWidth\n\nIf you want to set them manually, set the value to 0.",
+  "see_also": "Applies To\n\nForms\n\nForm",
+  "examples": []
+}

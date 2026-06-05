@@ -1,0 +1,14 @@
+{
+  "title": "SpeedFactor Function",
+  "file": "SpeedFactor_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SpeedFactor",
+  "parameters": "",
+  "description": "SpeedFactor Function\n\nSpeedFactor Function",
+  "notes": "",
+  "see_also": "Returns SpeedFactor setting value.\n\nSpeedFactor Statement\n\nSpeedFactor Function Example\n\nReal savSpeedFactor\n\nsavSpeedFactor = SpeedFactor\n\nSpeedFactor 80\n\nGo P1\n\nGo P2\n\nSpeedFactor savSpeedFactor",
+  "examples": [
+    "Real savSpeedFactor\nsavSpeedFactor = SpeedFactor\nSpeedFactor 80\nGo P1\nGo P2\nSpeedFactor savSpeedFactor"
+  ]
+}

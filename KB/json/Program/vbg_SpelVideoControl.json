@@ -1,0 +1,14 @@
+{
+  "title": "SpelVideoControl Property, Spel Class",
+  "file": "vbg_SpelVideoControl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "VideoControl = SPELVideo",
+  "parameters": "",
+  "description": "Sets the video control to be used for graphics display.",
+  "notes": "In order to display vision graphics on a Spel Class control, you must attach the control to a Spel Class using the SpelVideoControl property .",
+  "see_also": "",
+  "examples": [
+    "m_spel.\n\n\t\t\t\t\tVideoControl\n\n\t\t\t\t = SPELVideo1"
+  ]
+}

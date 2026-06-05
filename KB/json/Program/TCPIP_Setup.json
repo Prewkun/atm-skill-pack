@@ -1,0 +1,12 @@
+{
+  "title": "TCPIP Setup",
+  "file": "TCPIP_Setup",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TCPIP Setup\n\nTCPIP Setup\n\nBefore you can use TCP/IP communications between PCs and controllers, you must configure your network.\n\nThe following sections describe basic network configuration.\n\nEthernet Hardware\n\nIP Addresses\n\nIP Gateway\n\nTesting Windows TCP/IP setup",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

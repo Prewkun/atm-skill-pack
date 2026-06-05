@@ -1,0 +1,14 @@
+{
+  "title": "Using points in a program",
+  "file": "Using_points_in_a_program",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using points in a program\n\nUsing points in a program\n\nWhen starting programs, the point file for the robot is loaded.  You can also load other points in the program using the LoadPoints statement.\n\nFunction main\n\n\t\t  Integer i\n\n\t\t  LoadPoints \"model1.pts\"\n\n\t\t  For i = 0 To 10\n\n\t\t    Jump pick\n\n\t\t    Jump place\n\n\t\t  Next i\n\n\t\tFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main\n\t\t  Integer i\n\t\t  LoadPoints \"model1.pts\"\n\t\t  For i = 0 To 10\n\t\t    Jump pick\n\t\t    Jump place\n\t\t  Next i\n\t\tFend"
+  ]
+}

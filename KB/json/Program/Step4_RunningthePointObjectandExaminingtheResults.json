@@ -1,0 +1,12 @@
+{
+  "title": "Step 4: Running the Point Object and Examining the Results",
+  "file": "Step4_RunningthePointObjectandExaminingtheResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 4: Running the Point Object and Examining the Results\n\nStep 4: Running the Point Object and Examining the Results\n\nTo run the Point object, click the [Run] button of the object on the execution panel.\n\n\tClick the [Run] button of the object on the\n\t execution panel.\n\nResults for the Point object will now be displayed.\n  The primary results to examine at this time are:\n\n\tPixelX, PixelY\n\t results - The XY position\n\t (in pixels) of the Point object.  If the PointType property for\n\t the Point object was set to midpoint, then the PixelX and PixelY results\n\t would return the XY position (in Pixels) of the midpoint of the Line\n\t object specified by LineObject1.\n\tCameraX, CameraY\n\t results - These define the XY position of the Point object\n\t in the camera's coordinate system.  The CameraX and CameraY results\n\t will only return a value if the camera has been calibrated. If it\n\t has not then [No Cal] will be returned.\n\tRobotX,\n\t RobotY results- These define the XY position of the Point object\n\t in robot coordinates. The robot can be told to move to this XY position.\n\t  (No other transformation or other steps are required.)  The\n\t RobotX and RobotY results will only return a value if the camera has\n\t been calibrated.  If it has not then [No Cal] will be returned.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

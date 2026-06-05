@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Speed Function",
+  "file": "cmd_cnv_speed",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_Speed (conveyorNumber )",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.",
+  "description": "Cnv_Speed Function\n\nCnv_Speed Function\n\nSee_Also Example\n\nReturns the current speed of a conveyor.",
+  "notes": "",
+  "see_also": "Cnv_Point\n\nCnv_Speed Function Example\n\nPrint \"Conveyor speed: \",\n\t\t\t\tCnv_Speed\n\t\t\t(1)",
+  "examples": [
+    "Print \"Conveyor speed: \",\n\t\t\t\tCnv_Speed\n\t\t\t(1)"
+  ]
+}

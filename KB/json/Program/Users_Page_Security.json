@@ -1,0 +1,12 @@
+{
+  "title": "Security User: Administrator",
+  "file": "Users_Page_Security",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Security User: Administrator\n\nSecurity User: Administrator\n\nThis page allows you to add and remove Epson RC+ 8.0 users.\n\nTwo users are permanent: Administrator and Guest. Only the passwords can be changed for these users.\n\nYou should always use a password for the Administrator. No password is set at shipment time.\n\nTo add a user\n\nClick\n\t the [Add] button.\n\nA\n\t new user will be added to the tree.\n\nClick\n\t the new user [Group].\n\nClick\n\t the dropdown button and select the group for the user.\n\nTo delete a user\n\nClick\n\t the [User] you want to delete.\n\nClick\n\t the [Delete] button.\n\nA\n\t confirmation message to delete the user will appear.\n\nTo change a user's group\n\nClick\n\t the [Group] for the user you want to change.\n\nClick\n\t a dropdown button in the field and select a new group.\n\nEditing Name, Login ID, and Password\n\nClick\n\t the [User] you want to change.\n\nEdit\n\t the field. All fields are not case sensitive.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

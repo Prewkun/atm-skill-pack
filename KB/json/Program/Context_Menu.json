@@ -1,0 +1,12 @@
+{
+  "title": "Context Menu",
+  "file": "Context_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Context Menu\n\nContext Menu\n\nRight-click items in the project tree to display the context menu. To access the context menu, right click on an item in the project tree.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "MinimizeBox Property",
+  "file": "MinimizeBox_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether the Minimize button is displayed in the title bar of the form.",
+  "notes": "A Minimize button enables users to minimize a window to an icon.\n\nSee Also: MinimizeBox Property\n\nMaximizeBox Property\n\nGUI Items: MinimizeBox Property\n\nForm",
+  "see_also": "Applies To\n\nForms",
+  "examples": [
+    "GSet frmMain.MinimizeBox, True"
+  ]
+}

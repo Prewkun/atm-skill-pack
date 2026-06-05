@@ -1,0 +1,12 @@
+{
+  "title": "Options",
+  "file": "Vision_Config_Options",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Options\n\nOptions\n\nEPSON offers the following options for Vision Guide:\n\n\t\t\tCamera Mounting Bracket to attach the camera to the robot.  (Specify robot type when ordering).\n\t\t\tHigh resolution cameras.\n\t\t\tAdditional cameras.\n\t\t\tTen meter camera cable.\n\t\t\tCamera Power Junction Box (provides power to the camera).\n\t\t\tCamera Lens Kit.\n\t\t\tIndividual Camera Lenses.\n\t\t\tCamera Extension Tube Kit.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

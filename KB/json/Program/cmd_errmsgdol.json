@@ -1,0 +1,14 @@
+{
+  "title": "ErrMsg$ Function",
+  "file": "cmd_errmsgdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ErrMsg$(errNumber, [ langID ])",
+  "parameters": "errNumber\tInteger expression containing the error number to get the message for.\n\nlangID\tOptional.  Integer expression containing the language ID based on the following values.\n\n0 - English\n\n1 - Japanese\n\n2 - German\n\n3 - French\n\n4 - Simplified Chinese\n\n5 - Traditional Chinese\n\n6 - Spanish\n\nIf omitted, English is used.",
+  "description": "ErrMsg$ Function\n\nErrMsg$ Function\n\nSee_Also Example\n\nReturns the error message which corresponds to the specified error number for the specified language.",
+  "notes": "",
+  "see_also": "Error Handling\n\nError Codes\n\nEra\n\nErl\n\nErr\n\nErt\n\nOnErr\n\nErrMsg$ Function Example\n\nThe following example shows a simple program using the Ert function to determine which task the error occurred in along with; Erl: where the error occurred; Err: what error occurred; Era: if an joint caused the error....\n\nFunction ErrHandler 'Error handling routine\n\nInteger errTask\n\n  errTask = Ert\n\n  Print \"Task number at which error occurred is \", errTask\n\n  If Era(errTask) Then\n\n    Print \"Joint which caused error is \", Era(errTask)\n\n  EndIf\n\n  Print \"The Error code is \", Err(errTask)\n\n  Print \"The Error Message is \", ErrMsg$(Err(errTask))\n\n  Print \"The line where the error occurred is Line \", Erl(errTask)\n\nFend",
+  "examples": [
+    "Function ErrHandler 'Error handling routine Integer errTask errTask = Ert Print \"Task number at which error occurred is \", errTask If Era(errTask) Then\n    Print \"Joint which caused error is \", Era(errTask) EndIf Print \"The Error code is \", Err(errTask) Print \"The Error Message is \", ErrMsg$(Err(errTask)) Print \"The line where the error occurred is Line \", Erl(errTask)\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PTPBoost Function",
+  "file": "PTPBoost_Func",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "PTPBoost(paramNumber)",
+  "parameters": "paramNumber\tInteger expression which can have the following values:\n\n1: boost value\n\n2: jump depart boost value\n\n3: jump approach boost value",
+  "description": "PTPBoost Function\n\nPTPBoost Function",
+  "notes": "",
+  "see_also": "Returns the specified PTPBoost value.\n\nPTPBoost Statement\n\nPTPBoostOK\n\nPTPBoost Function Example\n\nPrint PTPBoost(1)",
+  "examples": [
+    "Print PTPBoost(1)"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "TLClr Statement",
+  "file": "TLClr_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "TLClr  toolNumber",
+  "parameters": "toolNumber\tInteger expression representing which of the 3 tools to clear (undefine).  (Tool 0 is the default tool and cannot be cleared.)",
+  "description": "Robot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "",
+  "see_also": "Arm, ArmClr, Armset, Local, LocalClr, Tool, TLSet\n\nTLClr Example\n\nTLClr 1",
+  "examples": []
+}

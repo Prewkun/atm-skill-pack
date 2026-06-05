@@ -1,0 +1,12 @@
+{
+  "title": "LastExecObject Result",
+  "file": "LastExecObject_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force guide object name which is executed at the end.\n\nSee Also: LastExecObject Result\n\nEndStatusData Result",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

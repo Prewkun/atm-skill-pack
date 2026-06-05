@@ -1,0 +1,15 @@
+{
+  "title": "OutReal Function",
+  "file": "OutReal_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "OutReal(WordPortNumber)",
+  "parameters": "WordPortNumber\tInteger expression representing I/O output words.",
+  "description": "OutReal Function\n\nOutReal Function",
+  "notes": "",
+  "see_also": "Retrieve the output port status as the 32 bits floating-point data (IEEE754 compliant).\n\nIn, InW, InBCD, InReal, Out, OutW, OpBCD, OutReal\n\nOutReal Function Example\n\nReal rdata01\n\nrdata01 = OutReal(0)",
+  "examples": [
+    "Real rdata01",
+    "rdata01 = OutReal(0)"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Arm Method, Spel Class",
+  "file": "vbg_Arm",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Arm ( ArmNumber As Integer)",
+  "parameters": "ArmNumber\tInteger expression from 0-15.  The user may select up to 16 different arms.  Arm 0 is the standard (default) robot arm.  Arm(s) 1-15 are auxiliary arms defined by the ArmSet instruction.",
+  "description": "Sets the current robot arm number.",
+  "notes": "",
+  "see_also": "ArmSet, GetArm, Tool\n\nArm Example\n\nVB Example:\n\nm_spel.Arm(1)\n\nC# Example:\n\nm_spel.Arm(1);",
+  "examples": [
+    "m_spel.Arm(1)",
+    "m_spel.Arm(1);"
+  ]
+}

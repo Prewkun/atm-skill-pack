@@ -1,0 +1,14 @@
+{
+  "title": "Speed Function",
+  "file": "speed_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Speed(paramNumber)",
+  "parameters": "paramNumber\tInteger expression which evaluates to one of the values shown below.\n\n1: PTP motion speed\n\n2: JUMP depart speed\n\n3: JUMP approach speed",
+  "description": "Speed Function\n\nSpeed Function\n\nSee_Also Example\n\nReturns one of the three speed settings.",
+  "notes": "",
+  "see_also": "Speed Statement\n\nSpeed Function Example\n\nFunction SpeedEx\n\n\t\t  Integer savSpeed\n\nsavSpeed = Speed(1)\n\n\t\t  Speed 50\n\n\t\t  Go pick\n\n\t\t  Speed savSpeed\n\n\t\tFend",
+  "examples": [
+    "Function SpeedEx\n\t\t  Integer savSpeed\n\nsavSpeed = Speed(1)\n\t\t  Speed 50\n\t\t  Go pick\n\t\t  Speed savSpeed\n\t\tFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Create a New Vision Sequence",
+  "file": "Create_a_New_Vision_Sequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Create a New Vision Sequence\n\nCreating a New Vision Sequence\n\nOnce you have created\n\t a new Epson RC+ 8.0 project, you will notice that many of the toolbar\n\t icons are enabled (no longer grayed out).  Look for the\n\t [Vision] button on the Vision Guide toolbar.  Click this button\n\t to open the Vision Guide window.\n\nBefore we can do\n\t anything in the Vision Guide 8.0 window we must first create a vision\n\t sequence.  This is accomplished by clicking on the [New\n\t Sequence] button on the Vision Guide toolbar.  Remember that\n\t this toolbar button is located on the Vision Guide window toolbar\n\t and not on the Epson RC+ 8.0 main toolbar.  The [New Sequence]\n\t dialog box will now appear.\n\nEnter the name \"blobtut\"\n\t for the new vision sequence and then click the [OK] button.  We\n\t will be using the name \"blobtut\" later in our Epson RC+ 8.0 code so\n\t be sure to type this name in exactly as spelled above without the\n\t quote marks.  We have now created a new vision sequence called\n\t \"blobtut\" and everything we do from now on will be for this vision\n\t sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "LPF_Enabled Property",
+  "file": "LPF_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This activates/inactivates or returns the status of the low-pass filter in each axis of the force coordinate system.",
+  "notes": "This activates/inactivates or returns the status of the low-pass filter in the specified axes of the force coordinate system.\n\nIt activate/inactivate the following settings.\n\nbValueFx: Fx bValueFy: Fy bValueFz: Fz\n\nbValueTx: Tx bValueTy : Ty bValueTz: Tz\n\nbValueFmag: Fmag bValueTmag :Tmag\n\nThe signal noise reduction can be enhanced when the low-pass filter is activated, but the following performance for quick signal changes deteriorates.\n\nThe low-pass filter is used with AvgForces Status, PeakForces Status, the Force Trigger Function, and Force Control Monitor Function, but is not used with Forces Status.\n\nSee Also: LPF_Enabled Property\n\nLPF_TimeConstants Property",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": []
+}

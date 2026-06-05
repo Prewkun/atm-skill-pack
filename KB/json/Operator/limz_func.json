@@ -1,0 +1,14 @@
+{
+  "title": "LimZ Function",
+  "file": "limz_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "LimZ",
+  "parameters": "",
+  "description": "LimZ Function\n\nLimZ Function\n\nSee_Also Example\n\nReturns the current LimZ setting.",
+  "notes": "",
+  "see_also": "LimZ Statement\n\nLimZ Function Example\n\nReal savLimz\n\nsavLimz = LimZ\n\nLimZ -25\n\nGo pick\n\nLimZ savLimZ",
+  "examples": [
+    "Real savLimz\n\nsavLimz = LimZ\n\nLimZ -25\n\nGo pick\n\nLimZ savLimZ"
+  ]
+}

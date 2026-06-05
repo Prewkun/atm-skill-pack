@@ -1,0 +1,12 @@
+{
+  "title": "PTP Speed Acceleration for Small Distances",
+  "file": "PTP_Speed_Acceleration_for_Small_Distances",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "PTP Speed Acceleration for Small Distances\n\nPTP Speed Acceleration for Small Distances\n\nYou can change the speed and acceleration for small distances using PTPBoost and PTPBoostOK. Normally, PTPBoost is not required. In certain cases, you may want to shorten the cycle time even if vibration becomes larger, or conversely you may want to reduce vibration even if cycle time becomes longer. PTPBoost is a robot parameter with values from 0 - 100 that affects the speed and acceleration for small distances. Normally, for small distance motion, the desired speed cannot be attained using the current acceleration. By increasing PTPBoost, acceleration, deceleration, and speed are increased for small distance motion. To check if a motion command will be affected by PTPBoost, use the PTPBoostOK function. For details, refer to the following manual:\n\nSPEL+ Language Reference: PTPBoost, PTPBoostOK",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

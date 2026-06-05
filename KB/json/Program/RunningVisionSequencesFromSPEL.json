@@ -1,0 +1,12 @@
+{
+  "title": "Running Vision Sequences From SPEL+",
+  "file": "RunningVisionSequencesFromSPEL",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Running Vision Sequences From SPEL+\n\nRunning Vision Sequences From SPEL+\n\nOne of the primary design goals for Vision Guide 8.0 was to make sure that whatever was created from the Point and Click Vision Guide 8.0 Development Environment was fully accessible from the SPEL+ language.  That is, it is possible to use the Vision Guide 8.0 Development Environment as a prototyping environment and use it in the SPEL+ Language without rewriting.\n\nTherefore, once you create a vision sequence from the Vision Guide 8.0 Development Environment, that vision sequence can be executed from VRun command in SPEL+.\n\nThe syntax for VRun is just \"VRun seqname\".  Where \"seqname\" is the name of the vision sequence you want to run.  In the code snippet shown below you will see 2 different VRun statements each initiating a different vision sequence.\n\n\"VRun findpin\" initiates a sequence to find the center position of a pin for the robot to pick up the pin.\n\n\"VRun housing\" is executed in the later in the program to find the position in the housing to place the pin.\n\nVRun findpin\n\nVGet findpin.pincntr.RobotXYU, found, X, Y, U\n\n.\n\n.\n\n.\n\nVRun housing\n\nVGet housing.setpos.RobotXYU, found, X, Y, U\n\nThis is just a small sample on how to use the VRun command. Complete details on how to use the SPEL+ language with Vision Guide Sequences and with the Robot are explained in Vision Guide in SPEL.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

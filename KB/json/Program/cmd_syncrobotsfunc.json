@@ -1,0 +1,15 @@
+{
+  "title": "SyncRobots Function",
+  "file": "cmd_syncrobotsfunc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SyncRobots",
+  "parameters": "",
+  "description": "SyncRobots function checks the motion reservation status of the SYNC parameter of the robot motion commands. The status the SyncRobots checks are displayed in the bit status corresponding to the robot number. Each bit shows either the robot motion is reserved (1) or not (2). You can start the robot moton reserved using the SyncRobots statement.",
+  "notes": "",
+  "see_also": "SyncRobots Statement\n\nSyncRobots Example\n\nThe example below uses the SYNC parameter of a motion command and SyncRobots to start the motions of two robots simultaneously.\n\nFunction Main\n\n  Xqt Func1\n\n  Xqt Func2\n\n  Do\n\n    Wait 0.1\n\n    If (SyncRobots and &H03) = &H03 Then\n\n       Exit Do\n\n   EndIf\n\n  Loop\n\n  SyncRobots 1, 2\n\nFend\n\nFunction Func1\n\n  Robot 1\n\n  Motor On\n\n  Go P1 SYNC\n\nFend\n\nFunction Func2\n\n  Robot 2\n\n  Motor On\n\n  Go P2 SYNC\n\nFend",
+  "examples": [
+    "Function Main Xqt Func1 Xqt Func2 Do\n    Wait 0.1\n    If (SyncRobots and &H03) = &H03 Then\n       Exit Do\n   EndIf Loop SyncRobots 1, 2\nFend\n\nFunction Func1 Robot 1 Motor On Go P1 SYNC\nFend",
+    "Function Func2 Robot 2 Motor On Go P2 SYNC\nFend"
+  ]
+}

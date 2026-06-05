@@ -1,0 +1,14 @@
+{
+  "title": "Do...Loop Statement",
+  "file": "cmd_do",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Do [ { While | Until } condition ]\n\n[statements]\n\n[Exit Do]\n\n[statements]\n\nLoop\n\nOr, you can use this syntax:\n\nDo\n\n[statements]\n\n[ Exit Do ]\n\n[statements]\n\nLoop [ { While | Until } condition ]\n\nThe Do Loop statement syntax has these parts:\n\nPart\tDescription\n\ncondition\tOptional.\n\t\t Numeric expression or string expression that is True or False.\n\t\t If condition is Null,\n\t\t condition is treated as False.\n\nstatements\tOne or more\n\t\t statements that are repeated while, or until, condition\n\t\t is True.",
+  "parameters": "",
+  "description": "Any number of Exit Do statements may be placed anywhere in the Do...Loop as an alternate way to exit a Do...Loop. Exit Do is often used after evaluating some condition, for example, If...Then, in which case the Exit Do statement transfers control to the statement immediately following the Loop.\n\nWhen used within nested Do...Loop statements, Exit Do transfers control to the loop that is one nested level above the loop where Exit Do occurs.\n\nNote\n\nDO NOT use XQT command repeatedly in Loop statements.\n\nDo not use XQT command repeatedly in Loop statements such as Do...Loop.\n\nThe controller may freeze up.  If you use Loop statements repeatedly, make sure to add  Wait command (Wait 0.1).\n\nAvoid endless execution of empty Loop Statements and similar to them, use them with the Wait command instead\n\nDo not use empty Do...Loop statements and similar commands to avoid effect on the system. The Controllers are detecting endless loop tasks. If the controller determines that the system will be affected, it will stop the program with error 2556 (An excessive loop was detected). When performing operations that require a loop or waiting for I/O, execute a Wait command (Wait 0.1) and more within the loop to avoid occupying the CPU.\n\nWhen you exit the loop from the nested structure without using Exit Do\n\nError 2020 will occur when you repeatedly execute the program which exits the loop by the command other than the Exit For command (such as GoSub statement, Goto statement, and Call statement.)\n  Be sure to use Exit Do command to exit the loop.",
+  "notes": "",
+  "see_also": "For...Next\n\nSelect...Send\n\nDo Example\n\nDo While Not Lof(1)\n\n  Line Input #1, tLine$\n\n  Print tLine$\n\nLoop",
+  "examples": [
+    "Do While Not Lof(1) Line Input #1, tLine$ Print tLine$\nLoop"
+  ]
+}

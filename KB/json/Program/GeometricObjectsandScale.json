@@ -1,0 +1,15 @@
+{
+  "title": "Geometric Objects and Scale",
+  "file": "GeometricObjectsandScale",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Geometric Objects and Scale\n\nGeometric Objects and Scale\n\nThe scale of the model establishes the size of the model that you expect to find in the target image.  If the expected occurrence is smaller or larger than that of the model, you can set the scale according to the supported scale factors.  The expected scale is set using the ScaleTarget property.  (range 0.5 to 2.0).\n\nBy default, searching through a scale range is disabled.  If necessary, you can also enable a search through a range of scales by setting ScaleEnable to True.  This allows you to find models in the target image through a range of different sizes from the specified ScaleTarget, either smaller or larger.  To specify the range of scales, use ScaleFactorMin and ScaleFactorMax.  The ScaleFactorMin (0.5 to 1.0) and ScaleFactorMax (1.0 to 2.0) together determine the scale range from the nominal ScaleTarget.\n\nThese maximum and minimum factors are applied to the ScaleTarget setting as follows:\n\nmax scale = ScaleTarget x ScaleFactorMax\n\nmin scale = ScaleTarget x ScaleFactorMin\n\nNote that the range is defined as factors so that if you change the expected scale (ScaleTarget), you do not have to modify the range.  A search through a range of scales is performed in parallel, meaning that the actual scale of an occurrence has no bearing on which occurrence will be found first.  However, the greater the range of scale, the slower the search becomes.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "max scale = ScaleTarget x ScaleFactorMax",
+    "min scale = ScaleTarget x ScaleFactorMin"
+  ]
+}

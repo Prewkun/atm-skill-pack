@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_Functions used by Part Feeding process",
+  "file": "Parts_Feeding_Functions_used_by_Part_Feeding_process",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_Functions used by Part Feeding process\n\nFunctions used by Part Feeding process\n\nThe Part Feeding process occupies the following functions while running.\n\nDo not set your program to use these functions while the Part Feeding process is running.\n\nFeeder Number\tTask\tTimer\tSyncLock\n\n1\t32\t64\t64\n\n2\t31\t63\t63\n\n3\t30\t62\t62\n\n4\t29\t61\t61\n\nThese functions may be used in following conditions.\n\n- When the Part Feeding processing is stopped\n\n- When not using multiple feeders\n\n(e.g. when only one feeder is connected, the functions occupied by feeder number 2 or later can be used.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

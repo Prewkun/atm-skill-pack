@@ -1,0 +1,16 @@
+{
+  "title": "How to move the arm with ECP motion",
+  "file": "How_to_move_the_arm_with_ECP_motion",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to move the arm with ECP motion\n\nHow to move the arm with ECP motion\n\nIn the following paragraphs, the process for moving the 6-Axis robot arm with ECP motion is explained as an example.\n\n1. Setting an ECP\n\nThe ECP (external control point) is a coordinate system data used for defining the robot position and orientation at a processing point on the tip of the outside fixed tool.\n\nThe ECP should be defined based on the robot coordinate system or desired local coordinate system.\n\nFor example, when a drawing shows that the ECP is located at X=300, Y=300, Z=300 based on the robot coordinate system, specify it as shown below.\n\nECPSet 1,XY(300,300,300,0,0,0)   ' Defines ECP No.1\n\nWhen you have no ECP location data, you can specify it by teaching.\n\nAs an example, attach the tool of which you know the data precisely and bring the tip of the tool close to the ECP and then teach its position anywhere as P0.  Then, specify the ECP using P0 coordinate data as shown below.\n\nECPSet 1,P0 :U(0) :V(0) :W(0)    ' Defines ECP No.1\n\nThe orientation data (U, V, W) were set to 0 in the above examples.  In these cases, the orientation in the ECP coordinate system is equal to that in the reference robot coordinate system.\n\nYou can specify U, V, and W coordinates in the ECP coordinate system.  However, this data is valid only during the tangential correction mode ON in the Curve statement and ECP jog motion.\n\n2. Teaching\n\nTeach the point data while moving the robot arm holding the actual part.  In this section, the part is assumed to be a rectangular solid and the arm is moved straight so that it touches one side of the part of the ECP specified in the previous section 1. Setting the ECP.\n\nFor details on teaching, refer to Jog and Teach.\n\n2-1 Teaching the motion start point\n\nMove the arm to the motion start point and teach it as P1.\n\n2-2 Teaching the motion end point\n\nMove the arm to the motion end point and teach it as P2.\n\nNote:  ECP Jog Mode:\n\nThe ECP jog mode is an additional jog mode used for teaching besides the Joint, World, and Tool jog modes.\n\nThe ECP jog mode is based on the selected ECP coordinate system.\n\n3. Executing Motion\n\nTo move the arm with ECP motion, add the \"ECP\" parameter to a motion command.\n\nECP 1 ' Select ECP\n\nGo P1 ' Moves the arm to the motion start point\n\nMove P2 ECP ' Executes ECP motion\n\nUse the Arc3 command to move the arm in an arc trajectory with the fixed tool.  Use the Curve and CVMove commands to move the arm in cubic spline curves.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "ECPSet 1,XY(300,300,300,0,0,0)   ' Defines ECP No.1",
+    "ECPSet 1,P0 :U(0) :V(0) :W(0)    ' Defines ECP No.1",
+    "ECP 1 ' Select ECP\nGo P1 ' Moves the arm to the motion start point\nMove P2 ECP ' Executes ECP motion"
+  ]
+}

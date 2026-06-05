@@ -1,0 +1,12 @@
+{
+  "title": "Robot Manuals",
+  "file": "robot_manuals",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Manuals\n\nRobot Operation Manuals\n\nThe following manual's contain information on how to setup and use your robot and controller:\n\nEPSON RC+ 7.0 User's Guide\n\nSPEL+ Language Reference for EPSON RC+ 7.0\n\nG3 Series Robot Manual\n\nG6 Series Robot Manual\n\nG10 G20 Series Robot Manual\n\nProSix PS3 Series Robot Manual\n\nProSix PS3L PS3LP Series Robot Manual\n\nProSix PS5 Series Robot Manual\n\nC3 Series Robot Manual\n\nRS Series Robot Manual",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

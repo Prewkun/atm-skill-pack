@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Set the Contour Detection Position",
+  "file": "Step_2__Set_the_Contour_Detection_Position_(If_ContourMode_Blob)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Set the Contour Detection Position\n\nStep 2: Set the Contour Detection Position (If ContourMode:Blob)\n\nIf ContourMode is Blob, you should now see a Contour object similar to the one shown below:\n\nNew Contour Object Layout (ContourMode:Blob)\n\n(1) Click the name label of the Contour object and while holding the mouse down drag the Contour object to the position where you would like the top left position of the search window to reside.\n\n(2) Resize the Contour object search window as required using the search window size handles.  (This means click a size handle and drag the mouse.)  (The search window is the area within which we will search for Blobs.)\n\nStep 2: Set the Contour Detection Position (If ContourMode:Line)\n\nIf ContourMode is Line, you should now see a LineFinder object similar to the one shown below:\n\nNew Contour Object Layout (ContourMode:Line)\n\n(1) Click the name label of the Contour object and while holding the mouse down drag the Contour object to the position where you would like the top left position of the search window to reside.\n\n(2) Resize the Contour object search window as required using the search window size handles. (This means click a size handle and drag the mouse.)\n\nEdge object will now be displayed.)\n\nStep 2: Set the Contour Detection Position (If ContourMode:Arc)\n\nIf ContourMode is Arc, you should now see the ArcFinder object similar to the one shown below:\n\nNew Contour Object Layout (ContourMode:Arc)\n\n(1) Click the name label of the Contour object and, while holding the mouse down, drag the Contour object to the position where you would like the search window to reside.\n\n(2) Resize the Contour object search window as required using the search window size handles.  (This means click a size handle and drag the mouse.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

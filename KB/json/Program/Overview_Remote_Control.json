@@ -1,0 +1,12 @@
+{
+  "title": "Remote Control Overview",
+  "file": "Overview_Remote_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Control Overview\n\nRemote I/O\n\nThere are three basic steps required for remote control configuration:\n\nConfigure\n\t Remote Control inputs and outputs using the [Remote Control] tab on\n\t the [Setup]-[System Configuration]-[Remote Control] page.\n\n\tIn default, the remote function is assigned to Input #0 to 7 and Output\n\t #0 to 8 in advance. If you need to change it, please set it.\n\nSet\n\t the control device to remote on the [Setup]-[System Configuration]-[Configuration]\n\t page.\n\n\tTo accept external remote inputs, assign the remote function and set\n\t remote to the control device. When control device setting is remote,\n\t the controller is only controllable from the remote device.\n\nRemote control function can be used in the following systems.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

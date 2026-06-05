@@ -1,0 +1,14 @@
+{
+  "title": "Ctr Function",
+  "file": "cmd_ctr",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Ctr(bitNumber)",
+  "parameters": "bitNumber\tNumber of the Hardware Input bit set as a counter. Only 16 counters can be active at the same time.",
+  "description": "Ctr works with the CTReset statement to allow Hardware inputs to be used as counters.\n\nEach time a hardware input specified as a counter is switched from the Off to On state that input causes the counter to increment by 1.\n\nThe Ctr function can be used at any time to get the current counter value for any counter input.  Any of the Hardware Inputs can be used as counters.  However, only 16 counters can be active at the same time.\n\nCounter Pulse Input Timing Chart",
+  "notes": "",
+  "see_also": "CTReset\n\nCtr Function Example\n\nThe following example shows a sample of code which could be used to get a hardware input counter value.\n\nCTReset 3 'Reset counter for input 3 to 0\n\n\t\tOn 0 'Turn an output switch on\n\nWait Ctr(3) >= 5\n\n\t\tOff 0 'When 5 input cycles are counted for Input 3 turn\n\n'switch off (output 0 off)",
+  "examples": [
+    "CTReset 3 'Reset counter for input 3 to 0\n\t\tOn 0 'Turn an output switch on\n\nWait Ctr(3) >= 5\n\t\tOff 0 'When 5 input cycles are counted for Input 3 turn\n\n\t\t\t'switch off (output 0 off)"
+  ]
+}

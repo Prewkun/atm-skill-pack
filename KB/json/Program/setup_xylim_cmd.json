@@ -1,0 +1,12 @@
+{
+  "title": "XYZ Limits page: Robot Manager Window",
+  "file": "setup_xylim_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "XYZ Limits page: Robot Manager Window\n\n[Tools]-[Robot Manager]-[XYZ Limits] Page\n\nThis page allows you to configure limits for X, Y and Z motion in the robot envelope.\n\nFor more details on XYZ limits, refer to the following manual:\n\nSPEL+ Language Reference - XYLim Statement\n\nNOTE:  When using Safety Function (the Controller with Safety Board), the Safety Limited Position (SLP) of the Safety Function can be used.\n\nSet them using the Safety Function Manager. For more details, refer to the following manual:\n\nRobot Controller Safety Function Manual 4.3.4 Setting Safety Limited Position (SLP)\n\nItem\tDescription\n\nRead\n\t\t Current\tClick\n\t\t this button to read the value from the current robot position.\n\n\t\tThe button text shows the axis and minimum or maximum depending\n\t\t on which text field has the current focus.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nDefaults\tReverts\n\t\t back to the default settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

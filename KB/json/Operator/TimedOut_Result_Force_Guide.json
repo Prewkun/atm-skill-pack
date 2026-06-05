@@ -1,0 +1,12 @@
+{
+  "title": "TimedOut Result Force Guide",
+  "file": "TimedOut_Result_Force_Guide",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "It is whether the time-out period set in Timeout property had been reached.",
+  "notes": "",
+  "see_also": "Time Result",
+  "examples": []
+}

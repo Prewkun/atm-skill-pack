@@ -1,0 +1,12 @@
+{
+  "title": "ContactFirmnessT Property",
+  "file": "ContactStiffnessGainT_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a firmness of force control functions during execution of the force guide object.\n\nIt is used when ContactOrient is rotation direction (+Tx to -Tz).\n\nWhen the value of ContactFirmnessT increases, the force control function will become stronger.  Response to changes of the torque is slow, however, vibration does not occur.\n\nWhen the value of ContactFirmnessT decreases, the force control function will become weaker.  Response to changes of the torque is fast, however, vibration is easy to occur.\n\nValues\n\nMinimum value 10\n\nMaximum value 1000000\n\nDefault:  3000\n\nSee Also: ContractFirmnessT Property\n\nContactFirmnessF Property",
+  "notes": "",
+  "see_also": "Applies To\n\nContact Object",
+  "examples": []
+}

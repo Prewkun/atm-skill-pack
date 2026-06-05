@@ -1,0 +1,14 @@
+{
+  "title": "PTran Statement",
+  "file": "cmd_ptran",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "PTran joint, pulses",
+  "parameters": "joint\tInteger expression representing which joint to move.\n\nThe additional S axis is 8 and T axis is 9.\n\npulses\tInteger expression representing the number of pulses to move.",
+  "description": "Use PTran to move one joint a specifed number of pulses from the current position.",
+  "notes": "",
+  "see_also": "Go\n\nJTran\n\nJump\n\nMove\n\nPTran Statement Example\n\nPTran 1, 2000",
+  "examples": [
+    "PTran 1, 2000"
+  ]
+}

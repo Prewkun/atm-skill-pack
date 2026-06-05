@@ -1,0 +1,12 @@
+{
+  "title": "Remote Control - How DO I?",
+  "file": "Remote_Control_How_Do_I",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Control - How DO I?\n\nRemote Control - How Do I...?\n\nHow can I control the RC700 from a PLC?\n\nTo control your RC700 controller from a PLC, you need to configure the RC700 for remote I/O.\n\n\tFrom the Setup menu, select System Configuration\n\t to open the System Configuration Dialog.\n\tSelect the Remote Inputs page.\n\tClick the Defaults button to use default\n\t remote inputs from either standard I/O or Fieldbus I/O.  Or,\n\t you can configure which input signals you want to use.\n\tSelect the Remote Outputs page and select\n\t the remote output signals you want to use.\n\tSelect the Configuration page.\n\tSet the Control Device to Remote.\n\nHow can I use my RC700 as a Fieldbus slave?\n\nYour RC700 can be used as a Fieldbus slave device.\n\n\tYour controller must have the optional Fieldbus\n\t I/O board installed for the Fieldbus protocol you will be using.  See\n\t the RC700 manual for details.\n\tSet the DIP switch on the Fieldbus I/O board\n\t for the device ID and baud rate.  See the RC700 manual for details.\n\tConfigure remote inputs and outputs for Fieldbus.\n\t  See How can I control my RC700 from a PLC for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

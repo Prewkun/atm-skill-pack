@@ -1,0 +1,12 @@
+{
+  "title": "SpelVideo Control Properties",
+  "file": "SpelVideoControlProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelVideo Control Properties\n\nSpelVideo Control Properties\n\nThis control supports the properties listed below in addition to standard .NET component properties, such as Left, Top, Width, and Height.  See the Visual Basic on-line Help for documentation on the standard properties.\n\nCamera\n\nGraphicsEnabled\n\nVideoEnabled",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Robot Safety Vision",
+  "file": "Robot_Safety_Vision",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Safety Vision\n\nRobot Safety\n\nWhenever you are working with robots or other automation equipment, safety must be the top priority.  The Epson RC+ 8.0 system has many safety features built in, such as E-Stop, Robot Pause Input, and a Safety Guard Input.  These safety features should be used when designing the robot cell.\n\nRefer to the Safety chapter in the Epson RC+ 8.0 User's Guide for safety information and guidelines.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

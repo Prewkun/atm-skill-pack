@@ -1,0 +1,14 @@
+{
+  "title": "List Property",
+  "file": "List_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets the string value of the specified element in the control item list.",
+  "notes": "After using AddItem to add items to the ListBox or ComboBox list, you can use the List property to get or edit the value of any of the items.\n\nSetting a blank string, you can delete an item.",
+  "see_also": "Applies To\n\nListBox, ComboBox\n\nListCount Property\n\nGUI Items: List Property\n\nComboBox, ListBox",
+  "examples": [
+    "String part$\nGGet frmMain.lstPartNames.List(0), part$"
+  ]
+}

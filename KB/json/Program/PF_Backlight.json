@@ -1,0 +1,14 @@
+{
+  "title": "PF_Backlight",
+  "file": "PF_Backlight",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_Backlight feeder number | feeder name, On | Off",
+  "parameters": "feeder number\tSpecify the feeder number (integer number from 1 to 4) as an expression or a numerical value.\n\nfeeder name\tSpecify the feeder name as a character string.\n\nOn/Off\tSet On/Off.",
+  "description": "When the system is controlling vision, the backlight is automatically turned on and off as needed. Use this command to control the built-in backlight on status when the system is not controlling vision.\n\nIn the case of IF-80, the backlight turns off automatically after 30 seconds.  (The time changes depend to the brightness).  If the backlight turns off automatically, PF_Backlight Off command must be executed before the backlight can be turned on again.\n\nCannot be executed from a virtual controller or command window.\n\nPF_Backlight Example\n\nPF_Backlight 1, On",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_Backlight 1, On"
+  ]
+}

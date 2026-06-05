@@ -1,0 +1,12 @@
+{
+  "title": "[Properties] Command (Project Menu)",
+  "file": "Project_Properties_Main",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Properties] Command (Project Menu)\n\n[Properties] Command (Project Menu)\n\nIn the Epson RC+ 8.0 menu, select [Project]-[Properties] menu to open the [Project Properties] dialog.\n\nCommon buttons\n\nItem\tDescription\n\nClose\tClose\n\t\t the [Project Properties] dialog.\n\nApply\tSets\n\t\t current values after changes have been made.\n\nRestore\tRevert\n\t\t back to previous values.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

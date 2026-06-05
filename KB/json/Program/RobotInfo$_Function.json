@@ -1,0 +1,14 @@
+{
+  "title": "RobotInfo$ Function",
+  "file": "RobotInfo$_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "RobotInfo$(\n\t\t\tindex\n\t\t\t)",
+  "parameters": "index\tInteger expression that represents the index of the information to retrieve.",
+  "description": "RobotInfo$ Function\n\nRobotInfo$ Function\n\nSee Also Example\n\nReturns text information for the robot.",
+  "notes": "",
+  "see_also": "CtrlInfo\n\nRobotInfo\n\nTaskInfo\n\nRobotInfo$ Function Example\n\nPrint \"Robot Name: \", RobotInfo$(0)",
+  "examples": [
+    "Print \"Robot Name: \", RobotInfo$(0)"
+  ]
+}

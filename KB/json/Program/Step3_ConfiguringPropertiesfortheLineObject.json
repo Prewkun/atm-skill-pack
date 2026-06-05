@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Configuring Properties for the Line Object",
+  "file": "Step3_ConfiguringPropertiesfortheLineObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Configuring Properties for the Line Object\n\nStep 3: Configuring Properties for the Line Object\n\nWe can now set property values for the Line object.\n  To set any of the properties simply click the associated property's value field and then either enter a new value or if a drop down list is displayed click one of the items in the list.\n\nShown below are some of the more commonly used properties for the Line object.  Explanations for other properties such as AbortSeqOnFail, Graphics, etc. which are used on many of the different vision objects can be seen in the Vision Guide 8.0 Properties and Results Reference Manual or in the Line Object Properties found previously in this section.\n\n\tName property\n\t - The default name given to a newly created Line object is \"Linexx\"\n\t where xx is a number which is used to distinguish between multiple\n\t Line objects within the same vision sequence. If this is the first\n\t Line object for this vision sequence then the default name will be\n\t \"Line01\".  To change the name, click the Value field\n\t of the Name property, type a new name and press the return key.  You\n\t will notice that once the name property is modified, every place where\n\t the Line object's name is displayed is updated to reflect the new\n\t name.\n\tStartPointObject\n\t property - Typically you will set this property to one of the\n\t objects that occur previously in the sequence.  This will determine\n\t the starting point of the line at runtime.\n\tEndPointObject\n\t property - Typically you will set this property to one of the\n\t objects that occur previously in the sequence.  This will determine\n\t the end point of the line at runtime.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

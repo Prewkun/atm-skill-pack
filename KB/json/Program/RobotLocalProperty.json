@@ -1,0 +1,12 @@
+{
+  "title": "RobotLocal Property",
+  "file": "RobotLocalProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the local coordinate system used for a vision calibration.",
+  "notes": "RobotLocal defines the local robot coordinate system used for a vision calibration.  The RobotLocal is used during teach and also at runtime, where all robot coordinates are in the specified local coordinate system.  The local coordinaate system must be defined before it can by used by the calibration.\n\nSee Also: RobotLocal Property\n\nRobotArm\n\nRobotTool",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

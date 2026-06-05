@@ -1,0 +1,12 @@
+{
+  "title": "CV2 Backup Battery",
+  "file": "CV2_Backup_Battery",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 Backup Battery\n\nBackup Battery\n\nTo replace the battery, follow the steps below.\n\n(1) Remove a screw of the battery replacement cover on the bottom and remove the cover.\n\n(2) Insert a small flat-head screwdriver to the groove on the battery holder and lift up the battery slowly.\n\nThe battery may jump by the spring of the battery holder.\n\n(3) Set the new battery while the + side facing the front.\n\n(4) Fix the cover.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

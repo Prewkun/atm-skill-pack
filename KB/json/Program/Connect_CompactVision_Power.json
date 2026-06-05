@@ -1,0 +1,12 @@
+{
+  "title": "Connect Compact Vision Power",
+  "file": "Connect_CompactVision_Power",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Connect Compact Vision Power\n\nConnect Compact Vision Power\n\nConnecting your own power supply\n\nYour power supply must be rated at 24 VDC @ 2A.  The camera comes with an open ended power cable that plugs into the front panel POWER receptacle.  Wire the 24V power cable to your power supply.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

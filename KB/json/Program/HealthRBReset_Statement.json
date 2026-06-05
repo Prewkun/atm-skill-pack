@@ -1,0 +1,14 @@
+{
+  "title": "HealthRBReset Statement",
+  "file": "HealthRBReset_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Clears the remaining months before the recommended replacement time and the consumption rate for the specified parts and joints.\n\nThe warnings are also canceled.",
+  "notes": "- This command does not function in Auto mode.\n\n- This command does not function in dry run mode.\n\nHealthRBReset Statement Example\n\n> HealthRBReset 1,HEALTH_ROBOT_TYPE_GEAR,1\n\n>\n\nSee Also: HealthRBReset Statement\n\nHealthRBAlarmOn\n\nHealthRateRBInfo\n\nHealthRBInfo",
+  "see_also": "Clears the remaining months before the recommended replacement time and the consumption rate for the specified parts.",
+  "examples": [
+    "> HealthRBReset 1,HEALTH_ROBOT_TYPE_GEAR,1\n>"
+  ]
+}

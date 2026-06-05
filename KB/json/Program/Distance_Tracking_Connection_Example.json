@@ -1,0 +1,12 @@
+{
+  "title": "Distance Tracking Connection Example",
+  "file": "Distance_Tracking_Connection_Example",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Distance Tracking Connection Example\n\nConnection Example\n\nThis section describes the connection example of the distance tracking function.\n\nBasic Connection Example\n\nNOTE:  The customer must prepare the following items:\n\n1.  Power (select depending on the e sensor to be used.)\n\n2.  Distance sensor (e.g. laser displacement meter)\n\n3.  Development PC\n\nConnection Example for Dispense Application\n\nDistance tracking function is available for dispense applications. To realize the dispense application with high accuracy, it is important to keep a constant needle gap (distance between tip of the needle and the workpiece). Constant needle gap can be realized with the distance tracking function. The figure below shows an example connection for dispense application.\n\nNOTE:  The customer must prepare the following items:\n\n1.  Power (select depending on the distance sensor and dispenser to be used.)\n\n2.  Distance sensor (e.g. laser displacement meter)\n\n3.  Dispenser\n\n4.  Development PC",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Fine VI",
+  "file": "Fine_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies and displays the positioning accuracy for target points.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nJ1MaxErr - J9MaxErr\tInteger number ranging from (0-32767) which represents the allowable positioning error for the each joint.   The values for joints 7, 8, and 9 are optional.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nFine Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the BoxFinder Object",
+  "file": "Step_2__Positioning_the_BoxFinder_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the BoxFinder Object\n\nStep 2: Position and Size the Search Window\n\nYou should now see a BoxFinder object similar to the one shown below:\n\nNew BoxFinder Object Layout\n\n(1) Click the name label of the BoxFinder object and, while holding the mouse down, drag the BoxFinder object to the position where you would like the search window to reside.\n\n(2) Resize the BoxFinder object search window as required using the search window size handles. (This means click a size handle and drag the mouse.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

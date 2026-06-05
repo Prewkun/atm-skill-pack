@@ -1,0 +1,14 @@
+{
+  "title": "Fx_AvgForce, Fy_AvgForce, Fz_AvgForce Status",
+  "file": "Fx_AvgForce_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the average translated force in the specified axes.",
+  "notes": "XX_AvgForce returns the average translated force in the specified axis.\n\nBefore executing XX_AvgForce, execute AvgForceClear. Zero will be returned if AvgForceClear is not executed.\n\nIf the time between executing AvgForceClear and executing XX_AvgForce is short, an error in the force and torque averages will occur. Establish a low-pass filter with a time constant of about 5 times between the AvgForceClear and the XX_AvgForce execution.\n\nThere is a time limit on XX_AvgForce. Execute XX_AvgForces within 600 seconds of executing AvgForceClear. When XX_AvgForce is executed after 600 seconds has passed, an error is generated.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger\n Fy_AvgForce, Fz_AvgForce Status\n\nFx_Force, Fy_Force, Fz_Force Status",
+  "examples": [
+    "Function CheckAverageForce Double AF FSet FC1.Enabled, True, False, False, False, False, False FSet FC1.TargetForces, 10, 0, 0, 0, 0, 0 FSet FS1.Reset FSet FM1.CoordinateSystem, FCS0 FSet FM1.AvgForceClear, True, False, False, False, False, False, False, False FCKeep FC1, 10 FGet FM1.Fx_AvgForce, AF Print AF\nFend"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "JS Method, Spel Class",
+  "file": "vbg_JS",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function JS () As Boolean",
+  "parameters": "",
+  "description": "Jump Sense detects whether the arm stopped prior to completing a JUMP instruction (which used a SENSE input) or if the arm completed the JUMP move.",
+  "notes": "",
+  "see_also": "Jump\n\nJump3\n\nJump3CP\n\nSense\n\nTill\n\nJS Example\n\nVB Example:\n\nWith m_spel\n\n  .Sense(\"Sw(1) = On\")\n\n  .Jump(\"P1 Sense\")\n\n  stoppedOnSense = .JS()\n\nEnd With\n\nC# Example:\n\nm_spel.Sense(\"Sw(1) = On\");\n\nm_spel.Jump(\"P1 Sense\");\n\nstoppedOnSense = m_spel.JS();",
+  "examples": [
+    "With m_spel .Sense(\"Sw(1) = On\") .Jump(\"P1 Sense\") stoppedOnSense = .JS()\nEnd With",
+    "m_spel.Sense(\"Sw(1) = On\");\nm_spel.Jump(\"P1 Sense\");\nstoppedOnSense = m_spel.JS();"
+  ]
+}

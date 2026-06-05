@@ -1,0 +1,12 @@
+{
+  "title": "Contents command (Help menu)",
+  "file": "help_contents_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Contents command (Help menu)\n\n[Help] (Help Menu)\n\nCtrl+F1\n\nShows help in the browser.\n\nNOTE:  Recommended browser: Browsers which is compatible with HTML5 (latest Google Chrome, Microsoft Edge, etc.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

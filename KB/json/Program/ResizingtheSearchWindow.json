@@ -1,0 +1,12 @@
+{
+  "title": "Resizing the Search Window",
+  "file": "ResizingtheSearchWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Resizing the Search Window\n\nResizing the Search Window\n\nThe search window\n\nsize handles appear when a vision object is first created or when a user selects a vision object\n\nby clicking on that object.  You can easily locate the search window size handles because they are the small boxes which are located on the sides and corners of the search window when the search window is selected.\n\nSearch window size handles are used to size the search window.  When you move the mouse pointer over one of the search window size handles it changes into a double ended arrow pointer.  This indicates that when you click the mouse, you will be selecting the handle.\n  You can click on any of the search window size handles and then drag the side or corner to resize the search window.\n\nClicking on a search window size handles located on one of the sides of the search window allows you to resize the object horizontally.  Clicking on the top or bottom of the search window allows you to resize the object vertically.  Clicking on one of the corner search window size handles allows you to resize the search window both horizontally and vertically at the same time.\n\nSearch window shown after resizing",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

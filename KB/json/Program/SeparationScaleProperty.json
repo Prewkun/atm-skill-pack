@@ -1,0 +1,12 @@
+{
+  "title": "SeparationScale Property",
+  "file": "SeparationScaleProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the minimum scale difference allowed between found objects.",
+  "notes": "Use SeparationScale to specify the minimum scale difference required between found objects.\n\nSeparationScale works with SeparationMinX, SeparationMinX, SeparationScale.  Note that only one separation condition needs to be satisfied for objects to be considered found.\n\nSee Also: SeparationScale Property\n\nSeparationAngle Property\n\nSeparationMinX Property\n\nSeparationMinY Property\n\nVision Objects: SeparationScale Property\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Geometric",
+  "examples": []
+}

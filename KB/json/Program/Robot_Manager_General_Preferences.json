@@ -1,0 +1,12 @@
+{
+  "title": "Robot Manager General Preferences",
+  "file": "Robot_Manager_General_Preferences",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Robot Manager can be displayed as an MDI child window (default) or as a dialog.  When displayed as an MDI child, the Robot Manager is displayed in the MDI document area and can remain open while you work with other windows and dialogs.  When displayed as a dialog, you can only work with the Robot Manager controls until you close the dialog.  When using screen resolutions less than 1024 x 768, the Robot Manager MDI window will not fit in the MDI document area.\n  In this case, only the Dialog mode is allowed.\n\nHow to access\n\nSelect Preferences from the Setup menu, then select the Robot Manager General section.\n\nTab options\n\nItem\tDescription\n\nDisplay\tChoose if\n\t\t you want the Robot Manager to be displayed as an MDI Window or\n\t\t as a Dialog.\n\nApply\tApply the\n\t\t current settings.\n\nRestore\tRevert back\n\t\t to the previous settings.\n\nDefaults\tSet default\n\t\t values.\n\nLoad\tReads the\n\t\t preferences previously saved on the PC.\n\nSave\tSaves the\n\t\t preferences to a file on the PC.\n\nClose\tClose the\n\t\t Preferences dialog",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

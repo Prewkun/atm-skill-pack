@@ -1,0 +1,15 @@
+{
+  "title": "VLoadModel Method, Spel Class",
+  "file": "vbg_VLoadModel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VLoadModel (Sequence As String, Object As String, Path As String)",
+  "parameters": "Sequence\tString containing the name of a sequence in the current EPSON RC+ project.\n\nObject\tString containing the name of a object. The object must be a Correlation, Geometric or Polar.\n\nPath\tFull path name of the file to load the model from, excluding extension.",
+  "description": "Load a vision model from a disk file.",
+  "notes": "An error will occur if the model data in the file is the wrong type. For example, if you try to load a polar model into a correlation, an error will occur.\n\nIf you supply a file extension, it is ignored. There are two or more files associated with fileName.\n\nFor correlation and geometric models, the ModelOrgX and ModelOrgY values are restored along with the model window width and height.\n\nFor polar models, the Radius, Thickness, and AngleOffset are restored.",
+  "see_also": "VSaveModel\n\nVLoadModel Example\n\nVB Example:\n\nm_spel.VLoadModel(\"seq01\", \"corr01\", \"c:\\models\\part1\")\n\nC# Example:\n\nm_spel.VLoadModel(\"seq01\", \"corr01\", @\"d:\\models\\part1\");",
+  "examples": [
+    "m_spel.VLoadModel(\"seq01\", \"corr01\", \"c:\\models\\part1\")",
+    "m_spel.VLoadModel(\"seq01\", \"corr01\", @\"d:\\models\\part1\");"
+  ]
+}

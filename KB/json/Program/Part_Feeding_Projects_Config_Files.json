@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Projects Config Files",
+  "file": "Part_Feeding_Projects_Config_Files",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Projects Config Files\n\nConfiguration Files\n\nThe following files will be added as project configuration files.\n\nPF file\n\nA file that includes part setting details.  This file is named [project name].pf.\n\nNote:  Do not directly edit this file in a text editor.  Doing so will render the file unreadable, and cause errors to occur.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

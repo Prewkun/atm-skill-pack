@@ -1,0 +1,12 @@
+{
+  "title": "AsyncMode Property",
+  "file": "AsyncModeProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines whether to return from VRun command after exposure of the image and before sequence processing executes.",
+  "notes": "The AsyncMode property lets you choose whether VRun should return after acquiring the image and before sequence processing. When AsyncMode is True, VRun acquires the image and returns to SPEL+. The sequence is then processed by the vision system. This is useful for taking a picture and then moving the robot while the vision sequence is processing. If VRun, VGet, VSet, or any oher vision command are called after VRun for the same sequence, they will wait for the previous sequence to be processed before executing.",
+  "see_also": "Applies To\n\nVision Sequence\n Property\n\nVRun",
+  "examples": []
+}

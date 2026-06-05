@@ -1,0 +1,12 @@
+{
+  "title": "Dialog Box Options/Info",
+  "file": "VG_Stats_Dialog_Box_Options_Info",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Dialog Box Options/Info\n\nDialog Box Options/ Info\n\nOption\tDescription\n\nObject\tDropdown list for selecting which object to review statistics for.\n\nResults Index\tDropdown list for selecting which detection results to display in the Statistics dialog.\n\nFound\tDisplays the number of times the selected result of the object was found vs. the number of times it was run. For example, \"5 of 6\" means the object was run 6 times and the selected result was found 5 times.\n\nReset\tDeletes the statistics of the selected Object.\n\nThis clears all data.\n\nReset All\tDeletes the statistics for all vision objects in the sequence.\n\nThis clears all data.\n\nClose\tCloses the Statistics dialog box. All results remain in place.\n\nCopy\tCopies the statistics to the clipboard.\n\nExport\tExports the statistics into a CSV file.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

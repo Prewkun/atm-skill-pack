@@ -1,0 +1,14 @@
+{
+  "title": "SpeedS Function",
+  "file": "speeds_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "SpeedS [(paramNumber)]",
+  "parameters": "paramNumber\tOptional.  Integer expression specifying which SpeedS value to return.\n\n1: CP speed\n\n2: Jump3 depart speed\n\n3: Jump3 approach speed",
+  "description": "SpeedS Function\n\nSpeedS Function\n\nSee_Also Example\n\nReturns the current SpeedS setting.",
+  "notes": "",
+  "see_also": "SpeedS Statement\n\nSpeedS Function Example\n\nReal savSpeeds\n\nsavSpeeds =\n\t\t\tSpeedS\n\nPrint \"Jump3 depart speed = \", Speeds(2)",
+  "examples": [
+    "Real savSpeeds\n\nsavSpeeds =\n\t\t\tSpeedS\n\nPrint \"Jump3 depart speed = \", Speeds(2)"
+  ]
+}

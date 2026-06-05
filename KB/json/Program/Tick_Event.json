@@ -1,0 +1,14 @@
+{
+  "title": "Tick Event",
+  "file": "Tick_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when a Timer control reaches its Interval value.",
+  "notes": "",
+  "see_also": "Applies To\n\nTimer\n\nClick Event\n\nGUI Items: Tick Event\n\nTimer",
+  "examples": [
+    "Function frmMain_Timer1_Tick(Sender$ As String)\n\n\t\t  GSet frmMain.lblDateTime.Text, Date$ + \" \" + Time$\n\nFend"
+  ]
+}

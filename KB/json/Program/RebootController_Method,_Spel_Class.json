@@ -1,0 +1,15 @@
+{
+  "title": "RebootController Method, Spel Class",
+  "file": "RebootController_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function RebootController (ShowStatusDialog As Boolean)",
+  "parameters": "ShowStatusDialog\tBoolean expresstion that specifies whether to show a status dialog or not.",
+  "description": "Reboot the currently connected controller.",
+  "notes": "Use ShowStatusDialog to show a dialog with a progress bar.  You can abort the operation from the status dialog or by executing the Abort method.",
+  "see_also": "Abort\n\nRebootController Example\n\nVB Example:\n\nm_spel.RebootController(True)\n\nC# Example:\n\nm_spel.RebootController(true);",
+  "examples": [
+    "m_spel.RebootController(True)",
+    "m_spel.RebootController(true);"
+  ]
+}

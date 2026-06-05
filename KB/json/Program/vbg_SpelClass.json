@@ -1,0 +1,12 @@
+{
+  "title": "Spel Class",
+  "file": "vbg_SpelClass",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This class allows you to execute commands and receive events from Epson RC+.\n\nFile Name\n\nRCAPINt2.dll (64-bit and 32-bit)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

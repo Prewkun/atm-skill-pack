@@ -1,0 +1,12 @@
+{
+  "title": "DistCorrectEnable Property",
+  "file": "DistCorrectEnable_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Enables / disables lens distortion correction and camera tilt correction used for vision calibration and returns calibration status.",
+  "notes": "DistCorrectEnable enables / disables lens distortion correction and camera tilt correction used for vision calibration and returns calibration status.\n\nNote:  When using the results which are affected by vision calibration result (such as RobotXYU result and Length result), be sure to execute calibration again after changing the values of this property; otherwise, the results affected by calibration result do not return correct values.  In such a case, do not use these results.\n\nSee Also: DistCorrectEnable Property\n\nDistCorrectCal Property\n\nSequence window\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

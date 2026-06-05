@@ -1,0 +1,12 @@
+{
+  "title": "GraphicsEnabled Property, SPELVideo Control",
+  "file": "GraphicsEnabledProperty_SPELVideoControl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "GraphicsEnabled\n\nType\n\nBoolean\n\nDefault Value\n\nFalse",
+  "parameters": "",
+  "description": "Determines whether vision graphics are displayed after a sequence is run. In order to see graphics, you must attach the control to a Spel class instance using the Spel VideoControl property. This property can be set \"on the fly\" so that graphics can be turned on/off while sequences are being run.",
+  "notes": "",
+  "see_also": "Camera\n\nVideoEnabled",
+  "examples": []
+}

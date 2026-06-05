@@ -1,0 +1,14 @@
+{
+  "title": "ImageBuffer Property",
+  "file": "ImageBufferProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies which image buffer to use for a sequence.",
+  "notes": "When a sequence takes a picture or searches for objects, it uses the image buffer specified with the ImageBuffer property.  When ImageBuffer is 0, the camera image buffer is used.  ImageBuffer 1 - 10 are 10 global image buffers that are shared between all sequences in the project. Using shared image buffers, you can grab an image with one sequence and search the same image with other sequences. When you are only searching for objects in an image that has already been acquired by another sequence, you must set the sequence RuntimeAcquire property to None, and set the ImageBuffer property as needed.",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": [
+    "Function FindParts\nInteger i\n' Move the camera to 5 positions and grab an image into 5 buffers\nFor i = 1 to 5 Go P(100 + i) VRun TakePicture VSet TakePicture.ImageBuffer, i\nNext i\n' Signal to other tasks that we are done with the robot MemOn ScanFinished\n' Search for a part in each image\n' The SearchPart sequence RuntimeAcquire property is set to None\nFor i = 1 to 5 VSet SearchPart.ImageBuffer, i VRun SearchPart VGet SearchPart.Blob01.Found, g_PartFound(i)\nNext i\nFend"
+  ]
+}

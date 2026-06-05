@@ -1,0 +1,17 @@
+{
+  "title": "VDefToolXYZ Statement",
+  "file": "VDefToolXYZ_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "VDefToolXYZ ToolNumber, LocalNumber, PointNumber1, PointNumber2, Sequence1, Sequence2, FinalAngle, InitialAngle, TargetTolerance, RobotSpeed, RobotAccel",
+  "parameters": "ToolNumber\tInteger variable\n\t\t representing a tool number to perform tool set. (1 to 15)\n\nLocalNumber\tInteger variable\n\t\t representing a local coordinate number for moving the robot. Tool\n\t\t is moved in the XY plane of the specified local coordinate.\n\nPointNumber1\tInteger variable\n\t\t representing a point number of first pose\n\nPointNumber2\tInteger variable\n\t\t representing a point number of second pose\n\nSequence1\tName of a\n\t\t sequence or string expression containing a sequence name for first\n\t\t pose.\n\nSequence2\tName of a\n\t\t sequence or string expression containing a sequence name for second\n\t\t pose.\n\nFinalAngle\tReal variable\n\t\t containing an angle (degrees).\n\nValue range:\n\t\t 5 to 180, -5 to -180[degrees]\n\nRotates in the\n\t\t U-axis direction of the local coordinate system specified by LocalNumber.\n\nInitialAngle\tReal variable\n\t\t containing an angle (degrees) that indicates the rotation angle\n\t\t when setting a temporary tool.\n\nValue range:\n\t\t 0.01 to 10, -0.01 to -10, [degrees]\n\nRotates in the\n\t\t U-axis direction of the local coordinate system specified by LocalNumber.\n\nAbsolute value\n\t\t of this value must be smaller than that of FinalAngle.\n\nTargetTolerance\tReal variable\n\t\t containing a pixel distance to consider that the vision detection\n\t\t result matches the target position.\n\nValue range:\n\t\t 0.1 to 3 pixel\n\nRobotSpeed\tInteger variable\n\t\t displaying the speed of the robot (%)\n\nValue range:\n\t\t 1 to 100\n\nRobotAccel\tInteger variable\n\t\t displaying the acceleration of the robot (%)\n\nValue range:\n\t\t 1 to 99",
+  "description": "VDefToolXYZ uses vision detection to calculate tool XYZ offset values and define a tool.",
+  "notes": "VDefToolXYZ uses vision detection to calculate a tool XYZ offset value. The calculated tool offset value is set to X, Y, Z of the specified ToolNumber. At this time, 0 is set for U, V, and W.\n\nThe robot operates automatically based on the detection results of the target.\n  Be careful of interference between the robot and peripherals.  Also, be careful to avoid singularities for nearby postures to prevent an error during the tool set.",
+  "see_also": "VDefTool\n\nVDefToolXYZUVW",
+  "examples": [
+    "VDefToolXYZ 1, 0, 1, 2, seq01, seq02, 5, 30, 1, 5, 5",
+    "VDefToolXYZ 2, 0, 3, 4, seq03, seq04, 5, 30, 1, 5, 5",
+    "VDefToolXYZ 3, 0, 5, 6, seq05, seq06, 5, 30, 1, 5, 5",
+    "VDefToolXYZUVW 1, 2, 3, VISION_3DTOOL_BAR"
+  ]
+}

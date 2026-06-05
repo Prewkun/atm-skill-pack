@@ -1,0 +1,12 @@
+{
+  "title": "AutoRefInitRotation Property",
+  "file": "AutoRefInitAngle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the initial small angle of rotation for the arm or tool when automatically calculating the calibration reference point.",
+  "notes": "This is the angle of rotation for the arm during mobile J2 camera calibration. This is the angle of rotation for the tool during mobile J4, J6 camera calibration.\n\nIf a positive value is set, the tool will rotate in the direction of the +U axis in the tool coordinate system. If a negative value is set, the tool will rotate in the direction of the -U axis within the tool coordinate system. Absolute values must always be smaller than AutoRefFinalRotation.\n\nValues\n\nFor mobile J2 camera calibration\n\nReal value from 0.001 to 45 (Unit:  degrees), default value:  5\n\nFor mobile J4, J6 camera calibration\n\nReal value from -10 to -0.001, 0.001 to 10 (Unit:\n  degrees), default value:  5\n\nSee Also: AutoRefInitRotation Property\n\nVCal\n\nVDefTool Statement\n\nAutoRefFinalRotation Property",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "SpelVideo Control",
+  "file": "SpelVideo_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This control allows you to display video from a vision system. For details on how to use this control, see the chapter Displaying Video.\n\nFile Name\n\nRCAPINt2.dll",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

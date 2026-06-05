@@ -1,0 +1,12 @@
+{
+  "title": "Using with Labview Shutdown",
+  "file": "VBG_Labview_Shutdown",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using with Labview Shutdown\n\nShutdown\n\nWhen you are finished using the Spel class instance, you need to invoke the Dispose method.  This will shutdown the Epson RC+ 8.0 server that is associated with the Spel class instance.  Normally, you should call Dispose at the end of your application.\n\nIf your application is aborted without calling Dispose, then the RC+ process continues to run, because LabVIEW (the client process) continues to run.  If you start your application again, the RC+ process is restarted if it was running.  But if you try to run the RC+ GUI, it will ask if you want to run another instance of RC+.\n  In this case, you can terminate the RC+ process (erc80.exe) from the Windows Task Manager first, then run the Epson RC+ 8.0 GUI.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

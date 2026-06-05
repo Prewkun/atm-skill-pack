@@ -1,0 +1,12 @@
+{
+  "title": "ResultObject Property",
+  "file": "ResultObject_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the vision object including the result you wish to render as a character string.",
+  "notes": "Specify the vision object name in the ResultObject property.  Specify the vision object containing the result you wish to render as a character string.  The vision object specified must be executed before the Text object.\n\nValues\n\nThe name of the vision object, or \"None\"\n\nDefault: \"None\"",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: Text\n Property\n\nResultText1 Property\n\nVision Objects: ResultObject Property\n\nText",
+  "examples": []
+}

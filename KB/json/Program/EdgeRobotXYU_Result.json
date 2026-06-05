@@ -1,0 +1,12 @@
+{
+  "title": "EdgeRobotXYU Result",
+  "file": "EdgeRobotXYU_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the RobotX, RobotY and Angle position coordinates of the edges found during the search.",
+  "notes": "LineFinder and ArcFinder use several edges to find a line or an arc.  You can get the position results for each of the searched edges in the robot world coordinate system by using EdgeRobotXYU.\n\nYou must set the CurrentResult property to the LineFinder (or ArcFinder) result whose edge results you want to retrieve. The number of edge results is equal to the NumberOfEdges property.\n\nThe EdgeRobotXYU result returns a position in the robot coordinate system and therefore can be used for robot guidance applications.  The EdgeRobotXYU result xVar and yVar values are always returned in millimeters.  The uVar value is always returned in degrees.\n\nIt should be noted that the EdgeRobotXYU result can only be calculated for vision sequences which have been calibrated with the robot coordinate system.  If no calibration has been assigned to the vision sequence then the RobotXYU result cause an error to occur.\n\nThe EdgeRobotXYU result is available at runtime only.\n\nSee Also: EdgeRobotXYU Result\n\nEdgeCameraXYU Result\n\nVision Objects: EdgeRobotXYU Result\n\nArcFinder\n\nLineFinder",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: ArcFinder, LineFinder",
+  "examples": []
+}

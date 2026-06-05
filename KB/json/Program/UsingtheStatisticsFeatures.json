@@ -1,0 +1,12 @@
+{
+  "title": "Using Vision Guide Statistics",
+  "file": "UsingtheStatisticsFeatures",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Vision Guide Statistics\n\nUsing Vision Guide Statistics\n\nStatistics calculations are a built-in feature of Vision Guide 8.0 and can prove to be quite useful.\n\nVision Guide 8.0 automatically keeps track of result data for future statistical reference for each result of each vision object every time it is run from the Vision Guide window, Run window, or Operator window.\n\nThis means that each time you run a vision object (regardless of the method used to initiate the vision object execution) the result data for that instance of execution is stored for use in calculating statistical information about the results that object.\n\nSince most vision applications can be solved in a variety of ways, many times you may want to try multiple methods and compare the results.  This is where the statistics feature is invaluable.\n  It allows you to run reliability tests on vision objects thereby pinpointing which vision solution is best for your application.  Best of all, these tests can be initiated from the SPEL+ language or even from the Vision Guide point and click interface where no programming is required.\n\nClicking on the [Statistics] button on the Vision Guide toolbar opens the [Statistics] dialog box.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

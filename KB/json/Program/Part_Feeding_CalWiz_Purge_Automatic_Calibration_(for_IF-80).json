@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Purge Automatic Calibration (for IF-80)",
+  "file": "Part_Feeding_CalWiz_Purge_Automatic_Calibration_(for_IF-80)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Purge Automatic Calibration (for IF-80)\n\nPurge - Automatic Calibration (for IF-80)\n\nTo perform the purge calibration (IF-80 feeder only), select the [Auto Calibration] tab on the screen below.\n\nThis item is displayed when Purge enabled. (See Purge)\n\nNote:\n  The [Automatic Calibration] tab will not appear if the platform type (see \"2.3.2 Vibration\") is set to \"Slots\", \"Holes\", or \"Pockets\".\n\n1.  Description of display items\n\nItem\tDescription\n\nAmplitude\tSet the strength of the amplitude\n\t\t of the vibration.\n\nUnit:   %\n\nDuration\tSet the duration of the vibration.\n\nUnit:   ms\n\nFrequency\tSet the frequency of the vibration.\n\nUnit:   Hz\n\n2.  Calibration\n\n  (1) Empty the purge box (optional).\n\n  (2) Place the number of parts displayed in the instruction.\n\n  (3) Click the [Run] button.\n\n       Feeder starts vibrating, the optimal Amplitude, Duration and Frequency will be determined.\n\nThe process can take several minutes to perform depending upon the physical characteristics of the part (weight, size, material, surface friction etc...).\n\n(4) Click the [Apply] button.\n\n       The result is saved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

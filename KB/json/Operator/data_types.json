@@ -1,0 +1,12 @@
+{
+  "title": "Data Types",
+  "file": "data_types",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Data Types\n\nData Types\n\nYou can declare different types of data in your program. All variables must be declared.\n\nThe following table shows the different data types for the SPEL+ language.\n\nData Type\tSize\tRange\n\nBoolean\t2 byte\tTrue or\n\t\t False\n\nByte\t2 byte\t−128 to\n\t\t +127\n\nDouble\t8 bytes\t−1.79E+308\n\t\t to 1.79E+308  Number of significant figure is 14\n\nInt32\t4 bytes\t−2147483648\n\t\t to +2147483647\n\nInt64\t8 bytes\t−9223372036854775808\n\nto +9223372036854775807\n\nInteger\t2 byte\t−32768 to\n\t\t +32767\n\nLong\t4 bytes\t−2147483648\n\t\t to +2147483647\n\nReal\t4 bytes\t−3.40E+38\n\t\t to 3.40E+38 Number of significant figure is 6\n\nShort\t2 bytes\t−32768 to\n\t\t +32767\n\nString\t256 bytes\tAll ASCII\n\t\t characters  Up to 255 characters\n\nUByte\t2 bytes\t0 to +255\n\nUInt32\t4 bytes\t0 to 4294967295\n\nUInt64\t8 bytes\t0 to 18446744073709551615\n\nUShort\t2 bytes\t0 to 65535",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

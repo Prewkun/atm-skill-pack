@@ -1,0 +1,15 @@
+{
+  "title": "Tx_Polarity, Ty_Polarity, Tz_Polarity Properties",
+  "file": "Tx_Polarity_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the status of or sets whether the force trigger is triggered when the value in the specified axis in the direction of rotation is within the thresholds or when the value in the specified axis in the direction of rotation is outside of the thresholds.",
+  "notes": "XX_Polarity returns the status of or sets whether the force trigger is triggered when the value in the specified axis in the direction of rotation is within the thresholds or when the value in the specified axis in the direction of rotation is outside of the thresholds.",
+  "see_also": "Applies To\n\nForce Trigger\n Ty_Polarity, Tz_Polarity Property\n\nTx_Enabled, Ty_Enabled, Tz_Enabled Property",
+  "examples": [
+    "Function SettingPolarity FSet FT1.Enabled, False, False, False, True, False, False, False, False FSet FT1.Tx_Polarity, FG_OUT FSet FT1.Tx_Levels, -5000, 5000 Trap 1, FT1 Call ForceError\nFend",
+    "Function ForceError AbortMotion All\nFend"
+  ]
+}

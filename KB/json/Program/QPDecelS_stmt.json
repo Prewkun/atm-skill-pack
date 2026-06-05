@@ -1,0 +1,14 @@
+{
+  "title": "QPDecelS Statement",
+  "file": "QPDecelS_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) QPDecelS QPDecelS [ , departDecel, approDecel ]\n\n(2) QPDecelS",
+  "parameters": "QPDecelS\tReal value that specifies the deceleration speed of quick pause in the CP motion. (mm/sec2)\n\ndepartDecel\tReal value that specifies the deceleration speed of quick pause in the Jump3 depart motion (mm/sec2)\n\napproDecel\tReal value that specifies the deceleration speed of quick pause in the Jump3 approach motion (mm/sec2)",
+  "description": "While quick pause is executed in the CP motion, a joint acceleration error may occur. This is because the deceleration speed of quick pause that is automatically set in a normal quick pause is over the joint allowable deceleration speed. Specifically, the error is likely to occur when the AccelS value in the CP motion is too high or jogging the robot near a singularity. In these cases, use the QPDecelS and set a lower quick pause deceleration speed. But if the setting is too low, the distance for quick pause will increase. Therefore, set the possible value. Normally, you don't need to set QPDecelS.\n\nYou cannot use values lower than the deceleration speed of the CP motion set with AccelS. If you do, a parameter out of range error occurs.\n\nAlso, after you set QPDecelS, if a higher value than the set QP deceleration speed is set with the AccelS, the QPDecelS will automatically set the QP deceleration speed same as the deceleration speed set with the AccelS.\n\nController Startup\n\nMotor On\n\nSFree,  SLock\n\nReset\n\nStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "Sets the deceleration speed of quick pause in the CP motion.\n\nArc, Arc3, BMove, Jump3CP, Power, SpeedR, TMove\n\nQPDecelS Statement Example\n\nThe following program sets the QPDecelS of the Move statement.\n\nFunction QPDecelTest\n\n  AccelS 3000\n\n  QPDecelS 4000\n\n  SpeedS 100\n\n  Move P1\n\n  .\n\n  .\n\nFend",
+  "examples": [
+    "Function QPDecelTest AccelS 3000 QPDecelS 4000 SpeedS 100 Move P1 . .\nFend"
+  ]
+}

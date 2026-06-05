@@ -1,0 +1,15 @@
+{
+  "title": "TillStopMode Property",
+  "file": "TillStopMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the stop method when trigger conditions are met when the force trigger is used for Till.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function TillStopModeTest\n    FSet FT1.Fz_Enabled, True\n    FSet FT1.Fz_Levels, -5, 5\n    FSet FT1.TillStopMode, FG_SOFT_STOP",
+    "FSet FS1.Reset\n    Till FT1\n    Move Here -Z(100) Till\nFend"
+  ]
+}

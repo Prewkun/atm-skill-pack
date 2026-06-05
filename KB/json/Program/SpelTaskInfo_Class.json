@@ -1,0 +1,15 @@
+{
+  "title": "SpelTaskInfo Class",
+  "file": "SpelTaskInfo_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SpelTaskInfo Class\n\nSpelTaskInfo Class\n\nMember name\tType\tDescription\n\nCPU\tInteger\tCPU Load factor for SPEL tasks.\n\nErrorCode\tInteger\tError number.\n\nStartTime\tDateTime\tStart date and time of the task.\n\nTaskName\tString\tTask name.\n\nTaskNumber\tInteger\tTask number.\n\nTaskState\tSpelTaskState\tTask status\n\nHere is an example.\n\nVB Example:\n\nDim info As SpelTaskInfo\n\ninfo.TaskState = m_spel.TaskState(1)\n\nLabel1.Text = info.TaskNumber + \" \" + info.TaskState\n\nC# Example:\n\nSpelTaskInfo info;\n\ninfo.TaskState = m_spel.TaskState(1);\n\nLabel1.Text = info.TaskNumber + \" \" + info.TaskState;",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Dim info As SpelTaskInfo\ninfo.TaskState = m_spel.TaskState(1)\nLabel1.Text = info.TaskNumber + \" \" + info.TaskState",
+    "SpelTaskInfo info;\ninfo.TaskState = m_spel.TaskState(1);\nLabel1.Text = info.TaskNumber + \" \" + info.TaskState;"
+  ]
+}

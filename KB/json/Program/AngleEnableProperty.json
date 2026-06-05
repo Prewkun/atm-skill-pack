@@ -1,0 +1,12 @@
+{
+  "title": "AngleEnable Property",
+  "file": "AngleEnableProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies whether a correlation or geometric search will do a search with rotation.",
+  "notes": "The AngleAccuracy, AngleRange, and AngleMaxIncrement properties will not be used with the search object if the AngleEnable property is set to False.\n\nIt should be noted that while correlation with angle is normally able to find rotated parts, the correlation search time usually increase significantly.  This is why correlation with angle is most useful for finding parts which rotate only slightly.  The Polar object however, is normally very fast and can be used in conjunction with the Correlation object for a powerful and fast combination. (See the sections on Correlation or Polar Searching for more information.)\n\nIf you need to search for large angle variations, consider using Geometric search instead of Correlation.\n\nNote: The Correlation model must be taught after the AngleEnable property is set to True.  If you teach a Correlation model, then set the AngleEnable property to True, and then try to run that Correlation object, it will not search with angle.  You must re-teach the Correlation model with the AngleEnable property set to True in order for Correlation search with angle to work properly.  You must also have the proper settings for the AngleMaxIncrement and AngleRange properties prior to teaching the new model as well.\n\nSee Also: AngleEnable Property\n\nAngle Result\n\nAngleAccuracy Property\n\nAngleMaxIncrement Property\n\nAngleRange Property\n\nVision Objects: AngleEnable\n\nCorrelation\n\nGeometric\n\nPolar",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric",
+  "examples": []
+}

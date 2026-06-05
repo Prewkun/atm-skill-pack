@@ -1,0 +1,12 @@
+{
+  "title": "Using Text Objects",
+  "file": "Using_Text_Objects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Text Objects\n\nUsing Text Objects\n\nNow we have set the foundation for understanding how to use Vision Guide Text objects.\n\nThis next section will describe the steps required to use Text objects as listed below:\n\nHow to create a new Text object\nPosition and Size the search window\nConfigure character string settings\nRun a text object and examine the results\n\nStep 1: Create a New Text Object\n\nStep 2: Positioning and size the Search Window\n\nStep 3: Configure Character String Settings\n\nStep 4: Running the Text Object and Examining the Results",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Manipulator Posture",
+  "file": "Manipulator_Posture",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Manipulator Posture\n\nManipulator Posture\n\nManipulator posture during the tracking motion is always the default posture regardless of the posture at the conveyor tracking calibration. To specify the posture for the tracking, write a program as shown in the following example.\n\nExample: tracks the work piece with Lefty arm position\n\njump Cnv_Queget(Conveyor number,[Index])/L\n\nNOTE:  During tracking motion, singularity avoiding function cannot be used. Therefore, set the positions of the Manipulator and the conveyor so that the Manipulator does not pass through the singularity.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "jump Cnv_Queget(Conveyor number,[Index])/L"
+  ]
+}

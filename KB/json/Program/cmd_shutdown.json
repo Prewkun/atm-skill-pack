@@ -1,0 +1,14 @@
+{
+  "title": "ShutDown Statement",
+  "file": "cmd_shutdown",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ShutDown [mode] [, Forced]",
+  "parameters": "Symbolic constant\tValue\tMeaning\n\nmode omitted\t-1\tDisplays\n\t\t\t\t a dialog allowing the user to choose the shutdown option.\n\nSHUTDOWN_ALL\t0\tShuts\n\t\t\t\t down Epson RC+ and Windows.\n\nSHUTDOWN_RESTART\t1\tShuts\n\t\t\t\t down Epson RC+ and restarts Windows.\n\nSHUTDOWN_EPSONRC\t2\tShuts\n\t\t\t\t down Epson RC+.\n\nShuts\n\t\t\t\t down Epson RC+.\n\nForced\tOptional. Use to force a shutdown.",
+  "description": "Use ShutDown to shutdown RC+ and optionally shutdown or reboot Windows from your program. You can force a shutdown by using the Forced parameter.\n\nNote: If you shutdown with the Forced parameter while tasks are running, you could lose data. Be sure to save data before shutdown.\n\nWhen the controller configuration is set to \"Cooperative mode\" in virtual controller\n\nWhen the controller configuration is set to \"Cooperative mode\" in the virtual controller, the global Preserve variables will not be saved if ShutDown statement is executed.  Do not use ShutDown statement if you need to save the global Preserve variables.",
+  "notes": "",
+  "see_also": "Restart\n\nShutDown Statement",
+  "examples": [
+    "' Shutdown Epson RC+ and Windows\nShutDown 0"
+  ]
+}

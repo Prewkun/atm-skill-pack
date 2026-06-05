@@ -1,0 +1,12 @@
+{
+  "title": "ArcObject Property",
+  "file": "ArcObject_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set an ArcFinder object that is used to locate an arc for ArcInspector to inspect.",
+  "notes": "By default, the ArcInspector inspects the arc defined by the Radius, CenterX, and CenterY properties.  You can search for the arc with an Arc Finder first by setting the ArcObject property to an ArcFinder.\n\nSee Also: ArcObject Property\n\nArcObjResult Property\n\nVision Objects: ArcObject Property\n\nArcInspector",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector",
+  "examples": []
+}

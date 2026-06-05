@@ -1,0 +1,12 @@
+{
+  "title": "[Conveyor Tracking] (Tools Menu)",
+  "file": "tools_conveyor_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Conveyor Tracking] (Tools Menu)\n\n[Conveyor Tracking] (Tools Menu)\n : Ctrl+F8\n\nOpens the [Conveyor Tracking] window. For details, refer to 16. Conveyor Tracking.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

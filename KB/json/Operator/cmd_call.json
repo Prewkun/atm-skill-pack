@@ -1,0 +1,17 @@
+{
+  "title": "Call Statement",
+  "file": "cmd_call",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Call funcName [(argList)]",
+  "parameters": "funcName\tThe name of\n\t\t a Function\n\t\t which is being called.\n\nargList\tOptional.\n\t\t  List of arguments that were specified in the Function declaration.\n\nFor the argument,\n\t\t use the following syntax:\n\n[ByRef]\n\t\t varName [( )], or numerical expression\n\nByRefOptional.\n\t\t Specify ByRef when you refer to the variable to be seen by the\n\t\t calling function. In this case, the argument change in a function\n\t\t can be reflected to the variable of the calling side. You can\n\t\t change the values received as a reference.",
+  "description": "The Call instruction causes the transfer of program control to a function (defined in Function...Fend).  This means that the Call instruction causes program execution to leave the current function and transfer to the function specified by Call.  Program execution then continues in that function until an Exit Function or Fend instruction is reached.  Control is then passed back to the original calling function at the next statement after the Call instruction.\n\nYou may omit the Call keyword and argument parentheses.\n  For example, here is a call statement used with or without the Call keyword:\n\nCall MyFunc(1, 2)\n\nMyFunc 1, 2\n\nYou can call an external function in a dynamic link library (DLL). For details, refer to Declare Statement.\n\nTo execute a subroutine within a function, use GoSub...Return.\n\nYou can specify a variable as an argument. Specifying the ByRef parameter, you can reflect the change of argument in the function to the variable of the calling side.\n\nWhen specifying the ByRef parameter, you need to specify ByRef as well for the argument list of the function definition (Function statement) and DLL function definition (Declare statement).\n\nByRef is necessary when giving an array variable as an argument.",
+  "notes": "",
+  "see_also": "Function...Fend\n\nGoSub\n\nCall Statement Example\n\n[File1: MAIN.PRG]\n\nFunction main\n\n  Call InitRobot\n\nFend\n\n[File2: INIT.PRG]\n\nFunction InitRobot\n\n  If Motor = Off then\n\n    Motor On\n\n  EndIf\n\n  Power High\n\n  Speed 50\n\n  Accel 75,75\n\nFend",
+  "examples": [
+    "Call MyFunc(1, 2)",
+    "MyFunc 1, 2",
+    "Function main Call InitRobot\nFend",
+    "Function InitRobot If Motor = Off then\n    Motor On EndIf Power High Speed 50 Accel 75,75\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "LimitAccelJ Property",
+  "file": "LimitAccelJ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the maximum value for joint acceleration during force control.",
+  "notes": "This sets or returns the maximum value for joint acceleration during force control.\n\nThe value established for the LimitAccelJ property expresses a ratio with respect to the maximum acceleration.\n\nWhen the robot, during force control, attempts to accelerate at a rate in excess of the established property value, the acceleration is automatically limited. The limitation is always active during force control.\n\nIn LowPower mode during force control, the motion is automatically corrected to the default Accel value when a value in excess of the default Accel value is established in the LimitAccelJ property.",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": [
+    "Function LimitAccelJTest FSet FCS1.Orientation, FG_TOOL ' Specifies the force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets the virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets the virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets the virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control to active FSet FC1.LimitAccelJ, 5 ' Sets the maximum joint acceleration to 5% AccelS 2 ' Sets the CP motion acceleration to 2[mm/sec2] Move P0 FC1 ' A Move motion with force control\nFend"
+  ]
+}

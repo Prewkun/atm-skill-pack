@@ -1,0 +1,12 @@
+{
+  "title": "Preferences Command (Setup menu)",
+  "file": "setup_prefs",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Preferences Command (Setup menu)\n\n[Preferences] Command (Setup Menu)\n\nSelect the Epson RC+ 8.0 menu-[Setup]-[Preferences] to display the [Preferences] dialog. Select the tree on the left of the dialog to change the display on the right.\n\nCommon buttons\n\nItem\tDescription\n\nClose\tCloses\n\t\t the [Preferences] dialog.\n\nApply\tSaves\n\t\t changes.\n\nRestore\tRevert\n\t\t back to previous values.\n\nDefaults\tReverts\n\t\t back to the default settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

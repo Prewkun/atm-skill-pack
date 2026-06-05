@@ -1,0 +1,12 @@
+{
+  "title": "Frame Object Results",
+  "file": "FrameObjectResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Frame Object Results\n\nFrame Object Results\n\nThe details for each result used with Frame objects are explained in the Vision Guide 8.0 Properties and Results Reference Manual.  However, for convenience we have provided a list of the Frame object results and a brief explanation of each below:\n\nResults\tDescription\n\nAngle\tReturns the\n\t\t amount of rotation of the Frame.\n\nFound\tReturns whether\n\t\t or not the frame could be defined.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

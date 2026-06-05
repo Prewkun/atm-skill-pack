@@ -1,0 +1,14 @@
+{
+  "title": "SoftCP Function",
+  "file": "SoftCP_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SoftCP",
+  "parameters": "",
+  "description": "SoftCP Function\n\nSoftCP Function",
+  "notes": "",
+  "see_also": "Returns the status of SoftCP moton mode.\n\nSoftCP Statement\n\nSoftCP Function Example\n\nIf SoftCP = Off Then\n\nPrint \"SoftCP is off\"\n\n\t\t\tEndIf",
+  "examples": [
+    "If SoftCP = Off Then\n\n\t\t\t   Print \"SoftCP is off\"\n\n\t\t\tEndIf"
+  ]
+}

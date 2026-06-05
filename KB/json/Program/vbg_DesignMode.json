@@ -1,0 +1,16 @@
+{
+  "title": "OperationMode Property, Spel Class",
+  "file": "vbg_DesignMode",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property OperationMode As SpelOperationMode",
+  "parameters": "",
+  "description": "Reads or sets the Epson RC+ mode of operation.",
+  "notes": "When OperationMode is set to Program, the Epson RC+ 8.0 GUI for the current instance of the Spel class is opened and the Controller operation mode is set to Program.\n  If the user closes the GUI, OperationMode is set to Auto.  If OperationMode is set to Auto from VB, the GUI also closes.\n\nOperationMode Example\n\nVB Example:\n\nSub btnSpelProgramMode_Click _\n\n       ByVal sender As System.Object, _\n\n       ByVal e As System.EventArgs) _\n\n       Handles btnHideIOMonitor.Click\n\n  Try\n\n    m_spel.OperationMode = RCAPINet.SpelOperationMode.Program\n\n' If you want to wait for the user to close the RC+\n\n    ' GUI, you can wait here for OperationMode to change\n\n    ' to Auto\n\n    Do\n\n      Application.DoEvents()\n\n      System.Threading.Thread.Sleep(10)\n\n    Loop Until m_spel.OperationMode = RCAPINet.SpelOperationMode.Auto\n\n  Catch ex As RCAPINet.SpelException\n\n    MsgBox(ex.Message)\n\n  End Try\n\nEnd If\n\nC#",
+  "see_also": "",
+  "examples": [
+    "Sub btnSpelProgramMode_Click _\n       ByVal sender As System.Object, _\n       ByVal e As System.EventArgs) _\n       Handles btnHideIOMonitor.Click Try\n    m_spel.OperationMode = RCAPINet.SpelOperationMode.Program",
+    "' If you want to wait for the user to close the RC+\n    ' GUI, you can wait here for OperationMode to change\n    ' to Auto\n    Do\n      Application.DoEvents()\n      System.Threading.Thread.Sleep(10)\n    Loop Until m_spel.OperationMode = RCAPINet.SpelOperationMode.Auto Catch ex As RCAPINet.SpelException\n    MsgBox(ex.Message) End Try\nEnd If",
+    "void btnSpelProgramMode_Click(object sender, EventArgs e)\n{ try { m_spel.OperationMode = RCAPINet.SpelOperationMode.Auto; // If you want to wait for the user to close the RC+ GUI, you can wait here Do {\n   Application.DoEvents();\n   Systme.Threading.Thread.Sleep(10); } while(!m_spel.OperationMode = RCAPINet.OperationMode.Auto); } Catch (SpelException ex){\nMessageBox.Show(ex.Message); }\n}"
+  ]
+}

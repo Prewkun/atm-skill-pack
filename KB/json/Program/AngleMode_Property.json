@@ -1,0 +1,12 @@
+{
+  "title": "AngleMode Property",
+  "file": "AngleMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the output format for the angle detected.",
+  "notes": "1 - Default   Vision constant: VISION_ANGLEMODE_DEFAULT\n\nOutputs the angle in the conventional manner as a real number in degrees from 0 to 360.\n\nDirected and AngleBase setting values are not used.\n\n2 - UseAngleBase   Vision constant: VISION_ANGLEMODE_USEANGLEBASE\n\nOutputs the angle based on the conditions set for the Directed property with the reference angle set for the AngleBase property at the center.\n\nIf the Directed property is true\n\n-180 degrees + AngleBase ≤ output angle ≤ 180 degrees + AngleBase\n\nIf the Directed property is false\n\n-90 degrees + AngleBase ≤ output angle ≤ 90 degrees + AngleBase\n\nExample: The angle output when the AngleBase is set to 0 degrees when detecting a line of 60 degrees.\n\nThe output angles for Line and Line Finder objects will vary as shown in the diagram above even if line placement conditions put them on the same line.\n\nThe left side is output as 60 degrees and the right side is output as 240 degrees.\n\nIf the Directed property is \"true\", the object placement conditions are taken into consideration to output the angle using the AngleBase as a reference.  As such, the left side is output as 60 degrees and the right side is output as -120 degrees.\n\nIf the Directed property is \"false\", the angle is output without regard for the object placement conditions.  As such, the diagram above would be output as 60 degrees, regardless of the object placement conditions.\n\nValues\n\n1 - Default Outputs the angle as a real number in degrees from 0 to 360.\n\n2 - UseAngleBase Outputs the angle based on AngleBase and Directed property settings.\n\nDefault 1 - Default\n\nSee Also: AngleMode Property\n\nAngle Result\n\nDirected Property\n\nVision Objects: AngleMode Property\n\nLine, LineFinder",
+  "see_also": "Applies To\n\nVision Objects: Line, LineFinder",
+  "examples": []
+}

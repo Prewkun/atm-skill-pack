@@ -1,0 +1,12 @@
+{
+  "title": "Robot motion commands",
+  "file": "Robot_motion_commands",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot motion commands\n\nRobot motion commands\n\nSPEL+ includes several commands for controlling the robot from your programs.\n\nHoming the robot\n\nPoint to point motion\n\nLinear Motion\n\nJoint motion\n\nControlling position accuracy\n\nCurves\n\nCP Motion Speed / Acceleration and Tool Orienation\n\nPTP Speed Acceleration for Small Distances\n\nPressing Motion\n\nCollision Detection Function\n\nTorque Restriction Function\n\nWeight, Inertia, and Eccentricity / Offset Measurement Utility",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ImageColor Property",
+  "file": "ImageColorProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies how the color image is acquired.",
+  "notes": "Use the ImageColor property to configure which color band(s) to acquire. This property is only available for color cameras.\n\nSee Also: ImageColor Property\n\nCamera Property\n\nSequence window\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

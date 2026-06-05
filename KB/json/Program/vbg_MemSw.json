@@ -1,0 +1,15 @@
+{
+  "title": "MemSw Method, Spel Class",
+  "file": "vbg_MemSw",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function MemSw (BitNumber As Integer) As Boolean\n\nFunction MemSw (Label As String) As Boolean",
+  "parameters": "BitNumber\tInteger expression representing one of the memory I/O bits.\n\nLabel\tString expression containing a memory I/O bit label.",
+  "description": "Returns the specified memory I/O bit status.",
+  "notes": "",
+  "see_also": "In\n\nInBCD\n\nSw\n\nOff\n\nOn\n\nOport\n\nMemSw Example\n\nVB Example:\n\nIf m_spel.MemSw(10) Then\n\n  m_spel.On(2)\n\nEnd If\n\nC# Example:\n\nif (m_spel.MemSw(10))\n\n   m_spel.On(2);",
+  "examples": [
+    "If m_spel.MemSw(10) Then m_spel.On(2)\nEnd If",
+    "if (m_spel.MemSw(10))\n   m_spel.On(2);"
+  ]
+}

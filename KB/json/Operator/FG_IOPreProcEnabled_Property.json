@@ -1,0 +1,12 @@
+{
+  "title": "FGIOPreProcEnabled Property",
+  "file": "FG_IOPreProcEnabled_Property",
+  "section": "Operator",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets I/O operations when the force guide object starts.\n\nI/O operations are defined by IOPreprocOutputBit Property and IOPreprocOutputStatus Property.  Use this property when you want to operate the hands or peripherals before the force guide object execution.\n\nValues\n\nTrue Execute I/O operation at the start.\n\nFalse I/O operation at the start is not executed.\n\nDefault:  False\n\nSee Also: IOPreProcEnabled Property\n\nIOCheckEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence, All Objects",
+  "examples": []
+}

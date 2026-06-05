@@ -1,0 +1,12 @@
+{
+  "title": "VStatsReset Statement",
+  "file": "VStatsReset",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The VStatsReset command resets all statistics in memory for one sequence in the current project.  This includes all of the objects in the sequence.  If you want to update the statistics file on disk, you must execute VStatsSave",
+  "notes": "",
+  "see_also": "Applies To\n\nVision Sequence\n\nVGet\n\nVRun\n\nVStatsResetAll\n\nVStatsSave",
+  "examples": []
+}

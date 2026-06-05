@@ -1,0 +1,12 @@
+{
+  "title": "Decision Object How to Use",
+  "file": "Decision_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Decision Object How to Use\n\nDecision Object\n\nUsing Decision Objects\n\nNow we have set the foundation for understanding how to use Vision Guide Decision objects.\n\nThis next section will describe the steps required to use Decision objects as listed below:\n\nHow to create a new Decision object\n\nConditional branch settings\n\nAdding objects and executing\n\nUsing the Coordinates object",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Disconnect Method, Spel Class",
+  "file": "Disconnect_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Disconnect ()",
+  "parameters": "",
+  "description": "Disconnects the Spel class instance from the current connection.",
+  "notes": "Use Disconnect to disconnect from the current Controller connection.",
+  "see_also": "Connect, Initialize\n\nDisconnect Example\n\nVB Example:\n\nTry\n\n  m_spel.Disconnect\n\n  Catch ex As RCAPINet.SpelException\n\n  MsgBox(ex.Message)\n\nEnd Try\n\nC# Example:\n\ntry{\n\n  m_spel.Disconnect();\n\n}\n\ncatch(RCAPINet.SpelException ex){\n\n  MessageBox.Show(ex.Message);\n\n}",
+  "examples": [
+    "Try m_spel.Disconnect Catch ex As RCAPINet.SpelException MsgBox(ex.Message)\nEnd Try",
+    "try{ m_spel.Disconnect();\n}\ncatch(RCAPINet.SpelException ex){ MessageBox.Show(ex.Message);\n}"
+  ]
+}

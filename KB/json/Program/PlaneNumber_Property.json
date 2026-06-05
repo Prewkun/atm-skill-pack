@@ -1,0 +1,12 @@
+{
+  "title": "PlaneNumber Property",
+  "file": "PlaneNumber_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the Plane number to be used of the end conditions related to positions.\n\nWhen specifying RobotPlane in the PosCheckType property, Plane of the specified number will not be changed.\n\nWhen specifying Relative in the PosCheckType property, redefine a new Plane to the specified number each time the force guide object is executed.  Therefore, note that the original setting will be lost.\n\nValues\n\nMinimum value 1\n\nMaximum value 15\n\nDefault:  1\n\nSee Also: PlaneNumber Property\n\nPosCheckType Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressProbe Object, ContactProbe Object, Press Object, PressMove Object",
+  "examples": []
+}

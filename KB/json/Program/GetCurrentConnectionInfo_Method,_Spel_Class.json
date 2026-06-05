@@ -1,0 +1,17 @@
+{
+  "title": "GetCurrentConnectionInfo Method, Spel Class",
+  "file": "GetCurrentConnectionInfo_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetCurrentConnectionInfo () As SpelConnectionInfo",
+  "parameters": "",
+  "description": "Returns the information of the current controller connection.",
+  "notes": "",
+  "see_also": "GetConnectionInfo, GetControllerInfo\n\nGetCurrentConnectionInfo",
+  "examples": [
+    "Dim info As SpelConnectionInfo",
+    "info = m_spel.GetCurrentConnectionInfo()",
+    "SpelConnectionInfo info;",
+    "info = m_spel.GetCurrentConnectionInfo();"
+  ]
+}

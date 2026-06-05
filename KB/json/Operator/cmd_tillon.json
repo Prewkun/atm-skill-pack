@@ -1,0 +1,14 @@
+{
+  "title": "TillOn Function",
+  "file": "cmd_tillon",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "TillOn",
+  "parameters": "",
+  "description": "TillOn Function\n\nTillOn Function\n\nSee_Also Example\n\nReturns the current Till status.",
+  "notes": "TillOn returns True if Till condition occurred.\n\nTillOn is equivalent to ((Stat(1) And 2) <> 0).",
+  "see_also": "EStopOn, SafetyOn, Sense, Stat, Till\n\nTillOn Function Example\n\nGo P0 Till Sw(1) = On\n\n\t\tIf TillOn Then\n\n\t\t  Print \"Till condition occurred during move to P0\"\n\n\t\tEndIf",
+  "examples": [
+    "Go P0 Till Sw(1) = On\n\t\tIf TillOn Then\n\t\t  Print \"Till condition occurred during move to P0\"\n\t\tEndIf"
+  ]
+}

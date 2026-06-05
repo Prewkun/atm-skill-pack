@@ -1,0 +1,17 @@
+{
+  "title": "Program Structure",
+  "file": "program_structure",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Program Structure\n\nProgram Structure\n\nWhat is a SPEL+ program?\n\nA SPEL+ program is a collection of functions, variables, and macros. You can put one or more statement in each line of a program. Every program file has a \".prg\" extension and is stored in the project folder.\n\nEach project must include at least one program and define the function called \"main\". \"Function main\" is the default definition. If \"Function main\" is not found, an error occurs.\n\nIn addition, you can define other 63 main functions in the same project. Each program has own start function: main1, main2...main63. Each of the main functions can be started from the [Operator window], the remote console, or RC+ API.\n\nA function definition begins with the Function statement and ends with the Fend statement.\n\nThe following program file contains two function definitions. Function Main calls function \"Func1\".\n\nMAIN.PRG\n\nFunction Main\n\n    Call Func1\n\n    ...\n\n    Fend\n\nFunction Func1\n\n    Jump pickpnt\n\n    ...\n\nFend\n\nCalling functions\n\nYou can execute a user function by using the Call statement. The function can reside in any program file in the current project. A return value is returned, with the function used as an argument. You can also omit the Call statement if you don't need the return value. When Call is omitted, then parentheses for the arguments must not be supplied.\n\nHere are some examples:\n\nCall MyFunc(1, 2)\n\nMyFunc 1, 2\n\nPrint MyFunc(1, 2)",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "MAIN.PRG",
+    "Function Main\n    Call Func1\n    ...\n    Fend",
+    "Function Func1\n    Jump pickpnt\n    ...\nFend",
+    "Call MyFunc(1, 2)\nMyFunc 1, 2\nPrint MyFunc(1, 2)"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ForceLimited Result",
+  "file": "ForceLimited_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "ForceLimited Result\n\nForceLimited Result\n\nIt is whether to exceed the limit range related to force.\n\nValue\tDescription\n\nTrue\tExceed the limit range related to force.\n\nFalse\tThe limit range related to force is not exceeded.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

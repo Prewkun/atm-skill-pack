@@ -1,0 +1,12 @@
+{
+  "title": "OCR Object Results",
+  "file": "OCRObjectResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "OCR Object Results\n\nOCR Object Results\n\nThe following list is a summary of the OCR object results with brief descriptions.  The details for each result are explained in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nResult\tDescription\n\nAngle\tReturns the\n\t\t amount of found character rotation in degrees.\n\nFound\tReturns whether\n\t\t the object was found.\n\nPassed\tReturns whether\n\t\t the object detection result was accepted.\n\nCameraX\tReturns the\n\t\t X coordinate position of the found character in the camera coordinate\n\t\t system.\n\nCameraY\tReturns the\n\t\t Y coordinate position of the found character in the camera coordinate\n\t\t system.\n\nNumberFound\tReturns the\n\t\t number of characters found within the search window.\n\nMaxX\tReturns the\n\t\t maximum X pixel coordinate of the character Extrema in pixels.\n\nMaxY\tReturns the\n\t\t maximum Y pixel coordinate of the character Extrema in pixels.\n\nMinX\tReturns the\n\t\t minimum X pixel coordinate of the character Extrema in pixels.\n\nMinY\tReturns the\n\t\t minimum Y pixel coordinate of the character Extrema in pixels.\n\nPixelX\tReturns the\n\t\t X coordinate position of the found character's position in pixels.\n\nPixelY\tReturns the\n\t\t Y coordinate position of the found character's position in pixels.\n\nRobotX\tReturns the\n\t\t X coordinate position of the found character in the robot coordinate\n\t\t system.\n\nRobotY\tReturns the\n\t\t Y coordinate position of the found character in the robot coordinate\n\t\t system.\n\nShowAllResults\tDisplays a\n\t\t dialog box showing all results of the specified vision object\n\t\t in a table form.\n\nThis makes it\n\t\t easy to compare results.\n\nText\tReturns the\n\t\t text found in a search operation.\n\nTime\tReturns the\n\t\t amount of time required to process the object (unit:  millisecond).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Model Training for Angle Searching",
+  "file": "ModelTrainingforAngleSearching",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Model Training for Angle Searching\n\nModel Training for Angle Searching\n\nTo Search with angle measurement, you must first direct the system to teach a series of rotated models.  This is done by setting the AngleEnable property to True and using the AngleRange property to specify the range of angles over which models will be taught.  When you teach rotated models this way, searching automatically creates a set of models at various rotations in equal angular increments over that range.\n\nYou can also specify a maximum angle increment at which the models will be taught within the angular range.  This is done by setting an increment value in the MaxAngleIncrement property of a Correlation object.  However, keep in mind the following regarding the MaxAngleIncrement property:\n\nIf you provide a maximum angle increment, the model training function selects an angular increment automatically and uses the smaller of the automatically selected increment and the maximum angle increment you provide.\nIf you set the MaxAngleIncrement property to 0, the model teaching function selects an angle increment automatically and uses that angle increment.  In this case the system typically sets an angle increment between 2 to 5 degrees.  This results in the smallest model storage requirements and the fastest search times, but may produce results that are more coarse than desired.\n\nIf you wish to measure angle precisely, you should set the MaxAngleIncrement property to an increment corresponding to the degree of precision you desire.  Keep in mind though, that the smaller the angle increment, the more storage will be required for the model and the slower the search time will be.\n\nNote: We recommend using the Polar object to determine angle whenever possible. This provides much more reliable and accurate results which are required using vision for robot guidance.\n\nKeep in mind that when training models with angle, the search window must be large enough to allow the model to be rotated without any part of the model going outside of the search window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

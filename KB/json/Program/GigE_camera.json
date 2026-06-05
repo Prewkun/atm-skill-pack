@@ -1,0 +1,12 @@
+{
+  "title": "GigE camera",
+  "file": "GigE_camera",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GigE camera\n\nGigE camera\n\nInstallation Precautions\n\nCAUTION:  Camera's operation is guaranteed up to 50 degfree of surface temperature of the camera chassis. If the camera is operated in the temperature exceeding this limit, it may result in damage to the camera.\n\nFix the camera to a chassis or similar product with as small thermal resistance as possible.\n\nUse the formula below to calculate thermal resistance necessary for the installation\n\nposition.\n\nThermal Resistance (deg. C/W) = (50 deg.C - ambient temp.) / Power Consumption of camera (W)\n\nCamera model\tPower consumption\n\n(PoE feeding)\tPower consumption\n\n(Trigger connector feeding)\n\nacA640-100gm\n\nacA640-120gm\t2.5W\t2.0W\n\nacA1300-60gm\t2.6W\t2.0W\n\nacA1600-20gm/gc\t3.6W\t2.9W\n\nacA1600-60gm/gc\t2.7W\t2.1W\n\nacA2500-14gm/gc\t2.7W\t2.2W\n\nacA2500-20gm\t3.9W\t3.6W\n\nacA2500-20gc\t4.1W\t3.6W\n\nacA3800-10gm/gc\t3.7W\t3.3W\n\nacA4024-8gm/gc\t2.9W\t2.5W\n\nacA5472-5gm\t3.0W\t2.6W\n\nacA5472-5gc\t3.1W\t2.8W",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

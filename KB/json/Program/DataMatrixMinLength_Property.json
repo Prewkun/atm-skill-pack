@@ -1,0 +1,12 @@
+{
+  "title": "DataMatrixMinLength Property",
+  "file": "DataMatrixMinLength_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the minimum DataMatrix code size.\n\nValue\n\nInteger from 36 to 999 pixels\n\nDefault:  46",
+  "notes": "Reducing the value may enable detection of small DataMatrix codes.  However, detection time takes longer.\n\nSee Also: DataMatrixMinLength Property\n\nDataMatrixConnectDots Property\n\nDataMatrixPolarity Property\n\nVision Objects: DataMatrixMinLength Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader\n\nDesigntime only",
+  "examples": []
+}

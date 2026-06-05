@@ -1,0 +1,14 @@
+{
+  "title": "MHour Function",
+  "file": "MHour_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "MHour ([robotNumber)]",
+  "parameters": "robotNumber\tSpecify the robot number to check the MOTOR ON time by an integer value.\n\nIf omitted, currently selected robot will be used.",
+  "description": "MHour Function\n\nMHour Function\n\nSee_Also Example\n\nReturns the accumulated MOTOR ON time of the robot motors.",
+  "notes": "",
+  "see_also": "Time\n\nHour\n\nMHour Function Example\n\nRobot 2\n\nPrint MHour\n\nPrint MHour(1)",
+  "examples": [
+    "Robot 2\nPrint MHour\nPrint MHour(1)"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "TGo Statement",
+  "file": "cmd_tgo",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "TGo destination [CP] [searchExpr] [!...!] [SYNC]",
+  "parameters": "destination\tThe target destination of the motion using a point expression.\n\nCP\tOptional. Specifies continuous path motion.\n\nsearchExpr\tOptional. A Till or Find expression.\n\nTill | Find\n\nTill Sw(expr) = {On | Off}\n\nFind Sw(expr) = {On | Off}\n\n!...!\tOptional. Parallel Processing statements can be added to execute I/O and other commands during motion.\n\nSYNC\tReserves a motion command. The robot will not move until SyncRobots is executed.",
+  "description": "Executes point to point relative motion in the current tool coordinate system.\n\nArm orientation attributes specified in the destination point expression are ignored.  The manipulator keeps the current arm orientation attributes.  However, for a 6-Axis manipulator (including N series), the arm orientation attributes are automatically changed in such a way that joint travel distance is as small as possible.\n\nThe Till modifier is used to complete TGo by decelerating and stopping the robot at an intermediate travel position if the current Till condition is satisfied.\n\nThe Find modifier is used to store a point in FindPos when the Find condition becomes true during motion.\n\nWhen Till is used and the Till condition is satisfied, the manipulator halts immediately and the motion command is finished.  If the Till condition is not satisfied, the manipulator moves to the destination point.\n\nWhen Find is used and the Find condition is satisfied, the current position is stored.  Please refer to Find for details.\n\nWhen parallel processing is used, other processing can be executed in parallel with the motion command.\n\nThe CP parameter causes acceleration of the next motion command to start when the deceleration starts for the current motion command.  In this case the robot will not stop at the destination coordinate and will continue to move to the next point.",
+  "notes": "",
+  "see_also": "Accel\n\nCP\n\nFind\n\n!....! Parallel Processing\n\nPoint Assignment\n\nSpeed\n\nTill\n\nTMove\n\nTool\n\nTGo Example\n\n>TGo XY(100, 0, 0, 0)   'Move 100mm in X direction\n\n                        '(in the tool coordinate system)\n\nFunction TGoTest\n\n  Speed 50\n\n  Accel 50, 50\n\n  Power High\n\n  Tool 0\n\n  P1 = XY(300, 300, -20, 0)\n\n  P2 = XY(300, 300, -20, 0) /L\n\n  Go P1\n\n  Print Here\n\n  TGo XY(0, 0, -30, 0)\n\n  Print Here\n\n  Go P2\n\n  Print Here\n\n  TGo XY(0, 0, -30, 0)\n\n  Print Here\n\nFend\n\n[Output]\n X:  300.000 Y:  300.000 Z:  -20.000 U     0.000 V:    0.000 W     0.000 /N /0\n X:  300.000 Y:  300.000 Z:  -50.000 U     0.000 V:    0.000 W     0.000 /N /0\n X:  300.000 Y:  300.000 Z:  -20.000 U     0.000 V:    0.000 W     0.000 /L /0\n X:  300.000 Y:  300.000 Z:  -50.000 U     0.000 V:    0.000 W     0.000 /L /0",
+  "examples": [
+    ">TGo XY(100, 0, 0, 0)   'Move 100mm in X direction",
+    "'(in the tool coordinate system)",
+    "Function TGoTest Speed 50 Accel 50, 50 Power High Tool 0 P1 = XY(300, 300, -20, 0) P2 = XY(300, 300, -20, 0) /L Go P1 Print Here TGo XY(0, 0, -30, 0) Print Here Go P2 Print Here TGo XY(0, 0, -30, 0) Print Here\n\nFend",
+    "[Output]",
+    "X:  300.000 Y:  300.000 Z:  -20.000 U     0.000 V:    0.000 W     0.000 /N /0",
+    "X:  300.000 Y:  300.000 Z:  -50.000 U     0.000 V:    0.000 W     0.000 /N /0",
+    "X:  300.000 Y:  300.000 Z:  -20.000 U     0.000 V:    0.000 W     0.000 /L /0",
+    "X:  300.000 Y:  300.000 Z:  -50.000 U     0.000 V:    0.000 W     0.000 /L /0"
+  ]
+}

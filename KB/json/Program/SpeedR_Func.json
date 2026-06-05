@@ -1,0 +1,14 @@
+{
+  "title": "SpeedR Function",
+  "file": "SpeedR_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SpeedR",
+  "parameters": "",
+  "description": "SpeedR Function\n\nSpeedR Function",
+  "notes": "",
+  "see_also": "Returns tool rotation speed value.\n\nAccelR Statement\n\nSpeedR Statement\n\nSpeedR Function Example\n\nReal currSpeedR\n\ncurrSpeedR = SpeedR",
+  "examples": [
+    "Real currSpeedR\n\ncurrSpeedR = SpeedR"
+  ]
+}

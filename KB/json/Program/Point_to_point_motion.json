@@ -1,0 +1,12 @@
+{
+  "title": "Point to point motion",
+  "file": "Point_to_point_motion",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Point to point motion\n\nPoint to point motion\n\nPoint to point (PTP) commands move the tool center point of the robot from its current position to a specified point. Motion of the tool center point may not be in a straight line.\n\nTo set the speed for point to point commands, use the Speed command.  To set acceleration and deceleration, use the Accel command.\n\nCommand\tDescription\n\nGo\tMove directly to a point using point\n\t\t to point motion.\n\nJump\tJump to a\n\t\t point. First move up to the current LimZ\n\t\t setting, the move over the destination point, then move to the\n\t\t point. (From the current position, the third axis is moved up\n\t\t to the uppermost point (Z=0). A lateral orientation move is performed\n\t\t to above the specified target position, and the third axis is\n\t\t then lowered to the target position.) The Arch table settings\n\t\t determine the Jump profile.\n\nJump3\tJump to a point in 3 dimensions. Move\n\t\t in a straight line with the same orientation until the recede\n\t\t point. The motion between the recede points is PTP motion.\n\nPass\tMove near one or more points.\n\nTGo\tMove directly to a point in a tool coordinate\n\t\t system.\n\nBGo\tMove in a PTP motion to the relative\n\t\t specified point in Base / Local coordinate system",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

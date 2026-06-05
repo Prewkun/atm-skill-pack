@@ -1,0 +1,12 @@
+{
+  "title": "QRMinLength Property",
+  "file": "QRMinLength_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the minimum QR code size.",
+  "notes": "Sets the minimum QR code size. Reducing the value may enable detection of small QR codes. However, it may increase the search time.\n\nSetting range: 36 to 999 pixels\n\nDefault: 46\n\nSee Also: QRMinLength Property\n\nQRLargeSize Property\n\nVision Objects: QRMinLength Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

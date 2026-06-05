@@ -1,0 +1,15 @@
+{
+  "title": "AvgSpeed Method, Spel Class",
+  "file": "AvgSpeed_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function AvgSpeed (JointNumber As Integer) As Single",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing the joint number.",
+  "description": "Returns the average value of the absolute speed values for the specified joints.",
+  "notes": "AvgSpeed method returns the average value of the absolute speed values for the specified joints. The loading state of the motor can be obtained by AvgSpeed method. The result is a real value from 0 to 1 with 1 being the maximum average speed value.\n\nYou must execute this method before AvgSpeedClear is executed.\n\nAvgSpeed method is time restricted. You must execute AvgSpeed method within 60 seconds after AvgSpeed is executed. When this time is exceeded, error 4088 occurs.\n\nWhen using the virtual controller or conducting dry-run, the average of the absolute speed values is calculated from the commanded speed instead of the actual speed.\n\nThis method does not support the PG additional axes.",
+  "see_also": "AvgSpeedClear, PeakSpeed, PeakSpeedClear\n\nAvgSpeed Example\n\nVB Example:\n\nDim avgSpeed As Single\n\nDim i As Integer\n\nFor i = 1 To 4\n avgSpeed = m_spel.AvgSpeed(i)\n\nNext i\n\nC# Example:\n\nfloat avgSpeed;\n\nfor(int i = 0; I <=4; i++)\n avgSpeed = m_spel.AvgSpeed(i);",
+  "examples": [
+    "Dim avgSpeed As Single\nDim i As Integer\nFor i = 1 To 4 avgSpeed = m_spel.AvgSpeed(i)\nNext i",
+    "float avgSpeed;\nfor(int i = 0; I <=4; i++) avgSpeed = m_spel.AvgSpeed(i);"
+  ]
+}

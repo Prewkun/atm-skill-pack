@@ -1,0 +1,12 @@
+{
+  "title": "Contact Object How to Use",
+  "file": "Contact_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Contact Object How to Use\n\nContact Object\n\nHow to use\n\n1. Specify the basic information. (Name, Description, AutoStepID, StepID, AbortSeqOnFail property)\n\n2. Specify the I/O operation of when starting this object. (IOPreprocEnabled, IOPreprocOutputBit, IOPreprocOutputStatus property)\n\n3. Specify the mode and orientation of contact motion. (ContactPriorityMode, ContactOrient property)\n\n4. Specify the expected distance or angle between start position and contact position. (ContactDist, ContactDistMargin, ContactAngle, ContactAngleMargin property)\n\n5. Specify the firmness. (ContactFirmnessF, ContactFirmnessT property)\n\n6. If you select speed priority mode, specify the speed and accel. (AccelS, AccelR, SpeedS, SpeedR property)\n\n7. Specify the end condition. (ContactForceThresh, ContactTorqueThresh, Timeout property)\n\n8. Specify whether to connect the force control of this object and next force guide object. (CFEnabled property)\n\n9. Adjust parameter by cut and try. Mainly adjust the ContactStiffnessGainF, ContactStiffnessGainT, ContactForceThresh, ContactTorqueThresh, AccelS, AccelR, SpeedS, SpeedR property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

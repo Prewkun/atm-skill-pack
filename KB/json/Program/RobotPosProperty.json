@@ -1,0 +1,12 @@
+{
+  "title": "RobotPos Property",
+  "file": "RobotPosProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets robot position and orientation used in the vision sequence result.",
+  "notes": "The RobotPos property specifies the robot position and orientation at the time of the image acquisition executed by VRun. Normally, this property does not need to be changed since the robot position and the orientation at VRun execution are the same as those at the time of image acquisition. However, when the vision system is used with the real time I/O, the robot position and orientation at VRun execution differ from those at the time of imaging. In this case, use this property to set actual robot position and orientation at the time of image acquisition.",
+  "see_also": "Applies To\n\nVision Sequence\n\nEpson RC+ 8.0  User's Guide Real Time I/O",
+  "examples": []
+}

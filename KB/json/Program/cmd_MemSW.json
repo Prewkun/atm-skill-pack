@@ -1,0 +1,21 @@
+{
+  "title": "MemSw Function",
+  "file": "cmd_MemSW",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MemSw(bitNumber)",
+  "parameters": "bitNumber\tInteger expression representing memory I/O bit number.",
+  "description": "MemSw returns the status of one memory I/O bit.  Valid entries for MemSw range from bit 0 to bit 511.  MemOn turns the specified bit on and MemOff turns the specified bit Off.",
+  "notes": "",
+  "see_also": "In, MemIn, InBCD, Off, MemOff, MemOn, MemOut, On, OpBCD, Oport, Out, Sw, Wait\n\nMemSw Example\n\nThe example shown below shows 2 tasks each with the ability to initiate motion instructions.  However, a locking mechanism is used between the 2 tasks to ensure that each task gains control of the robot motion instructions only after the other task is finished using them.  This allows 2 tasks to each execute motion statements as required and in an orderly predictable fashion.  MemSw is used in combination with the Wait instruction to wait until the memory I/O bit 1 is the proper value before it is safe to move again.\n\nFunction main\n\n\t\t  Integer i\n\n\t\t  MemOff 1\n\n\t\t  Xqt 2, task2\n\n\t\t  For i = 1 to 100\n\n\t\t    Wait MemSw(1) = Off\n\n\t\t    Go P(i)\n\n\t\t    MemOn 1\n\n\t\t  Next i\n\n\t\tFend\n\nFunction task2\n\n\t\t  Integer i\n\n\t\t  For i = 101 to 200\n\n\t\t    Wait MemSw(1) = On\n\n\t\t    Go P(i)\n\n\t\t    MemOff 1\n\n\t\t  Next i\n\n\t\tFend\n\nOther simple examples from the Command window are as follows:\n\n> memon 1\n\n> print memsw(1)\n\n1\n\n> memoff 1\n\n> print memsw(1)\n\n0",
+  "examples": [
+    "Function main\n\t\t  Integer i\n\t\t  MemOff 1\n\t\t  Xqt 2, task2\n\t\t  For i = 1 to 100\n\t\t    Wait MemSw(1) = Off\n\t\t    Go P(i)\n\t\t    MemOn 1\n\t\t  Next i\n\t\tFend",
+    "Function task2\n\t\t  Integer i\n\t\t  For i = 101 to 200\n\t\t    Wait MemSw(1) = On\n\t\t    Go P(i)\n\t\t    MemOff 1\n\t\t  Next i\n\t\tFend",
+    "> memon 1",
+    "> print memsw(1)",
+    "1",
+    "> memoff 1",
+    "> print memsw(1)",
+    "0"
+  ]
+}

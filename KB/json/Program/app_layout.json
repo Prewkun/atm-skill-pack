@@ -1,0 +1,12 @@
+{
+  "title": "Application Layout",
+  "file": "app_layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Application Layout\n\nApplication Layout\n\nBefore writing your application, you need to decide what your application will accomplish and how the project will be structured.  Here are some general guide lines.\n\nOperator interface\n\nWindows Application using RC+ API\n\nUse the RC+ API Option along with a Windows development tool such as Visual Basic or Visual C++.\n\nOperator Window\n\nUse the operator window provided with EPSON RC+ 7.0.\n\nSafety interface\n\nUse guard doors, safety mats, light curtains, etc. to protect the operator from injury.\n\nRobot Points, Pallets, Tools, Locals\n\nDecide on which points you need for the work cell.  Will you be running the same program for different parts, requiring different points?  Each robot has its own set of point files.  You can create as many point files as you need.  You may want to assign a point file for each part in your system.\n\nTake advantage of Pallets, Tools, and Locals.  Time spent on using these can save hours later on the production line.  For example, if your cell has many points that take a lot of time to train, consider using Locals so that if the end effector is damaged or replaced, you only need to redefine the Locals, not retrain all of the points.\n\nTry to design in automatic or semi-automatic procedures for calibrating tools and locals.  Even if you define them manually, write instructions on how to define them so the process can be repeated easily.\n\nInputs and outputs\n\nLayout your I/O early in the design stages.  Use I/O labels in your programs.  The system supports up to 512 inputs and 512 outputs using EPSON ISA digital I/O boards.\n\nPeripherals\n\nYou can connect RS-232C peripherals to the robot controller serial ports, such as bar code readers, etc.  You can use Comm1 or Comm2. You can also add more ports by installing the optional RS-232C expansion board.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

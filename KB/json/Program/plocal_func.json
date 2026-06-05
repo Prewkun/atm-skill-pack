@@ -1,0 +1,15 @@
+{
+  "title": "PLocal Function",
+  "file": "plocal_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "PLocal(\n\t\t\tpoint\n\t\t\t)",
+  "parameters": "point\tAn integer value  or P\n\t\t\t\t\t\tnumber or P(expr) or point label.\n\nCautions for compatibility\n\nNo variables can be specified for point parameter\n\nTo use variables, write\n\nPLocal(P(varName))",
+  "description": "PLocal Function\n\nPLocal Function\n\nSee_Also Example\n\nReturns the local number for a specified point.",
+  "notes": "",
+  "see_also": "PLocal Statement\n\nPLocal Function Example\n\nInteger localNum\n\nlocalNum = PLocal(pick)",
+  "examples": [
+    "PLocal(P(varName))",
+    "Integer localNum\n\nlocalNum = PLocal(pick)"
+  ]
+}

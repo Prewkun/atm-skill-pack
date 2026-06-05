@@ -1,0 +1,14 @@
+{
+  "title": "Randomize Statement",
+  "file": "cmd_randomize",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) Randomize\n\t\t\tseedValue\n\n(2) Randomize\n\nseedValue\tSpecify a real value (0 or more) to be basis to retrieve a random number.",
+  "parameters": "",
+  "description": "Randomize Statement\n\nRandomize Statement\n\nSee_Also Example\n\nInitializes the random-number generator.",
+  "notes": "",
+  "see_also": "Rnd Function\n\nRandomize Statement Example\n\nFunction main\n\n\t\t  Integer randNum\n\nRandomize\n\nrandNum = Int(Rnd(10)) + 1\n\n\t\t  Print \"Random number is:\", randNum\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Integer randNum\n\n\t\t\t  Randomize\n\nrandNum = Int(Rnd(10)) + 1\n\t\t  Print \"Random number is:\", randNum\n\t\tFend"
+  ]
+}

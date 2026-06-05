@@ -1,0 +1,12 @@
+{
+  "title": "GetPoint VI",
+  "file": "GetPoint_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Retrieves coordinate data for a robot point.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nPoint Number\tOptional.  Specifies the target end point by using the point number for a previously taught point in the Controller's point memory for the current robot.  If Point Expression is specified, then Point Number is ignored.\n\nPoint Expression\tOptional.  Specifies the target end point by using a string expression.  If Point Expression is not specified, then the Point Number input will be used.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nX - W\tX, Y, Z, U, V, W coordinates of the specified point.",
+  "notes": "",
+  "see_also": "LoadPoints, Robot, SavePoints, SetPoint\n\nGetPoint Example",
+  "examples": []
+}

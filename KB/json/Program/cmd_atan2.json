@@ -1,0 +1,14 @@
+{
+  "title": "ATan2 Function",
+  "file": "cmd_atan2",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Atan2\n\t\t\t(X, Y)",
+  "parameters": "X\tNumeric expression representing the X coordinate.\n\nY\tNumeric expression representing the Y coordinate.",
+  "description": "Atan2(X, Y) returns the angle of the line which connects points (0, 0) and (X, Y). This trigonometric function returns an arc tangent angle in all four quadrants.",
+  "notes": "",
+  "see_also": "Abs, Acos, Asin, Atan, Cos, DegToRad, RadToDeg, Sgn, Sin, Tan, Val\n\nAtan2 Function Example\n\nThe following example shows a simple program which uses Atan2.\n\nFunction at2test\n\n\t\t  Real x, y\n\n\t\t  Print \"Please enter a number for the X Coordinate:\"\n\n\t\t  Input x\n\n\t\t  Print \"Please enter a number for the Y Coordinate:\"\n\n\t\t  Input y\n\n\t\t  Print \"Atan2 of \", x, \", \", y, \" is \", Atan2(x, y)\n\n\t\tFend",
+  "examples": [
+    "Function at2test\n\t\t  Real x, y\n\t\t  Print \"Please enter a number for the X Coordinate:\"\n\t\t  Input x\n\t\t  Print \"Please enter a number for the Y Coordinate:\"\n\t\t  Input y\n\t\t  Print \"Atan2 of \", x, \", \", y, \" is \", Atan2(x, y)\n\t\tFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Tutorial Overview",
+  "file": "VG_Tutorial_Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Tutorial Overview\n\nTutorial Overview\n\nThe purpose of this chapter is to walk you through a simple vision application to help introduce you to some of the Vision Guide 8.0 basic usage concepts and to show you how easy it is to use.\n  In many cases we will simply explain the steps to follow but will not explain the details behind what was done. This is because we want you to get used to the examples described in this tutorial as soon as possible.  Then in the later chapters, you can read about the details.\n\nWe will not be using actual parts for this tutorial but instead we will use simple drawings of objects that you can then make copies of and put under a camera to follow the tutorial. This will guarantee that everyone has the same results when trying this tutorial.\n\nThis tutorial will show you how to create a simple application to use vision to find a part and then move the robot to it.\n  It is assumed for the purposes of this tutorial that your robot is a SCARA type with a camera mounted at the end of the 2nd arm link.\n\nThis chapter will include the following sections:\n\n\tItems required for this tutorial.\n\tCamera lens configuration.\n\tCreating a new Epson RC+ 8.0 Project.\n\tCreating a new vision sequence.\n\tUsing a Blob object to find a part.\n\tWriting a SPEL+ program to interact with the\n\t vision sequence.\n\tCalibrating the robot with the camera.\n\tUsing vision to instruct the robot to move\n\t to the part.\n\tFinding and moving to multiple like parts.\n\nFollowing the Items Required for this Tutorial section of this chapter, you will find two pages with printed targets for our vision tutorial.  These pages will be used throughout the tutorial.\n\nFollowing the target pages is a section entitled Start Epson RC+ 8.0 and Create a New Project.  This is where we will start the actual tutorial.\n\nNote: It is assumed that prior to starting this tutorial your controller has Vision Guide installed and is connected to a robot.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

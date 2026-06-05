@@ -1,0 +1,15 @@
+{
+  "title": "Str$ Function",
+  "file": "cmd_strdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Str$\n\t\t\t(number)",
+  "parameters": "number\tInteger or real expression.",
+  "description": "Str$ converts a number to a string. Any positive or negative number is valid.",
+  "notes": "",
+  "see_also": "Abs, Asc, Chr$, Int, InStr, Left$, Len, Mid$, Mod, Right$, Sgn, Space$, Val\n\nStr$ Function Example\n\nThe example shown below shows a program which coverts several different numbers to strings and then prints them to the screen.\n\nFunction strtest\n\n\t\t  Integer intvar\n\n\t\t  Real realvar\n\n\t\t  '\n\n\t\t  intvar = -32767\n\n\t\t  Print \"intvar = \", Str$(intvar)\n\n\t\t  '\n\n\t\t  realvar = 567.9987\n\n\t\t  Print \"realvar = \", Str$(realvar)\n\n\t\t  '\n\n\t\tFend\n\nSome other example results from the Str$ instruction from the command window.\n\n> Print Str$(99999999999999)\n\n1.000000E+014\n\n> Print Str$(25.999)\n\n25.999",
+  "examples": [
+    "Function strtest\n\t\t  Integer intvar\n\t\t  Real realvar\n\t\t  '\n\t\t  intvar = -32767\n\t\t  Print \"intvar = \", Str$(intvar)\n\t\t  '\n\t\t  realvar = 567.9987\n\t\t  Print \"realvar = \", Str$(realvar)\n\t\t  '\n\t\tFend",
+    "> Print Str$(99999999999999)\n\n\t\t\t1.000000E+014\n\n> Print Str$(25.999)\n\n\t\t\t25.999"
+  ]
+}

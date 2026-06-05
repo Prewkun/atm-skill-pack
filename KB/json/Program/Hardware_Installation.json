@@ -1,0 +1,12 @@
+{
+  "title": "Hardware Installation",
+  "file": "Hardware_Installation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Hardware Installation\n\nHardware Installation\n\nEpson RC+ 8.0 is used with the Controller. You need to install the controller and robot before you can use Epson RC+ 8.0 to develop and run SPEL+ applications.\n\nYou need to prepare the PC which has Windows which can run the Epson RC+7.0, and which can connect with the Controller using USB or Ethernet.\n\nThe Controller comes pre-configured at the factory. For instructions on installation, refer to the Robot Controller manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

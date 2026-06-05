@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New ColorMatch Object",
+  "file": "Step1_CreateaNewColorMatchObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New ColorMatch Object\n\nStep 1: Create a New ColorMatch Object\n\n\tClick the [All Tools] - the\n\t [ColorMatch] button  on the Vision Guide toolbar.\n\tThe mouse cursor will change to a ColorMatch icon.\n\tMove the mouse cursor over the image display of the\n\t Vision Guide window and click the left mouse button to place the ColorMatch\n\t object on the image display\n\tNotice that a name for the object is automatically\n\t created. In the example, it is called \"ColorMatch01\" because\n\t this is the first ColorMatch object created for this sequence. (We\n\t will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

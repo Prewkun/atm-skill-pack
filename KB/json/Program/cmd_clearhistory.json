@@ -1,0 +1,14 @@
+{
+  "title": "ClearHistory",
+  "file": "cmd_clearhistory",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ClearHistory",
+  "parameters": "",
+  "description": "Deletes all command execution history.\n\nNote\n\nThis command will only work in the command window.",
+  "notes": "",
+  "see_also": "History\n\nHistory Example\n\n> Motor On\n\n> Go P1\n\n> History\n\nMotor On\n\nGo P1\n\n> ClearHistory\n\n> History",
+  "examples": [
+    "> Motor On\n> Go P1\n> History\nMotor On\nGo P1\n\n> ClearHistory\n> History"
+  ]
+}

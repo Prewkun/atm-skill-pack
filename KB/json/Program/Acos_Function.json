@@ -1,0 +1,14 @@
+{
+  "title": "Acos Function",
+  "file": "Acos_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Acos(number)",
+  "parameters": "number\tNumeric\n\t\t expression representing the cosine of an angle.",
+  "description": "Acos returns the arccosine of the numeric expression.\n  Values range is from -1 to 1.  The value returned by Acos will range from 0 to PI radians.  If number is -1 or 1, an error occurs.\n\nTo convert from radians to degrees, use the RadToDeg function",
+  "notes": "",
+  "see_also": "Returns the arccosine of a numeric expression.\n\nAbs, Asin, ATan, ATan2, Cos, DegToRad, RadToDeg, Sgn, Sin, Tan, Val\n\nAcos Function Example\n\nFunction acostest\n\n  Double x\n\n  x = Cos(DegToRad(30))\n\n  Print \"Acos of \", x, \" is \", Acos(x)\n\nFend",
+  "examples": [
+    "Function acostest Double x x = Cos(DegToRad(30)) Print \"Acos of \", x, \" is \", Acos(x)\nFend"
+  ]
+}

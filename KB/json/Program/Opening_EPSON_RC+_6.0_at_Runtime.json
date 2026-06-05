@@ -1,0 +1,12 @@
+{
+  "title": "Opening Epson RC+ 8.0 at Runtime",
+  "file": "Opening_EPSON_RC+_6.0_at_Runtime",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Opening Epson RC+ 8.0 at Runtime\n\nOpening Epson RC+ 8.0 at Runtime\n\nDecide if you want to allow the Epson RC+ 8.0 environment to be opened from your application.  This is especially useful for debugging.  Set the OperationMode property to Program to put Epson RC+ 8.0 in Program Mode and open the Epson RC+ 8.0 GUI.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

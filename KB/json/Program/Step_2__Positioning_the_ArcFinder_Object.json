@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the ArcFinder Object",
+  "file": "Step_2__Positioning_the_ArcFinder_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the ArcFinder Object\n\nStep 2: Positioning the ArcFinder Object\n\nYou should now see a ArcFinder object similar to the one shown below:\n\nNew ArcFinder Object\n\nClick the name label of the ArcFinder object and, while holding the mouse down, drag the ArcFinder object to the position where you would like the top left position of the search window to reside.\n\nResize the ArcFinder object search window as required using the search window size handles.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

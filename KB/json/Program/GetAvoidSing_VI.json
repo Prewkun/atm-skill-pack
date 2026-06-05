@@ -1,0 +1,12 @@
+{
+  "title": "GetAvoidSing VI",
+  "file": "GetAvoidSing_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the state of AvoidSingularity Inputs\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nEnabled\tReturns the state of AvoidSingularity.\n\nGetAvoidSing Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

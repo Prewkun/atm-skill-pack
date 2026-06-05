@@ -1,0 +1,14 @@
+{
+  "title": "WriteBin Statement",
+  "file": "cmd_WriteBin",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "WriteBin #portNumber, data\n\nWriteBin #portNumber, array(), count",
+  "parameters": "portNumber\tID number that specifies the file or communications port\n\nFile number can be specified in BOpen statements.\n\nCommunication port number can be specified in OpenCom (RS-232C) or OpenNet (TCP/IP) statements.\n\ndata\tInteger expression containing the data to be written.\n\narray()\tName of a byte, integer, or long array variable that contains the data bytes to be written.  Specify a one dimension array variable.\n\ncount\tSpecifies the number of bytes to be written and must be less than or equal to the number of array elements.",
+  "description": "WriteBin Statement\n\nWriteBin Statement\n\nWrites binary data to a file or communications port.",
+  "notes": "",
+  "see_also": "ReadBin, Write\n\nWriteBin Statement Example\n\nOpenCom #1\n\n\t\tFor i = 0 To 100\n\nWriteBin #1, i\n\n\t\tNext i\n\n\t\tWriteBin #1, data(), 100\n\n\t\tCloseCom #1",
+  "examples": [
+    "OpenCom #1\n\t\tFor i = 0 To 100\n\n\t\t\t  WriteBin #1, i\n\t\tNext i\n\t\tWriteBin #1, data(), 100\n\t\tCloseCom #1"
+  ]
+}

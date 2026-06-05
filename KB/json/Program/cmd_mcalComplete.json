@@ -1,0 +1,14 @@
+{
+  "title": "MCalComplete Function",
+  "file": "cmd_mcalComplete",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MCalComplete",
+  "parameters": "",
+  "description": "MCalComplete Function\n\nMCalComplete Function\n\nSee_Also Example\n\nReturns status of MCal.",
+  "notes": "",
+  "see_also": "MCal\n\nMCalComplete Function Example\n\nIf Not MCalComplete Then\n\n\t\t  MCal\n\n\t\tEndIf",
+  "examples": [
+    "If Not MCalComplete Then\n\t\t  MCal\n\t\tEndIf"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "RadioButton Control",
+  "file": "GUI_RadioButton",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "RadioButton controls present a set of two or more mutually exclusive choices to the operator. While radio buttons and check boxes may appear to function similarly, there is an important difference: when a user selects a radio button, the other radio buttons in the same group cannot be selected as well.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function frmSetup_OptionsClick(Sender$ As String) Boolean checked GGet frmSetup.Sender$.Checked, checked If checked Then\n    Select Sender$\n    Case \"RadioButton1\":\n      g_Option1 = True\n    Case \"RadioButton2\":\n      g_Option2 = True\n    Send EndIf\nFend"
+  ]
+}

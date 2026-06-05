@@ -1,0 +1,12 @@
+{
+  "title": "SizeToFind Property",
+  "file": "SizeToFindProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Selects which size of blobs to find.",
+  "notes": "Use the SizeToFind property to find the largest or smallest blobs in an image.  When a blob object searches for blobs in an image, it finds several candidates; sometimes many more than the desired number.  SizeToFind can filter the results so that you get the largest or smallest blobs.\n\nSee Also: SizeToFind Property\n\nSort Property\n\nVision Objects: SizeToFind Property\n\nBlob",
+  "see_also": "Applies To\n\nVision Objects: Blob",
+  "examples": []
+}

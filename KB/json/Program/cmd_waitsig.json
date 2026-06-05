@@ -1,0 +1,14 @@
+{
+  "title": "WaitSig Statement",
+  "file": "cmd_waitsig",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "WaitSig signalNumber [, timeOut]",
+  "parameters": "signalNumber\tInteger expression representing signal number to receive.  Range is from 0 to 63.\n\ntimeOut\tOptional.  Real expression representing the maximum time to wait.",
+  "description": "Use WaitSig to wait for a signal from another task.  The signal will only be received after WaitSig has started. Previous signals are ignored.",
+  "notes": "",
+  "see_also": "Wait\n\nWaitPos\n\nSignal\n\nWaitSig Example\n\nFunction Main\n\n  Xqt SubTask\n\n  Wait 1\n\n  Signal 1\n\nFend\n\nFunction SubTask\n\n  WaitSig 1\n\n  Print \"signal received\"\n\n  .\n\nFend",
+  "examples": [
+    "Function Main Xqt SubTask Wait 1 Signal 1\nFend\n\nFunction SubTask WaitSig 1 Print \"signal received\" .\nFend"
+  ]
+}

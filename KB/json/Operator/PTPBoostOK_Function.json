@@ -1,0 +1,15 @@
+{
+  "title": "PTPBoostOK Function",
+  "file": "PTPBoostOK_Function",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "PTPBoostOK(targetPos)",
+  "parameters": "targetPos\tPoint expression for the target position.",
+  "description": "Use PTPBoostOK to the distance from the current position to the target position is small enough for PTPBoost to be effective.",
+  "notes": "",
+  "see_also": "Returns whether or not the PTP (Point to Point) motion from a current position to a target position is a small travel distance.\n\nPTPBoost\n\nPTPTBoostOK Function Example\n\nIf PTPBoostOK(P1) Then\n\n\t\t  PTPBoost 50\n\n\t\tEndIf\n\nGo P1",
+  "examples": [
+    "If PTPBoostOK(P1) Then\n\t\t  PTPBoost 50\n\t\tEndIf",
+    "Go P1"
+  ]
+}

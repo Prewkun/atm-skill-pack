@@ -1,0 +1,12 @@
+{
+  "title": "RuntimeContour Property",
+  "file": "RuntimeContour_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies whether to output contour lines of a work piece when executing a Contour object.",
+  "notes": "RuntimeContour specifies whether to output contour lines of a work piece when executing an object.\n\nWhen set to False, a pre-taught contour will be output. When set to True, at runtime a contour will be traced and output from data reflected in the image.",
+  "see_also": "Applies To\n\nVision Objects: Contour\n Property\n\nContour Object\n\nVision Sequences",
+  "examples": []
+}

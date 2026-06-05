@@ -1,0 +1,16 @@
+{
+  "title": "EResume Statement",
+  "file": "cmd_eresume",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "EResume [{ label | Next }\n\t\t\t]",
+  "parameters": "",
+  "description": "EResume\n\nIf the error occurred in the same procedure as the error handler, execution resumes with the statement that caused the error. If the error occurred in a called procedure, execution resumes at the Call statement in the procedure containing the error-handler.\n\nEResume Next\n\nIf the error occurred in the same procedure as the error handler, execution resumes with the statement immediately following the statement that caused the error.  If the error occurred in a called procedure, execution resumes with the statement immediately following the Call statement that last in the procedure containing the error-handler.\n\nEResume { label }\n\nIf the error occurred in the same procedure as the error handler, execution resumes at the statement containing the label.",
+  "notes": "",
+  "see_also": "OnErr\n\nEResume Statement Example\n\nFunction main\n\n\t\t  Integer retry\n\n\t\t  OnErr GoTo eHandler\n\n\t\t  Do\n\n\t\t    RunCycle\n\n\t\t  Loop\n\n\t\t  Exit Function\n\neHandler:\n\n\t\t  Select Err\n\n\t\t    Case MyError\n\n\t\t      retry = retry + 1\n\n\t\t      If retry < 3 Then\n\nEResume\n   ' try again\n\n\t\t      Else\n\n\t\t        Print \"MyError has occurred \", retry, \" times\n\n      EndIf\n\n\t\t  Send\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Integer retry\n\t\t  OnErr GoTo eHandler\n\t\t  Do\n\t\t    RunCycle\n\t\t  Loop\n\t\t  Exit Function",
+    "eHandler:\n\t\t  Select Err\n\t\t    Case MyError\n\t\t      retry = retry + 1\n\t\t      If retry < 3 Then\n\n\t\t\t        EResume\n   ' try again\n\t\t      Else\n\t\t        Print \"MyError has occurred \", retry, \" times",
+    "EndIf\n\t\t  Send\n\t\tFend"
+  ]
+}

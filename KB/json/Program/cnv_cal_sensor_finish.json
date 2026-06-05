@@ -1,0 +1,12 @@
+{
+  "title": "Sensor Conveyor Calibration: Finish",
+  "file": "cnv_cal_sensor_finish",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sensor Conveyor Calibration: Finish\n\nSensor Conveyor Calibration: Finish\n\nThis completes the vision conveyor calibration.\n\nYou can go back to a previous step by using the Back button.\n\nClick the Finish button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

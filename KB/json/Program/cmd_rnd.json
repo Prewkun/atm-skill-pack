@@ -1,0 +1,14 @@
+{
+  "title": "Rnd Function",
+  "file": "cmd_rnd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Rnd(maxValue)",
+  "parameters": "maxValue\tReal expression that represents the maximum",
+  "description": "Use Rnd to generate random number values.",
+  "notes": "",
+  "see_also": "Int, Randomize\n\nRnd Function Example\n\nHere's a Rnd example that generates a random number between 1 and 10.\n\nFunction main\n\n\t\t\t  Real r\n\n\t\t\t  Integer randNum\n\n\t\t\t  Randomize\n\n\t\t\t  randNum = Int(\n\t\t\tRnd\n\t\t\t(9)) + 1\n\n\t\t\t  Print \"Random number is:\", randNum\n\n\t\t\tFend",
+  "examples": [
+    "Function main\n\t\t\t  Real r\n\t\t\t  Integer randNum\n\t\t\t  Randomize\n\t\t\t  randNum = Int(\n\t\t\tRnd\n\t\t\t(9)) + 1\n\t\t\t  Print \"Random number is:\", randNum\n\t\t\tFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "WaitPos Statement",
+  "file": "cmd_waitpos",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "WaitPos",
+  "parameters": "",
+  "description": "Normally, when path motion is active (CP On or CP parameter specified), the motion command starts the next statement as deceleration starts.\n\nUse the WaitPos command right before the motion to complete the deceleration motion and go on to the next motion.",
+  "notes": "",
+  "see_also": "Wait\n\nWaitSig\n\nCp\n\nWaitPos Statement Example\n\nOff 1\n\nCP On\n\nMove P1\n\nMove P2\n\nWaitPos ' wait for robot to decelerate\n\nOn 1\n\nCP Off",
+  "examples": [
+    "Off 1\n\nCP On\n\nMove P1\n\nMove P2\n\nWaitPos ' wait for robot to decelerate\n\nOn 1\n\nCP Off"
+  ]
+}

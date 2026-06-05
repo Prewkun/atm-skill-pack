@@ -1,0 +1,12 @@
+{
+  "title": "SafetyOn VI",
+  "file": "SafetyOn_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Safety Door open status.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nSafetyOn\tTrue if the SafetyDoor is Open, otherwise is False",
+  "notes": "",
+  "see_also": "EStopOn\n\nSafetyOn Example",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Project Controller Tracking",
+  "file": "Project_Controller_Tracking",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Controller Tracking\n\nProject Controller Tracking\n\nEpson RC+ keeps track of which controller connection was used with a project. This is useful for when multiple projects and controllers are used from the same PC. When connecting Epson RC+ to a different controller for the current project to that used for the previous project, a dialog window will appear with information about the previously connected controller, and the controller you are trying to connect. You can select which controller you want to connect to with the current project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

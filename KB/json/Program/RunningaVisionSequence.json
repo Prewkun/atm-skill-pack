@@ -1,0 +1,12 @@
+{
+  "title": "Running a Vision Sequence",
+  "file": "RunningaVisionSequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Running a Vision Sequence\n\nRunning a Vision Sequence\n\nOn the left side of the Run Panel located at the bottom of the Vision Guide window, you can see the [Run] button for the sequence.  Clicking this button causes the entire sequence to be executed.\n\nAfter creating and testing the objects you want to use for a particular sequence, you need to test the entire vision sequence by clicking on the [Run] button on the left side in the Run Panel.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

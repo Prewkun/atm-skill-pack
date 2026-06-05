@@ -1,0 +1,12 @@
+{
+  "title": "EdgeType Property",
+  "file": "EdgeType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / gets the type of edge to search for.",
+  "notes": "Use EdgeType to choose whether to search for a single edge or an edge pair.   An edge pair is two opposing edges.  The coordinate of the pair is the midpoint of the line between the two edge coordinates.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, BoxFinder, Contour, CornerFinder, Edge, LineFinder, LineInspector\n\nArcFinder\n\nArcInspector\n\nBoxFinder\n\nContour\n\nCornerFinder\n\nEdge Object\n\nLineFinder\n\nLineInspector",
+  "examples": []
+}

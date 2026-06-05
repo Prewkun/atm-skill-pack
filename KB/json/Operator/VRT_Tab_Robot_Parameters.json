@@ -1,0 +1,12 @@
+{
+  "title": "VRT page",
+  "file": "VRT_Tab_Robot_Parameters",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "a comment for the selected VRT number. (Optional)\n\nApply\tSets\n\t\t the current values.\n\nAllow several seconds for processing.\n\nRestore\tReverts\n\t\t to the previous values.\n\nClear\tClears\n\t\t all selected values.\n\nSelect\n\t\t VRT number\tSelect\n\t\t the number set for the VRT parameter to apply the VRT function\n\t\t for this number to all subsequent robot actions.\n\nHowever, this setting will take precedence\n\t\t if a VRT command is executed during operations.\n\n0: VRT OFF",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

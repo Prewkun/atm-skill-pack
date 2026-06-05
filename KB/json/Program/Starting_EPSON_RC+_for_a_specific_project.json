@@ -1,0 +1,15 @@
+{
+  "title": "Starting EPSON RC+ 7.0 for a specific project",
+  "file": "Starting_EPSON_RC+_for_a_specific_project",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Starting EPSON RC+ 7.0 for a specific project\n\nStarting Epson RC+ 8.0 for a specific project\n\nWhen you start the Epson RC+ 8.0, you can optionally specify a project name in the command line.\n\nerc80.EXE  /PROJECT <PathToProjectFolder>\n\nPROJECT<PathToProjectFolder>     The project name and the directory path to any project storage folder\n\nExample: Open project myapp saved on the C drive: (At startup)\n\nerc80.EXE  /PROJECT \"C:\\EpsonRC80\\projects\\myapp\"",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "erc80.EXE  /PROJECT <PathToProjectFolder>",
+    "erc80.EXE  /PROJECT \"C:\\EpsonRC80\\projects\\myapp\""
+  ]
+}

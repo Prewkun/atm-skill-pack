@@ -1,0 +1,12 @@
+{
+  "title": "ModelWinWidth Property",
+  "file": "ModelWinWidthProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the width of a model window .",
+  "notes": "The model window always fits inside the search window.\n\nThe Correlation and Geometric objects have rectangular model windows which define the position and size of the model to be taught.  The ModelWinWidth property is set automatically when the user drags the entire model window to a new location or when one of the horizontal sides of the model window is dragged to resize the model window.\n\nKeep in mind that larger model windows cause the taught model to be bigger, which in turn cause the execution time to increase.\n\nThe ModelWinWidth property is available from the property list of Vision Guide and from the SPEL+ Language.  The easiest way to set the ModelWinWidth value is to simply click on the left or right vertical side of the model window and then drag the model window to a new position.  The ModelWinWidth property will be set automatically.\n\nYou can also click the left or right vertical side of the model window at the center of the vertical line where the window handle is (the small square on the upper horizontal side of the model window).  You will see the mouse pointer change to a two direction horizontal arrow. Now drag the side of the model window and you will see the of the model change in width.  Release the mouse button when you want to set the position.\n\nIt is also possible to set a specific value for the ModelWinWidth property.  Click the ModelWinWidth property Value Field and simply enter in the value which you would like to set the ModelWinWidth property to.  Once the user moves the cursor off the value field, the uppermost position of the model window will be adjusted for the associated vision object. Note that the additional width is added to the right side of the model window.  This is because the left most position of the model window is fixed according to the ModelWinLeft property.\n\nSee Also: ModelWinWidth Property\n\nAnatomy of a Vision Object\tModelWinLeft Property\n\nModelOrgAutoCenter Property\tModelWinHeight Property\n\nModelOrgX Property\tModelWinTop Property\n\nModelOrgY Property\n\nModelWin Property\n\nVision Objects: ModelWinWidth Property\n\nCorrelation\n\nGeometric\n\nImageOp\n\nOCR",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric, ImageOp, OCR",
+  "examples": []
+}

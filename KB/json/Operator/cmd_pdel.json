@@ -1,0 +1,14 @@
+{
+  "title": "PDel Statement",
+  "file": "cmd_pdel",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "PDel\n\t\t\tfirstPointNum , [ lastPointNum ]",
+  "parameters": "firstPointNum\tThe first point number in a sequence of points to delete. firstPointNum\n\n\t\t\t\t\t\tmust be an integer.\n\nlastPointNum\tThe last point number in a sequence of points to delete. lastPointNum\n\n\t\t\t\t\t\tmust be an integer.",
+  "description": "Deletes specified position data for the current robot. Deletes all position data from firstPointNum up to and including lastPointNum . To prevent Error 2 from occurring, firstPointNum must be less than lastPointNum .",
+  "notes": "",
+  "see_also": "Clear\n\nPlist\n\nPDel Example\n\n> p1=10,300,-10,0/L\n\n> p2=0,300,-40,0\n\n> p10=-50,350,0,0\n\n> pdel 1,2 'Delete points 1 and 2\n\n> plist\n\nP10 = -50.000, 350.000, 0.000, 0.000 /R /0\n\n> pdel 50 'Delete point 50\n\n> pdel 100,200 'Delete from point 100 to point 200\n\n>",
+  "examples": [
+    "> p1=10,300,-10,0/L\n\n> p2=0,300,-40,0\n\n> p10=-50,350,0,0\n\n> pdel 1,2 'Delete points 1 and 2\n\n> plist\n\nP10 = -50.000, 350.000, 0.000, 0.000 /R /0\n\n> pdel 50 'Delete point 50\n\n> pdel 100,200 'Delete from point 100 to point 200\n\n>"
+  ]
+}

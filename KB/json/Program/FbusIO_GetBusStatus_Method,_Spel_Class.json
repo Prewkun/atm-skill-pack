@@ -1,0 +1,15 @@
+{
+  "title": "FbusIO_GetBusStatus Method, Spel Class",
+  "file": "FbusIO_GetBusStatus_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function FbusIO_GetBusStatus (BusNumber As Integer) As Integer",
+  "parameters": "BusNumber\tInteger expression representing the\n\t\t Fieldbus system number. This number must be 16. This is the ID\n\t\t for the bus connected to the Fieldbus master board on the PC side\n\t\t of the controller.",
+  "description": "Returns the status of the specified Fieldbus.",
+  "notes": "Note:  This method will only work if the Fieldbus Master option is active.",
+  "see_also": "FbusIO_GetDeviceStatus, FbusIO_SendMsg, IsOptionActive\n\nFbusIO_GetBusStatus",
+  "examples": [
+    "Dim busStatus As Integer\nbusStatus = m_spel.FbusIO_GetBusStatus(16)",
+    "int busStatus;\nbusStatus = m_spel.FbusIO_GetBusStatus(16);"
+  ]
+}

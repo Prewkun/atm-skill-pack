@@ -1,0 +1,12 @@
+{
+  "title": "ModelOrgAutoCenter Property",
+  "file": "ModelOrgAutoCenterProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "A model has a fixed reference point by which a location of the model in the image is indicated.  This point is referred to as the model origin. The ModelOrgAutoCenter property sets the model origin at the center of the Model Window Automatically.",
+  "notes": "The model origin can be set anywhere within the region defined by the Model Window.  The origin's coordinates define the model origin relative to the Model Window's upper left corner, that is, relative to the location of element [0][0] of the Model Window that defines the model.\n\nThe ModelOrgAutoCenter property sets the model origin at the center of the Model Window whenever the Model Window is moved or resized.\n\nNote: If the ModelOrgAutoCenter property is set to True, then the ModelOrgX and ModelOrgY properties cannot be used to reposition the model origin.\n\nSee Also: ModelOrgAutoCenter Property\n\nAnatomy of a Vision Object\n\nModelOrgX Property\n\nModelOrgY Property\n\nVision Objects: ModelOrgAutoCenter Property\n\nCorrelation\n\nGeometric",
+  "see_also": "",
+  "examples": []
+}

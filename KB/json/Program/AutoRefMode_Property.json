@@ -1,0 +1,12 @@
+{
+  "title": "AutoRefMode Property",
+  "file": "AutoRefMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns modes relating to movement or movement angles when automatically calculating the calibration reference point.",
+  "notes": "For mobile J2 camera calibration\n\nSet this property to Rough to move the robot in small increments.  Set this to Fine to move the robot in large increments along with changes in its left and right orientation.  Set this to Manual to enter in angles of movement for the robot manually.  However, note that the robot will not change its left and right orientation when in Manual mode.\n\nFor mobile J4, J6 camera calibration\n\nSet this property to Rough to move the robot in small increments.  Set this to Fine to have the robot rotate a tool 180 degrees.  Set this to Manual to enter in angles of movement for the robot manually.\n\nValues\n\n1 - Rough Vision constant: VISION_AUTOREFMODE_ROUGH\n\nPerforms rough positioning.\n\n2 - Fine Vision constant: VISION_AUTOREFMODE_FINE\n\nPerforms precise positioning.\n\n3 - Manual Vision constant: VISION_AUTOREFMODE_MANUAL\n\nManually enter the angle to move the robot to perform positioning.\n\nDefault: 1 - Rough",
+  "see_also": "Applies To\n\nVision Calibration\n Property\n\nVCal\n\nVDefTool Statement\n\nAutoRefFinalRotation Property",
+  "examples": []
+}

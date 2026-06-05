@@ -1,0 +1,17 @@
+{
+  "title": "Curve Method, Spel Class",
+  "file": "vbg_Curve",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Curve (FileName As String, Closure As Boolean, Mode As Integer, NumOfAxis As Integer, PointList As String)",
+  "parameters": "FileName\tA\n\t\t string expression for the path and name of the file in which the\n\t\t point data is stored. The specified fileName\n\t\t will have the extension CRV appended to the end so no extension\n\t\t is to be specified by the user. When the Curve\n\t\t instruction is executed, fileName\n\t\t will be created.\n\nClosure\tA\n\t\t Boolean expression that specifies whether to connect the last\n\t\t point of the path to the first point.\n\nMode\n\t\t\t\t Setting\tTangental\n\t\t\t\t Correction\n\n0\tNo\n\n2\tYes\n\nYes\n\nNumOfAxes\tInteger\n\t\t expression with a value of 2, 3, 4, or 6 which specifies the number\n\t\t of Axes controlled during the curved motion as follows:\n\n2 - Generate a curve in the XY plane with\n\t\t no Z Axis movement or U Axis rotation.\n\n3 - Generate a curve in the XYZ plane\n\t\t with no U axis rotation. (Theta 1, Theta2, and Z)\n\n4 - Generate\n\t\t a curve in the XYZ plane with U-Axis rotation. (Controls all 4\n\t\t Axes)\n\n6 - Generate\n\t\t a curve in the XYZ space with U, V, and W axes rotation (6-Axis\n\t\t robots only).\n\npointList\t{\n\t\t point expression | P(start\n\t\t : finish)\n\t\t } [, output command ]\n\t\t ...\n\nThis parameter is actually a series of\n\t\t Point Numbers and optional output statements either separated\n\t\t by commas or an ascended range of points separated by a colon.\n\t\t Normally the series of points are separated by commas as shown\n\t\t below:\n Curve\n\t\t MyFile, O, 0, 4, P1, P2, P3, P4\n\nOr use a colon\n\t\t to specify as shown below:\n\nCurve MyFile, O, 0, 4, P(1:4)\n\nIn the case shown above the user defined\n\t\t a curve using points P1, P2, P3, and P4.output command is optional\n\t\t and is used to control output operation during curve motion. The\n\t\t command can be On or Off for digital outputs or memory outputs.\n\t\t Entering an output command following any point number in the point\n\t\t series causes execution of the output command when the arm reaches\n\t\t the point just before the output command. A maximum of 16 output\n\t\t commands may be included in one Curve statement. In the example\n\t\t below, the \"On 2\" command is executed just as the arm\n\t\t reaches the point P2, then the arm continues to all points between\n\t\t and including P3 and P10.\n\n   Curve \"MyFile\",\n\t\t C, 0, 4, P1, P2, ON 2, P(3:10)",
+  "description": "Defines the data and points required to move the arm along a curved path.  Many data points can be defined in the path to improve precision of the path.",
+  "notes": "Use Curve to define a spline path to be executed with the CVMove method. See the SPEL+ command Curve for more details.",
+  "see_also": "Curve (SPEL+)\n\nCVMove Method\n\nCurve Example\n\nVB",
+  "examples": [
+    "Curve MyFile, O, 0, 4, P(1:4)",
+    "Curve \"MyFile\",\n\t\t C, 0, 4, P1, P2, ON 2, P(3:10)",
+    "m_spel.Curve \"mycurveFile\", True, 0, 4, \"P(1:3), On 1, P(4:7)\"\nm_spel.CVMove \"mycurveFile\"",
+    "m_spel.Curve(\"mycurveFile\", True, 0, 4, \"P(1:3), On 1, P(4:7)\");\nm_spel.CVMove(\"mycurveFile\");"
+  ]
+}

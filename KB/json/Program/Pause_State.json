@@ -1,0 +1,12 @@
+{
+  "title": "Pause State",
+  "file": "Pause_State",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Pause State\n\nPause State\n\nWhen a pause occurs, the Controller and SPEL+ tasks are in the pause state.\n\nThe Controller is in the pause state after one of the following occurs while tasks are running:\n\nThe Spel class Pause method was executed\nA SPEL+ task executed Pause.\nThe safeguard was opened.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

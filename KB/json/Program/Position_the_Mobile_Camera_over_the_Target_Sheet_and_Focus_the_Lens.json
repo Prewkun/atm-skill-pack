@@ -1,0 +1,12 @@
+{
+  "title": "Position the Mobile Camera over the Target Sheet and Focus the Lens",
+  "file": "Position_the_Mobile_Camera_over_the_Target_Sheet_and_Focus_the_Lens",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Position the Mobile Camera over the Target Sheet and Focus the Lens\n\nPosition the mobile camera over the target sheet and focus the lens\n\n\tGet the copies of the target sheets that\n\t you made earlier.  Select the target sheet with the single washer\n\t feature printed in the center and put it in a location on the work\n\t surface where the robot can then position the camera over it easily.\n\t  The best position is normally directly in front of the robot.\n\tNow move the robot so that the camera is\n\t located over the picture of a washer.  You should be able to\n\t move the robot manually without having to turn servo power ON.\n\tYou should be able to see the target feature\n\t (the washer) in the image display area of the Vision Guide window.\n\t  Bring the target feature into focus by adjusting the camera\n\t lens focus. If you cannot see the target feature or cannot bring it\n\t into proper focus go to the section titled Checking\n\t and Adjusting for Proper Focal Distance in the chapter\n\t Installation.  This\n\t section will explain the details on selecting and focusing a camera\n\t lens.\n\nThe camera should now be in position directly over the target feature drawn on the target sheet.  You should be able to see the target clearly on the image display of the Vision Guide window.  The Vision Guide window should now appear as shown in the figure below.  Notice the target feature (the washer) is shown in the center of the image display of the Vision Guide window.\n\nThe Vision Guide window with target feature in the image display",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

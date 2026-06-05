@@ -1,0 +1,12 @@
+{
+  "title": "Installation",
+  "file": "GUI_Installation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Installation\n\nInstallation\n\nPlease follow the instructions in this chapter to help ensure proper installation of the GUI Builder 8.0 software.\n\nBefore starting, ensure that all Windows applications have been closed.\n\nTo install GUI Builder:\n\nInstall\n\t Epson RC+ 8.0.  The GUI Builder option is automatically installed.\n\nEnsure\n\t that the software key has been enabled for GUI Builder 8.0 in the\n\t controller you will be using.  Refer to the Epson RC+ 8.0 User's\n\t Guide for information on how to enable options in the controller.\n\nThis completes the GUI Builder 8.0 installation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

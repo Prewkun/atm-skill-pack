@@ -1,0 +1,14 @@
+{
+  "title": "PLocal Statement",
+  "file": "plocal_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PLocal(\n\t\t\tpoint\n\t\t\t) =\n\t\t\tlocalNumber",
+  "parameters": "point\tInteger expression or\n\t\t\t\t\t\tP\n\t\t\t\t\t\tnumber or P(expr) or point label.\n\nlocalNumber\tAn integer expression representing the new local number. Range is 0 to 15.",
+  "description": "PLocal Statement\n\nPLocal Statement\n\nSee_Also Example\n\nSets the local attribute for a point.",
+  "notes": "",
+  "see_also": "PLocal Function\n\nPLocal Statement Example\n\nPLocal(pick) = 1",
+  "examples": [
+    "PLocal(pick) = 1"
+  ]
+}

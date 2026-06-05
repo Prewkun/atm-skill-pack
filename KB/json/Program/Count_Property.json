@@ -1,0 +1,14 @@
+{
+  "title": "Count Property",
+  "file": "Count_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets the number of controls on a form.",
+  "notes": "Use the Count property to determine the number of controls on a form. Then you can iterate through all the controls using the Controls property.",
+  "see_also": "Applies To\n\nControls\n Property\n\nType Property",
+  "examples": [
+    "Integer count\nGSet frmMain.Controls.Count, count\nFor i = 1 To count GGet frmMain.Controls(i).Type, type$ If type$ = \"Button\" Then\n   GSet frmMain.Controls(i).Enabled, False EndIf\nNext i"
+  ]
+}

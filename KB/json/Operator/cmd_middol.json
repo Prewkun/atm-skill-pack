@@ -1,0 +1,14 @@
+{
+  "title": "Mid$ Function",
+  "file": "cmd_middol",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "Mid$\n\t\t\t(string, position, [count])",
+  "parameters": "string\tSource string expression.\n\nposition\tThe starting position in the character string for copying count\n\n\t\t\t\t\t\tcharacters.\n\ncount\tOptional.  The number of characters to copy from string starting with the character defined by position.\n  If ommitted, then all characters from position to the end of the string are returned.",
+  "description": "Mid$ returns a substring of as many as count characters starting with the position character in string.",
+  "notes": "",
+  "see_also": "Asc, Chr$, InStr, Left$, Len, Right$, Space$, Str$, Val\n\nMid$ Function Example\n\nThe example shown below shows a program that extracts the middle 2 characters from the string \"ABCDEFGHIJ\" and the remainder of the string starting at position 5.\n\nFunction midtest\n\n\t\t  String basestr$, m1$, m2$\n\n\t\t  basestr$ = \"ABCDEFGHIJ\"\n\n\t\t  m1$ = Mid$(basestr$, (Len(basestr$) / 2), 2)\n\n\t\t  Print \"The middle 2 characters are: \", m1$\n\n\t\t  m2$ = Mid$(basestr$, 5)\n\n\t\t  Print \"The string starting at 5 is: \", m2$\n\n\t\tFend",
+  "examples": [
+    "Function midtest\n\t\t  String basestr$, m1$, m2$\n\t\t  basestr$ = \"ABCDEFGHIJ\"\n\t\t  m1$ = Mid$(basestr$, (Len(basestr$) / 2), 2)\n\t\t  Print \"The middle 2 characters are: \", m1$\n\t\t  m2$ = Mid$(basestr$, 5)\n\t\t  Print \"The string starting at 5 is: \", m2$\n\t\tFend"
+  ]
+}

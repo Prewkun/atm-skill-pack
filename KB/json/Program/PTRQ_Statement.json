@@ -1,0 +1,15 @@
+{
+  "title": "PTRQ Statement",
+  "file": "PTRQ_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PTRQ  [jointNumber]",
+  "parameters": "jointNumber\tOptional.  Integer expression representing the joint number.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "Use PTRQ to display the peak torque value for one or all joints since the PTCLR statement was executed.\n\nPeak torque is a real number from 0 to 1.",
+  "notes": "",
+  "see_also": "Displays the peak torque for the specified joint.\n\nATRQ\n\nPTCLR\n\nPTRQ Function\n\nPTRQ Statement Example\n\n> ptclr\n\n> go p1\n\n> ptrq 1\n\n0.227\n\n> ptrq\n\n0.227    0.118\n\n0.249    0.083\n\n0.000    0.000\n\n>",
+  "examples": [
+    "> ptclr\n> go p1\n> ptrq 1\n0.227\n> ptrq\n0.227    0.118\n0.249    0.083\n0.000    0.000",
+    ">"
+  ]
+}

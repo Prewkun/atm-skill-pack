@@ -1,0 +1,12 @@
+{
+  "title": "Roughness Result",
+  "file": "RoughnessResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the roughness of a blob.",
+  "notes": "Roughness is a measure of the unevenness or irregularity of a blob's surface.  It is the ratio of the true perimeter to the convex perimeter of a blob.  The convex perimeter is the length of a line connecting all the extremities of the blob directly, while the true perimeter is the length of a line connecting every pixel along the blob's edge.  Smooth convex blobs have a roughness of 1.0 (the minimum), whereas rough blobs have a higher value because their true perimeter is bigger than their convex perimeter.",
+  "see_also": "Applies To\n\nVision Objects: Blob\n\nCompactness Result\n\nHoles Result\n\nPerimeter Result\n\nVision Objects: Roughness Result\n\nBlob",
+  "examples": []
+}

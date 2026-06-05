@@ -1,0 +1,14 @@
+{
+  "title": "VCal Statement",
+  "file": "VCal",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "VCal enables you to run a calibration from a SPEL program.",
+  "notes": "The calibration definition must be set up from the Vision Guide window or created using VCreateCalibration before a calibration will run.  Also, the calibration points must already be taught, or you can use a point file in the Controller with the same name as the calibration that has the point data required for calibration.  If Epson RC+ sees this point file, it will use the points in the file.  See the following",
+  "see_also": "Applies To\n\nCalibration\n\nVCalPoints",
+  "examples": [
+    "Function CalFixedCamera Integer i, status Boolean found Real x, y, u String obj$ ' \"mobileCal\" is a sequence with 9 blobs ' that uses a mobile calibration. ' First we search with the mobile camera Jump mobileCamView VRun mobileCal VGet mobileCal.AllFound, found If Not found Then\n    MsgBox \"Could not find all targets\"\n    Exit Function EndIf For i = 1 TO 9\n    obj$ = \"blob0\" + Str$(i)\n    VGet mobileCal.obj$.RobotXYU, found, x, y, u\n    ' Save each target point in robot coordinates\n    P(i) = XY(x, y, 0, 0) Next i ' Save the points for VCal to use ' Note that \"fixed\" is the name of the calibration SavePoints \"fixed.pts\" Jump clearFixed ' Calibrate the fixed camera calibration scheme VCal fixed, status If status = 1 Then\n    VSave EndIf CalFixedCamera = True\nFend"
+  ]
+}

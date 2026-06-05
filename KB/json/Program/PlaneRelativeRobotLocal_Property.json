@@ -1,0 +1,12 @@
+{
+  "title": "PlaneRelativeRobotLocal Property",
+  "file": "PlaneRelativeRobotLocal_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the end conditions related to positions, this property sets Local coordinate system number that specifies the relative position or direction of Plane.\n\nIt is used in either of the following cases:\n\n- RelativePlane is specified by PosCheckType and Local is specified by PlaneRelativeOrg\n\n- RelativePlane is specified by PosCheckType and Local is specified by PlaneRelativeOrient.\n\nValues\n\n0 (Base) Use the Local 0 coordinate system (Base coordinate system).\n\nIt is the same as when specifying Base by PlaneRelativeOrg or PlaneRelativeOrient.\n\n1 to 15 Use the Local coordinate system of the specified number.\n\nDefault: 0 (Base)",
+  "notes": "See Also: PlaneRelativeRobotLocal Property\n\nPosCheckType Property",
+  "see_also": "Applies To\n\nFollowMove Object, PressProbe Object, Press Object, PressMove Object",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Polarity Property",
+  "file": "PolarityProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "For Blob, ImageOp, OCR objects, Polarity defines the differentiation between objects and background.\n\nThe Polarity property defines the edge direction for Edge, LineFinder, ArcFinder, LineInspector, ArcInspector, BoxFinder and CornerFinder objects.\n\nWhen using DefectFinder, the Polarity property defines the polarity of defects detected.",
+  "notes": "The Polarity property is important for both the Edge and Blob objects because it defines one of the core parameters for each.\n\nIn the case of the Edge Tool, the Polarity defines the Edge transition along the direction of the edge search.\n\nWhen using the Blob object, Polarity is critical.  The Vision System must be told whether or not to look for light objects on a dark background or dark objects on a light background.  Without the proper setting for the Polarity property, the Blob object will return strange results.  Keep in mind that if a Blob object can find a dark object on a light background it can also find a light object on a dark background.\n\nIt is important to understand that when used for the Blob object, the Polarity property is a valuable tool for quickly distinguishing between the \"dark on light\" or \"light on dark\" object search.  However, the ThresholdHigh property and ThresholdLow property will also have an impact on the Blob object Tool's ability to find blobs.  Please refer to ThresholdHigh property and ThresholdLow Property for more information.\n\nWhen using the Contour object, meaning of the Polarity differs depending on the settings of ContourMode.\n\nWhen ContourMode is Blob:\n\n  As with Polarity of Blob object, define the differentiation between objects and background.\n\nWhen ContourMode is Line or Arc:\n\n  As with Polarity of Edge tool, define the edge direction.",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector, ArcFinder, Blob, BoxFinder, Contour, CornerFinder, DefectFinder, Edge, ImageOp, LineFinder, LineInspector, OCR\n\nBlob Object\n\nEdge Object\n\nImageOp Object\n\nThresholdLow Property\n\nThresholdHigh Property\n\nVision Objects: Polarity Property\n\nBoxFinder\n\nCornerFinder\n\nContour\n\nEdge Object\n\nBlob Object",
+  "examples": []
+}

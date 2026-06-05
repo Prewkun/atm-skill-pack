@@ -1,0 +1,15 @@
+{
+  "title": "OLRate Method, Spel Class",
+  "file": "OLRate_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function OLRate (JointNumber As Integer) As Single",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing\n\t\t the joint number.",
+  "description": "Returns overload rating for one joint for the current robot.",
+  "notes": "OLRate can be used to check whether a cycle is causing stress on the servo system. Factors such as temperature and current can cause servo errors during applications with high duty cycles. OLRate can help to check if the robot system is close to having a servo error.\n\nDuring a cycle, run another task to command OLRate. If OLRate exceeds 1.0 for any joint, then a servo error will occur.\n\nServo errors are more likely to occur with heavy payloads. By using OLRate during a test cycle, you can help insure that the speed and acceleration settings will not cause a servo error during production cycling.\n\nTo get valid readings, you must execute OLRate while the robot is moving.\n\nThis command will not be used in proper payloads state.\n\nOLRatet Example\n\nVB",
+  "see_also": "",
+  "examples": [
+    "Dim data As Single\ndata = m_spel.OLRate(1)",
+    "float data;\ndata = m_spel.OLRate(1);"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Grid Properties",
+  "file": "Grid_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Grid Properties\n\nGrid Properties and Events\n\nThe following list is a summary of the Grid control properties with brief descriptions.  Click on the property names for more details.\n\nProperty\tDescription\n\nAddRow\tAdds a row at runtime\n\nBorderStyle\tThe background color for the control.\n\nDefault: Control\n\nCellBackColor\tSets or gets the back color of a cell at runtime.\n\nCellForeColor\tSets or gets the fore color of a cell at runtime.\n\nCellText\tSets or gets the text in the cell at runtime.\n\nEnabled\tSets whether the control is enabled at runtime.\n\nDefault: 1 - True\n\nEventTaskType\tSets the type of task used for events.\n\nDefault: 0 - Normal\n\nGridEditor\tOpens the designer to setup the Grid control.\n\nHeight\tThe height of the control in pixels.\n\nLeft\tThe left coordinate of the control in pixels.\n\nName\tThe name of the control.\n\nDefault: GridXX\n\nRemoveRow\tRemoves a row at runtime.\n\nRowCount\tSets or gets the number of rows at runtime.\n\nScrollBars\tSets how to display the scrollbars for the control.\n\nDefault: 0 - None\n\nTabIndex\tThe tab index of the control.\n\nToolTipText\tThe text used in the control's tooltip.\n\nDefault: Empty\n\nTop\tThe top coordinate of the control in pixels.\n\nVisible\tWhether the control is visible or not at runtime.\n\nDefault: 1 - True\n\nWidth\tThe width of the control in pixels.\n\nEvent\tDescription\n\nCellChanged\tExecutes when the user leaves a cell that was changed.\n\nClick\tExecutes when the user clicks the control with the mouse.\n\nDblClick\tExecutes when the user double clicks the control with the mouse.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

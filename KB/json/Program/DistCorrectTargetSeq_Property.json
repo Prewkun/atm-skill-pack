@@ -1,0 +1,12 @@
+{
+  "title": "DistCorrectTargetSeq Property",
+  "file": "DistCorrectTargetSeq_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies a vision sequence to detect the calibration target in lens distortion correction and camera tilt correction used for the vision calibration.",
+  "notes": "Specify DistCorrectTargetSeq for all calibrations where lens distortion correction and camera tilt correction are used.  For details, refer to Vision Guide Software  7. Vision Calibration.\n\nSee Also: DistCorrectTargetSeq Property\n\nDistCorrectCal Property\n\nSequence window\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

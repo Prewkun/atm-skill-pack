@@ -1,0 +1,12 @@
+{
+  "title": "Accel VI",
+  "file": "Accel_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the point to point acceleration and deceleration for the current robot.\n\nInputs\n\nSpel Ref\n\t\t In\tSpel reference from a previous Spel\n\t\t Ref Out.\n\nError In\tError condition from a previous Spel\n\t\t node.\n\nAccel\tInteger value for point to point acceleration.\n\nDecel\tInteger value for point to point acceleration.\n\nDepart Accel\tOptional.  Integer value for Jump\n\t\t depart acceleration.\n\nDepart Decel\tOptional.  Integer value for Jump\n\t\t depart deceleration.\n\nAppro Accel\tOptional.  Integer value for Jump\n\t\t approach acceleration.\n\nAppro Decel\tOptional.  Integer value for Jump\n\t\t approach deceleration.\n\nOutputs\n\nSpel Ref\n\t\t Out\tSpel reference output for next VI to\n\t\t use.\n\nError Out\tError condition output for subsequent\n\t\t Spel nodes.",
+  "notes": "Use Accel to set the point to point acceleration and deceleration values for the current robot.  All values can be from 1 to 100%.  If Depart Accel is specified, then the remaining inputs must also be specified.\n\nNOTE: Usually, the maximum value is 100. However, some robots allow setting larger than 100. In general use, Accel setting 100 is the optimum setting that maintains the balance of acceleration and vibration when positioning. However, you may require an operation with high acceleration to shorten the cycle time by decreasing the vibration at positioning. In this case, set the Accel to larger than 100. Except in some operation conditions, the cycle time may not change by setting Accel to larger than 100.",
+  "see_also": "AccelS, Speed, SpeedS\n\nAccel Example",
+  "examples": []
+}

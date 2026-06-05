@@ -1,0 +1,18 @@
+{
+  "title": "HofsJointAccuracy Statement",
+  "file": "HofsJointAccuracy_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) HofsJointAccuracy  j1Pulses, j2Pulses, j3Pulses, j4Pulses [, j5pulses, j6pulses] [, j7pulses] [, j8pulses, j9pulses]\n\n(2) HofsJointAccuracy",
+  "parameters": "j1Pulses\tAn expression or a numerical value representing Joint #1 offset pulses (integer).\n\nj2Pulses\tAn expression or a numerical value representing Joint #2 offset pulses (integer).\n\nj3Pulses\tAn expression or a numerical value representing Joint #3 offset pulses (integer).\n\nj4Pulses\tAn expression or a numerical value representing Joint #4 offset pulses (integer).\n\nj5Pulses\tOptional for 6-axis robots (including N series).\n\nAn expression or a numerical value representing Joint #5 offset pulses (integer).\n\nj6Pulses\tOptional for 6-axis robots (including N series).\n\nAn expression or a numerical value representing Joint #6 offset pulses (integer).\n\nj7Pulses\tOptional for Joint type 7-axis robots.\n\nAn expression or a numerical value representing Joint #7 offset pulses (integer).\n\nj8Pulses\tOptional for additional S axis.\n\nAn expression or a numerical value representing Joint #8 (additional S axis) offset pulses (integer).\n\nj9Pulses\tOptional for additional T axis.\n\nAn expression or a numerical value representing Joint #9 (additional T axis) offset pulses (integer).",
+  "description": "HofsJointAccuracy displays or sets the home position offset pulses without changing the joint accuracy offset values. For more information about joint accuracy offset-compatible models, refer to the Manipulator manual.\n\nAlthough the robot motion control is based on the zero point of the encoder mounted on each joint motor, the encoder zero point may not necessarily match the robot mechanical zero point. The Hofs offset pulse is used to set the encoder position matching the mechanical zero point as the zero point in the software application.\n\nWhen values change at any joint, the Hofs statement resets the corresponding joint accuracy offset value set with JointAccuracy to 0, but the HofsJointAccuracy statement does not reset the value. Use HofsJointAccuracy if you do not wish to reset the joint accuracy offset value to 0.",
+  "notes": "Do not use Hofs values unless absolutely necessary.\n\nHofs values have been precisely set at the factory. Changing these values unnecessarily may lead to positioning errors and other hazardous unexpected behavior. Do not change Hofs values unless absolutely necessary.",
+  "see_also": "JointAccuracy\n\nHofs\n\nHofsJointAccuracy Statement Example\n\nThe following is a simple example using the Command window.\n\nThis example sets the Joint #1 home offset value to be \"-545\", the Joint #2 home offset value to be \"514\", and the Joint #3 and the Joint #4 home offset values to both be \"0\". It then displays the current home offset values. Joint accuracy offset values do not change when using HofsJointAccuracy.\n\n> JointAccuracy 1\n\n1000, 420, 100, 240\n\n> HofsJointAccuracy -545, 514, 0, 0\n\n> HofsJointAccuracy\n\n-545, 514, 0, 0\n\n> JointAccuracy 1\n\n1000, 420, 100, 240\n\n>",
+  "examples": [
+    "> JointAccuracy 1\n1000, 420, 100, 240",
+    "> HofsJointAccuracy -545, 514, 0, 0",
+    "> HofsJointAccuracy\n-545, 514, 0, 0",
+    "> JointAccuracy 1\n1000, 420, 100, 240",
+    ">"
+  ]
+}

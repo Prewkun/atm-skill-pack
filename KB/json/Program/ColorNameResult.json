@@ -1,0 +1,12 @@
+{
+  "title": "ColorName Result",
+  "file": "ColorNameResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the name of the color model found to be the best match.",
+  "notes": "ColorName is the name given to the color model of the best matched model.  The ColorIndex result is the index of the matched model.  The name of a color model can be changed at design time from the [Vision Guide] window by clicking the [Teach] button for the object and changing the color model names.  The model name can also be changed by setting the ModelName property from SPEL+ at runtime.",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: ColorMatch\n Result\n\nColorIndex Result\n\nVision Objects: ColorName Result\n\nColorMatch",
+  "examples": []
+}

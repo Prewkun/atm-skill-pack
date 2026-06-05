@@ -1,0 +1,12 @@
+{
+  "title": "PV1 Camera Configuration",
+  "file": "Vision_Guide_Software_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "PV1 Camera Configuration\n\nPV1 Camera Configuration\n\n(1)    Start the Epson RC+ 8.0.\n\n(2)    Select [System Configuration] from the Setup menu.\n\n(3)    Click [Vision]-[Cameras] from the tree.\n\n(4)     Click the [Add] button to add a camera.\n\nTo search the cameras on the network, select \"Search for a camera\" and click [OK].\n\nThe following dialog box appears if the camera is found on the network.  Select the camera to add and click the [Add] button.\n\nIf you have information of the camera required for setting such as IP address, select \"Manually configure a camera\".\n\n(5)     Select the camera model and ID as necessary.\n\nFor the GigE camera, select the ID after selecting the camera model.  The ID is a serial number of the camera.\n\nSelecting the ID displays the IP address set to the camera.\n\n(6)  If you changed settings after adding the camera, click the [Apply] button.\n\n(7)  Repeat steps (4) through (6) to add cameras.\n\nTIP:\n\nUp to 16 cameras (8 CV2 cameras and 8 PV1 cameras) can be configured.\n\nWhen starting more than one Epson RC+ 8.0 by one PC, PV1 camera is only available in the first session.\n\nItem\tDescription\n\nName\tThis is the name of the camera.  The\n\t\t maximum length is 16.\n\nIP Address\tThis is the IP address of the GigE\n\t\t camera.\n\nRefer to section Setup 2. Software Configuration\n\t\t for details.\n\nType\tSets the type of camera.\n\nModel\tSets the model of camera.\n\nAdd\tAdds a camera.  It is also\n\t\t possible to search and add the cameras on the network.\n\nDelete\tDelete the currently selected camera.\n\nApply\tSet current values after changes have\n\t\t been made.\n\nFor CV2: When this button is clicked,\n\t\t RC+ attempts to connect with the camera to verify the IP address\n\t\t and determine the camera type.\n\nRestore\tRevert back to the previous values.\n\nConfigure...\tClick this button to open the [Camera\n\t\t configuration] dialog box.\n\nReset\tFor CV2 only.\n\nResets the currently selected CV2.  All\n\t\t project files are cleared and the CV2 is restarted.  Restart\n\t\t takes approximately one minute.\n\nUpdate Firmware...\tFor CV2 only.\n\nUpdates the CV2 firmware.  For\n\t\t more details, refer to the following section.\n\nHardware  1.3.10 Updating CV2 Firmware",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

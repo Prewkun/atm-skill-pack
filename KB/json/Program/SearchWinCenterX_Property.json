@@ -1,0 +1,12 @@
+{
+  "title": "SearchWinCenterX Property",
+  "file": "SearchWinCenterX_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets and returns the X coordinate value on the center of the search window.",
+  "notes": "Sets and returns the X coordinate value on the center of the search window. Setting values are automatically updated when the search window is removed or resized by GUI.\n\nSee Also: SearchWinCenterX Property\n\nSearchWinHeight Property\n\nSearchWinTop Property\n\nSearchWinWidth Property\n\nThe Search Window\n\nWindow Property\n\nVision Objects: SearchWinCenterX Property\n\nBlob\n\nCorrelation\n\nDefectFinder\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Blob, BoxFinder, ColorMatch, Contour, CornerFinder, Correlation, DefectFinder, Geometric, ImageOp, LineFinder, OCR",
+  "examples": []
+}

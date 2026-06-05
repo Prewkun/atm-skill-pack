@@ -1,0 +1,14 @@
+{
+  "title": "Copy Command",
+  "file": "cmd_copy",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Copy source, destination",
+  "parameters": "source\tString expression representing the pathname and filename of the source location of the file(s) to copy.\n\nSee ChDisk for the details.\n\ndestination\tString expression representing the pathname and filename of the destination to copy the specified source files to.\n\nSee ChDisk for the details.",
+  "description": "Copies the specified source filename to the specified destination filename.\n\nThe same pathname and filename may not be specified for both source and destination files.\n\nAn error occurs if the destination already exists.\n\nNote: Do not use a network path, otherwise an error occurs.\n\nWildcard characters (*, ?) are not allowed in specified filenames.\n\nWhen used in the command window, quotes and comma may be omitted.",
+  "notes": "",
+  "see_also": "ChDir\n\nMkDir\n\nCopy Command Example\n\nThe following example is done from the Command window.\n\n> copy test.dat test2.dat",
+  "examples": [
+    "> copy test.dat test2.dat"
+  ]
+}

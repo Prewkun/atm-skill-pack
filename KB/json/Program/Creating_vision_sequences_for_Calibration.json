@@ -1,0 +1,12 @@
+{
+  "title": "Creating vision sequences for Calibration",
+  "file": "Creating_vision_sequences_for_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Creating vision sequences for Calibration\n\nCreating vision sequences for calibration\n\nBefore you can calibrate a camera, you must create a vision sequence that can find the calibration target(s).\n\nVision sequence for Detecting One Target\n\nVision sequences for Detecting Nine Targets\n\nVision Sequence for Distortion Correction\n\nVision Sequence for Local, Tool, and Arm Setting",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

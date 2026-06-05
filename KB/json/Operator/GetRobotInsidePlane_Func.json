@@ -1,0 +1,18 @@
+{
+  "title": "GetRobotInsidePlane Function",
+  "file": "GetRobotInsidePlane_Func",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "GetRobotInsidePlane(PlaneNum)",
+  "parameters": "PlaneNum\tInteger value (1 - 15) representing the approach check plane you want to return the status for.",
+  "description": "GetRobotInsidePlane Function\n\nGetRobotInsidePlane Function",
+  "notes": "",
+  "see_also": "Returns a robot which is in the approach check plane.\n\nPlane\n\nInsidePlane\n\nGetRobotInsidePlane Function Example\n\nThe following program uses the GetRobotInsidePlane function.\n\nWait for the status that no robots are in the approach check plane.\n\nFunction WaitNoPlane\n\n\t\tWait GetRobotInsidePlane(1) = 0\n\nWait for the status that Robot 2 is only one in the approach check plane.\n\nFunction WaitInPlaneRobot2\n\n\t\tWait GetRobotInsidePlane(1) = &H2\n\nThe following program uses the GetRobotInsidePlane function in the parallel processing of the motion command.  When a robot is in the specific approach check plane while it is running, it turns ON the I/O.  One robot is connected to the controller in this case.\n\nFunction Main\n\n\t\t  Motor On\n\n\t\t  Power High\n\n\t\t  Speed 30; Accel 30,30\n\n  Go P1 !D0; Wait GetRobotInsidePlane(1) = 1; On 1!\n\nFend\n\nNote: D0 must be described.",
+  "examples": [
+    "Function WaitNoPlane\n\t\tWait GetRobotInsidePlane(1) = 0",
+    "Function WaitInPlaneRobot2\n\t\tWait GetRobotInsidePlane(1) = &H2",
+    "Function Main\n\t\t  Motor On\n\t\t  Power High\n\t\t  Speed 30; Accel 30,30",
+    "Go P1 !D0; Wait GetRobotInsidePlane(1) = 1; On 1!",
+    "Fend"
+  ]
+}

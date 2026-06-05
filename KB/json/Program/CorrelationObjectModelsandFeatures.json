@@ -1,0 +1,12 @@
+{
+  "title": "Correlation Object Models and Features",
+  "file": "CorrelationObjectModelsandFeatures",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Correlation Object Models and Features\n\nCorrelation Object Models and Features\n\nIt is important to understand the difference between features and models when using Correlation objects.  A feature is any specific pattern of grey levels in a search window .  A feature can be anything from a simple edge a few pixels in area to a complex pattern of tens of thousands of pixels in area.  The correlation operation measures the extent to which a feature in a search window matches a previously taught model of that feature.  A feature is something within an actual search window as opposed to a model or template which is an idealized representation of a feature.\n\nA model is a pattern of grey levels used to represent a feature. It is equivalent to a template in a template matching system.\n  If the model has two grey levels, it is called a binary model, if it has more than two grey levels it is called a grey model.  All models used with Vision Guide 8.0 are grey models because grey models are more powerful in that they more closely represent the true feature than a binary model can.  This helps produce more reliable results.\n\nIt is common to train a representative model from one search window to be used to search for similar features in that search window.  The figure below shows a search window containing a feature of interest; a cross.\n\nTo train a model of the cross, you define the model window and click the [Teach] button on the execution panel.  (For details on teaching models, refer to Using Correlation Objects later in this chapter.\n\nAs a result, the model is created as shown in the right side figure and can be used to search for other crosses within the search window.\n\nSearch window containing several features of interest (left) and model trained from image (right)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

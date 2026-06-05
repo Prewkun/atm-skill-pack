@@ -1,0 +1,15 @@
+{
+  "title": "GetJRange Method, Spel Class",
+  "file": "GetJRange_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetJRange (JointNumber As Integer, Bound As Integer) As Integer",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing the joint number.\n\nBound\tInteger expression containing one of two values:\n\n1: Specifies lower limit value.\n\n2: Specifies upper limit value.",
+  "description": "Gets the permissible working range of the specified joint in pulses.",
+  "notes": "",
+  "see_also": "JRange\n\nGetJRangel Example\n\nVB Example:\n\nDim minRange As Integer\n\nDim maxRange As Integer\n\nminRange = m_spel.GetJRange(1, 1)\n\nmaxRange = m_spel.GetJRange(1, 2)\n\nC# Example:\n\nint minRange, maxRange;\n\nminRange = m_spel.GetJRange(1, 1);\n\nmaxRange = m_spel.GetJRange(1, 2);",
+  "examples": [
+    "Dim minRange As Integer\nDim maxRange As Integer\nminRange = m_spel.GetJRange(1, 1)\nmaxRange = m_spel.GetJRange(1, 2)",
+    "int minRange, maxRange;\nminRange = m_spel.GetJRange(1, 1);\nmaxRange = m_spel.GetJRange(1, 2);"
+  ]
+}

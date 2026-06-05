@@ -1,0 +1,16 @@
+{
+  "title": "FineDist Statement",
+  "file": "FineDist_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) FineDist value\n\n(2) FineDist",
+  "parameters": "value\tPositioning\n\t\t allowance ranges from 0.001[mm] to 10[mm].",
+  "description": "FineDist Statement\n\nFineDist Statement\n\nSee_Also Example\n\nSpecifies and displays the positioning error limits.\n  The unit of the setting value is \"mm\".",
+  "notes": "",
+  "see_also": "Robot motion commands\n\nAccel, AccelR, AccelS, Arc, Fine Function, Go, Jump, Move, Speed, SpeedR, SpeedS, Pulse\n\nFineDist Example\n\nThe examples below show the FineDist statement used in a program function, and used from the command window.\n\nFunction fineDisttest\n\n  FineDist .1           'Set precision to +/- 0.1 mm\n\n  Go P1\n\n  Go P2\n\nFend\n\n> FineDist 0.1\n\n>\n\n> FineDist\n\n0.1",
+  "examples": [
+    "Function test\n   Fine 5, 5, 5, 5\n   FineDist 0.1\n   Go P1\n   Go P2\nFend",
+    "Function fineDisttest FineDist .1           'Set precision to +/- 0.1 mm Go P1 Go P2\nFend",
+    "> FineDist 0.1\n>\n> FineDist\n0.1"
+  ]
+}

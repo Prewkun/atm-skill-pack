@@ -1,0 +1,12 @@
+{
+  "title": "Monitoring I/O",
+  "file": "Monitoring_I_O",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Monitoring I/O\n\nMonitoring I/O\n\nTo monitor I/O, use the I/O Monitor tool by selecting [Tools]-[I/O Monitor]. From the I/O monitor, you can view inputs and outputs or memory I/O in bit, byte, and word formats.\n\nFor details on how to use the I/O Monitor tool, see I/O Monitor.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "WordWrap Property",
+  "file": "WordWrap_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Indicates whether a multiline text box control automatically wraps words to the beginning of the next line when necessary.",
+  "notes": "",
+  "see_also": "Applies To\n\nTextBox\n\nMultiLine Property\n\nGUI Items: WordWrap Property\n\nTextBox",
+  "examples": [
+    "GSet frmMain.txtStatus.WordWrap, True"
+  ]
+}

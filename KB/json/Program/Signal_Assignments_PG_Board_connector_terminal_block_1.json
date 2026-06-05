@@ -1,0 +1,12 @@
+{
+  "title": "Signal Assignments PG Board connector terminal block 1",
+  "file": "Signal_Assignments_PG_Board_connector_terminal_block_1",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Signal Assignments PG Board connector terminal block 1\n\nSignal Assignments: PG board connector terminal block 1\n\nThe signals on PG board connector terminal block 1 are assigned as shown in the table below. The pin numbers in parentheses are the pins on the PG board connector.\n\nPin\tSignal\tDescription\tPin\tSignal\tDescription\n\n1 (16)\t-\tNot used\t26 (32)\t-\tNot used\n\n2 (17)\t-\tNot used\t27 (33)\t-\tNot used\n\n3 (18)\t-\tNot used\t28 (34)\t-\tNot used\n\n4 (19)\t-\tNot used\t29 (35)\t-\tNot used\n\n5 (20)\t-\tNot used\t30 (36)\t-\tNot used\n\n6 (21)\t-\tNot used\t31 (37)\t-\tNot used\n\n7 (22)\t-\tNot used\t32 (38)\t-\tNot used\n\n8 (23)\t-\tNot used\t33 (39)\t-\tNot used\n\n9 (24)\tGND\tGround\t34 (40)\tGND\tGround\n\n10 (25)\t+A1\tPhase +A signal for Counter 1\t35 (41)\t+A2\tPhase +A signal for Counter 2\n\n11 (26)\t-A1\tPhase -A signal for Counter 1\t36 (42)\t-A2\tPhase -A signal for Counter 2\n\n12 (27)\t+B1\tPhase +B signal for Counter 1\t37 (43)\t+B2\tPhase +B signal for Counter 2\n\n13 (28)\t-B1\tPhase -B signal for Counter 1\t38 (44)\t-B2\tPhase -B signal for Counter 2\n\n14 (29)\t+Z1\tPhase +Z signal for Counter 1\t39 (45)\t+Z2\tPhase +Z signal for Counter 2\n\n15 (30)\t-Z1\tPhase -Z signal for Counter 1\t40 (46)\t-Z2\tPhase -Z signal for Counter 2\n\n16 (31)\t-\tNot used\t41 (47)\t-\tNot used\n\n17 (48)\t-\tNot used\t42 (49)\t-\tNot used\n\n18 (9)\t-\tNot used\t43 (50)\tGND\tGround\n\n19 (60)\t-\tNot used\t44 (61)\t-\tNot used\n\n20 (10)\tTRG1\tTrigger input for Counter 1\t45 (11)\tTRG2\tTrigger input for Counter 2\n\n21 (1)\t-\tNot used\t46 (5)\t-\tNot used\n\n22 (2)\t-\tNot used\t47 (6)\t-\tNot used\n\n23 (3)\t-\tNot used\t48 (7)\t-\tNot used\n\n24 (4)\t-\tNot used\t49 (8)\t-\tNot used\n\n25 (14)\tEXTV\tExternal power supply\t50 (64)\tEXTVGND\tExternal power supply ground",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

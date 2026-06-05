@@ -1,0 +1,12 @@
+{
+  "title": "CaptionObjectsInSeq",
+  "file": "CaptionObjectsInSeq",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CaptionObjectsInSeq\n\nIf other vision objects have already been created for this vision sequence, you can click on the drop down list box and you will see a list of all the vision objects in this sequence.  If you do this make sure to click on the entry in the list which has the name of the object you just created earlier to continue this step by step guide.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

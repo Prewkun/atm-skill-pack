@@ -1,0 +1,12 @@
+{
+  "title": "Project Properties Encrypted Files",
+  "file": "ProjectPropertiesEnFiles",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Properties Encrypted Files\n\nProject: Properties: Encrypted Files Page\n\nThis page allows you to encrypt files in the current project.\n\nFor details on using encrypted files, refer to section  Using Encrypted Files.\n\nCAUTION\t■\tUSE EXTREME\n\t\t CAUTION!\n\nKeep\n\t\t a record of the password(s) used for encryption in a safe place.\n\t\t Once a file\n\nis\n\t\t encrypted, it can only be opened with the password you enter.\n\t\t If you forget the\n\npassword,\n\t\t the file contents CANNOT BE RECOVERED.\n\nItem\tDescription\n\nNormal\n\t\t files\tThis\n\t\t is a list of the source files in the project that are not encrypted.\n\nEncrypted\n\t\t files\tThis\n\t\t is a list of the source files in the project that are encrypted.\n\n\t\tSelect which source files you want to decrypt.\n\nEncrypt\n\t\t >>\tEncrypts\n\t\t the files selected in the [Normal files] list.\n\n\t\tWhen this button is clicked, you will be prompted for a password\n\t\t that will be used to access these encrypted files.\n\n<<Decrypt\tDecrypts\n\t\t the files selected in the [Encrypted files] list.\n\n\t\tWhen this button is clicked, you will be prompted for the password\n\t\t that was used to encrypt the files.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Mode Function",
+  "file": "Cnv_Accel_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_Mode (conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number (1 - 16).",
+  "description": "Cnv_Mode Function\n\nCnv_Mode Function\n\nSee_Also Example\n\nReturns the tracking mode of the conveyor tracking.",
+  "notes": "",
+  "see_also": "Cnv_Mode Statement\n\nCnv_Mode Function Example\n\nPrint Cnv_Mode (1)",
+  "examples": [
+    "Print Cnv_Mode (1)"
+  ]
+}

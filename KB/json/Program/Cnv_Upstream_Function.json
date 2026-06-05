@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Upstream Function",
+  "file": "Cnv_Upstream_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_Upstream (conveyorNumber )",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.",
+  "description": "Cnv_Upstream Function\n\nCnv_Upstream Function",
+  "notes": "",
+  "see_also": "Returns the upstream limit for the specified conveyor.\n\nCnv_Downstream\n\nCnv_Upstream Function Example\n\nPrint \"Upstream limit: \", Cnv_Upstream (1)",
+  "examples": [
+    "Print \"Upstream limit: \", Cnv_Upstream (1)"
+  ]
+}

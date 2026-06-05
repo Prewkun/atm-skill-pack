@@ -1,0 +1,14 @@
+{
+  "title": "CP_Offset Function",
+  "file": "CPOffset_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "CP_Offset Function\n\nCP_Offset Function",
+  "notes": "",
+  "see_also": "Returns the offset time to start the subsequent motion commad when executing CP On.",
+  "examples": [
+    "If CP_Offset = O Then\n   Print \"CP_Offset is off\"\nEndIf"
+  ]
+}

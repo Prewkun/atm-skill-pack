@@ -1,0 +1,12 @@
+{
+  "title": "RunDialog Constants",
+  "file": "constant_RunDialog",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "RunDialog Constants\n\nRunDialog Constants\n\nConstant Name\tValue\tUsage\n\nDLG_JOG\t100\tRun Jog and Teach dialog\n\nDLG_IOMON\t102\tRun I/O Monitor\n\nDLG_ROBOTPANEL\t104\tRun Robot Control Panel\n\nDLG_VGUIDE\t110\tRun Vision Guide dialog",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

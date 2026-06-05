@@ -1,0 +1,12 @@
+{
+  "title": "Accessing properties and results in SPEL+: VGet, VSet",
+  "file": "Accessing_properties_and_results_in_SPEL+_VGet,_VSet",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "VGet seqName.propName, var 'put property value in variable\n\nVSet seqName.propName, value 'set property to value\n\nFor object properties and results, the following\n\nVGet seqName.objName.resultName, var\n\nVGet seqName.objName.propertyName, var\n\nVSet seqName.objName.propertyName, value\n\nFor object multiple results, the following syntax is used:\n\nVGet seqName.objName.resultName(resultnum), var\n\nThe sequence and object names can also be string variables.  See Using variables for sequence and object names",
+  "parameters": "",
+  "description": "Accessing properties and results in SPEL+: VGet, VSet\n\nAccessing  Properties and Results in SPEL+: VGet, VSet\n\nThe VGet and VSet commands can be used to read and set sequence and object properties in SPEL+ programs.  For example, you can change a search window size and location, an accept parameter, camera gain, and maximum area to name a few.  Nearly all of the properties and results that can be accessed from the Vision Guide 8.0 point and click interface can also be accessed from a SPEL+ program.  There are also some special properties that can only be accessed from using VSet or VGet since they set or return multiple results. (e.g. SearchWin, RobotXYU, and ModelWin to name a few.)\n\nA common syntax is used for both VGet and VSet.\n  Each command must first refer to the name of a sequence.  In addition, the name of a vision object must follow the sequence name in order to access properties and results for vision objects.  A period is used to separate the sequence, object, and property or result name.\n  If multiple results are used, specific results are selected by appending the result number in parenthesis after the result name.\n\nFor sequence properties and results, the following",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Connect Method, Spel Class",
+  "file": "Connect_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Connect (ConnectionName As String)\n\nSub Connect (ConnectionName As String, ConnectionPassword As String)\n\nSub Connect (ConnectionNumber As Integer)\n\nSub Connect (ConnectionNumber As Integer, ConnectionPassword As String)",
+  "parameters": "ConnectionName\tString expression\n\t\t for the connection name.\n\nConnectionNumber\tInteger expression\n\t\t for the connection number.  The connection number is the\n\t\t number of the connection in the RC+ Setup | PC to Controller Communications\n\t\t dialog.  Specify a value of -1 to use the last successful\n\t\t connection.\n\nConnectionPassword\tString expression\n\t\t for the connection password.  If the controller has a password\n\t\t for its connection and the password was not configured in the\n\t\t RC+ Setup | PC to Controller Communications dialog, then you must\n\t\t specify a password in order to connect with the controller.",
+  "description": "Connects the Spel class instance with a Controller.",
+  "notes": "When a Spel class instance needs to communicate with the Controller, it automatically connects.  If you want to explicitly connect to the Controller, use the Connect method.\n\nNote\n\nWhen you change the connection number in [PC to Controller Communications] dialog, the parameter value of this method \"ConnectionNumber\" will be affected. Review the RC+ API program.",
+  "see_also": "Disconnect\n\nInitialize\n\nConnect Example\n\nVB",
+  "examples": [
+    "Try m_spel.Connect(1) Catch ex As RCAPINet.SpelException MsgBox(ex.Message)\nEnd Try",
+    "try{",
+    "m_spel.Connect(1);",
+    "}",
+    "catch(RCAPINet.SpelException ex){",
+    "MessageBox.Show(ex.Message);",
+    "}"
+  ]
+}

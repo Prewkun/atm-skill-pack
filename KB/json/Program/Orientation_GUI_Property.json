@@ -1,0 +1,14 @@
+{
+  "title": "Orientation_GUI_Property",
+  "file": "Orientation_GUI_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets the orientation of the control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.ProgressBar1.Orienation, ORIENT_VERTICAL"
+  ]
+}

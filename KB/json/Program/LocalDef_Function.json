@@ -1,0 +1,14 @@
+{
+  "title": "LocalDef Function",
+  "file": "LocalDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "LocalDef(localNumber)",
+  "parameters": "localNumber\tInteger expression representing which local to return status for.",
+  "description": "LocalDef Function\n\nLocalDef Function",
+  "notes": "",
+  "see_also": "Returns local definition status.\n\nLocal\n\nLocalClr\n\nLocal Function Example\n\nFunction DisplayLocalDef(localNum As Integer)\n\n\t\t  If LocalDef(localNum) = False Then\n\n\t\t    Print \"Local \", localNum, \"is not defined\"\n\n\t\t  Else\n\n\t\t    Print \"Local 1: \",\n\n\t\t    Print Local(localNum)\n\n\t\t  EndIf\n\n\t\tFend",
+  "examples": [
+    "Function DisplayLocalDef(localNum As Integer)\n\t\t  If LocalDef(localNum) = False Then\n\t\t    Print \"Local \", localNum, \"is not defined\"\n\t\t  Else\n\t\t    Print \"Local 1: \",\n\t\t    Print Local(localNum)\n\t\t  EndIf\n\t\tFend"
+  ]
+}

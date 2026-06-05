@@ -1,0 +1,12 @@
+{
+  "title": "Force Labels Off (Vision Toolbar Only)",
+  "file": "Force_Labels_Off_(Vision_Toolbar_Only)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force Labels Off (Vision Toolbar Only)\n\nForce Labels Off  (Vision Toolbar Only)\n\nThe Force Labels Off feature is a useful method to reduce screen clutter when working with many vision objects in one Sequence.  The Force Labels Off button on the Vision Guide toolbar is a two-position button. When pressed in, the labels for all vision objects are turned off, thus making the objects which are displayed easier to see. When the Force Labels Off is in the out position (not pressed in), then labels are shown for each vision object that is displayed in the image display.\n\nThe Force Labels Off feature is sometimes used in conjunction with the Force All Graphics On toolbar button.  When the Force all Graphics On button is pressed, you can still Force Labels Off. This means that even though the Force All Graphics On toolbar button is pressed in, the labels still will not be displayed because the Force Labels Off button is also pressed in.\n\nTip: If you are working in a vision sequence where you just turned the Force Labels Off button Off (i.e. it is in the out position), and you still cannot see a specific vision object, chances are that the Graphics property for that vision object is set to None.  This means don't display graphics at all for this object and may be your problem.\n\nNote: The Force Labels Off toolbar button is dimmed (made light gray in color and inaccessible) if there are no vision sequences for the current project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

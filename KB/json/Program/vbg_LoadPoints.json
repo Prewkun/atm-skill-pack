@@ -1,0 +1,15 @@
+{
+  "title": "LoadPoints Method, Spel Class",
+  "file": "vbg_LoadPoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub LoadPoints (FileName As String [, Merge As Boolean])",
+  "parameters": "FileName\tA valid point file in the current project.\n\nMerge\tOptional.  Sets to integrate the current point into the specified point file.",
+  "description": "Loads a SPEL+ point file into the Controller's point memory for the current robot.",
+  "notes": "",
+  "see_also": "ImportPoints\n\nSavePoints\n\nLoadPoints Example\n\nVB Example:\n\nWith m_spel\n\n  .LoadPoints (\"part1.pts\")\n\nEnd With\n\nC# Example:\n\nm_spel.LoadPoints(\"part1.pts\");",
+  "examples": [
+    "With m_spel .LoadPoints (\"part1.pts\")\nEnd With",
+    "m_spel.LoadPoints(\"part1.pts\");"
+  ]
+}

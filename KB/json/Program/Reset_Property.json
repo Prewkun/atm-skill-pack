@@ -1,0 +1,14 @@
+{
+  "title": "Reset Property",
+  "file": "Reset_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Resets the force sensor.",
+  "notes": "When the Reset Property is executed, the force sensor is reset.  Epson's force sensors have a drift characteristic.  Reset the force sensor each time right before using the force function.\n\nWhen iValue is omitted or FG_RESET_FINE is specified, the program waits up to 1.5 seconds until the robot which the force sensor is connected satisfies Fine condition, and then reset the force sensor.  When an error occurs since FG_RESET_FINE is specified, specify FG_RESET_WAIT_VIBRATION for iValue.  The error may be avoided.\n\nFine condition is a positioning condition for each joint when the motion ends.  In this property, always use a robot 's specific number.  The value specifeid by the Fine statement or FineDist statement is not be used for the determination.\n\nWhen FG_RESET_WAIT_VIBRATION is specified for iValue, the program waits until the external vibration stops, and then reset the force sensor.  It may take time to reset the force sensor depending on the state of external vibration.\n\nMaximum wait time until the vibration stops is normally 2.5 seconds, however, it can be specified with rValueTime.  You can specify the threshold used to determine that the vibrations have been stoped : the force (Fx,Fy,Fz) can specified by rValueThreshF and the torque (Tx,Ty,Tz) by rValueThreshT.  rValueThreshF and rValueThreshT are peak to peak value. However, if making the threshold larger , zero point of the sensor changes and the accuracy may decrease.  Adjust the threshold within the range which is allowable for your task.\n\nrValueTime, rValueThreshF, and rValueThreshT are available only when FG_RESET_WAIT_VIBRATION is specified for iValue.",
+  "see_also": "Applies To\n\nForce Sensor Object FS#\n\nReboot Property",
+  "examples": [
+    "> FSet FS1.Reset\n> FSet FS1.Reset, FG_RESET_FINE\n> FSet FS1.Reset, FG_RESET_WAIT_VIBRATION"
+  ]
+}

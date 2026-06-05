@@ -1,0 +1,15 @@
+{
+  "title": "SF_PeakSpeedSClear Statement",
+  "file": "SF_PeakSpeedSClear_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SF_PeakSpeedSClear[Speed monitoring point number 1 [, Speed monitoring point number 2 ]]",
+  "parameters": "Speed monitoring point number 1\tThe first speed limiting point number as an integer value (1 or 2). Optional.\n\nSpeed monitoring point number 2\tThe second speed limiting point number as an integer value (1 or 2). Optional.\n\nValue\tDescription\n\n1\tHand\n\n2\tElbow",
+  "description": "Clears (initializes) the peak speed value for the specified speed monitoring point.\n\nIf no parameters are specified, the peak speed values for all speed monitoring points are cleared.\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_PeakSpeedSClear Example\n\n- How to clear the peak speed of the hand\n\n> SF_PeakSpeedSClear 1\n\n- How to clear the peak speed values for all speed monitoring points\n\n> SF_PeakSpeedSClear",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "> SF_PeakSpeedSClear 1",
+    "> SF_PeakSpeedSClear"
+  ]
+}

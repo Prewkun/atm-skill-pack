@@ -1,0 +1,15 @@
+{
+  "title": "#include",
+  "file": "cmd_include",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "#include \"\n\t\t\tfileName.INC\"",
+  "parameters": "fileName\tfileName must be the name of an include file in the current project.  All include files have the INC\n\t\t\t\t\t\t extension.The filename specifies the file which will be included in the current file.",
+  "description": "#include inserts the contents of the specified include file with the current file where the #include statement is used.\n\nInclude files are used to contain #define statements and global variable declarations.\n\nThe #include statement must be used outside of any function definitions.\n\nAn include file may contain a secondary include file.  For example, FILE2 may be included within FILE1, and FILE3 may be included within FILE2. This is called nesting.\n\nSee Also\n\n#define\n\n#ifdef\n\n#ifndef\n\n#include",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "#define DEBUG 1\n\t\t#define MAX_PART_COUNT 20",
+    "#include \"defs.inc\"\n\t\tFunction main\n\t\t  Integer i\n\t\t  Integer Parts(MAX_PART_COUNT)\n\t\tFend"
+  ]
+}

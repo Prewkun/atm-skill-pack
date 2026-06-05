@@ -1,0 +1,12 @@
+{
+  "title": "PressProbe Object",
+  "file": "PressProbe_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "PressProbe Object\n\nPressProbe Object\n\nPressProbe object presses the workpiece grasped by the robot to the working desk or a workpiece on the working desk.  Then, the robot moves along the specified path and stop when a hole or a convex shape is detected.  This object is used for detection of fitting holes or positioning during assembly.  Hole position or a convex shape can be detected stably even if the workpiece dimension or the grasp position of the workpiece have a margin of error.  We recommend using this object after Contact object, SurfaceAlign object, and Press object.\n\nHow to use\n\nProperties\n\nResults",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

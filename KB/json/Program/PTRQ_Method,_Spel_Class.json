@@ -1,0 +1,15 @@
+{
+  "title": "PTRQ Method, Spel Class",
+  "file": "PTRQ_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function PTRQ (JointNumber As Integer) As Single",
+  "parameters": "JointNumber\tInteger expression from 1-9 representing the joint number.",
+  "description": "Returns the peak torque for the specified joint.",
+  "notes": "",
+  "see_also": "ATCLR, ATRQ, PTCLR\n\nPTRQ Example\n\nVB Example:\n\nDim peakTorque As Single\n\npeakTorque = m_spel.PTRQ(1)\n\nC# Example:\n\nfloat peakTorque;\n\npeakTorque = m_spel.PTRQ(1);",
+  "examples": [
+    "Dim peakTorque As Single\npeakTorque = m_spel.PTRQ(1)",
+    "float peakTorque;\npeakTorque = m_spel.PTRQ(1);"
+  ]
+}

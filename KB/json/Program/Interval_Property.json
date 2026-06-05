@@ -1,0 +1,14 @@
+{
+  "title": "Interval Property",
+  "file": "Interval_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the time, in milliseconds, between timer ticks.",
+  "notes": "To get the number of seconds in the interval, divide this number by 1,000.",
+  "see_also": "Applies To\n\nTimer\n\nTick Event\n\nGUI Items: Interval Property\n\nTimer",
+  "examples": [
+    "GSet frmMain.tmrMain.Interval, 500"
+  ]
+}

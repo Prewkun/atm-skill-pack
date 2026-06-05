@@ -1,0 +1,12 @@
+{
+  "title": "CenterPntRotOffset Property",
+  "file": "CenterPntRotOffsetProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies whether the center point offset should be rotated or not.",
+  "notes": "Set CenterPntRotOffset to True if you want the center point offset to be rotated by the Angle result of the CenterPointObject.\n\nValues\n\nTrue - rotate the offset\n\nFalse - do not rotate the offset\n\nDefault: False\n\nSee Also: CenterPntObjResult Property\n\nCenterPointObject Property\n\nCenterPntOffsetX Property\n\nCenterPntOffsetY Property\n\nVision Objects: CenterPntObjResult Property\n\nColorMatch",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, LineFinder, OCR, Polar",
+  "examples": []
+}

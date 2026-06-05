@@ -1,0 +1,14 @@
+{
+  "title": "LTrim$ Function",
+  "file": "cmd_ltrimdol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "LTrim$ (string)",
+  "parameters": "string\tString expression.",
+  "description": "LTrim$ Function\n\nLTrim$ Function\n\nSee_Also Example\n\nReturns a string equal to specified string without leading spaces.",
+  "notes": "",
+  "see_also": "RTrim$\n\nLTrim$ Function Example\n\nst$ = \" data \"\n\nst$ =\n\t\t\t\t LTrim$\n\t\t\t(st$) ' st$ = \"data \"",
+  "examples": [
+    "st$ = \" data \"\n\nst$ =\n\t\t\t\t LTrim$\n\t\t\t(st$) ' st$ = \"data \""
+  ]
+}

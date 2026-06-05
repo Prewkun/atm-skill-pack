@@ -1,0 +1,14 @@
+{
+  "title": "Time$ Function",
+  "file": "cmd_timedol",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Time$",
+  "parameters": "",
+  "description": "Time$ is used to get the system time in a program statement. To set the system time, you must use the Time command from the command window.",
+  "notes": "",
+  "see_also": "Date\n\nDate$\n\nTime\n\nTime$ Function Example\n\nFunction LogErr\n\nPrint \"The current time is \", Time$\n\nFend",
+  "examples": [
+    "Function LogErr\n\nPrint \"The current time is \", Time$\n\n\t\tFend"
+  ]
+}

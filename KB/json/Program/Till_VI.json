@@ -1,0 +1,12 @@
+{
+  "title": "Till VI",
+  "file": "Till_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies event condition that, if satisfied, completes the motion command (Jump, Go, Move, etc.) in progress by decelerating and stopping the robot at an intermediate position.\n\nInputs\n\nSpel Ref\n\t\t In\tSpel reference from a previous Spel\n\t\t Ref Out.\n\nError In\tError condition from a previous Spel\n\t\t node.\n\nCondition\tSpecifies the I/O condition using a\n\t\t string expression. For details see the Till Statement in the SPEL+\n\t\t Language Reference manual.\n\nOutputs\n\nSpel Ref\n\t\t Out\tSpel reference output for next VI to\n\t\t use.\n\nError Out\tError condition output for subsequent\n\t\t Spel nodes.",
+  "notes": "",
+  "see_also": "Accel, Arc, Arc3, BGo, BMove, Jump, Jump3, Move, Speed, TGo, TillOn, TMove\n\nTill Example",
+  "examples": []
+}

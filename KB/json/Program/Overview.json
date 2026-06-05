@@ -1,0 +1,12 @@
+{
+  "title": "GUI Overview",
+  "file": "Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GUI Overview\n\nGUI Overview\n\nEpson RC+ 8.0 is an IDE (Integrated Development Environment) application with a docking window. You can drag and drop to group windows into tabs, and display separate windows on external displays. You can customize the window layout to your liking based on the size and number of monitors in use.\n\nYour customized window layouts can saved for later use. You can load and quickly switch between easy-to-use layouts.\n\nThe following window will appear when starting Epson RC+ +8.0.\n\nSymbol\tItem\tDescription\n\na\tMain Window\tThis appears\n\t\t when starting Epson RC+8.0 in Program mode.\n\nb\tMenu Bar\tThis displays\n\t\t menus of options that can be ran in Epson RC+8.0.\n\nc\tTool Bar\tThis displays\n\t\t buttons for frequently used commands.\n\nd\tSubwindows\tThis displays\n\t\t a window for the Program Editor, Point Data, Project Explorer,\n\t\t Status Window, and other functions.\n\ne\tStatus Bar\tThis displays\n\t\t status messages, such as project build status, system errors and\n\t\t warnings, etc.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

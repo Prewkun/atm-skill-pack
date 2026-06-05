@@ -1,0 +1,14 @@
+{
+  "title": "Maximum Property",
+  "file": "Maximum_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets the maximum value of the processing range of the control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.TrackBar1.Maximum, 60"
+  ]
+}

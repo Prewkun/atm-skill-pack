@@ -1,0 +1,15 @@
+{
+  "title": "Dist_Polarity Property",
+  "file": "Dist_Polarity_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Dist_Polarity Property\n\nDist_Polarity Property\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis returns the status of or sets whether the force motion restriction is triggered by either being within the thresholds or being outside of the thresholds in the movement distance.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function SettingPolarity FSet FMR1.Dist_Enabled, True FSet FMR1.Dist_Polarity, FG_OUT FSet FMR1.Dist_Levels, 0, 100 Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError AbortMotion All\nFend"
+  ]
+}

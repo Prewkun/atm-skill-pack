@@ -1,0 +1,15 @@
+{
+  "title": "FGGet Method, Spel Class",
+  "file": "FGGet_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub FGGet (Sequence As String, [Object As String], Property As SpelForceProps, ByRef Result As Boolean)\n\nSub FGGet (Sequence As String, [Object As String], Property As SpelForceProps, ByRef Result As Double)\n\nSub FGGet (Sequence As String, [Object As String], Property As SpelForceProps, ByRef Result As Integer)\n\nSub FGGet (Sequence As String, [Object As String], Property As SpelForceProps, ByRef Result As String)",
+  "parameters": "Sequence\tForce guide sequence name or string\n\t\t variable representing Force Guide sequence name\n\nObject\tForce guide object name or string variable\n\t\t representing Force Guide object name.\n\nOmitted when a result of a Force Guide\n\t\t sequence is acquired.\n\nProperty\tName of result to acquire a value\n\nResult\tVariable that shows a returned value\n\nThe number and types vary according to\n\t\t results.",
+  "description": "Acquires a result of a Force Guide sequence or Force Guide object.",
+  "notes": "Note:  This method will only work if the Fieldbus Master option is active.",
+  "see_also": "FGRun\n\nFGGet Example\n\nVB",
+  "examples": [
+    "Dim errCode As Integer\nm_spel.MotorsOn = True\nm_spel.FGRun(\"Sequence1\")\nm_spel.FGGet(\"Sequence1\",\"\", SpelForceProps.EndStatus, val)",
+    "int errCode;\nm_spel.MotorsOn = true;\nm_spel.FGRun(\"Sequence1\");\nm_spel.FGGet(\"Sequence1\",\"\", SpelForceProps.EndStatus, val);"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "System History Dialog Box",
+  "file": "System_History",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System History Dialog Box\n\nSystem History Window\n\nDisplay [System History]. This window shows events, errors, and warnings that have been logged in the current controller's system history.\n\nThe data can be sorted by clicking on any column header. Drop and drop columns to rearrange the order. To sort multiple columns, hold down the shift key and click on multiple columns headers.\n\nItem\tDescription\n\nData\n\t\t To Display\tSelect\n\t\t which data you would like to view. (All, Error, Event, Warning)\n\nFrom\n\t\t / To\tSelect\n\t\t the dates you want to view data from. When the window is first\n\t\t opened, these are automatically set to the first and last dates\n\t\t in the history data.\n\nMessage\n\t\t Contains\tEnter\n\t\t the error message to search, and then click the [Refresh] button,\n\t\t or press the [Enter] key.\n\nTime\n\t\t Zone\tSelect\n\t\t a time zone. Time of event, warning, and error occurrences are\n\t\t displayed according to the selected time zone.\n\nRefresh\tClick\n\t\t this button to reload the data from the controller.\n\nType\tEvent\tInformation\n\t\t for operation and mode change.\n\nWarning\tProgram\n\t\t can be executed continuously, however, needs countermeasure.\n\nError\tError\n\t\t occurred in the program or the Robot.\n\nNumber\tFor\n\t\t more details on the number, refer to the following manual:\n\n\"Status\n\t\t Code / Error Code List\" manual\n\nMessage\t\tDisplays\n\t\t event, warning, and error messages.\n\nFunction\n\t\t and Line number\tFunction\n\t\t name and the line number are displayed when error occurred while\n\t\t executing a program.\n\nRobot\n\t\t and\n\n\t\taxis number\tRobot\n\t\t and the axis number are displayed when Robot error occurred.\n\nTask\n\t\t number\tTask\n\t\t number of the task with error is displayed when error occurred\n\t\t while executing the program. \"0\" is displayed for others.\n\nAdditional\n\n\t\tinformation\n\n\t\t1 and 2\tMore\n\t\t details are displayed for some errors. Refer to the following\n\t\t manual:\n\n\"Status\n\t\t Code / Error Code List\" manual",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

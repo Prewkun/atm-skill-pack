@@ -1,0 +1,12 @@
+{
+  "title": "FG_ForceCheckMode Property",
+  "file": "_FG_ForceCheckMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the end conditions related to force, this property sets a direction which will be a condition.\n\nValues\n\nPress Direction (Press+, Press-) specified by ControlMode is a force condition.\n\nPressFollow Direction (Press+, Press-, and Follow) specified by ControlMode is a force condition.\n\nDefault:  False",
+  "notes": "",
+  "see_also": "Applies To\n\nPress Object, PressMove Object\n Property\n\nForceCheckEnabled Property",
+  "examples": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "GetCurrentUser Method, Spel Class",
+  "file": "vbg_GetCurrentUser",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetCurrentUser () As String",
+  "parameters": "",
+  "description": "Returns the current Epson RC+ 8.0 user.",
+  "notes": "",
+  "see_also": "LogIn\n\nGetCurrentUser Example\n\nVB",
+  "examples": [
+    "Dim currentUser As String\n\ncurrentUser = m_spel.GetCurrentUser()",
+    "string currentUser;",
+    "currentUser = m_spel.GetCurrentUser();"
+  ]
+}

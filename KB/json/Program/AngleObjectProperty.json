@@ -1,0 +1,12 @@
+{
+  "title": "AngleObject Property",
+  "file": "AngleObjectProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets/returns the object to be used to determine the angle of rotation for the ImageOp object Rotate operation.",
+  "notes": "For the ImageOp object, use AngleObject together with the Rotate setting of the Operation property to automatically rotate the image according to the Angle result for the object specified in AngleObject.\n\nWhen specifying an object as the AngleObject, to compensate for the degree of rotation of the object, set the RotationDirection property to \"2 - CW\".\n\nThe resulting angle of the object set for the AngleObject property will be output as the resulting angle for the Point object.  For example, if Blob is set as the AngleObject for a Point object, the resulting angle for the Point object will be the resulting angle for the Blob object.  If objects set as the AngleObject contain multiple results, the result number to be used can be specified with the AngleObjectResult property.\n\nThe following objects can be specified:\n\nBlob, Correlation, Geometric, Polar, Point, Line, CodeReader, Frame, LineFinder, DefectFinder, CornerFinder, BoxFinder, Coordinates",
+  "see_also": "Property\n\nImageOp Object\n\nOperation Property\n\nRotationAngle Property\n\nVision Sequences",
+  "examples": []
+}

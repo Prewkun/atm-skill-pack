@@ -1,0 +1,12 @@
+{
+  "title": "DestRelativeZ Property",
+  "file": "DestRelativeZ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the straight line trajectory, this property sets a moving amount to Z direction in the coordinate system which is specified by ForceOrient and RobotLocal of force guide sequence.\n\nThis property is used when Straight is specified by ProbeTrajectory property.\n\nValues\n\nMinimum value -2000\n\nMaximum value 2000\n\nDefault:  0\n\nSee Also: DestRelativeZ Property\n\nDestRelativeX Property\n\nDestRelativeY Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressProbe Object, Contact Probe Object, PressMove Object",
+  "examples": []
+}

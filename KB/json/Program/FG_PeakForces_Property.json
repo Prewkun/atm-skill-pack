@@ -1,0 +1,12 @@
+{
+  "title": "FG_PeakForces Result",
+  "file": "FG_PeakForces_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Peak values of force and torque during the force guide object execution.\n\nThe peak value is a value which absolute value is the largest.  Acquire values of Fx, Fy, Fz, Tx, Ty, and Tz.\n\nValues\n\nUnit:  Fx, Fy, Fz [N] / Tx, Ty, Tz [N.mm]",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence, Contact Object, Relax Object, FollowMove Object, SurfaceAlign Object, PressProbe Object, ContactProbe Object, Press Object, PressMove Object\n\nEndForces Result",
+  "examples": []
+}

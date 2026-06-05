@@ -1,0 +1,15 @@
+{
+  "title": "AvgSpeedClear Statement",
+  "file": "AvgSpeedClear_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "AvgSpeedClear [j1 [,j2 [, j3 [, j4 [, j5 [, j6 [, j7 [, j8 [, j9]]]]]]]]]",
+  "parameters": "j1\n\t\t - j9\tInteger\n\t\t expression representing the joint number.  If no parameters\n\t\t are supplied, then the average values for all joints are cleared.\n\nThe\n\t\t additional S axis is 8 and T axis is 9.  If non-existent\n\t\t joint number is supplied, an error occurs.",
+  "description": "AvgSpeedClear clears the average of the absolute speed values for the specified joints.\n\nYou must execute AvgSpeedClear before executing AvgSpeed.\n\nThis command does not support the PG additional axes.",
+  "notes": "",
+  "see_also": "Clears and initializes the average of the absolute speed values for one or more joints.\n\nAvgSpeed\n\nPeakSpeed\n\nAvgSpeedClear Statement",
+  "examples": [
+    "> AvgSpeedClear\n> Go P1\n> AvgSpeed 1 0.073\n> AvgSpeed 0.073    0.044 0.021    0.069 0.001    0.108 0.000    0.000 0.000\n>",
+    "> AvgSpeedClear 4, 1, 5\n> Go P1\n> AvgSpeed 1 0.226\n> AvgSpeed 4 0.207"
+  ]
+}

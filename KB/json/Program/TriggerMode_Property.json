@@ -1,0 +1,12 @@
+{
+  "title": "TriggerMode Property",
+  "file": "TriggerMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the type of trigger signal transition used for electronic shutter release acquisition.",
+  "notes": "The TriggerMode property allows you to match the camera trigger signal transition according to the circuit you are using.\n\nSee Also: TriggerMode Property\n\nRuntimeAcquire Property\n\nSequence window",
+  "see_also": "Applies To\n\nVision Sequences",
+  "examples": []
+}

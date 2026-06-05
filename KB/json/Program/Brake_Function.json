@@ -1,0 +1,14 @@
+{
+  "title": "Brake Function",
+  "file": "Brake_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Brake(jointNumber)",
+  "parameters": "jointNumber\tInteger expression representing the joint number.  Values are from 1 to the number of joints on the robot.",
+  "description": "Brake Function\n\nBrake Function",
+  "notes": "",
+  "see_also": "Returns brake status for specified joint.\n\nBrake Statement\n\nBrake Function Example\n\nIf Brake(1) = Off Then\n\n\t\t  Print \"Joint 1 brake is off\"\n\n\t\tEndIf",
+  "examples": [
+    "If Brake(1) = Off Then\n\t\t  Print \"Joint 1 brake is off\"\n\t\tEndIf"
+  ]
+}

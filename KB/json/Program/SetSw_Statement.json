@@ -1,0 +1,14 @@
+{
+  "title": "SetSw Statement",
+  "file": "SetSw_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SetSw\n\t\t\tportNumber, value",
+  "parameters": "portNumber\tInteger expression representing the input bit number.\n\nvalue\tInteger expression with a value of 0 (Off) or 1 (On).",
+  "description": "SetSw provides the ability to turn on or off one input bit.",
+  "notes": "",
+  "see_also": "For Virtual IO, sets specified input bit to the specified value.\n\nSetIn\n\nSetInW\n\nSetSw Example\n\n> setsw 2, on  ' Sets the 2nd input bit to On.",
+  "examples": [
+    "> setsw 2, on  ' Sets the 2nd input bit to On."
+  ]
+}

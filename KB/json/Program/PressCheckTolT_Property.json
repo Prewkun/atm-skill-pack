@@ -1,0 +1,12 @@
+{
+  "title": "PressCheckTolT Property",
+  "file": "PressCheckTolT_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the range of the end conditions related to force.\n\nIt is used when ForceCheckEnabled is True in a direction where Press is specified by ControlMode in Tx, Ty, and Tz directions.\n\nDetermine that the force in each direction is inside or outside of the range of\n\nPressForce -PressCheckTolT to PressForce +PressCheckTolT.\n\nValues\n\nMinimum value 100\n\nMaximum value 10000\n\nDefault:  500\n\nSee Also: PressCheckTolT Property\n\nPressCheckTolF Property",
+  "notes": "",
+  "see_also": "Applies To\n\nPress Object, PressMove Object",
+  "examples": []
+}

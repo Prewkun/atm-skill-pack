@@ -1,0 +1,12 @@
+{
+  "title": "Multiple Conveyors",
+  "file": "Multiple_Conveyors",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Multiple Conveyors\n\nMultiple Conveyors\n\nEpson RC+ supports multiple logical conveyors and robots. You can use multiple robots with one conveyor.\n\nThis section describes a conveyor system that uses one robot with two or more conveyors.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

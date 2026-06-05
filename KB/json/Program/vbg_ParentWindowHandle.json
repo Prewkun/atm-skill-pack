@@ -1,0 +1,15 @@
+{
+  "title": "ParentWindowHandle Property, Spel Class",
+  "file": "vbg_ParentWindowHandle",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property ParentWindowHandle As Integer",
+  "parameters": "",
+  "description": "Sets / returns the handle for the parent window used for dialogs and windows.",
+  "notes": "Use ParentWindowHandle when ServerOutOfProcess is set to true. This allows you to specify the parent window from applications that do not have .NET forms, such as LabVIEW.",
+  "see_also": "ServerOutOfProcess\n\nParentWindowHandle Example\n\nVB Example:\n\nm_spel.ParentWindowHandle = Me.Handle\n\nm_spel.ShowWindow(RCAPINet70.SpelWindows.IOMonitor)\n\nC# Example:\n\nm_spel.ParentWindowHandle  = (int)this.Handle;\n\nm_spel.ShowWindow(RCAPINet.SpelWindows.IOMonitor);",
+  "examples": [
+    "m_spel.ParentWindowHandle = Me.Handle\nm_spel.ShowWindow(RCAPINet70.SpelWindows.IOMonitor)",
+    "m_spel.ParentWindowHandle  = (int)this.Handle;\nm_spel.ShowWindow(RCAPINet.SpelWindows.IOMonitor);"
+  ]
+}

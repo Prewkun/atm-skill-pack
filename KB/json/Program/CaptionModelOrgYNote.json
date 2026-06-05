@@ -1,0 +1,12 @@
+{
+  "title": "CaptionModelOrgYNote",
+  "file": "CaptionModelOrgYNote",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CaptionModelOrgYNote\n\nIf the ModelOrgAutoCntr property is set to True, the ModelOrgY property cannot be used to reposition the model origin.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

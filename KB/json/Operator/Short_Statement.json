@@ -1,0 +1,14 @@
+{
+  "title": "Short Statement",
+  "file": "Short_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "Short varName [( subscripts )] [, varName [( subscripts )]",
+  "parameters": "varName\tVariable name which the user wants to declare.\n\nsubscripts\tOptional.  Dimensions of an array variable; up to 3 dimensions may be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2], [ubound3])\n\nubound1, ubound2, ubound3 each specify the maximum upper bound for the associated dimension.\n\nThe elements in each dimension of an array are numbered from 0 and the available number of array elements is the upper bound value + 1.\n\nWhen specifying the upper bound value, make sure the number of total elements is within the range shown below:\n\nLocal variable   2000\n\nGlobal Preserve variable   4000\n\nGlobal variable and module variable   100000",
+  "description": "Short is used to declare variables as type integer.  Integer variables can contain values from -32768 to 32767.  Local variables should be declared at the top of a function.  Global and module variables must be declared outside of functions.",
+  "notes": "",
+  "see_also": "Data Types Overview\n\nVariable Naming Conventions\n\nVariable Declarations\n\nBoolean\n\nByte\n\nDouble\n\nGlobal\n\nInt32\n\nInteger\n\nLong\n\nReal\n\nString\n\nUByte\n\nUInt32\n\nUShort\n\nShort Statement Example\n\nThe following example shows a simple program that declares some variables using Short.\n\nFunction shorttest\n\n  Short A(10) 'Single dimension array of Short\n\n  Short B(10, 10) 'Two dimension array of Short\n\n  Short C(5, 5, 5) 'Three dimension array of Short\n\n  Short var1, arrayvar(10)\n\n  Integer i\n\n  Print \"Please enter an integer Number\"\n\n  Input var1\n\n  Print \"The Integer variable var1 = \", var1\n\n  For i=1 To 5\n\n    Print \"Please enter an Integer Number\"\n\n    Input arrayvar(i)\n\n    Print \"Value Entered was \", arrayvar(i)\n\n  Next i\n\nFend",
+  "examples": [
+    "Function shorttest Short A(10) 'Single dimension array of Short Short B(10, 10) 'Two dimension array of Short Short C(5, 5, 5) 'Three dimension array of Short Short var1, arrayvar(10) Integer i Print \"Please enter an integer Number\" Input var1 Print \"The Integer variable var1 = \", var1 For i=1 To 5\n    Print \"Please enter an Integer Number\"\n    Input arrayvar(i)\n    Print \"Value Entered was \", arrayvar(i) Next i\nFend"
+  ]
+}

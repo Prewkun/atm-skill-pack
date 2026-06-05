@@ -1,0 +1,12 @@
+{
+  "title": "Ty_ControlMode Property",
+  "file": "Ty_ForceControlMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set the control mode in Ty direction in the coordinate system specified by ForceOrient of the force guide sequence.\n\nWhen specifying Disabled, the force control functions to Ty direction are not executed.\n\nWhen specifying Follow, the force control functions to Ty direction is executed as the follow mode.  In the follow mode, the robot moves so that the external torque will be \"0\".  Therefore, when the external torque is applied, the robot moves to follow it.\n\nValues\n\nDisabled Disable the force control functions.\n\nFollow The force control functions are executed like the Follow motion.\n\nDefault:  Disabled\n\nSee Also: Ty_ControlMode Property\n\nTx_ControlMode Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object, FollowMove Object, Press Object, PressMove Object",
+  "examples": []
+}

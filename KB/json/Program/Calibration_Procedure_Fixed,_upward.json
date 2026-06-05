@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Procedure: Fixed upward",
+  "file": "Calibration_Procedure_Fixed,_upward",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Procedure: Fixed upward\n\nCalibration Procedure: Fixed Upward Camera\n\nThis calibration will allow you to search for objects from a fixed camera looking up and get their positions in the robot coordinate system.\n\nThe same calibration is possible for a fixed downward camera by setting the reference point type to \"EndEffector\".\n\nPreperation\n\nUsing the Calibration Wizard",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

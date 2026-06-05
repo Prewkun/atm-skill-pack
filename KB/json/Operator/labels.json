@@ -1,0 +1,14 @@
+{
+  "title": "labels",
+  "file": "labels",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "labels\n\nLabels\n\nA program line is an alphanumeric name followed by a colon (\":\") that marks a location in a program for a GoTo or GoSub statement. The name may be up to 32 characters long and can include alphanumeric characters and the underscore (\"_\") character if it is not the first character. You cannot use any SPEL+ keywords as labels.\n\nFor example:\n\nFunction Main\n\n  Do\n\n    Jump P1\n\n    Jump P2\n\n    If Sw(1) Then GoTo MainAbort\n\n  Loop\n\nMainAbort: ' This is a program label.\n\n  Print \"Program aborted\"\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Main Do\n    Jump P1\n    Jump P2\n    If Sw(1) Then GoTo MainAbort Loop\n\nMainAbort: ' This is a program label. Print \"Program aborted\"\nFend"
+  ]
+}

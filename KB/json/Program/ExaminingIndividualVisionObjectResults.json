@@ -1,0 +1,12 @@
+{
+  "title": "Examining Individual Vision Object Results",
+  "file": "ExaminingIndividualVisionObjectResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Examining Individual Vision Object Results\n\nExamining Individual Vision Object Results\n\nWhen running a vision sequence, you can display the vision sequence results on the Sequence tab or you can display an individual vision object's results on the Object tab.  If you suspect a specific vision object's performance or just want to closely monitor it after the vision sequence runs, you can do so with just a few clicks.\n\n\t\t\tClick on the Object tab to make it come to the front position\n\t\t\tSelect the vision object you are interested in\n\t\t\tExamine the results for that vision object once the vision sequence is run\n\nYou can even switch vision objects or between the Object tab and Sequence tab while a vision sequence is running.  This gives you the ability to start a vision sequence running for 1 or more cycles and then examine the results for many of the different vision objects within that vision sequence without having to stop the vision sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

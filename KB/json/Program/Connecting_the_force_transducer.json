@@ -1,0 +1,12 @@
+{
+  "title": "Connecting the force transducer",
+  "file": "Connecting_the_force_transducer",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Connecting the force transducer\n\nConnecting the force transducer\n\nUse the cable supplied with the transducer to connect it to the PC board.  The Nano transducer connects to an external interface box which in turn connects to the PC board.\n\nNOTE:  For ISA force sensing boards, the serial number on the sensor must match the serial number on the PC board.  This is important for sensor calibration to work correctly.\n\nCAUTION:\n  Make sure power is off before connecting or disconnecting the force transducer.\n  Protect transducer from electro-static discharge.  Do not touch the internal electronics or connector pins.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

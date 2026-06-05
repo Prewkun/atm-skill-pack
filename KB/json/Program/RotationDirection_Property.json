@@ -1,0 +1,12 @@
+{
+  "title": "RotationDirection Property",
+  "file": "RotationDirection_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For ImageOp, this property sets or returns the direction of rotation when rotating.\n\nFor Contour, this property sets the direction of rotation for contour lines to be output.",
+  "notes": "For ImageOp, the RotationDirection sets the direction of rotation for the image.\n\nIf RotationDirection is set to CCW, the direction of rotation is counter-clockwise when the angle set as the RotationAngle is a positive value.  If RotationDirection is set to CW, the direction of rotation is clockwise when the angle set as the RotationAngle is a positive value.\n\nFor Contour, the RotationDirection sets the direction of rotation for contour lines.\n\nThis only applies when the ContourMode is set to Blob or Arc.  If RotationDirection is set to CCW, a trajectory traced in a counter-clockwise direction around the work piece is output.  If RotationDirection is set to CW, a trajectory traced in a clockwise direction around the work piece is output.\n\nSee Also: RotationDirection Property\n\nAngleObject Property\n\nImageOp Object\n\nOperation Property\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Objects: ImageOp, Contour",
+  "examples": []
+}

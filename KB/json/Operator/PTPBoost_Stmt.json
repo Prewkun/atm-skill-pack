@@ -1,0 +1,14 @@
+{
+  "title": "PTPBoost Statement",
+  "file": "PTPBoost_Stmt",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "(1) PTPBoost\n\t\t\tboost, [departBoost], [approBoost]\n\n(2) PTPBoost",
+  "parameters": "boost\tInteger expression from 0 - 100.\n\ndepartBoost\tOptional.  Jump depart boost value.  Integer expression from 0 - 100.\n\napproBoost\tOptional.  Jump approach boost value.  Integer expression from 0 - 100.",
+  "description": "PTPBoost sets the acceleration, deceleration and speed for small distance PTP motion.\n  It is effective only when the motion distance is small. The PTPBoostOK function can be used to confirm whether or not a specific motion distance to the destination is small enough to be affected by PTPBoost or not.\n\nPTPBoost does not need modification under normal circumstances.  Use PTPBoost only when you need to shorten the cycle time even if vibration becomes larger, or conversely when you need to reduce vibration even if cycle time becomes longer.\n\nWhen the PTPBoost value is large, cycle time becomes shorter, but the positioning vibration increases.  When PTPBoost is small, the positioning vibration becoms smaller, but cycle time becomes longer.  Specifying inappropriate PTPBoost causes errors or can damage the manipulator. This may degrade the robot, or sometimes cause the manipulator life to shorten.\n\nThe PTPBoost value initializes to the default values (low acceleration) when any one of the following conditions occurs:\n\nController Startup\n\nMotor On\n\nSFree, SLock\n\nReset\n\nStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "Specifies or displays the acceleration, deceleration and speed algorithmic boost parameter for small distance PTP (point to point) motion.\n\nPTPBoost Function\n\nPTPBoostOK\n\nPTPBoost Statement Example\n\nPTPBoost 50, 30, 30",
+  "examples": [
+    "PTPBoost 50, 30, 30"
+  ]
+}

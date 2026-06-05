@@ -1,0 +1,15 @@
+{
+  "title": "VRun Method, Spel Class",
+  "file": "vbg_VRun",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VRun (Sequence As String)",
+  "parameters": "Sequence\tString containing the name of a sequence in the current EPSON RC+ project.",
+  "description": "Run a vision sequence in the current EPSON RC+ project.",
+  "notes": "VRun works with sequences using any type of camera calibration or no calibration.\n\nTo display graphics, you need to use a SPELVideo control and set the SpelVideoControl property of the Spel class instance to the SPELVideo control.\n\nAfter you execute VRun, use VGet to retrieve results.",
+  "see_also": "VGet\n\nVSet\n\nVRun Example\n\nVB Example:\n\nFunction FindPart(x As Single, y As Single, angle As Single) As Boolean\n\n  Dim found As Boolean\n\n  Dim x, y as Single\n\n  With m_spel\n\n    .VRun(\"seq01\")\n\n    .VGet(\"seq01\", \"corr01\", \"found\", found)\n\n    If found Then\n\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.CameraX, x)\n\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.CameraY, y)\n\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.Angle, angle)\n\n      FindPart = True\n\n    End If\n\n  End With\n\nEnd Function\n\nC# Example:\n\nbool FindPart(float x, float y, float angle)\n\n{\n\nbool found;\n\nm_spel.VRun(\"seq01\");\n\nm_spel.VGet(\"seq01\", \"corr01\", \"found\", found);\n\nif (found) {\n\n       m_spel.VGet(\"seq01\", \"corr01\", \"cameraX\", out x);\n\n       m_spel.VGet(\"seq01\", \"corr01\", \"cameraY\", out y);\n\n       m_spel.VGet(\"seq01\", \"corr01\", \"angle\", out angle);\n\n}\n\nreturn found;\n\n}",
+  "examples": [
+    "Function FindPart(x As Single, y As Single, angle As Single) As Boolean Dim found As Boolean Dim x, y as Single With m_spel\n    .VRun(\"seq01\")\n    .VGet(\"seq01\", \"corr01\", \"found\", found)\n    If found Then\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.CameraX, x)\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.CameraY, y)\n      .VGet(\"seq01\", \"corr01\", SpelVisionProps.Angle, angle)\n      FindPart = True\n    End If End With\nEnd Function",
+    "bool FindPart(float x, float y, float angle)\n{\nbool found;\nm_spel.VRun(\"seq01\");\nm_spel.VGet(\"seq01\", \"corr01\", \"found\", found);\nif (found) {\n       m_spel.VGet(\"seq01\", \"corr01\", \"cameraX\", out x);\n       m_spel.VGet(\"seq01\", \"corr01\", \"cameraY\", out y);\n       m_spel.VGet(\"seq01\", \"corr01\", \"angle\", out angle);\n}\nreturn found;\n}"
+  ]
+}

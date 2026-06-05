@@ -1,0 +1,12 @@
+{
+  "title": "ForceCheckEnabled Property",
+  "file": "ForceCheckEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the end conditions of the force guide object related to force.\n\nValues\n\nTrue Enable the end conditions related to force.\n\nFalse Disable the end conditions related to force.\n\nDefault:  False\n\nSee Also: ForceCheckEnabled Property\n\nForceCheckMode Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object, SurfaceAligh Object, PressProbe Object, Press Object, PressMove",
+  "examples": []
+}

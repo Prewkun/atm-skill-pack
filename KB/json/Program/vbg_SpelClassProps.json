@@ -1,0 +1,12 @@
+{
+  "title": "Spel Class Properties",
+  "file": "vbg_SpelClassProps",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Spel Class Properties\n\nSpel Class Properties\n\nAsyncMode\n\nCommandInCycle\n\nDisableMsgDispatch\n\nErrorCode\n\nErrorOn\n\nEStopOn\n\nMotorsOn\n\nOperationMode\n\nParentWindowHandle\n\nPauseOn\n\nPowerHigh\n\nProject\n\nProjectBuildComplete\n\nProjectOverwriteWarningEnabled\n\nResetAbortEnabled\n\nRobot\n\nRobotModel\n\nRobotType\n\nSafetyOn\n\nServerOutOfProcess\n\nSpelVideoControl\n\nVersion\n\nWarningCode\n\nWarningOn",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

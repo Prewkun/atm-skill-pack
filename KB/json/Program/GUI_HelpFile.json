@@ -1,0 +1,12 @@
+{
+  "title": "Using a Help File",
+  "file": "GUI_HelpFile",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using a Help File\n\nUsing a Help File\n\nGUI Builder supports a simple help system by allowing you to specify a help file for the project from which you can show a topic when a form help button is clicked by the operator.\n\nHelp files must be in the Microsoft HTML help format.\n\nTo use a help file:\n\n\tOpen Project | Properties | GUI Builder.\n\n\tBrowse to the help file and click open to\n\t set the help file.\n\nFor each form that will show help, set the\n\t HelpButton property to True, and set the HelpID property for the topic\n\t you want to display.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Parts Feeding Testing Feeder Cal Results",
+  "file": "Parts_Feeding_Testing_Feeder_Cal_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts Feeding Testing Feeder Cal Results\n\nTesting Feeder Calibration Results\n\nClick the Test button described in 2.3.8.  Calibration to test feeder calibration results.\n\nItem\tDescription\n\nFlip and Separate\tSelects the flip and separate test.\n\nShort axis centering\tSelects the centering test in the direction of short axis.\n\n(left to right on the screen above).\n\nLong axis centering\tSelects the centering test in the direction of long axis.\n\n(up and down on the screen above).\n\nShift forward\tSelects the forward shift test.\n\nParts will travel towards the direction of travel in the parts area set using the Pick Region setting on the Pick screen.\n\nShift backward\tSelects the backward shift test.\n\nParts will travel away from the direction of travel in the parts area set using the Pick Region setting on the Pick screen.\n\nPurge\tSelects purge test.\n\n(1) Select an item to test.\n\n(2) Click the <Start> button.\n\nNote:  If calibrated values have been changed using the \"Manually edit calibration parameters\" option and applied by clicking the <Apply> button before running this test, the updated values will be used for testing.\n\nIf the test is run without clicking the <Apply> button, the pre-updated values will be used for testing.\n\nCalibration items that can be tested will vary depending on selections made in the Part Feeding dialog.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

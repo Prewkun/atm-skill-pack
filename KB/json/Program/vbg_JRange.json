@@ -1,0 +1,15 @@
+{
+  "title": "JRange Method, Spel Class",
+  "file": "vbg_JRange",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub JRange (JointNumber As Integer, LowerLimitPulses As Integer, UpperLimitPulses As Integer)",
+  "parameters": "JointNumber\tInteger number between 1 - 9 representing the joint for which JRange will be specified.\n\nLowerLimitPulses\tInteger number representing the encoder pulse count position for the lower limit range of the specified joint.\n\nUpperLimitPulses\tInteger number representing the encoder pulse count position for the upper limit range of the specified joint.",
+  "description": "Defines the permissible working range of the specified robot joint in pulses.",
+  "notes": "",
+  "see_also": "XYLim\n\nJRange Example\n\nVB Example:\n\nm_spel.JRange(1, -30000, 30000)\n\nC# Example:\n\nm_spel.JRange(1, -30000, 30000);",
+  "examples": [
+    "m_spel.JRange(1, -30000, 30000)",
+    "m_spel.JRange(1, -30000, 30000);"
+  ]
+}

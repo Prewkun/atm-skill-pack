@@ -1,0 +1,12 @@
+{
+  "title": "Other Useful Utilities for Use with Blob Objects",
+  "file": "OtherUsefulUtilitiesforUsewithBlobObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Other Useful Utilities for Use with Blob Objects\n\nOther Useful Utilities for Use with Blob Objects\n\nAt this point you may want to consider examining the  [Histogram] button on the Vision Guide toolbar.  Histograms are useful because they graphically represent the distribution of gray-scale values within the search window.  The Vision Guide Histogram tool provides a useful mechanism for setting the gray levels for the ThresholdLow and ThresholdHigh properties which then define what is considered a part of the blob and what is considered part of the background.  When you are having problems with finding a blob the Histogram feature is invaluable.\n  The details regarding the Vision Guide Histogram usage are described in  Using Histograms.\n\nYou may also want to use the [Statistics] button on the Vision Guide toolbar to examine the Blob object's results statistically.  An explanation of the Vision Guide Statistics features are explained in Using Vision Guide Statistics.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

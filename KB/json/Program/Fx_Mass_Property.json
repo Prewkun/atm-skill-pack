@@ -1,0 +1,14 @@
+{
+  "title": "Fx_Mass, Fy_Mass, Fz_Mass Property",
+  "file": "Fx_Mass_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the virtual coefficient of inertia for force control in the specified axis of the force in the translational direction.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Control\n Fy_Mass, Fz_Mass Property\n\nFx_Damper, Fy_Damper, Fz_Damper Property",
+  "examples": [
+    "Function Test_Mass FSet FCS1.Orientation, FG_TOOL FSet FC1.CoordinateSystem, FCS1 FSet FC1.Enabled, True, False, False, False, False, False FSet FC1.Fx_Spring, 0.01 FSet FC1.Fx_Damper, 4 FSet FC1.Fx_Mass, 5 Move CurPos +X(10) FC1\nFend"
+  ]
+}

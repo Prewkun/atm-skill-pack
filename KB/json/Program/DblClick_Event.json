@@ -1,0 +1,14 @@
+{
+  "title": "DblClick Event",
+  "file": "DblClick_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when a control is double clicked.",
+  "notes": "The DblClick event is used to respond to a double click on a control by the user. You can use the Sender$ parameter to determine which control sent the event.",
+  "see_also": "Applies To\n\nLabel, ListBox, Led, PictureBox, VideoBox, LED, ProgressBar, Grid\n\nClick Event\n\nGUI Items: DblClick Event\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox",
+  "examples": [
+    "Function frmMain_lstModels_DblClick(Sender$ As String)\n   Integer index\n   GGet frmMain.lstModels.SelectedIndex, index\n   GGet frmMain.lstModels.List(index), g_CurrModel$\nFend"
+  ]
+}

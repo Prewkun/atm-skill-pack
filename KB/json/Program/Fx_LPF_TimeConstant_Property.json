@@ -1,0 +1,14 @@
+{
+  "title": "Fx_LPF_TimeConstant, Fy_LPF_TimeConstant, Fz_LPF_TimeConstant Property",
+  "file": "Fx_LPF_TimeConstant_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets the time constant or returns the value thereof for the force in the specified axis in the direction of translation.",
+  "notes": "This sets the time constant for the low-pass filter or returns the status thereof for the specified axis in the direction of translation for the force trigger function or force monitor function.\n\nThe low-pass filter time constant is the time it takes to arrive at an input value of 1-e-1 (approximately 63.2%) when giving step input.\n\nThe signal noise reduction can be enhanced when increasing the time constant, but the following performance for quick signal changes deteriorates.\n\nThe low-pass filter is used with AvgForces Status, PeakForces Status, the Force Trigger Function, and Force Monitor. It is not used with Forces Status.\n\nNote",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function GetPeakForceTest Real myPeakForce FSet FCS1.Orientation, FG_TOOL FSet FM1.CoordinateSystem, FCS1 FSet FM1.Fx_LPF_Enabled, True FSet FM1.Fx_LPF_TimeConstant, 0.02 FSet FM1.PeakForceClear, True, True, True, True, True, True Wait 10 FGet FM1.Fx_PeakForce, myPeakForce Print myPeakForce\nFend"
+  ]
+}

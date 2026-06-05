@@ -1,0 +1,14 @@
+{
+  "title": "ROTOK Function",
+  "file": "ROTOK_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "ROTOK (destination coordinates)\n\nROTOK (reference coordinates, destination coordinates)",
+  "parameters": "destination coordinates\tSpecifies the destination coordinates in point data to check whether an ROT modifier parameter can be added.\n\nreference coordinates\tSpecifies the reference coordinates in point data to check whether an ROT modifier parameter can be added.",
+  "description": "Checks whether an ROT modifier parameter can be added before actually moving the robot.\n\nAn ROT modifier parameter is a parameter that can be added to Move and other linear interpolation motion commands to prioritize acceleration/deceleration in favor of tool rotation.\n\nThe ROTOK function determines whether an error will occur when adding an ROT parameter to Move and other linear interpolation motion commands from the reference coordinates to the destination before moving the robot.\n\nIf the reference coordinates are omitted, the result returned will be determined based on the current position (Here).\n\nAn error will occur when adding an ROT modifier parameter with a rotation angle of \"0\", or a small rotation angle. This function determines such an error. Note, however, that it cannot determine whether the robot joint speed and joint acceleration limits have been exceeded during motion (error 4242, etc.). If this occurs, reduce values for SpeedS, SpeedR, AccelS, and AccelR.",
+  "notes": "",
+  "see_also": "Returns whether an ROT modifier parameter can be added when issuing a motion command to a destination.\n\nMove\n\nROTOK Function Example\n\nIf ROTOK(P1) = True Then\n Move P1 ROT\n\nElse\n Move P1\n\nEndIf",
+  "examples": [
+    "If ROTOK(P1) = True Then Move P1 ROT\nElse Move P1\nEndIf"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "RS-232C Overview",
+  "file": "Overview_RS232",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "RS-232C Overview\n\nRS-232C Communications Overview\n\nThe Robot Controller supports:\n\nWindows part : Standard RS-232C port   x 2\n\n(Standard: Port 1001 only, High-speed: Port 1001, 1002)\n\nStandard RS-232C : 1 port as standard\n\nExpanded RS-232C : Option RS-232C port x 4 at maximum (2 ports per board)\n\nHowever, RS-232C port x 2 at maximum when using Force Sensor I/F board with RC700 series. (For a board, one is the maximum.)\n\nFor details on RS-232C board installation, refer to the following manual:\n\nRobot Controller Manual",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

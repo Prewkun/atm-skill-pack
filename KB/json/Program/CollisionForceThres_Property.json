@@ -1,0 +1,12 @@
+{
+  "title": "CollisionForceThres Property",
+  "file": "CollisionForceThres_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a force to detect that a screw collides with a hole other than the screw hole during screw tightening operation.\n\nSet it to a value sufficiently larger than the force set by PressForce.\n\nIf PressOrient is +Fx, +Fy, +Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t-100\n\nMaximum value\t-10\n\nDefault: -30\n\nIf PressOrient is -Fx, -Fy, -Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t10\n\nMaximum value\t100\n\nDefault: -30",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

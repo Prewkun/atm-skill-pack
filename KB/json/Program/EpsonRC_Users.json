@@ -1,0 +1,12 @@
+{
+  "title": "Notes for Users of EPSON RC+ 7.x or Earlier Versions",
+  "file": "EpsonRC_Users",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Notes for Users of EPSON RC+ 7.x or Earlier Versions\n\nNotes for Users of EPSON RC+ 7.x or Earlier Versions\n\nEpson RC+ 8.0 is only compatible with projects created with EPSON RC+ 7.0.\n\nFor EPSON RC+ 7.0\n\nEPSON RC+ 7.0 is compatible with Epson RC+ 8.0.\n\nProjects created with EPSON RC+7.0 are saved to the following location.\n\n\"\\EpsonRC70\\projects\" directory\n\nFrom the Epson RC+ 8.0 menu, select [Project] - [Import Project] to import project files for use.\n\nFor SPEL for Windows and EPSON RC+ 6.0 or earlier versions\n\nUse EPSON RC+ 7.0 to convert the project file to an Epson RC+ 8.0-compatible EPSON RC+ 7.0 project.\n\nFrom\n\t the EPSON RC+ 7.0 menu, select [Project] - [Import Project] to import\n\t a SPEL for Windows or Epson RC+ 6.0 or earlier project.\n\nFrom\n\t the EPSON RC+ 7.0 menu, select [Project] - [Save Project] to save\n\t the project.\n\n\tImported projects are saved to the following location.\n\n\t\"/EpsonRC70/projects \" directory\n\nFrom\n\t the Epson RC+ 8.0 menu, select [Project] - [Import Project] to import\n\t and use an EPSON RC+ 7.0 project file.\n\nFor details of EPSON RC+7.0, refer to following.\n\nEPSON RC+ 7.0 Users Guide",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "StrengthTarget Property",
+  "file": "StrengthTargetProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the desired edge strength to search for.",
+  "notes": "An edge's strength is the minimum/maximum edge value along the width of the edge (depending on polarity).  This value is a normalized percentage of the maximum pixel value.\n\nUse StrengthTarget to find edges with lower strengths.  First, find the edge you want to search for and record the Strength result value.  Next, set the StrengthTarget property to this value.  Then set the ScoreWeightStrength to a higher value that ScoreWeightContrast.  This tells the Edge object to look for an edge with the desired strength and base the score on it.\n\nSee Also: StrengthTarget Property\n\nStrength Result\n\nStrengthVariation Property\n\nVision Objects: StrengthTarget Property\n\nEdge",
+  "see_also": "Applies To\n\nVision Objects: Edge",
+  "examples": []
+}

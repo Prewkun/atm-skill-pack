@@ -1,0 +1,14 @@
+{
+  "title": "WorkQue_Reject Function",
+  "file": "WorkQue_Reject_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "WorkQue_Reject(WorkQueNum)",
+  "parameters": "WorkQueNum\tInteger expression (1 - 16) that specifies the work queue number.",
+  "description": "WorkQue_Reject Function\n\nWorkQue_Reject Function",
+  "notes": "",
+  "see_also": "Returns the distance of the double registration prevention set to the specified work queue.\n\nWorkQue_Add\n\nWorkQue_Reject\n\nWorkQue_Reject Function Example\n\nReal rejectDist\n\nrejectDist = WorkQue_Reject(1)",
+  "examples": [
+    "Real rejectDist\n\nrejectDist = WorkQue_Reject(1)"
+  ]
+}

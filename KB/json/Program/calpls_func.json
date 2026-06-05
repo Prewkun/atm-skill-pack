@@ -1,0 +1,14 @@
+{
+  "title": "CalPls Function",
+  "file": "calpls_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "CalPls(joint)",
+  "parameters": "joint\tInteger expression representing a robot joint number or 0 to return CalPls status.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "CalPls Function\n\nCalPls Function\n\nSee_Also Example\n\nReturns calibration pulse value specified by the CalPls Statement.",
+  "notes": "",
+  "see_also": "CalPls Statement\n\nCalPls Function Example\n\nThis example uses the CalPls function in a program:\n\nFunction DisplayCalPlsValues\n\n  Integer i\n\n  Print \"CalPls Values:\"\n\n  For i = 1 To 4\n\n    Print \"Joint \", i, \" CalPls = \", CalPls(i)\n\n  Next i\n\nFend",
+  "examples": [
+    "Function DisplayCalPlsValues Integer i Print \"CalPls Values:\" For i = 1 To 4\n    Print \"Joint \", i, \" CalPls = \", CalPls(i) Next i\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 3: Configure the ImageOp Object Properties",
+  "file": "Step3_ConfiguretheImageOpObjectProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 3: Configure the ImageOp Object Properties\n\nStep 3: Configure the ImageOp object Properties\n\nNow, set property values for the ImageOp object.  Some of the commonly used properties that are specific to the ImageOp object are described below.  Explanations for other properties such as Graphics, etc. which are used on many of the different vision objects can be seen in the Vision Guide 8.0 Properties and Results Reference Manual or in the ImageOp properties list.\n\n\tName property\n\t - The default name given to a newly created ImageOp object is \"ImgOp**\"\n\t where ** is a number which is used to distinguish between multiple\n\t ImageOp objects within the same vision sequence. If this is the first\n\t ImageOp object for this vision sequence, the default name will be\n\t \"ImgOp01\".  To change the name, click on the Value field of the\n\t Name property, type a new name and press the return key.  Once\n\t the name property is changed, everywhere the ImageOp object's name\n\t is displayed is updated to reflect the new name.\n\tOperation\n\t property - Determines which image operation to perform.  This\n\t is the most important property for the ImageOp object.\n\tIterations\n\t property - Determines the number of iterations to perform.\n\tPolarity property\n\t - Would you like to perform operations on dark objects or light objects?\n\t  The default setting is dark objects. If you want to change it,\n\t click the Value field of the Polarity property and you will see a\n\t drop down list with 2 choices:  DarkOnLight or LightOnDark. Click\n\t the choice you want to use.\n\nYou can probably test the ImageOp object now and then come back and set the any other properties as required later.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

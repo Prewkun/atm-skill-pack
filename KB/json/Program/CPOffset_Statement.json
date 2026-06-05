@@ -1,0 +1,21 @@
+{
+  "title": "CP_Offset Statement",
+  "file": "CPOffset_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "CP_Offset is available for following commands.\n\nMove, Arc, Arc3, CVMove\n\nIf the CP parameter is added to CP On or motion commands, the subsequent command will be executed at the same time as the prior motion starts decelerating.\n\nAs a result, the motions become a path motion as shown below, where deceleration of the first command and acceleration of the subsequent command overlap.\n\nAt this moment, the start of deceleration for the first command and the start of acceleration for the subsequent command are not strictly simultaneous due to the processing overhead time for starting the statement.  Therefore, the speed declines at the switching point in the path motion, and the motion will not be constant velocity.\n\nCP_Offset solves this problem by accelerating the starting time of the subsequent motion command.\n\nBy setting CP_Offset on, the processing start of the subsequent motion command will be accelerated by the time specified for the OffsetTime parameter, and deceleration start of the actual robot and acceleration start of the subsequent command will be synchronized.  As a result, the constant velocity can be inproved.\n\nThe OffsetTime parameter is set by default.   Adjust the parameter according to your application.\n\nEspecially when the subsequent motion command has \"!Paralell Processing!\", the overhead time required for the motion start gets longer.  Therefore, set the OffsetTime parameter higher than the default value, approximately 16ms.\n\nTo set the OffsetTime parameter for CP_Offset, measure the speed of the tool center point for the target motion by using TCPSpeed.  Setting an appropriate value for the OffsetTime parameter improved the motion at the switching point to be close to constant.\n\nTCPSpeed increases when OffsetTime is too large, and TCPSpeed decreases when OffsetTime is too small. Adjustment of CP_Offset must be done in actual system.  Appropriate adjustment cannot be done in the simulator because the processing time to start the command differs from the actual controller.\n\nSample program for measurement using TCPSpeed\n\nFunction main\n\n    Motor On\n\n    Power High\n\n    SpeedS 250; AccelS 1500\n\n    Speed 50; Accel 50, 50\n\nGo XY(300, 500, 500, 90, 0, 180)\n\nCP_Offset On\n\n    Xqt printTcPSpeed\n\nMove XY(0, 500, 500, 90, 0, 180) CP\n\n    Move XY(-300, 500, 500, 90, 0, 180)\n\nQuit printTcPSpeed\n\n    CP_Offset Off\n\nFend\n\nFunction printTcPSpeed\n\n    Do\n\n          Print TCPSpeed\n\n    Loop\n\nFend\n\nExample of OffsetTime adjustment\n\nThis command is not intended for PTP motion.  In PTP motion, the motion will be an usual path motion.\n\nCP_Offset Statement Example\n\nCP_Offset On\n\nMove P1\n\nMove P2\n\nCP_Offset Off\n\nSee Also: CP_Offset Statement\n\nCP_Offset Function\n\nCP\n\nMove\n\nArc, Arc3\n\nCVMove",
+  "notes": "",
+  "see_also": "Sets the offset time to start the subsequent motion commad when executing CP On.",
+  "examples": [
+    "Function main\n    Motor On\n    Power High",
+    "SpeedS 250; AccelS 1500\n    Speed 50; Accel 50, 50",
+    "Go XY(300, 500, 500, 90, 0, 180)",
+    "CP_Offset On\n    Xqt printTcPSpeed",
+    "Move XY(0, 500, 500, 90, 0, 180) CP\n    Move XY(-300, 500, 500, 90, 0, 180)",
+    "Quit printTcPSpeed\n    CP_Offset Off\nFend",
+    "Function printTcPSpeed\n    Do\n          Print TCPSpeed\n    Loop\nFend",
+    "CP_Offset On\nMove P1\nMove P2\nCP_Offset Off"
+  ]
+}

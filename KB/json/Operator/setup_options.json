@@ -1,0 +1,12 @@
+{
+  "title": "Options Command (Setup Menu)",
+  "file": "setup_options",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Options Command (Setup Menu)\n\n[Options] Command (Setup Menu)\n\nThis dialog allows you to view and enable options in the controller.\n\nEpson RC+ 8.0 uses a key that is stored in the Spel controller board to enable options on the system.\n\nIf an option is not enabled, you can purchase it from the supplier of your region. Please contact the supplier. When you call to purchase, you must give the Options Key Code to the operator. You will then be given a code to enable the option for the current software options key.\n\nAfter receiving the code, click the [Enable] button and enter the code. The option you purchased should now be enabled.\n\nFor details on enabling options, refer to Installing Controller Options.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

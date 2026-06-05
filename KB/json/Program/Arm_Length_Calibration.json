@@ -1,0 +1,12 @@
+{
+  "title": "Arm Length Calibration",
+  "file": "Arm_Length_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Arm Length Calibration\n\nArm Length Calibration\n\nOverview\n\nArm length calibration is one of the absolute accuracy calibration functions. It is used to measure the actual length of each robot arm, and correct any deviation between the intended robot position and the actual robot position.\n\nReplacing Parts Requiring Arm Length Calibration    Remeasurements\n\nArm length measurements need to be performed again when replacing the following parts.\n\nReduction\n\t gear unit replacement\n\nBall\n\t screw spline unit replacement\n\nFor more information of parts, contact a supplier of your region.\n\nArm Length Measurements\n\nArm length calibration measurements require precise measurements that cannot be performed by the user. When purchasing an arm length calibration license, arm length calibrations are completed prior to delivery based on factory arm length measurements.\n\nWe provide an arm length calibration remeasurement service for users replacing parts. Please inquire with your supplier.\n\nEnabling and Disabling Arm Length Calibration\n\nArm length calibration can be enabled and disabled using the following commands.\n\n              ArmCalib On | Off\n\nCAUTION\t■\tEnabling\n\t\t and disabling arm length calibration will cause teaching positions\n\t\t to become misaligned. Perform the position teaching procedure\n\t\t again.\n\n■\tEnabling\n\t\t arm length calibration will render parts of the movable range\n\t\t described in the manual as inaccessible. This is because of differences\n\t\t in the logical robot arm length and the actual robot arm length.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Pressing Motion",
+  "file": "Pressing_Motion",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Pressing Motion\n\nPressing Motion\n\nTo use the pressing motion, use the following torque control mode commands.\n\nTC\t(Returns the torque control mode setting\n\t\t and current mode.)\n\nTCSpeed\t(Specifies / returns the speed limit\n\t\t in the torque control.)\n\nTCLim\t(Specifies the torque limit of each\n\t\t joint for the torque control mode.)\n\nThe low power mode is limited by a low power upper limit. Therefore, normally use the High power mode. For details and command usage, refer to the following manual:\n\nSPEL+ Language Reference\n  TC, TCSpeed, TCLim",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

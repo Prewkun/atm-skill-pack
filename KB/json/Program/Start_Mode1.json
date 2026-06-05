@@ -1,0 +1,12 @@
+{
+  "title": "Start Mode",
+  "file": "Start_Mode1",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start Mode\n\nStart Mode\n\nThis page has settings for the Epson RC+ 8.0 start mode.\n\nThere are two start modes:\n\nAuto                       This mode starts the system and displays the Operator Window.\n\nProgram                  This mode allows you to develop your projects. This is the default startup mode.\n\nUse the [Password] button to change the start mode password.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

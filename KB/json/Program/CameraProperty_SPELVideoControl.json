@@ -1,0 +1,12 @@
+{
+  "title": "Camera Property, SPELVideo Control",
+  "file": "CameraProperty_SPELVideoControl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Camera\n\nType\n\nInteger\n\nDefault Value\n\n0 - any camera is displayed",
+  "parameters": "",
+  "description": "Sets/gets the camera number to display video from. This is useful when you want to display video during jogging operations, live video monitoring, etc. If you are using the control to display graphics for vision sequences, then when the sequence is run, the camera number for the sequence will be used instead of this property value.",
+  "notes": "",
+  "see_also": "VideoEnabled\n\nGraphicsEnabled",
+  "examples": []
+}

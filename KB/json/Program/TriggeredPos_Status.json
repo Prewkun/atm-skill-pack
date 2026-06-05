@@ -1,0 +1,14 @@
+{
+  "title": "TriggeredPos Status",
+  "file": "TriggeredPos_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the position when the force trigger conditions are met.",
+  "notes": "This returns the position just prior to the triggering of the force trigger when the triggering conditions are met.\n\nWhen the force trigger conditions are not met, a value of 0 is returned for all.\n\nWhen, as below, multiple force triggers are combined, the position for when that force trigger's conditions were first met is maintained for each Force Trigger Object.\n\nTill FT1 And FT2\n\nTherefore, when Force Trigger Objects with different conditions are used in combination, the TriggeredPos property is different for each Force Trigger Object.",
+  "see_also": "Applies To\n\nForce Trigger",
+  "examples": [
+    "Function TriggeredPosTest FCKeep FC1 Till FT1, 10 FGet FT1.TriggeredPos, P1 Print P1\nFend"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Erl Function",
+  "file": "cmd_erl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Erl[(taskNumber)]",
+  "parameters": "taskNumber\tInteger expression representing a task number from 0-32.\n\nTask omission or 0 specifies the current task.",
+  "description": "Erl is used with OnErr.  Erl returns the line number in which the error occurred.  Using Erl combined with Err, Ert and Era the user can determine much more about the error which occurred.\n\nWhen the event \"Error during Auto Mode\" occurs, normal task and NoPause task in AUTO mode stop execution and end the task.\n\nIf the target task has already ended when using this function for NoEmgAbort task or background task, \"Error 2261\" is occurred.  Use OnErr to acquire information before the task ends.",
+  "notes": "",
+  "see_also": "Error Handling\n\nError Codes\n\nEra\n\nErf$\n\nErr\n\nErrMsg$\n\nErt\n\nOnErr\n\nErl Function Example\n\nThe following example shows a simple program using the Ert function to determine which task the error occurred in along with; Erl: where the error occurred; Err: what error occurred; Era: if an joint caused the error....\n\nFunction main\n\n  OnErr Goto eHandler\n\n  Do\n\n    Call PickPlace\n\n  Loop\n Exit Function\n\neHandler:\n\n  Print \"The Error code is \", Err\n\n  Print \"The Error Message is \", ErrMsg$(Err)\n\n  errTask = Ert\n\n  If errTask > 0 Then\n\n    Print \"Task number in which error occurred is \", errTask\n\n    Print \"The line where the error occurred is Line \", Erl(errTask)\n\n    If Era(errTask) > 0 Then\n\n      Print \"Joint which caused error is \", Era(errTask)\n\n    EndIf\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function main OnErr Goto eHandler Do\n    Call PickPlace Loop Exit Function\neHandler: Print \"The Error code is \", Err Print \"The Error Message is \", ErrMsg$(Err) errTask = Ert If errTask > 0 Then\n    Print \"Task number in which error occurred is \", errTask\n    Print \"The line where the error occurred is Line \", Erl(errTask)\n    If Era(errTask) > 0 Then\n      Print \"Joint which caused error is \", Era(errTask)\n    EndIf EndIf\nFend"
+  ]
+}

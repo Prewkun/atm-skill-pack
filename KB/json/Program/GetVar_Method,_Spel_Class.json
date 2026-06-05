@@ -1,0 +1,31 @@
+{
+  "title": "GetVar Method, Spel Class",
+  "file": "GetVar_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetVar (VarName As String) As Object",
+  "parameters": "VarName\tThe name of the SPEL+ global preserve variable. For an array, the entire array can be returned or just one element.",
+  "description": "Returns the value of a SPEL+ global preserve variable in the controller.",
+  "notes": "You can use GetVar to retrieve values of any global preserve variables in the controller's current project.  Before you can retrieve values, the project must be sucessfully built.\n\nIf you want to retrieve an entire array, then supply the array name in VarName. To retrieve one element of an array, supply the subscript in VarName.",
+  "see_also": "SetVar\n\nGetVar Example\n\nIn the SPEL+ project, the variable is declared:\n\nGlobal Preserve Integer g_myIntVar\n\nGlobal Preserve Integer g_myRealArray(10)\n\nGlobal Preserve String g_myStringVar$\n\nFunction main\n\n   ...\n\nFend\n\nIn the VB project:\n\nSince g_myIntVar is declared as in integer, the VB variable used to retrieve the value of g_myInVar must be declared as an Integer. For g_myRealArray, the VB variable must be declared as a Single array.\n\nDim myIntVar As Integer\n\nDim myRealArray() As Single\n\nDim myStringVar As String\n\nmyIntVar = m_spel.GetVar(\"g_myIntVar\")\n\nmyRealArray = m_spel.GetVar(\"g_myRealArray\")\n\nmyStringVar = m_spel.GetVar(\"g_myStringVar$\")\n\nIn the C# project:\n\nSince g_myIntVar is declared as in integer, the C# variable used to retrieve the value of g_myInVar must be declared as an int.  For g_myRealArray, the C# variable must be declared as a float array.\n\nint myIntVar;\n\nfloat[] myRealArray;\n\nstring myStringVar;\n\nmyIntVar = m_spel.GetVar(\"g_myIntVar\")\n\nmyRealArray = m_spel.GetVar(\"g_myRealArray\")\n\nmyStringVar = m_spel.GetVar(\"g_myStringVar$\")",
+  "examples": [
+    "Global Preserve Integer g_myIntVar",
+    "Global Preserve Integer g_myRealArray(10)",
+    "Global Preserve String g_myStringVar$",
+    "Function main",
+    "...",
+    "Fend",
+    "Dim myIntVar As Integer",
+    "Dim myRealArray() As Single",
+    "Dim myStringVar As String",
+    "myIntVar = m_spel.GetVar(\"g_myIntVar\")",
+    "myRealArray = m_spel.GetVar(\"g_myRealArray\")",
+    "myStringVar = m_spel.GetVar(\"g_myStringVar$\")",
+    "int myIntVar;",
+    "float[] myRealArray;",
+    "string myStringVar;",
+    "myIntVar = m_spel.GetVar(\"g_myIntVar\")",
+    "myRealArray = m_spel.GetVar(\"g_myRealArray\")",
+    "myStringVar = m_spel.GetVar(\"g_myStringVar$\")"
+  ]
+}

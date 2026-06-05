@@ -1,0 +1,12 @@
+{
+  "title": "General Purpose Constants",
+  "file": "constant_general",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "General Purpose Constants\n\nGeneral Purpose Constants\n\nConstant Name\tValue\tUsage\n\nTRUE\t1\tBoolean expression\n\nFALSE\t0\tBoolean expression\n\nCR\tCHR$(13)\tString expression\n\nLF\tCHR$(10)\tString expression\n\nCRLF\tCHR$(13) + CHR$(10)\tString expression\n\nTAB\tTab character\tString expression\n\nPI\t3.1415926535898\tNumeric expression",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

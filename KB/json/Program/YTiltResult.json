@@ -1,0 +1,12 @@
+{
+  "title": "YTilt Result",
+  "file": "YTiltResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the calibration Y tilt result.",
+  "notes": "YTilt is a relative value that indicates camera tilt along the camera Y axis.  The directions are as viewed from the camera in the image coordinate system (plus y is down).\n\nA positive value indicates tilt down, negative indicates tilt up.",
+  "see_also": "Applies To\n\nVision Calibration\n\nXTilt Result",
+  "examples": []
+}

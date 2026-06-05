@@ -1,0 +1,12 @@
+{
+  "title": "Features",
+  "file": "VBG_Features",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Features\n\nFeatures\n\nThe following features are supported in the RC+ API package:\n\n- A .NET library and LabVIEW library.\n\n- Supports 32 bit and 64 bit applications.\n\n- Properties and methods for controlling multiple robots, I/O, and tasks from multiple controllers.\n\n- Methods for executing vision and force sensing* commands.\n\n* Force sensing and Force Sensor are different.\n\nMethods and properties for force sensing described in API manual are not available for Force Sensor.  To use commands for Force Sensor, use Xpt method to execute SPEL function.\n\nAPI does not support Epson RC+ option Force Guide.\n\n- Supports parallel execution of asynchronous commands by multi-threading.\n\n- Several Epson RC+ 8.0 windows and dialogs can be used by your .NET application, including:\n\nRobot Manager\n\nIO monitor\n\nTask manager\n\nSimulator\n\nController Tools dialog\n\nDuring development, Epson RC+ 8.0 can be run along with Visual Basic.\n\nIn production facilities, Epson RC+ 8.0 can be run invisibly in the background.\n\nNOTE: RC+ API supports \".NET library\" and LabVIEW library. \".NET\" 5 is not supported.\n\nNOTE: RC+ API applications created with Epson RC+ 8.0 or later can only be used with Epson RC+ 8.0.\n\nRC+ applications and projects created with EPSON RC+ 7.0 are also compatible with Epson RC+ 8.0. To use the project created in earlier version, you need to re-build the project on Epson RC+ 8.0.\n\nThe figure below shows the basic structure of a system using RC+ API.\n\nRC+ API Basic Structure for the .NET library\n\nRC+ API Basic Structure for the .NET library\n\nEpson RC+ 8.0 is an out-of-process server for the RCAPINet library.\n\nEach instance of RCAPINet Spel class can start an instance of Epson RC+ 8.0.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Simulator Functions",
+  "file": "SimulatorFunctions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Simulator Functions\n\nSimulator Functions\n\nSimulator functions enable easy robot motion checking on your PC, which gives you flexibility to consider the system layout, measure the operation time, and create robot programs.\n\nThey are useful from the introduction stage to the launch of robot system.\n\nOverview\n\nThe following are the major simulator functions:\n\nRobot motion 3D display\n\nShows robot orientation and motion in a 3D display from various viewpoints.\n\nOffers accurate display data based on design data.\n\nThis function is not available for the manipulator series (models) as described below. If a simplified layout consideration or measurement of motion time is needed, set an alternative model. However, external dimensions and motion range may differ. Be careful when you set the alternative models.\n\nFor details on unsupported models, refer to Appendix C: Simulator Functions  List of Unsupported Manipulator Models.\n\nSeries\tModel\tAlternative\n\t\t model\n\n(When\n\t\t using a Virtual Controller)\n\nX5\tAll\n\t\t models\tNo\n\t\t alternative model\t-\n\nG6-II\tProtected-model\n\nG6-***D*-II,\n\t\t G6-***P*-II\tStandard\n\t\t model, Cleanroom model\n\nG6-***S*-II,\n\t\t G6-***C*-II\t*\n\nG10-II\tProtected-model\n\nG10-***D*-II,\n\t\t G10-***P*-II\tStandard\n\t\t model, Cleanroom model\n\nG10-***S*-II,\n\t\t G10-***C*-II\t*\n\nG20-II\tProtected-model\n\nG20-***D*-II,\n\t\t G20-***P*-II\tStandard\n\t\t model, Cleanroom model\n\nG20-***S*-II,\n\t\t G20-***C*-II\t*\n\n*: External dimensions and motion range differ.\n\nInterference check\n\nChecks whether the robot (including the hand and devices installed on the robot) interferes with itself or its peripherals.\n\n(This function is not available for the robots that do not support 3D display.)\n\nRobot operation time prediction\n\nPredicts the robot operation time for a program.\n\nConsiders the speed setting (Speed, etc.) and acceleration / deceleration setting (Accel, etc.) when predicting the robot motion time.\n\nSPEL+ program execution\n\nAllows you to create, execute, and debug SPEL+ programs.\n\nRestrictions on the simulator functions are described in 8.4 Simulator Specifications and Restrictions.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

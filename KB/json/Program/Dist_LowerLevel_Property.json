@@ -1,0 +1,15 @@
+{
+  "title": "Dist_Levels Property",
+  "file": "Dist_LowerLevel_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Dist_Levels Property\n\nDist_Levels Property\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nSets or returns the value of the lower threshold and upper threshold of movement distance.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function SettingLevels FSet FMR1.Dist_Enabled, True FSet FMR1.Dist_Polarity, FG_OUT FSet FMR1.Dist_Levels, 0, 100 Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError AbortMotion All\nFend"
+  ]
+}

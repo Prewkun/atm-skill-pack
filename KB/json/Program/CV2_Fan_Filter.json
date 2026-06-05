@@ -1,0 +1,12 @@
+{
+  "title": "CV2 Fan Filter",
+  "file": "CV2_Fan_Filter",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 Fan Filter\n\nFan Filter\n\nInspect the fan filter periodically and clean it when needed.  The temperature inside the CV2 may get too high and it may not operate properly if the filter is not kept clean.\n\n(1) Turn OFF the power supply for CV2.  (Be sure to turn OFF at the AC side of the 24VDC power source.)\n\n(2) Remove the filter on the top face of CV2.\n\n(3) Clean the filter using a vacuum cleaner.\n\n(4) Install the filter.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

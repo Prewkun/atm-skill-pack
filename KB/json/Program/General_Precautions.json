@@ -1,0 +1,12 @@
+{
+  "title": "General Precautions",
+  "file": "General_Precautions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "General Precautions\n\nGeneral Precautions\n\nBefore operation, become familiar with the location of all emergency stop switches.\n\nDuring an emergency, always press the nearest emergency stop switch.  There should never be any emergency stop switches in the system that do not operate.\n\nAfter an emergency, do not restore the emergency stop circuit until it has been determined that the entire system is safe to restart.\n\nIf your robot is a 6-axis type, record the pulse values of the reference points used for the calibration.  For details, refer to Setup & Operation 3.7 Checking the Basic Orientation in the Manipulator manual.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

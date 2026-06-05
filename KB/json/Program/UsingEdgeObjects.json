@@ -1,0 +1,12 @@
+{
+  "title": "Using Edge Objects",
+  "file": "UsingEdgeObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Edge Objects\n\nUsing Edge Objects\n\nThe next few sections guide you through how to create and use an Edge object.\n\nHow to create a new Edge object\nPosition and size the search window\nConfigure the properties associated with the Edge object\nTest the Edge object & examine the results\nMake adjustments to properties and test again\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use.  If you have no vision sequence to work with, you can create a new vision sequence by clicking on the New Sequence  toolbar button.  You can also select a sequence which was created previously by clicking on the Sequence tree in the Vision Guide Window.  See Vision Sequences for details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New Edge Object\n\nStep 2: Positioning the Edge Object\n\nStep 3: Configuring Properties for the Edge Object\n\nStep 4: Running the Edge Object and Examining the Results",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

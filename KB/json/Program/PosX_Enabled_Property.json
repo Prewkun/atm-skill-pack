@@ -1,0 +1,14 @@
+{
+  "title": "PosX_Enabled Property",
+  "file": "PosX_Enabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Independently activates/inactivates, or returns the force motion restriction function for position.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Motion Restriction Object FMR#",
+  "examples": [
+    "> FSet FMR1.PosX_Enabled, True"
+  ]
+}

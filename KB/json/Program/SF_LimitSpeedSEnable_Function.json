@@ -1,0 +1,14 @@
+{
+  "title": "SF_LimitSpeedSEnable Function",
+  "file": "SF_LimitSpeedSEnable_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SF_LimitSpeedSEnable(SLSNumber)",
+  "parameters": "SLSNumber\tThe SLS number\n\t\t as an integer value or the constant listed below.\n\nConstant\tValue\tDescription\n\nSLS_1\t1\tSpeed adjustment function when SLS_1\n\t\t is enabled\n\nSLS_2\t2\tSpeed adjustment function when SLS_2\n\t\t is enabled\n\nSLS_3\t3\tSpeed adjustment function when SLS_3\n\t\t is enabled\n\nSLS_T\t9\tSpeed adjustment function when SLS_T\n\t\t is enabled\n\nSLS_T2\t10\tSpeed adjustment function when SLS_T2\n\t\t is enabled",
+  "description": "Returns the status for the function that adjusts the TCP operation speed when the specified SLS number is monitored.\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_LimitSpeedSEnable Function Example\n\nIf SF_LimitSpeedSEnable(SLS_1) = 0 Then\n Print \"SLS_1 linked speed adjustment function is disabled.\"\n\nEndif",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "If SF_LimitSpeedSEnable(SLS_1) = 0 Then Print \"SLS_1 linked speed adjustment function is disabled.\"\nEndif"
+  ]
+}

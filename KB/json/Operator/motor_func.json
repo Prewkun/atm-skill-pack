@@ -1,0 +1,14 @@
+{
+  "title": "Motor Function",
+  "file": "motor_func",
+  "section": "Operator",
+  "type": "function",
+  "syntax": "Motor",
+  "parameters": "",
+  "description": "Motor Function\n\nMotor Function\n\nSee_Also Example\n\nReturns status of motor power for the current robot.",
+  "notes": "",
+  "see_also": "Motor Statement\n\nMotor Function Example\n\nIf Motor = Off Then\n\n\t\t  Motor On\n\n\t\tEndIf",
+  "examples": [
+    "If Motor = Off Then\n\t\t  Motor On\n\t\tEndIf"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "HomeDef Function",
+  "file": "HomeDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "HomeDef",
+  "parameters": "jointNumber\tInteger expression representing the joint number to retrieve the HomeSet value for.",
+  "description": "HomeDef Function\n\nHomeDef Function",
+  "notes": "",
+  "see_also": "Returns whether home position has been defined or not.\n\nHomeClr\n\nHomeSet\n\nHomeDef Function Example\n\nThis example uses the HomeDef function in a program:\n\nFunction DisplayHomeSet\n\n\t\t   Integer i\n\n\t\t   If HomeDef = False Then\n\n\t\t      Print \"Home is not defined\"\n\n\t\t   Else\n\n\t\t      Print \"Home values:\"\n\n\t\t      For i = 1 To 4\n\n\t\t         Print \"J\", i, \" = \", HomeSet(i)\n\n\t\t      Next i\n\n\t\t   EndIf\n\n\t\tFend",
+  "examples": [
+    "Function DisplayHomeSet\n\t\t   Integer i\n\t\t   If HomeDef = False Then\n\t\t      Print \"Home is not defined\"\n\t\t   Else\n\t\t      Print \"Home values:\"\n\t\t      For i = 1 To 4\n\t\t         Print \"J\", i, \" = \", HomeSet(i)\n\t\t      Next i\n\t\t   EndIf\n\t\tFend"
+  ]
+}

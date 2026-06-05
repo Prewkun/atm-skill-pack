@@ -1,0 +1,15 @@
+{
+  "title": "PosLowerLevels Property",
+  "file": "PosLowerLevels_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "PosLowerLevels Property\n\nPosLowerLevels\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nThis sets or returns the lower threshold value of position of each axis, movement distance and rotation angle at the same time.",
+  "notes": "rArray()\n\nElement number\tElement number constant\tDescription\n\n0\tFG_X\tAcquires the lower threshold value for position of X axis.\n\n1\tFG_Y\tAcquires the lower threshold value for position of Y axis.\n\n2\tFG_Z\tAcquires the lower threshold value for position of Z axis.\n\n3\tFG_Dist\tAcquires the lower threshold value for position of movement distance.\n\n4\tFG_Rot\tAcquires the lower threshold value for position of rotation angle.\n\nrValuePosX, rValuePosY, rValuePosZ (Unit: [mm])\n\n\tValues\n\nMinimum\t-20000 (default)\n\nMaximum\t20000\n\nrValueDist (Unit: [mm])\n\n\tValues\n\nMinimum\t0 (default)\n\nMaximum\t20000\n\nrValueRot (Unit: [Degree])\n\n\tValues\n\nMinimum\t0 (default)\n\nMaximum\t180\n\nDetailed Explanation\n\nPosLowerLevels set or return the lower threshold value of position of each axis, movement distance and rotation angle at the same time.\n\nBe sure that PosLowerLevels < PosUpperLevels.\n\nSince lower threshold values for position of each axis, movement distance and rotation angle are set at one time, it can be done with fewer lines than setting them one axis at a time.\n\nThis is used for error checking and task completion conditions.",
+  "see_also": "",
+  "examples": [
+    "Function SettingLevels\n    FSet FMR1.PosEnabled, True, True, True, True, True\n    FSet FMR1.PosPolarities, FG_OUT, FG_OUT, FG_OUT, FG_OUT, FG_OUT\n    FSet FMR1.PosLowerLevels, -100, -100, -100, 0, 0\n    Trap 1, FMR1 Call ForceError\nFend",
+    "Function ForceError\n     AbortMotion All\nFend"
+  ]
+}

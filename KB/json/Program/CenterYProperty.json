@@ -1,0 +1,12 @@
+{
+  "title": "CenterY Property",
+  "file": "CenterYProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the Y Coordinate position to be used as the center point for the Polar object.",
+  "notes": "This property is filled in automatically when the CenterPointObject property for a Polar object is set to another Vision object.  However, if the CenterPointObject property for a Polar object is set to \"screen\", then the user may set the CenterY property to position the Polar object.\n\nThe user may also set the CenterPointObject property for a Polar object automatically by physically dragging the Polar object to a new position on the screen.  When this drag operation is done, the CenterY property is automatically updated with the new CenterY position of the Polar object.\n\nCenterY property is available in Edge object only when Arc is set to SearchType property.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Contour, Edge, Polar\n\nCenterPointObject Property\n\nCenterX Property\n\nVision Objects: CenterY Property\n\nColorMatch\n\nContour\n\nEdge\n\nPolar",
+  "examples": []
+}

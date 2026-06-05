@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Define a Safe Position away from the Washer",
+  "file": "Step_2_Define_a_Safe_Position_away_from_the_Washer",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Define a Safe Position away from the Washer\n\nStep 2: Define a Safe Position Away from the Washer\n\nWe will need a taught point position away from the washer that will be used as a safe position that we will move to at the start of the program.\n\n\tSelect P1 in the point field.\n\tJog the Z-Axis of the robot up and then jog\n\t in X and Y to position the robot in a safe position. This will be\n\t like your start position for your program.  The robot will always\n\t move to this position first before moving to the washer.\n\tClick the [Teach] button on the Jog &\n\t Teach page.  Enter \"safept\" for the label.  This\n\t will teach the \"safept\" position.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

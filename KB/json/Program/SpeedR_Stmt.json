@@ -1,0 +1,14 @@
+{
+  "title": "SpeedR Statement",
+  "file": "SpeedR_Stmt",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) SpeedR\n\t\t\trotSpeed\n\n(2) SpeedR",
+  "parameters": "rotSpeed\tReal expression in degrees / second.\n\nValid entries range of the parameters differs by robot models as follows.\n\nE2C\t0.1 to 2631.584\n\nE2S/E2L\t0.1 to 1875\n\nE2H\t0.1 to 1428\n\nG series\t0.1 to 1000\n\nPS series (ProSix)\t0.1 to 1000",
+  "description": "SpeedR is effective when the ROT modifier is used in the Move, Arc, Arc3, BMove, TMove, and Jump3CP motion commands.\n\nThe SpeedR value initializes to its default value when any one of the following is performed:\n\nController Startup\n\n\t\tMotor On\n\nSFree, SLock, Brake\n\nReset, Reset Error\n\n\t\tStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "Sets or displays the tool rotation speed for CP motion when ROT is used.\n\nAccelR, Arc, Arc3, BMove, Jump3CP, Power, SpeedR Function, TMove\n\nSpeedR Statement Example\n\nSpeedR 200",
+  "examples": [
+    "SpeedR 200"
+  ]
+}

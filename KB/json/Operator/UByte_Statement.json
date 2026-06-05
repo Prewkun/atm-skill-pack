@@ -1,0 +1,14 @@
+{
+  "title": "UByte Statement",
+  "file": "UByte_Statement",
+  "section": "Operator",
+  "type": "statement",
+  "syntax": "UByte varName [( subscripts )] [, varName [( subscripts )]...",
+  "parameters": "varName\tVariable name which the user wants to declare as UByte type.\n\nsubscripts\tOptional.  Dimensions of an array variable; up to 3 dimensions may be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2], [ubound3])\n\nubound1, ubound2, ubound3 each specify the maximum upper bound for the associated dimension.\n\nThe elements in each dimension of an array are numbered from 0 and the available number of array elements is the upper bound value + 1.\n\nWhen specifying the upper bound value, make sure the number of total elements is within the range shown below:\n\nLocal variable   2000\n\nGlobal Preserve variable   4000\n\nGlobal variable and module variable   100000",
+  "description": "UByte is used to declare variables as UByte type.  Variables of UByte type can contain values from 0 to 255.  Local variables should be declared at the top of a function.  Global and module variables must be declared outside of functions.",
+  "notes": "",
+  "see_also": "Boolean\n\nByte\n\nData Types Overview\n\nDouble\n\nGlobal\n\nInt32\n\nInteger\n\nLong\n\nReal\n\nShort\n\nString\n\nUInt32\n\nUShort\n\nVariable Declarations\n\nVariable Naming Conventions\n\nUByte Statement Example\n\nThe following example shows a simple program which declares some variables as Integers using UByte.\n\nFunction inttest\n\n  UByte A(10) 'Single dimension array of UByte type\n\n  UByte B(10, 10) 'Two dimension array of UByte type\n\n  UByte C(5, 5, 5) 'Three dimension array of UByte type\n\n  UByte test_ok\n\n  test_ok = 15\n  Print \"Inital value of test_ok = \", test_ok\n\n  test_ok = (test_ok And 8)\n\n  If test_ok <> 8 Then\n\n    Print \"test_ok high bit is ON\"\n\n  Else\n\n    Print \"test_ok high bit is OFF\"\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function inttest UByte A(10) 'Single dimension array of UByte type UByte B(10, 10) 'Two dimension array of UByte type UByte C(5, 5, 5) 'Three dimension array of UByte type UByte test_ok test_ok = 15  Print \"Inital value of test_ok = \", test_ok test_ok = (test_ok And 8) If test_ok <> 8 Then\n    Print \"test_ok high bit is ON\" Else\n    Print \"test_ok high bit is OFF\" EndIf\nFend"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Positioning the CornerFinder Object",
+  "file": "Step_2__Positioning_the_CornerFinder_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Positioning the CornerFinder Object\n\nStep 2: Position and Size the Search Window\n\nYou should now see a CornerFinder object similar to the one shown below:\n\nNew CornerFinder Object Layout\n\n(1) Click the name label of the CornerFinder object and, while holding the mouse down, drag the CornerFinder object to the position where you would like the search window to reside.\n\n(2) Resize the CornerFinder object search window as required using the search window size handles.  (This means click a size handle and drag the mouse.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

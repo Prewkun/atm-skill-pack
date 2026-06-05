@@ -1,0 +1,15 @@
+{
+  "title": "Hofs Method, Spel Class",
+  "file": "Hofs_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Hofs (JointNumber As Integer) As Integer\n\nSub Hofs (J1Pulses As Integer, J2Pulses As Integer, J3Pulses As Integer, J4Pulses As Integer, [J5Pulses As Integer], [J6Pulses As Integer], [ J7Pulses As Integer], [J8Pulses As Integer] , [J9Pulses As Integer])",
+  "parameters": "J1Pulses - J9Pulses\tInteger number representing the pulse for Joints #1 to #9.\n\nJ5Pulses - J9Pulses can be omitted.",
+  "description": "Reads or sets the offset pulses used for software zero point correction.",
+  "notes": "Hofs displays or sets the home position offset pulses. Hofs specifies the offset from the encoder 0 point (Z phase) to the mechanical 0 point.)\n\nAlthough the robot motion control is based on the zero point of the encoder mounted on each joint motor, the encoder zero point may not necessarily match the robot mechanical zero point. The Hofs offset pulse correction\n\nNote:  Hofs Values SHOULD NOT be Changed unless Absolutely Necessary\n\nThe Hofs values are correctly specified prior to delivery. There is a danger that unnecessarily changing the Hofs value may result in position errors and unpredictable motion. Therefore, it is strongly recommended that Hofs values not be changed unless absolutely necessary.\n\nTo Automatically Calculate Hofs Values\n\nTo have Hofs values automatically calculated, move the arm to the desired calibration position, and execute Calib. The controller then automatically calculates Hofs values based on the CalPls pulse values and calibration position pulse values.\n\nSaving and Restoring Hofs\n\nHofs can be saved and restored using the Save and Load commands in the [System Configuration] dialog-[Robot]-[Calibration] from the System Configuration menu.",
+  "see_also": "CalPls, Home, Hordr, MCal\n\nHofs Example\n\nVB Example:\n\nDim val As Integer\n\nval = m_spel.Hofs(1)\n\nC# Example:\n\nint val;\n\nval = m_spel.Hofs(1);",
+  "examples": [
+    "Dim val As Integer\nval = m_spel.Hofs(1)",
+    "int val;\nval = m_spel.Hofs(1);"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Inertia VI",
+  "file": "Inertia_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the load inertia and eccentricity for the current robot.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nLoadInertia\tDouble value that specifies total moment of inertia in kgm2 around the center of the end effector joint, including end effector and part.\n\nEccentricity\tDouble value that specifies eccentricity in mm around the center of the end effector joint, including end effector and part.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "Weight\n\nInertia Example",
+  "examples": []
+}

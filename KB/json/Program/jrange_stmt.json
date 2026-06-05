@@ -1,0 +1,15 @@
+{
+  "title": "JRange Statement",
+  "file": "jrange_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "JRange jointNumber, lowerLimit, upperLmit",
+  "parameters": "jointNumber\tInteger expression between 1-9 representing the joint for which JRange will be specified.\n\nThe additional S axis is 8 and T axis is 9.\n\nlowerLmit\tLong integer expression representing the encoder pulse count position for the lower limit range of the specified joint.\n\nupperLmit\tLong Integer expression representing the encoder pulse count position for the upper limit range of the specified joint.",
+  "description": "Defines the permissible working range for the specified joint with upper and lower limits in encoder pulse counts. JRange is similar to the Range command.  However, the Range command requires that all joint range limits be set while the JRange command can be used to set each joint working limits individually thus reducing the number of parameters required.  To confirm the defined working range, use the Range command.\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "Lower Limits Must Not Exceed Upper Limits:\n\nThe Lower limit defined in the JRange command must not exceed the Upper limit.  A lower limit in excess of the Upper limit will cause an error, making it impossible to execute a motion command.\n\nFactors Which can Change JRange:\n\nOnce JRange values are set they remain in place until the user modifies the values either by the Range or JRange commands.  Turning controller power off will not change the JRange joint limit values.\n\nMaximum and Minimum Working Ranges:\n\nRefer to the specifications in the Robot manual for maximum working ranges for each robot model since these vary from model to model.",
+  "see_also": "JRange Function\n\nRange\n\nJRange Statement Example\n\nThe following examples are done from the Command window:\n\n> JRange 2, -6000, 7000  'Define the 2nd joint range\n\n> JRange 1, 0, 7000  'Define the 1st joint range",
+  "examples": [
+    "> JRange 2, -6000, 7000  'Define the 2nd joint range",
+    "> JRange 1, 0, 7000  'Define the 1st joint range"
+  ]
+}

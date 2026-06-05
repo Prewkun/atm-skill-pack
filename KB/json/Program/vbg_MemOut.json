@@ -1,0 +1,15 @@
+{
+  "title": "MemOut Method, Spel Class",
+  "file": "vbg_MemOut",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub MemOut ( PortNumber As Integer, Value As Integer)\n\nSub MemOut ( Label As String, Value As Integer)",
+  "parameters": "PortNumber\tInteger expression representing one of the memory I/O bytes.\n\nLabel\tString expression containing a memory I/O byte label.\n\nValue\tInteger expression containing the output pattern for the specified byte. Valid values are from 0 - 255.",
+  "description": "Simultaneously sets 8 memory output lines based on the 8 bit value given by the user.",
+  "notes": "",
+  "see_also": "In\n\nInBCD\n\nMemIn\n\nMemSw\n\nOff\n\nOn\n\nOport\n\nSw\n\nMemOut Example\n\nVB Example:\n\nm_spel.MemOut(2, 25)\n\nC# Example:\n\nm_spel.MemOut(2, 25);",
+  "examples": [
+    "m_spel.MemOut(2, 25)",
+    "m_spel.MemOut(2, 25);"
+  ]
+}

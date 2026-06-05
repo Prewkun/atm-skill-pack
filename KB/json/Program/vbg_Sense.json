@@ -1,0 +1,15 @@
+{
+  "title": "Sense Method, Spel Class",
+  "file": "vbg_Sense",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Sense  (Condition As String) As Boolean",
+  "parameters": "Condition\tSpecifies the I/O condition. For details see the Sense Statement in the SPEL+ Language Reference manual.",
+  "description": "Sets the condition used for Jump Sense. Jump Sense detects whether the arm stopped prior to completing a JUMP instruction (which used a SENSE input) or if the arm completed the JUMP move.",
+  "notes": "",
+  "see_also": "Jump, JS\n\nSense Example\n\nVB Example:\n\nWith m_spel\n\n  .Sense(\"SW(1) = On)\n\n  .Jump(\"P1 SENSE\")\n\n  stoppedSense = .JS()\nEnd With\n\nC# Example:\n\nm_spel.Sense(\"Sw(1) = On\");\n\nm_spel.Jump(\"P1 SENSE\");\n\nstoppedOnSense = m_spel.JS();",
+  "examples": [
+    "With m_spel .Sense(\"SW(1) = On) .Jump(\"P1 SENSE\") stoppedSense = .JS()End With",
+    "m_spel.Sense(\"Sw(1) = On\");\nm_spel.Jump(\"P1 SENSE\");\nstoppedOnSense = m_spel.JS();"
+  ]
+}

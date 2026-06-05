@@ -1,0 +1,14 @@
+{
+  "title": "FileExists Function",
+  "file": "cmd_fileexists",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "FileExists(fileName)",
+  "parameters": "fileName\tA string expression containing the file name to check. The drive and path can also be included.\n\nIf only the file name is specified, the file is checked in the current directory.\n\nSee ChDisk for the details.\n\nNote: A network path is available.",
+  "description": "FileExists Function\n\nFileExists Function\n\nSee_Also Example\n\nChecks if a file exists.",
+  "notes": "",
+  "see_also": "FileLen\n\nFileDateTime$\n\nFolderExists\n\nFileExists Function Example\n\nString myPath$\n\nmyPath$ = \"ｃ:\\TEST\\TEST.DAT\"\n\nIf FileExists(myPath$) Then\n\n  Print \"Last access date and time: \", FileDateTime$(myPath$)\n\n  Print \"Size: \", FileLen(myPath$)\n\nEndIf",
+  "examples": [
+    "String myPath$\nmyPath$ = \"ｃ:\\TEST\\TEST.DAT\"\nIf FileExists(myPath$) Then Print \"Last access date and time: \", FileDateTime$(myPath$) Print \"Size: \", FileLen(myPath$)\nEndIf"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ModelOrgX Property",
+  "file": "ModelOrgXProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "A model has a fixed reference point by which a location of the model in the image is indicated.  This point is referred to as the model origin.  The ModelOrgX property contains the X coordinate value of the model origin.",
+  "notes": "The model origin can be set anywhere within the model window Region.  The origin's coordinates define the model origin relative to the model's upper left corner, that is, relative to the location of element [0][0] of the image that defines the model.\n\nWhen a new Correlation is created, the model origin is set to the center of the model window.  However, the user may modify this position by entering new X and Y positions to the ModelOrgX and ModelOrgY properties or by simply clicking on the model origin (the crosshair shown in the middle of the Model Window) and moving it to the desired position.\n\nThe model origin also can be automatically changed by setting the ModelOrgAutoCenter property to True.  If the ModelOrgAutoCenter property is set to True then the model origin is automatically set to the center of the model window.\n\nNote:  If the ModelOrgAutoCenter property is set to True, the ModelOrgX property cannot be used to reposition the model origin.\n\nSee Also: ModelOrgX Property\n\nAnatomy of a Vision Object\n\nModelOrgAutoCenter Property\n\nModelOrgFindCenter Property\n\nModelOrgY Property\n\nVision Objects: ModelOrgX Property\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric",
+  "examples": []
+}

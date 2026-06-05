@@ -1,0 +1,14 @@
+{
+  "title": "Wrist Statement",
+  "file": "Wrist_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) Wrist\n\t\t\tpoint, [Flip | NoFlip ]\n\n(2) Wrist",
+  "parameters": "point\tP\n\t\t\t\t\t\tnumber or P(expr) or point label.\n\nFlip | NoFlip\tRepresenting wrist orientation.",
+  "description": "Wrist Statement\n\nWrist Statement",
+  "notes": "",
+  "see_also": "Elbow, Hand, J4Flag, J6Flag, Wrist Function\n\nWrist Statement Example\n\nWrist P0, Flip\n\nWrist P(mypoint), NoFlip\n\nP1 = 320.000, 400.000, 350.000, 140.000, 0.000, 150.000",
+  "examples": [
+    "Wrist P0, Flip\n\n\t\t\tWrist P(mypoint), NoFlip\n\nP1 = 320.000, 400.000, 350.000, 140.000, 0.000, 150.000"
+  ]
+}

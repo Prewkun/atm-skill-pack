@@ -1,0 +1,15 @@
+{
+  "title": "VCreateCalibration Method, Spel Class",
+  "file": "VCreateCalibration_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VCreateCalibration (CameraNumber As Integer, CalibName As String)",
+  "parameters": "CameraNumber\tInteger expression containing the number of the camera to be calibrated.\n\nCalibName\tString expression containing the name of a vision calibration to create.",
+  "description": "Creates a new vision calibration in the current project.",
+  "notes": "",
+  "see_also": "VCreateObject\n\nVCreateSequence\n\nVDeleteCalibration\n\nVCreateCalibration Example\n\nVB Example:\n\nm_spel.VCreateCalibration(1, \"mycal\")\n\nC# Example:\n\nm_spel.VCreateCalibration(1, \"mycal\");",
+  "examples": [
+    "m_spel.VCreateCalibration(1, \"mycal\")",
+    "m_spel.VCreateCalibration(1, \"mycal\");"
+  ]
+}

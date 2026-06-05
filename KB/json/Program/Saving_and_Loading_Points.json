@@ -1,0 +1,12 @@
+{
+  "title": "Saving and Loading Points",
+  "file": "Saving_and_Loading_Points",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Saving and Loading Points\n\nSaving and loading Points\n\nUse LoadPoints to load a point file in the current project.  You can optionally specify the Merge parameter to combine points in a file with points that have already been loaded.  You cannot load a point file from a different robot than is currently active.\n\nUse SavePoints to save the points in a point file.  If the point file is in the current project, it will be updated on the PC when it is connected and the same project is open.  If the point file is not in the current project, it will not be automatically updated on the PC.  Use Project Synchronize to copy the file to the PC if desired.\n\nIf the point file is not the current project, it will not be automatically updated on the PC.  Use Project Synchronize to copy the file to the PC if desired.\n\nCaution:  Rebuild the program if Project Synchronize is performed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

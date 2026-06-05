@@ -1,0 +1,15 @@
+{
+  "title": "InsideBox Method, Spel Class",
+  "file": "vbg_InsideBox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function InsideBox (BoxNumber As Integer) As Boolean",
+  "parameters": "BoxNumber\tInteger expression from 1 to 15 representing which approach check area to return status for.",
+  "description": "Returns the check status of the approach check area.",
+  "notes": "",
+  "see_also": "Box\n\nInsidePlane\n\nInsideBox Example\n\nVB Example:\n\nDim isInside As Boolean\n\nisInside = m_spel.InsideBox(1)\n\nC# Example:\n\nbool isInside;\n\nisInside = m_spel.InsideBox(1);",
+  "examples": [
+    "Dim isInside As Boolean\nisInside = m_spel.InsideBox(1)",
+    "bool isInside;\nisInside = m_spel.InsideBox(1);"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "VGetModelWin Method, Spel Class",
+  "file": "vbg_VGetModelWin",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VGetModelWin ( Sequence As String, Object As String, ByRef Left As Integer, ByRef Top As Integer, ByRef Width As Integer, ByRef Height As Integer)",
+  "parameters": "Sequence\tString expression containing the name of a vision sequence in the current EPSON RC+ project.\n\nObject\tString expression containing the name of an object in sequence Sequence.\n\nLeft\tInteger variable that will contain left coordinate in pixels.\n\nTop\tInteger variable that will contain top coordinate in pixels.\n\nWidth\tInteger variable that will contain width in pixels.\n\nHeight\tInteger variable that will contain height in pixels.",
+  "description": "Retrieves model window coordinates for Correlation and Geometric objects.",
+  "notes": "",
+  "see_also": "VSetModelWin\n\nVGetSearchWin\n\nVSetSearchWin\n\nVGetModelWin Example\n\nVB Example:\n\nDim left As Integer, top As Integer\n\nDim width As Integer, height As Integer\n\nWith m_spel\n\n  . VGetModelWin(\"testSeq\", \"corr01\", left, top, width, height)\n\n  .VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, width, height)\n\n  .VTeach(\"testSeq\", \"corr01\")\n\nEnd With\n\nC# Example:\n\nint left, top, width, height;\n\nm_spel.VGetModelWin(\"testSeq\", \"corr01\", out left, out top, out width, out height);\n\nm_spel.VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, width, height);\n\nm_spel.VTeach(\"testSeq\", \"corr01\");",
+  "examples": [
+    "Dim left As Integer, top As Integer\nDim width As Integer, height As Integer\n\nWith m_spel . VGetModelWin(\"testSeq\", \"corr01\", left, top, width, height) .VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, width, height) .VTeach(\"testSeq\", \"corr01\")\nEnd With",
+    "int left, top, width, height;\nm_spel.VGetModelWin(\"testSeq\", \"corr01\", out left, out top, out width, out height);\nm_spel.VSetModelWin(\"testSeq\", \"corr01\", left + 20, top, width, height);\nm_spel.VTeach(\"testSeq\", \"corr01\");"
+  ]
+}

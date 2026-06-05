@@ -1,0 +1,14 @@
+{
+  "title": "ControlBox Property",
+  "file": "ControlBox_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether a control box is displayed in the caption bar of the form.",
+  "notes": "If the ControlBox property is set to true, the control box is displayed in the upper-left corner of the caption bar. The control box can be used to close the form.\n\nSee Also: ControlBox Property\n\nMaximizeBox Property\n\nMinimizeBox Property\n\nGUI Items: ControlBox Property\n\nForms",
+  "see_also": "Applies To\n\nForms",
+  "examples": [
+    "GSet frmMain.ControlBox, False"
+  ]
+}

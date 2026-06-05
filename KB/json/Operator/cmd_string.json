@@ -1,0 +1,17 @@
+{
+  "title": "String Statement",
+  "file": "cmd_string",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "String varName$ [( subscripts )] [, varName$ [( subscripts )]...",
+  "parameters": "varName$\tVariable name\n\t\t which the user wants to declare as type String.\n\nsubscripts\tOptional.\n\t\t  Dimensions of an array variable; up to 3 dimensions may\n\t\t be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2],\n\t\t [ubound3])\n\nubound1, ubound2,\n\t\t ubound3 each specify the maximum upper bound for the associated\n\t\t dimension.\n\nThe elements\n\t\t in each dimension of an array are numbered from 0 and the available\n\t\t number of array elements is the upper bound value + 1.\n\nWhen specifying\n\t\t the upper bound value, make sure the number of total elements\n\t\t is within the range shown below:\n\nLocal variable\n\t\t   200\n\nGlobal Preserve\n\t\t variable   400\n\nGlobal variable\n\t\t and module variable   10,000",
+  "description": "String is used to declare variables as type String. Variables of type String can contain up to 255 characters.  Local variables should be declared at the top of a function.  Global and module variables must be declared outside of functions.\n\nString Operators\n\nThe following operators can be used to manipulate String variables:\n + Merges character Strings together. Can be used in the assignment statements for String variables or in the Print instruction.",
+  "notes": "Variable Names Must Include \"$\" Character:\n\nVariables of type String must have the character \"$\" as the last character in the variable name.",
+  "see_also": "Boolean, Byte, Double, Global, Int32, Int64, Integer, Long, Real, Short, UByte, UInt32, UInt64, UShort\n\nString Statement",
+  "examples": [
+    "Example: name$ = fname$ + \" \" + lname$",
+    "Example: If temp1$ = \"A\" Then GoSub test",
+    "Example: If temp1$ <> \"A\" Then GoSub test",
+    "String password$\nString A$(10) 'Single dimension array of string\nString B$(10, 10) 'Two dimension array of string\nString C$(5, 5, 5) 'Three dimension array of string\n\nPrint \"Enter password:\"\nInput password$\nIf UCase$(password$) = \"EPSON\" Then Call RunMaintenance\nElse Print \"Password invalid!\"\nEndIf"
+  ]
+}

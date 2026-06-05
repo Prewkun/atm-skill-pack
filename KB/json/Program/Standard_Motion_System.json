@@ -1,0 +1,12 @@
+{
+  "title": "Standard Motion System",
+  "file": "Standard_Motion_System",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Standard Motion System\n\nStandard Motion System\n\nThe standard motion system consists of the Control Units and the Drive Units (optional, up to three units).\n\nYou can connect one robot to the Control Unit directly. For details on the Robot Controller and maintenance, refer to the following manual:\n\nRobot Controller Manual\n\nThe Drive Units are automatically recognized at the startup of the Control Unit if they are connected to the system.\n\nWhen addition and removal of the Drive Units are automatically recognized, the startup time becomes longer in order to reboot the Control Unit.\n\nDrive Module Software Configuration\n\nThe drive module is configured at the factory before shipment. It is automatically recognized by the controller. You do not have to configure the settings. Also, you do not have to configure the settings for the drive module in the Drive Unit which is automatically recognized.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

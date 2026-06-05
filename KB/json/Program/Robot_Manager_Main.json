@@ -1,0 +1,12 @@
+{
+  "title": "Robot Manager",
+  "file": "Robot_Manager_Main",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Manager\n\nRobot Manager\n\n: F6\n\nThis command opens the [Robot Manager] window. This window contains several tabs that are used to control the robot motors and power, jog the robot and teach points, and view/edit several parameters for the robot.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

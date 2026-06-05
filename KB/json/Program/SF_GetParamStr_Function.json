@@ -1,0 +1,15 @@
+{
+  "title": "SF_GetParamStr Function",
+  "file": "SF_GetParamStr_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SF_GetParam$(index)",
+  "parameters": "index\tInteger or constant expression that represents the index of the information to retrieve.",
+  "description": "Returns the specified safety function parameter values.\n\nIndex\tConstant\tDescription\n\n1\tSF_TOOLVERSION\tVersion of setting tool\n\n2\tSF_CHECKSUM\tSafety function parameter checksum\n\n3\tSF_LAST_MODIFIED\tLast modified date of safety function parameter\n\n4\tSF_ROBOT_MODEL_NAME\tManipulator name\n\n5\tSF_ROBOT_CHECKSUM\tRobot parameters checksum\n\n6\tSF_HOFS\tEncoder offset (Hofs) for origin of actual robot\n\n7\tSF_HOFS_LAST_MODIFIED\tLast modified date of Hofs\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_GetParam$ Function Example\n\nString Checksum$\n\nChecksum$ = SF_GetParam$(SF_CHECKSUM)\n\nPrint \"Safety function parameter Checksum is \", Checksum$\n\n> Print SF_GetParam$(SF_LAST_MODIFIED)\n\n2022/01/01 00:00:00",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "String Checksum$\nChecksum$ = SF_GetParam$(SF_CHECKSUM)\nPrint \"Safety function parameter Checksum is \", Checksum$",
+    "> Print SF_GetParam$(SF_LAST_MODIFIED)\n2022/01/01 00:00:00"
+  ]
+}

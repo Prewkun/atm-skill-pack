@@ -1,0 +1,12 @@
+{
+  "title": "HDRMode Property",
+  "file": "HDRMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays the captured image as the HDR (High Dynamic Range) image.",
+  "notes": "Displays the captured image as the HDR (High Dynamic Range) image.\n\nBrightness of the HDR image can be adjusted in the ExposureTime property.",
+  "see_also": "Applies To\n\nVision Sequence\n Property\n\nCamera Property\n\nSequence window\n\nVision Sequences",
+  "examples": []
+}

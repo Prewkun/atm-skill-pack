@@ -1,0 +1,12 @@
+{
+  "title": "Teaching Calibration Points",
+  "file": "Calibrate_button",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teaching Calibration Points\n\nTeaching Calibration Points\n\nThe [Calibrate] button appears by selecting a calibration in the sequence or calibration tree.  Click the [Calibrate] button to start the calibration.\n\nA confirmation message is displayed before the operation starts if the robot will be moved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

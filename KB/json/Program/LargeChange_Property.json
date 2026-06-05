@@ -1,0 +1,14 @@
+{
+  "title": "LargeChange Property",
+  "file": "LargeChange_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the number of positions that the slider moves when clicking the mouse or pressing Page Up and Page Down keys.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.TrackBar1.LargeChange, 10"
+  ]
+}

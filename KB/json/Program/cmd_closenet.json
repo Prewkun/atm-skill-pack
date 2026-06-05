@@ -1,0 +1,14 @@
+{
+  "title": "CloseNet Statement",
+  "file": "cmd_closenet",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "CloseNet #portNumber | All",
+  "parameters": "portNumber\tTCP/IP port number to close ( 201 ~ 216)\n\nIf All is specified, the task will close all the open TCP/IP port.",
+  "description": "CloseNet Statement\n\nCloseNet Statement\n\nSee_Also Example\n\nClose the network port previously opened with OpenNet.",
+  "notes": "",
+  "see_also": "ChkNet\n\nOpenNet\n\nCloseNet Statement Example\n\nCloseNet #201",
+  "examples": [
+    "CloseNet #201"
+  ]
+}

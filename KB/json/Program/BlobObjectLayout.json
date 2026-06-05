@@ -1,0 +1,12 @@
+{
+  "title": "Blob Object Layout",
+  "file": "BlobObjectLayout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Blob Object Layout\n\nBlob Object Layout\n\nThe Blob object layout is rectangular just like the correlation objects.  However, Blob objects do not have models.\n  This means there is no need for a model window or model origin for the Blob object layout.  As shown below, Blob objects only have an object name and a search window.  The search window defines the area within which to search for a blob.  The Blob object layout is shown below:\n\nBlob Object Layout",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

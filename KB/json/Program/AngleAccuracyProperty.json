@@ -1,0 +1,12 @@
+{
+  "title": "AngleAccuracy Property",
+  "file": "AngleAccuracyProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the accuracy for angle search.",
+  "notes": "Note: The Correlation model must be taught after a new value for the AngleAccuracy property is set in order for the new setting to take affect.  If you teach a Correlation model, then later set the AngleAccuracy property to a new value, and then try to run that Correlation object, it will not search with the new angle accuracy.  You must re-teach the Correlation model with the AngleEnable property set to True, and with the new value for the AngleAccuracy property in order for Correlation search with angle to use the new AngleAccuracy property value.\n\nThe AngleAccuracy property is used at model training time and not at run-time.  This value specifies the desired accuracy for angle search.",
+  "see_also": "Property\n\nAngle Result\n\nAngleEnable Property\n\nAngleMaxIncrement Property\n\nAngleRange Property\n\nVision Objects: AngleAccuracy Property\n\nCorrelation",
+  "examples": []
+}

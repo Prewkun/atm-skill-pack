@@ -1,0 +1,12 @@
+{
+  "title": "Vision Guide SPEL Commands",
+  "file": "VisionGuideSPELCommands",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Guide SPEL Commands\n\nVision Guide SPEL+ Commands\n\nHere is a summary of the vision commands available for use in SPEL+ programs.\n\nBasic Vision Commands\n\nVRun\tRuns a vision sequence in the current project.\n\nVGet\tGets a result or property for a sequence or object and stores it in one or more variables.\n\nVSet\tSets a property value for a sequence or object.\n\nRelated Topics:\n\nBefore programming with Vision commands",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

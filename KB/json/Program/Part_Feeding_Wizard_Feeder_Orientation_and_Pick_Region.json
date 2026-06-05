@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Feeder Orientation and Pick Region",
+  "file": "Part_Feeding_Wizard_Feeder_Orientation_and_Pick_Region",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Feeder Orientation and Pick Region\n\nFeeder Orientation and Pick Region\n\nThis screen configures settings relating to the feeder layout and part pick up.\n\nItem\tDescription\n\nFeeder Orientation\tSets the feeder orientation when seen from the camera.\n\nPick Region\tSets the region for picking up parts when seen from the camera.\n\nSelect either of Anywhere, Region A, B, C or D.\n\nThe region that can be set differs depending on feeder model.\n\nIF-80: Anywhere\n\nIF-240: Anywhere, Region A, Region B, Region C, Region D\n\nIF-380 & IF-530: Anywhere, Region A, Region B",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

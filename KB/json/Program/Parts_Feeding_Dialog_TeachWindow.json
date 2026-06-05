@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_Dialog_TeachWindow",
+  "file": "Parts_Feeding_Dialog_TeachWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_Dialog_TeachWindow\n\nTeach Window\n\nThis dialog is used to teach the robot Z coordinate when picking up parts.\n\n(1) Place a part on the platform.\n\n(2) Use the Jog buttons (+X, -X, +Y, -Y) to align the robot into the Z coordinate and orientation used to pick up the part.\n\n(3) Click the [OK] button.\n\nRegister the Z coordinate, V orientation and W orientation.\n\nNote:\n   The robot selected here is the one that is referred to by the vision calibration set for the part detection vision sequence.\n\nNote:\n  If \"User processes vision for part via PF_Vision callback\" is selected on the Vision screen, you will need to program Z coordinate processing within the PF_Vision callback function.  For more details, refer to 4. Part Feeding Callback Functions PF_Vision.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

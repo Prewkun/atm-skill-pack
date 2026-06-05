@@ -1,0 +1,14 @@
+{
+  "title": "Flush Statement",
+  "file": "cmd_flush",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Flush\n\t\t\ti#fileNumber",
+  "parameters": "#fileNumber\tInteger value from 30 ~ 63 or expression",
+  "description": "Writes a file's buffer into the specified file.\n\nFlush cannot be used if the file was opened with ROpen.",
+  "notes": "",
+  "see_also": "Close\n\nFlush Example\n\nInteger fileNum, i\n\n\t\tfileNum = FreeFile\n\n\t\tUOpen \"Test.dat\" as #fileNum\n\n\t\tFor i=1 To 100\n\n\t\t  Print #fileNum, i\n\n\t\tNext i\n\nFlush #fileNum\n\n\t\tClose #fileNum",
+  "examples": [
+    "Integer fileNum, i\n\t\tfileNum = FreeFile\n\t\tUOpen \"Test.dat\" as #fileNum\n\t\tFor i=1 To 100\n\t\t  Print #fileNum, i\n\t\tNext i\n\n\t\t\tFlush #fileNum\n\t\tClose #fileNum"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "SingularitySpeed Statement",
+  "file": "SingularitySpeed_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SingularitySpeed {Angular velocity}",
+  "parameters": "Angular velocity\tSpecify the percentage of the Joint #4 angular velocity with respect to the maximum angular velocity (real number equals to or greater than 0.1. Unit: %) by a formula or a value for determining the wrist singularity neighborhood of the vertical 6-axis robot (including N series).\n\nResult\n\nCurrent SingularitySpeed value will be displayed if the parameter is omitted.",
+  "description": "This command is enabled only when the singularity avoiding function is being used.\n\nDefault is 10 %. This command can be used to adjust the start position of the singularity avoidance. If the value smaller than the default is specified, avoidance motion starts at the point closer to the singularity. Usually, it is not necessary to change the parameter. This may be useful to reduce errors which occur when passing the singularity.\n\nIf SingularitySpeed parameter is changed, the current setting is effective until the next controller startup.",
+  "notes": "",
+  "see_also": "Sets the singularity neighborhood angular velocity necessary for the singularity avoiding function.\n\nAvoidSingularity\n\nSingularityAngle\n\nSingularitySpeed Function\n\nSingularitySpeed Statement Example\n\nSingularitySpeed 30.0 'Sets the singularity neighborhood angular velocity at 30 %",
+  "examples": [
+    "SingularitySpeed 30.0 'Sets the singularity neighborhood angular velocity at 30 %"
+  ]
+}

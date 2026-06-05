@@ -1,0 +1,14 @@
+{
+  "title": "Calculating a tool for circuit board in gripper",
+  "file": "Calculating_a_tool_for_circuit_board_in_gripper",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calculating a tool for circuit board in gripper\n\nTool calculation for a circuit board held by the robot\n\nIn this example, Vision Guide 8.0 calculates a tool for a circuit board that is being held by the robot.  This requires one fixed upward camera.  You will need to teach the place position for the board after calibrating the camera.\n\nTo teach the place position:\n\n1. Pick up the circuit board with the robot.\n\n2. Call the example function CalcBoardTool to calculate tool 1.\n\n3. Switch to Tool 1.\n\n4. Jog the robot to the place position of the board.\n\n5. Teach the place position.\n\nFunction CalcBoardTool As Boolean\n\n  Boolean found\n\n  Real x, y, theta\n\n  Real toolX1, toolY1, toolU\n\n  Real toolX2, toolY2\n\n  CalcBoardTool = FALSE\n\n  Jump Fid1CamPos  '   Locate fiducial 1 over camera\n\n  VRun SearchFid1\n\n  VGet SearchFid1.Corr01.RobotToolXYU, found, toolX1, toolY1, toolU\n\n  If found Then\n\n    Exit Function\n\n  EndIf\n\n  Jump Fid2CamPos  '   Locate fiducial 2 over camera\n\n  VRun SearchFid2\n\n  VGet SearchFid2.Corr01.RobotToolXYU, found, toolX2, toolY2, toolU\n\n  If found Then\n\n    Exit Function\n\n  EndIf\n\n  x = (toolX1 + toolX2) / 2\n\n  y = (toolY1 + toolY2) / 2\n\n  theta = Atan2(toolX1 - toolX2, toolY1 - toolY2)\n\n  toolU = RadToDeg(theta)\n\n  TlSet 1, XY(x, y, 0, toolU)\n\n  CalcBoardTool = TRUE\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function CalcBoardTool As Boolean Boolean found Real x, y, theta Real toolX1, toolY1, toolU Real toolX2, toolY2 CalcBoardTool = FALSE Jump Fid1CamPos  '   Locate fiducial 1 over camera VRun SearchFid1 VGet SearchFid1.Corr01.RobotToolXYU, found, toolX1, toolY1, toolU If found Then\n    Exit Function EndIf Jump Fid2CamPos  '   Locate fiducial 2 over camera VRun SearchFid2 VGet SearchFid2.Corr01.RobotToolXYU, found, toolX2, toolY2, toolU If found Then\n    Exit Function EndIf x = (toolX1 + toolX2) / 2 y = (toolY1 + toolY2) / 2 theta = Atan2(toolX1 - toolX2, toolY1 - toolY2) toolU = RadToDeg(theta) TlSet 1, XY(x, y, 0, toolU) CalcBoardTool = TRUE\nFend"
+  ]
+}

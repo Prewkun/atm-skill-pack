@@ -1,0 +1,12 @@
+{
+  "title": "ModelWinType Property",
+  "file": "ModelWinType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the model window type.",
+  "notes": "Sets and returns the model window type. Available values are as follows:\n\n1 - Rectangle    Square model window (angle designation invalid)\n\n2 - RotatedRectangle    Square model window (angle designation valid)\n\n3 - Circle    Circular model window\n\n\"3 - Circle\" is not available for OCR object.\n\nSee Also: ModelWinType Property\n\nModelWinAngle Property\n\nVision Objects: ModelWinType Property\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric, OCR",
+  "examples": []
+}

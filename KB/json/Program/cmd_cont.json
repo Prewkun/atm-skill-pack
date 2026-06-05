@@ -1,0 +1,15 @@
+{
+  "title": "Cont Statement",
+  "file": "cmd_cont",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cont",
+  "parameters": "",
+  "description": "To execute the Cont statement from a program, you need to set the [Enable advanced task commands] checkbox in Setup | System Configuration | Controller | Preferences page of the Epson RC+.\n  However, even if this preference is enabled, you cannot execute the Cont statement from a task executed by Trap SGClose.\n\nThe Cont command resumes the controller tasks paused by the Pause statement or safeguard open and continues all tasks execution.  It has the same function as the [Continue] button on the Run Window, Operator Window, and the Continue Remote input.\n\nIf you execute the Cont command during WaitRecover status (waiting for the recover after safeguard open), it will turn on all the robot motors and execute the recover motion.  Then, the program will be resumed.\n\nIf you just want to turn on motors and execute recover motion, use the Recover command.\n\nCAUTION\t■\tWhen\n\t\t executing Cont command from a program, you must understand the\n\t\t command specification\n\nand\n\t\t confirm that the system has the proper conditions for the Cont\n\t\t command. ?Improper\n\nuse\n\t\t such as continuous execution of a command within a loop may deteriorate\n\t\t the system\n\nsafety.",
+  "notes": "",
+  "see_also": "Pause\n\nRecover\n\nCont Statement Example\n\nFunction main\n\n  Xqt monitor, NoPause\n\n  Do\n\n    Jump P1\n\n    Jump P2\n\n  Loop\n\nFend\n\nFunction monitor\n\n  Do\n\n    If Sw(pswitch) = On then\n\n     Pause\n\n      Wait Sw(pswitch) = Off and Sw(cswitch) = On\n\n      Cont\n\n    EndIf\n\n  Loop\n\nFend",
+  "examples": [
+    "Function main Xqt monitor, NoPause Do\n    Jump P1\n    Jump P2 Loop\nFend",
+    "Function monitor Do\n    If Sw(pswitch) = On then\n     Pause\n      Wait Sw(pswitch) = Off and Sw(cswitch) = On\n      Cont\n    EndIf Loop\nFend"
+  ]
+}

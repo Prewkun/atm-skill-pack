@@ -1,0 +1,15 @@
+{
+  "title": "Box Method, Spel Class",
+  "file": "vbg_Box",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Box (AreaNumber As Integer, MinX as Single, MaxX as Single, MinY as Single, MaxY as Single, MinZ As Single, MaxZ as Single)",
+  "parameters": "AreaNumber\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMinX\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMaxX\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMinY\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMaxY\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMinZ\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.\n\nMaxZ\tThe servo axis number. This can be 1, 2, 3 or 4, corresponding to the T1, T2, Z or U axis.",
+  "description": "Defines a Box",
+  "notes": "",
+  "see_also": "BoxClr\n\nBoxDef\n\nPlane\n\nBox Example\n\nVB Example:\n\nm_spel.Box(1, -5, 5, -10, 10, -20, 20)\n\nC# Example:\n\nm_spel.Box(1, -5, 5, -10, 10, -20, 20);",
+  "examples": [
+    "m_spel.Box(1, -5, 5, -10, 10, -20, 20)",
+    "m_spel.Box(1, -5, 5, -10, 10, -20, 20);"
+  ]
+}

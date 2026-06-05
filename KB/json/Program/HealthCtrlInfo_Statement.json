@@ -1,0 +1,14 @@
+{
+  "title": "HealthCtrlInfo Statement",
+  "file": "HealthCtrlInfo_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays the remaining months before the recommended replacement time for the specified Controller parts.\n\nThe remaining months are calculated based on the parts consumption rate from the past usage and the amount of change in the consumption rate obtained every operation of a period which is set in HealthCalcPeriod of the Controller.",
+  "notes": "Since the remaining months are calculated based on the amount of change in the consumption rate obtained every operation of a period which is set in HealthCalcPeriod of the Controller, they cannot be calculated properly in the following cases:\n\n- If the command is executed when the operating time is less than every operation of a period which is set in HealthCalcPeriod.\n\n- If the command is executed after the long-term operation stop period of the robot.\n\n- If the command is executed after the parts consumption alarm is reset due to the parts replacement.\n\n- If the time and date on the Controller is changed.\n\nIn above cases, execute the command after operating the Controller more than twice of setting period in HealthCalcPeriod to display the accurate value.\n\nHealthCtrlinfo Statement Example\n\nThe example below displays the remaining months before the recommended replacement time for the Controller batteries.\n\n> HealthCtrlInfo HEALTH_CONTROLLER_TYPE_BATTERY\n\nBATTERY            240.000\n\n>\n\nSee Also: HealthCtrlInfo Statement\n\nHealthCtrlAlarmOn\n\nHealthRateCtrlInfo",
+  "see_also": "Displays the remaining months before the recommended replacement time for the specified Controller parts.",
+  "examples": [
+    "> HealthCtrlInfo HEALTH_CONTROLLER_TYPE_BATTERY\nBATTERY            240.000\n>"
+  ]
+}

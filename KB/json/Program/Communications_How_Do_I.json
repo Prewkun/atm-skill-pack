@@ -1,0 +1,12 @@
+{
+  "title": "Communications - How Do I?",
+  "file": "Communications_How_Do_I",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Communications - How Do I?\n\nCommunications - How Do I....?\n\nHow do I communicate from the controller using RS-232C?\n\nThe RC700 has the capability of communicating with RS-232C with up to eight ports (4 per card).\n\nTo use RS-232C communications:\n\n\tAdd one or two RS-232C option boards to the\n\t controller.\n\tConfigure the ports using Epson RC+ (see\n\t RS-232C Software Configuration)\n\t or by using the SetCom statement in your\n\t programs or from the command window.\n\tWrite code in your SPEL+ application to communicate\n\t with external devices.\n\nSee RS-232C Communications for more details.\n\nHow do I communicate from the controller using TCP/IP?\n\nThe RC700 has the capability of communicating with TCP/IP with eight ports.\n\nTo use TCP/IP communications:\n\n\tConfigure the ports using Epson RC+ (see\n\t TCP/IP Software Configuration)\n\t or by using the SetNet statement in your\n\t programs or from the command window.\n\tWrite code in your SPEL+ application to communicate\n\t with external devices.\n\nSee TCP/IP Communications for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

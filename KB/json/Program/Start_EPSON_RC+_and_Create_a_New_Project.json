@@ -1,0 +1,12 @@
+{
+  "title": "Start Epson RC+ 8.0 and create a new project",
+  "file": "Start_EPSON_RC+_and_Create_a_New_Project",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start Epson RC+ 8.0 and create a new project\n\nStart Epson RC+ 8.0 and create a new project\n\nDouble\n\t click the [Epson RC+ 8.0] icon on the Windows desktop to start Epson\n\t RC+ 8.0.\n\nClick\n\t the [Project] menu on the Epson RC+ 8.0 menu bar.\n\nClick\n\t the [New Project] menu entry of the [Project] menu.  The [New\n\t Project] dialog box will appear.\n\nType\n\t a name for the new project.  You can use any name.  We suggest\n\t that you use the name \"vastest\" since this will be our test project\n\t to make sure everything is working OK.\n\nAfter\n\t you type a name in the name field, click the [OK] button.  You\n\t have just created a new project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

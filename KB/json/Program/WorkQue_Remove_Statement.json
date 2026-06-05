@@ -1,0 +1,15 @@
+{
+  "title": "WorkQue_Remove Statement",
+  "file": "WorkQue_Remove_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "WorkQue_Remove WorkQueNum [, index | All ]",
+  "parameters": "WorkQueNum\tInteger expression (1 - 16) that specifies the work queue number.\n\nindex\tOptional.  Integer expression that represents the index of the queue data to delete.  (the beginning of the index number is 0).\n\nSpecify All when deleting all the queue data from the work queue.",
+  "description": "Use WorkQue_Remove to remove one or more items from a work queue data.  Typically, you remove items from the queue after you are finished with the data.",
+  "notes": "",
+  "see_also": "Deletes the work queue data (point data and user data) from the specified work queue.\n\nWorkQue_Add\n\nWorkQue_Remove Example\n\nJump WorkQue_Get(1)\n\nOn gripper\n\nWait .1\n\nJump place\n\nOff gripper\n\nWait .1\n\n' Remove the data from the WorkQueue\n\nWorkQue_Remove 1",
+  "examples": [
+    "Jump WorkQue_Get(1)\nOn gripper\nWait .1\nJump place\nOff gripper\nWait .1",
+    "' Remove the data from the WorkQueue\nWorkQue_Remove 1"
+  ]
+}

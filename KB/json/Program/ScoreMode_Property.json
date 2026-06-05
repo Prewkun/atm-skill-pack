@@ -1,0 +1,12 @@
+{
+  "title": "ScoreMode Property",
+  "file": "ScoreMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the accept threshold for scores during search.",
+  "notes": "ScoreMode sets the accept threshold for scores during search.   This is useful for when you want to know the score of features that were not found, but close to being found.  The XX suffix of the AcceptXX property value represents the percentage (%) of the Accept value for which a score is obtained.\n\nFor example, if the Accept value is set to 700 and ScoreMode is set to Accept70, then the accept threshold for scores is 700 * 0.70 = 490, and the scores for results >= 490 will be displayed and can be retrieved even if the search failed. With the default setting of Accept100, the score threshold and the accept threshold values are the same, so the scores for failed results are set to zero and are not displayed.\n\nNote that when ScoreMode is not Accept100, the search time will take longer.\n\nSee Also: ScoreMode Property\n\nCorrelation Object\n\nGeometric Object\n\nPolar Object\n\nAccept Property",
+  "see_also": "Applies To\n\nVision Objects: Correlation, Geometric, Polar",
+  "examples": []
+}

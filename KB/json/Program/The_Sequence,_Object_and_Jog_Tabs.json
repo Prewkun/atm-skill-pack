@@ -1,0 +1,12 @@
+{
+  "title": "The Sequence, Object and Calibration Tabs",
+  "file": "The_Sequence,_Object_and_Jog_Tabs",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Sequence, Object and Calibration Tabs\n\nThe Vision Guide Window Tabs\n\nTab dialogs are used throughout the EPSON RC+ GUI.  The primary purpose of tabs is to provide quick access to data that is related or grouped together in some way.  This proves much easier to use than additional menu items or multiple windows.\n\nThe Vision Guide window uses tabs to provide a single window vision development environment that makes the system easy to learn and remember.\n\nLocated on the right side of the Vision Guide window is a set of two tabs that are labeled \"Jog\" and \"Robot\".  These tabs are positioned in a fixed location next to the sequence tree and can be used outside the image display.\n\nThe two tabs are used in the Vision Guide 8.0 development environment and provide easy access to knowledge and help for usage of Vision Guide 8.0.  The details for each of the tabs are described later in this chapter.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

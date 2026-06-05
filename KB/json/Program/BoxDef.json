@@ -1,0 +1,14 @@
+{
+  "title": "BoxDef",
+  "file": "BoxDef",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "BoxDef (AreaNum[, robotNumber])",
+  "parameters": "AreaNum\tInteger expression representing the area number from 1 to 15.\n\nrobotNumber\tInteger expression representing a robot number you want to configure. If omitted, the current robot will be specified.",
+  "description": "BoxDef\n\nBoxDef Function",
+  "notes": "",
+  "see_also": "Returns whether Box has been defined or not.\n\nBox\n\nBoxClr\n\nInsideBox\n\nBoxDef Function Example\n\nThis example uses BoxDef function in a program.\n\nFunction ClearBox\n\n  If BoxDef(1) = True Then\n\n    BoxClr 1\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function ClearBox If BoxDef(1) = True Then\n    BoxClr 1 EndIf\nFend"
+  ]
+}

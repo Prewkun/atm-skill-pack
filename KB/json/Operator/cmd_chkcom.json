@@ -1,0 +1,14 @@
+{
+  "title": "ChkCom Function",
+  "file": "cmd_chkcom",
+  "section": "Operator",
+  "type": "reference",
+  "syntax": "ChkCom (portNumber As Integer)",
+  "parameters": "portNumber\tInteger value that specifies the RS-232C port number\n\nReal Part1 ~ 8\n\nWindows Part 1001 ~ 1008",
+  "description": "ChkCom Function\n\nChkCom Function\n\nSee_Also Example\n\nReturns number of characters in the reception buffer of a communication port",
+  "notes": "",
+  "see_also": "CloseCom\n\nOpenCom\n\nRead\n\nWrite\n\nChkCom Function Example\n\nInteger numChars\n\nnumChars = ChkCom(1)",
+  "examples": [
+    "Integer numChars\nnumChars = ChkCom(1)"
+  ]
+}

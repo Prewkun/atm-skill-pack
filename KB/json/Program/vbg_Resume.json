@@ -1,0 +1,15 @@
+{
+  "title": "Resume Method, Spel Class",
+  "file": "vbg_Resume",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Resume (TaskNumber As Integer)\n\nSub Resume (TaskName As String)",
+  "parameters": "TaskNumber\tThe task number of the task that was interrupted.  The range of the task number is 1 to 32.\n\nTaskName\tA string expression containing the name of the task.",
+  "description": "Resumes a task which was suspended by the Halt method.",
+  "notes": "",
+  "see_also": "Quit\n\nXqt\n\nResume Example\n\nVB Example:\n\nm_spel.Resume(2)\n\nC# Example:\n\nm_spel.Resume(2);",
+  "examples": [
+    "m_spel.Resume(2)",
+    "m_spel.Resume(2);"
+  ]
+}

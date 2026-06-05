@@ -1,0 +1,14 @@
+{
+  "title": "ECPSet Function",
+  "file": "ECPSet_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ECPSet(\n\t\t\tECPNumber\n\t\t\t)",
+  "parameters": "ECPNumber\tInteger expression representing the number of the ECP to retrieve.",
+  "description": "ECPSet Function\n\nECPSet Function",
+  "notes": "",
+  "see_also": "Returns a point containing the external control point definition for the specified ECP.\n\nECPSet Statement\n\nECPSet Function Example\n\nP1 = ECPSet(1)",
+  "examples": [
+    "P1 = ECPSet(1)"
+  ]
+}

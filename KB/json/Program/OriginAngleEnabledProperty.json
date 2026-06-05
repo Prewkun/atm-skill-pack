@@ -1,0 +1,12 @@
+{
+  "title": "OriginAngleEnabled Property",
+  "file": "OriginAngleEnabledProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Enables a single point frame to rotate with the angle of the origin object.",
+  "notes": "The OriginAngleEnabled property enables a frame to rotate with the angle of the origin object.  For example, you can set the OriginPoint to a Polar object and set OriginAngleEnabled to True.  The frame will rotate to the angle of the Polar object.\n\nIf the YAxisObject is set to a value other than Screen, then OriginAngleEnabled has no effect.\n\nSee Also: OriginAngleEnabled Property\n\nOriginPoint Property\n\nVision Objects: OriginAngleEnabled Property\n\nFrame",
+  "see_also": "Applies To\n\nVision Objects: Frame",
+  "examples": []
+}

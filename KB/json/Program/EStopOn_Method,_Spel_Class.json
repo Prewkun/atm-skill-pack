@@ -1,0 +1,18 @@
+{
+  "title": "EStopOn Property, Spel Class",
+  "file": "EStopOn_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property EStopOn As Boolean",
+  "parameters": "",
+  "description": "Returns status of the controller's emergency stop status.",
+  "notes": "",
+  "see_also": "PauseOn, SafetyOn\n\nEStopOn Example\n\nVB Example:\n\nIf m_spel.EStopOn Then\n\n    lblEStop.Text = \"Emergency stop is active\"\n\nElse\n\n    lblEStop.Text = \"\"\n\nEndIf\n\nC#",
+  "examples": [
+    "If m_spel.EStopOn Then\n    lblEStop.Text = \"Emergency stop is active\"\nElse\n    lblEStop.Text = \"\"\nEndIf",
+    "if (m_spel.EStopOn)",
+    "lblEStop.Text = \"Emergency stop is active\";",
+    "else",
+    "lblEStop.Text = \"\";"
+  ]
+}
