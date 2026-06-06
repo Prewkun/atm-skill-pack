@@ -2,13 +2,18 @@
 SPEL+ KB Search — zero-dependency BM25 retrieval over the extracted KB.
 
 Usage:
-    python spel_search.py "pick and place jump motion"      # search
-    python spel_search.py "set speed before motion" -n 8    # top 8 results
-    python spel_search.py "palletizing" --context           # print full context pack
-    python spel_search.py --build                            # (re)build the index
+    python spel_search.py "pick and place jump motion"           # search
+    python spel_search.py "set speed before motion" -n 10       # top 10 results
+    python spel_search.py "palletizing" --context               # full AI context pack
+    python spel_search.py "jump" --section Operator             # Operator section only
+    python spel_search.py "jump" --section all                  # all sections (shows dupes)
+    python spel_search.py --build                               # (re)build the index
 
 The --context flag prints a ready-to-paste block you can feed to any AI
 ("here is the relevant SPEL+ reference, now write me ...").
+
+Default --section is Program, which filters out the ~309 exact duplicate records
+that also exist in the Operator section.
 """
 
 import os
@@ -39,6 +44,30 @@ def tokenize(text: str) -> list[str]:
     return [t.lower() for t in TOKEN_RE.findall(text or "")]
 
 
+def _trunc(text: str, limit: int) -> str:
+    """Truncate to limit chars, appending … when cut."""
+    if not text:
+        return ""
+    return text[:limit] + ("…" if len(text) > limit else "")
+
+
+# ── Folder-index metadata cache (for category/toc_chapter inheritance) ─────────
+_folder_meta_cache: dict[Path, dict] = {}
+
+def _folder_meta(dirpath: Path) -> dict:
+    """Return the _folder.json metadata for a directory, cached."""
+    if dirpath not in _folder_meta_cache:
+        fp = dirpath / "_folder.json"
+        if fp.exists():
+            try:
+                _folder_meta_cache[dirpath] = json.loads(fp.read_text(encoding="utf-8"))
+            except Exception:
+                _folder_meta_cache[dirpath] = {}
+        else:
+            _folder_meta_cache[dirpath] = {}
+    return _folder_meta_cache[dirpath]
+
+
 # ── Index building ────────────────────────────────────────────────────────────
 def load_records() -> list[dict]:
     records = []
@@ -48,6 +77,15 @@ def load_records() -> list[dict]:
             if rec.get("type") == "folder_index":
                 continue
             rec["_path"] = str(jf)
+
+            # Inherit category and toc_chapter from parent _folder.json if not set
+            meta = _folder_meta(jf.parent)
+            if meta:
+                if not rec.get("category") and meta.get("category"):
+                    rec["category"] = meta["category"]
+                if not rec.get("toc_chapter") and meta.get("toc_chapter"):
+                    rec["toc_chapter"] = meta["toc_chapter"]
+
             records.append(rec)
         except Exception:
             pass
@@ -110,13 +148,24 @@ def load_index():
 
 
 # ── Search (BM25) ─────────────────────────────────────────────────────────────
-def search(index: dict, query: str, n: int = 5, k1: float = 1.5, b: float = 0.75):
+def search(index: dict, query: str, n: int = 5, section: str = "Program",
+           k1: float = 1.5, b: float = 0.75):
+    """
+    BM25 search over the KB.
+
+    section: "Program" (default) | "Operator" | "all"
+        "Program" filters out Operator duplicates for clean programming results.
+        "all" returns results from every section.
+    """
     q_tokens = tokenize(query)
     idf, avgdl = index["idf"], index["avgdl"]
     doc_tf, doc_len = index["doc_tf"], index["doc_len"]
 
     scores = []
     for i in range(index["N"]):
+        rec = index["records"][i]
+        if section != "all" and rec.get("section", "") != section:
+            continue
         tf, dl = doc_tf[i], doc_len[i]
         s = 0.0
         for qt in q_tokens:
@@ -134,25 +183,41 @@ def search(index: dict, query: str, n: int = 5, k1: float = 1.5, b: float = 0.75
 
 # ── Output ────────────────────────────────────────────────────────────────────
 def format_result_brief(rec, score):
-    cat = rec.get("category", "")
-    cat_tag = f" [{cat}]" if cat else ""
-    return f"  [{score:5.1f}] {rec['title']:<35} ({rec['section']}/{rec['type']}){cat_tag}"
+    cat      = rec.get("category", "")
+    chapter  = rec.get("toc_chapter", "")
+    tag_parts = [p for p in [chapter, cat] if p]
+    tag = f" [{' · '.join(tag_parts)}]" if tag_parts else ""
+    return f"  [{score:5.1f}] {rec['title']:<40} ({rec['section']}/{rec['type']}){tag}"
 
 
 def format_context_pack(results, query):
     out = [f"## SPEL+ reference for: \"{query}\"\n"]
     for rec, score in results:
-        cat = rec.get("category", "")
-        cat_note = f" *(category: {cat})*" if cat else ""
-        out.append(f"### {rec['title']}{cat_note}")
+        cat     = rec.get("category", "")
+        chapter = rec.get("toc_chapter", "")
+        meta_parts = [p for p in [chapter, cat] if p]
+        meta = f" *({', '.join(meta_parts)})*" if meta_parts else ""
+        out.append(f"### {rec['title']}{meta}")
+
         if rec.get("syntax"):
             out.append(f"**Syntax:**\n```\n{rec['syntax']}\n```")
+
         if rec.get("parameters"):
-            out.append(f"**Parameters:** {rec['parameters'][:500]}")
+            out.append(f"**Parameters:** {_trunc(rec['parameters'], 1500)}")
+
         if rec.get("description"):
-            out.append(f"**Description:** {rec['description'][:600]}")
-        if rec.get("examples"):
-            out.append("**Example:**\n```spel\n" + (rec["examples"][0][:600]) + "\n```")
+            out.append(f"**Description:** {_trunc(rec['description'], 2000)}")
+
+        if rec.get("notes"):
+            out.append(f"**Notes:** {_trunc(rec['notes'], 600)}")
+
+        examples = rec.get("examples") or []
+        for ex in examples[:2]:
+            out.append("**Example:**\n```spel\n" + _trunc(ex, 1200) + "\n```")
+
+        if rec.get("see_also"):
+            out.append(f"**See Also:** {_trunc(rec['see_also'], 400)}")
+
         out.append("")
     return "\n".join(out)
 
@@ -162,7 +227,13 @@ def main():
     ap.add_argument("query", nargs="*", help="search terms")
     ap.add_argument("-n", type=int, default=5, help="number of results")
     ap.add_argument("--context", action="store_true", help="print full AI context pack")
-    ap.add_argument("--build", action="store_true", help="rebuild the index")
+    ap.add_argument("--build",   action="store_true", help="rebuild the index")
+    ap.add_argument(
+        "--section",
+        choices=["Program", "Operator", "all"],
+        default="Program",
+        help="filter by section (default: Program — excludes Operator duplicates)",
+    )
     args = ap.parse_args()
 
     if args.build:
@@ -177,7 +248,7 @@ def main():
         return
 
     query = " ".join(args.query)
-    results = search(index, query, n=args.n)
+    results = search(index, query, n=args.n, section=args.section)
 
     if not results:
         print(f"No matches for: {query}")
@@ -186,7 +257,7 @@ def main():
     if args.context:
         print(format_context_pack(results, query))
     else:
-        print(f"\nTop {len(results)} matches for: \"{query}\"\n")
+        print(f"\nTop {len(results)} matches for: \"{query}\"  [section={args.section}]\n")
         for rec, score in results:
             print(format_result_brief(rec, score))
         print(f"\nTip: add --context to get the full AI-ready reference pack.")

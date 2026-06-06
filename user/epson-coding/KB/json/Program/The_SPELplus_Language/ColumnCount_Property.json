@@ -1,0 +1,12 @@
+{
+  "title": "ColumnCount Property",
+  "file": "ColumnCount_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "",
+  "notes": "To invert output, set IOType property in 1 - Output or 2 - Memory.\n\nSee Also: ColumnCount  Property\n\nGrid\n\nGUI Items: ColumnCount Property\n\nGrid  Control",
+  "see_also": "Applies To\n\nGrid",
+  "examples": []
+}

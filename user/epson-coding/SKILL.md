@@ -27,8 +27,12 @@ Run this command to retrieve relevant command references.
 
 ```bash
 cd "<REPO_PATH>"
-python scripts/spel_search.py "<keywords from the user's task>" -n 8 --context
+python scripts/spel_search.py "<keywords from the user's task>" -n 10 --context
 ```
+
+- Default `--section Program` is correct for all SPEL+ programming tasks. It filters out ~309 exact Operator duplicates so every result slot is unique.
+- Use `--section all` only if you believe a command exists exclusively in the Operator reference.
+- The context pack now includes **Notes** (edge cases, parameter-range warnings, motion caveats) and **See Also** (related commands) — read both carefully, as they often contain safety-critical constraints not visible in the description alone.
 
 Extract 2–4 keyword phrases from the user's task. Run multiple searches if the task covers multiple areas (e.g., motion AND I/O AND error handling). Read all output carefully.
 
@@ -37,6 +41,13 @@ Extract 2–4 keyword phrases from the user's task. Run multiple searches if the
 - Palletizing 4×3 grid → search `"palletizing pallet offset loop"`
 - Conveyor tracking → search `"conveyor tracking VRun"`
 - Error handling → search `"TrapErr ErrCode error recovery"`
+- Force sensing / contact → search `"FGRun contact force threshold"` and `"AlignEnabled FGGet"`
+- Vision-guided pick → search `"VRun VGet RobotXYU vision"` and `"CameraXYU CalGet"`
+
+**Reading the output — what each field means:**
+- `[chapter · category]` tag on each result — use this to sanity-check relevance: `robot_control` results are SPEL+ language commands; `gui_control` results are GUI Builder properties (only relevant if the task includes a GUI form); `vision` results are Vision Guide objects.
+- **Notes** — warnings, edge-case behaviour, hardware dependencies. If notes say "must set X before Y", that is a hard constraint.
+- **See Also** — commands you may also need. Check them if the initial search misses something.
 
 ---
 

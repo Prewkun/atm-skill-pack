@@ -1,0 +1,12 @@
+{
+  "title": "Vision Conveyor Calibration: Step 3",
+  "file": "cnv_cal_vis_step3",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Conveyor Calibration: Step 3\n\nVision Conveyor Calibration: Step 3\n\nMove the robot end effector to the pick position for Part 2, as shown in the instruction picture.\n\nClick the Teach button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

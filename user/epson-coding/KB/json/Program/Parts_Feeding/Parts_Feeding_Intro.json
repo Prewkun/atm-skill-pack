@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_Intro",
+  "file": "Parts_Feeding_Intro",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_Intro\n\nParts Feeding Introduction\n\nThis section provides an overview of the EPSON RC+ 7.0 Part Feeding 7.0 software.\n\nPart Feeding Software Configuration\n\nThe Part Feeding software mainly consists of the following three components.\n\n- Part Feeding Window\n\n- Part Feeding SPEL+ Commands\n\n- Part Feeding Callback Functions\n\nPart Feeding Window\n\nThe Part Feeding dialog is opened by selecting EPSON RC+ 7.0-Menu-[Tools]-[Part Feeding].\n\nHere you can perform the following actions.\n\n1.  Configure part parameters.\n\n2.  Calibrate the feeder.\n\nA calibration wizard is used to simplify this process.\n\n3.  Run feeder calibration tests.\n\nNote:  The Part Feeding window will not appear if EPSON RC+ is not connected to the Controller.  An error will occur when attempting to open the Part Feeding window using a virtual controller or when offline.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}
