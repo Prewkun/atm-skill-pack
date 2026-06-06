@@ -1,0 +1,12 @@
+{
+  "title": "StrobeTime Property",
+  "file": "StrobeTime_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the amount of time the camera's strobe lamp output is turned ON during image acquisition.",
+  "notes": "Use StrobeTime to set the amount of time that the camera's strobe lamp output is turned ON during image acquisition.\n\nSee Also: StrobeTime Property\n\nExposureTime Property\n\nStrobeDelay Property\n\nRuntimeAcquire Property",
+  "see_also": "Applies To\n\nVision Sequences",
+  "examples": []
+}

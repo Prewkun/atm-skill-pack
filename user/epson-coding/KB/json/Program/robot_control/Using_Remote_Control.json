@@ -1,0 +1,12 @@
+{
+  "title": "Using Remote Control",
+  "file": "Using_Remote_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Remote Control\n\nUsing Remote Control\n\nYou can design your application to be run from external equipment using hardware I/O control. This includes push button boxes, PLCs, and other PC systems.\n\nRefer to Remote Control for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

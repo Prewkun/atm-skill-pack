@@ -1,0 +1,12 @@
+{
+  "title": "ScaleEnable Property",
+  "file": "ScaleEnableProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Enables a greater range of scale detection.",
+  "notes": "Use ScaleEnable to search for objects within a specified scale range.  Use ScaleFactorMin and ScaleFactorMax to set the range, and ScaleTarget to specify the target scale.  When ScaleEnable is False, a small variation in scale is tolerated, so the Scale result may not always be exactly 1.  To ensure Scale to be only 1, you must set ScaleEnable to True, and set ScaleFactorMin = 1.0, and ScaleFactorMax = 1.0.\n\nSee Also: ScaleEnable Property\n\nScale Result\n\nGeometric Object\n\nVision Sequences",
+  "see_also": "",
+  "examples": []
+}

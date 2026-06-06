@@ -1,0 +1,15 @@
+{
+  "title": "PDel Method, Spel Class",
+  "file": "vbg_PDel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub PDel (FirstPointNumber As Integer [, LastPointNumber As Integer])",
+  "parameters": "FirstPointNumber\tInteger expression that specifies the first point in the range to delete.\n\nLastPointNumber\tOptional. Integer expression the specifies the last point in range to delete. If omitted, only the point specified in FirstPointNumber is deleted.",
+  "description": "Deletes specified position data.",
+  "notes": "",
+  "see_also": "LoadPoints\n\nClear\n\nSavePoints\n\nPDel Example\n\nVB Example:\n\nm_spel.PDel(1, 10)\n\nm_spel.SavePoints(\"model1.pts\")\n\nC# Example:\n\nm_spel.PDel(1, 10);\n\nm_spel.SavePoints(\"model1.pts\");",
+  "examples": [
+    "m_spel.PDel(1, 10)\nm_spel.SavePoints(\"model1.pts\")",
+    "m_spel.PDel(1, 10);\nm_spel.SavePoints(\"model1.pts\");"
+  ]
+}

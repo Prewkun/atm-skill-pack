@@ -1,0 +1,16 @@
+{
+  "title": "MotionLimited Status",
+  "file": "MotionLimited_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns which of the following velocity or acceleration limits limited the velocity or acceleration of the motion which was just carried out with force control active.\n\nMaximum joint velocity\n\nMaximum joint acceleration\n\nMaximum tool position modification velocity\n\nMaximum tool position modification acceleration\n\nMaximum tool attitude modification velocity\n\nMaximum tool attitude modification acceleration",
+  "notes": "This returns which of the following velocity or acceleration limits limited the velocity or acceleration of the motion which was just carried out with force control active.\n\n  Maximum joint velocity\n\n  Maximum joint acceleration\n\n  Maximum tool position modification velocity\n\n  Maximum tool position modification acceleration\n\n  Maximum tool attitude modification velocity\n\n  Maximum tool attitude modification acceleration\n\nAny item which limited the motion while force control was active even once will become a \"1.\"\n\nThis is used for processing or branching based on whether a motion was limited.\n\nMotionLimited status returns a value of 0 to 65535 (hexadecimal FFFF). Because of this, the range that can be handled with an Integer type can be exceeded. Use Int32 or Int64 type variables.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function motionLimitedTest Int64 Result FSet FCS1.Orientation, FG_TOOL ' Sets the force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets the virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets the virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets the virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control to active FSet FC1.LimitAccelS, 5 ' Sets the maximum joint acceleration to 5[mm/sec2]. AccelS 2 ' Sets the maximum CP motion acceleration to 2[mm/sec2] Move P0 FC1 ' A Move motion with force control active FGet FC1.MotionLimited, Result ' Acquires limit result If Result <> 0 Then ' When the motion is limited -",
+    "-",
+    "- EndIf ---\nFend"
+  ]
+}

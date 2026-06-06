@@ -1,0 +1,15 @@
+{
+  "title": "ShowSafeguard Property",
+  "file": "ShowSafeguard_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets whether to display the Safeguard status on a StatusBar control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.StatusBar1.ShowSafeguard, True"
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Additional Hints Regarding Accept and Confusion Properties",
+  "file": "AdditionalHintsRegardingAcceptandConfusionProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Additional Hints Regarding Accept and Confusion Properties\n\nAdditional Hints Regarding Accept and Confusion Properties\n\nA search window\n\nthat has a region of constant grey value will always get a 0 correlation value in that region.  If a scene is primarily of uniform background (e.g. a white piece of paper), so that at most places there will be not correlation, you can set the Confusion property to a low value because if the Correlation object finds anything, it must be the feature for which you are searching.\n\nThe Accept and Confusion properties can be thought of as hints that you provide to the system to enable it to locate features more quickly.  In general, these properties should be set conservatively, but need not be set precisely.  The most conservative settings are a low Accept property and High Confusion property.  Use very conservative settings when you know very little about a scene in which you are searching; the search will be careful but slower. (This is especially important when using Correlation property positional results to give to the robot to move to.)  Use more liberal settings when you know a lot about a scene in which you are searching.  For example, if you know that you are looking for one feature, and the rest of the scene is blank, a careful search is unnecessary; use more liberal settings and the search will be faster.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

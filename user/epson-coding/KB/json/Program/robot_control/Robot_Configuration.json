@@ -1,0 +1,12 @@
+{
+  "title": "Robot Configuration",
+  "file": "Robot_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Configuration\n\nRobot Configuration\n\nThis chapter contains information for adding robots and configuring additional axes.\n\nRobot\n\t Configuration\n\n\tAdding a standard robot\n\nAdditional\n\t axes Configuration\n\n\tAdding a robot with additional\n\t axes",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

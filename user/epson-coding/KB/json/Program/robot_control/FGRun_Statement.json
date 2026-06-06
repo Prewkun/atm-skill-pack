@@ -1,0 +1,14 @@
+{
+  "title": "FGRun Statement",
+  "file": "FGRun_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "FGRun Statement\n\nForce Guide\n\nFGRun Statement",
+  "notes": "Executes a specified force guide sequence.  The force guide sequence starts from the position where the FGRun statement was executed.  Execute after moving to the assumed start position by the Go statement, Move statement, or other motion commands.\n\nWhen the specified force guide sequence ends, the program proceeds to the next statement.\n\nTo acquire the results of sequences executed by FGRun, use FGGet.\n\nWhen path motion is enabled by the CP parameter or CP statement, the program waits until the robot stops and then executes a force guide sequence.\n\nWhen any of the following conditions is fulfilled at the time of execution start, an error occurs.\n\n- The robot specified in the program differs from the robot specified by the RobotNumber property.  Specify the correct robot by the Robot statement.\n\n- The robot type specified in the program differs from the robot type specified by the RobotType property. Specify the correct robot by the Robot statement.\n\n- The tool number specified in the program differs from the tool number specified by the RobotTool property. Specify the correct tool number by the Tool statement.\n\n- Motor is in OFF state.  Switch to ON state by the Motor statement.\n\n- Force control function is currently being executed.  Stop force control by the FCEnd statement.\n\n- Conveyor tracking is currently being executed.  Stop conveyor tracking by the Cnv_AbortTrack statement.\n\n- Currently in the torque control mode.  Disable the torque control mode by the TC statement.\n\nFGRun, when executed, automatically overwrites the following properties; therefore, it cannot be used together with the following properties:\n\nFM object\n\n- AvgForceClear property\n\n- PeakForceClear property",
+  "see_also": "FGGet",
+  "examples": [
+    "Function FGRunTest\n     Integer iResult\n     Motor On\n     FGRun Sequence1                    ' Execution of a force guide sequence\n     FGGet Sequence1.EndStatus, iResult ' Acquisition of results\n     Print iResult\nFend"
+  ]
+}

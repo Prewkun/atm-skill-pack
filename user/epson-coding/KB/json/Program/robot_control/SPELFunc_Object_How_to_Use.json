@@ -1,0 +1,12 @@
+{
+  "title": "SPELFunc Object How to Use",
+  "file": "SPELFunc_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SPELFunc Object How to Use\n\nSPELFunc Object\n\nHow to use\n\nStep 1. Set basic information\n\nSet properties (Name, Description, Enabled, StepID, AbortSeqOnFail) related to the basic information.\n\nStep 2. Set a function to be executed\n\nSet a property (FuncName) related to a function to be executed.\n\nSPELFunc Object Properties",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

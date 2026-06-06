@@ -1,0 +1,15 @@
+{
+  "title": "GetECP Method, Spel Class",
+  "file": "vbg_GetECP",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetECP() As Integer",
+  "parameters": "",
+  "description": "Returns the current ECP number for the current robot.",
+  "notes": "",
+  "see_also": "ECP, ECPSet\n\nGetECP Example\n\nVB Example:\n\nsaveECP = m_spel.GetECP\nm_spel.ECP 2\n\nC# Example:\n\nsaveECP = m_spel.GetECP();\n\nm_spel.ECP(2);",
+  "examples": [
+    "saveECP = m_spel.GetECPm_spel.ECP 2",
+    "saveECP = m_spel.GetECP();\nm_spel.ECP(2);"
+  ]
+}

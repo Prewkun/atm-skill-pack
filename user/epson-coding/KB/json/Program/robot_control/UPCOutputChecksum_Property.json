@@ -1,0 +1,12 @@
+{
+  "title": "UPCOutputChecksum Property",
+  "file": "UPCOutputChecksum_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to include the check sum value in UPC detection result.",
+  "notes": "Setting range: True / False\n\nDefault: False\n\nSee Also: UPCOutputChecksum Property\n\nUPCExpansionEnabled Property\n\nVision Objects: UPCOutputChecksum Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

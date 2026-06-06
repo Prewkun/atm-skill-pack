@@ -1,0 +1,12 @@
+{
+  "title": "Specifications",
+  "file": "Specifications_FS",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifications\n\nSpecifications\n\nEPSON RC+ supports ATI force sensors using PCI interface boards.\n\nFor the PCI interface board, we support the following products of National Instruments.\n\nPCI-6220\tConnect one force sensor\n\nPCI-6224\tConnect one or two force sensors\n\nPCI-6034E\tConnect one force sensor (Conventional)\n\nNote that we offer only the software license of this option. If you need ATI Force Sensor, a set of the PCI interface board and the sensor, please purchase it separately.\n\nFor specifications on force sensors, please see the ATI website:\n\nhttp://www.ati-ia.com/products/ft/sensors.aspx\n\nIn addition, it is required for the users to prepare for installation to the manipulator.  For details, refer to the installation drawing below.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

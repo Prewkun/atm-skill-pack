@@ -1,0 +1,14 @@
+{
+  "title": "J1Flag Function",
+  "file": "cmd_J1Flag",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "J1Flag [(point)]",
+  "parameters": "point\tOptional.  Point expression.  If point is omitted, then the J1Flag setting of the current robot position is returned.",
+  "description": "J1Flag Function\n\nJ1Flag Function\n\nReturns the J1Flag attribute of a point.",
+  "notes": "",
+  "see_also": "Hand, J1Flag Statement, J2Flag\n\nJ1Flag Function Example\n\nPrint J1Flag(pick)\n\n\t\tPrint J1Flag(P1)\n\n\t\tPrint J1Flag\n\nPrint J1Flag(Pallet(1, 1))",
+  "examples": [
+    "Print J1Flag(pick)\n\t\tPrint J1Flag(P1)\n\t\tPrint J1Flag\n\n\t\tPrint J1Flag(Pallet(1, 1))"
+  ]
+}

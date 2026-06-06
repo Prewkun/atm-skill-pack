@@ -1,0 +1,12 @@
+{
+  "title": "GetVar VI",
+  "file": "GetVar_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the value of a SPEL+ global preserve variable in the Controller.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nVar Name\tThe name of the SPEL+ global preserve variable.  For an array, the entire array can be returned or just one element.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nValue\tA variant containing the value.",
+  "notes": "",
+  "see_also": "SetVar\n\nGetVar Example",
+  "examples": []
+}

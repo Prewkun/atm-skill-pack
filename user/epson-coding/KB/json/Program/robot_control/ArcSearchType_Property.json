@@ -1,0 +1,12 @@
+{
+  "title": "ArcSearchType Property",
+  "file": "ArcSearchType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns a type of arc (circle, ellipse) to be searched for.",
+  "notes": "ArcSearchType specifies a type of arc to be searched by ArcFinder, or a type of arc of the base line which is used for ArcInspector.\n\nVision Objects: ArcSearchType Property\n\nArcFinder\n\nArcInspector",
+  "see_also": "",
+  "examples": []
+}

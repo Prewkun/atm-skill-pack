@@ -1,0 +1,12 @@
+{
+  "title": "SPEL+ Security Command",
+  "file": "Security_CommandSPEL",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SPEL+ Security Command\n\nSPEL+ Security Command\n\nHere are the SPEL+ commands that are enabled with the Security function.\n\nFor details, refer to Help or the following manual:\n\n    SPEL+ Language Reference\n\nCommand\tDescription\n\nLogIn\n\t\t  Function\tLogs\n\t\t in the application as another user at runtime.\n\nGetCurrentUser$\n\t\t Function\tReturns\n\t\t the login ID of the current user.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

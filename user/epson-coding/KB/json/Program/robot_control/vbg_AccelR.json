@@ -1,0 +1,15 @@
+{
+  "title": "AccelR Method, Spel Class",
+  "file": "vbg_AccelR",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub AccelR (Accel As Single, [Decel As Single])",
+  "parameters": "Accel\tSingle expression from 0.1 to 5000 deg/sec2 to define tool rotation\n\t\t acceleration when ROT is used in motion commands.  If Decel\n\t\t is omitted, this value is used for both the Acceleration and Deceleration\n\t\t rates.\n\nDecel\tOptional.  Single expression from\n\t\t 0.1 to 5000 deg/sec2\n\t\t to define tool rotation deceleration when ROT is used in motion\n\t\t commands.",
+  "description": "Sets acceleration and deceleration for tool rotation motion.",
+  "notes": "",
+  "see_also": "Arc, Arc3, BMove, Jump3CP, Power, SpeedR, TMove\n\nAccelR Example\n\nVB Example:\n\nSub MoveToPlace()\n\n  m_spel.AccelR(100)\n\n  m_spel.Move(\"place ROT\")\n\nEnd Sub\n\nC#",
+  "examples": [
+    "Sub MoveToPlace() m_spel.AccelR(100) m_spel.Move(\"place ROT\")\nEnd Sub",
+    "void MoveToPlace()\n{ m_spel.AccelR(100); m_spel.Move(\"place ROT\");\n}"
+  ]
+}

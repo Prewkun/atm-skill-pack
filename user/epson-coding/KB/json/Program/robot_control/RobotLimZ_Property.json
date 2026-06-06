@@ -1,0 +1,12 @@
+{
+  "title": "RobotLimZ Property",
+  "file": "RobotLimZ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the robot LimZ value used during the calibration cycle for a mobile camera.",
+  "notes": "Use RobotLimZ to specify the LimZ value used for the first motion used in a mobile camera calibration cycle (SCARA robot only). During mobile calibration, when the robot is moved to the first camera calibration point, a Jump command is used. RobotLimZ can be used to limit the distance that the robot moves up in Z for that Jump command.\n\nSee Also: RobotLimZ Property\n\nAccel Statement\n\nRobotSpeed Property\n\nSpeed Statement",
+  "see_also": "Applies To\n\nVision Calibration",
+  "examples": []
+}

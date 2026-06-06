@@ -1,0 +1,14 @@
+{
+  "title": "VStatsShow Statement",
+  "file": "VStatsShow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays statistics for a specified sequence.",
+  "notes": "VStatsShow will display a dialog showing the statistics for all objects in the specified sequence.",
+  "see_also": "",
+  "examples": [
+    "VStatsShow Seq1"
+  ]
+}

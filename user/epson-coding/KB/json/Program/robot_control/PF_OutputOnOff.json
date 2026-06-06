@@ -1,0 +1,12 @@
+{
+  "title": "PF_OutputOnOff",
+  "file": "PF_OutputOnOff",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) PF_OutputOnOff feeder number/feeder name, On, output number [, duration] [, wait]\n\n(2) PF_OutputOnOff feeder number/feeder name, Off",
+  "parameters": "feeder number\tSpecify the feeder number (integer number form 1 to 4) as an expression or a numerical value.\n\nfeeder name\tSpecify the feeder name as a character string.\n\nOn/Off\tSet On/Off.\n\noutput number\tSpecify the output destination.  This can be specified when the command is set to On.\n\n1: Out terminal 1\n\n2: Out terminal 2\n\nduration\tSpecify the duration to turn On.\n\nSpecify an integer value between 1 - 30000 [ms].\n\nSetting this to 0 or omitting this value will set this command to always remain On.\n\nwait\tSpecify whether waiting the operation completed or not. Only for IF-80.\n\n0: Does not wait for hopper operation to be completed.\n\n1: Wait for hopper operation to be completed.",
+  "description": "Control will return immediately after running this command (including the case where the wait setting is 0 for IF-80).  Use the Wait command as shown in the example to wait for the hopper to complete its actions.\n\nOutput terminals 1 and 2 cannot both be turned On at the same time.  For example, turning terminal 1 On will turn terminal 2 Off.\n\nWhen set to Off, both terminals 1 and 2 will be Off.\n\nOutput will turn Off when the PF_Abort command or the PF_Stop command is run.\n\nIf \"Hopper installed\" is not checked in [System Configuration]-[Controller]-[Parts Feeder], error 2584 (The output port of Part Feeding unit is not active) will occur.\n\nOutput will not turn Off even if the PF_Abort command or the PF_Stop command is run.\n\nCannot be executed from a virtual controller or command window.\n\nWhen a purge gate is used with the IF-240, Out pin 2 is used to control the purge gate. Therefore, setting the output number to 2 will not change the output of Out 2, although it can be executed.\n\nPF_OutputOnOff Example\n\nRefer to Part Feeding Callback Functions PF_Control for more details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

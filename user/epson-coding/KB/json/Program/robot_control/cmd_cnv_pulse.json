@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Pulse Function",
+  "file": "cmd_cnv_pulse",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_Pulse(conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.",
+  "description": "Note\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Point\n\nCnv_Pulse Function Example\n\nPrint \"Current conveyor position: \",\n\t\t\t\tCnv_Pulse\n\t\t\t(1)",
+  "examples": [
+    "Print \"Current conveyor position: \",\n\t\t\t\tCnv_Pulse\n\t\t\t(1)"
+  ]
+}

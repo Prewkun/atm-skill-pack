@@ -1,0 +1,12 @@
+{
+  "title": "CameraX2 Result",
+  "file": "CameraX2Result",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Line, LineFinder:  Returns the end point position (X2) of a Line object in Camera coordinates.\n\nBoxFinder: Returns the X coordinate position (X2) for corner points of rectangles detected in a camera coordinate system.",
+  "notes": "For Line, LineFinder\n\nEvery line must have a starting point and ending point.  The CameraX1 and CameraX2 results represent the X coordinate position starting (X1,Y1) and endpoints (X2,Y2) of the specified Line object.  Since Line object starting and endpoints can be assigned to other vision objects, the (CameraX1, CameraY1) and (CameraX2, CameraY2) coordinate pairs can actually be Camera coordinate positions which match the CameraX and CameraY results for other vision objects. (In other words if a Line object's starting point is defined by a Correlation object, then the (CameraX, CameraY) results from the Correlation object will match the (CameraX1, CameraY1) results for the Line object.)\n\nIt should be noted that the CameraX2 result can only be calculated for vision sequences which have been associated with a calibration.  If no calibration has been assigned to the vision sequence then if VGet is used to retrieve the CameraX2 result, an error will occur.\n\nFor BoxFinder\n\nThe camera coordinates for the four corners of a rectangle can be retrieved as Camera X1, 2, 3, 4 results and Camera Y1, 2, 3, 4 results.  CameraX2 is used to retrieve the X coordinate for the Corner2 point shown in the diagram below.",
+  "see_also": "Applies To\n\nVision Objects: Line, LineFinder, BoxFinder\n\nAngle Result\tRobotXYU Result\n\nCameraX1 Result\tRobotX Result\n\nCameraY1 Result\tX1 Property\n\nCameraY2 Result\tX2 Property\n\nPixelX Result\tY1 Property\n\nPixelX2 Result\tY2 Property\n\nVision Objects: CameraX2 Result\n\nBoxFinder\n\nLine\n\nLineFinder",
+  "examples": []
+}

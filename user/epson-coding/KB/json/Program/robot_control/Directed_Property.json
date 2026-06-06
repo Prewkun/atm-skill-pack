@@ -1,0 +1,12 @@
+{
+  "title": "Directed Property",
+  "file": "Directed_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies whether to consider the placement direction of the object when calculating line output angles.",
+  "notes": "This property is not enabled unless AngleMode is set to \"2: UseAngleBase\".  Refer to Remarks in the AngleMode property.\n\nValues\n\n0 - False The placement direction of the object is taken into account.\n\n1 - True The placement direction of the object is not taken into account.\n\nDefault: 1-True",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: Line, LineFinder\n Property\n\nAngleBase Property\n\nAngleMode Property\n\nVision Objects: Directed Property\n\nLine, LineFinder",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "About Epson RC+",
+  "file": "help_about_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "About Epson RC+\n\n[About Epson RC+ 8.0] Command (Help Menu)\n\nThe About command displays a dialog box showing the current version of the Epson RC+ 8.0 software, along with copyright and license information. When calling technical support about Epson RC+ 8.0, you should report the version you are using from this dialog.\n\nItem\tDescription\n\nClose\tCloses\n\t\t the [About Epson RC+ 8.0] dialog.\n\nRC+ 8.0\n\t\t Release Notes\tShows\n\t\t a list of RC+ 8.0 release notes in the browser.\n\nOSS License\tShows\n\t\t the [OSS License] dialog.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

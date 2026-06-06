@@ -1,0 +1,12 @@
+{
+  "title": "VDefSetMotionRange Statement",
+  "file": "VDefSetMotionRange_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "VDefSetMotionRange MaxMoveDist, [MaxPoseDiffAngle],[ LjmMode]",
+  "parameters": "MaxMoveDist\tReal value representing the maximum distance of move.\n\nIf 0 is specified, the range is not limited. (0 to 500.  Default: 200)\n\nVDefTool, VDefArm, VDefLocal, and VGoCenter are used to limit the range.\n\nMaxPoseDiffAngle\tReal value representing the maximum displacement angle (degrees) of tool orientation (UVW).\n\nIf 0 is specified, the angle is not limited.\n\nIt only affects VDefLocal. ( 0 to 180.  Default: 45 degrees)\n\nLjmMode\tInteger variable that will contains the LJM mode.",
+  "description": "VDefSetMotionRange limits a motion range by VDefTool, VDefArm, VDefLocal, and VGoCenter.",
+  "notes": "VDefSetMotionRange limits a motion range by VDefTool, VDefArm, VDefLocal, and VGoCenter.\n\nLJM mode controls the posture flag of the point data to prevent unintended rotation of the wrist.  LJM mode vales are the same values as  LJM function of SPEL+.",
+  "see_also": "VDefTool\n\nVDefArm\n\nVDefLocal\n\nVGoCenter\n\nVDefGetMotionRange",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "FBusIO_GetBusStaus Function",
+  "file": "FBusIO_GetBusStatus_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "FBusIO_GetBusStatus (busNumber)",
+  "parameters": "busNumber\tInteger expression\n\t\t representing the Fieldbus system number. This number must be 16.\n\t\t This is the ID for the bus connected to the Fieldbus master board\n\t\t on the PC side of the controller.",
+  "description": "FbusIO_GetBusStatus can be used to verify the general status of the Fieldbus.",
+  "notes": "",
+  "see_also": "Returns the status of the specified Fieldbus.\n\nFBusIO_GetDeviceStatus\n\nFBusIO_SendMsg\n\nFBusIO_GetBusStatus Function",
+  "examples": [
+    "Long sts\nsts = FbusIO_GetBusStatus(16)"
+  ]
+}

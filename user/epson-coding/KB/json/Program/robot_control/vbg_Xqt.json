@@ -1,0 +1,18 @@
+{
+  "title": "Xqt Method, Spel Class",
+  "file": "vbg_Xqt",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Xqt (FuncName As String [, TaskType As SpelTaskType])\n\nSub Xqt (TaskNumber As Integer, FuncName As String [, TaskType As SpelTaskType])",
+  "parameters": "TaskNumber\tThe task number for the task to be executed. The range of the task number is 1 to 32.\n\nFuncName\tThe name of the function to be executed. You can also optionally supply arguments to the function. Arguments must be in parenthesis, separated by commas. For details, see the SPEL+ Xqt Statement. Also, see the example.\n\nTaskType\tOptional. Specifies the task type as Normal, NoPause, or NoEmgAbort.",
+  "description": "Start one SPEL+ task.",
+  "notes": "When Xqt is executed, control will return immediately to the calling program. Use the Call method to wait for a task to complete, or you can use EventReceived with the task status event to wait for a task to finish.",
+  "see_also": "Call\n\nEnableEvent\n\nEventReceived\n\nXqt Example\n\nVB Example:\n\nm_spel.Xqt(2, \"conveyor\")\n\n' Supply an argument to the RunPart Function\n\nm_spel.Xqt(3, \"RunPart(3)\")\n\nDim funcToExec As String\n\nfuncToExec = \"RunPart(\" & partNum & \")\n\nm_spel.Xqt(3, funcCall)\n\nC# Example:\n\nm_spel.Xqt(2, \"conveyor\");\n\n// Supply an argument to the RunPart function\n\nm_spel.Xqt(3, \"RunPart(3)\");\n\nstring funcToExec;\n\nfuncToExec = string.Format(\"RunPart({0})\", partNum);\n\nm_spel.Xqt(3, funcToExec);",
+  "examples": [
+    "m_spel.Xqt(2, \"conveyor\")\n\n' Supply an argument to the RunPart Function\nm_spel.Xqt(3, \"RunPart(3)\")",
+    "Dim funcToExec As String\nfuncToExec = \"RunPart(\" & partNum & \")\nm_spel.Xqt(3, funcCall)",
+    "m_spel.Xqt(2, \"conveyor\");",
+    "// Supply an argument to the RunPart function\nm_spel.Xqt(3, \"RunPart(3)\");",
+    "string funcToExec;\nfuncToExec = string.Format(\"RunPart({0})\", partNum);\nm_spel.Xqt(3, funcToExec);"
+  ]
+}

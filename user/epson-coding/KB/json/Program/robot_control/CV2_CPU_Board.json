@@ -1,0 +1,12 @@
+{
+  "title": "CV2 CPU Board",
+  "file": "CV2_CPU_Board",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 CPU Board\n\nCPU Board\n\nTo replace the CPU board, follow the steps below.\n\n(1) Follow the steps (1) through (3) in PoE Board.\n\n(2) Remove the chassis fan cable and the LED/SW board connection cable on the CPU board.\n\n(3) Remove four spacers and five screws fixing the CPU board.\n\n(4) Remove the CPU board.\n\nLift the board carefully not to hitch to the chassis plate.\n\n(5) Remove the CFast and memory on the removed CPU board.\n\n(6) Install the CFast and memory to the new CPU board.\n\n(7) Install the new CPU board to the bottom of the chassis while aligning to the screw holes.\n\n(8) Fix the board in the reverse order to removal.\n\nBe careful of the direction of the LED/SW cables.\n\n(The red cable of the LED/SW cables must be on the right side when facing the front face of the CV2.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

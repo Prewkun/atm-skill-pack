@@ -1,0 +1,12 @@
+{
+  "title": "ModelWin Property",
+  "file": "ModelWinProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the position and size of the model window for Correlation and Geometric objects.",
+  "notes": "The ModelWin property was added to provide easy access to the ModelWinTop, ModelWinLeft, ModelWinWidth and ModelWinHeight properties from the SPEL+ Language.  The ModelWin property allows the setting of all 4 properties.  There are cases where the user may want to define the position and size of the Model Window dynamically and for that reason the ModelWin property was created.\n\nThe ModelWin property can be applied to the Correlation and Geometric objects.  Each of these object types have similar rectangular model windows used to define the position and size of the model.",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: Correlation, Geometric\n\nModelWinHeight Property\n\nModelWinLeft Property\n\nModelWinTop Property\n\nModelWinWidth Property\n\nModel Window Explanation\n\nVision Objects: ModelWin Property\n\nCorrelation\n\nGeometric",
+  "examples": []
+}

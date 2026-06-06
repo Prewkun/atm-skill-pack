@@ -1,0 +1,12 @@
+{
+  "title": "PictureBox Control",
+  "file": "GUI_PictureBox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The PictureBox control is used to display graphics in bitmap, GIF, JPEG, PNG, and icon format.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

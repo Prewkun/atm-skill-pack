@@ -1,0 +1,12 @@
+{
+  "title": "PixelLength Result",
+  "file": "PixelLengthResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns a length in pixels of the distance between the starting and ending point of the line for Line objects, and the length of a defect for ArcInspector and LineInspector objects.",
+  "notes": "Unlike the Length result, the PixelLength result can return a value even if calibration has not yet been performed.  This is because the units are simply pixel units and no calibration is needed for pixel unit based calculations.  If the user needs a length (distance) in millimeters then a standalone or robot based camera calibration is required.\n\nStatistics\n\nFor the PixelLength result, the following statistics are available. PixelLengthMax, PixelLengthMean, PixelLengthMin, PixelLengthStdDev.  Please see Statistics in the Vision Guide manual for details about using statistics.\n\nSee Also: PixelLength Result\n\nLength Result\n\nVision Objects: PixelLength Result\n\nLine",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector, Line, LineInspector",
+  "examples": []
+}

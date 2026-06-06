@@ -1,0 +1,12 @@
+{
+  "title": "Hardware Installation Conveyor Tracking",
+  "file": "Hardware_Installation_Conveyor_Tracking",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Hardware Installation Conveyor Tracking\n\nHardware Installation\n\nTo use conveyor tracking, you must install encoders for each physical conveyor on the system.  Each encoder is wired to a single channel on a PG (Pulse Generator) board.  Each board can accommodate up to 4 encoders.  A trigger input is also provided for each encoder to latch position, such as when used with a vision camera with a strobe.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

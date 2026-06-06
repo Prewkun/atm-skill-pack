@@ -1,0 +1,16 @@
+{
+  "title": "Weight Statement",
+  "file": "weight_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Weight [payloadWeight [, distance | S | T ]]\n\nWeight",
+  "parameters": "payloadWeight\tOptional (It\n\t\t is not possible to omit only payloadWeight). The weight of the\n\t\t end effector to be carried in Kg unit.\n\ndistance\tOptional.\n\t\t The distance from the rotational center of the second arm to the\n\t\t center of the gravity of the end effector in mm unit.  Valid\n\t\t only for SCARA robots (including RS series).\n\nS\tLoad weight\n\t\t against the additional S axis in kg to 2 decimal places)\n\nT\tLoad weight\n\t\t against the additional T axis in kg to 2 decimal places)",
+  "description": "Specifies parameters for calculating Point to Point motion maximum acceleration.  The Weight instruction specifies the weight of the end effector and the parts to be carried.\n\nThe Arm length (distance) specification is necessary only for SCARA robots (including RS series).  It is the distance from the second arm rotation joint centerline to the hand/workpiece combined center of gravity.\n\nIf the robot has the additional axis, the loads on the additional axis must be set with the S, T parameters.\n\nIf the equivalent value workpiece weight calculated from specified parameters exceeds the maximum allowable payload, an error occurs.\n\nRobot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.\n\nYou can also set by following \"Weight, Inertia, and Eccentricity/offset Measurement Utility\".\n\nThe following manual describes the details.\n\nEpson RC+ User's Guide 6.18.12 Weight, Inertia, and Eccentricity / Offset Measurement Utility\n\nPotential",
+  "notes": "",
+  "see_also": "Accel, Inertia, Weight Function\n\nFor details of hand, refer to the Hand Function Manual.\n\nWeight Statement",
+  "examples": [
+    "> weight\n2.000, 200.000\n>",
+    "> weight 3.0",
+    "> weight 30.0, S"
+  ]
+}

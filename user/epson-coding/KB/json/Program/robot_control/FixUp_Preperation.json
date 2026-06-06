@@ -1,0 +1,12 @@
+{
+  "title": "FixUp_Preperation",
+  "file": "FixUp_Preperation",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "FixUp_Preperation\n\nPreperation\n\nPreparation 1: Mount the camera\n\n(1) Mount the camera so that it will be looking up into the robot envelope.\n\nMake sure that the robot does not touch the camera.\n\nPreparation 2: Create vision sequence to find calibration end effector target\n\n(1) Create a sequence to locate the target on the end effector.  Create one or more objects in the sequence to locate the target.  The calibration software will use the last step in the sequence to get the location of the target.  The last step results for X and Y should be the center of the target.\n\n(2) During calibration, the end effector will be move to nine different points in the field of view of the camera and search for the target.  Also, at each position, the calibration software will turn the U axis 180 degrees and search for the target again.  This allows the software to determine the center of the U axis for each point.   For best results, use a round target.\n\nWhen preparation is completed, run the calibration wizard to configure necessary settings.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

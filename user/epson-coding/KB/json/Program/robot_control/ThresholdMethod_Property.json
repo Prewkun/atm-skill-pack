@@ -1,0 +1,12 @@
+{
+  "title": "ThresholdMethod Property",
+  "file": "ThresholdMethod_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the binarization threshold method to use when the object runs.",
+  "notes": "Seting ThresholdMethod determines how the region of interest is binarized.\n\nGlobalUser - Uses ThresholdHigh and ThresholdLow user settings.  This is the default.\n\nGlobalAuto - Automatically determines the values for ThresholdHigh and ThresholdLow for the entire region.  This replaces ThresholdAuto used in previous versions.\n\nLocalAdaptive - Dynamically determines the thresholds using the ThresholdBlocksize and ThresholdLevel properties.  This is available for area extraction processing of the object when the brightness values of the object are not stable in the image.\n\nFor the Contour object, ThresholdMethod is used when ContourMode is set to Blob.\n\nNote: The ThresholdAuto property can now only be used at runtime.  When VSet executes at runtime for ThresholdAuto, ThresholdMethod is changed as follows:\n\nThresholdAuto = True changes ThresholdMethod to GlobalAuto.\n\nThresholdAuto = False changes ThresholdMethod to GlobalUser.\n\nSee Also: ThresholdMethod Property\n\nBlob Object\n\nImageOp Object\n\nPolarity Property\n\nThresholdHigh Property\n\nThresholdLow Property\n\nVision Objects: ThresholdMethod Property\n\nBlob\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: Blob, ImageOp, Contour",
+  "examples": []
+}

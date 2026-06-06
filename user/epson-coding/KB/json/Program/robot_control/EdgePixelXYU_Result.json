@@ -1,0 +1,12 @@
+{
+  "title": "EdgePixelXYU Result",
+  "file": "EdgePixelXYU_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the PixelX, PixelY and Angle position coordinates of the edges found during the search.",
+  "notes": "LineFinder and ArcFinder use several edges to find a line or arc.  You can get the position results for each of the searched edges in the image by using EdgePixelXYU.\n\nYou must set the CurrentResult property to the LineFinder (or ArcFinder) result whose edge results you want to retrieve.\n\nThe number of edge results is equal to the NumberOfEdges property.\n\nThe EdgePixelXYU result is available at runtime only.\n\nSee Also: EdgePixelXYU Result\n\nEdgeCameraXYU Result\n\nVision Objects: EdgePixelXYU Result\n\nArcFinder\n\nLineFinder",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, LineFinder",
+  "examples": []
+}

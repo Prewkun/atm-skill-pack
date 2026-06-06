@@ -1,0 +1,12 @@
+{
+  "title": "Joint Accuracy Calibration",
+  "file": "Joint_Accuracy_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Joint Accuracy Calibration\n\nJoint Accuracy Calibration\n\nOverview\n\nJoint accuracy calibration is one of the absolute accuracy calibration functions. It is used to measure the joint accuracy of each axis, and correct any errors.\n\nReplacing Parts Requiring Joint Accuracy Calibration Remeasurements\n\nJoint accuracy measurements need to be performed again when replacing the following parts.\n\nReduction\n\t gear unit replacement\n\nAC\n\t servo motor replacement\n\nTiming\n\t belt replacement\n\nFor more information of parts, contact a supplier of your region.\n\nJoint Accuracy Measurements\n\nJoint accuracy calibration contains factory settings. Joint accuracy calibration remeasurements for part replacing shall be performed by personnel who has taken a proper training.\n\nFor details, refer to the following manual:\n\nSafety Manual: Training\n\nTrajectory accuracy is improved within the range specified in the joint accuracy calibration wizard. Calibrate joint accuracy at points actually in use. Joint calibration is performed across all motion ranges at the factory.\n\nCAUTION\t■\tDo not change joint\n\t\t accuracy calibration settings unless absolutely necessary. Changing\n\t\t these settings unnecessarily may adversely impact trajectory accuracy.\n\n■\tTrajectory accuracy\n\t\t may drop outside the range specified in the joint accuracy calibration\n\t\t wizard. To improve accuracy across the entire range of motion,\n\t\t specify a joint accuracy calibration range to cover the entire\n\t\t motion range.\n\n.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

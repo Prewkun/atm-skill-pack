@@ -1,0 +1,14 @@
+{
+  "title": "OpenNet Function",
+  "file": "opennet_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "OpenNet(portNumber)",
+  "parameters": "portNumber\tInteger expression for TCP/IP port number. Range is 201 - 216.",
+  "description": "Acquires the task number that executes OpenNet.",
+  "notes": "",
+  "see_also": "ChkNet\n\nCloseNet\n\nOpenNet\n\nSetNet\n\nOpenNet Function Example\n\nPrint OpenNet(PortNo)",
+  "examples": [
+    "Print OpenNet(PortNo)"
+  ]
+}

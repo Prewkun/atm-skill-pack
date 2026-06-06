@@ -1,0 +1,12 @@
+{
+  "title": "StartCheckPoint Property",
+  "file": "StartCheckPoint_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a reference point to check the arm orientation and the position when the force guide sequence starts.  It is used when PosCheckEnabled is True.\n\nValues\n\nMinimum value 0\n\nMaximum value 999\n\nDefault:  0\n\nSee Also: StartCheckPoint Property\n\nPosCheckEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

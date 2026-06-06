@@ -1,0 +1,14 @@
+{
+  "title": "Tool Function",
+  "file": "tool_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Tool",
+  "parameters": "",
+  "description": "Tool Function\n\nTool Function\n\nSee_Also Example\n\nReturns the current tool number.",
+  "notes": "",
+  "see_also": "Tool Statement\n\nTool Function Example\n\nInteger savTool\n\nsavTool = Tool\n\nTool 2\n\nGo P1\n\nTool savTool",
+  "examples": [
+    "Integer savTool\n\nsavTool = Tool\n\nTool 2\n\nGo P1\n\nTool savTool"
+  ]
+}

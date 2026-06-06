@@ -1,0 +1,12 @@
+{
+  "title": "Coordinates Object Step 2 Configuring",
+  "file": "Coordinates_Object_Step_2_Configuring",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Coordinates Object Step 2 Configuring\n\nCoordinates Object\n\nStep 2: Configuring Properties for the Coordinates Object\n\n(1) Add the object(s) for which you want to store the coordinates results to the Coordinates object. There is no restriction on the step order of positions of the object for which you want to copy the coordinates result and the Coordinates object. Switch the step positions according to your situation.\n\n(2) After adding the object(s), select and specify the Coordinates object from the CoordObject property.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

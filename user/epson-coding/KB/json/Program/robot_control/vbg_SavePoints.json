@@ -1,0 +1,15 @@
+{
+  "title": "SavePoints Method, Spel Class",
+  "file": "vbg_SavePoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub SavePoints  (FileName As String)",
+  "parameters": "FileName\tThe file name to save the points to in the current project.",
+  "description": "Save points for the current robot into a file.",
+  "notes": "",
+  "see_also": "LoadPoints\n\nSavePoints Example\n\nVB Example:\n\nWith m_spel\n\n  .SavePoints(\"part1.pts\")\n\nEnd With\n\nC# Example:\n\nm_spel.SavePoints(\"part1.pts\");",
+  "examples": [
+    "With m_spel .SavePoints(\"part1.pts\")\nEnd With",
+    "m_spel.SavePoints(\"part1.pts\");"
+  ]
+}

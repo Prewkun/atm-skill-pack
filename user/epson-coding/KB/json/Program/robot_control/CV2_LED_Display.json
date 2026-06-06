@@ -1,0 +1,12 @@
+{
+  "title": "CV2 LED Display",
+  "file": "CV2_LED_Display",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 LED Display\n\nCV2 LED Display\n\nEach LED of CV2 indicates conditions as follows.\n\nPower LED\n\nPower On\tGreen\n\nPower off (current applied)\tOrange\n\nPower off (current not applied)\tOFF\n\nCFast access LED\n\nAccess\tOrange\n\nNo Access\tOFF\n\nTemperature warning LED\n\nWarning (CPU temp.: exceeding 105 degrees)\tRed\n\nNo warning (CPU temp.: less than 105 degrees)\tOFF\n\nPoE LED\n\nPower supplied\tRed\n\nPower not supplied\tOFF\n\nERROR/STATUS LED\n\n\tERROR LED (Red)\tSTATUS LED (Green)\n\nPower ON\tON\tON\n\nOS/ firmware running\tON\tON\n\nAfter normal startup of OS\tOFF\tOFF\n\nAfter normal startup of firmware\tOFF\tBlink\n\nError\tON\tOFF\n\nWarning\tBlink\tOFF\n\nPower OFF\tOFF\tOFF",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

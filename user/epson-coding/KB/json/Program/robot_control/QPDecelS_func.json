@@ -1,0 +1,14 @@
+{
+  "title": "QPDecelS Function",
+  "file": "QPDecelS_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "QPDecelS (paramNumber)",
+  "parameters": "paramNumber\tInteger expression specifying the one of the following values.\n\n1: Quick pause deceleration speed during the CP motion\n\n2: Quick pause deceleration speed in depart motion during the Jump3 and Jump3CP\n\n3: Quick pause deceleration speed in approach motion during the Jump3 and Jump3CP",
+  "description": "QPDecelS Function\n\nQPDecelS Function",
+  "notes": "",
+  "see_also": "Returns the set deceleration speed of quick pause during the CP motion.\n\nQPDecelS\n\nQPDecelR Function\n\nQPDecelS Function Example\n\nReal savQPDecelS\n\nsavQPDecelS = QPDecelS(1)",
+  "examples": [
+    "Real savQPDecelS\nsavQPDecelS = QPDecelS(1)"
+  ]
+}

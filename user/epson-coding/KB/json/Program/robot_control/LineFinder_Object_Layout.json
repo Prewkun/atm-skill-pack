@@ -1,0 +1,12 @@
+{
+  "title": "LineFinder Object Layout",
+  "file": "LineFinder_Object_Layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "LineFinder Object Layout\n\nLineFinder Object Layout\n\nThe LineFinder object has a different look than the Correlation and Blob objects. The LineFinder object's search window is the line along which the Edge object searches. The LineFinder object searches for a transition (light to dark or dark to light) somewhere along this line in the direction indicated by the Direction Indicator.\n\nLineFinder Object Layout\n\nThe LineFinder object can be positioned to search in any direction (not just along the vertical and horizontal directions). This is done by using the size and direction handles of the LineFinder object to move the LineFinder object along the direction (and per a user-specified distance) required to find the edge you are interested in.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

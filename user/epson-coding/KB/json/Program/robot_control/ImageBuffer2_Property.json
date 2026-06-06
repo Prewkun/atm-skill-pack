@@ -1,0 +1,12 @@
+{
+  "title": "ImageBuffer2 Property",
+  "file": "ImageBuffer2_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets and returns the second source image buffer to be used for the SubtractAbs operation.",
+  "notes": "Specifies the image buffer number where the second image data of the SubtractAbs operation is stored.\n\nWhen ImageBuffer2 is set to \"File\", the image data will be acquired from the image file set in the ImageBuffer2File property and the sequence will be executed.\n\nThe SubtractAbs operation outputs the difference between two images of image butter specified by ImageBuffer1 property and ImageBuffer2 property.\n\nFor setting method of the image buffer, refer to ImageBuffer Property.",
+  "see_also": "Property\n\nImageBuffer Property\n\nImageBuffer1 Property\n\nImageBuffer2File Property\n\nImageOp Object",
+  "examples": []
+}

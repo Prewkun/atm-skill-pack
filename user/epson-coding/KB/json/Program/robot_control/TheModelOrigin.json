@@ -1,0 +1,12 @@
+{
+  "title": "The Model Origin",
+  "file": "TheModelOrigin",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Model Origin\n\nThe Model Origin\n\nEvery model has a model origin.  The model origin is the fixed reference point by which we describe the model's location in an image.  It should be noted that the model origin coordinate position is referenced to the upper left position of the model window.  The upper left position of the model window starts at [0,0].\n\nThe Model Origin",
+  "notes": "",
+  "see_also": "Positioning the Model Origin",
+  "examples": []
+}

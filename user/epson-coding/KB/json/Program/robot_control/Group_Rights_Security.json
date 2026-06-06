@@ -1,0 +1,12 @@
+{
+  "title": "Group Rights Security",
+  "file": "Group_Rights_Security",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Group Rights Security\n\nGroup Rights\n\nThe list below shows the rights that are available for user groups. Administrators have full rights. Guests have no rights.\n\nRight\tDescription\n\nEdit\n\t\t projects\tUsers\n\t\t can edit projects.\n\nEdit\n\t\t programs\tUsers\n\t\t can edit program.\n\nEdit\n\t\t force\tUsers\n\t\t can edit force parameters.\n\nEdit\n\t\t GUI Builder\tUsers\n\t\t can edit GUI Builder parameters.\n\nEdit\n\t\t vision\tUsers\n\t\t can edit vision parameters.\n\nEdit\n\t\t Part Feeding\tUsers\n\t\t can edit Part Feeding parameters.\n\nJog\tUsers\n\t\t can open the [Jog & Teach] dialog and jog a robot.\n\nTeaching\tThe points\n\t\t can be taught and deleted from the [Jog & Teach] dialog.\n\nChange\n\t\t robot parameter\tUsers\n\t\t can open the [Robot Manager] dialog and change the settings.\n\nEdit\n\t\t points\tUsers\n\t\t can change points.\n\nUse command\n\t\t window\tUsers\n\t\t can open the command window and execute commands.\n\nChange\n\t\t memory I/O\tUsers\n\t\t can turn ON/OFF memory I/O bits.\n\nOutput\n\t\t port ON\tUsers\n\t\t can turn ON/OFF outputs.\n\nConfigure\n\t\t options\tUsers\n\t\t can change option settings in [Setup]-[Options].\n\nConfigure\n\t\t system\tUsers\n\t\t can configure the entire Epson RC+ system.\n\nConfigure\n\t\t security\tUsers\n\t\t can change security settings.\n\nCheck\n\t\t security log\tUsers\n\t\t can see security logs.\n\nDelete\n\t\t security log\tUsers\n\t\t can delete security logs in [Tools]-[Audit Viewer].",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

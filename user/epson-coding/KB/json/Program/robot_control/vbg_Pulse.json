@@ -1,0 +1,15 @@
+{
+  "title": "Pulse Method, Spel Class",
+  "file": "vbg_Pulse",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Pulse (J1Pulses As Integer, J2Pulses As Integer, J3Pulses As Integer, J4Pulses As Integer [, J5Pulses As Integer ] [, J6Pulses As Integer] [, J7Pulses As Integer] [, J8Pulses As Integer] [, J9Pulses As Integer])",
+  "parameters": "J1Pulses - J9Pulses\tInteger expression containing the pulse value for joints 1 - 9. Joints 5 - 9 are optional.\n\nNote\n\nThe pulse values must be within the range specified by each joint.",
+  "description": "Moves the robot arm by Point to Point control to the point specified by the pulse values for all robot joints.",
+  "notes": "",
+  "see_also": "Go\n\nJump\n\nMove\n\nPls\n\nPulse Example\n\nVB Example:\n\nm_spel.Pulse(5000, 1000, 0, 0)\n\nC# Example:\n\nm_spel.Pulse(5000, 1000, 0, 0);",
+  "examples": [
+    "m_spel.Pulse(5000, 1000, 0, 0)",
+    "m_spel.Pulse(5000, 1000, 0, 0);"
+  ]
+}

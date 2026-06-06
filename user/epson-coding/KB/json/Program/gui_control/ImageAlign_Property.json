@@ -1,0 +1,15 @@
+{
+  "title": "ImageAlign Property",
+  "file": "ImageAlign_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the image alignment for the image that is displayed on a control.",
+  "notes": "See Also: ImageAlign Property\n\nImage Property\n\nGUI Items: ImageAlign Property\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, GroupBox",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, GroupBox",
+  "examples": [
+    "GSet frmMain.btnTools.ImageAlign, IMAGEALIGN_MIDDLECENTER"
+  ],
+  "category": "gui_control"
+}

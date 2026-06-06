@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Security Page",
+  "file": "Part_Feeding_Security_Page",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Security Page\n\nSecurity Page\n\nConfigure security settings to restrict users from viewing or editing Part Feeding option settings.\n\nWhen the [Edit Part Feeding] check box is selected, users belonging to the corresponding group are able to open the Part Feeding window.\n\nWhen the Edit Part Feeding check box is not selected, an error will occur when users belonging to the corresponding group attempt to open the Part Feeding window.\n\nRefer to the following document for more details.\n\n   Epson RC+ User's Guide  15. Security",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

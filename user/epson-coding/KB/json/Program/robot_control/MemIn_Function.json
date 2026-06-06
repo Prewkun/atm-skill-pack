@@ -1,0 +1,27 @@
+{
+  "title": "MemIn Function",
+  "file": "MemIn_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "MemIn ( portNumber )",
+  "parameters": "portNumber\tInteger expression representing the memory I/O byte number.",
+  "description": "Returns an integer value between 0 and 255.  The return value is 8 bits, with each bit corresponding to 1 memory I/O bit.\n\nMemIn provides the ability to look at the value of 8 memory I/O bits at the same time.  The MemIn instruction can be used to store the 8 memory I/O bit status into a variable or it can be used with the Wait instruction to Wait until a specific condition which involves more than 1 memory I/O bit is met.\n\nSince 8 bits are retrieved at a time, the return value ranges from 0 and 255.  Please review the chart below to see how the integer return values correspond to individual memory I/O bits.\n\nMemory I/O Bit Result (Using Port #0)",
+  "notes": "Difference Between MemIn and MemSw\n\nThe MemSw instruction allows the user to read the value of 1 memory I/O bit.  The return value from MemSw is either a 1 or a 0 which indicates that the memory I/O bit is either On or Off.  MemSw can check each of the memory I/O bits individually.  The MemIn instruction is very similar to the MemSw instruction in that it also is used to check the status of the memory I/O bits.  However there is 1 distinct difference.  The MemIn instruction checks 8 memory I/O bits at a time vs. the single bit checking functionality of the MemSw instruction. MemIn returns a value between 0 and 255 which tells the user which of the 8 I/O bits are On and which are Off.",
+  "see_also": "In, InBCD, Off, MemOff, On, MemOn, OpBCD, Oport, Out, Sw, MemSw, Wait\n\nMemIn Function Example\n\nThe program example below gets the current value of the first 8 memory I/O bits and then makes sure that all 8 I/O are currently set to 0 before proceeding.  If they are not 0 an error message is given to the operator and the task is stopped.\n\nFunction main\n\n  Integer var1\n\n  var1 = MemIn(0)  'Get the 1st 8 memory I/O bit values\n\n  If var1 = 0 Then\n\n    Go P1\n\n    Go P2\n\n  Else\n\n    Print \"Error in initialization!\"\n\n    Print \"First 8 memory I/O bits were not all set to 0\"\n\n  EndIf\n\nFend\n\nOther simple examples from the command window are as follows:\n\n> memout 0, 1\n\n> print MemIn(0)\n\n1\n\n> memon 1\n\n> print MemIn(0)\n\n3\n\n> memout 31,3\n\n> print MemIn(31)\n\n3\n\n> memoff 249\n\n> print MemIn(31)\n\n1\n\n>",
+  "examples": [
+    "Function main Integer var1 var1 = MemIn(0)  'Get the 1st 8 memory I/O bit values If var1 = 0 Then\n    Go P1\n    Go P2 Else\n    Print \"Error in initialization!\"\n    Print \"First 8 memory I/O bits were not all set to 0\" EndIf\nFend",
+    "> memout 0, 1",
+    "> print MemIn(0)",
+    "1",
+    "> memon 1",
+    "> print MemIn(0)",
+    "3",
+    "> memout 31,3",
+    "> print MemIn(31)",
+    "3",
+    "> memoff 249",
+    "> print MemIn(31)",
+    "1",
+    ">"
+  ]
+}

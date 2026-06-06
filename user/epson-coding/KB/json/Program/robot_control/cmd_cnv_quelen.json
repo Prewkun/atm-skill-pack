@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_QueLen Function",
+  "file": "cmd_cnv_quelen",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_QueLen(conveyorNumber [, paramNumber ] )",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number.\n\nparamNumber\tOptional. Integer expression that specifies which data to return the length for.\n\nSymbolic constant\tValue\tMeaning\n\nCNV_QUELEN_ALL\t0\tReturns total number of items in queue.\n\nCNV_QUELEN_UPSTREAM\t1\tReturns number of items upstream.\n\nCNV_QUELEN_PICKUPAREA\t2\tReturns number of items in pickup area.\n\nCNV_QUELEN_DOWNSTREAM\t3\tReturn number of items downstream.",
+  "description": "Cnv_QueLen is used to find out how many items are available in the queue. Typically, you will want to know how many items are in the pick up area.\n\nYou can also use Cnv_QueLen as an argument to the Wait statement.\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_QueGet\n\nCnv_QueLen Function Example\n\nDo\n\n  Do While Cnv_QueLen (1, CNV_QUELEN_DOWNSTREAM) > 0\n\n    Cnv_QueRemove 1, 0\n\n  Loop\n\n  If Cnv_QueLen (1, CNV_QUELEN_PICKUPAREA) > 0 Then\n\n    Jump Cnv_QueGet(1, 0) C0\n\n    On gripper\n\n    Wait .1\n\n    Cnv_QueRemove 1, 0\n\n    Jump place\n\n    Off gripper\n\n    Jump idlePos\n\n  EndIf\n\nLoop",
+  "examples": [
+    "Do Do While Cnv_QueLen (1, CNV_QUELEN_DOWNSTREAM) > 0\n    Cnv_QueRemove 1, 0 Loop If Cnv_QueLen (1, CNV_QUELEN_PICKUPAREA) > 0 Then\n    Jump Cnv_QueGet(1, 0) C0\n    On gripper\n    Wait .1\n    Cnv_QueRemove 1, 0\n    Jump place\n    Off gripper\n    Jump idlePos EndIf\nLoop"
+  ]
+}

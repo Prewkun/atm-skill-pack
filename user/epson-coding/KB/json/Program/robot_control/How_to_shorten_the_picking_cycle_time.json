@@ -1,0 +1,12 @@
+{
+  "title": "How to shorten the picking cycle time",
+  "file": "How_to_shorten_the_picking_cycle_time",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to shorten the picking cycle time\n\nHow to shorten the picking cycle time\n\nThere are following two methods to shorten the picking cycle time.\n\nUse the Arch command\n\nUse the Cnv_Accel command\n\nNote:  The following are points to consider when using the Cnv_Accel command.\n\nMaximum Cnv_Accel value is 5000 mm/sec2.\n\nIf the Cnv_Accel setting value is 0 or exceeds 5001, the default value (2000 mm/sec2) will be set.\n\nIf the acceleration error occurs, greater Cnv_Accel value cannot be specified.  Decrease the Cnv_Accel value or decrease Accel or AccelS.\n\nWhen Cnv_Accel is used in the picking accuracy-priority mode, the manipulator may slide to the direction of the conveyor motion after the downward motion of the Z-axis.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

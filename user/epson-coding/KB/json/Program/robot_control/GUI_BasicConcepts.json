@@ -1,0 +1,12 @@
+{
+  "title": "Basic Concepts",
+  "file": "GUI_BasicConcepts",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Basic Concepts\n\nBasic Concepts Required to Understand GUI Builder\n\nA quick explanation of some of the basic concepts will help you understand this chapter much better. Please review the concepts described below before proceeding through the rest of this chapter.\n\nWhat is a GUI?\n\nGUI stands for Graphical User Interface. A GUI allows your operators to easily interact with your SPEL+ application to run cycles or perform setup functions. The basic building block for your GUI is the Form.\n\nWhat is a Form?\n\nA form is a window or dialog box that contains controls. It is the basic unit of your GUI application. When a form is displayed at runtime, the controls on the form are active and ready to receive keyboard and mouse events from the user. Your GUI project can have just one form or several forms.\n\nWhat is a Control?\n\nControls are objects that are contained within a form, such as buttons, checkboxes, textboxes, etc. Each type of control has its own set of properties, methods, and events.\n\nWhat is an Event?\n\nAn event is a SPEL+ function created by you that is called by the GUI when a form or control event occurs. For example, when the user clicks a button control, the button click event can call the SPEL+ function that you designated to run when the click occurs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

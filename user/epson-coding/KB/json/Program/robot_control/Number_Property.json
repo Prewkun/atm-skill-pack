@@ -1,0 +1,12 @@
+{
+  "title": "Number Property",
+  "file": "Number_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This references the number of the object by type.",
+  "notes": "This references the number of the object by type. This cannot be set.\n\nThis differs from the specifying of other properties and objects. Other properties can be specified by number and label. For Number Property, objects are specified by label only.",
+  "see_also": "Applies To\n\nForce Trigger\n\nOperator Property",
+  "examples": []
+}

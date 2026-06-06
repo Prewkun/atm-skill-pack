@@ -1,0 +1,12 @@
+{
+  "title": "Controller IO Remote Inputs",
+  "file": "Controller_IO_Remote",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controller IO Remote Inputs\n\n[Setup]-[System Configuration]-[Controller]-[Remote Control]-[Inputs] Page\n\nUse this page to configure the controller remote control inputs.\n\nItem\tDescription\n\nInput\n\t\t Signal\tDisplays\n\t\t the input signal.\n\n\t\tFor details, refer to 12.1.6 Remote Control Inputs.\n\nSelect\n\t\t an input bit to use for the corresponding input signal. Select\n\t\t \"Not used\" to disable the remote input.\n\nFor example, \"Start\" is assigned\n\t\t to I/O input bit 0 in the above dialog. Select \"Not used\"\n\t\t to use this as a normal I/O input.\n\nDefault\t\tClick\n\t\t this button to set the default remote inputs.\n\n\t\tFirst, a dialog box will be displayed asking you which type of\n\t\t inputs to use for defaults: Standard, Extended I/O, Fieldbus master,\n\t\t or Fieldbus slave I/O.\n\n\t\tYou can also select the [Clear All] button to set all remote inputs\n\t\t to Not used.\n\nLoad\tReads\n\t\t the assigned remote inputs and outputs from a file on the PC and\n\t\t save it in the controller.\n\nSave\tSaves\n\t\t the assigned remote inputs and outputs shown in the dialog to\n\t\t a file on the PC.\n\nNOTE:  Both the remote inputs and outputs are loaded or saved together when using [Load] or [Save].",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

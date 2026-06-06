@@ -1,0 +1,12 @@
+{
+  "title": "Points page: Robot Manager command (Tools menu)",
+  "file": "Points_tab_Robot_Manager_command_(Tools_menu)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Points page: Robot Manager command (Tools menu)\n\n[Tools]-[Robot Manager]-[Points] Page\n\nYou can input/delete the point data.\n\nWhen a point file is selected, the robot controller loads the file into memory.\n\nAs points are taught on the [Robot Manager]-[Jog & Teach] page, the spreadsheet on the Points page is updated.\n\nFor details on how to save points, refer to Saving your work.\n\nNavigating the grid\n\nPress the [Tab] key to move to the next cell. Press the [Shift] + [Tab] key to move to the previous cell. Press the arrow [↑] or [↓] key to move to the cell above or below.\n\nItem\tDescription\n\nShow\n\t\t only registered\tOnly\n\t\t shows registered point data.\n\nFind\n\t\t label.\n\nDelete\n\t\t Pxxx\tDeletes\n\t\t the selected point. You will be prompted to confirm the operation.\n\nDelete\n\t\t All\tDeletes\n\t\t all points in the file.\n\n\t\tYou will be prompted to confirm the operation.\n\nSave\tSaves\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values. You will be prompted to confirm the operation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

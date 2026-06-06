@@ -1,0 +1,12 @@
+{
+  "title": "Turning All Vision Object Graphics On",
+  "file": "TurningAllVisionObjectGraphicsOn",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Turning All Vision Object Graphics On\n\nTurning All Vision Object Graphics On\n\nThe [Force All Graphics On] button provides a quick method to turn all graphics (search window , model origin , model window , Lines, and Labels) for all vision objects in the current vision sequence On with one button click.\n\nThis button overrides the setting of the Graphics property for each individual vision object making it easy to quickly see all vision objects rather than modifying the Graphics property for each vision object individually.\n\nNote: The [Force All Labels Off] button is sometimes used in conjunction with the [Force All Graphics On] button.  In this case, the [Force All Graphics On] button has precedence.  This means that even though the [Force All Graphics On] button is pressed in, the labels still will not be displayed because the [Force All Labels Off] button is also pressed in.\n\nIt should be noted that the [Force All Graphics On] button is dimmed (made light gray in color and inaccessible) if there are no vision sequences for the current project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

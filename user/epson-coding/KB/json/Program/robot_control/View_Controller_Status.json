@@ -1,0 +1,12 @@
+{
+  "title": "View Controller Status",
+  "file": "View_Controller_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "View Controller Status\n\nView Controller Status\n\nClick the [View Controller Status] button to view the status data stored from a previous status export (refer to Export Controller Status).\n\nTo view controller status:\n\nIn\n\t the Epson RC+ 8.0 menu, select Controller from the [Tools] menu to\n\t open the [Controller Tools] dialog box.\n\nClick\n\t on the [View Controller Status] button to open the [Browse For Folder]\n\t dialog.\n\nSelect\n\t the drive and folder where the information is stored.\n\n\tRC+               :\n\t B_Controller type_Serial number_Date and time\n\n\tController       : BU_Controller\n\t type_Serial number_Date and time\n\nClick\n\t the [OK] button to view the selected controller status.\n\nThe\n\t [Controller Status Viewer] dialog will be displayed.\n\nSelect\n\t items to view from the tree on the left side of the dialog.\n\nTo\n\t view another controller status, click the [Select] button next to\n\t the [Status Folder] name, and then select a new status folder.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

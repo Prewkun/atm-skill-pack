@@ -1,0 +1,15 @@
+{
+  "title": "BackColorMode Property",
+  "file": "BackColorMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the BackColorMode used for a button control.",
+  "notes": "When BackColorMode is 0, the background color for the control is set by Windows, depending on the current theme.\n\nWhen BackColorMode is 1, the background color is set by the BackColor property value.\n\nDefault: 0 - Visual Style\n\nSee Also: BackColorMode Property\n\nBackColor Property\n\nGUI Items: BackColorMode Property\n\nButton",
+  "see_also": "Applies To\n\nButton",
+  "examples": [
+    "GSet frmMain.btnOK.BackColorMode, BACKCOLORMODE_USER"
+  ],
+  "category": "gui_control"
+}

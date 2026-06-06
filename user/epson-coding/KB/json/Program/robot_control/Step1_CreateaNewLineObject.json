@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Line object",
+  "file": "Step1_CreateaNewLineObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Line object\n\nStep 1: Create a New Line Object\n\n\tClick the [All Tools] -  [New\n\t Line] button  on the Vision Guide toolbar.\n\tMove the mouse over the image display. You will see\n\t the mouse pointer change to the Line object icon.\n\tContinue moving the mouse until the icon is at the\n\t desired position in the image display, then click the left mouse button\n\t to create the object.\n\tNotice that a name for the\n\t object is automatically created. In the example, it is called \"Line01\"\n\t because this is the first Line object created for this sequence. (We\n\t will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

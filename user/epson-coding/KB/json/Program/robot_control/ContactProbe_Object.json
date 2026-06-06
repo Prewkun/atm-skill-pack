@@ -1,0 +1,12 @@
+{
+  "title": "ContactProbe Object",
+  "file": "ContactProbe_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ContactProbe Object\n\nContactProbe Object\n\nContactProbe object moves the robot to the specified direction until it contacts with an object such as a workpiece, and detects a position that is moved for a specified distance as a hole.  If the robot contacts with an object without moving the specified distance, returns to the start position and changes the position to repeat the contact motion.  This object is used for the hole position detection of workpiece that is difficult to perform by PressProbe such as lead part or connector.  Even if the workpiece dimension or the grasp position of the workpiece have a margin of error, the hole position can be detected stably.\n\nHow to use\n\nProperties\n\nResults",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CenterX Property",
+  "file": "CenterXProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the X Coordinate position to be used as the center point of an object in pixels.",
+  "notes": "This property is filled in automatically when the CenterPointObject property for a Polar object is set to another Vision object.  However, if the CenterPointObject property for a Polar object is set to \"screen\", then the user may set the CenterX property to position the Polar object.\n\nThe user may also set the CenterPointObject property for a Polar object automatically by physically dragging the Polar object to a new position on the screen.  When this drag operation is done, the CenterX property is automatically updated with the new CenterX position of the Polar object.\n\nCenterX property is available in Edge object only when Arc is set to SearchType property.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Contour, Edge, Polar\n\nCenterPointObject Property\n\nCenterY Property\n\nVision Objects: CenterX Property\n\nColorMatch\n\nContour\n\nEdge\n\nPolar",
+  "examples": []
+}

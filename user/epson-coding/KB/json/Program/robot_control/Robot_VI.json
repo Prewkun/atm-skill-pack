@@ -1,0 +1,12 @@
+{
+  "title": "Robot VI",
+  "file": "Robot_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Selects the current robot\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nRobot Number\tInteger from 1-16.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "MotorOff, MotorOn, PowerHigh, PowerLow\n\nRobot Example",
+  "examples": []
+}

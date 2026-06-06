@@ -1,0 +1,15 @@
+{
+  "title": "PDef Function",
+  "file": "cmd_pdef",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PDef (point)",
+  "parameters": "point\tAn integer value or P\n\t\t number\n\t\t or P\n\t\t ( expr\n\t\t ) or point label.\n\nCautions for compatibility\n\nNo variables can be specified for point\n\t\t parameter\n\nTo use variables, write\n\nPDef(P(varName))",
+  "description": "PDef Function\n\nPDef Function\n\nSee_Also Example\n\nReturns the definition status of a specified point.",
+  "notes": "",
+  "see_also": "Here Statement, PDel\n\nPDef Function Example\n\nIf Not PDef(1) Then\n\n   Here P1\n\nEndIf\n\nInteger i\n\nFor i = 0 to 10\n\n  If PDef (P(i)) Then\n\n    Print \"P(\";i;\") is defined\"\n\n  EndIf\n\nNext",
+  "examples": [
+    "PDef(P(varName))",
+    "If Not PDef(1) Then\n   Here P1\nEndIf\nInteger i\nFor i = 0 to 10 If PDef (P(i)) Then\n    Print \"P(\";i;\") is defined\" EndIf\nNext"
+  ]
+}

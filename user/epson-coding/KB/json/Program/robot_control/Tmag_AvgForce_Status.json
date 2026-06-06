@@ -1,0 +1,14 @@
+{
+  "title": "Tmag_AvgForce Status",
+  "file": "Tmag_AvgForce_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns the average value of the resultant torque.",
+  "notes": "Tmag_AvgForce returns the average value of the resultant torque.\n\nBefore executing Tmag_AvgForce, be sure to execute AvgForceClear. If AvgForceClear is not executed, 0 is returned.\n\nWhen the time from executing AvgForceClear to executing Tmag_AvgForce is short, a deviation in the average force and torque is generated. When LowPassFilter is used, set the time about 5 times the LowPassFilter time constant between AvgForceClear and Tmag_AvgForce execution.\n\nThere is a time limit on Tmag_AvgForce. Execute Tmag_AvgForce within 600 seconds of executing AvgForceClear. When Tmag_AvgForce is executed after 600 seconds has passed, an error is generated.",
+  "see_also": "Applies To\n\nForce Monitor",
+  "examples": [
+    "Function CheckAverageForce Double AF FSet FC1.Enabled, False, False, False, True, False, False FSet FC1.TargetForces, 10, 0, 0, 0, 0, 0 FSet FS1.Reset FSet FM1.CoordinateSystem, FCS0 FSet FM1.AvgForceClear, False, False, False, False, False, False, False, True FCKeep FC1, 10 FGet FM1.Tmag_AvgForce, AF Print AF\nFend"
+  ]
+}

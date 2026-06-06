@@ -1,0 +1,12 @@
+{
+  "title": "SaveImage Property",
+  "file": "SaveImageProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Saves the currently displayed image on disk.",
+  "notes": "SaveImage allows you to save images to disk that can be used by the ImageFile property.  The file can be saved in the following formats: BMP (default format for Vision Guide), TIF, or JPG.\n\nSee Also: SaveImage Property\n\nImageFile Property\n\nImageSource Property",
+  "see_also": "Designtime Only\n\nApplies To\n\nVision Objects: Sequence",
+  "examples": []
+}

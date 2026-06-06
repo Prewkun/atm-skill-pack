@@ -1,0 +1,15 @@
+{
+  "title": "CellText Property",
+  "file": "CellText_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the text in a Grid cell at runtime.",
+  "notes": "",
+  "see_also": "Applies To\n\nGrid",
+  "examples": [
+    "GSet frmMain.gridMyData.CellText(1, 1), \"Value1\""
+  ],
+  "category": "gui_control"
+}

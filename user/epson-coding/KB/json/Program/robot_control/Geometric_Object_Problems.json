@@ -1,0 +1,12 @@
+{
+  "title": "Geometric Object Problems",
+  "file": "Geometric_Object_Problems",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Geometric Object Problems\n\nGeometric Object Problems\n\nIf the Geometric object returns a Found result of False, there are a few things to immediately examine.\n\n\t\t\tTry changing the Accept property to a lower value (for example, below the current score result) and run the Geometric object again.\n\t\t\tLook at the FoundOnEdge result.\n  Does it have a return value of True?  If it is True, this means that the feature was found but it was found where a part of the feature is touching the search window\n\n.\n  This causes the Found result to be returned as False.  To correct this situation, make the search window larger or if this is impossible, try changing the position of the camera, or resizing the model window\n\n.\n\nIf the Geometric object finds the wrong feature, there are a couple of things to check:\n\n\t\t\tWas the Accept property set high enough? If it is set rather low this could allow another feature to be found in place of the feature you are interested in.\n\t\t\tWas the Confusion property set high enough? Is it higher than the Accept property? The Confusion property should normally be set to a value equal to or higher than the Accept property. This is a good starting point. But if there are features within the search window which are similar to the feature you are interested in, then the Confusion property must be moved to a higher value to make sure that your feature is found instead of one of the others.\n\t\t\tAdjust the search window so that it more closely isolates the feature which you are interested in.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

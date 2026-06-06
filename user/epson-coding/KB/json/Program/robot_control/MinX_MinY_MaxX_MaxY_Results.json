@@ -1,0 +1,12 @@
+{
+  "title": "MinX, MinY, MaxX, MaxY Results",
+  "file": "MinX_MinY_MaxX_MaxY_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "MinX, MinY, MaxX, MaxY Results\n\nMinX, MinY, MaxX, MaxY Results\n\nThe MinX, MinY, MaxX and MaxY results when combined together create what is called the extrema\n\nof the blob.  The extrema is the coordinates of the blob's minimum enclosing rectangle.\n  The best way to understand this is to examine the figure below.\n\nPrinciple axes, center of mass, and extrema",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

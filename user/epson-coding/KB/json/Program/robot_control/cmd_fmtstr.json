@@ -1,0 +1,14 @@
+{
+  "title": "FmtStr$ Statement",
+  "file": "cmd_fmtstr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "FmtStr$ (expression, strFormat)",
+  "parameters": "expression\tNumeric expression to be formatted.\n\nstrFormat\tFormat specification string.",
+  "description": "Use FmtStr$ to format a numeric expression into a string.",
+  "notes": "",
+  "see_also": "Left$\n\nRight$\n\nStr$\n\nFmtStr$ Example\n\nFunction SendDateCode\n\n  String d$, f$\n\n  f$ = FmtStr$(10, \"000.00\")\n\n  OpenCom #1\n\n  Print #1, f$\n\n  CloseCom #1\n\nFend",
+  "examples": [
+    "Function SendDateCode String d$, f$ f$ = FmtStr$(10, \"000.00\") OpenCom #1 Print #1, f$ CloseCom #1\nFend"
+  ]
+}

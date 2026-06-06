@@ -1,0 +1,14 @@
+{
+  "title": "PG_SlowStop Statement",
+  "file": "PG_SlowStop_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PG_SlowStop",
+  "parameters": "",
+  "description": "PG_SlowStop decelates the continuous spinning motion of the current PG robot and bring it to a stop.",
+  "notes": "",
+  "see_also": "PG_Scan\n\nPG_FastStop\n\nPG_SlowStop Example\n\nThe following example spins the PG axis for 10 seconds and stop it suddenly.\n\nFunction main\n\n\t\t  Motor On\n\n\t\t  PG_Scan 0\n\n\t\t  Wait 10\n\n\t\t  PG_SlowStop       ' Stops suddenly the continuous spinning motion\n\n\t\tFend",
+  "examples": [
+    "Function main\n\t\t  Motor On\n\t\t  PG_Scan 0\n\t\t  Wait 10\n\t\t  PG_SlowStop       ' Stops suddenly the continuous spinning motion\n\t\tFend"
+  ]
+}

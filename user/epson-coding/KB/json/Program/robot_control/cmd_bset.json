@@ -1,0 +1,14 @@
+{
+  "title": "BSet Function",
+  "file": "cmd_bset",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "BSet (number, bitNum)",
+  "parameters": "number\tSpecifies the value to set the bit with an expression or numeric value.\n\nbitNum\tSpecifies the bit (integer from 0 to 31) to be set by an expression or numeric value.",
+  "description": "BSet Function\n\nBSet Function\n\nSee_Also Example\n\nSets a bit in a number and returns the new value.",
+  "notes": "",
+  "see_also": "BClr\n\nBClr64\n\nBSet64\n\nBTst\n\nBTst64\n\nBSet Function Example\n\nflags = BSet(flags, 1)",
+  "examples": [
+    "flags = BSet(flags, 1)"
+  ]
+}

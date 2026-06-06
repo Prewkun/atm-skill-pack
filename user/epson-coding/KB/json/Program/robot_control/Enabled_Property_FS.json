@@ -1,0 +1,12 @@
+{
+  "title": "Enabled Property",
+  "file": "Enabled_Property_FS",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "FGet Object. Enabled, bArray()\n\nFSet FC#.Enabled, bValueFx, bValueFy, bValueFz, bValueTx, bValueTy, bValueTz\n\nFSet FT#.Enabled, bValueFx, bValueFy, bValueFz, bValueTx, bValueTy, bValueTz [,bValueFm, bValueTm]",
+  "parameters": "Object\tObject\n\t\t name, or string variable defining the object name\n\nThe\n\t\t object is specified as FC(numerical value), FT(numerical value),\n\t\t  FC(label) or FT(label).\n\nbArray()\tThe\n\t\t number of elements, which define the property values, is an array\n\t\t of 6 or 8 or more real number variables\n\nbValueFx\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueFy\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueFz\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueTx\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueTy\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueTz\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueFm\tA\n\t\t Boolean value or formula defining the new value of the property\n\nbValueTm\tA\n\t\t Boolean value or formula defining the new value of the property\n\nValues\n\nbArray() :\n\nElement number\tElement number constant\tDescription\n\n0\tFG_FX\tActivates/inactivates Fx.\n\n1\tFG_FY\tActivates/inactivates Fy.\n\n2\tFG_FZ\tActivates/inactivates Fz.\n\n3\tFG_TX\tActivates/inactivates Tx.\n\n4\tFG_TY\tActivates/inactivates Ty.\n\n5\tFG_TZ\tActivates/inactivates Tz.\n\n6\tFG_FMAG\tActivates/inactivates Fmag resultant\n\t\t force.\n\n7\tFG_TMAG\tActivates/inactivates Fmag resultant\n\t\t torque.\n\nNote:  When the number of elements is an array of 6 or 7, or for a force control object, the element number returns 0 to 5.\n\nbValueFx, bValueFy, bValueFz, bValueTx, bValueTy, bValueTz, bValueFm, bValueTm\n\nName of constants\tValues\tDescription\n\nFalse\t0\tInactivates the subject axis. (default)\n\nTrue\t-1\tActivates the subject axis.",
+  "description": "Activates/inactivates the force control function for each axis at the same time, or returns the status thereof.",
+  "notes": "",
+  "see_also": "Activates/inactivates the force control function for each axis at the same time, or returns the status thereof.\n\nAvgForces Status",
+  "examples": []
+}

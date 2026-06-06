@@ -1,0 +1,12 @@
+{
+  "title": "Description Property",
+  "file": "FG_Description_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force Guide\n\nProperty\n\nThis property sets descriptions about force guide sequences and objects.\n\nYou can set the character string up to 255 characters.",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence, All Objects\n Property\n\nName Property",
+  "examples": []
+}

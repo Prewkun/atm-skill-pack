@@ -1,0 +1,12 @@
+{
+  "title": "UPCExpansionEnabled Property",
+  "file": "UPCExpansionEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to support supplemental data of UPC-E.",
+  "notes": "Setting range: True / False\n\nDefault: False\n\nSee Also: UPCExpansionEnabled Property\n\nUPCOutputChecksum Property\n\nVision Objects: UPCExpansionEnabled Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

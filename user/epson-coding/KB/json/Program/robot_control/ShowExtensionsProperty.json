@@ -1,0 +1,12 @@
+{
+  "title": "ShowExtensions Property",
+  "file": "ShowExtensionsProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "By default, Line objects display a line from a starting reference (defined by the StartPointObject property) to an ending reference (defined by the EndPointObject property).  For LineFinder and ArcFinder objects, only found segments are displayed. The ShowExtensions property causes the graphics display of the line to be extended out (by using a dotted line to indicate the extensions) so you can see the complete projection of the line or arc.",
+  "notes": "When a Line object is created, the default graphic display of the Line object is simply a line with a starting and ending point.  The StartPointObject and EndPointObject properties can be used to modify the direction and length of the line but in some cases you may want to see where the line extends to.  This is the purpose of the ShowExtensions property.\n\nExtensions are useful when you need to see more than just a line between 2 points.  For example, assume you create a Line object perpendicular to another line and the point at which the 2 lines meet is not actually on the physical line but at some location extended from the line.  You can see this point of intersection by running your application with the ShowExtensions property set to  True.\n\nSee Also: ShowExtensions Property\n\nEndPointObject Property\n\nStartPointObject Property\n\nStartPointType Property\n\nVision Objects: ShowExtensions Property\n\nArcFinder\n\nFrame\n\nLine\n\nLineFinder",
+  "see_also": "Applies To\n\nVision Objects: Line, LineFinder, ArcFinder, Frame",
+  "examples": []
+}

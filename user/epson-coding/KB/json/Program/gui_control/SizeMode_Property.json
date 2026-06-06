@@ -1,0 +1,15 @@
+{
+  "title": "SizeMode Property",
+  "file": "SizeMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Indicates how the image is displayed.",
+  "notes": "By default, in Normal mode, the Image is placed in the upper left corner of the PictureBox, and any part of the image too big for the PictureBox is clipped. Using the StretchImage value causes the image to stretch to fit the PictureBox. Using the AutoSize value causes the control to resize to always fit the image. Using the CenterImage value causes the image to be centered in the PictureBox.",
+  "see_also": "Applies To\n\nPictureBox\n\nImage Property\n\nGUI Items: SizeMode Property\n\nPictureBox",
+  "examples": [
+    "GSet frmMain.picLogo.SizeMode, SIZEMODE_AUTOSIZE"
+  ],
+  "category": "gui_control"
+}

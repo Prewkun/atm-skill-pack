@@ -1,0 +1,12 @@
+{
+  "title": "TCP/IP Communications Overview",
+  "file": "Overview_TCPIP",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TCP/IP Communications Overview\n\nTCP/IP Communications Overview\n\nEpson RC+ 8.0 supports 16 TCP/IP ports that allow peer to peer communications.\n\nThis chapter contains instructions on using TCP/IP, including IP addresses of LAN port and Windows TCP/IP configuration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

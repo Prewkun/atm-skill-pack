@@ -1,0 +1,12 @@
+{
+  "title": "Real Time I/O Overview",
+  "file": "Overview_RealTimeIO",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Real Time I/O Overview\n\nOverview\n\nReal-time I/O is a feature that allows you to input trigger signals into the R-I/O connector of the robot controller so that you can latch and acquire the robot position at high speed while it is operating.\n\nAn example of an application using real-time I/O is \"Picture on the fly\": This synchronizes the robot position detection and the vision position detection, and performs part pickup, alignment, and assembly without stopping the robot.\n\nWith the real-time I/O feature, you can reduce the robot stop time for vision image acquisition that is necessary for traditional vision applications.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

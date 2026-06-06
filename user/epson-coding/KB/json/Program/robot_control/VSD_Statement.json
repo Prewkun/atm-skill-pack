@@ -1,0 +1,14 @@
+{
+  "title": "VSD Statement",
+  "file": "VSD_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "VSD is available for following commands.\n\n    Move, Arc, Arc3\n\nThis command is available only for SCARA robots.\n\nFor other than SCARA robots, use AvoidSinularity SING_VSD.\n\nThe variable speed CP motion function prevents the acceleration error and overspeed error from occurring when SCARA robot is executing CP motion.  This function automatically contols the joint speed while keeping the trajectory.  If the joint speed is controlled, the tool center point speed specified by SpeedS will not be kept.  However, the original speed setting will be returned when the joint speed gets below the limit.  If constant velocity is prioritized, set AccelS, DecelS, and SpeedS smaller and eliminate the error occurance.\n\nIf the acceleration and overspeed errors occur even when the VSD statement is used, set AccelS, DecelS, and SpeedS smaller.\n\nIf the VSD parameter is changed, the current setting is effective until the next controller startup.\n\nVSD is set off when the startup of the controller.\n\nVSD Statement Example\n\nVSD On 'Enable the variable speed CP motion and execute the motion\n\nMove P1\n\nMove P2\n\nVSD Off",
+  "notes": "",
+  "see_also": "Sets the variable speed CP motion function for SCARA robot.\n\nVSD Function",
+  "examples": [
+    "VSD On 'Enable the variable speed CP motion and execute the motion\nMove P1\nMove P2\nVSD Off"
+  ]
+}

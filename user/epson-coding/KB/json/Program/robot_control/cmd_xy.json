@@ -1,0 +1,14 @@
+{
+  "title": "XY Function",
+  "file": "cmd_xy",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "XY( x, y, z, u, [v, w])",
+  "parameters": "x\tReal expression representing the X coordinate.\n\ny\tReal expression representing the Y coordinate.\n\nz\tReal expression representing the Z coordinate.\n\nu\tReal expression representing the U coordinate.\n\nv\tOptional for 6-Axis robots (including\n\t\t N series).  Real expression representing the V coordinate.\n\nw\tOptional for 6-Axis robots (including\n\t\t N series).  Real expression representing the W coordinate.",
+  "description": "When you don't use the additional ST axis, there are nothing in particular to be care of.\n\nYou can move the manipulator to the specified coordinate with XY function like below:\n\n   Go XY(60,30,-50,45)\n\nWhen you use the additional ST axis, you need to be careful.\n\nXY function returns the only robot point data, not including the additional axis.\n\nIf you use XY function lick this: Go XY(60,30,-50,45), the manipulator will move to the specified coordinate but the additional axis will not move.  If you want to move the additional axis as well, specify like this: Go XY(60,30,-50,45) : ST( 10,20).\n\nFor the details of additional axis, refer to Epson RC+ Users Guide: 21. Additional Axis.",
+  "notes": "",
+  "see_also": "JA\n\nPoint Expression\n\nST Function\n\nXY Function Example\n\nP10 = XY(60, 30, -50, 45) + P20",
+  "examples": [
+    "P10 = XY(60, 30, -50, 45) + P20"
+  ]
+}

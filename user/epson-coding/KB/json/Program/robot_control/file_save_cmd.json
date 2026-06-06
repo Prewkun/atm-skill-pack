@@ -1,0 +1,12 @@
+{
+  "title": "Save Command (File Menu)",
+  "file": "file_save_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Save Command (File Menu)\n\nSave Command (File Menu)\n : Ctrl+S\n\nSaves the current file. This menu selection cannot be selected if there is no new file to be saved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

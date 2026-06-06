@@ -1,0 +1,12 @@
+{
+  "title": "Windows Login Page",
+  "file": "Windows_Login_Page",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Windows Login Page\n\n[Setup]-[System Configuration]-[Startup]-[Windows Login] Page\n\nThe Windows Login page allows you to configure the automatic login when Windows starts.\n\nItem\tDescription\n\nEnable\n\t\t windows auto login\tCheck\n\t\t this box if you want to automatically login to Windows when it\n\t\t starts. You must supply a valid user name, password, and domain.\n\nUser\n\t\t Name\tEnter\n\t\t the name of a valid Windows user on the system.\n\nPassword\tEnter\n\t\t the login password for the user.\n\nDomain\tIf the\n\t\t PC is the member of a domain, enter the name here. Optional.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 8: Assign the Downcal Calibration to the Blobtut Sequence",
+  "file": "Step_8_Assign_the_Downcal_Calibration_to_the_Blobtut_Sequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 8: Assign the Downcal Calibration to the Blobtut Sequence\n\nStep 7: Assign the \"downcal\" Calibration to the blobtut Sequence\n\nNow that the \"downcal\" calibration has been created, we will need to assign this calibration to our vision sequence (blobtut).\n  This will give the blobtut sequence the ability to calculate results in robot and camera coordinate values.\n\nClick\n\t the vision sequence: \"blobtut\" from the sequence tree on the [Vision\n\t Guide] window to bring the [Sequence] window to the front.\n\nSet\n\t the Calibration property to \"downcal\" by clicking once on the value\n\t field of the Calibration property, then clicking on the down arrow,\n\t and finally clicking on the calibration displayed which is called\n\t \"downcal\".  This was the calibration we just finished creating.\n\nClick\n\t the [Jog] button displayed on the right side of the sequence and the\n\t calibration tree to display the [Jog] tab.\n\nUse\n\t the jog buttons to position the camera over the washer so that you\n\t can see the washer within the image display.\n\nClick\n\t the \"washer\" object from the sequence tree and bring the [Object]\n\t window to the front.\n\nClick\n\t the [Run Object] button to run the \"washer\" object.  When the\n\t part is found look at the Result list.  You will see that the\n\t CameraX, CameraY, RobotX, RobotY and RobotU results no longer show\n\t a \"nocal\" result.  You can now see coordinate position data with\n\t respect to the Robot and Camera coordinate systems.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Project Build",
+  "file": "project_build",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Build\n\nProject Build\n\nThis dialog appears during project build when only the controller or the manipulator has changed since the last project build. The controller already contains the same project as the current project being built.\n\nOption\tDescription\n\nBuild project\tPreforms only the steps necessary to make the project in the controller up to date.\n\nRebuild project\tRebuilds the entire project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Project Wizard, Jogging",
+  "file": "Project_Wizard,_Jogging",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Wizard, Jogging\n\nJogging the robot and teaching points\n\nThe project wizard supports integrated simple jogging when it is required to teach a robot point.\n\nSelect the jog mode, jog speed, and jog distance from the dropdown lists.\n\nNOTE: For safety, continuous jogging is not used in the project wizard.\n\nClick a jog button to move the robot in the direction shown on the button. If you want to jog multiple steps, hold down the jog button.\n\nWhen you click a jog button and some condition prevents jogging, such as motors off, EStop active, Safeguard active, etc., you will be prompted for motors to be turned on or to clear Estop or Safeguard. Then you can click the jog button again to jog the robot.\n\nAfter jogging to the required position, click the [Teach] button to teach the robot point. If necessary, you can jog the robot again, then click [Teach] again to re-teach the point.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

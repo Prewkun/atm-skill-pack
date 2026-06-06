@@ -1,0 +1,14 @@
+{
+  "title": "Fx_TargetForce Property",
+  "file": "Fx_TargetForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the target force in the specified axis in the direction of translation in the established force coordinate system.",
+  "notes": "This sets or returns the value of the target force in the specified axis in the direction of translation in the established force coordinate system.\n\nWhen using the force control function having set the target force, there are times that the target force is not achieved even after sufficient time. In such instances, activate the TargetForcePriorityMode in order to accurately match the target force. However, when the TargetForcePriorityMode is activated, operation of the robot will not be in accordance with the established values for the virtual coefficients of elasticity, viscosity, and inertia, and the movement may be slowed at times.",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": [
+    "FSet FCS1.Orientation, FG_TOOL\nFSet FC1.CoordinateSystem, FCS1\nFSet FC1.Enabled, False, False, True, False, False, False\nFSet FC1.Fz, 0.01, 4, 5\nFSet FC1.Fz_TargetForce, 10\nFCKeep FC1, 5"
+  ]
+}

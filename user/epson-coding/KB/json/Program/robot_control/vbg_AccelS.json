@@ -1,0 +1,15 @@
+{
+  "title": "AccelS Method, Spel Class",
+  "file": "vbg_AccelS",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub AccelS (Accel As Single, Decel As Single, [JumpDepartAccel As Single], [JumpDepartDecel As Single], [JumpApproAccel As Single], [JumpApproDecel As Single])",
+  "parameters": "Accel\tSingle expression between 1-5000 represented in mm/sec2 units to define acceleration and deceleration values for Straight Line and Continuous Path motion.  If Decel is omitted, this value is used for both the Acceleration and Deceleration rates.\n\nDecel\tSingle expression between 1-5000 represented in mm/sec2 units to define deceleration values for Straight Line and Continuous Path motion.  One parameter is used for representing both the Acceleration and Deceleration rates.\n\nJumpDepartAccel\tSingle expression between 1-5000 representing a percentage of maximum acceleration rate for Jump3CP command Z Axis upward motion.\n\nJumpDepartDecel\tSingle expression between 1-5000 representing a percentage of maximum deceleration rate for Jump3CP command Z Axis upward motion.\n\nJumpApproAccel\tSingle expression between 1-5000 representing a percentage of maximum acceleration rate for Jump3CP command Z Axis downward motion.\n\nJumpApproDecel\tSingle expression between 1-5000 representing a percentage of maximum deceleration rate for Jump3CP command Z Axis downward motion.",
+  "description": "Sets acceleration and deceleration for linear interpolar (straight line) motion commands Jump3CP, Move, TMove.",
+  "notes": "",
+  "see_also": "Accel, SpeedS\n\nJump3CP, Move, TMove\n\nAccelS Example\n\nVB Example:\n\nSub MoveToPlace()\n\n  m_spel.AccelS(500)\n\n  m_spel.Move(pick)\n\n  m_spel.AccelS(500, 300)\n\n  m_spel.Move(place)\n\nEnd Sub\n\nC# Example:\n\nvoid MoveToPlace()\n\n{\n\n   m_spel.AccelS(500);\n\n   m_spel.Move(pick);\n\n   m_spel.AccelS(500, 300);\n\n   m_spel.Move(place);\n\n}",
+  "examples": [
+    "Sub MoveToPlace() m_spel.AccelS(500) m_spel.Move(pick) m_spel.AccelS(500, 300) m_spel.Move(place)\nEnd Sub",
+    "void MoveToPlace()\n{\n   m_spel.AccelS(500);\n   m_spel.Move(pick);\n   m_spel.AccelS(500, 300);\n   m_spel.Move(place);\n}"
+  ]
+}

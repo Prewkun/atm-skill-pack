@@ -1,0 +1,12 @@
+{
+  "title": "DetailLevel Property",
+  "file": "DetailLevelProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Selects the level at which an edge is considered found during the geometric search.",
+  "notes": "The DetailLevel property determines what is considered an edge during the search.  Edges are defined by the transition in grayscale value between adjacent pixels.  The default level (Medium) offers a robust detection of active edges from images with contrast variation, noise, and non-uniform illumination.  Nevertheless, in cases where objects of interest have a very low contrast compared to high contrast areas in the image, some low contrast edges can be missed.\n\nIf your images contain low-contrast objects, a detail level setting of High should be used to ensure the detection of all important edges in the image.  The Very High setting performs an exhaustive edge extraction, including very low contrast edges.  However, it should be noted that this mode is very sensitive to noise.\n\nThe Smoothness property also affects how edges are extracted.\n\nSee Also: DetailLevel Property\n\nSmoothness Property\n\nGeometric Object\n\nVision Sequences",
+  "see_also": "Applies To\n\nGeometric",
+  "examples": []
+}

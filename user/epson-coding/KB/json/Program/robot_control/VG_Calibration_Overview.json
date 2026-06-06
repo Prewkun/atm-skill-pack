@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Overview",
+  "file": "VG_Calibration_Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Overview\n\nCalibration\n\nOverview\n\nCalibration is an important part of the Vision Guide 8.0 system.\n\nIn order to locate parts in the robot coordinate system, or to make physical measurements, you must calibrate the system.\n\nVision Guide 8.0 supports mobile (mounted to robot), fixed upward, fixed downward, and standalone camera calibrations.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

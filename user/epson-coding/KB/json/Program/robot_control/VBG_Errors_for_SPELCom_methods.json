@@ -1,0 +1,30 @@
+{
+  "title": "Errors for Spel methods",
+  "file": "VBG_Errors_for_SPELCom_methods",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Sub btnStart_Click( _",
+    "ByVal sender As System.Object, _",
+    "ByVal e As System.EventArgs) _",
+    "Handles btnStart.Click",
+    "Try",
+    "m_spel.Start(0)",
+    "Catch ex As RCAPINet.SpelException",
+    "MsgBox(ex.Message)",
+    "End Try",
+    "End Sub",
+    "Try",
+    "m_spel.Start(0)",
+    "Catch ex As RCAPINet.SpelException",
+    "MsgBox(\"SPEL Error: \" + ex.ErrorNumber.ToString())",
+    "End Try",
+    "void btnStart_Click(object sender, EventArgs e)\n{ try{\n   m_spel.Start(0); } catch(SpelException ex){ MessageBox.Show(ex.Message); }\n}",
+    "try { m_spel.Start(0);\n} catch(SpelException ex) { MessageBox.Show((\"SPEL Error: \" + ex.ErrorNumber.ToString());\n}"
+  ]
+}

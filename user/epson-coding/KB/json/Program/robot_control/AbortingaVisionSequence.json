@@ -1,0 +1,12 @@
+{
+  "title": "Aborting a Vision Sequence",
+  "file": "AbortingaVisionSequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Aborting a Vision Sequence\n\nAborting Vision Sequence Cycles\n\nClicking the [Abort] button stops the sequence execution immediately.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

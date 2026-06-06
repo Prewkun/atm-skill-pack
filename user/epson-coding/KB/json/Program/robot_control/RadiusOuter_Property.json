@@ -1,0 +1,12 @@
+{
+  "title": "RadiusOuter Property",
+  "file": "RadiusOuter_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets and returns the outer diameter of the detection area.",
+  "notes": "Sets and returns the outer diameter of the search area. RadiusOuter can also be changed by dragging the search area using a mouse in the Vision Guide GUI. In this case, the property value will be updated automatically.\n\nSee Also: RadiusOuter Property\n\nRadiusInner Property\n\nVision Objects: RadiusOuter Property\n\nArcFinder\n\nArcInspector\n\nContour",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Contour",
+  "examples": []
+}

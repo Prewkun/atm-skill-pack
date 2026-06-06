@@ -1,0 +1,15 @@
+{
+  "title": "Load Event",
+  "file": "Load_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs before a form is displayed for the first time.",
+  "notes": "You can use this event to perform tasks before a form is shown to the user.",
+  "see_also": "Applies To\n\nForm\n\nClick Event\n\nGUI Items: Load Event\n\nForm",
+  "examples": [
+    "Function frmMain_Load(Sender$ As String)\n\n\t\t  GSet frmMain.txtSpeed.Text, Str$(g_RobotSpeed)\n\nFend"
+  ],
+  "category": "gui_control"
+}

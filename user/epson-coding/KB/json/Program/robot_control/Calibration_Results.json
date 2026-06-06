@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Results",
+  "file": "Calibration_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Results\n\nCalibration Results\n\nCalibration results will appear once conveyor calibration is complete, or when navigating from [Tools]-[Conveyor Tracking] and clicking the [Calibration Results...] button.\n\nLeft: Latest calibration results\n\nRight: Previous results\n\nItems where values differ between the latest results and the previous results are highlighted in yellow.\n\nThe latest calibration results are used for conveyor tracking. Previous results have no effect on performance.\n\nNOTE:\n\nThe\n\t [Calibration Results...] button will be unavailable under the following\n\t circumstances:\n\n\tWhen conveyor calibration has not been performed\n\n\tWhen changing the Robot #, Encoder #,\n\t Orientation, Type, and Vision Sequence\n\nDiagonal\n\t upstream limit, diagonal downstream limit, tracking abort line, and\n\t diagonal tracking abort line values only appear when settings have\n\t been configured as described in the procedure outlined in Configuring Conveyors.\n\nThe\n\t [Restore Previous Results] button will not appear when calibration\n\t results are shown after conveyor calibration is complete.\n\nValues\n\t cannot be overwritten on the calibration results screen.\n\nPerforming conveyor tracking using previous results:\n\nClick the [Restore Previous Results] button to overwrite the calibration results with the previous results as shown on the screen below. Only one set of previous results can be stored. Restoring previous results will wipe the previous results stored.\n\nClick the [OK] button on this screen to restore results. Click the [Cancel] button to return the screen to the way it was before restoring. Note that you cannot undo restored calibration results once confirmed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

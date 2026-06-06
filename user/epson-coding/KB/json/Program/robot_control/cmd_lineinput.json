@@ -1,0 +1,17 @@
+{
+  "title": "Line Input Statement",
+  "file": "cmd_lineinput",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Line Input stringVar$",
+  "parameters": "stringVar$\tA string variable\n\t\t name. (the string variable must end with the $ character.)",
+  "description": "Line Input reads input data of one line from the display device and assigns the data to the string variable used in the Line Input instruction.  When the Line Input instruction is ready to receive data from the user, it causes a \"?\" prompt to be displayed on the display device.  The input data line after the prompt is then received as the value for the string variable.  After inputting the line of data press the [ENTER] key.",
+  "notes": "",
+  "see_also": "Input\n\nInput #\n\nLine Input#\n\nLine Input Statement",
+  "examples": [
+    "Function Main String A$ Line Input A$ 'Read one line input data into A$ Print A$\nFend",
+    "Run the program above using the F5 key or Run menu from Epson RC+ main screen. A resulting run session may be as follows:",
+    "?A, B, C",
+    "A, B, C"
+  ]
+}

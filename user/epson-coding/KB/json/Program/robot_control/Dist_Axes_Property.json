@@ -1,0 +1,14 @@
+{
+  "title": "Dist_Axes Property",
+  "file": "Dist_Axes_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Dist_Axes Property\n\nDist_Axes Property\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nSets or returns the subject axis for finding the force motion restriction range in relation to distance.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Test_Dist_Axes Integer iVar FSet FMR1.Dist_Axes, FG_ZX FGet FMR1.Dist_Axes, iVar Print iVar\nFend"
+  ]
+}

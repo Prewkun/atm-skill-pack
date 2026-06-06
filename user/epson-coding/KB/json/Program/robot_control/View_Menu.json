@@ -1,0 +1,12 @@
+{
+  "title": "View Menu",
+  "file": "View_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "View Menu\n\nView Menu\n\nThe Epson RC+ 8.0 [View] menu includes commands for opening the Project Explorer, Status Window, Search Results, and Start Window. In addition, there is a command for viewing the system history.\n\nProject Explorer\n\nStatus Window\n\nSystem History",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

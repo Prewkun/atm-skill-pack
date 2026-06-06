@@ -1,0 +1,14 @@
+{
+  "title": "Force_TcLim Function",
+  "file": "force_tclim_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Force_TCLim(jointNumber)",
+  "parameters": "jointNumber\tInteger expression representing the joint number to retrieve the torque limit setting.",
+  "description": "Force_TcLim Function\n\nForce_TCLim Function\n\nSee_Also Example\n\nReturns the current torque limit setting for a specified joint.",
+  "notes": "",
+  "see_also": "Force_TCLim Statement\n\nForce_TCLim Function Example\n\nPrint \"The current torque limit for Z is: \", Force_TCLim(3)",
+  "examples": [
+    "Print \"The current torque limit for Z is: \", Force_TCLim(3)"
+  ]
+}

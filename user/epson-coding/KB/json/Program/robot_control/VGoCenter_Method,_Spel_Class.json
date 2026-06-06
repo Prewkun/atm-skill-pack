@@ -1,0 +1,14 @@
+{
+  "title": "VGoCenter Method, Spel Class",
+  "file": "VGoCenter_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VGoCenter (Sequence As String, LocalNumber As Integer, TargetTolerance As Double)\n\nSub VGoCenter (Sequence As String, LocalNumber As Integer, TargetTolerance As Double, Parent as Form)\n\nSub VGoCenter(Sequence As String, LocalNumber As Integer, TargetTolerance As Double,  RobotSpeed As Integer, RobotAccel As Integer)\n\nSub VGoCenter(Sequence As String, LocalNumber As Integer, TargetTolerance As Double,  RobotSpeed As Integer, RobotAccel As Integer, Parent As Form)",
+  "parameters": "Sequence\tString expression representing a vision sequence name of current project.\n\nLocalNumber\tInteger representing the local coordinate number where the robot is moved.\n\nIf -1 is specified, the robot moves in the XY plane of the tool rotation\n\nTargetTolerance\tReal value representing a pixel distance to consider that the vision detection result matches the target position.\n\nValue range: 0 to 3 pixels\n\nForm\tParent .NET form of a window (optional)\n\nRobotSpeed\tOptional.  Integer variable that will contain the robot speed (%).\n\nValue range: 0 to 100\n\nIf omitted, set to \"5\".\n\nRobotAccel\tOptional.  Integer variable that will contain the robot acceleration (%).\n\nValue range: 0 to 99\n\nIf omitted, set to \"5\".",
+  "description": "Using a feature point that can be detected by the vision system, moves the robot to a position where the feature point is on the center of the camera image.",
+  "notes": "",
+  "see_also": "VDefArm\n\nVDefGetMotionRange\n\nVDefLocal\n\nVDefSetMotionRange\n\nVGoCenter Example\n\nm_spel.VGoCenter(\"myseq\", 1, 1.0)",
+  "examples": [
+    "m_spel.VGoCenter(\"myseq\", 1, 1.0)"
+  ]
+}

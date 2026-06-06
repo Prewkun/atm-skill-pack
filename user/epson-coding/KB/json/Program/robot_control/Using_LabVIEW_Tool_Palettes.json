@@ -1,0 +1,12 @@
+{
+  "title": "Using LabVIEW Tool Palettes",
+  "file": "Using_LabVIEW_Tool_Palettes",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using LabVIEW Tool Palettes\n\nTool and Control Palettes\n\nAfter the Epson RC+ 8.0 LabVIEW VI Library is installed, you can access the VIs and controls available in the library from the [Epson Robots 8.0] tool palette and [Epson Robots 8.0] control palette.\n\nTool Palette\n\nThe tool palette is accessed from the block diagram.\n  Inside the Epson Robots 8.0  tool palette are several sub-palettes, described in the following table:\n\nPalette\tDescription\n\nSystem\tUsed to initialize and shutdown the\n\t\t API.\n\nRobot Settings\tChange robot parameters.\n\nPoints\tLoad, save, change robot points.\n\nMotion\tExecute robot motion.\n\nInputs & Outputs\tControl and monitor Controller inputs\n\t\t and outputs.\n\nTasks\tManage tasks in the Robot Controller.\n\nVariables\tRead and write variables in the Controller.\n\nVision\tExecute vision commands.\n\nGui\tDisplay GUI functions.\n\nTo access the [Epson Robots 8.0] tool palette, open the block diagram for your VI,then right click on an empty area and select [Epson Robots 8.0] to see the sub-palettes described above.\n\nControl Palette\n\nThe control palette is accessed from the front panel.\n\nPalette\tDescription\n\nVision\tContains the SPELVideo control used\n\t\t to display video.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

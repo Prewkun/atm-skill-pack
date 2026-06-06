@@ -1,0 +1,14 @@
+{
+  "title": "Hand_On Statement",
+  "file": "Hand_On_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets the output bit specified in the [I/O Type] field to the state specified in the [I/O State] field for the hand specified based on the Hand_On definition (5.2.1 Hand_On, Hand_Off Definition Area). If the timeout setting has been enabled, the Hand_On command will continue to wait for the input bit to satisfy the specified condition until the timeout time [ms] passes.\n\nFor example, if Hand_On is defined as follows, the Hand_On command will act in the following way.\n\nHand_On\n\nHand Signal\tI/O Type\tController I/O Bit\tI/O State\n\nGrip\tOutput\t12: GripSignal\tOn\n\nRelease\tOutput\t13: ReleaseSignal\tOff\n\nInput1\tInput\t18: GripDetection\tOn\n\nInput2\tInput\t19: FullyOpened\tOff\n\nExecuting the Hand_On command will:\n\n   Turn I/O output bit 12 on.\n\n   Turn I/O output bit 13 off.\n\nHow timeout and delays work\n\nWhen no\n\ntimeout or delay\n\nsetting is set\tThe controller will immediately proceed to the next command when the Hand_On command is executed.\n\nWhen a timeout\n\nis set\tThe Hand_On command will continue to wait for the input bit to satisfy the specified condition until the timeout time [ms] passes.\n\nIf the input bit value meets the specified condition before the specified timeout elapses, the next command will be executed.\n\nWhen a delay is\n\nset\tThe Hand_On command will wait from the output bit operation until the delay set elapses before moving onto the next command.\n\nNote\n\nEmergency stop and reset output\n\nOutput from the output port selected by the hand function is maintained even when the Emergency Stop button is pressed, or the Reset command is executed.\n\nHand_On Example\n\n' Put Hand 1 registered to Robot 1 in a grip state\n\nRobot 1\n\nTool 1\n\nJump P1\n\nHand_On 1",
+  "notes": "",
+  "see_also": "For grippers: Executes the gripping motion.\n\nFor electric screwdrivers: Executes the screw tightening motion.\n\nHand_Off\n\nHand_On Function\n\nHand_Off Function\n\nHand_TW Function\n\nHand_Def Function\n\nHand_Type Function\n\nHand_Label$ Function\n\nHand_Number Function",
+  "examples": [
+    "' Put Hand 1 registered to Robot 1 in a grip state\nRobot 1\nTool 1\nJump P1\nHand_On 1"
+  ]
+}

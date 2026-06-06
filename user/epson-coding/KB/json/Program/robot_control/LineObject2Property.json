@@ -1,0 +1,12 @@
+{
+  "title": "LineObject2 Property",
+  "file": "LineObject2Property",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the 2nd Line object or LineFinder Object to use for defining the position of a Point object when that position is defined by the intersection point of 2 lines.",
+  "notes": "The LineObject2 property is only required when you want to define the position of a Point object as the position of intersection between 2 Lines.  In this case LineObject1 must also specify a Line object before the PointType property can be set.  Once the lines are defined for LineObject1 and LineObject2, the PointType property can be set to \"2 - Intersection\".  However, if either the LineObject1 or LineObject property is not yet defined then an error will occur when trying to set the PointType property to \"2 - Intersection\".\n\nNote: It is important to note that for each specific vision sequence, only those Line objects which are executed prior to the Point object in the vision sequence steps or LineFinder Object will be available to use as LineObject2. (The order of the vision object Execution can be adjusted from the flow chart.)\n\nClick the LineObject2 property Value Field and a drop down list will appear showing a list of available Line objects and LineFinder Objects which can be used for the LineObject2 property.  Click one of the choices and the value field will be set accordingly.\n\nWhen using the Point-and-Click Object window to set the LineObject2 property it is important to note that only those objects which are defined prior to the Point object are displayed in the drop down list.  This helps reduce the chances of the user defining a Line object or LineFinder Object which isn't defined prior to the Point object\n\nNote:  Vision Guide automatically checks which vision objects may be used as LineObject2 and only displays those items in the LineObject2 drop down list.\n\nSee Also: LineObject2 Property\n\nLineObject1 Property\n\nPointType Property\n\nVision Objects: LineObject2 Property\n\nLine\n\nLineFinder\n\nPoint",
+  "see_also": "Applies To\n\nVision Objects: Point",
+  "examples": []
+}

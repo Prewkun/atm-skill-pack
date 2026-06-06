@@ -1,0 +1,15 @@
+{
+  "title": "TickStyle Property",
+  "file": "TickStyle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets where to display the tick marks on a TrackBar control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.TrackBar1.TickStyle, TICKSTYLE_BOTH"
+  ],
+  "category": "gui_control"
+}

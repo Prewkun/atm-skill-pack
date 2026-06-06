@@ -1,0 +1,12 @@
+{
+  "title": "Editor tab: Preferences command (Setup menu)",
+  "file": "setup_editor_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Help\tCheck\n\t\t this box to enable the Syntax Help keyword list and Syntax Help\n\t\t window. The Syntax Help keyword list appears when typing a keyword.\n\t\t The Syntax Help window displays syntax for a keyword after it\n\t\t has been typed, as shown below.\n\n\t\tThis\n\t\t is turned on by default.\n\nAbove\n\t\t Line\tSelect\n\t\t this button to display the syntax help window above the input\n\t\t line.\n\nBelow\n\t\t Line\tSelect\n\t\t this button to display the syntax help window below the input\n\t\t line.\n\nTab Stops\tType\n\t\t in the number of columns to move for the TAB key.\n\n\t\tDefault is 4.\n\nZoom\n\t\t font size in/out Ctrl + mouse wheel\tMove\n\t\t the mouse wheel up or down while holding down the Ctrl key to\n\t\t zoom the font size in and out on the Editor window. This is turned\n\t\t on by default.\n\n\t\tThis is turned on by default.\n\nCode\n\t\t complement\tInput\n\t\t suggestions are shown while entering keywords, as shown below.\n\nSelect with the [↑] or [↓] keys on the keyboard, and then press\n\t\t [Enter] or click the mouse to enter the code.\n\n\t\tThis is turned on by default.\n\nShow\n\t\t Line Number\tShows\n\t\t the line on the left side of the editor.\n\n\t\tThis is turned off by default.\n\nShow\n\t\t minimap\tShows\n\t\t the mini map on the right side of the editor, as shown below.\n\nThis is turned off by default.\n\nTheme\tSelect\n\t\t a theme, and change the editor background and text color. Choose\n\t\t from Basic, Dark, or Dark (High Contrast).\n\n\"Basic\" is selected by default.\n\nFont\n\t\t Name\tChanges\n\t\t the font displayed in the editor.",
+  "parameters": "",
+  "description": "Editor tab: Preferences command (Setup menu)\n\n[Setup]-[Preferences]-[Editor] Page\n\nThis page is used to configure your preferences for the program editor windows.\n\nItem\tDescription\n\nAuto\n\t\t Indent\tCheck\n\t\t this box if you want new lines to follow the indentation for the\n\t\t previous line. Also, lines will automatically be indented after\n\t\t Do, If, Else, For, Select, and Case statements.\n\n\t\tThis is turned on by default.\n\nFunction\n\t\t Separators\tCheck\n\t\t this box to display a line after each Fend statement.\n\n\t\tThis is turned on by default.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

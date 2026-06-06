@@ -1,0 +1,15 @@
+{
+  "title": "AddRow Property",
+  "file": "AddRow_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Used to add a row to a Grid control during runtime.",
+  "notes": "",
+  "see_also": "Applies To\n\nGrid\n\nRemoveRow\n\nRowCount\n\nGUI Items: AddRow Property\n\nGrid",
+  "examples": [
+    "GSet frmMain.Grid1.AddRow, 0"
+  ],
+  "category": "gui_control"
+}

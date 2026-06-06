@@ -1,0 +1,12 @@
+{
+  "title": "[Restore] (File Menu)",
+  "file": "file_restore_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Restore] (File Menu)\n\n[Restore] (File Menu)\n\nReloads the program files, include files, I/O labels, user errors, or point files that you are currently editing from the hard disk.\n\nUse this function to change a document to the state it was in since last saved.\n\nYou will be prompted to confirm this operation.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

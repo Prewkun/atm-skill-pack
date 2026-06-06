@@ -1,0 +1,15 @@
+{
+  "title": "ProjectOverwriteWarningEnabled Property, Spel Class",
+  "file": "ProjectOverwriteWarningEnabled_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property ProjectOverwriteWarningEnabled As Boolean\n\nDefault Value\n\nTrue",
+  "parameters": "",
+  "description": "Sets / returns whether the project overwrite warning will be displayed.",
+  "notes": "By default, when the current project is not the same as the project in the controller, then a project overwrite warning message is displayed when the project is built and sent to the controller.\n  Set ProjectOverwriteWarningEnabled to False when you don't want the overwrite warning message to be displayed.  This is useful for when your application needs to switch projects used in the controller.",
+  "see_also": "BuildProject\n\nProjectOverwriteWarningEnabled",
+  "examples": [
+    "' Disable the project overwrite warning\nm_spel.ProjectOverwriteWarningEnabled = False\nm_spel.Project = \"c:\\EpsonRC80\\Projects\\Project1\\Project1.sprj\"",
+    "// Disable the project overwrite warning\nm_spel.ProjectOverwriteWarningEnabled = false;\nm_spel.Project = @\"c:\\EpsonRC80\\Projects\\Project1\\Project1.sprj\";"
+  ]
+}

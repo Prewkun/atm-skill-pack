@@ -1,0 +1,12 @@
+{
+  "title": "Extrema Result",
+  "file": "ExtremaResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the blob extrema coordinates.",
+  "notes": "The MinX, MaxX, MinY, and MaxY results together define a blob's smallest enclosing rectangle that is aligned with the coordinate axes and completely encloses the blob.  This rectangle is known as the extrema.  The Extrema result enables you to retrieve all four coordinates in one command.\n\nThe Extrema value can be fractional.  For example, 100.5 would be between the 100 and 101 pixels.",
+  "see_also": "Runtime only\n\nApplies To\n\nVision Objects: Blob, DefectFinder\n\nArea Result\n\nMinX Result\n\nMaxX Result\n\nMaxY Result\n\nMinY Result\n\nVision Objects: Extrema Result\n\nBlob",
+  "examples": []
+}

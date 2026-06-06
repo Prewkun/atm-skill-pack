@@ -1,0 +1,12 @@
+{
+  "title": "Arc VI",
+  "file": "Arc_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Arc moves the arm to the specified point using circular interpolation in the XY plane.\n\nInputs\n\nSpel Ref\n\t\t In\tSpel reference from a previous Spel\n\t\t Ref Out.\n\nError In\tError condition from a previous Spel\n\t\t node.\n\nMid Point\n\t\t Number\tSpecifies the mid point by using an\n\t\t integer.\n\nMid Point\n\t\t Expr\tSpecifies the mid point by using a string\n\t\t expression.  If this input is used, then you must also specify\n\t\t the end point with a string expression.\n\nEnd Point\n\t\t Number\tSpecifies the end point by using an\n\t\t integer.\n\nEnd Point\n\t\t Expr\tSpecifies the end point by using a string\n\t\t expression. You can include ROT, CP, SYNC, Till, Find, and a parallel\n\t\t processing statement.\n\nOutputs\n\nSpel Ref\n\t\t Out\tSpel reference output for next VI to\n\t\t use.\n\nError Out\tError condition output for subsequent\n\t\t Spel nodes.",
+  "notes": "",
+  "see_also": "Accel, Arc3, BMove, Go, Jump, Jump3, Move, Speed, TGo, TMove, BGo, Find, Till\n\nArc Example",
+  "examples": []
+}

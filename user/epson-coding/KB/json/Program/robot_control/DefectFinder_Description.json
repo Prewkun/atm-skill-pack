@@ -1,0 +1,12 @@
+{
+  "title": "DefectFinder Description",
+  "file": "DefectFinder_Description",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "DefectFinder Description\n\nDefectFinder Description\n\nDefectFinder objects are used to identify difference between template image and input image.\n\nDetected image difference computes geometric feature, topological feature, and other feature amount of the image using a binary analysis tool like Blob.\n\nFollowing features are obtained by computing the image difference detected by DefectFinder objects:\n\nArea and perimeter\n\nCenter of mass\n\nPrincipal axes and moments\n\nConnectivity\n\nExtrema\n\nCoordinate positions of the center of mass in pixel, camera world, and robot world Coordinate systems\n\nHoles, roughness, and compactness of blobs",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

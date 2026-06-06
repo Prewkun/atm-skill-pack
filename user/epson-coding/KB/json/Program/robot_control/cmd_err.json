@@ -1,0 +1,14 @@
+{
+  "title": "Err Function",
+  "file": "cmd_err",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Err [ (taskNumber) ]",
+  "parameters": "taskNumber\tOptional. Integer expression representing a task number from 0-32.  0 specifies the current task.",
+  "description": "Err allows the user to read the current error code.  This along with the SPEL+ Error Handling capabilities allows the user to determine which error occurred and react accordingly.  Err is used with OnErr. To get the controller error, use SysErr function.\n\nWhen the event \"Error during Auto Mode\" occurs, normal task and NoPause task in AUTO mode stop execution and end the task.\n\nIf the target task has already ended when using this function for NoEmgAbort task or background task, \"Error 2261\" is occurred.  Use OnErr to acquire information before the task ends.",
+  "notes": "",
+  "see_also": "Error Handling\n\nError Codes\n\nEra\n\nErf$\n\nErl\n\nErrMsg$\n\nEResume\n\nErt\n\nOnErr\n\nReturn\n\nSysErr\n\nErr Function Example\n\nThe following example shows a simple utility program which checks whether points P0-P399 exist. If the point does not exist, then a message is printed on the screen to let the user know this point does not exist. The program uses the CX instruction to test each point for whether or not it has been defined. When a point is not defined control is transferred to the error handler and a message is printed on the screen to tell the user which point was undefined.\n\nFunction errtest\n\n  Integer i, errnum\n\n  Real x\n\n  OnErr Goto eHandle\n\n  For i = 0 To 399\n\n    x = CX(P(i))\n\n  Next i\n\n  Exit Function\n\n  '\n\n  '\n\n  '*********************************************\n\n  '* Error Handler *\n\n  '*********************************************\n\neHandle:\n\n  errnum = Err\n\n  ' Check if using undefined point\n\n  If errnum = 78 Then\n\n    Print \"Point number P\", i, \" is undefined!\"\n\n  Else\n\n    Print \"ERROR: Error number \", errnum, \" Occurred.\"\n\n  EndIf\n\n  EResume Next\n\nFend",
+  "examples": [
+    "Function errtest Integer i, errnum Real x OnErr Goto eHandle For i = 0 To 399\n    x = CX(P(i)) Next i Exit Function ' ' '********************************************* '* Error Handler * '*********************************************\neHandle: errnum = Err ' Check if using undefined point If errnum = 78 Then\n    Print \"Point number P\", i, \" is undefined!\" Else\n    Print \"ERROR: Error number \", errnum, \" Occurred.\" EndIf EResume Next\nFend"
+  ]
+}

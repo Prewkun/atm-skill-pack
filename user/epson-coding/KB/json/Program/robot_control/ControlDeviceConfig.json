@@ -1,0 +1,12 @@
+{
+  "title": "ControlDeviceConfig",
+  "file": "ControlDeviceConfig",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "ControlDeviceConfig\n\nControl Device Configuration\n\nThe following is the procedure to set the control device to \"Remote I/O\".\n\n(1)   Select [Controller] from the [Setup] menu-[System Configuration] and display the [System Configuration] dialog box. Select [Controller]-[Configuration].\n\nSelect \"Remote I/O\" in the [Control Device] box.\n\n(2)   Click the [Apply] button to save the new settings, and then click the [Close] button.\n\nFor details on the dialog setting, refer to section 5.13.2 [System Configuration] (Setup menu) - [Setup]-[System Configuration]-[Configuration].",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "VLoad Statement",
+  "file": "VLoad",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Loads all vision properties for the current project from disk.",
+  "notes": "Use VLoad to restore all vision properties at runtime to design time values.\n\nWhen VLoad executes, it loads the data from the .VIS file in the project directory.\n\nNote:\n  When using a Compact Vision, Epson RC+ needs to be connected to the Robot Controller.  Otherwise, the command will result in an execution error.",
+  "see_also": "Statement\n\nVSave",
+  "examples": []
+}

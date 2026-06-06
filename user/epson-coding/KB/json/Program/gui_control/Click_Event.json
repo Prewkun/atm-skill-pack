@@ -1,0 +1,15 @@
+{
+  "title": "Click Event",
+  "file": "Click_Event",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Occurs when a control is clicked.",
+  "notes": "The Click event is used to respond to a click on a control by the user. You can use the Sender$ parameter to determine which control sent the event. This is useful when you want to use one function to handle more than one control, such as for radio buttons and check boxes.",
+  "see_also": "Applies To\n\nButton, Label, RadioButton, Checkbox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, ProgressBar, StatusBar, Grid\n\nLoad Event\n\nGUI Items: Click Event\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox",
+  "examples": [
+    "Function frmMain_btnStart_Click(Sender$ As String )\n    Xqt main\nFend"
+  ],
+  "category": "gui_control"
+}

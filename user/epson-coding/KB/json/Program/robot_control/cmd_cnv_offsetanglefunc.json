@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_OffsetAngle Function",
+  "file": "cmd_cnv_offsetanglefunc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_OffsetAngle\n\n\t\t\t(conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger value from 1 - 16 representing the conveyor number.",
+  "description": "Cnv_OffsetAngle Function\n\nCnv_OffsetAngle Function\n\nSee_Also Example\n\nReturns the offset value of the conveyor queue data.",
+  "notes": "",
+  "see_also": "Cnv_OffsetAngle\n\nCnv_OffsetAngle Function Example\n\nReal offsetAngle\noffsetAngle = Cnv_OffsetAngle(1)",
+  "examples": [
+    "Real offsetAngleoffsetAngle = Cnv_OffsetAngle(1)"
+  ]
+}

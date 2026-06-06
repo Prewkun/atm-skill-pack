@@ -1,0 +1,12 @@
+{
+  "title": "Object window: RUN and TEACH Buttons",
+  "file": "ObjectTab_RUNandTEACHButtons",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Object window: RUN and TEACH Buttons\n\nObject Window: Run Object and Teach Buttons\n\nLocated at the bottom of the Object Window are the Run Object and Teach buttons. The Teach button will be accessible only for for objects that utilize models. After a vision object's Model Window is positioned and sized properly, the Teach button is clicked to teach the model for the vision object. Complete details of teaching vision objects is explained in Vision Objects.\n\nThe Run Object button is used to run the currently displayed vision object. This is useful for testing the current Vision object by itself to fine tune the property settings for that object.\n\nIf a vision object is associated with other Vision object's (such as a Polar object whose center position is defined by the results of a Correlation object), then the required vision objects will execute first and then the current vision object will execute. For example, assume that we want to run a Polar object when that Polar object's Center property is defined by the results of a Correlation object. In this case we select the Polar object as the current object from the flow chart. Then, click the Run Object button and the Correlation Object will execute first, followed immediately by the Polar object.\n\nNote: It is important to understand the difference between running a vision object and running a vision sequence. To run a vision object simply click the Run button of the object on the execution panel. Make sure that the proper vision object is selected in the flow chart or sequence tree before running. Running a vision object will execute only that vision object and any vision objects which may be required by that object for proper execution, such as an object which defines the StartingPoint property for a Line object, or an object which defines the Center property for a Polar object. When executing a vision sequence, all vision objects within that sequence will execute.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

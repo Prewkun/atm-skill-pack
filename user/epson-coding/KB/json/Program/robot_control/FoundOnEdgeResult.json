@@ -1,0 +1,12 @@
+{
+  "title": "FoundOnEdge Result",
+  "file": "FoundOnEdgeResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns 1-True when an object is found too close to the edge of the Search Window .",
+  "notes": "The FoundOnEdge result is a special status which works only with the Blob, Correlation, and Geometric objects.  It tells the user why a specific Blob, Correlation or Geometric object is not Found.\n\nSometimes the Vision System tries to report that an object was found even though part of the object may be located outside of the Field of View.  Rather than report these objects as Found, Vision Guide returns False for the Found result when the object is found but part of the object is outside of the search window.\n\nIf you want to reject a part when FoundOnEdge is True, set the RejectOnEdge property to True.\n\nNote: There will be cases where you will use a Correlation object and the Found result continues to return False even though the Score result for the object is well below the Accept property.  In these situations, always check the FoundOnEdge result.  This will tell you that the part was in fact found by the Vision System but that Vision Guide will not return the results because the part or object is outside of the Field of View when the picture was taken.\n\nSee Also: FoundOnEdge Result\n\nFound Result\n\nScore Result\n\nRejectOnEdge\n\nVision Objects: FoundOnEdge Result\n\nCorrelation\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Blob, Correlation, DefectFinder, Geometric",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ArmCalib Function",
+  "file": "ArmCalib_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "ArmCalib",
+  "parameters": "",
+  "description": "",
+  "notes": "",
+  "see_also": "Returns the arm length calibration status for the robot currently selected.\n\nArmCalib Statement\n\nArmCalib Function Example\n\nIf ArmCalib = Off then\n\n  Print \"Arm length calibration disabled.\"\n\nElse\n\n  Print \"Arm length calibration enabled.\"\n\nEndif",
+  "examples": [
+    "If ArmCalib = Off then Print \"Arm length calibration disabled.\"\nElse Print \"Arm length calibration enabled.\"\nEndif"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Alteration of points",
+  "file": "Alteration_of_points",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Alteration of points\n\nAlteration of points\n\nThere are several ways of modifying a point without reteaching it. You can change one or more coordinate values with relative offsets or absolute values.\n\nTo set an absolute value for a coordinate, use a colon followed by the axis letter and the value.\n\nTo add a relative offset to a coordinate, use an axis letter followed by the offset value or expression in parentheses. If the offset is negative, then precede the axis letter with the minus sign. If parentheses are omitted, they will be automatically added.\n\nGo P1 -Z(20)\tMove to P1 with a z offset of -20mm\n\nGo P1 :Z(-25)\tMove to P1 with a z absolute position of -25mm\n\nGo P1 -X(20) +Y(50) :Z(-25)\tMove to P1 with offsets for X and Y relative offsets and an absolute position for Z\n\nPoint aleration of 6-axis robot\n\nWhen changing the orientation by roll (U), pitch (V), and yaw (W) in the SPEL+ program, adding the angles to V and W axes (e.g. +V(10), +W(10)) does not mean the rotation of Y and X axes in the robot coordinate system.  To change the orientation (U, V, and W) after teaching the points, set the robot to actual posture by Jog & Teach in the Robot Manager.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

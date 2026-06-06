@@ -1,0 +1,12 @@
+{
+  "title": "PixelToRobot Result",
+  "file": "PixelToRobot_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the RobotX, RobotY and RobotU position coordinates with respect to the robot coordinate system.",
+  "notes": "The PixelToRobot result returns a position in the robot coordinate system and therefore can be used for robot guidance applications.  The PixelToRobot result xVar and yVar values are always returned in millimeters.  The uVar value is always returned in degrees.\n\nIt should be noted that the PixelToRobot result can only be calculated for vision calibrations which have been calibrated with the robot coordinate system.  If  not calibrated then the PixelToRobot result cause an error to occur.",
+  "see_also": "Runtime Only\n\nApplies To\n\nVision Calibration\n Result\n\nRobotX Result\n\nRobotY Result\n\nRobotU Result\n\nRobotToolXYU Result",
+  "examples": []
+}

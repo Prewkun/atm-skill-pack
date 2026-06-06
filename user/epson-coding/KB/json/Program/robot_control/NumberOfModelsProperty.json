@@ -1,0 +1,12 @@
+{
+  "title": "NumberOfModels Property",
+  "file": "NumberOfModelsProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets / sets the number of models used by the object.",
+  "notes": "The NumberOfModels property is used at runtime to set the number of models for a ColorMatch or ImageOp object. After setting NumberOfModels, you can use CurrentModel and VTeach to teach each color model.\n\nSee Also: NumberOfModels Property\n\nCurrentModel Property\n\nVision Objects: NumberOfModels Property\n\nColorMatch\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: ColorMatch, ImageOp",
+  "examples": []
+}

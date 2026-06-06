@@ -1,0 +1,12 @@
+{
+  "title": "Examining All the Multiple Results at Once",
+  "file": "ExaminingAlltheMultipleResultsatOnce",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Examining All the Multiple Results at Once\n\nExamining All the Multiple Results at Once\n\nOne of the nicest features built in with the multiple results feature for Blob and Correlation objects is the ShowAllResults result.  There may be cases where you want to compare the different results to see the top Score vs. the 2nd Score and so on.  For example, maybe there is a big drop off in score after the 3rd feature is found. Using the ShowAllResults result makes is easy to see all results at once.\n\nClicking on the ShowAllResults result's value field will cause a button to appear.  Click the button and a dialog will be displayed which shows all the results for the current vision object.  A sample ShowAllResults dialog is shown in the figure below.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

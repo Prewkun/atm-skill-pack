@@ -1,0 +1,12 @@
+{
+  "title": "Setup Menu",
+  "file": "Setup_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Setup Menu\n\nSetup Menu\n\nThe [Setup] menu contains the following commands:\n\n-    PC to Controller Communications\n\n-    System Configuration\n\n-    Preferences\n\n-    Options",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

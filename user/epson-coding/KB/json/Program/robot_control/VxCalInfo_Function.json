@@ -1,0 +1,14 @@
+{
+  "title": "VxCalInfo Statement",
+  "file": "VxCalInfo_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "VxCalInfo (CalNo,CalData)",
+  "parameters": "CalNo\tInteger expression that specifies the calibration data number. The range is from 0 to 15; up to 16 calibrations may be defined.\n\nCalData\tSpecifies the calibration data type to acquire using the integer values in the table below.",
+  "description": "You can check which calibration has defined calibration data.\n\nAlso, you can retrieve the calibration data values.",
+  "notes": "",
+  "see_also": "VxCalib\n\nVxTrans Function\n\nVxCalDelete\n\nVxCalSave\n\nVxCalLoad\n\nVxCalInfo Function Example\n\nPrint VxCalInfo(0, 1)",
+  "examples": [
+    "Print VxCalInfo(0, 1)"
+  ]
+}

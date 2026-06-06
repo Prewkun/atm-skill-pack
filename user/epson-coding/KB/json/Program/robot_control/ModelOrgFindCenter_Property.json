@@ -1,0 +1,12 @@
+{
+  "title": "ModelOrgFindCenter Property",
+  "file": "ModelOrgFindCenter_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "A model has a fixed reference point by which a location of the model in the image is indicated.  This point is referred to as the model origin.  The ModelOrgFindCenter property sets the model origin at the rotation center of the model edge automatically.",
+  "notes": "The model origin can be set anywhere within the region defined by the model window.  The origin's coordinates define the model origin relative to the model window's upper left corner, that is, relative to the location of element [0][0] of the model window that defines the model.\n\nThe ModelOrgFindCenter property sets the model origin at the rotation center of the model edge.  The model origin is not updated automatically when the model window is moved or resized.  Use this property to set the model origin at the rotation center of the mode edge as needed.\n\nIf this property is set to \"True\" when the ModelOrgAutoCenter property is \"1-True\", then the ModelOrgAutoCenter property will be automatically set to \"0 - False\".\n\nIf this property is set to \"True\", the model origin is updated, and then the property value returns to \"False\".  That is, the value obtained by VGet is always \"False\".\n\nSee Also: ModelOrgFindCenter Property\n\nAnatomy of a Vision Object\n\nModelOrgAutoCenter Property\n\nModelOrgX Property\n\nModelOrgY Property\n\nVision Objects: ModelOrgFindCenter Property\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Geometric",
+  "examples": []
+}

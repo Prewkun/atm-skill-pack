@@ -1,0 +1,12 @@
+{
+  "title": "AngleObjectResult Property",
+  "file": "AngleObjectResult_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the results used by the AngleObject property.",
+  "notes": "AngleObjectResult specifies one result for an object set as the AngleObject.  For example, create a Blob object for which the NumberToFind value is \"4\".  Then, by setting Blob object as the AngleObjectResult for the Point object, and setting the AngleObjectResult for the Blob object to \"2\", the resulting angle for the second Blob object will be used for the Point object.\n\nValues\n\nAngleObjectResult specifies the results number.\n\nDefault: 1",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: ImageOp, Point\n Property\n\nAngleObject Property\n\nVision Objects: AngleObjectResult Property\n\nBlob\n\nBoxFinder\n\nCodeReader",
+  "examples": []
+}

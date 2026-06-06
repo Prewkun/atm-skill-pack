@@ -1,0 +1,12 @@
+{
+  "title": "Start Mode: Program",
+  "file": "Start_Up_Mode_Program_Debug",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start Mode: Program\n\nStart Mode: Program\n\nProgram mode is the default start mode. This is the Epson RC+ 8.0 development environment, from which you can:\n\nCreate\n\t / edit projects.\n\nConfigure\n\t the controller and set preferences.\n\nRun\n\t and debug programs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

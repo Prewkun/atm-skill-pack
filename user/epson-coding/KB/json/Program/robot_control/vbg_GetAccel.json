@@ -1,0 +1,15 @@
+{
+  "title": "GetAccel Method, Spel Class",
+  "file": "vbg_GetAccel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function GetAccel (ParamNumber As Integer) As Integer",
+  "parameters": "",
+  "description": "Returns specified acceleration value.",
+  "notes": "",
+  "see_also": "Accel\n\nGetAccel Example\n\nVB Example:\n\nDim x As Integer\n\nx = m_spel.GetAccel(1)\n\nC# Example:\n\nint x;\n\nx = m_spel.GetAccel(1);",
+  "examples": [
+    "Dim x As Integer\nx = m_spel.GetAccel(1)",
+    "int x;\nx = m_spel.GetAccel(1);"
+  ]
+}

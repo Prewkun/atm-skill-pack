@@ -1,0 +1,15 @@
+{
+  "title": "Using variables for sequence and object names",
+  "file": "Usingvariablesforsequenceandobjectnames",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using variables for sequence and object names\n\nUsing Variables for Sequence and Object Names\n\nString variables can be used for the calibration, sequence, and object name arguments in the VRun, VGet and VSet commands.\n  The example below uses the string variables seq$ and obj$ to specify which vision sequence and which vision object to work with.\n\nFunction visTest\n\n#define Z_PICK -100\n\n\t\t  String   seq$, obj$\n\n\t\t  Integer  found\n\n\t\t  Real  x, y, u\n\nseq$ = \"test\"\n\n\t\t  obj$ = \"blob01\"\n\n\t\t  VSet seq$.Camera, 1\n\n\t\t  VSet seq$.Calibration, \"CAMCAL1\"\n\n\t\t  VRun seq$\n\n\t\t  VGet seq$.obj$.RobotXYU, found, x, y, u\n\n\t\t  If found Then\n\n\t\t    pick = XY(x, y, Z_PICK, u)\n\n\t\t    Jump pick\n\n\t\t    On vacuum\n\n\t\t    Wait .1\n\n\t\t    Jump place\n\n\t\t    Off vacuum\n\n\t\t    Wait .1\n\n\t\t  EndIf\n\n\t\t  Jump park\n\n\t\tFend\n\nArrays can also be used for sequence and object name arguments in the VRun, VGet, and VSet commands.  See the example below.\n\nFunction test\n\n\t\t  String obj$(10)\n\n\t\t  obj$(0) = \"corr01\"\n\n\t\t  VRun seqname\n\n\t\t  VGet seqname.obj$(0).found, found\n\n\t\tFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function visTest\n\n#define Z_PICK -100\n\t\t  String   seq$, obj$\n\t\t  Integer  found\n\t\t  Real  x, y, u\n\nseq$ = \"test\"\n\t\t  obj$ = \"blob01\"\n\t\t  VSet seq$.Camera, 1\n\t\t  VSet seq$.Calibration, \"CAMCAL1\"\n\t\t  VRun seq$\n\t\t  VGet seq$.obj$.RobotXYU, found, x, y, u\n\t\t  If found Then\n\t\t    pick = XY(x, y, Z_PICK, u)\n\t\t    Jump pick\n\t\t    On vacuum\n\t\t    Wait .1\n\t\t    Jump place\n\t\t    Off vacuum\n\t\t    Wait .1\n\t\t  EndIf\n\t\t  Jump park\n\t\tFend",
+    "Function test\n\t\t  String obj$(10)\n\t\t  obj$(0) = \"corr01\"\n\t\t  VRun seqname\n\t\t  VGet seqname.obj$(0).found, found\n\t\tFend"
+  ]
+}

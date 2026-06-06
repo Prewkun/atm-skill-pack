@@ -1,0 +1,12 @@
+{
+  "title": "Peripherals",
+  "file": "Peripherals",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Peripherals\n\nPeripherals\n\nThe Robot Controller has one RS-232C port as standard. Available ports can be added (up to 5 ports) by installing an optional RS-232C board. Refer to RS-232C Communications for details.\n\nNOTE:  T series and VT series manipulator do not have RS-232C port on the controller. Optional RS-232C board cannot be added.\n\nYou can use TCP/IP to connect peripheral equipment. Refer to TCP/IP Communications for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Monitoring command",
+  "file": "Remote_Ethernet_MonitoringCommand",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Monitoring command\n\nMonitoring command\n\nWhen the Remote Ethernet control is not set as the control device but set to be used for monitoring, following commands are only available to be executed.\n\nRemote Command\n\nLogin\n\nLogout\n\nGetIO\n\nGetIOByte\n\nGetIOWord\n\nGetMemIO\n\nGetMemIOByte\n\nGetMemIOWord\n\nGetVariable\n\nGetStatus\n\nGetCurRobot\n\nGetAlm",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

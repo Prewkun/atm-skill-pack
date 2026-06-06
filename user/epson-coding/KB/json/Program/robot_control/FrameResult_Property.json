@@ -1,0 +1,12 @@
+{
+  "title": "FrameResult Property",
+  "file": "FrameResult_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets and returns the result number of the frame to be used.",
+  "notes": "Sets the result of the Frame to be used.  If\n  the FrameResult property is set to All, the object will be used for all frame results.\n\nVision Objects: FrameResult Property\n\nBlob\n\nCorrelation\n\nEdge\n\nGeometric\n\nImageOp\n\nLine\n\nDefectFinder\n\nArcFinder\n\nLineFinder\n\nPoint\n\nPolar",
+  "see_also": "",
+  "examples": []
+}

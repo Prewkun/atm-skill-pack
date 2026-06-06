@@ -1,0 +1,12 @@
+{
+  "title": "USB Camera Part Names and Functions",
+  "file": "USB_Camera_Part_Names_and_Functions",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "USB Camera Part Names and Functions\n\nPart Names and Functions\n\nNo\tName\tFunctions\n\nCN1\tUSB\n\t\t Connector\tA\n\t\t USB connector to connect the CV2 with the camera\n\nJP3\tTrigger\n\t\t Connector\tA\n\t\t connector to receive trigger inputs from the external device or\n\t\t output control signals to the strobe device",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

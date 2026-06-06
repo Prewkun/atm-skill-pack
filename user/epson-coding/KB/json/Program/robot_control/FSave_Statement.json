@@ -1,0 +1,14 @@
+{
+  "title": "FSave Statement",
+  "file": "FSave_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "This saves the force data in the main memory in the current robot file.",
+  "notes": "This saves the force data in the main memory in the current robot file.\n\nThe extension is fixed to \".frc\" If the extension is omitted, \".frc\" will be added. The file name must be\n\nalphanumeric characters and the underscore character only, and can be up to 255 characters. You cannot\n\nspecify the path. If the force data has not already been saved previously, it will be added to the current robot\n\nproject.\n\nFrequent Errors\n\n  The specified file is not the current robot file\n\n    When a force file from a different robot is specified in FileName_sValue$, an error occurs.\n\n  The path is specified in the specified file name\n\n    When the path is included in FileName_sValue$, an error occurs.\n\n    Be sure to specify the file name only.\n\n  File name error\n\n    An error is generated when a space or invalid character is contained in FileName_sValue$.",
+  "see_also": "FLoad Statement",
+  "examples": [
+    "> FSave \"myforce.frc\""
+  ]
+}

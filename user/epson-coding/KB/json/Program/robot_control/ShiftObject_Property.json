@@ -1,0 +1,12 @@
+{
+  "title": "ShiftObject Property",
+  "file": "ShiftObject_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the object to execute Shift processing.",
+  "notes": "ShiftObject can be set when the Operation of ImageOp is set \"Shift\".  When ShiftObject is set other than \"None\", the set value of ShiftX and ShiftY is invalid and the Shift processing is executed by the detection position of the object set to ShitObject.  When ShiftObject is set \"None\", Shift processing is executed by the set value of ShiftX and ShiftY.\n\nSee Also: ShiftObject Property\n\nImageOp Object\n\nOperation Property\n\nShiftX Property\n\nShiftY Property\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Objects: ImageOp",
+  "examples": []
+}

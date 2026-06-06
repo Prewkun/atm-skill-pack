@@ -1,0 +1,12 @@
+{
+  "title": "Arch page, Robot Manager Window",
+  "file": "setup_arch_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Arch page, Robot Manager Window\n\n[Tools]-[Robot Manager]-[Arch] Page\n\nThis page allows you to configure the depart Z and approach Z settings in the robot's Arch table. Arch is used for the Jump, Jump3, and Jump3CP motion commands.\n\nFor more details on Arch settings, refer to the following manual:\n\nSPEL+ Language Reference - Arch Statement\n\nNavigating the grid\n\nPress the [Tab] key to move to the next cell. Press the [Shift] + [Tab] key to move to the previous cell. Press the arrow [↑] or [↓] key to move to the cell above or below.\n\nItem\tDescription\n\nArch\tThe Arch\n\t\t number. There are up to seven different setting pairs in the Arch table.\n\nDepart\n\t\t Z\tSpecifies\n\t\t the vertical rise distance of the arch motion.\n\nApproach\n\t\t Z\tSpecifies\n\t\t the vertical descent distance of the arch motion.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nDefaults\tDisplays\n\t\t factory default settings.\n\nTo change Arch settings\n\n1. Put the cursor in the Depart Z or Approach Z cell of the row you want to change.\n\n2. Type in the new value.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

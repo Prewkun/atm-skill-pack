@@ -1,0 +1,12 @@
+{
+  "title": "The Image Display",
+  "file": "The_Image_Display",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The Image Display\n\nThe Image Display\n\nThe image display is located directly beneath the Vision Guide toolbar.  This is the area of the Vision Guide window where the image brought in through the camera (or from disk) is displayed.\n\nThis image is overlaid on the Vision window to fit within the area we call the image display.  The image display is also used to display graphics for each of the Vision objects that are used to process the images. For example, you may see boxes and cross hairs displayed at various positions in the image display area. These graphics help developers use the vision object Tools.\n\nA picture of the Vision Guide window with the image display area labeled is shown at the beginning of the section in this chapter called The Parts of the Vision Guide Window\n\nThe image display expands as the Vision Guide GUI window is expanded.  The size of the Run dialog box is also changed as the window size changes.  There is a splitter bar between the image display and the tab group that allows you to adjust the image display size.  The aspect ratio for the image is maintained as you change the size of the image display.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

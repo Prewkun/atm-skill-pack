@@ -1,0 +1,12 @@
+{
+  "title": "Security Audit Viewer",
+  "file": "Security_Audit",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Security Audit Viewer\n\nSecurity Audit Viewer\n\nWhen the Security function is enabled, Epson RC+ 8.0 will keep track of who logs into the system and actions performed.\n\nActivity is stored to the security data path in the Microsoft Access compatible data base format. To view the security logs, select [Audit Viewer] from the [Tools] menu.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

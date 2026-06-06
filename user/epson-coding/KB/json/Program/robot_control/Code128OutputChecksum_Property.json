@@ -1,0 +1,12 @@
+{
+  "title": "Code128OutputChecksum Property",
+  "file": "Code128OutputChecksum_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to include the checksum value in the CODE 128 Text result.",
+  "notes": "Sets whether to include the checksum value in the CODE 128 Text result.\n\nSetting range: True / False\n\nDefault: False\n\nSee Also: Code128OutputChecksum Property\n\nObject Tab\n\nVision Objects: Code128OutputChecksum Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader\n\nDesigntime only",
+  "examples": []
+}

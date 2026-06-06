@@ -1,0 +1,12 @@
+{
+  "title": "Other Useful Utilities for Use with ImageOp Objects",
+  "file": "OtherUsefulUtilitiesforUsewithImageOpObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Other Useful Utilities for Use with ImageOp Objects\n\nOther Useful Utilities for Use with ImageOp Objects\n\nWhen performing the Binarize Operation, you should examine the\n\t\t\t\tHistogram\n feature of Vision Guide. Histograms are useful because they graphically represent the distribution of grey-scale values within the Search Window\n\n. You can use the Histogram tool to set the thresholds for binarization.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

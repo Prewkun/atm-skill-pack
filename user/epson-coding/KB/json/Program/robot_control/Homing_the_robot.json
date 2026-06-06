@@ -1,0 +1,12 @@
+{
+  "title": "Homing the robot",
+  "file": "Homing_the_robot",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Homing the robot\n\nHoming the robot\n\nThe Home command moves the robot to a user defined \"park\" or \"idle\" position. This command works for all robots. It is mainly used for absolute encoder robots that normally do not need to be mechanically homed. Use the HomeSet command to set the home position and the Hordr command to set the home order.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

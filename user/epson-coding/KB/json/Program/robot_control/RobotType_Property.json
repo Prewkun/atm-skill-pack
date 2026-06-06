@@ -1,0 +1,12 @@
+{
+  "title": "RobotType Property",
+  "file": "RobotType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property is the robot types that use a force guide sequence.\n\nIt is automatically set from the robot number specified by RobotNumber.  You cannot change this.\n\nSee Also: RobotType Property\n\nRobotNumber Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

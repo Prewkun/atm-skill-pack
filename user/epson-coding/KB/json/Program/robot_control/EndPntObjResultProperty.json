@@ -1,0 +1,12 @@
+{
+  "title": "EndPntObjResult Property",
+  "file": "EndPntObjResultProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies which result to use from the EndPointObject.",
+  "notes": "EndPntObjResult enables you to attach several objects to the results of one EndPointObject.  For example, you could create a blob object with NumberToFind set to 4.  Then you could attach a line object to each one of the results by specifying the blob for the EndPointObject of each line and a different EndPntObjResult for each line.\n\nValues\n\nThe value can range from 1 to the NumberToFind value for the EndPointObject.  If the EndPointObject is 'Screen', then the value is always 1.\n\nSee Also: EndPntObjResult Property\n\nEndPointObject Property\n\nVision Objects: EndPntObjResult Property\n\nContour\n\nEdge\n\nLine\n\nLineInspector",
+  "see_also": "Applies To\n\nVision Objects: Contour, Edge, Line, LineInspector",
+  "examples": []
+}

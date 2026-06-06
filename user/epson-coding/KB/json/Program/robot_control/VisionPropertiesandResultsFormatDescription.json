@@ -1,0 +1,12 @@
+{
+  "title": "Vision Properties and Results Format Description",
+  "file": "VisionPropertiesandResultsFormatDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Properties and Results Format Description\n\nVision Properties and Results Format Description\n\nAll Vision Guide properties and results are listed in the pages that follow.  An explanation of the headings for the property and result reference pages is given below:\n\nApplies To\tIf the property or result is used with vision objects, then this section simply lists the vision objects for which this property applies. (Ex.  Blob, Correlation, Polar...)\n\nIf the property or result is used with vision sequences then the words \"Vision Sequence\" will appear in this section.\n\nIf the property or result is used with vision calibration then the words \"Vision Calibration\" will appear in this section.\n\nDescription\tA simple description is given for each property or result. This section is normally very short for simplicity.\n\nUsage\tThe Usage Section describes how to access the property or result from the SPEL+ Language.\n\nValues\tDescribes the range of acceptable values which the property can be set to or which the result will return. A default value is also shown for those properties which have a default.\n\nRemarks\tExplains more details than the Description Section. This section is normally used to describe any caveats or special information that may apply to the specific property or result. (It is highly recommended to read the Remarks Section for each property prior to its usage.)\n\nSee Also\tGives a list of related properties, results, vision objects and other topics which may prove useful to review.\n\nRuntime only\tThis is displayed under the property or result name when it applies.  Runtime only properties and results cannot be accessed from the Vision Guide GUI.  They can only be accessed from the SPEL+ language or from the RC+ API.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

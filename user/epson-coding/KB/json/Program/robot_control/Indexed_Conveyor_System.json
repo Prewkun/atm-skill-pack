@@ -1,0 +1,12 @@
+{
+  "title": "Indexed Conveyor System",
+  "file": "Indexed_Conveyor_System",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Indexed Conveyor System\n\nIndexed Conveyor System\n\nConveyor moves a specified distance.\nVision system or sensor system finds the parts on the conveyor when it stops.\nRobot picks up the parts found by vision system.\nAfter finding and picking up all parts, conveyor moves by the specified distance again.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

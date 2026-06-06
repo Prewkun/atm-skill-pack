@@ -1,0 +1,14 @@
+{
+  "title": "PDescription Statement",
+  "file": "PDescription_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "PDescription point data, Newcomment",
+  "parameters": "Point data\tAn integer value or Pnumber or P(expr) or point label.\n\nNo variables can be specified for point data parameter.\n\nTo use variables, write PDescription Statement (P(varName)), \"new comment\".\n\nNew comment\tString expression representing comment of specified point.",
+  "description": "PDescription save a description in specified point data of controller memory.\n\nDescription saved in memory of the controller is delated from memory when creating or executing a program. Execute the \"SavePoints\" to save in point file if necessary.",
+  "notes": "",
+  "see_also": "PDef Function\n\nPDescription$ Function\n\nPLabel\n\nPLabel$ Function\n\nPDescription Statement Example\n\nPDescription 1, \"Comment\"",
+  "examples": [
+    "PDescription 1, \"Comment\""
+  ]
+}

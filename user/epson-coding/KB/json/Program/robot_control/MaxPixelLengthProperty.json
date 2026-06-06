@@ -1,0 +1,12 @@
+{
+  "title": "MaxPixelLength Property",
+  "file": "MaxPixelLengthProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the upper pixel length limit for the Line object.  For a Line to be found it must have a PixelLength result below the value set for MaxPixelLength property.",
+  "notes": "The purpose of the MinPixelLength and MaxPixelLength properties is to set a range for the Line object such that if a line length does not fit within the range then it is considered not found. (i.e. the Found result is returned as \"0 - False\".)\n\nThis is useful when you want to gauge the length of a line in pixels.  To gauge a line in Millimeters, see the MinLength and MaxLength properties.  The default settings allow most lines to be found.\n\nSee Also: MaxPixelLength Property\n\nMaxLength Property\n\nMinLength Property\n\nMinPixelLength Property\n\nLength Result\n\nVision Objects: MaxPixelLength Property\n\nLine",
+  "see_also": "Applies To\n\nVision Objects: Line",
+  "examples": []
+}

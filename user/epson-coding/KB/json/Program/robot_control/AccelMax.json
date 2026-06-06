@@ -1,0 +1,14 @@
+{
+  "title": "AccelMax",
+  "file": "AccelMax",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "AccelMax( maxValueNumber )",
+  "parameters": "maxValueNumber\tInteger\n\t\t expression which can have the following values:\n\n1:\n\t\t acceleration maximum value\n\n2:\n\t\t deceleration maximum value\n\n3:\n\t\t depart acceleration maximum value\n\n4:\n\t\t depart deceleration maximum value\n\n5:\n\t\t approach acceleration maximum value\n\n6:\n\t\t approach deceleration maximum value",
+  "description": "AccelMax\n\nAccelMax Function\n\nSee_Also Example\n\nReturns maximum acceleration value limit available for Accel.",
+  "notes": "",
+  "see_also": "Accel\n\nAccelMax Function",
+  "examples": [
+    "' get maximum accel and decel Print AccelMax(1), AccelMax(2)"
+  ]
+}

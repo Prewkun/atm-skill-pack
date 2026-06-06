@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_AccelLim Statement",
+  "file": "Cnv_AccelLim_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_AccelLim conveyorNumber, modeNumber, accel/decel",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number (1 ~ 16).\n\nmodeNumber\tInteger expression representing the tracking mode of the conveyor tracking (0 to 2)\n\naccel/decel\tSets real value (unit: mm/sec2) of acceleration limit and deceleration limit after the conveyor tracked. Setting range is the same as the AccelS statement.\n\nInitial Value\n\nPicking quantity-priority mode 500 [mm/sec2]\n\nPicking accuracy-priority mode 2000 [mm/sec2]\n\nVariable speed conveyor mode 6000 [mm/sec2]",
+  "description": "Repeating the operation of stopping and starting the conveyor during conveyor tracking causes delay in the robot's tracking due to the conveyor's speed changes. Set the limit of acceleration and deceleration when improve tracking ability.\n\nThe acceleration and deceleration cannot be set separately.\n\nIf the limit is too high, robot motion gets oscillatory due to variation of the conveyor speed or noise. If it is lowered too much, the robot will not stop tracking the conveyor even it stops, and it may move out of the operating area of the robot. In that case, set a tracking abort line or program to stop tracking at the downstream limit.\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_AccelLim Function\n\nCnv_AccelLim Statement Example\n\nCnv_AccelLim 1,2,7000",
+  "examples": [
+    "Cnv_AccelLim 1,2,7000"
+  ]
+}

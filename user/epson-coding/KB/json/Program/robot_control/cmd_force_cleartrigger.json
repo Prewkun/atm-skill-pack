@@ -1,0 +1,14 @@
+{
+  "title": "Force_ClearTrigger Statement",
+  "file": "cmd_force_cleartrigger",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Force_ClearTrigger",
+  "parameters": "",
+  "description": "Use Force_ClearTrigger to clear all conditions for the current force sensor's trigger.\n\nNote\n\nThis command will only work if the Force Sensing option (ATI Force Sensor) is installed.\n\nWhen using Force Sensor from EPSON, use each command of following manual.\n\n     EPSON RC+ 7.0 Option Force Guide 7.0 SPEL+ Language Reference",
+  "notes": "",
+  "see_also": "Force_Sensor\n\nForce_SetTrigger\n\nForce_ClearTrigger Statement Example\n\nForce_ClearTrigger",
+  "examples": [
+    "Force_ClearTrigger"
+  ]
+}

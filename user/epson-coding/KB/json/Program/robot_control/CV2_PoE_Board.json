@@ -1,0 +1,12 @@
+{
+  "title": "CV2 PoE Board",
+  "file": "CV2_PoE_Board",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 PoE Board\n\nPoE Board\n\nTo replace the PoE board, follow the steps below.\n\n(1) Follow the steps (1) through (7) in LED/SW Board.\n\n(2) Remove two spacers and two screws fixing the PoE board.\n\n(3) Slide the PoE board up straight and slowly.\n\nThe back side of the PoE board is connected to the CPU board by connectors.  When removing the PoE board, be careful not to apply excessive force.\n\n(4) When removing the PoE board, the spacers on the CPU board may get loose.  In this case, retighten the spacers.\n\n(5) Install the new PoE board.\n\nBe careful not to apply excessive force to the connectors for the CPU board.\n\n(6) Fix the board in the reverse order to removal.\n\nWhen the PoE board is replaced, choose the one referring to the following table.\n\nFirmware\n\t\t version\tThe replaced\n\t\t board\n\nCV2-S/H/L\t2.3.3.2 or\n\t\t before\n\nor\n\t\t the version is unclear\tPoE board\n\n(Code\n\t\t 2168503)\n\n2.3.3.3 or\n\t\t later\tPoE board-A\n\n(Code\n\t\t 2204519)\n\nCV2-SA/HA\n\nCV2-LB/SB/HB\t** PoE board-B\n\n* For maintenance parts for CV2-LB/SB/HB, please contact the supplier of your region.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

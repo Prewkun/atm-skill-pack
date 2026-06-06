@@ -1,0 +1,15 @@
+{
+  "title": "Base Method, Spel Class",
+  "file": "vbg_Base",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Base (OriginPoint As SpelPoint [, XAxisPoint As SpelPoint] [, YAxisPoint As SpelPoint] [, Alignment As SpelBaseAlignment])",
+  "parameters": "OriginPoint\tA SpelPoint representing the origin of the base coordinate system.\n\nXAxisPoint\tOptional. A SpelPoint located anywhere on the X axis of the base coordinate system.\n\nYAxisPoint\tOptional. A SpelPoint located anywhere on the Y axis of the base coordinate system.\n\nAlignment\tOptional. When supplying the XAxisPoint and YAxisPoint parameters, use the Alignment parameter to specify which axis to align the base with.",
+  "description": "Defines a local coordinate system.",
+  "notes": "",
+  "see_also": "Local\n\nBase Example\n\nVB Example:\n\nDim originPoint As New SpelPoint\n\noriginPoint.X = 50\n\noriginPoint.Y = 50\n\nm_spel.Base(originPoint)\n\nC# Example:\n\nSpelPoint originPoint = new SpelPoint();\n\noriginPoint.X = 50;\n\noriginPoint.Y = 50;\n\nm_spel.Base(originPoint);",
+  "examples": [
+    "Dim originPoint As New SpelPoint\noriginPoint.X = 50\noriginPoint.Y = 50\nm_spel.Base(originPoint)",
+    "SpelPoint originPoint = new SpelPoint();\noriginPoint.X = 50;\noriginPoint.Y = 50;\nm_spel.Base(originPoint);"
+  ]
+}

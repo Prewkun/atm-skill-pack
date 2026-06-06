@@ -1,0 +1,12 @@
+{
+  "title": "Auto Cycle Remote Control",
+  "file": "Auto_Cycle_Remote_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Auto Cycle Remote Control\n\nAuto Mode with Remote Control\n\nTo run in auto cycle with remote control\n\nThe\n\t host device (e.g. PLC) should wait for the AutoMode and Ready remote\n\t output to turn on before issuing remote commands.\n\nNow\n\t the remote input commands will be accepted.\n\nTo monitor remote operation from the Epson RC+ 8.0 Operator Window\n\nSet\n\t the Epson RC+ 8.0 Start Up Mode to \"Auto\". For details, refer to Start Mode.\n\nThe\n\t PC should also be configured to automatically log into Windows and\n\t start Epson RC+ 8.0 at Windows start. Refer to 4.2.7 Auto Start.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

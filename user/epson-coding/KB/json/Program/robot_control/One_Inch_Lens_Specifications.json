@@ -1,0 +1,12 @@
+{
+  "title": "One Inch Lens Specifications",
+  "file": "One_Inch_Lens_Specifications",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "One Inch Lens Specifications\n\n1 inch Lens Specifications\n\nItem\tUnit\tSpecification\n\nFocal Length\tmm\t8\t12\t16\t25\t35\t50\n\nClosest approach distance\tm\t0.2\t0.3\t0.3\t0.3\t0.3\t0.5\n\nFilter screw diameter\tmm\t-\tM40.5 x P0.5\tM34 x P0.5\tM34 x P0.5\tM34 x P0.5\tM34 x P0.5\n\nExternal Dimensions\tmm\tø 57.5 x 53.2\tø 42 x 36.1\tø 39.5 x 35.2\tø 39.5 x 34\tø 39.5 x 45.2\tø 39.5 x 45.2\n\nMass\tg\t164.8\t102.8\t94.4\t78.6\t103.0\t107.0\n\nP0.5: Screw pitch 0.5 mm",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

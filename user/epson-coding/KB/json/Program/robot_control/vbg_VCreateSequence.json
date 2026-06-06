@@ -1,0 +1,15 @@
+{
+  "title": "VCreateSequence Method, Spel Class",
+  "file": "vbg_VCreateSequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VCreateSequence (SequenceName As String)",
+  "parameters": "SequenceName\tString expression containing the name of a vision sequence to create.",
+  "description": "Creates a new vision sequence in the current project.",
+  "notes": "For a complete list of vision properties and how to use them, see the Vision Guide manuals.",
+  "see_also": "VCreateObject\n\nVDeleteObject\n\nVDeleteSequence\n\nVCreateSequence Example\n\nVB Example:\n\nm_spel.VCreateSequence(\"myseq\")\n\nC# Example:\n\nm_spel.VCreateSequence(\"myseq\");",
+  "examples": [
+    "m_spel.VCreateSequence(\"myseq\")",
+    "m_spel.VCreateSequence(\"myseq\");"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Polar Object",
+  "file": "Step1_CreateaNewPolarObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Polar Object\n\nStep 1: Create a New Polar Object\n\n\tClick the [All Tools] - the\n\t [New Polar] button on the Vision Guide toolbar.\n\tMove the mouse over the image display. You will see\n\t the mouse pointer change to the Polar object icon.\n\tContinue moving the mouse until the icon is at the\n\t desired position in the image display, then click the left mouse button\n\t to create the object.\n\tNotice that a name for the\n\t object is automatically created. In the example, it is called \"Polar01\"\n\t because this is the first Polar object created for this sequence.\n\t (We will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

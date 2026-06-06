@@ -1,0 +1,12 @@
+{
+  "title": "Installing Controller Options",
+  "file": "Installing_EPSON_RC+_Options",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "note for each option.\n\nTo enable an option on site\n\n1. Copy and paste or write down the Options Key Code. You can view this from the [Setup]-[Controller]-[Options] dialog.\n\n2. Call the supplier of your region to purchase the enable key code for the desired option.\n\n3. You will receive a code to enable the option from the supplier of your region.\n\n4. Select the option to enable, and then click the [Enable] button.\n\n5. Enter in the code you received from the supplier of your region.\n\nNOTE:  The key code is case sensitive.\n\nIf the DMB Board or CF card is replaced\n\nIf the DMB board or CF card is replaced due to malfunction, all configured options will be disabled. Follow the procedure in To enable an option on site to configure the options again.\n\n*  If the DMB board or CF card is replaced, the previous code for enabling the option cannot be used.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Deleting a Vision Sequence",
+  "file": "DeletingaVisionSequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Deleting a Vision Sequence\n\nDeleting a Vision Sequence\n\nOverview\n\nClicking on the  [Delete Sequence] button on the Vision Guide toolbar opens a dialog box with a list of all vision sequences that have been created for the current project.\n  The dialog box can also be opened by right-clicking the sequence flow in the flow chart or sequence node in the sequence tree to select Delete Sequence.  Then, use the mouse or arrow keys to select which vision sequence to delete.\n\nOnce the correct vision sequence name is highlighted, click the [Delete] button in the Delete Vision Sequence dialog box.  A confirmation message box will be displayed.\n\nNote that once you delete a vision sequence and save the current project, the sequence cannot be recovered.  If you accidently delete a sequence, you can execute [File]-[Restore] to restore the entire vision project to the state of the last save.  If you think you may want to use a sequence later, be sure to keep it.  Just because you keep it with a project doesn't mean you have to use it in your programs.\n\nShortcuts\n\nToolbar:\n\nKeys:\tNone\n\nDialog Box Options\n\nOption\tDescription\n\nSelection\n\t\t List\tUsed to select\n\t\t which sequence to delete.\n\nDelete\tDeletes the\n\t\t highlighted vision sequence.\n\nCancel\tCancels the\n\t\t delete vision sequence operation.\n\nHelp\tOpens the\n\t\t help description for Delete Sequence Command.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

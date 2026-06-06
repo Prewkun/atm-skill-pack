@@ -1,0 +1,14 @@
+{
+  "title": "Rot_Axes Property",
+  "file": "Rot_Axes_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Rot_Axes Property\n\nRot_Axes Property\n\nApplies To\n\nForce Motion Restriction Object FMR#\n\nComment\n\nSets or returns the subject axis for calculating the force motion restriction range for rotation angle.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function Test_Rot_Axes\n   Integer iVar\n   FSet FMR1.Rot_Axes, FG_ROT_X\n   FGet FMR1.Rot_Axes, iVar\n   Print iVar\nFend"
+  ]
+}

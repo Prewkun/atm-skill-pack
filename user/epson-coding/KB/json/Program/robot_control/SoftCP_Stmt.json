@@ -1,0 +1,15 @@
+{
+  "title": "SoftCP Statement",
+  "file": "SoftCP_Stmt",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SoftCP { On | Off }",
+  "parameters": "On | Off\tOn is used to enable SoftCP motion mode.\n\nOff is used to disable SoftCP motion mode.",
+  "description": "SoftCP motion mode controls the vibration caused by CP motion with high acceleration/deceleration.\n\nNormal CP motion focuses on path-tracking and uniform-motion which increases the vibration when acceleration/deceleration is high. To reduce the vibration, the acceleration/deceleration needs to be reduced with the SpeedS and AccelS commands.\n\nHowever, some applications don't necessarily require the high performance of path-tracking and uniform-motion but need CP motion with less vibration when acceleration/deceleration is high.\n\nSoftCP motion mode dampens the path-tracking and uniform-motion performance more than in the normal CP motion mode and reduces the vibration in CP motion with high acceleration/deceleration.\n\nSoftCP motion mode applies to the following CP motion commands:\n\n     Move, BMove, TMove, Arc, Arc3, CVMove, Jump3CP\n\nIf the vibration doesn't matter in the normal CP motion or the performances of path-tracking and uniform-motion are required, don't apply SoftCP motion mode.\n\nCaution:\n\nWhen connection CP motion and PTP motion in CP On\n\nWhen connecting CP motion and PTP motion as shown below, be sure to enable SoftCP.\n\nIf it is not enabled, noise may occur from the robot depending on the motion.   After connecting CP motion and PTP motion, disable SoftCP.\n\nSoftCP On\n\nGo P1 CP\n\nMove P2\n\nSoftCP Off\n\nSoftCP will be set to Off in the following cases:\n\n     Controller startup\n\n     Reset\n\n     All task stop\n\n     Switching the Auto / Programming operation mode\n\n     Motor On\n\n     SFree, SLock",
+  "notes": "",
+  "see_also": "Specifies the SoftCP motion mode.\n\nSoftCP Function\n\nSoftCP Example\n\nSoftCP On\n\nMove P1\n\nMove P2\n\nSoftCP Off",
+  "examples": [
+    "SoftCP On\nGo P1 CP\nMove P2\nSoftCP Off",
+    "SoftCP On\nMove P1\nMove P2\nSoftCP Off"
+  ]
+}

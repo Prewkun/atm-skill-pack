@@ -1,0 +1,17 @@
+{
+  "title": "ServerInstance Property, Spel Class",
+  "file": "ServerInstance_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Property ServerInstance As Integer\n\nDefault Value\n\nThe default value is the next available server instance.",
+  "parameters": "",
+  "description": "Specifies which instance of Epson RC+ server to use.",
+  "notes": "The API communicates with an RC+ server process.\n  ServerInstance specifies which server to use.  Each server instance corresponds with one controller and one project.\n\nBy default, when you create a new Spel class instance, the ServerInstance is automatically set to 1.\n\nSometimes you may want multiple instances of the Spel class for the same Controller, such as for multithreading in your application.  In that case, you must set the ServerInstance property to the same value for each Spel class instance using the same controller.\n\nServerInstance must be between 1 and 10 and it must be set before executing Initialize or any other methods.",
+  "see_also": "CommandTask, Initialize\n\nServerInstance Example\n\nVB Example:\n\n' Controller 1\n\nspel1 = New Spel\n\nspel1.ServerInstance = 1\n\nspel1.Initialize()\n\nspel1.Connect(1)\n\n' Controller 2\n\nspel2 = New Spel\n\nspel2.ServerInstance = 2\n\nspel2.Initialize()\n\nspel2.Connect(2)\n\nC#",
+  "examples": [
+    "' Controller 1\nspel1 = New Spel\nspel1.ServerInstance = 1\nspel1.Initialize()\nspel1.Connect(1)",
+    "' Controller 2\nspel2 = New Spel\nspel2.ServerInstance = 2\nspel2.Initialize()\nspel2.Connect(2)",
+    "// Controller 1\nRCAPINet.Spel spel1 = new RCAPINet.Spel();\nspel1.ServerInstance = 1;\nspel1.Initialize();\nspel1.Connect(1);",
+    "// Controller 2\nRCAPINet.Spel spel2 = new RCAPINet.Spel();\nspel2.ServerInstance = 2;\nspel2.Initialize();\nspel2.Connect(2);"
+  ]
+}

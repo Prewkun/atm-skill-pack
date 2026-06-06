@@ -1,0 +1,12 @@
+{
+  "title": "How to set the user-defined output remote I/O",
+  "file": "How_to_set_the_user-defined_output_remote_I_O",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to set the user-defined output remote I/O\n\nHow to set the user-defined output remote I/O\n\n(1)    Add the use-defined output remote I/O\n\nThe user-defined output remote I/O are not defined as default. To use them, add the output remote I/O in the configuration dialog box and configure the output condition. The added I/O will be available in the remote output setting.\n\n[System Configuration] - [Controller] - [Remote Control] - [User Outputs]\n\nClick the [Add] button. The window shown below appears.\n\nSelect the items and set the condition expressions. Then click the [Apply] button.\n\n[Name]\n\nSet the name of the signal. Default is \"UseroutputX\".\n\nX = I/O number\n\nThe name specified here is displayed in the remote output setting and the I/O monitor.\n\n[Type]\n\nSelect the output type.\n\n[Polarity]\n\nSelect the polarity to output when the condition is met.\n\nActive high: High               Active low: Low\n\n[On Condition]\n\nSet the condition to start output. Setting is required for all output types.\n\n[Off Condition]\n\nSetting is required if the Latch output is selected.\n\n[Robot]\n\nSetting is required if the expression related to the manipulator is used for On and Off conditions.\n\nThe conditions for only one robot can be set.\n\nThis setting is not necessary if the manipulator-related condition is not used.\n\nNOTE:  If unregistered robot number is specified, an initialization error occurs at the Controller restart.\n\n(2)    Setting of remote outputs\n\nTo enable the added I/O outputs, assign the registered user definition to the target I/O.\n\nAssignment is done by the remote output.\n\n[System Configuration]-[Controller]-[Remote Controller]-[Outputs]\n\nThe names of the added signals appear in [Output Signal]. Select the bit to output.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "AIO_Set Function",
+  "file": "AIO_Set_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_Set(Ichannel Number, index)",
+  "parameters": "Channel\n\t\t Number\tSpecify the channel number of the analog\n\t\t I/O.\n\nindex\tSpecify the index of acquiring configuration\n\t\t information in integer.",
+  "description": "AIO_Set Function\n\nAIO_Set Function",
+  "notes": "",
+  "see_also": "Returns the configuration information of the robot speed output which is set in optional analog I/O output channel.\n\nAIO_InW Function, AIO_Out, AIO_OutW, AIO_Out Function, AIO_OutW Function, AIO_Set, Wait\n\nAIO_Set Function",
+  "examples": [
+    "Print \"Analog Ch#1 speed output is: \", AIO_Set(1, 1)"
+  ]
+}

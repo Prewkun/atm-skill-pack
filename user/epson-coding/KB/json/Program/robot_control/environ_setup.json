@@ -1,0 +1,12 @@
+{
+  "title": "Setting up the programming environment",
+  "file": "environ_setup",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Setting up the programming environment\n\nSetting up the programming environment\n\nThe programming environment has several preference settings for the program editor, fonts and colors, the jog screen, and the operator window.\n\nSelect Preferences: Project tab from the Setup menu to set project preferences.\n\nSelect Preferences: Editor tab from the Setup menu to set editor preferences.\n\nSelect Preferences: Operator Window tab from the Setup menu to set operator window preferences.\n\nSelect Preferences: Jogging tab from the Setup menu to set Jog and Teach preferences.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Operator Window General page: Preferences command (Project menu)",
+  "file": "ProjectPropertiesOperator",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Operator Window General page: Preferences command (Project menu)\n\n[Project]-[Properties]-[Operator Settings]-[Operator Window]-[General] Page\n\nThis page allows you to configure the general settings for the Operator Window.\n\nItem\tDescription\n\nWindow\n\t\t Title\tType\n\t\t in the title that you want to appear at the top of the operator\n\t\t window. Up to 64 characters can be entered for the title.\n\nWindow\n\t\t Size\tChoose\n\t\t Normal or Maximized.\n\nFont\n\t\t Name\tChoose\n\t\t the font you desire for the operator window.\n\nFont\n\t\t Size\tChoose\n\t\t the size of the font you desire for the operator window.\n\nVision\n\t\t Display\tIf this\n\t\t checkbox is set, the Vision Guide image will be displayed in the\n\t\t operator window.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

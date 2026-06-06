@@ -1,0 +1,22 @@
+{
+  "title": "SF_LimitSpeedSEnable Statement",
+  "file": "SF_LimitSpeedSEnable_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SF_LimitSpeedSEnable [SLS number [, {On | Off}]]",
+  "parameters": "SLSNumber\tThe SLS number\n\t\t as an integer value (1 to 3) or the constant listed below. Optional.\n\nConstant\tValue\tDescription\n\nSLS_1\t1\tSpeed adjustment function when SLS_1\n\t\t is enabled\n\nSLS_2\t2\tSpeed adjustment function when SLS_2\n\t\t is enabled\n\nSLS_3\t3\tSpeed adjustment function when SLS_3\n\t\t is enabled\n\nSLS_T\t9\tSpeed adjustment function when SLS_T\n\t\t is enabled *1\n\nSLS_T2\t10\tSpeed adjustment function when SLS_T2\n\t\t is enabled *1\n\n*1 For SLS_T and SLS_T2, you cannot set the speed adjustment function with this command. SLS_T turns on the speed adjustment function when the operation modes are TEACH and TEST T1. SLS_T2 turns on the speed adjustment function when the operation mode is TEST T2. For more information, refer to the following manuals:\n\nRobot Controller Safety Function Manual\n\nOn\n\t\t | Off\tOn/Off\n\t\t for the speed adjustment function. Optional. The default setting\n\t\t is On",
+  "description": "Sets and displays On/Off for the function that adjusts the speed at the position set by the Tool command when the specified SLS number is monitored. When On, the speed at the position set for the tool is adjusted when SLS is enabled. When Off, the speed is not adjusted even when SLS is enabled. Regardless of the On/Off setting, the speed at the tool position is not adjusted when SLS is disabled.\n\nIf the second parameter is omitted, the speed adjustment status (On/Off) of the specified SLS number will appear.\n\nIf all parameters are omitted, the speed adjustment status (On/Off) of all SLS numbers will appear.\n\nThis command can be used with the Controllers with Safety Board.\n\nIt is available only when Safety Function Options are activated.\n\nSF_LimitSpeedS Example\n\n- How to enable the speed adjustment function for SLS_1\n\nSF_LimitSpeedSEnable SLS_1, On\n\n- How to display the speed adjustment function status for SLS_2 (using the command window)\n\n> SF_LimitSpeedSEnable SLS_2\n\nSLS_2: Off\n\n- How to display the speed adjustment function status for all SLS numbers (using the command window)\n\n> SF_LimitSpeedSEnable\n\nSLS_1: On\n\nSLS_2: Off\n\nSLS_3: Off\n\nSLS_T: On\n\nSLS_T2: On\n\nNote\n\nSF_LimitSpeedSEnable cannot be used at the same time as singularity avoidance, conveyor tracking, and force control\n\nSF_LimitSpeedSEnable is On by default. If you adjust the speed with this function during operation of singularity avoidance, conveyor tracking, or force control, an operation error (4093, 4403, or 5830 respectively) occurs.\n\nWhen using SLS for these operations, set SF_LimitSpeedSEnable to Off before starting the operation.\n\nAlso, use SF_PeakSpeedS and SF_RealSpeedS to measure the robot arm operation speed, and use Speed, SpeedFactor, SpeedS, etc. to control the robot arm operation speed so that it does not exceed the SLS monitored speed (safety function parameter).\n\nNote\n\nThe position that is speed adjusted by SF_LimitSpeedS is the tool position set by the Tool command.\n\nWhen SF_LimitSpeedSEnable is On, the applied speed adjustment value (set by SF_LimitSpeedS) is applied to the speed at the tool position set by the Tool command. The Safety Function Manager TCP position is not automatically set in the Tool command. Use the Tool command to set the proper TCP location.\n\nAlso, if automatic speed adjustment does not function correctly, use SF_PeakSpeedS and SF_RealSpeedS to measure the robot arm operation speed. Use Speed, SpeedFactor, SpeedS, etc. to control the robot arm operation speed so that it does not exceed the SLS monitoring speed (safety function parameter).",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "SF_LimitSpeedSEnable SLS_1, On",
+    "> SF_LimitSpeedSEnable SLS_2",
+    "SLS_2: Off",
+    "> SF_LimitSpeedSEnable",
+    "SLS_1: On",
+    "SLS_2: Off",
+    "SLS_3: Off",
+    "SLS_T: On",
+    "SLS_T2: On"
+  ]
+}

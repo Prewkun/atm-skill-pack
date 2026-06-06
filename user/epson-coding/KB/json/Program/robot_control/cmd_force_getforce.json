@@ -1,0 +1,14 @@
+{
+  "title": "Force_GetForce Function",
+  "file": "cmd_force_getforce",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Force_GetForce (axis)",
+  "parameters": "Axis\tConstant\tValue\n\nX Force\tFORCE_XFORCE\t1\n\nY Force\tFORCE_YFORCE\t2\n\nZ Force\tFORCE_ZFORCE\t3\n\nX Torque\tFORCE_XTORQUE\t4\n\nY Torque\tFORCE_YTORQUE\t5\n\nZ Torque\tFORCE_ZTORQUE\t6\n\n6",
+  "description": "Use Force_GetForce to read the current force setting for one axis. The units are determined by the type of force sensor.\n\nNote\n\nThis command will only work if the Force Sensing option (ATI Force Sensor) is installed.\n\nWhen using Force Sensor from EPSON, use each command of following manual.\n\n     EPSON RC+ 7.0 Option Force Guide 7.0 SPEL+ Language Reference",
+  "notes": "",
+  "see_also": "Force_GetForces Statement\n\nForce_GetForce Function Example\n\nPrint Force_GetForce(FORCE_XFORCE)",
+  "examples": [
+    "Print Force_GetForce(FORCE_XFORCE)"
+  ]
+}

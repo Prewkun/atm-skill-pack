@@ -1,0 +1,12 @@
+{
+  "title": "Pause VI",
+  "file": "Pause_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Causes all normal SPEL+ tasks in the Controller to pause.  If the robot is moving, it will immediately decelerate to a stop.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "Continue, Stop\n\nPause Example",
+  "examples": []
+}

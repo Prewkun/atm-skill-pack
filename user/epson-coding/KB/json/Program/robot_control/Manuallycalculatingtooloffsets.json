@@ -1,0 +1,15 @@
+{
+  "title": "Manually calculating tool offsets",
+  "file": "Manuallycalculatingtooloffsets",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Manually calculating tool offsets\n\nManually calculating tool offsets\n\nIn the following steps, you must Jog the robot with the Jog buttons from the Jog & Teach window.  You cannot free the axes (using SFREE), and move the robot manually when calculating the tool offsets as shown below.\n\nPerform the following steps to calculate tool offsets.\n\nNote:  - When using the vertical 6-axis robot, execute the following Local command and then follow the steps below.\n\n> Local 1，Here\n\nWhen acquiring the current position in the caliculation steps below, the position in Local 1 should be used.\n\nIf using the Jog & Teach window, set the jog mode to \"Local\", display mode for the current position to \"World\", and the Local number to \"1\".\n\nIf using the command window, the position of Local 1 can be checked by executing the command as follows.\n\n> Print Here@1\n\nPosition the U axis at zero degrees.\nSet tool to zero (TOOL 0).\nJog the end effector over a reference point and align it carefully.  Do not change the U axis setting.\nWrite down the current X and Y coordinates as X1 and Y1.\nJog the U axis to the 180 degree position.\nJog the end effector over the reference point and align it carefully.  Do not change the U axis setting.\nWrite down the current X and Y coordinates as X2 and Y2.\nUse the following formula to calculate tool offsets:\n xTool = (X2 - X1) / 2\n yTool = (Y2 - Y1) / 2\nDefine the tool from the TLSET tab in the Robot Parameters selection from the Project menu or from the monitor window.\n TLSet 1, xTool, yTool, 0, 0\nTest the tool settings:\n\nSet the current tool to the tool you defined in the previous step.  For example, Tool 1.\n\nJog the end effector over the reference point.\n\nNow jog the U axis.\n\nThe end effector should remain over the reference point.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "> Local 1，Here",
+    "> Print Here@1"
+  ]
+}

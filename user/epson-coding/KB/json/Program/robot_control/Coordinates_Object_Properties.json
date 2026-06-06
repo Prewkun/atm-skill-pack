@@ -1,0 +1,12 @@
+{
+  "title": "Coordinates Object Properties",
+  "file": "Coordinates_Object_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Coordinates Object Properties\n\nCoordinates Object Properties\n\nThe following list is a summary of the Coordinates object properties with brief descriptions.  For details on each property, refer to Vision Guide 8.0 Properties and Results Reference.\n\nProperty\tDescription\n\nCurrentResult\tDefines which result to display in the\n\t\t Results list (on the Object window) or which result to return\n\t\t data for when the system is requested to find more than one of\n\t\t a like feature within a single search window.\n\nDescription\tSets a user description.\n\nDefault: Empty\n\nEnabled\tSpecifies whether to execute the object.\n\nDefault:  True\n\nName\tUsed to assign a unique name to the\n\t\t Coodinates object.\n\nDefault:  Coords01",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

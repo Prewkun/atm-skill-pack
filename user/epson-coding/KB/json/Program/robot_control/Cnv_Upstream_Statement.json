@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Upstream Statement",
+  "file": "Cnv_Upstream_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_Upstream (conveyorNumber), upperLimit]",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number (1 ~ 16)\n\nupperLimit\tA border on the upperstream side of the tracking area",
+  "description": "Cnv_Upstream Statement\n\nCnv_Upstream Statement\n\nSee_Also Example\n\nSets the upperstream limit of the specified conveyor.",
+  "notes": "",
+  "see_also": "Cnv_Upstream Function\n\nCnv_Upstream Statement Example\n\nCnv_Upstream 1, 200",
+  "examples": [
+    "Cnv_Upstream 1, 200"
+  ]
+}

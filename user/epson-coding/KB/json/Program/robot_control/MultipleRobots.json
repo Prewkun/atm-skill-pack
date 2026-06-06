@@ -1,0 +1,16 @@
+{
+  "title": "Using Multiple Robots",
+  "file": "MultipleRobots",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Multiple Robots\n\nUsing Multiple Robots\n\nYou can control more than one robot in the same project. Use the Robot statement to switch the current robot for the current task. For most applications, you should use a separate task for each robot.\n\nEach robot has its own set of point files. You can configure which point files to use in the Project Editor. The default point file you configure for each robot is automatically loaded into memory when the main task is started.\n\nThe following program is an example where two robots run simultaneously, each with its own task.\n\nFunction main\n\n  Xqt RB1\n\n  Xqt RB2\n\nFend\n\nFunction RB1\n\n  Robot 1\n\n  Speed 50\n\n  Do\n\n    Jump pick\n\n    On gripper1\n\n    Wait .1\n\n    Jump place\n\n    Off gripper1\n\n    Wait .1\n\n  Loop\n\nFend\n\nFunction RB2\n\n  Robot 2\n\n  Speed 50\n\n  Do\n\n    Jump pick\n\n    On gripper2\n\n    Wait .1\n\n    Jump place\n\n    Off gripper2\n\n    Wait .1\n\n  Loop\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main Xqt RB1 Xqt RB2\nFend",
+    "Function RB1 Robot 1 Speed 50 Do\n    Jump pick\n    On gripper1\n    Wait .1\n    Jump place\n    Off gripper1\n    Wait .1 Loop\nFend",
+    "Function RB2 Robot 2 Speed 50 Do\n    Jump pick\n    On gripper2\n    Wait .1\n    Jump place\n    Off gripper2\n    Wait .1 Loop\nFend"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "CellForeColor Property",
+  "file": "CellForeColor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the foreground color for a Grid cell at runtime.",
+  "notes": "",
+  "see_also": "Applies To\n\nGrid",
+  "examples": [
+    "GSet frmMain.gridMyData.CellForeColor(1, 1), \"Red\""
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Project Management - How Do I?",
+  "file": "Project_Management_How_Do_I",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Management - How Do I?\n\nProject Management - How Do I...?\n\nHow do I create projects?\n\nUse one of the following methods to create a project in Epson RC+ 8.0:\n\n\tSelect New\n\t from the Project menu.  This is the most common method for creating\n\t a new project.\n\tSelect Copy\n\t from the Project menu.\n\tSelect Save\n\t As from the Project menu.\n\nHow do I rename a project?\n\nSelect Rename from the Project menu.\n\nHow do I backup a project?\n\nSelect Copy from the Project menu to backup your project.  It is recommended that you backup on another disk drive, such as a floppy disk or USB memory disk.\n\nHow do I remove files from a project?\n\n\tSelect Edit\n\t from the Project menu.\n\tSelect Delete\n\t from the File menu.\n\tUse the Project Explorer context\n\t menu.  Right click on a file and select Remove or Delete.\n\nHow do I use project templates?\n\nWhen you create a new project by selecting New from the Project menu, you can select a template for your project.  A template is a project stored in the EpsonRC80\\Templates folder.  When your new project is created, the template project is copied to the new project folder.\n\nHow do I import projects into Epson RC+?\n\nSelect Import from the Project menu to import projects.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

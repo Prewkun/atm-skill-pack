@@ -1,0 +1,15 @@
+{
+  "title": "RowCount Property",
+  "file": "RowCount_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Used to set or get the number of rows in a Grid control.\n\nIf set to a value greater than the current number of lines, a new line will be added to the end. If set to a value less than the current number of lines, a new line will be removed from the end.",
+  "notes": "",
+  "see_also": "Applies To\n\nGrid",
+  "examples": [
+    "Integer count\nGSet frmMain.Grid1.RowCount, 50\nGGet frmMain.Grid1.RowCount, count"
+  ],
+  "category": "gui_control"
+}

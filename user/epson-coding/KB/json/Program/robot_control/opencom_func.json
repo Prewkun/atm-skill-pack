@@ -1,0 +1,14 @@
+{
+  "title": "OpenCom Function",
+  "file": "opencom_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "OpenCom(portNumber)",
+  "parameters": "portNumber\tInteger expression for RS-232C port number.\n\nThe range of port number is:\n\nReal Part1 ~ 8\n\nWindows Part1001 to 1008",
+  "description": "Acquires the task number that executes OpenCom.",
+  "notes": "",
+  "see_also": "ChkCom\n\nCloseCom\n\nOpenCom\n\nSetCom\n\nOpenCom Function Example\n\nPrint OpenCom(PortNo)",
+  "examples": [
+    "Print OpenCom(PortNo)"
+  ]
+}

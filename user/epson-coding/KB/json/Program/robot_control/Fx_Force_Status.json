@@ -1,0 +1,14 @@
+{
+  "title": "Fx_Force, Fy_Force, Fz_Force Status",
+  "file": "Fx_Force_Status",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This returns data on the resultant force.",
+  "notes": "Use this property to confirm the force data for the specified axis in the force coordinate system specified by CoordinateSystem.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger\n Fy_Force, Fz_Force Status\n\nTx_Force, Ty_Force, Tz_Force Status",
+  "examples": [
+    "Function Test_Fx_Force Real rVar FSet FCS1.Position, 0, 0, 100 FSet FCS1.Orientation, FG_TOOL FSet FM1.ForceSensor, 1 FSet FM1.CoordinateSystem, FCS1 FGet FM1.Fx_Force, rVar Print rVar\nFend"
+  ]
+}

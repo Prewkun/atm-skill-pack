@@ -1,0 +1,12 @@
+{
+  "title": "Operation Modes",
+  "file": "Operation_Modes",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Operation Modes\n\nOperation Modes\n\nThe operation mode is defined as the single control point for the controller, therefore you cannot use more than one operation mode at the same time.\n\nThere are four operation modes for the controller: AUTO, PROGRAM, TEACH, and TEST. AUTO operation modes allow you to execute programs in the controller when the safeguard is closed. PROGRAM operation mode allows you to execute and debug programs when the safeguard is closed. TEACH operation mode allows you to jog and teach the robot at slow speed while inside the safeguarded area.\n\nTEST operation mode allows you to execute a program at slow speed while the safeguard is opened.\n\nNOTE:  Teaching operation described in this manual is the operation of AUTO operation mode or PROGRAM operation mode. This intended for jogging the robot or teaching operation outside the safeguard.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

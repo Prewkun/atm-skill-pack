@@ -1,0 +1,15 @@
+{
+  "title": "TabIndex Property",
+  "file": "TabIndex_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the tab order of the control within its container.",
+  "notes": "",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, LED, ProgressBar, TrackBar, StatusBar, Grid\n\nLeft Property\n\nGUI Items: TabIndex Property\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, Grid",
+  "examples": [
+    "GSet frmMain.txtStatus.TabIndex, 3"
+  ],
+  "category": "gui_control"
+}

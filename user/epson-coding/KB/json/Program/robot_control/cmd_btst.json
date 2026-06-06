@@ -1,0 +1,14 @@
+{
+  "title": "BTst Function",
+  "file": "cmd_btst",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "BTst (number, bitNum)",
+  "parameters": "number\tSpecifies the numer for the bit test with an expression or numeric value.\n\nbitNum\tSpecifies the bit (integer from 0 to 31) to be tested.",
+  "description": "BTst Function\n\nBTst Function\n\nSee_Also Example\n\nReturns the status of 1 bit in a number.",
+  "notes": "",
+  "see_also": "BClr\n\nBClr64\n\nBSet\n\nBSet64\n\nBTst64\n\nBTst Function Example\n\nIf BTst(flags, 1) Then\n\n  Print \"Bit 1 is set\"\n\nEndIf",
+  "examples": [
+    "If BTst(flags, 1) Then Print \"Bit 1 is set\"\nEndIf"
+  ]
+}

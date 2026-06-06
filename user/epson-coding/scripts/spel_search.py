@@ -45,6 +45,8 @@ def load_records() -> list[dict]:
     for jf in JSON_DIR.rglob("*.json"):
         try:
             rec = json.loads(jf.read_text(encoding="utf-8"))
+            if rec.get("type") == "folder_index":
+                continue
             rec["_path"] = str(jf)
             records.append(rec)
         except Exception:
@@ -132,13 +134,17 @@ def search(index: dict, query: str, n: int = 5, k1: float = 1.5, b: float = 0.75
 
 # ── Output ────────────────────────────────────────────────────────────────────
 def format_result_brief(rec, score):
-    return f"  [{score:5.1f}] {rec['title']:<35} ({rec['section']}/{rec['type']})"
+    cat = rec.get("category", "")
+    cat_tag = f" [{cat}]" if cat else ""
+    return f"  [{score:5.1f}] {rec['title']:<35} ({rec['section']}/{rec['type']}){cat_tag}"
 
 
 def format_context_pack(results, query):
     out = [f"## SPEL+ reference for: \"{query}\"\n"]
     for rec, score in results:
-        out.append(f"### {rec['title']}")
+        cat = rec.get("category", "")
+        cat_note = f" *(category: {cat})*" if cat else ""
+        out.append(f"### {rec['title']}{cat_note}")
         if rec.get("syntax"):
             out.append(f"**Syntax:**\n```\n{rec['syntax']}\n```")
         if rec.get("parameters"):

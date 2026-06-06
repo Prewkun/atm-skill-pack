@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Centering - Automatic Calibration",
+  "file": "Part_Feeding_CalWiz_Centering_-_Automatic_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Centering - Automatic Calibration\n\nCentering - Automatic Calibration\n\nPerform centering calibration.\n\nSelect the [Auto Calibration] tab on the screen below.\n\nNote:\n  The [Automatic Calibration] tab will not appear if the platform type (see 2.3.2 Vibration) is set to \"Slots\", \"Holes\", or \"Pockets\".\n\nThe [Automatic Calibration] tab is not displayed for the IF-80.\n\n1.  Description of display items\n\nItem\tDescription\n\nShort axis centering time\tThe duration of the short axis centering\n\t\t is displayed.\n\nUnit:   ms\n\nLong axis centering time\tThe duration of the long axis centering\n\t\t is displayed.\n\nUnit:   ms\n\n2. Calibration\n\n  (1) Place the number of parts displayed in the instruction.\n\n  (2) Click the [Run] button\n\n       Feeder starts vibrating and the optimal centering times will be determined.\n\n(3) Click the [Apply] button.\n\n       The result is saved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

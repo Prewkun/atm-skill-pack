@@ -1,0 +1,15 @@
+{
+  "title": "AIO_Out Function",
+  "file": "AIO_Out_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AIO_Out(IChannel Number)",
+  "parameters": "Channel Number\tSpecify the channel number of the analog I/O.",
+  "description": "AIO_Out Function\n\nAIO_Out Function",
+  "notes": "",
+  "see_also": "Returns analog value in real number which is outputting in optional analog I/O output channel.\n\nAIO_In Function, AIO_Out, AIO_OutW, AIO_OutW Function, AIO_Set, Wait\n\nAIO_Out Function Example\n\nReal rdata01\n\nrdata01 = AIO_Out(1)",
+  "examples": [
+    "Real rdata01",
+    "rdata01 = AIO_Out(1)"
+  ]
+}

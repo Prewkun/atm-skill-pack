@@ -1,0 +1,15 @@
+{
+  "title": "HelpID Property",
+  "file": "HelpID_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns or sets an Integer containing the HelpID for a topic in a Help file.",
+  "notes": "The HelpID property is used to display context-sensitive Help for an application.  The help file is specified in the EPSON RC+ Project | Properties | GUI Builder page.\n\nWhen HelpID is not 0 and the user types F1 or clicks the form help button (if the HelpButton property is True), then the help topic is displayed.",
+  "see_also": "Applies To\n\nForm\n\nHelpButton Property\n\nGUI Items: HelpID Property\n\nForms",
+  "examples": [
+    "GSet frmMain.HelpID, 50"
+  ],
+  "category": "gui_control"
+}

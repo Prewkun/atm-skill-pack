@@ -1,0 +1,12 @@
+{
+  "title": "Program Verification",
+  "file": "Program_Verification",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Program Verification\n\nProgram Verification\n\nIf it is necessary to verify a program on the EPSON RC+ 7.0 while the system is in unrestricted (high power) status, first make sure that no personnel are inside the safeguarded area.\n\nIf it is necessary to verify a program on Teach Pendant TP1 (TEST operation mode), follow the rules below.\n\nAn operator must receive training about the robot of the same type.  Program verification should be done after the operator has a thorough knowledge about the operation procedure of TEST operation mode.\n\nRemove all obstacles and failures before the program verification.\n\nAn operator should check that the Motor is turned OFF when the safeguard is opened, and check if the Emergency Stop switch functions properly before entering inside the safeguard.\n\nAn operator should check the possibility of risk by checking the robot system and inside of the safeguard visually.\n\nIf someone is inside the safeguard, do not allow the whole robot system to be controlled to start operation from outside.\n\nIf there is a possibility that operation of equipment other than the robot, such as an actuator, may cause danger, do not allow the operation of equipment, or allow only the program verifier to control the equipment.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

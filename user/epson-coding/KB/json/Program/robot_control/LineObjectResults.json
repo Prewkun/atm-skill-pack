@@ -1,0 +1,12 @@
+{
+  "title": "Line Object Results",
+  "file": "LineObjectResults",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Line Object Results\n\nLine Object Results\n\nThe following list is a summary of the Line object results with brief descriptions.  The details for each result are explained in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nResults\tDescription\n\nAngle\tReturns the\n\t\t angle of the Line formed from StartPoint to EndPoint with respect\n\t\t to the 0 degrees position at 3 O'Clock.\n\nCameraX1\tReturns the X coordinate position of the\n\t\t starting point of the line in the camera coordinate frame.\n\nCameraX2\tReturns the\n\t\t X coordinate position of the ending point of the line in the camera\n\t\t coordinate frame.\n\nCameraY1\tReturns the\n\t\t Y coordinate position of the starting point of the line in the\n\t\t camera coordinate frame.\n\nCameraY2\tReturns the\n\t\t Y coordinate position of the ending point of the line in the camera\n\t\t coordinate frame.\n\nFound\tReturns whether\n\t\t or not the object was found. (i.e. If the vision objects used\n\t\t to define the Line object are not found, then the Line object\n\t\t is not found.)\n\nLength\tReturns the\n\t\t length of the line in millimeter units. (The camera must be calibrated\n\t\t or [no cal] will be returned as the length.) If the Line object\n\t\t fails due to the MaxLength and MinLength constraints, the Length\n\t\t result is shown in red in the Results list.\n\nPixelLength\tReturns the\n\t\t length of the line in pixels.  If the Line object fails due\n\t\t to the MaxPixelLength and MinPixelLength constraints, the PixelLength\n\t\t result is shown in red in the Results list.\n\nPixelLine\tRuntime only.\n\t\t Returns the four line coordinates X1, Y1, X2, Y2 in pixels.\n\nPixelX1\tReturns the\n\t\t X coordinate position of the starting point of the line in pixels.\n\nPixelX2\tReturns the\n\t\t X coordinate position of the ending point of the line in pixels.\n\nPixelY1\tReturns the\n\t\t Y coordinate position of the starting point of the line in pixels.\n\nPixelY2\tReturns the\n\t\t Y coordinate position of the ending point of the line in pixels.\n\nRobotU\tReturns the\n\t\t angle of the Line formed from StartPoint to EndPoint with respect\n\t\t to the Robot Coordinate System.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

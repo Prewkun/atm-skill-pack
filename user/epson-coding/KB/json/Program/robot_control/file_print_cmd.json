@@ -1,0 +1,12 @@
+{
+  "title": "Print Command (File Menu)",
+  "file": "file_print_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Print Command (File Menu)\n\nPrint Command (File Menu)\n : Ctrl+P\n\nThe [Print] dialog appears, allowing you to print multiple program files, include files, point files, I/O labels, and user errors. Also you can print out a project summary.\n\nThe page number, product name, project name, file name, and last modified timestamp are printed in the header.\n\nItem\tDescription\n\nSelect\n\t\t items to print\tCheck\n\t\t the items in the tree that you would like to print out.\n\nProject\n\t\t Summary\tSelect\n\t\t this checkbox to print a summary of the programs and points used\n\t\t in the current project.\n\nProgram\n\t\t Files\tSelect\n\t\t this checkbox to print all program files.\n\n\t\t(Click the []\n\t\t button to select program files to print.)\n\nInclude\n\t\t Files\tSelect\n\t\t this checkbox to print all include files.\n\n\t\t(Click the []\n\t\t button to select include files to print.)\n\n\t\tThis checkbox is not shown if there are no include files in the\n\t\t current project.\n\nRobot\n\t\t Points\tSelect\n\t\t this checkbox to print all point files.\n\n\t\t(Click the []\n\t\t button to select point files to print.)\n\nInput\n\t\t Output Labels\tSelect\n\t\t this checkbox to print a listing of the all of the I/O labels\n\t\t used in the project.\n\nUser",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

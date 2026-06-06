@@ -1,0 +1,14 @@
+{
+  "title": "InertiaAllowed Function",
+  "file": "InertiaAllowed_Func",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "InertiaAllowed(\n\t\t\tparamNumber\n\t\t\t)",
+  "parameters": "paramNumber\tInteger expression which can have the following values:\n\n0: Causes function to return 1 if robot supports inertia parameters or 0 if not.\n\n1: Causes function to return load inertia in kgm2.\n\n2: Causes function to return eccentricity in mm.",
+  "description": "InertiaAllowed Function\n\nInertiaAllowed Function\n\nSee_Also Example\n\nReturns inertia parameter value.",
+  "notes": "",
+  "see_also": "Inertia Statement\n\nInertiaAllowed Function Example\n\nReal loadInertia, eccentricity\n\n\t\tloadInertia = Inertia(1)\n\n\t\teccentricity = Inertia(2)",
+  "examples": [
+    "Real loadInertia, eccentricity\n\t\tloadInertia = Inertia(1)\n\t\teccentricity = Inertia(2)"
+  ]
+}

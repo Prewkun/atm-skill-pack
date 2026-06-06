@@ -1,0 +1,14 @@
+{
+  "title": "GShowDialog Function",
+  "file": "GShowDialog_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "GShowDialog displays a form as a modal dialog box and returns the DialogResult value..",
+  "notes": "The value of the form's DialogResult property is returned.\n\nSee Also: GShowDialog Statement\n\nGShow\n\nGShowDialog Statement",
+  "see_also": "",
+  "examples": [
+    "result = GShowDialog (frmSetup)\nIf result = DIALOGRESULT_OK Then\n   Call SaveSettings\nEndif"
+  ]
+}

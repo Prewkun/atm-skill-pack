@@ -1,0 +1,12 @@
+{
+  "title": "Relax Results",
+  "file": "Relax_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Relax Results\n\nRelax Results\n\nThe following list is a summary of results for the Relax object.  The details for each result are explained in the Description field.\n\nResult\tDescription\n\nEndStatus Result\tReturns end status for a force guide sequence or force guide object.\n\nTime Result\tReturns execution time for a force guide sequence or force guide object.\n\nTimedOut Result\tIt is whether the time-out period set in Timeout property had been reached.\n\nEndForces Result\tReturns force and torque at end of a force guide object or force guide sequence.\n\nEndPos Result\tReturns position at end of a force guide object.\n\nAvgForces Result\tReturns average values of force and torque during execution of a force guide object.\n\nPeakForces Result\tReturns the peak values of force and torque during execution of a force guide object or force guide sequence.\n\nForceCondOK Result\tIt is whether to satisfy the end conditions related to force.\n\nIOCondOK Result\tIt is whether to satisfy the end conditions related to I/O.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

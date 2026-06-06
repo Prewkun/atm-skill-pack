@@ -1,0 +1,12 @@
+{
+  "title": "Checking and Adjusting for Proper Focal Distance",
+  "file": "Checking_and_Adjusting_for_Proper_Focal_Distance",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Checking and Adjusting for Proper Focal Distance\n\nChecking and Adjusting for Proper Focal Distance\n\n\tPosition your camera so that it is located\n\t above the area that you will be searching for parts and place an object\n\t within the camera's field of view.  This will give us a target\n\t for adjusting the focus of the camera.\n\tYou should now see, in the image display\n\t area of the Vision Guide window, a view of the object that you put\n\t under the camera.  If you cannot, try manually picking up the\n\t part and moving the target feature closer and further away from the\n\t lens.  Do you see the target feature now?  (We are just\n\t trying to see the part but it may be way out of focus so don't worry\n\t about that yet.)  If you don't then you probably have selected\n\t the wrong lens for the distance your part is away from the camera.\n\t Try a different sized lens.\n\tA 25 or 50 mm lens should work for most mobile\n\t cameras mounted to the robot.  So if you are trying to test with\n\t a Mobile camera mounted to the robot, we suggest a 25 mm lens to start\n\t with.\n\tAt this point you can see at least the target\n\t feature on the work surface.  Adjust the focus of the lens to\n\t bring the part into good focus.  If you cannot bring the part\n\t into focus, then you may need to add an extension tube between the\n\t lens and the camera.  This will change the focal distance for\n\t the lens and with the proper extension tube you should be able to\n\t focus the camera.\n\tAfter installing an extension tube, try adjusting\n\t the focus of the camera lens.  You may have to experiment with\n\t different extension tube lengths to get proper focus.\n\nRefer to Extension Tube Work Distance for a list of the common lens and extension tube configurations for various focal lengths.\n\nNow the installation is completed.  Go on to Software 10.1 Quick Start: A Vision Guide 8.0 Tutorial.  This chapter describes how to position the parts and how to carry them by the robot using the Vision Guide.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

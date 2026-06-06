@@ -1,0 +1,14 @@
+{
+  "title": "LimitTorqueLP Function",
+  "file": "LimitTorqueLP_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the setting value of LimitTorqueLP command.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print LimitTorqueLP(1) 'Displays the LimitTorqueLP value of the Joint #1."
+  ]
+}

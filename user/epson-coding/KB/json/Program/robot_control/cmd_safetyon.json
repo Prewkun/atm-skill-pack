@@ -1,0 +1,12 @@
+{
+  "title": "SafetyOn Function",
+  "file": "cmd_safetyon",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "SafetyOn",
+  "parameters": "",
+  "description": "SafetyOn function is used only for NoPause task or NoEmgAbort task (special task using NoPause or NoEmgAbort at Xqt), and background tasks.",
+  "notes": "Forced Flag\n\nThis program example uses Forced flag for On/Off command.\n\nBe sure that the I/O outputs change during error, or at Emergency Stop or Safety Door Open when designing the system.\n\nFunction main\n\n  Xqt SafetyOnOffMonitor, NoPause\n\n   ...\n\n   ...\n\nFend\n\nFunction SafetyOnOffMonitor\n\n  Do\n\n    Wait SafetyOn = On\n\n     Print \"Saftey Open\"\n\n    Off 10, Forced\n\n    On 12, Forced\n\n    Wait SafetyOn = Off\n\n    Print \"Saftey Close\"\n\n    On 10, Forced\n\n    Off 12, Forced\n\n  Loop\n\nFend",
+  "see_also": "Return the Safety Door open status.\n\nErrorOn\n\nEStopOn\n\nPauseOn\n\nWait\n\nXqt\n\nSafetyOn Function Example\n\nThe following example shows a program that monitors the Safety Door open and switches the I/O On/Off when Safety Door open occurs.",
+  "examples": []
+}

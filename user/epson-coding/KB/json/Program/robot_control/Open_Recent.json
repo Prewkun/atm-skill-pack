@@ -1,0 +1,12 @@
+{
+  "title": "Recent Projects",
+  "file": "Open_Recent",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Recent Projects\n\nRecent Projects Command (Project Menu)\n\nThe Recent Projects submenu contains up to eight of the most recently used projects.\n\nWhen you select a project in the menu, the current project is closed and the selected project is opened the same as if you used the [Open] command from the [Project] menu.\n\nNOTE: Select the [Setup]-[Preferences]-[Workspace]-[Clear recent project history] checkbox, to delete the history when you exit Epson RC+ 8.0.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Description of Functions",
+  "file": "SimulatorDesc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "This section describes how to use the simulator window and its functions.\n\nSimulator Window Layout\n\nSimulator Settings\n\nCollision Detection\n\nVirtual Controller\n\nConnection with controller",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Software Configuration Force Sensing",
+  "file": "Checking_Installation_Force_Sensing",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Software Configuration Force Sensing\n\nSoftware Configuration\n\nTo configure EPSON RC+ 7.0 Force Sensing:\n\nStart EPSON RC+ 7.0, then select Setup | System Configuration\n\nClick on the Force Sensing item in the tree on the left.  If Force Sensing item is not visible, then the software options key for Force Sensing has not been enabled.\n\nTo add a board, click the Add button.   A new force sensor will be shown in the tree on the left, and the controls used to configure the sensor will become enabled.\n\nEnter the NI DAQ device name.  This is assigned by the National Instruments software.  To view NI DAQ device numbers, run the Nation Instruments Measurement & Automation Explorer.\n\nClick the button shown on the right of ATI Calibration File to import a calibration file for the sensor.  This can be found on the CD that came with the sensor.  Navigate to the calibration file whose name includes the serial number of the sensor.  Click Open, and the file will be copied to the EpsonRC70\\force directory.\n\nLeave the force and torque units at the default setting to use the native units.  The actual units will be displayed in the sensor list after you click Apply.\n  Or, you can select the desired units.\n\nClick Apply to accept the new sensor.\n\nFrom the Tools menu, select Force Monitor.  This will open the Force Monitor window.\n\nApply pressure to the sensor.  You should see the values change on the Force Monitor window.  If you are using multiple sensors, change the sensor number on the monitor and verify that each sensor is working.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

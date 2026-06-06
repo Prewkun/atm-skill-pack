@@ -1,0 +1,12 @@
+{
+  "title": "Import GUI Builder",
+  "file": "Import_GUI_Builder",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Import GUI Builder allows you to import GUI Builder forms from another project.\n\nTo import a file\n\nSelect File | Import.\nSelect GUI Builder from the File Type drop-down.\nSelect a GUI Builder file and click Open.\nFrom the dialog shown above, select the GUI Builder forms to import and click OK.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

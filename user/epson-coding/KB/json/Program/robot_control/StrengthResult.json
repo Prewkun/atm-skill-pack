@@ -1,0 +1,12 @@
+{
+  "title": "Strength Result",
+  "file": "StrengthResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the strength of the found Edge.",
+  "notes": "Use the Strength result to help determine the value to use for the StrengthTarget property. For ArcFinder, ArcInspector, LineFinder, LineInspector, BoxFinder, CornerFinder objects, the Strength result is the average strength of all edges used in the search.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, BoxFinder, CornerFinder, Edge, LineFinder, LineInspector\n\nStrengthTarget Property\n\nStrengthVariation Property\n\nVision Objects: Strength Result\n\nEdge",
+  "examples": []
+}

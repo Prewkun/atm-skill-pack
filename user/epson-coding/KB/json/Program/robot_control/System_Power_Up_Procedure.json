@@ -1,0 +1,12 @@
+{
+  "title": "System Power Up Procedure",
+  "file": "System_Power_Up_Procedure",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Power Up Procedure\n\nSystem Power Up Procedure\n\nFollow this procedure to power up the system:\n\nEnsure\n\t that all safeguards are in place and that all personnel are clear\n\t of the equipment.\n\nApply\n\t power to the Controller, monitor, and I/O devices.\n\nStart\n\t the Epson RC+ 8.0 software on the PC, if the PC is used in the system.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

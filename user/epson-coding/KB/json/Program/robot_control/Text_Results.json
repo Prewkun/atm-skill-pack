@@ -1,0 +1,12 @@
+{
+  "title": "Text Results",
+  "file": "Text_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Text Results\n\nText Results\n\nThe following list is a summary of the Text object results with brief descriptions. For details on each result, refer to Vision Guide 8.0 Properties and Results Reference.\n\nResults\tDescription\n\nPassed\tReturns whether\n\t\t the object detection result was accepted.\n\nFound\tReturns whether\n\t\t the result was acquired.\n\nPixelX\tReturns the\n\t\t X coordinate position of the text displayed in pixels\n\nPixelY\tReturns the\n\t\t Y coordinate position of the text displayed in pixels",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

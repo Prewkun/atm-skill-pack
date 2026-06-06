@@ -1,0 +1,12 @@
+{
+  "title": "EllipseAngle Property",
+  "file": "EllipseAngle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies angle of the ellipse which is the inspection base line of ArcInspector.",
+  "notes": "EllipseAngle is used to specify angle of the ellipse when the ellipse is specified as the base line for ArcInspector.\n\nSee Also: EllipseAngle Property\n\nArcInspector\n\nEllipseMajorDiam Property\n\nEllipseMinorDiam Property",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector",
+  "examples": []
+}

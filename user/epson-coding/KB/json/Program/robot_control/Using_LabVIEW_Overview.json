@@ -1,0 +1,12 @@
+{
+  "title": "Using LabVIEW Overview",
+  "file": "Using_LabVIEW_Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using LabVIEW Overview\n\nOverview\n\nThe new library of LabVIEW VI has the following features.\n\nHigh\n\t level interface to Epson RC+ 8.0 using VIs (Virtual Instruments).\n\nThe\n\t user no longer needs to deal with the .NET interface to Epson RC+\n\t 8.0 ? it is handles automatically.\n\nEach\n\t Spel command is wrapped in an individual VI.\n\nThe\n\t VIs are organized in several Tool Palettes.\n\nSupports\n\t both 32 bit and 64 bit LabVIEW applications.\n\nSupports\n\t LabVIEW versions 2009 and greater.\n\nTo use the LabVIEW VI library, you must purchase an license of RC+ API software for each Controller that you connect with.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "LimitAccelSRJ Property",
+  "file": "LimitAccelSRJ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the maximum values of acceleration for joint acceleration, tool position modification, and tool attitude modification during force control.",
+  "notes": "This sets or returns the maximum values of acceleration for joint acceleration, tool position modification, and tool attitude modification during force control.\n\nFor details on each value, refer to LimitAccelJ Property, LimitAccelR Property, and LimitAccelS Property.\n\nSee Also: LimitAccelSRJ Property\n\nLimitAccelS Property\n\nLimitAccelR Property\n\nLimitAccelJ Property",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": []
+}

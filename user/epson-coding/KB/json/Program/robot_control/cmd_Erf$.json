@@ -1,0 +1,14 @@
+{
+  "title": "Erf$ Function",
+  "file": "cmd_Erf$",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Erf$[(taskNumber)]",
+  "parameters": "taskNumber\tInteger expression representing a task number from 0-32.\n\nTask omission or 0 specifies the current task.",
+  "description": "Erf$ is used with OnErr.  Erf$ returns the function name in which the error occurred.  Erl returns the line number in which the error occurred.  Using Erf$ combined with Err, Ert, Erl and Era the user can determine much more about the error which occurred.\n\nWhen the event \"Error during Auto Mode\" occurs, normal task and NoPause task in AUTO mode stop execution and end the task.\n\nIf the target task has already ended when using this function for NoEmgAbort task or background task, \"Error 2261\" is occurred.  Use OnErr to acquire information before the task ends.",
+  "notes": "",
+  "see_also": "Returns the name of the function in which the error occurred.\n\nEra\n\nErl\n\nErr\n\nErrMsg$\n\nErt\n\nOnErr\n\nErf$ Function Example\n\nThe following example shows a simple program using the Ert function to determine which task the error occurred in along with; Erf$: the name of the function the error occurred in; Erl: the line number where the error occurred; Era: if a joint caused the error.\n\nFunction ErrHandler(errNum As Integer) 'Error handling routine\n\n  Integer errTask\n\n  Print \"The Error code is \", errNum\n\n  Print \"The Error Message is \", ErrMsg$(errNum)\n\n  errTask = Ert\n\n  If errTask > 0 Then\n\n    Print \"Task number at which error occurred is \", errTask\n\n    Print \"Function at which error occurred is \", Erf$(errTask)\n\n    Print \"The line where the error occurred is Line \", Erl(errTask)\n\n    If Era(errTask) > 0 Then\n\n      Print \"Joint which caused error is \", Era(errTask)\n\n    EndIf\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function ErrHandler(errNum As Integer) 'Error handling routine Integer errTask Print \"The Error code is \", errNum Print \"The Error Message is \", ErrMsg$(errNum) errTask = Ert If errTask > 0 Then\n    Print \"Task number at which error occurred is \", errTask\n    Print \"Function at which error occurred is \", Erf$(errTask)\n    Print \"The line where the error occurred is Line \", Erl(errTask)\n    If Era(errTask) > 0 Then\n      Print \"Joint which caused error is \", Era(errTask)\n    EndIf EndIf\nFend"
+  ]
+}

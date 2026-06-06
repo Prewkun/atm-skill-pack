@@ -1,0 +1,12 @@
+{
+  "title": "Correlation Objects",
+  "file": "CorrelationObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Correlation Object Layout\n\nCorrelation Properties\n\nCorrelation Results\n\nUnderstanding Normalized Correlation\n\nUsing Correlation Objects\n\nOther Useful Utilities for Use with Correlation Objects",
+  "notes": "",
+  "see_also": "Correlation",
+  "examples": []
+}

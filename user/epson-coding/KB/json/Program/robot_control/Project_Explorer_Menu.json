@@ -1,0 +1,12 @@
+{
+  "title": "Project Explorer Menu",
+  "file": "Project_Explorer_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Explorer Menu\n\nProject Explorer Command\n\nSelect this to open the [Project Explorer] pane.\n\nThe Project Explorer pane enables you to quickly open any file in the current project or jump to any function. The project files and functions are organized in a sorted tree structure.\n\nOpen a file or jump to a function: Double-click on the item.\n\nSymbol\tDescription\n\na\tCollapses\n\t\t all items.\n\nb\tUnfolds\n\t\t all items.\n\nc\tDisplays\n\t\t files except project build.\n\n\t\tRight-click on an item except the project build. Select [Add To\n\t\t Project] from the displayed context menu to add it to the project.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CameraY Result",
+  "file": "CameraYResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Y position coordinate of the found part's position in the camera coordinate frame.",
+  "notes": "The CameraY result is always in millimeters in the camera coordinate system.\n\nIt should be noted that the CameraY result can only be calculated for vision sequences which have been associated with a calibration.  If no calibration has been assigned to the vision sequence then if VGet is used to retrieve the CameraY result, an error will occur.\n\nStatistics\n\nFor the CameraY result, the following statistics are available. CameraYMax, CameraYMean, CameraYMin, CameraYStdDev.  Please see Statistics in the Vision Guide manual for details about using statistics.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, Blob, BoxFinder, ColorMatch, Contour, CornerFinder, Correlation, Edge, Geometric, LineInspector, OCR, Point, Polar, CodeReader, Coordinates\n\nAngle Result\n\nCameraXYU Result\n\nCameraX Result\n\nFound Result\n\nRobotXYU Result\n\nRobotY Result\n\nVision Objects: CameraY Result\n\nArcFinder\n\nBlob\n\nBoxFinder\n\nColorMatch\n\nContour\n\nCoordinates\n\nCornerFinder\n\nCorrelation\n\nEdge\n\nGeometric\n\nOCR\n\nPoint\n\nPolar",
+  "examples": []
+}

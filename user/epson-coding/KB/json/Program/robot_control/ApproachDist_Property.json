@@ -1,0 +1,12 @@
+{
+  "title": "ApproachDist Property",
+  "file": "ApproachDist_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "ApproachDist Property\n\nApproachDist Property\n\nThis property sets the moving distance from the start point of the force guide object to the start point of the insert operation.\n\n\tValue (Unit: [mm])\n\nMinimum value\t0\n\nMaximum value\t50\n\nDefault: 10",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

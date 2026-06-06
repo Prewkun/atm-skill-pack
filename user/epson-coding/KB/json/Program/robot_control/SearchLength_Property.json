@@ -1,0 +1,12 @@
+{
+  "title": "SearchLength Property",
+  "file": "SearchLength_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the length of the edge search range.",
+  "notes": "Specify the length of the edge search range extending out from each edge of the search window.\n\nWhile you can use SearchLength1 to 4 to set the edge search range for each edge individually, you can also use SearchLength to set the length for each edge together.",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: BoxFinder, CornerFinder\n Property\n\nSearchLength1 Property\n\nSearchLength2 Property\n\nSearchLength3 Property\n\nSearchLength4 Property\n\nVision Objects: SearchLength Property\n\nBoxFinder\n\nCornerFinder",
+  "examples": []
+}

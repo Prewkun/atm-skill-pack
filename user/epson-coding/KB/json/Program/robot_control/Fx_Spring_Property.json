@@ -1,0 +1,14 @@
+{
+  "title": "Fx_Spring Property",
+  "file": "Fx_Spring_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the virtual coefficient of elasticity for force control in the specified axis for the force in the direction of translation.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger\n Fy_Spring, Fz_Spring Property\n\nFx_Mass, Fy_Mass, Fz_Mass Property",
+  "examples": [
+    "FSet FCS1.Orientation, FG_TOOL\nFSet FC1.CoordinateSystem, FCS1\nFSet FC1.Enabled, True, False, False, False, False, False\nFSet FC1.Fx_Spring, 0.01\nFSet FC1.Fx_Damper, 4\nFSet FC1.Fx_Mass, 5\nMove CurPos +X(10) FC1"
+  ]
+}

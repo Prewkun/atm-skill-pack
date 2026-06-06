@@ -1,0 +1,12 @@
+{
+  "title": "Holes Result",
+  "file": "HolesResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the number of holes found within a Blob object.",
+  "notes": "A hole is a blob with opposite polarity located within the blob that was found.  Holes that intersect the edge of the blob are not counted.",
+  "see_also": "Applies To\n\nVision Objects: Blob, DefectFinder\n\nCompactness Result\n\nPerimeter Result\n\nRoughness Result\n\nVision Objects: Holes Result\n\nBlob\n\nDefectFinder",
+  "examples": []
+}

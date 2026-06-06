@@ -1,0 +1,12 @@
+{
+  "title": "ITFChecksumEnabled Property",
+  "file": "ITFChecksumEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to use the checksum for Interleaved 2 of 5(ITF) code type.",
+  "notes": "Sets whether to use the checksum for Interleaved 2 of 5(ITF) code type.\n\nDefault: False\n\nSee Also: ITFChecksumEnabled Property\n\nITFOutputChecksum Property\n\nVision Objects: ITFChecksumEnabled Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

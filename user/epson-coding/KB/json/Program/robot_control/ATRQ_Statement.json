@@ -1,0 +1,21 @@
+{
+  "title": "ATRQ Statement",
+  "file": "ATRQ_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "ATRQ  [jointNumber]",
+  "parameters": "jointNumber\tOptional.\n\t\t  Integer expression representing the joint number.\n\nThe additional\n\t\t S axis is 8 and T axis is 9.",
+  "description": "ATRQ displays the average RMS (root-mean-square) torque of the specified joint.  The loading state of the motor can be obtained by this instruction.  The result is a real value from 0 to 1 with 1 being maximum average torque.\n\nYou must execute ATCLR before this command is executed.\n\nThis instruction is time restricted.  You must execute ATRQ within 60 seconds after ATCLR is executed.  When this time is exceeded, error 4030 occurs.",
+  "notes": "",
+  "see_also": "Displays the average torque for the specified joint.\n\nATCLR\n\nATRQ Function\n\nPTRQ\n\nATRQ Statement Example\n\n> atclr\n\n> go p1\n\n> atrq 1\n\n   0.028\n\n> atrq\n\n0.028    0.008\n\n   0.029    0.009\n\n   0.000    0.000",
+  "examples": [
+    "> atclr",
+    "> go p1",
+    "> atrq 1",
+    "0.028",
+    "> atrq",
+    "0.028    0.008",
+    "0.029    0.009",
+    "0.000    0.000"
+  ]
+}

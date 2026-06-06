@@ -1,0 +1,12 @@
+{
+  "title": "GridColor Property",
+  "file": "GridColor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies color of grids displayed in the vision sequence.",
+  "notes": "Specifies color of grids displayed in a vision sequence.\n\nSee Also: GridColor Property\n\nVision Sequences\n\nGridPitchX Property\n\nGridPitchY Property\n\nGridShow Property\n\nGridType Property\n\nGridUnits Property",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

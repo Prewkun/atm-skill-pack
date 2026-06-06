@@ -1,0 +1,12 @@
+{
+  "title": "InsertFirmnessF Property",
+  "file": "InsertFirmnessF_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "InsertFirmnessF Property\n\nInsertFirmnessF Property\n\nThis property sets the firmness in relation to the force control function in the direction of motion specified by the InsertOrient property for the force guide object during the execution of the force guide object.\n\nThe larger the InsertFirmnessF value, the stronger the force control function becomes in the direction of motion.  This slows response to changes in force, but reduces vibration.\n\nThe smaller the InsertFirmnessF value, the weaker the force control function becomes in the direction of motion.  This speeds up response to changes in force, but increases vibration.\n\nValue\n\nMinimum value 0.1 (C8 series only: 0.5)\n\nMaximum value 10\n\nDefault: 3",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

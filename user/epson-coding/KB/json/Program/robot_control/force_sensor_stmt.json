@@ -1,0 +1,14 @@
+{
+  "title": "Force_Sensor Statement",
+  "file": "force_sensor_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Force_Sensor sensorNumber",
+  "parameters": "sensorNumber\tInteger expression representing the sensor number.",
+  "description": "When using multiple force sensors on the same system, you must set the current force sensor before using other force sensing commands.\n\nIf your system has only one sensor, then you don't need to use Force_Sensor because the default sensor number is 1.\n\nNote\n\nThis command will only work if the ForceSensing option (ATI Force Sensor) is installed.\n\nWhen using Force Sensor from EPSON, use each command of following manual.\n\n     EPSON RC+ 7.0 Option Force Guide 7.0 SPEL+ Language Reference",
+  "notes": "",
+  "see_also": "Force_Sensor Function\n\nForce_Sensor Statement Example\n\nForce_Sensor 1",
+  "examples": [
+    "Force_Sensor 1"
+  ]
+}

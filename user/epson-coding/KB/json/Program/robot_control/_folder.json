@@ -1,0 +1,11 @@
+{
+  "type": "folder_index",
+  "category": "robot_control",
+  "title": "Robot Control / SPEL+ Reference",
+  "instruction": "References in this folder describe SPEL+ robot programming commands. Use for all robot tasks: motion (Go, Jump, Move, Arc), I/O (On, Off, In, Out, Sw), speed and acceleration (Speed, Accel, SpeedS, AccelS), error handling (TrapErr, ErrCode), parallel tasks (Xqt, Semaphore), vision (VRun, VGet), force control, conveyor tracking, palletizing, and program flow (If, For, Do, Wait, Goto). Do NOT confuse these with GUI form controls.",
+  "applies_to": [
+    "Motion", "IO", "Speed/Accel", "Error handling", "Tasks",
+    "Vision", "Force control", "Conveyor tracking", "Palletizing",
+    "Points", "Coordinate systems", "Robot parameters"
+  ]
+}

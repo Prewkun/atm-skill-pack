@@ -1,0 +1,14 @@
+{
+  "title": "Read Statement",
+  "file": "cmd_read",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Read #portNumber, stringVar$, count",
+  "parameters": "portNumber\tID number representing a file or communications port to read from.\n\nFile number can be specified in ROpen, WOpen, and AOpen statements.\n\nCommunication port number can be specified in OpenCom (RS-232C) or OpenNet (TCP/IP) statements.\n\nstringVar$\tName of a string variable that will receive the character string.\n\ncount\tMaximum number of bytes to read.",
+  "description": "Read Statement\n\nRead Statement\n\nSee_Also Example\n\nReads characters from a file or communications port.",
+  "notes": "",
+  "see_also": "ChkCom, ChkNet, OpenCom, OpenNet, Write, WriteBin\n\nRead Example\n\nInteger numOfChars\n\nString data$\n\nnumOfChars = ChkCom(1)\n\nIf numOfChars > 0 Then\n\n  Read #1, data$, numOfChars\n\nEndIf",
+  "examples": [
+    "Integer numOfChars\nString data$\n\nnumOfChars = ChkCom(1)\n\nIf numOfChars > 0 Then Read #1, data$, numOfChars\nEndIf"
+  ]
+}

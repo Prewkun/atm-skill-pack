@@ -1,0 +1,15 @@
+{
+  "title": "MultiLine Property",
+  "file": "MultiLine_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether this is a multiline TextBox control.",
+  "notes": "If you want to display multiple lines in a TextBox control, you must set MultiLine to True.\n\nSee Also: MultiLine Property\n\nAppendText Property\n\nGUI Items: MultiLine Property\n\nTextBox",
+  "see_also": "Applies To\n\nTextBox",
+  "examples": [
+    "GSet frmMain.txtStatus.MultiLine, True"
+  ],
+  "category": "gui_control"
+}

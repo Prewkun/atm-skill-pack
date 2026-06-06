@@ -1,0 +1,12 @@
+{
+  "title": "Close command, Project Menu",
+  "file": "Close_command,_Project_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Close command, Project Menu\n\nClose command (Project Menu)\n\nUse the [Close] command to close the current project. Several menu and toolbar commands will be disabled after the project is closed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Correlation Object",
+  "file": "Step1_CreateaNewCorrelationObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Correlation Object\n\nStep 1: Create a New Correlation Object\n\n\tClick the [All Tools] - the\n\t [New Correlation] button  on the Vision Guide toolbar.\n\tThe mouse cursor will change to a correlation icon.\n\tMove the mouse cursor over the image display of the\n\t Vision Guide window and click the left mouse button to place the Correlation\n\t object on the image display.\n\tNotice that a name for the\n\t object is automatically created.  In the example, it is called\n\t \"Corr01\" because this is the first Correlation object created\n\t for this sequence. (We will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "[Tools]-[Robot Manager]-[Boxes] Page",
+  "file": "setup_box_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "[Tools]-[Robot Manager]-[Boxes] Page\n\n[Tools]-[Robot Manager]-[Boxes] Page\n\nThis page allows you to define Box (approach check area) settings for a robot. When the page is selected, the current values are displayed. When a Box is undefined, then all fields for that Box will be blank. When you enter a value in any of the fields for an undefined Box setting, then the remaining fields will be set to zero. The Box will be defined when you press the [Apply] button.\n\nFor more details on Box Page settings, refer to the following manual:\n\nSPEL+ Language Reference - Box Statement\n\nNavigating the grid\n\nPress the [Tab] key to move to the next cell. Press the [Shift] + [Tab] key to move to the previous cell. Press the arrow [↑] or [↓] key to move to the cell above or below.\n\nItem\tDescription\n\nMin X\tType\n\t\t in the minimum X limit value in millimeters.\n\nMax X\tType\n\t\t in the maximum X limit value in millimeters.\n\nMin Y\tType\n\t\t in the minimum Y limit value in millimeters.\n\nMax Y\tType\n\t\t in the maximum Y limit value in millimeters.\n\nMin Z\tType\n\t\t in the minimum Z limit value in millimeters.\n\nMax Z\tType\n\t\t in the maximum Z limit value in millimeters.\n\nPolarity\tSets\n\t\t the polarity to output I/O at approach check.\n\nLocal\tSelects\n\t\t the local coordinate system.\n\nApply\tSets\n\t\t the current values.\n\nRestore\tReverts\n\t\t to the previous values.\n\nClear\tClears\n\t\t all values.\n\nSetting both values to zero disables the limits.\n\nUsing the Box Wizard\n\n(1)      Select [Robot Manager]-[Boxes] tab to show the [Boxes] page.\n\n(2)      Click the [Box Wizard] button. The following dialog appears.\n\n(3)      Select the Box number and local coordinate system to define and click the [Next] button.\n\n(4)      Click the [Teach] button to show the [Teach first corner of box] page.\n\n(5)      Jog the robot to the first corner to teach the position of it. Click the [Teach] button. The following dialog appears.\n\n(6)      Teach the second to forth corners by following the steps (4) and (5).\n\n(7)      Select the polarity to output the I/O\n\n(8)      The new box definition is displayed as shown below.\n\nClick [Finish] to apply the new definition.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

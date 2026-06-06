@@ -1,0 +1,12 @@
+{
+  "title": "Jogging page: Preferences command (Setup menu)",
+  "file": "setup_jog_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Jogging page: Preferences command (Setup menu)\n\n[Setup]-[Preferences]-[Jogging] Page\n\nSet [Jog & Teach].\n\nSetting Jog Button Orientation\n\nItem\tDescription\n\nRobot\tSelect\n\t\t a robot.\n\nTop Button\tChange\n\t\t the Jog button shown at the top. You can change the orientation\n\t\t of the jogging buttons and arrow keys for the X and Y axes.\n\n\t\tYou can also click on one of the buttons to change it to the top\n\t\t button position.\n\nThe jog button orientations are useful\n\t\t for \"aligning\" your PC monitor with the robot's Cartesian coordinate\n\t\t system. Align the buttons so that the robot moves in the direction\n\t\t of the arrows.\n\nProgram Mode Options\n\nThis is an option when using [Robot Manager]-[Jog & Teach] in program mode.\n\nItem\tDescription\n\nConfirm\n\t\t teach\tDisplays\n\t\t a confirmation dialog box prompting the user to register the current\n\t\t position when clicking the [Teach] button on the [Jogging]-[Teach]\n\t\t tab.\n\n\t\tThis is turned on by default.\n\nEnable\n\t\t motion commands\tCheck\n\t\t this box if you want to execute motion commands (Go, Jump, etc.)\n\t\t from the [Jog & Teach]-[Execute Motion] tab.\n\n\t\tThis is turned on by default.\n\nPrompt\n\t\t for new point information\tDisplay\n\t\t the [New Point Information] dialog when an undefined point is\n\t\t taught.\n\n\t\tThis is turned on by default.\n\nNOTE:  [Robot Manager] is disabled when used from the operator window in operator mode or from RC+ API. To configure the Robot Manager for operators, see [Project]-[Properties]-[Operator Settings]-[Robot Manager].",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

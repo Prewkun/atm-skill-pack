@@ -1,0 +1,15 @@
+{
+  "title": "PAgl Method, Spel Class",
+  "file": "vbg_PAgl",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function PAgl( PointNumber As Integer, JointNumber As Integer) As Single\n\nFunction PAgl( Point As SpelPoint, JointNumber As Integer) As Single\n\nFunction PAgl( Label As String, JointNumber As Integer) As Single",
+  "parameters": "PointNumber\tInteger expression representing the point number of a point in the current robot's point memory.\n\nPoint\tA previously initialized SpelPoint.\n\nLabel\tA string expression containing a point label of a point in the current robot's point memory.\n\nJointNumber\tInteger expression representing the desired joint number. The value can be from 1 to 9.",
+  "description": "Returns the joint angle for the selected rotational axis, or position for the selected linear axis, of the specified point.",
+  "notes": "",
+  "see_also": "Agl\n\nPls\n\nCX, CY, CZ, CU, CV, CW, CR, CS, CT Methods\n\nPAgl Example\n\nVB Example:\n\nDim t1Angle As Single\n\nt1Angle = m_spel.PAgl(1, 1)\n\nC# Example:\n\nfloat t1Angle;\n\nt1Angle = m_spel.PAgl(1, 1);",
+  "examples": [
+    "Dim t1Angle As Single\nt1Angle = m_spel.PAgl(1, 1)",
+    "float t1Angle;\nt1Angle = m_spel.PAgl(1, 1);"
+  ]
+}

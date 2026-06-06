@@ -1,0 +1,12 @@
+{
+  "title": "Vision Objects - Using OCR Objects - Creating a new font",
+  "file": "CreatinganewFont",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Objects - Using OCR Objects - Creating a new font\n\nCreate a font\n\nTo use OCR objects, a font needs to be created according to the image to be scanned. You can import a font from other projects by using the ImportFont property. When you import a font, you don't need to create a font.\n\nAlso, common Western and Japanese fonts are embedded in the system. A font may need to be created depending on the size of the input image.\n\nA user-defined font can be created from the image file.\n\nFollow these steps to create a font:\n\nClick the OCR object on the\n\t flow chart.  Adjust the model window to the character.\n\nClick the [Teach] button.\n\t The [Teach OCR Font] dialog will be displayed.\n\nTo register a new character,\n\t click the [New Character] button.  Then, click the [Teach] button.\n\t  You can register multiple images to one character.\n\n\tYou can register Japanese and alphanumeric characters, and symbols.\n\n\tTo delete the registered character from the font, click the [Existing\n\t Character] button and select the character to be deleted from the\n\t dropdown list.  Then, click the [Delete] button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

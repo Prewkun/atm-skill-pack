@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New Frame Object",
+  "file": "Step1_CreateaNewFrameObject",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New Frame Object\n\nStep 1: Create a New Frame Object\n\n\tClick the [All Tools]  [Frame]\n\t button  on the Vision Guide toolbar.\n\tMove the mouse over the Image Display area. You will\n\t see the mouse pointer change to the Frame object icon.\n\tContinue moving the mouse until the icon is at the\n\t desired position in the Image Display area, then click the left mouse\n\t button to create the object.\n\tNotice that a name for the\n\t object is automatically created. In the example, it is called \"Frame01\"\n\t because this is the first Frame object created for this sequence.\n\t  (We will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

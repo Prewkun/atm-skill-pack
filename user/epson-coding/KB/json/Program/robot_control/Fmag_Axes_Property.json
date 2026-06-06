@@ -1,0 +1,14 @@
+{
+  "title": "Fmag_Axes Property",
+  "file": "Fmag_Axes_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the subject axis to acquire the resultant force.",
+  "notes": "Fmag produces a value representing the combined force from the subject axes from the X, Y, and Z axes.\n\nThis property is used when setting or checking the subject axes to obtain the resultant force.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "Function Test_Fmag_Axes Integer iVar FSet FM1.Fmag_Axes, FG_ZX FGet FM1.Fmag_Axes, iVar Print iVar\nFend"
+  ]
+}

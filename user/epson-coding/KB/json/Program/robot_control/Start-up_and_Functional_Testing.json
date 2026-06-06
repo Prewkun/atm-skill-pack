@@ -1,0 +1,12 @@
+{
+  "title": "Start-up and Functional Testing",
+  "file": "Start-up_and_Functional_Testing",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start-up and Functional Testing\n\nStart-up and Functional Testing\n\nIf the safeguarded system is not ready at the time of start-up and functional testing, specify an area to install the safeguard system (as a temporary measure) and then begin.\n\nDuring start-up and functional testing, do not allow workers inside the safeguard area until the safeguard function is activated.\n\nBefore start-up and functional testing, carefully read the related manuals and obtain a good understanding of safety-related precautions.\n\nBefore supplying the robot and robot system with power for the first time, verify the items listed below.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

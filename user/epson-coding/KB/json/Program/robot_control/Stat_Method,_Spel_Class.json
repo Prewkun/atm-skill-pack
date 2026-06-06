@@ -1,0 +1,14 @@
+{
+  "title": "Stat Method, Spel Class",
+  "file": "Stat_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Stat (Address As Integer) As Integer",
+  "parameters": "Address\tSpecifies the address representing the status of the Controller.\n\n(integer from 0 to 2)",
+  "description": "Returns the Controller status.",
+  "notes": "",
+  "see_also": "EStopOn\n\nPauseOn\n\nSafetyOn\n\nStat Example\n\nDim ctr_stat As Integer\n\nctr_stat = m_spel.Stat(0)",
+  "examples": [
+    "Dim ctr_stat As Integer\nctr_stat = m_spel.Stat(0)"
+  ]
+}

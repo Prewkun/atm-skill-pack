@@ -1,0 +1,14 @@
+{
+  "title": "CtrlInfo Function",
+  "file": "CtrlInfo_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "CtrlInfo(index)",
+  "parameters": "index\tInteger expression\n\t\t that represents the index of the information to retrieve.",
+  "description": "The following table shows the information that is available from the CtrlInfo function:\n\nIndex\tBit\tValue\tDescription\n\n0\tN/A\t\tObtained for compatibility\n\n\t\tUse index 9 to get the firmware version of the controller.\n\n1\t0\t&H1\tReady state\n\n1\t&H2\tStart state\n\n2\t&H4\tPause state\n\n3-7\t\tUndefined\n\n8\t&H100\tEStop state\n\n9\t&H200\tSafeguard open\n\n10\t&H400\tError state\n\n11\t&H800\tCritical error state\n\n12\t&H1000\tWarning\n\n13\t&H2000\tWaitRecover state (Waiting for recover\n\t\t from safeguard open)\n\n14\t&H4000\tRecover state (Recovering from the safeguard\n\t\t open)\n\n15-31\t\tUndefined\n\n2\t0\t&H1\tEnable switch is on\n\n1-31\t\tUndefined\n\n3\t0\t&H1\tTeach mode circuit problem detected\n\n1\t&H2\tSafeguard circuit problem detected\n\n2\t&H4\tEStop circuit problem detected\n\n3-31\t\tUndefined\n\n4\tN/A\t\t0 - Normal mode\n\n\t\t1 - Dry run mode\n\n5\tNA\t\tControl Device:\n\n\t\t21 - RC+\n\n\t\t22 - Remote\n\n\t\t26 - Remote Ethernet\n\n\t\t29 - Remote RS232C\n\n\t\t20 - TP3\n\n6\tN/A\t\tNumber of defined robots\n\n7\tN/A\t\tOperation mode:\n\n\t\t0 - Program mode\n\n\t\t1 - Auto mode\n\n8\tN/A\t\tUndefined\n\n9\tN/A\t\tFirmware version of the Controller\n\n\t\tMajor No.*1000000 + Minor No.*10000 + Rev No. * 100 +\n\t\t Build No.\n\n(Example) Version 1.6.2.4 is 1060204\n\n10\tN/A\t\tSMART status of hard disk\n\n0 : SMART status is normal\n\n1 : SMARTstatus is not normal\n\nIf SMART status is not normal, the hard\n\t\t disk can be broken. You need to backup the data promptly and replace\n\t\t the harddisk with new one.\n\nWhen using the RAID option, you cannot\n\t\t use the SMART status, it always returns that it is normal.\n\n15\tN/A\t\tInput DC Voltage\n\nThe program returns the value 100 times\n\t\t greater than the input value.\n\nFor example, when the input value is 48.01V,\n\t\t it returns 4801.\n\nNote that an error occurs if Controller\n\t\t does not support DC power supply.\n\n16\tN/A\t\tPLC vender type\n\n0: None\n\n1: Allen Bradley\n\n2: CODESYS",
+  "notes": "",
+  "see_also": "Returns controller information.\n\nRobotInfo\n\nTaskInfo\n\nCtrlInfo Function",
+  "examples": [
+    "Print \"The controller version : \", CtrlInfo(9)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "F_FlangeOffset Statement",
+  "file": "F_FlangeOffset_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "F_FlangeOffset\n\nF_FlangeOffset, x_rValue, y_rValue, z_rValue, u_rValue, v_rValue, w_rValue",
+  "parameters": "x_rValue,\n\t\t ...\tA\n\t\t numerical value or formula defining the new value",
+  "description": "This sets or returns the position and attitude of the center of the force sensor base in the Tool 0 coordinate system.\n\nThis is used when the positional relationship between Tool 0 and the force sensor has changed. Since the sensor reading cannot be acquired in the assumed coordinate system if a mistake is made in the setting operation, set it accurately and use the force function.",
+  "notes": "",
+  "see_also": "This sets or returns the force sensor position and attitude in the Tool 0 (TCP0, J6 flange) coordinate system.\n\nF_GravityDirection Statement",
+  "examples": [
+    "> F_FlangeOffset 10, 10, 10, 5, 5, 10\n> F_FlangeOffset"
+  ]
+}

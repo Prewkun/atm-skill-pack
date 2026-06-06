@@ -1,0 +1,13 @@
+{
+  "title": "ReadOnly Property",
+  "file": "ReadOnly_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets which the textbox control is ReadOnly or not.",
+  "notes": "When this propaty is set to 1-True, Operator is not able to edit textbox.",
+  "see_also": "Applies To\n\nTextBox\n\nMultiLine Property\n\nScrollBars Property\n\nGUI Items: ReadOnly Property\n\nTextBox",
+  "examples": [],
+  "category": "gui_control"
+}

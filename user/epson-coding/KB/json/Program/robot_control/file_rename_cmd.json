@@ -1,0 +1,12 @@
+{
+  "title": "Rename Command (File Menu)",
+  "file": "file_rename_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Rename Command (File Menu)\n\nRename Command (File Menu)\n\n[Rename Program] (File Menu)\n\nChanges the name of the program file, include file, point file, or force file you are currently editing.\n\nRename Program\n\n(1)    Select and activate the file to be renamed.\n\n(2)    Select the Epson RC+ 8.0 menu-[File]-[Rename Program].\n\n(3)    Enter a new name for the file, and then click the [OK] button.\n\nThe new file name cannot be the same as the existing files. You will get an error message if you enter a new name that is already being used.\n\nIf you use [Rename] on an include file, you must rename the file in each of your #include statements that refer to it.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

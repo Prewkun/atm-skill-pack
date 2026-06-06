@@ -1,0 +1,12 @@
+{
+  "title": "Import Command (File Menu)",
+  "file": "file_import_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Import Command (File Menu)\n\nImport Command (File Menu)\n\nImport a file from other Epson RC+ 8.0 projects.\n\nThe extensions and file names that can be imported are as follows. Be careful.\n\n-    Program file names must have a .PRG extension.\n\n-    Include file names must have a .INC extension.\n\n-    Point file names must have a .PTS extension.\n\n-    GUI Builder file names must have a .GUI extension.\n\n-    Vision Guide file names must have a .VIS extension.\n\n-    Force file names must have a .FRC extension.\n\n-    Force Guide file names must have a .FG extension.\n\n-    Parts Feeding file names must have a .PF extension.\n\n-    I/O labels must have the file name IOLabels.dat\n\n-    User errors must have the file name UserErrors.dat\n\n-    Macro files must have the file name Macros.dat\n\nTo import a file\n\nSelect\n\t the file type from the [File Type] list box.\n\nNavigate\n\t to the file you want to import.\n\nClick\n\t the [Open] button.\n\n\tIf a file name is already used in the project folder, you will be prompted\n\t to confirm overwrite. The file will then be copied to the current\n\t project's folder.\n\nNOTE: You can only import files created with Epson RC+ 8.0 or EPSON RC+ 7.0.\n\nWhen importing files created with earlier versions than EPSON RC+ 7.0, import the files into EPSON RC+ 7.0, and then import the imported files into Epson RC+ 8.0.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

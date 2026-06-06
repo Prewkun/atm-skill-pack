@@ -1,0 +1,12 @@
+{
+  "title": "BoxFinder Object Layout",
+  "file": "BoxFinder_Object_Layout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "BoxFinder Object Layout\n\nBoxFinder Object Layout\n\nSimilar to LineFinder, BoxFinder objects have a direction indicator showing the edge search direction within the search window.  This differs from LineFinder in that a direction indicator covers each direction for all four sides of the search window.  The number of edge search lines is specified with the NumberOfEdges property.  You can specify the search direction using the Direction property.\n\nBoxFinder Object Layout\n\nThe BoxFinder object can be positioned to search in any direction (not just along the vertical and horizontal directions).  Similar to SearchWinType=AngledRectangle for Blob objects, use the handle for rotating the BoxFinder object search window to move the BoxFinder object in the intended edge detection direction.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

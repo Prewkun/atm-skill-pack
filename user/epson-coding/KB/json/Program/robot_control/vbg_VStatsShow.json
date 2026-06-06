@@ -1,0 +1,15 @@
+{
+  "title": "VStatsShow Method, Spel Class",
+  "file": "vbg_VStatsShow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VStatsShow (Sequence As String, Parent As Form)",
+  "parameters": "Sequence\tString expression\n\t\t containing the name of a vision sequence in the current project.",
+  "description": "Displays the vision statistics dialog for a specified sequence in the current project.",
+  "notes": "",
+  "see_also": "VStatsReset\n\nVStatsResetAll\n\nVStatsSave\n\nVStatsShow Example\n\nVB",
+  "examples": [
+    "Sub btnShowStats_Click() m_spel.VStatsShow(\"seq01\")\nEnd Sub",
+    "void btnShowStats_Click(object sender, EventArgs e)\n{\n   m_spel.VStatsShow(\"seq01\");\n}"
+  ]
+}

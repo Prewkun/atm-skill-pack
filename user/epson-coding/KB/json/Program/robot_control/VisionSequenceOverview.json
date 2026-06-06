@@ -1,0 +1,12 @@
+{
+  "title": "Vision Sequence Overview",
+  "file": "VisionSequenceOverview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Sequence Overview\n\nVision Sequence Overview\n\nVision Sequences are part of the key to Vision Guide's ease of use and interface to the SPEL language.  This section will provide the information required to understand and use Vision Sequences.  In this section we will cover the following items:\n\nVision sequence definition and general information\nThe Sequence window\nCreating and deleting vision sequences\nVision Sequence properties and results\nRunning vision sequences from the Vision Guide window\nTesting and debugging vision sequences\nHow to run vision sequences from the SPEL+ language\nImage Acquisition",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

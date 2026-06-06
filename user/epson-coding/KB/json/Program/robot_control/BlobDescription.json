@@ -1,0 +1,12 @@
+{
+  "title": "Blob Description",
+  "file": "BlobDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Blob Description\n\nBlob Description\n\nBlob objects compute geometric, topological and other features of images.  Blob objects are useful for determining presence/absence, size and orientation of features in an image.  For example, Blob objects can be used for detecting the presence, size and location of ink dots on silicon wafers, for determining the orientation of a component, or even for robot guidance.  (However, it is recommended to use the Polar object for the decision of the rotation direction.)\n\nSome of the features computed by Blob objects are:\n\nArea and perimeter\nCenter of mass\nPrincipal axes and moments of inertia\nConnectivity\nExtrema\nCoordinate positions of the center of mass in pixel, camera coodinate system, and robot coordinate system\nHoles, roughness, and compactness of blobs",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

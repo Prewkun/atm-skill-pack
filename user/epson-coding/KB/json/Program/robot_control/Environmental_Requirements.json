@@ -1,0 +1,12 @@
+{
+  "title": "Environmental Requirements",
+  "file": "Environmental_Requirements",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Environmental Requirements\n\nEnvironmental Requirements\n\nIn order to optimize the PC and drive unit performance for safety, they must be placed in an environment which satisfies the following conditions.\n\nAmbient temperature\t5 to 40 degC (with minimal variation)\n\nAmbient relative humidity\t20 to 80 % (with no condensation)\n\nElectrostatic noise\tLess than 6kV (without mouse and keyboard)\n\nEnvironment\tInstall indoors only.\n\t\t\t\t\t\tPlace in a well-ventilated area.\n\t\t\t\t\t\tKeep away from direct sunlight.\n\t\t\t\t\t\tKeep away from dust, oil, salinity, metal powder or other contaminants.\n\t\t\t\t\t\tKeep away from flammable or corrosive liquid and gas.\n\t\t\t\t\t\tKeep away from water.\n\t\t\t\t\t\tKeep away from shocks or vibrations.\n\t\t\t\t\t\tKeep away from sources of electronic noise.\n\nIf the controller must be used in an environment that does not fulfill the above mentioned conditions, take adequate countermeasure.\n  For example, the controller may be covered with a box having a cooling mechanism.  The controller is not designed for clean-room specification.  If it is to be installed in a clean room, it needs to be covered with a box with either ventilation or cooling mechanism.\n\nBase table\tUse a base table that is at least 100 mm off the floor. Placing the controller directly on the floor could allow dust penetration leading to malfunction.\n\nSpace\tAllow at least 50 mm on each side.  There must be room in front of the controller so that the entire controller can be pulled outward.  There must also be room behind the controller so that one can attach and remove cables and boards.  Do not block airflow to or from the fan.\n\nNOTE:  The PC and drive units must be used in the horizontal position.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

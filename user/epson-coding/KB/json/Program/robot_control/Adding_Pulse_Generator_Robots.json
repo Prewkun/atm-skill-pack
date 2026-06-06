@@ -1,0 +1,12 @@
+{
+  "title": "Changing the Robot",
+  "file": "Adding_Pulse_Generator_Robots",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Changing the Robot\n\nChanging the Robot\n\nCAUTION\t■\tChanging\n\t\t the manipulator should be done with great caution. It initializes\n\t\t the robot calibration parameters (Hofs, CalPls), additional axis\n\t\t information, and PG parameter data. Before changing the robot,\n\t\t make sure to save the calibration data by following the procedure\n\t\t below.\n\n(1) In the Epson RC+ 8.0 menu, select\n\t\t [Setup]-[System Configuration].\n\n(2) Select [Controller]-[Robots]-[Robot**]-[Calibration].\n\t\t Then click the [Save] button.\n\nIn\n\t the Epson RC+ 8.0 menu, select [Setup]-[System Configuration].\n\nSelect\n\t [Controller]-[Robots]-[Robot**].\n\nClick\n\t the [Change] button. The following dialog will appear.\n\nInput\n\t the robot name and serial number printed on the name plate of the\n\t manipulator. Any serial number can be entered. However, enter the\n\t number printed on the manipulator.\n\nSelect\n\t the robot type in the [Robot Family] box.\n\nSelect\n\t the series name of the manipulator in the [Series] box.\n\nSelect\n\t the robot model in the [Model] box.\n\n\tAvailable robots will be displayed according to the format of the currently\n\t installed motor driver. If you use [Dry run], all robots selected\n\t in step 6 will be shown.\n\nClick\n\t the [OK] button. The controller will be restarted.\n\nNOTE:  For the Controller with Safety Board, assign a robot using the safety function to Robot 1.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

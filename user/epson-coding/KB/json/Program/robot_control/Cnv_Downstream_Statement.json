@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Downstream Statement",
+  "file": "Cnv_Downstream_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "Cnv_Downstream (conveyorNumber), lowerLimit",
+  "parameters": "conveyorNumber\tInteger expression representing the conveyor number (1 ~ 16)\n\nlowerLimit\tA border on the downstream side of the tracking area",
+  "description": "Cnv_Downstream Statement\n\nCnv_Downstream Statement\n\nSee_Also Example\n\nSets the downstream limit of the specified conveyor.",
+  "notes": "",
+  "see_also": "Cnv_Downstream Function\n\nCnv_Downstream Statement Example\n\nPrint \"Downstream limit: \", Cnv_Downstream(1)",
+  "examples": [
+    "Print \"Downstream limit: \", Cnv_Downstream(1)"
+  ]
+}

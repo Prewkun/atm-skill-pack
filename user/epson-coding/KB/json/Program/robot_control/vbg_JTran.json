@@ -1,0 +1,15 @@
+{
+  "title": "JTran Method, Spel Class",
+  "file": "vbg_JTran",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub JTran (JointNumber As Integer, Distance As Single)",
+  "parameters": "JointNumber\tThe specific joint to move.\n\nDistance\tThe distance to move.  Units are in degrees for rotary joints and millimeters for linear joints.",
+  "description": "Executes a relative joint move.",
+  "notes": "",
+  "see_also": "PTran\n\nPulse\n\nJTran Example\n\nVB Example:\n\n' Move joint 1 45 degrees in the plus direction.\n\nm_spel.JTran(1, 45.0)\n\nC# Example:\n\n// Move joint 1 45 degrees in the plus direction.\n\nm_spel.JTran(1, 45.0);",
+  "examples": [
+    "' Move joint 1 45 degrees in the plus direction.\nm_spel.JTran(1, 45.0)",
+    "// Move joint 1 45 degrees in the plus direction.\nm_spel.JTran(1, 45.0);"
+  ]
+}

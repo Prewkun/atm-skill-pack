@@ -1,0 +1,17 @@
+{
+  "title": "Sqr Function",
+  "file": "cmd_sqr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sqr(Operand )",
+  "parameters": "Operand\tA real expression.",
+  "description": "The Sqr function returns the non-negative square root value of the operand.\n\nPotential Errors\n\nNegative operand:\n\nIf the operand is or has a negative numeric value, an error will occur.",
+  "notes": "",
+  "see_also": "Abs\tOr\n\nAnd\tSgn\n\nAtan\tSin\n\nAtan2\tStr$\n\nCos\tTan\n\nInt\tVal\n\nMod\tXor\n\nNot\n\nSqr Function Example\n\nThis is a simple Command window example on the usage of the Sqr function.\n\n>print sqr(2)\n\n1.414214\n\n>\n\nThe following example shows a simple program which uses Sqr.\n\nFunction sqrtest\n\n\t\t  Real x\n\n\t\t  Print \"Please enter a numeric value:\"\n\n\t\t  Input x\n\n\t\t  Print \"The Square Root of \", x, \" is \", Sqr(x)\n\n\t\tFend",
+  "examples": [
+    ">print sqr(2)",
+    "1.414214",
+    ">",
+    "Function sqrtest\n\t\t  Real x\n\t\t  Print \"Please enter a numeric value:\"\n\t\t  Input x\n\t\t  Print \"The Square Root of \", x, \" is \", Sqr(x)\n\t\tFend"
+  ]
+}

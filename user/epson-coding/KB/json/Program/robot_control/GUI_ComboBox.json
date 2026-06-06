@@ -1,0 +1,12 @@
+{
+  "title": "ComboBox Control",
+  "file": "GUI_ComboBox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The ComboBox control is used to display data in a dropdown combo box. By default, the ComboBox control appears in two parts: the top part is a text box that allows the user to type a list item. The second part is a list box that displays a list of items from which the user can select one.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

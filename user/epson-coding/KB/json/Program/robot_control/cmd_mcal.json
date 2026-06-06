@@ -1,0 +1,16 @@
+{
+  "title": "MCal Statement",
+  "file": "cmd_mcal",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MCal",
+  "parameters": "",
+  "description": "It is necessary to calibrate robots which have incremental encoders.  This calibration must be executed after turning on the main power.  If you attempt motion command execution, or any command which requires the current position data without first executing machine calibration, an error will occur.\n\nMachine calibration is executed according to the moving joint order which is specified with the MCordr command.  The default value of MCordr at the time of shipment differs from model to model, so please refer to the proper robot manual for details.\n\nNormally, MCal is executed when the robot is in the center of the motion envelope.  On SCARA robots, which have multiple calibration points, the 1st and 2nd joint combined movement is limited during Mcal to just +/-15-16 degrees in the clockwise/counter clockwise directions.  This helps reduce the time required for calibrating the robot.  If Mcal is executed near the limit of the motion envelope, the arm may try to move out of range. In this case an error may be issued or the arm will hit the mechanical stop.  To Mcal after this occurs simply turn the MOTORs Off and manually move the arm away from the motion envelope limit.\n\nThe actual moving distance at machine calibration differs from model to model.  Please refer to the corresponding robot manual for details.\n\nAttempt to Execution a Motion Instruction without Executing Mcal First\n\nIf you attempt motion command execution, or any command which requires the current position data ( e.g. Plist * instruction ) without first executing machine calibration, an error will occur.\n\nAbsolute encoder robots\n\nIf you attempt to execute MCAL for absolute encoder robots, error 409 will occur, which means that the command is not supported for this type of robot.  Absolute encoder robots do not need MCAL.\n\nRobot Installation Note\n\nZ Joint Space Required for Homing\n\nWhen the Z joint homes it first moves up and then moves down and settles into the home position.  This means it is very important to properly install the robot so that enough space is provided for the arm to home the Z joint.  It is recommended that a space of 6 mm be provided above the upper limit. (Do not install tooling or fixtures within a 6 mm space above the robot so enough room is left for proper Z joint homing.)",
+  "notes": "",
+  "see_also": "Robot motion commands\n\nHofs\n\nHome\n\nHordr\n\nMcorg\n\nMCordr\n\nMCofs\n\nMcal Statement Example\n\nThe following example is done from the monitor window:\n\n> Motor On\n\n> Mcal\n\n>",
+  "examples": [
+    "> Motor On",
+    "> Mcal",
+    ">"
+  ]
+}

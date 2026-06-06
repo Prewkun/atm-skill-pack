@@ -1,0 +1,12 @@
+{
+  "title": "PixelY Result",
+  "file": "PixelYResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the Y position coordinate of the found part's position in pixel coordinates.",
+  "notes": "The PixelY result is the Y coordinate of the objects position in the image coordinate system.  The value is a real number that has a fractional component because of the sub-pixeling feature.\n\nStatistics\n\nFor the PixelY result, the following statistics are available. PixelYMax, PixelYMean, PixelYMin, PixelYStdDev. Please see Statistics in the Vision Guide manual for details about using statistics.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, Point, Polar, LineInspector, CodeReader, OCR, Text, Coordinates\n\nAngle Result\n\nCameraXYU Result\tPixelXYU Result\n\nCameraY Result\tRobotXYU Result\n\nFound Result\tRobotY Result\n\nVision Objects: PixelY Result\n\nBlob\n\nBoxFinder\n\nContour\n\nCoordinates\n\nCornerFinder\n\nCorrelation\n\nEdge\n\nGeometric\n\nPoint\n\nPolar\n\nText",
+  "examples": []
+}

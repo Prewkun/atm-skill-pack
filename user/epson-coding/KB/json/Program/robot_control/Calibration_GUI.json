@@ -1,0 +1,12 @@
+{
+  "title": "Calibration GUI",
+  "file": "Calibration_GUI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration GUI\n\nCalibration GUI\n\nThis section describes the GUI dialogs used for calibration.\n\nCreate a new calibration\n\nDelete a calibration\n\nCalibration Properties and Results\n\nDistortion Detection\n\nTeach Points Button\n\nCalibrate Button\n\nTeach Calibration Points\n\nCalibration Complete Dialog",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

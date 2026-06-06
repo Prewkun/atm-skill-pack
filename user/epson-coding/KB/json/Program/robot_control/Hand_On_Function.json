@@ -1,0 +1,14 @@
+{
+  "title": "Hand_On Function",
+  "file": "Hand_On_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "This function acquires the following information.\n\nFor grippers : Whether the hand is in a grip state\n\nFor electric screwdrivers : Whether the hand has finished screw tightening.\n\nOnce the gripping operation has been performed with the Hand_On command, use the Hand_On() function\n\nto acquire operation results and determine whether the workpiece has been gripped properly, or whether\n\nscrew tightening is complete.\n\nThe gripped state refers to a state in which the input bit specified in the Hand_On definition area is in the specified I/O state.\n\nNote\n\nIf one input bit has been set, combine this function with the following commands to change the robot motion based on whether the hand enters the gripped state.\n\nFind command, Sense command, Till command, Trap command, Wait command\n\nHand_On Funcion Example\n\n' If the hand is in the grip state, \"Gripping\" will appear in the Run window\n\nIf Hand_On(1) = True Then\n\n  Print \"Gripping\"\n\nEndIf",
+  "notes": "",
+  "see_also": "For grippers: Determines whether the hand is in the grip state.\n\nFor electric screwdrivers: Determines whether the hand has finished screw tightening.\n\nHand_On\n\nHand_Off\n\nHand_Off Function",
+  "examples": [
+    "' If the hand is in the grip state, \"Gripping\" will appear in the Run window\nIf Hand_On(1) = True Then Print \"Gripping\"\nEndIf"
+  ]
+}

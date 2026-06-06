@@ -1,0 +1,12 @@
+{
+  "title": "StartPntObjResult Property",
+  "file": "StartPntObjResultProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies which result to use from the StartPointObject.",
+  "notes": "StartPntObjResult enables you to attach several objects to the results of one StartPointObject.  For example, you could create a blob object with NumberToFind set to 4.  Then you could attach a line object to each one of the results by specifying the blob for the StartPointObject of each line and a different StartPntObjResult for each line.\n\nValues\n\nThe value can range from 1 to the NumberToFind value for the StartPointObject.  If the StartPointObject is 'Screen', then the value is always 1.\n\nSee Also: StartPntObjResult Property\n\nStartPointObject Property\n\nVision Objects: StartPntObjResult Property\n\nEdge\n\nLine",
+  "see_also": "Applies To\n\nVision Objects: Edge, Line",
+  "examples": []
+}

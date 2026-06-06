@@ -1,0 +1,12 @@
+{
+  "title": "Vision Guide 8.0 in Epson RC+ 8.0 Projects",
+  "file": "How_does_Vision_Guide_Work_with_EPSON_RC+_Projects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Guide 8.0 in Epson RC+ 8.0 Projects\n\nVision Guide 8.0 in Epson RC+ 8.0 Projects\n\nEpson RC+ 8.0 is based on Projects that are containers of all the necessary programs, teach points, and robot settings required for a specific robot application.\n\nThis Project configuration makes it easy to use one robot for multiple projects or test environments to check out new ideas without destroying your old working applications.\n\nWhen you create an Epson RC+ 8.0 application which includes Vision Guide 8.0, all the associated vision sequences and vision objects required for that application are kept within the project along with the other items normally contained in projects.  This ensures that when you open an existing project, everything relating to this project is available to you. .",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

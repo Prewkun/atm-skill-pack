@@ -1,0 +1,15 @@
+{
+  "title": "ResetAbort Method, Spel Class",
+  "file": "vbg_ResetAbort",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ResetAbort ()",
+  "parameters": "",
+  "description": "Resets the abort flag that is set with the Abort method.",
+  "notes": "When the Abort method is executed and no other Spel method is in cycle, then the next Spel method will generate a user abort error. This is done so that no matter when an Abort is issued, the routine that is executing Spel methods will receive the error. Use ResetAbort to clear this condition.\n\nNote: The ResetAbortEnabled property must be set to True for the ResetAbort feature to work.",
+  "see_also": "Abort\n\nReset\n\nResetAbort Example\n\nVB Example:\n\nSub btnMcal_Click()\n\n  m_spel.ResetAbort()\n\n  m_spel.MCal()\n\nEnd Sub\n\nC# Example:\n\nvoid btnMCal_Click(object sender, EventArgs e)\n\n{\n m_spel.ResetAbort();\n m_spel.MCal();\n\n}",
+  "examples": [
+    "Sub btnMcal_Click() m_spel.ResetAbort() m_spel.MCal()\nEnd Sub",
+    "void btnMCal_Click(object sender, EventArgs e)\n{ m_spel.ResetAbort(); m_spel.MCal();\n}"
+  ]
+}

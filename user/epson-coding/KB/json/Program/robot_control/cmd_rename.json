@@ -1,0 +1,14 @@
+{
+  "title": "Rename Command",
+  "file": "cmd_rename",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Rename\n\t\t\toldFileName, newFileName",
+  "parameters": "oldFileName\tString expression containing the path and name of the file to rename. See ChDisk for the details.\n\nnewFileName\tThe new name to be given to the file specified by oldFileName\n\t\t\t\t\t\t. See ChDisk for the details.",
+  "description": "Changes name of specified file oldFileName to newFileName.\n\nIf path is omitted, Rename searches for oldFileName in the current directory.\n\nRename is only enabled when oldFileName and newFileName are specified in the same drive.\n\nA file may not be renamed to a filename that already exists in the same path.\n\nWildcard characters are not allowed in either oldFileName or newFileName.",
+  "notes": "",
+  "see_also": "Copy\n\nRename Example",
+  "examples": [
+    "> Rename A.PRG B.PRG"
+  ]
+}

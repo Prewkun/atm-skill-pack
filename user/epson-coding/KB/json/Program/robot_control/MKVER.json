@@ -1,0 +1,12 @@
+{
+  "title": "Backup Controller",
+  "file": "MKVER",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Backup Controller\n\nBackup Controller\n\nUse Backup Controller to save controller configuration data on your PC.\n\nThe current status is saved in a folder containing several files. The controller configuration settings, task status, I/O status, robot status, etc. are saved in these files. This is useful for users to send a snapshot of the controller status to the supplier of your region or to Epson technical support, should the need arise.\n\nNOTE:  Backup Controller is the same as Backup Controller Function and Controller Status Storage Function that saves the state to the USB memory connected to the controller.\n\nEach is saved in the following folder.\n\nEpson RC +     : B_Controller type_Serial number_Date and time\n\nController        : BU_Controller type_Serial number_Date and time\n\nThis preference allows you to configure whether project files are saved or not when the controller status is exported.\n\nFor details, refer to [Setup]-[System Configuration]-[Controller]-[Preferences].\n\nSelect\n\t [Tools]-[Controller].\n\nClick\n\t on the [Backup Controller] button to open the [Browse For Folder]\n\t dialog box.\n\nSelect\n\t the disk drive and parent folder where you want to save the information.\n\n\tYou can create a new parent folder by clicking the [Make New Folder]\n\t button.\n\nClick\n\t the [OK] button.\n\n\tA new folder containing the backup files will be created. The selected\n\t folder will be named \"B_\" followed by the controller type,\n\t the controller serial number, and the date / time.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

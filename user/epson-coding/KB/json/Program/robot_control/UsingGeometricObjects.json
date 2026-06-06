@@ -1,0 +1,12 @@
+{
+  "title": "Using Geometric Objects",
+  "file": "UsingGeometricObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Geometric Objects\n\nUsing Geometric Objects\n\nNow that we've reviewed how normalized Geometric and searching works we have set the foundation for understanding how to use Vision Guide Geometric objects.  This next section will describe the steps required to use Geometric objects as listed below:\n\n\tCreate a new Geometric object\n\tPosition and size the search\n\t window\n\tPosition and size the model\n\t window\n\tPosition the model origin\n\tConfigure properties associated with the Geometric\n\t object\n\tTeach the model\n\tTest the Geometric object and examine the results\n\tMake adjustments to properties and test again\n\tWorking with Multiple Results from a Single Geometric\n\t object\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use.  If you have no vision sequence to work with, you can create a new vision sequence by clicking on the   [New Sequence] button on the Vision Guide toolbar.  You can also select a sequence which was created previously by clicking on the sequence tree in the Vision Guide window.  See vision sequences for more details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New Geometric Object\n\nStep 2: Position and Size the Search Window\n\nStep 3: Position and Size the Model Window\n\nStep 4: Position the Model Origin\n\nStep 5: Configure the Geometric Object Properties\n\nStep 6: Teach the Model for the Geometric Object\n\nStep 7: Test the Geometric Object/Examine the Results\n\nStep 8: Make Adjustments to Properties and Test Again",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

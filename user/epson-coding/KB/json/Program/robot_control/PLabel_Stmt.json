@@ -1,0 +1,14 @@
+{
+  "title": "PLabel Statement",
+  "file": "PLabel_Stmt",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PLabel pointNumber, newLabel",
+  "parameters": "pointNumber\tAn integer expression representing a point number.\n\nnewLabel\tA string expression representing the label to use for the specified point.",
+  "description": "PLabel Statement\n\nPLabel Statement",
+  "notes": "",
+  "see_also": "Defines a label for a specified point.\n\nPDef Function, PDescription, PDescription$ Function, PLabel$ Function, PNumber Function\n\nPLabel Statement Example\n\nPLabel 1, \"pick\"",
+  "examples": [
+    "PLabel 1, \"pick\""
+  ]
+}

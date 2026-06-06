@@ -1,0 +1,12 @@
+{
+  "title": "Step Over command (Run menu)",
+  "file": "run_stepover_cmd",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step Over command (Run menu)\n\nStep Over Command (Run Menu)\n : F10\n\nExecute the current source line. If the current line is a function, the entire function will be executed.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

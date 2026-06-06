@@ -1,0 +1,15 @@
+{
+  "title": "ShowDateTime Property",
+  "file": "ShowDateTime_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets whether to display the current date and time on a StatusBar control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.StatusBar1.ShowDateTime, True"
+  ],
+  "category": "gui_control"
+}

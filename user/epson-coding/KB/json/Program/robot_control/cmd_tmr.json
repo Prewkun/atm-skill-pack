@@ -1,0 +1,14 @@
+{
+  "title": "Tmr Function",
+  "file": "cmd_tmr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Tmr(timerNumber)",
+  "parameters": "timerNumber\tInteger expression representing which of the 64 timers to check the time of (0 - 63).",
+  "description": "Returns elapsed time in seconds since the timer specified was started.  Unlike the ElapsedTime function, the Tmr function counts the time while the program is halted.\n\nTimers are reset with TmReset.\n\nReal overhead\n\nTmReset 0\n\noverHead = Tmr(0)",
+  "notes": "",
+  "see_also": "ElapsedTime Function\n\nTmReset\n\nTmr Function Example\n\nTmReset 0 'Reset Timer 0\n\nFor i = 1 To 10 'Perform operation 10 times\n\n  GoSub Cycle\n\nNext\n\nPrint Tmr(0) / 10 'Calculate and display cycle time",
+  "examples": [
+    "TmReset 0 'Reset Timer 0\nFor i = 1 To 10 'Perform operation 10 times GoSub Cycle\nNext\nPrint Tmr(0) / 10 'Calculate and display cycle time"
+  ]
+}

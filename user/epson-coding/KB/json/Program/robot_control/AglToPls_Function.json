@@ -1,0 +1,16 @@
+{
+  "title": "AglToPls Function",
+  "file": "AglToPls_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AglToPls(j1, j2, j3, j4, [ j5, j6 ], [ j7 ], [ j8, j9 ] )",
+  "parameters": "j1\n\t\t - j6\tReal expressions\n\t\t representing joint angles.\n\nj7\tReal expression\n\t\t representing the joint #7 angle. For the JOINT type 7-axis robot.\n\nj8\tReal expression\n\t\t representing the additional S axis angle.\n\nj9\tReal expression\n\t\t representing the additional T axis angle.",
+  "description": "Use AglToPls to create a point from joint angles.\n\nNote\n\nIn certain cases, when the result of AglToPls is assigned to a point data variable, the arm moves to a joint position that is different from the joint position specified by AglToPls.\n\nFor Example:\n\nP1 = AglToPls(0, 0, 0, 90, 0, 0)\n\nGo P1 ' moves to AglToPls(0, 0, 0, 0, 0, 90) joint position\n\nSimilarly, when the AglToPls function is used as a parameter in a CP motion command, the arm may move to a different joint position from the joint position specified by AglToPls.\n\nMove AglToPls(0, 0, 0, 90, 0, 0) ' moves to AglToPls(0, 0, 0, 0, 0, 90) joint position\n\nWhen using the AglToPls function as a parameter in a PTP motion command, this problem does not occur.",
+  "notes": "",
+  "see_also": "Converts robot angles to pulses.\n\nAgl, JA, Pls\n\nAglToPls Function",
+  "examples": [
+    "P1 = AglToPls(0, 0, 0, 90, 0, 0)\nGo P1 ' moves to AglToPls(0, 0, 0, 0, 0, 90) joint position",
+    "Move AglToPls(0, 0, 0, 90, 0, 0) ' moves to AglToPls(0, 0, 0, 0, 0, 90) joint position",
+    "Go AglToPls(0, 0, 0, 90, 0, 0)"
+  ]
+}

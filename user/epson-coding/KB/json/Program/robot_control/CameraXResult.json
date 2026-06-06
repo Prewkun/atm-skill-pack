@@ -1,0 +1,12 @@
+{
+  "title": "CameraX Result",
+  "file": "CameraXResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the X position coordinate of the found part's position in the camera coordinate frame.",
+  "notes": "The CameraX result is always in millimeters in the camera coordinate system.\n\nIt should be noted that the CameraX result can only be calculated for vision sequences which have been associated with a calibration.  If no calibration has been assigned to the vision sequence then if VGet is used to retrieve the CameraX result, an error will occur.\n\nStatistics\n\nFor the CameraX result, the following statistics are available. CameraXMax, CameraXMean, CameraXMin, CameraXStdDev.  Please see Statistics in the Vision Guide manual for details about using statistics.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, Blob, BoxFinder, CodeReader, Contour, CornerFinder, Correlation, DefectFinder, Edge, Geometric, LineInspector, OCR, Point, Polar, Coordinates\n\nAngle Result\n\nCameraXYU Result\n\nCameraY Result\n\nFound Result\n\nRobotX Result\n\nRobotXYU Result\n\nVision Objects: CameraX Result\n\nBlob\n\nColorMatch\n\nCoordinates\n\nCorrelation\n\nEdge\n\nGeometric\n\nPoint\n\nPolar\n\nOCR\n\nBoxFinder\n\nCornerFinder\n\nContour",
+  "examples": []
+}

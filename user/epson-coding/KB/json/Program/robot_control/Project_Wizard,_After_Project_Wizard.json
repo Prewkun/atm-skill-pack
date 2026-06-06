@@ -1,0 +1,12 @@
+{
+  "title": "Project Wizard, After Project Wizard",
+  "file": "Project_Wizard,_After_Project_Wizard",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Wizard, After Project Wizard\n\nAfter Project Wizard\n\nAfter the wizard finishes, the [Finish] button will be enabled. Click the [Finish] button and create a new project.\n\nAfter\n\t clicking [Finish], SPEL+ program code and related objects are automatically\n\t generated for a new project.\n\nPress\n\t F5 to run the new program. Use caution when running a program that\n\t moves the robot.\n\nYou\n\t can make changes to the generated program to refine operation to suit\n\t customer's needs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

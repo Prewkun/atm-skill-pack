@@ -1,0 +1,15 @@
+{
+  "title": "SingularityDist Function",
+  "file": "SingularityDist_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SingularityDist",
+  "parameters": "",
+  "description": "SingularityDist Function\n\nSingularityDist Function",
+  "notes": "",
+  "see_also": "Returns the SingularityDist setting value.\n\nAvoidSingularity\n\nSingularityAngle Statement\n\nSingularitySpeed\n\nSingularityDist Function Example\n\nReal currSingularityDist\n\ncurrSingularityDist = SingularityDist",
+  "examples": [
+    "Real currSingularityDist",
+    "currSingularityDist = SingularityDist"
+  ]
+}

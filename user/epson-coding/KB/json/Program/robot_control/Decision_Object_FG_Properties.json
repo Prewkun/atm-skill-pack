@@ -1,0 +1,12 @@
+{
+  "title": "Decision Object FG Properties",
+  "file": "Decision_Object_FG_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Decision Object FG Properties\n\nDecision Properties\n\nThe following list is a summary of properties for the Decision object.  The details for each property are explained in the Description field.\n\nProperty\tDescription\n\nName Property\tThis property sets a particular name that is assigned to force guide object.\n\nWhen creating the Decision object, name is assigned automatically. Automatically\n\nassigned name is added a number after Decision (e.g. Decision01).\n\nYou can change the name. Set up 16 characters at the maximum. Please use\n\nalphanumeric characters and underscore [ _ ]. Note: The initial character cannot be a numeric character.\n\nDescription Property\tThis property sets descriptions about force guide objects.\n\nYou can set the character string up to 255 characters.\n\nValue\tDescription\n\nTrue\tEnable a force guide object.\n\nFalse\tDisable a force guide object.\n\nDefault:  True\n\nDisable a force guide object.\n\nConditionObject Property\tSet the force guide object to be a target of the conditional determination.\n\nSpecify the force guide object which is written before the Decision object. Based on that result, the program proceeds to True or False branch.\n\nValue\tDescription\n\nTargetPassed\tWhen the target force guide object is succeeded, the program proceeds to True branch.\n\nTargetFailed\then the target force guide object is failed, the program proceeds to True branch.\n\nTargetNoExec\tWhen the target force guide object is not executed, the program proceeds to True branch.\n\nDefault:  TargetPassed\n\nWhen the target force guide object is not executed, the program proceeds to True branch.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Robot Points, Pallets, Tools, Locals",
+  "file": "Robot_Points,_Pallets,_Tools,_Locals",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Robot Points, Pallets, Tools, Locals\n\nRobot Points, Pallets, Tools, Locals\n\nDecide on which points you need for the work cell. In many cases you will only need one point file per robot.\n\nTake advantage of Pallets, Tools, and Locals. Time spent on using these can save hours later on the production line. For example, if your cell has many points that take a lot of time to train, consider using Locals so that if the end effecter is damaged or replaced, you only need to redefine the Locals, not retrain all of the points.\n\nTry to design in automatic or semi-automatic procedures for calibrating tools and locals. Even if you define them manually, write instructions on how to define them so the process can be repeated easily.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Specifications Calibration Commercial Vision",
+  "file": "Specifications_Calibration_Commercial_Vision",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifications Calibration Commercial Vision\n\nSpecifications\n\nCalibration data/Calibration file\n\nUp to 16 calibration data can be saved to the robot controller at the same time.\n\nIf you are using more than 16 calibration data, load them from the file and save to the file.\n\nUp to 16 files can be created.  Be careful not to exceed the maximum number of files.\n\nCamera installation\n\nFollowing seven camera mounting types are supported.\n  For details, refer to Camera Installation.\n\n1: Standalone\n\n2: Fixed downward camera\n\n3: Fixed upward camera\n\n4: Mobile camera on the Joint #2\n\n5: Mobile camera on the Joint #4\n\n6: Mobile camera on the Joint #5\n\n7: Mobile camera on the Joint #6\n\nImage coordinate system\n\nFollowing image shows the adapted image coordinate system.  The unit is pixel.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

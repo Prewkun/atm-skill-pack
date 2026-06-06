@@ -1,0 +1,12 @@
+{
+  "title": "Searching Repeatability and Accuracy",
+  "file": "SearchingRepeatabilityandAccuracy",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Searching Repeatability and Accuracy\n\nSearching Repeatability and Accuracy\n\nSearching repeatability and accuracy is a function of the size and details of the model (shape, coarseness of features, and symmetry of the model), and the degradation of the features as seen in the search window (noise, defects, and rotation and scale effects).\n\nTo measure the effect of noise on position, you can perform a search in a specific search window that contains a non-degraded feature, and then perform the exact same search again (acquiring a 2nd image into the frame buffer) without changing the position of the object, and then comparing the measured positions.\n\nThis can be easily done by following steps:\n\n1. Click the [Run] button of the object on the execution panel two or more times\n\n2. Click the [Statistics] toolbar button.\n\n3. The Statistics dialog can then be used to see the difference in position between the 2 object searches.\n\nFor a large model (30x30) on an non-degraded feature the reported position can be repeatable to 1/20 of a pixel.  However, in most cases it is more realistic to achieve results of just below a pixel (1/2, 1/3, or 1/4 pixel).\n\nSearching accuracy can be measured by performing a search in a specific search window that contains an non-degraded feature, moving the object an exact distance and then comparing the reported position difference with the actual difference.  If you have a large model (30x30 or greater), no degradation, no rotation or scale errors, and have sufficient edges in both X and Y directions, searching can be accurate to 1/4 pixel.  Keep in mind that this searching accuracy is for the vision system only and does not take into effect the inaccuracies which are inherent with all robots.  So if you try to move the part with the robot you must also consider the inaccuracies of the robot mechanism itself.\n\nThe effects of rotation and scale on searching accuracy depend on the model:\n\n\tModels that are rotationally symmetric do\n\t well.\n\tModels that have fine features and no symmetry\n\t do not do well.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

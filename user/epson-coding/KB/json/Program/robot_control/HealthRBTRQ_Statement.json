@@ -1,0 +1,14 @@
+{
+  "title": "HealthRBTRQ Statement",
+  "file": "HealthRBTRQ_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Displays the torque value which affects the life of the parts on the specified joint in robot operation from HealthRBStart to HealthRBStop.  The result is a real number from 0 to 1.  The maximum torque value is \"1\".",
+  "notes": "- This command does not function in Auto mode.\n\n- This command does not function in dry run mode (including the virtual controller).",
+  "see_also": "Displays the torque value which affects the life of the parts on the specified joint.",
+  "examples": [
+    "> HealthRBTRQ 1, 1\n0.020\n>"
+  ]
+}

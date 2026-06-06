@@ -1,0 +1,14 @@
+{
+  "title": "J1_Levels Property",
+  "file": "J1_LowerLevel_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "J1_Levels Property\n\nJ1_Levels, J2_Levels, J3_Levels, J4_Levels, J5_Levels, J6_Levels Property",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Motion Restriction Object FMR#\n\nComments\n\nSets or returns the value of the lower threshold and upper threshold in axis position.",
+  "examples": [
+    ">"
+  ]
+}

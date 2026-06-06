@@ -1,0 +1,14 @@
+{
+  "title": "VCalPoints",
+  "file": "VCalPoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "VCalPoints enables you to teach points for a vision calibration from a SPEL+ program.",
+  "notes": "The calibration definition must be set up from the Vision Guide window or created using VCreateCalibration before a calibration will run.  Also, the calibration points must already be taught, or you can use a point file in the Controller with the same name as the calibration that has the point data required for calibration.  If Epson RC+ sees this point file, it will use the points in the file.  See the following",
+  "see_also": "Statement\n\nVCal\n\nVision Sequences",
+  "examples": [
+    "Integer status\n\nVCalPoints \"mycal\", status\nIf status =1 Then VCal \"mycal\" VSave\nEndIf"
+  ]
+}

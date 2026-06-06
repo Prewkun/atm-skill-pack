@@ -1,0 +1,12 @@
+{
+  "title": "Coordinates Object Results",
+  "file": "Coordinates_Object_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Coordinates Object Results\n\nCoordinates Object Results\n\nThe following list is a summary of the Coordinates object results with brief descriptions. The details for each result are explained in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nResults\tDescription\n\nAngle\tReturns a point detected in degrees.\n\nCameraX\tReturns the X coordinate position of\n\t\t an object's position in the camera coordinate system.\n\nCameraY\tReturns the Y coordinate position of\n\t\t an object's position in the camera coordinate system.\n\nCameraXYU\tRuntime only.\n\nReturns the CameraX, CameraY, and CameraU\n\t\t coordinates of an object's position in the camera coordinate system.\n\nNumberFound\tReturns the number of the point found.\n\nFound\tReturns whether an object was found.\n\nPassed\tReturns whether an object detection\n\t\t result was accepted.\n\nPixelX\tReturns the X coordinate position of\n\t\t an object's position in pixels.\n\nPixelY\tReturns the Y coordinate position of\n\t\t an object's position in pixels.\n\nPixelXYU\tRuntime only.\n\nReturns the PixelX, PixelY, and PixelU\n\t\t coordinates of a found object's position in pixels.\n\nRobotX\tReturns the X coordinate position of\n\t\t a found object's position with respect to the Robot's Coordinate\n\t\t System.\n\nRobotY\tReturns the Y coordinate position of\n\t\t a found object's position with respect to the Robot's Coordinate\n\t\t System.\n\nRobotU\tReturns the amount of rotation of a\n\t\t found object's position with respect to the Robot's Coordinate\n\t\t System.\n\nRobotXYU\tRuntime only.\n\nReturns the RobotX, RobotY coordinates\n\t\t and the amount of rotation of a found object's position with respect\n\t\t to the Robot Coordinate System.\n\nShowAllResults\tDisplays a dialog box which allows you\n\t\t to see all results for a specified vision object in a table form.\n\t\t This makes it easy to compare results.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

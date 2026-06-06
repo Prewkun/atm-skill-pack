@@ -1,0 +1,12 @@
+{
+  "title": "PixelMinorDiam Result",
+  "file": "PixelMinorDiam_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns length of the minor axis of the ellipse found by ArcFinder.",
+  "notes": "Returns length of the minor axis of the ellipse found by ArcFinder in pixels.  To obtain the value in millimeters, use the FoundMinorDiam result.\n\nSee Also: PixelMinorDiam Result\n\nArcSearchType Property\tFoundMajorDiam Result\n\nFoundMinorDiam Result\tPixelMajorDiam Result\n\nVision Objects: PixelMinorDiam Result\n\nArcFinder",
+  "see_also": "Vision Objects: ArcFinder",
+  "examples": []
+}

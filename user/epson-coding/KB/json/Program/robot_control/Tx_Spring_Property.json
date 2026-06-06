@@ -1,0 +1,14 @@
+{
+  "title": "Tx_Spring Property",
+  "file": "Tx_Spring_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the virtual coefficient of elasticity for force control in the specified axis in the direction of rotation in the force coordinate system.",
+  "notes": "",
+  "see_also": "Applies To\n\nForce Control\n Ty_Spring, Tz_Spring Property\n\nTx_Mass, Ty_Mass, Tz_Mass Property",
+  "examples": [
+    "Function ForceControlTest FSet FCS1.Orientation, FG_TOOL FSet FC1.CoordinateSystem, FCS1 FSet FC1.Enabled, False, False, False, True, False, False FSet FC1.Tx_Spring, 20000 FSet FC1.Tx_Damper, 8000 FSet FC1.Tx_Mass, 10000 Move CurPos +TLW(10) FC1 ROT\nFend"
+  ]
+}

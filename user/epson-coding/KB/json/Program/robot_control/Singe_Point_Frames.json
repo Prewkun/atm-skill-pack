@@ -1,0 +1,12 @@
+{
+  "title": "Singe Point Frames",
+  "file": "Singe_Point_Frames",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Singe Point Frames\n\nSingle Point Frames\n\nSingle point frames are an optional usage method for the Frame object. With this usage the OriginPoint property specifies a vision object to be used as an XY positional origin reference.  When the OriginAngleEnabled property is set to FALSE, the frame adjusts position based on the XY position change of the vision object used as the OriginPoint. No rotation is taken into account.  This is useful for simple XY shifts where one object (such as a blob or correlation) finds the XY position of a part, and then the rest of the objects in the frame adjust in X and Y accordingly.\n\nIn some cases, you may also need to account for rotation within your frame.  Assume that a Blob object is used to find a part's X, Y, and U position (XY coordinate + rotation).  Then let's assume that a variety of other vision objects are required to find features on the part.  The Blob object can be used to define a single point frame including rotation of the frame, and the other objects within the frame will then shift in X,Y and rotate based on the rotation returned by the Blob object.  Hence, only one vision object was required to define both the XY shift and rotation of the part.  This shows why the YAxisPoint property is not required for Single Point Frames.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

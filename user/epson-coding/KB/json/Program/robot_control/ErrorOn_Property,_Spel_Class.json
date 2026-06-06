@@ -1,0 +1,15 @@
+{
+  "title": "ErrorOn Property, Spel Class",
+  "file": "ErrorOn_Property,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "ReadOnly Property ErrorOn As Boolean",
+  "parameters": "",
+  "description": "Returns True if a critical error has occured in the Controller.",
+  "notes": "When the Controller is in the error state, the ErrorOn property returns True, and you can retrieve the error code by using the ErrorCode property.\n\nType\n\nBoolean",
+  "see_also": "EStopOn\n\nSafetyOn\n\nErrorOn Example\n\nVB Example:\n\nIf m_spel.ErrorOn Then\n\n    m_spel.Reset\n\nEnd If\n\nC# Example:\n\nif (m_spel.ErrorOn)\n\n   m_spel.Reset();",
+  "examples": [
+    "If m_spel.ErrorOn Then\n    m_spel.Reset\nEnd If",
+    "if (m_spel.ErrorOn)\n   m_spel.Reset();"
+  ]
+}

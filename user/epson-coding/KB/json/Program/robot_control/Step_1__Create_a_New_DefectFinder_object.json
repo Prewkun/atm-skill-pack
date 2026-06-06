@@ -1,0 +1,12 @@
+{
+  "title": "Step 1: Create a New DefectFinder object",
+  "file": "Step_1__Create_a_New_DefectFinder_object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 1: Create a New DefectFinder object\n\nStep 1: Create a New DefectFinder Object\n\n\tClick the [All Tools] - [ DefectFinder]\n\t button  on the Vision Guide toolbar.\n\tMove the mouse over the image display. You will see\n\t the mouse pointer change to the DefectFinder object icon.\n\tContinue moving the mouse until the icon is at the\n\t desired position in the image display, then click the left mouse button\n\t to create the object.\n\tNotice that a name for the\n\t object is automatically created. In the example, it is called \"DefFind01\"\n\t because this is the first DefectFinder object created for this sequence.\n\t (We will explain how to change the name later.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

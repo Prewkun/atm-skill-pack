@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Shift Calibration",
+  "file": "Part_Feeding_CalWiz_Shift_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Shift Calibration\n\nShift Calibration\n\nNote:  The shift calibration is required when the Pick Region described in 2.3.5  Pick is set to A, B, C or D (anything other than Anywhere).\n\n(1) Add one part, and then click the <Run> button.\n\n(2) Click the <Yes> button.\n\nThis starts the calibration process.\n\n(3) Click the <Next> button.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

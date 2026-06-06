@@ -1,0 +1,15 @@
+{
+  "title": "VGetEdgePixelXYU Method, Spel Class",
+  "file": "VGetEdgePixelXYU_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VGetEdgePixelXYU (Sequence As String, Object As String, EdgeResultIndex As Integer, ByRef Found As Boolean, ByRef X As Single, ByRef Y As Single, ByRef U As Single)",
+  "parameters": "Sequence\tString expression containing the name of a vision sequence in the current EPSON RC+ project.\n\nObject\tString expression containing the name of an object in sequence Sequence.\n\nEdgeResultIndex\tInteger expression representing the edge result number.\n\nFound\tBoolean variable that will contain whether or not the object was found.\n\nX\tReal variable that will contain x coordinate in pixels.\n\nY\tReal variable that will contain y coordinate in pixels.\n\nU\tReal variable that will contain the angle in degrees.",
+  "description": "Retrieves X, Y, and U pixel coordinates for each edge of a Line Finder, Arc Finder search.",
+  "notes": "",
+  "see_also": "VGetEdgeCameraXYU\n\nVGetEdgePixelXYU Example\n\nVB Example:\n\nDim found As Boolean\n\nDim x As Single, y As Single, u As Single\n\nDim seq As String, lineFinder As String\n\nseq = \"testSeq\"\n\nlineFinder = \"LineFind01\"\n\nm_spel.VRun(seq)\n\n' The NumberOfEdges for the LineFinder is 10\n\nFor i=1 to 10\n m_spel.VGetEdgePixelXYU(seq, lineFinder, 1, found(i), x(i), y(i), u(i))\n\nNext i\n\nC# Example:\n\nbool[] found = new bool[11];\n\nfloat[] x = new float[11];\n\nfloat[] y = new float[11];\n\nfloat[] u = new float[11];\n\nstring seq, lineFinder;\n\nseq = \"testSeq\";\n\nlineFinder = \"LineFind01\";\n\nm_spel.VRun(seq);\n\n// The NumberOfEdges for the LineFinder is 10\n\nfor(int i = 1; i <= 10; i++)\n\n  m_spel.VGetEdgePixelXYU(seq, lineFinder, i, out found[i],\n\n     out x[i], out y[i], out u[i]);",
+  "examples": [
+    "Dim found As Boolean\nDim x As Single, y As Single, u As Single\nDim seq As String, lineFinder As String\n\nseq = \"testSeq\"\nlineFinder = \"LineFind01\"\nm_spel.VRun(seq)\n' The NumberOfEdges for the LineFinder is 10\nFor i=1 to 10 m_spel.VGetEdgePixelXYU(seq, lineFinder, 1, found(i), x(i), y(i), u(i))\nNext i",
+    "bool[] found = new bool[11];\nfloat[] x = new float[11];\nfloat[] y = new float[11];\nfloat[] u = new float[11];\nstring seq, lineFinder;\n\nseq = \"testSeq\";\nlineFinder = \"LineFind01\";\nm_spel.VRun(seq);\n// The NumberOfEdges for the LineFinder is 10\nfor(int i = 1; i <= 10; i++) m_spel.VGetEdgePixelXYU(seq, lineFinder, i, out found[i],\n     out x[i], out y[i], out u[i]);"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "VSave Method, Spel Class",
+  "file": "vbg_VSave",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VSave ()",
+  "parameters": "",
+  "description": "Saves vision properties in the current EPSON RC+ project.",
+  "notes": "Use VSave to make any changes to vision properties permanent.",
+  "see_also": "VSet\n\nVSave Example\n\nVB Example:\n\nWith m_spel\n\n  .VSet(\"seq01\", \"blob01\", \"SearchWinLeft\", 100)\n\n  .VSet(\"seq01\", \"corr01\", \"Accept\", userAccept)\n\n  .VSave()\nEnd With\n\nC# Example:\n\nm_spel.VSet(\"seq01\", \"blob01\", \"SearchWinLeft\", 100);\n\nm_spel.VSet(\"seq01\", \"corr01\", \"Accept\", userAccept);\n\nm_spel.VSave();",
+  "examples": [
+    "With m_spel .VSet(\"seq01\", \"blob01\", \"SearchWinLeft\", 100) .VSet(\"seq01\", \"corr01\", \"Accept\", userAccept) .VSave()End With",
+    "m_spel.VSet(\"seq01\", \"blob01\", \"SearchWinLeft\", 100);\nm_spel.VSet(\"seq01\", \"corr01\", \"Accept\", userAccept);\nm_spel.VSave();"
+  ]
+}

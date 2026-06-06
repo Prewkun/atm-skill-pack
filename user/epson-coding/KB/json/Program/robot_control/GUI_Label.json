@@ -1,0 +1,12 @@
+{
+  "title": "Label Control",
+  "file": "GUI_Label",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Label controls are used to display text or images that cannot be edited by the user. They are used to identify objects on a form to provide a description of what a certain control will do if clicked, for example, or to display information in response to a run-time event or process in your application.  Because the Label control cannot receive focus, it can also be used to create access keys for other controls.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

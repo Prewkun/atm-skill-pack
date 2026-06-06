@@ -1,0 +1,14 @@
+{
+  "title": "PF_Shift",
+  "file": "PF_Shift",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_ Shift Part ID, Direction, [, Duration ]",
+  "parameters": "part\n\t\t ID\tSpecifies\n\t\t the part ID (integer value 1 to 32).\n\nDirection\tValue\n\t\t\t\t (defined by PartFeeding.inc)\tWork\n\nForward\tPF_SHIFT_FORWARD\n\nForward Left\tPF_SHIFT_FORWARD_LEFT\n\nForward Right\tPF_SHIFT_FORWARD_RIGHT\n\nLeft\tPF_SHIFT_LEFT\n\nRight\tPF_SHIFT_RIGHT\n\nBackward\tPF_SHIFT_BACKWARD\n\nBackward\n\nLeft\tPF_SHIFT_BACKWARD_LEFT\n\nBackward\n\nRight\tPF_SHIFT_BACKWARD_RIGHT\n\nDuration\tSpecifies\n\t\t the shift operating time.  (in milliseconds)\n\nThis\n\t\t can be omitted. When omitted, the value in the Calibrate &\n\t\t Test dialog (See 2.4.9  Shift - Test & Adjust (Simple),\n\t\t or 2.4.10  Shift - Test & Adjust (Advanced)) will be\n\t\t used.\n\nWhen\n\t\t integer value is -1, the operation is same as omitted one.",
+  "description": "Performs the shifting operation of IF series.\n\nShifting operation is used in the following cases.\n\n- Move the part closer to the place position to increase the pick and place efficiency of the robot.\n\n- When a using custom platform, dropping parts into slots or holes to make them stand up or align them.\n\nIt cannot be run under the following conditions.\n\n- When executed in a user function, the feeder specified in this command (specified by the Part ID) is used in the Part Feeding process (PF_Start command) (Error 7733)\n\n- When executed in a callback function, specified part ID is not set for the PF_Start command (Error 7733)\n\n- When executed from a virtual controller or command window. (Error 2582)\n\nThis command uses SyncLock for internal processing. For details, please refer to 1.3.6  Functions used in Part Feeding process ..\n\nProgram Example\n\nPF_Shift 1, PF_SHIFT_FORWARD, 500",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "PF_Shift 1, PF_SHIFT_FORWARD, 500"
+  ]
+}

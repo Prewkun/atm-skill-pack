@@ -1,0 +1,14 @@
+{
+  "title": "Time Function",
+  "file": "cmd_timefunc",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Time(unitSelect)",
+  "parameters": "unitSelect\tAn integer number ranging from 0-2. This integer specifies which unit of time the controller returns:\n\n0: hours\n\n1: minutes\n\n2: seconds",
+  "description": "Returns the controller accumulated operating time as an integer.",
+  "notes": "",
+  "see_also": "Hour\n\nTime Function Example\n\nShown below are a few examples from the command window:\n\nFunction main\n\nLong h, m, s\n\nh = Time(0) 'Store the time in hours\n\n\t\t  m = Time(1) 'Store the time in minutes\n\n\t\t  s = Time(2) 'Store the time in seconds\n\n\t\t  Print \"This controller has been used:\"\n\n\t\t  Print h, \" hours, \",\n\n\t\t  Print m, \" minutes, \",\n\n\t\t  Print s, \" seconds\"\n\n\t\tFend",
+  "examples": [
+    "Function main\n\n\t\t\t  Long h, m, s\n\nh = Time(0) 'Store the time in hours\n\t\t  m = Time(1) 'Store the time in minutes\n\t\t  s = Time(2) 'Store the time in seconds\n\t\t  Print \"This controller has been used:\"\n\t\t  Print h, \" hours, \",\n\t\t  Print m, \" minutes, \",\n\t\t  Print s, \" seconds\"\n\t\tFend"
+  ]
+}

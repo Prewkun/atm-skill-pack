@@ -1,0 +1,12 @@
+{
+  "title": "ScaleTarget Property",
+  "file": "ScaleTargetProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the expected scale of the model you are searching for.",
+  "notes": "To use ScaleTarget, you must set the ScaleEnabled property to True.  The actual scale range is determined by ScaleTarget, ScaleFactorMin, and ScaleFactorMax.\n\nThe range is determined as follows:\n\nminimum scale = ScaleFactorMin * ScaleTarget\n\nmaximum scale = ScaleFactorMax * ScaleTarget\n\nSee Also: ScaleTarget Property\n\nScaleEnable Property\n\nScaleFactorMax Property\n\nScaleFactorMin Property\n\nVision Objects: ScaleTarget Property\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Geometric",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Here Method, Spel Class",
+  "file": "vbg_Here",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Here(PointNumber As Integer )\n\nSub Here(PointName As String )",
+  "parameters": "PointNumber\tInteger expression for a point in the point memory for the current robot. Any valid point number can be used starting with 0.\n\nPointName\tA string expression for a point label.",
+  "description": "Teaches a point at the current position.",
+  "notes": "",
+  "see_also": "SetPoint\n\nHere Example\n\nVB Example:\n\nm_spel.Here(\"P20\")\n\nC# Example:\n\nm_spel.Here(\"P20\");",
+  "examples": [
+    "m_spel.Here(\"P20\")",
+    "m_spel.Here(\"P20\");"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "PlaneRelativeY Property",
+  "file": "PlaneRelativeY_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the end conditions related to positions, this property sets the relative position in Y direction to set Plane.\n\nIt is used when RelativePlane is specified by PosCheckType.\n\nY direction follows the coordinate system specified by PlaneRelativeOrg.\n\nValues\n\nMinimum value -2000\n\nMaximum value 2000\n\nDefault:  0\n\nSee Also: PlaneRelativeY Property\n\nPlaneRelativeX Property\n\nPlaneRelativeZ Property",
+  "notes": "",
+  "see_also": "Applies To\n\nPress Object, PressMove",
+  "examples": []
+}

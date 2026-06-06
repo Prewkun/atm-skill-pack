@@ -1,0 +1,12 @@
+{
+  "title": "Primary Features of Background task",
+  "file": "BGTaskFeatures",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Primary Features of Background task\n\nPrimary Features of Background task\n\nThe purpose of the background task is to monitor the status of the cell as a whole and to communicate with external devices.\n\nFunction BgMain, a function specified as the \"Background task\" will be automatically activated as task 65 when the controller starts and loads the project.\n\nIf another task is created within the background task using the XQT command, that created task will be assigned to task No.65 (and onward in the ascending order) and will also function as a background task. In addition, specifying a task type for an XQT command in a background task has no meaning.\n\nAn operator is not necessarily aware of the operating Background task which does not stop at the input of emergency stop or safeguard signal. The Background task will not stop when an operator inputs \"PAUSE\" or \"ABORT\".\n\nIn this sense, the background task functions for the application program to work as a part of the system.\n\nOn the other hand, the execution commands to operate the Manipulator, set-up commands for the Manipulator or the commands for image processing cannot be executed within the background task.\n\nCAUTION\t■\tSpecify\n\t\t Forced flags in I/O output commands operated from background tasks\n\t\t to enable On/Off of I/O outputs at the following times:\n\nDuring\n\t\t emergency stop, when safety door is open, in teach mode, or when\n\t\t an error occurs\n\nDo\n\t\t not connect external equipment that operates mechanically, such\n\t\t as actuators, to an I/O output that specifies a Forced flag. Doing\n\t\t so may cause external equipment to operate at the following times,\n\t\t which can be extremely dangerous:\n\nDuring\n\t\t emergency stop, when safety door is open, in teach mode, or when\n\t\t an error occurs\n\nForced\n\t\t flag is designed to be specified for I/O outputs connected to\n\t\t external equipment without mechanical motion such as status display\n\t\t LEDs.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

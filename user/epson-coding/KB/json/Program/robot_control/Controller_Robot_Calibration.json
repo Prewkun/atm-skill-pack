@@ -1,0 +1,12 @@
+{
+  "title": "Controller Robot Calibration",
+  "file": "Controller_Robot_Calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Controller Robot Calibration\n\n[Setup]-[System Configuration]-[Controller]-[Robots]-[Robot**]-[Calibration] Page\n\nYou can calibrate each joint of the robot from this page.\n\nItem\tDescription\n\nCalibrate\tDisplay\n\t\t the [Calibration Wizard] dialog for calibration.\n\nCalPls\tThese\n\t\t are the Calpls settings for each joint.\n\nNormally, the Calibration\n\t\t Wizard will calculate these values.\n\nHofs\tThese\n\t\t are the Hofs settings for each joint.\n\nNormally, the calibration wizard will\n\t\t calculate these values.\n\nLoad\n\t\t Cal\tUse this\n\t\t button to load data from a previously save calibration file.\n\nAfter the data is loaded, the grid will\n\t\t be refreshed to show the values.\n\nSave\n\t\t Cal\tUse this\n\t\t button to save the calibration data to a calibration file.\n\nWhen using safety function (the Controller with Safety Board), changing Hofs requires start the Safety Function Manager to update the Hofs setting on the safety board. For details, refer to the following manual.\n\nRobot Controller Safety Function Manual 4.2.2.1 Checking Settings When Starting up Safety Function Manager",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Reversed Result",
+  "file": "Reversed_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the polarity of the found object.",
+  "notes": "Returns the polarity of the found object. When the model is a black work piece on a white background, this result returns \"False\" if the same black work piece on a while background is found, and returns \"True\" if the white work piece on a black background is found.",
+  "see_also": "Applies To\n\nVision Objects: Geometric\n\nSearchReversed Property\n\nVision Objects: Reversed Result\n\nGeometric",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ArmCalibClr Statement",
+  "file": "ArmCalibClr_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "ArmCalibClr",
+  "parameters": "",
+  "description": "Robot parameter data is stored in the compact flash memory in the controller. Therefore, writing to the compact flash memory occurs when executing this command. Frequent writing to the compact flash memory affects the lifetime of the compact flash memory. We recommend limiting the use of this command at a minimum.\n\nNote\n\nDo not use ArmCalibClr unless absolutely necessary.\n\nArmCalibClr clears the arm length calibration parameters set using ArmCalibSet. ArmCalibSet contains factory settings that have been precisely set. (When purchasing the Arm Length Calibration Option) Accidentally clearing these settings will require precise measurements to be performed by the factory again. Do not use ArmCalibClr unless absolutely necessary.",
+  "notes": "",
+  "see_also": "ArmCalib\n\nArmCalibSet\n\nArmCalibClr Statement Example\n\nArmCalibClr",
+  "examples": [
+    "ArmCalibClr"
+  ]
+}

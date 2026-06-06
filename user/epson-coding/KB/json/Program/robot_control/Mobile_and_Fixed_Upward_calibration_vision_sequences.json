@@ -1,0 +1,12 @@
+{
+  "title": "Vision Sequence for Detecting One Target",
+  "file": "Mobile_and_Fixed_Upward_calibration_vision_sequences",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Sequence for Detecting One Target\n\nVision Sequence for Detecting One Target\n\nWhen the mobile camera or fixed downward/upward camera whose reference point type is \"EndEffector\" is used, the sequence will search for one calibration target in the entire field of view.\n\nBe sure to define the size of the search window as large as the entire image display (see figure below).  The X and Y results for the last object in the sequence will be used by the calibration software during calibration. For available objects, refer to Vision Guide 8.0 Properties and Results Reference  PixelXYU Result.\n\nVision object search window sized to cover entire image display",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

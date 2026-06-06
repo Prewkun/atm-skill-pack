@@ -1,0 +1,30 @@
+{
+  "title": "BGo Method, Spel Class",
+  "file": "vbg_BGo",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub BGo (PointNumber As Integer)\n\nSub BGo (Point As SpelPoint)\n\nSub BGo (Point As SpelPoint, AttribExpr as String)\n\nSub BGo (PointExpr As String)",
+  "parameters": "Each syntax has one parameter that specifies the end point which the arm travels to during the BGo motion. This is the final position at the end of the point to point motion.\n\nPointNumber\tSpecifies\n\t\t the end point by using the point number for a previously taught\n\t\t point in the Controller's point memory for the current robot.\n\nPoint\tSpecifies\n\t\t the end point by using a SpelPoint data type.\n\nAttribExpr\tSpecifies\n\t\t the end point attributes by using a string expression.\n\nPointExpr\tSpecifies\n\t\t the end point by using a string expression.",
+  "description": "Executes Point to Point relative motion in the selected local coordinate system.",
+  "notes": "",
+  "see_also": "Go\n\nTGo\n\nFind\n\nBGo Example\n\nVB",
+  "examples": [
+    "' Using a point number",
+    "m_spel.Tool(1)\nm_spel.BGo(100)",
+    "' Using a SpelPoint",
+    "Dim pt as SpelPoint",
+    "pt = m_spel.GetPoint(\"P*\")",
+    "pt.X = 125.5",
+    "m_spel.BGo(pt)",
+    "' Using an attribute expression",
+    "m_spel.BGo(pt, \"Till\")",
+    "' Using a point expression",
+    "m_spel.BGo(\"P0 /L /2\")",
+    "// Using a point number\nm_spel.Tool(1);\nm_spel.BGo(100);",
+    "// Using a SpelPoint\nSpelPoint pt;\npt = m_spel.GetPoint(\"P*\");\npt.X = 125.5;\nm_spel.BGo(pt);",
+    "// Using an attribute expression\nm_spel.BGo(pt, \"Till\");",
+    "// Using a point expression\nm_spel.BGo(\"P0 /L /2\");\nm_spel.BGo(\"P1 :Z(-20)\");",
+    "// Using a parallel processing\nm_spel.BGo(\"P1 !D50; On 1; D90; Off 1!\");",
+    "// Using point label\nm_spel.BGo(\"pick\");"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ArcObjResult Property",
+  "file": "ArcObjResult_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the result which the ArcObject property uses.",
+  "notes": "ArcObjResult enables you to attach one or more objects to the results of one ArcObject.\n\nSee Also: ArcObjResult Property\n\nArcObject Property\n\nVision Objects: ArcObjResult Property\n\nArcInspector",
+  "see_also": "Applies To\n\nVision Objects: ArcInspector",
+  "examples": []
+}

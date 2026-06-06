@@ -1,0 +1,12 @@
+{
+  "title": "ModelName Property",
+  "file": "ModelNameProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets / sets the name of a model.",
+  "notes": "The ModelName property is used to set the name of a model at runtime.\n\nSee Also: ModelName Property\n\nModelColor Property\n\nVision Objects: ModelName Property\n\nColorMatch\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: ColorMatch, ImageOp",
+  "examples": []
+}

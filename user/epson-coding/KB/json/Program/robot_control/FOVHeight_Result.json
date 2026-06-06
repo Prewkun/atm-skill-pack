@@ -1,0 +1,12 @@
+{
+  "title": "FOVHeight Result",
+  "file": "FOVHeight_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the FOV (field of view) height of a calibration.",
+  "notes": "FOVHeight is the height of the camera field of view in millimeters.  The calibration must be completed before FOVHeight can be retrieved.",
+  "see_also": "Applies To\n\nVision Calibration\n\nFOVWidth Result\n\nXmmPerPixel Result\n\nYmmPerPixel Result",
+  "examples": []
+}

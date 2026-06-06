@@ -1,0 +1,12 @@
+{
+  "title": "ZoomFactor Property",
+  "file": "ZoomFactor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Magnifies or reduces an image area.",
+  "notes": "ZoomFactor resizes the image bounded by the ImageOp search window from the center of the window.  When the image is magnified (ZoomFactor value is greater than 1), the enlarged image is clipped by the search window.  When the image is reduced (ZoomFactor is less than 1), the image data outside of the search window is used.  If not enough data is available, an error will occur.",
+  "see_also": "Property\n\nImageOp Object\n\nOperationProperty",
+  "examples": []
+}

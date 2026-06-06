@@ -1,0 +1,12 @@
+{
+  "title": "ExportFont property",
+  "file": "ExportFontProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Runs a file dialog from the Vision Guide GUI that allows you to export a font file.",
+  "notes": "Use the ExportFont property to export a font file to any location.  ImportFont can than be used to import the font into another Ocr object in any project.\n\nSee Also: ExportFont Property\n\nImportFont Property\n\nVision Objects: ExportFont Property\n\nOcr",
+  "see_also": "Design time only\n\nApplies To\n\nVision Object: OCR",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Force Sensing Overview",
+  "file": "Force_Sensing_Overview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force Sensing Overview\n\nForce Sensing\n\nNote:  This option allows you to measure force and enable a stop trigger by force using ATI Force Sensor.  This is available in EPSON RC+ 7.0 Ver.7.2.0 or later version, however, this option is for EPSON RC+ 7.0 Ver.7.2.0 or before version.\n\nEPSON RC+ 7.0 Ver.7.2.0 or later version supports \"Force Guide 7.0\" that measures, controls, and triggers force by using Epson Force Sensor.\n\nFor details on Force Guide 7.0, refer to the following manual.\n\nEPSON RC+ 7.0 option  Force Guide 7.0",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "HealthRBSpeed Function",
+  "file": "HealthRBSpeed_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the average of the absolute values for speed of the specified joint in robot operation from HealthRBStart to HealthRBStop.  The result is a real number from 0 to 1.  The maximum average speed is \"1\".",
+  "notes": "- This command does not function in Auto mode.\n\n- This command does not function in dry run mode (including the virtual controller).\n\nHealthRBSpeed Function Example\n\nFunction RobotPartAnalysis\n Real healthSpeed\n\n  Robot 1\n HealthRBStart\n Motor On\n Go P0\n Go P1\n Motor Off\n HealthRBStop\n healthSpeed = HealthRBSpeed(1,1)\n Print \"AveSpeed =\", Str$(healthSpeed)\n\nFend\n\nSee Also: HealthRBSpeed Function\n\nHealthRBStart\n\nHealthRBStop\n\nAveSpeed\n\nHealthRBSpeed Statement",
+  "see_also": "Returns the average of the absolute values for speed of the specified joint.",
+  "examples": [
+    "Function RobotPartAnalysis Real healthSpeed",
+    "Robot 1 HealthRBStart Motor On Go P0 Go P1 Motor Off HealthRBStop healthSpeed = HealthRBSpeed(1,1) Print \"AveSpeed =\", Str$(healthSpeed)\nFend"
+  ]
+}

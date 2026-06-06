@@ -1,0 +1,15 @@
+{
+  "title": "Checked Property",
+  "file": "Checked_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets a value indicating whether the CheckBox or RadioButton control is checked.",
+  "notes": "Use this property to determine whether the CheckBox or RadioButton control is checked. This property can also be used to programmatically set the state of the CheckBox or RadioButton control.\n\nGUI Items: Checked Property\n\nRadioButton, CheckBox",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.chkHiPower.Checked, False"
+  ],
+  "category": "gui_control"
+}

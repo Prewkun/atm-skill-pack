@@ -1,0 +1,12 @@
+{
+  "title": "Syntax helpand code completion",
+  "file": "Syntax_Help",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "When you enter a SPEL+ keyword, the Syntax Help window will show the syntax of the statement or function. After a statement is entered, Syntax Help will automatically close. Or press the [Esc] key to close it. You can enable / disable Syntax Help from the [Setup]-[Preferences]-[Editor] tab.\n\nCode Completion\n\nWhen you are entering a keyword for a statement, a list box appears, showing the available SPEL+ statement keywords, constants, and user functions that start with the text you have typed. To use a keyword in the list box, select the keyword.\n\nFor example, typing \"fo\" will display a list of candidates. If you select [For...Next], a Next statement is automatically created with an indented blank line above it.\n\nIf you enter a command that requires parameters to be specified, a parameter list box will be displayed. To use a parameter in the list box, select the parameter. You can also type in a value not shown in the list, such as a variable or literal constant. Press [Esc] to hide the list box.\n\nIn the example shown below, the first parameter of the On statement is an output label. A list of output labels in the current project is displayed.\n\nYou can enable/disable Code Completion from the [Setup]-[Preferences]-[Editor] tab.",
+  "parameters": "",
+  "description": "Syntax helpand code completion\n\nSyntax helpand code completion\n\nEpson RC+ 8.0 includes a feature to assist in entering program code.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "QRMinContrast Property",
+  "file": "QRMinContrast_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets the minimum contrast for scanning QR codes.",
+  "notes": "Reducing the value enables the detection of low-contrast codes. However, it increases the chance for false detection and takes longer.\n\nSetting range: 30 to 255\n\nDefault: 64\n\nSee Also: QRMinContrast Property\n\nQRLargeSize Property\n\nVision Objects: QRMinContrast Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "MotorOff VI",
+  "file": "MotorOff_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Turns motors off for the current robot.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "MotorOn, PowerHigh, PowerLow, Robot\n\nMotorOff Example",
+  "examples": []
+}

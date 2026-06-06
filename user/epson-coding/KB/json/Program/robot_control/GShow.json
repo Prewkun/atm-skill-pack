@@ -1,0 +1,14 @@
+{
+  "title": "GShow Statement",
+  "file": "GShow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "GShow displays a form as a non-modal window.",
+  "notes": "",
+  "see_also": "GShowDialog",
+  "examples": [
+    "GShow frmIODiags"
+  ]
+}

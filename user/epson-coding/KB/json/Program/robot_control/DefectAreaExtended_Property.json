@@ -1,0 +1,12 @@
+{
+  "title": "DefectAreaExtended Property",
+  "file": "DefectAreaExtended_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / gets whether to use edge results within the defect thresholds to extend the area of the defect.",
+  "notes": "When DefectAreaExtended is True, the system extends the defect area using edge results that are within the defect level thresholds on either side of the found defect.\n\nVision Objects: DefectAreaExtended Property\n\nArcInspector\n\nLineInspector",
+  "see_also": "",
+  "examples": []
+}

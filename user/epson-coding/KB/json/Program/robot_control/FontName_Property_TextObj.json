@@ -1,0 +1,12 @@
+{
+  "title": "FontName Property TextObj",
+  "file": "FontName_Property_TextObj",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets and retrieves the name of the font.",
+  "notes": "Sets the name of the font for the character string rendered with the Text object.\n\nVision Objects: FonName Property\n\nText",
+  "see_also": "",
+  "examples": []
+}

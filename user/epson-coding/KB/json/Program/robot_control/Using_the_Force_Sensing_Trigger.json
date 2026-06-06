@@ -1,0 +1,12 @@
+{
+  "title": "Using the Force Sensing Trigger",
+  "file": "Using_the_Force_Sensing_Trigger",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using the Force Sensing Trigger\n\nUsing the Force Sensing Trigger\n\nYou can configure the system to stop the robot after the force sensing trigger has been activated.  You can set the trigger to activate when one or more force sensing axes reaches a preset limit.   You use the Till command to check the trigger condition during motion.\n\nStopping Motion along Z axis\n\nStopping Motion along X or Y axis",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

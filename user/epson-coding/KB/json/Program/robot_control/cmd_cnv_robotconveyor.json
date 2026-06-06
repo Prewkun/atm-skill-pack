@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_RobotConveyor Function",
+  "file": "cmd_cnv_robotconveyor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Cnv_RobotConveyor [ ( robotNumber ) ]",
+  "parameters": "robotNumber\tInteger expression representing the robot number.",
+  "description": "When using multiple robots, you can use Cnv_RobotConveyor to see which conveyor a robot is currently tracking.\n\nNote\n\nThis command will only work if the Conveyor Tracking option is active.",
+  "notes": "",
+  "see_also": "Cnv_Point\n\nCnv_RobotConveyor Function Example\n\nInteger cnvNum\n\ncnvNum =\n\t\t\t\tCnv_RobotConveyor\n\t\t\t(1)",
+  "examples": [
+    "Integer cnvNum\n\ncnvNum =\n\t\t\t\tCnv_RobotConveyor\n\t\t\t(1)"
+  ]
+}

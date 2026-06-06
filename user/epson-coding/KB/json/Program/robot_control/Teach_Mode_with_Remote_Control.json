@@ -1,0 +1,12 @@
+{
+  "title": "Teach Mode with Remote Control",
+  "file": "Teach_Mode_with_Remote_Control",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teach Mode with Remote Control\n\nTeach Mode with Remote Control\n\nWhen using a remote control with Teach Mode ON, no remote input commands can be used. Remote status outputs will still operate.\n\nCAUTION\t■\tRemote\n\t\t status outputs (such as MotorOn, Home, etc.) will operate when\n\t\t Teach Mode is ON, even when the enable switch (dead man's switch)\n\t\t is disengaged.\n\nRemote\n\t\t status outputs (MotorOn, Home, etc.) will operate if the operation\n\t\t mode is TEACH even when the enable switch (deadman switch) is\n\t\t disabled.\n\nYou can monitor teach mode status using the TeachMode remote output.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

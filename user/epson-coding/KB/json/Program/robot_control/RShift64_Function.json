@@ -1,0 +1,15 @@
+{
+  "title": "RShift64 Function",
+  "file": "RShift64_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "RShift64 (number, shiftBits)",
+  "parameters": "number\tNumeric expression to be shifted.\n\nshiftBits\tThe number of bits (integer from 0 to 63) to shift number to the right.",
+  "description": "RShift64 shifts the specified numeric data (number) to the right (toward a lower order digit) by the specified number of bits (shiftBits). The high order bits shifted are replaced by 0.\n\nThe simplest explanation for RShift64 is that it simply returns the result of number / 2shiftBits. (Number is divided by 2 shiftBit times.)",
+  "notes": "Numeric Data Type:\n\nThe numeric data (number) may be any valid numeric data type. RShift64 works with Int64 and UInt64 data types.",
+  "see_also": "And\n\nLShift\n\nNot\n\nOr\n\nXor\n\nRShift64 Function Example\n\nThe example shown below shows a program which shows all the possible RShift64 values for an Integer data type starting with the integer set to 0.\n\nFunction rshif64tst\n\n  UInt64 num, snum, i\n\n  num = 18446744073709551615\n\n  For i = 1 to 63\n\n    Print \"i =\", i\n\n    snum = RShift64(num, 1)\n\n    Print \"RShift64(18446744073709551615, \", i, \") = \", snum\n\n  Next i\n\nFend\n\nSome other example results from the RShift64 instruction from the command window.\n\n> Print RShift64(10,1)\n\n5\n\n> Print RShift64(8,3)\n\n1\n\n> Print RShift64(16,2)\n\n4",
+  "examples": [
+    "Function rshif64tst UInt64 num, snum, i num = 18446744073709551615 For i = 1 to 63\n    Print \"i =\", i\n    snum = RShift64(num, 1)\n    Print \"RShift64(18446744073709551615, \", i, \") = \", snum Next i\nFend",
+    "> Print RShift64(10,1)\n5\n> Print RShift64(8,3)\n1\n> Print RShift64(16,2)\n4"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "ShowLabel Property",
+  "file": "ShowLabel_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies whether to show a label for rendered character strings.",
+  "notes": "Specify the type of result rendered as a character string in the TextView object.  The results available for selection will vary depending on the vision object type specified in the TextObj property.\n\nValues\n\nFalse\tDo not show label.\n\nTrue\tShow a label\n\nDefault:  True",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: Text\n Property\n\nResultObject Property\n\nResultText1 Property\n\nVision Objects: ShowLabel Property\n\nText",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "TrackBar Properties",
+  "file": "TrackBar_Properties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "TrackBar Properties\n\nTrackBar Properties and Events\n\nThe following list is a summary of the TrackBar control properties with brief descriptions.  Click on the property names for more details.\n\nProperty\tDescription\n\nBackColor\tThe background color for the control.\n\nDefault: Control\n\nEnabled\tSets whether the control is enabled\n\t\t at runtime.\n\nDefault: 1 -\n\t\t True\n\nEventTaskType\tSets the type of task used for events.\n\nDefault: 0 -\n\t\t Normal\n\nHeight\tThe height of the control in pixels.\n\nLargeChange\tSets the number\n\t\t of positions that the slider moves when clicking the mouse on\n\t\t either side of the bar or by pressing Page Up and Page Down keys.\n\nDefault: 5\n\nLeft\tThe left coordinate\n\t\t of the control in pixels.\n\nMaximum\tSets the maximum\n\t\t of the range that the control is processing.\n\nDefault: 100\n\nMinimum\tSets the minimum\n\t\t of the range that the control is processing.\n\nDefault: 0\n\nName\tThe name of\n\t\t the control.\n\nDefault: TrackBarXX\n\nOrientation\tSets the orientation\n\t\t of the control.\n\nDefault: 0 -\n\t\t Horizontal\n\nSmallChange\tSets the number of positions that the\n\t\t slider moves for keyboard inputs (arrow orientation keys).\n\nDefault: 1\n\nTabIndex\tThe tab index of the control.\n\nTickFrequency\tSets the interval of the tick marks.\n\nDefault: 1\n\nTickStyle\tSets where to display the tick marks\n\t\t on the track bar.\n\nDefault: 2 - BottomRight\n\nToolTipText\tThe text used in the control's tooltip.\n\nDefault: Empty\n\nTop\tThe top coordinate of the control in\n\t\t pixels.\n\nValue\tSets the value\n\t\t that represents the control's current position.\n\nDefault: 0\n\nVariable\tThis is an\n\t\t optional SPEL+ global variable (except arrays). When specified,\n\t\t the variable is automatically set according to the slider position.\n\nDefault: None\n\nVisible\tWhether the\n\t\t control is visible or not at runtime.\n\nDefault: 1 -\n\t\t True\n\nWidth\tSets the width\n\t\t of the control in pixelsl.\n\nEvent\tDescription\n\nScroll\tExecutes\n\t\t after the slider on the track bar has been moved.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

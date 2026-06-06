@@ -1,0 +1,14 @@
+{
+  "title": "NumberFound Result",
+  "file": "NumberFoundResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the number of features found within a single Search Window.",
+  "notes": "Blob, Correlation, Edge, and Geometric objects each support the finding of multiple features within a single search window. The NumberToFind property defines how many features to search for.\n\nThe NumberFound result returns how may features were actually found.\n\nThe NumberFound result is a special result.  It will always return the number of features that were found for the specified vision object regardless of the setting of the CurrentResult property.  All the other results in the Results List are specific to each individual results record and will have different values depending upon the setting of the CurrentResult property.\n\nBlob results are ordered by largest found blob to smallest found blob. (i.e. result record 1 (CurrentResult = 1) contains the results for the largest blob.)\n\nCorrelation results are ordered by highest Score result to lowest Score result. (i.e. result record 1 (CurrentResult =1) contains the results for the feature with the highest score.)",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, CodeReader, ColorMatch, Contour, Correlation, DefectFinder, Edge, Geometric, Line, LineFinder, LineInspector, OCR, Point, Polar, Coordinates",
+  "examples": [
+    "Function main #Define corrnum 3 Integer found, score VRun mtest VGet mtest.Corr01.NumberFound, found If found = corrnum Then\n    Print \"The Proper Number of features(3) were found\" Else\n    Print \"Only (\", found, \") features were found\" EndIf VSet mtest.Corr01.CurrentResult, 1 VGet mtest.Corr01.Score, area Print \"1st feature (Best): \", score, \" score\" VSet mtest.Corr01.CurrentResult, 2 VGet mtest.Corr01.Score, area Print \"2nd feature (Medium): \", score, \" score\" VSet mtest.Corr01.CurrentResult, 3 VGet mtest.Corr01.Score, score Print \"3rd feature (Worst): \", score, \" score\"\nFend"
+  ]
+}

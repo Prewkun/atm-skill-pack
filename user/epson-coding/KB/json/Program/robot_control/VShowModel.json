@@ -1,0 +1,14 @@
+{
+  "title": "VShowModel Statement",
+  "file": "VShowModel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "The VShowModel command allows a previously taught model to be displayed at various zoom settings from a SPEL+ program.  For more details, see the ShowModel property.",
+  "notes": "Note: If changes are made to the model, such as don't care pixels, you must call VSaveModel to make the changes permanent.",
+  "see_also": "Statement\n\nVSaveModel\n\nVTeach\n\nVTrain",
+  "examples": [
+    "VShowModel seq1.corr01"
+  ]
+}

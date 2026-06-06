@@ -1,0 +1,15 @@
+{
+  "title": "Mask Operator",
+  "file": "cmd_Mask",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Wait expr1 Mask exrp2",
+  "parameters": "expr1\tAny valid expression input condition for Wait.\n\nexpr2\tAny valid expression which returns a numeric result.",
+  "description": "The Mask operator is a bitwise And for Wait statement input condition expressions.",
+  "notes": "",
+  "see_also": "Bitwise mask for Wait statement condition expression.\n\nWait\n\nMask Operator Example\n\n' Wait for the lower 3 bits of input port 0 to equal 1\n\nWait In(0) Mask 7 = 1",
+  "examples": [
+    "' Wait for the lower 3 bits of input port 0 to equal 1",
+    "Wait In(0) Mask 7 = 1"
+  ]
+}

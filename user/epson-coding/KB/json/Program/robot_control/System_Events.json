@@ -1,0 +1,12 @@
+{
+  "title": "System Events",
+  "file": "System_Events",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Events\n\nSystem Events\n\nThere are several system events that are sent to the .NET application.  Each system event indicates a change in status.  There are events for Pause, Continue, Emergency Stop, etc.  For complete details on all system events, see the description for EventReceived.\n\nUse the Spel class EnableEvent method to control which system events are sent.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

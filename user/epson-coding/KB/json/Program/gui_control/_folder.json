@@ -1,0 +1,12 @@
+{
+  "type": "folder_index",
+  "category": "gui_control",
+  "title": "GUI Control Reference — EPSON RC+ SPEL+",
+  "instruction": "References in this folder describe GUI form properties and events used with GSet / GGet in SPEL+. Use ONLY when the task involves building an RC+ operator interface: forms, buttons, labels, text boxes, list boxes, combo boxes, check boxes, radio buttons, progress bars, grids, sliders, timers, and image/video controls. Do NOT use these for robot motion, I/O, or SPEL+ program-flow commands.",
+  "access_pattern": "GSet <form>.<control>.<property>, <value>  |  GGet <form>.<control>.<property>, <var>",
+  "applies_to": [
+    "Form", "Button", "Label", "TextBox", "RadioButton", "CheckBox",
+    "ListBox", "ComboBox", "PictureBox", "GroupBox", "VideoBox",
+    "ProgressBar", "StatusBar", "Grid", "TrackBar", "Timer", "LED"
+  ]
+}

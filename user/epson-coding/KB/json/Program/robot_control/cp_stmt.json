@@ -1,0 +1,14 @@
+{
+  "title": "CP Statement",
+  "file": "cp_stmt",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "CP { On | Off }",
+  "parameters": "On | Off\tThe keyword On is used to enable path motion. The keyword Off is used to disable CP mode.",
+  "description": "CP (Continuous Path) motion mode can be used for the Arc, Arc3, Go, Jump, Jump3, Jump3CP and Move robot motion instructions.\n\nWhen CP mode is On, each motion command executes the next statement as deceleration starts.  Continuous path motion will continue regardless of whether the CP parameter is specified in each motion command or not.\n\nWhen CP is Off, this function is active only when the CP parameter is specified in each motion command.\n\nWhen CP is On, path motion will continue without full deceleration between two CP motions (Arc, Arc3, Jump3, Jump3CP, Move), or two PTP motions (Go, Jump).\n\nIn contrast, full deceleration will occur between a CP motion and a PTP motion.\n\nIn addition, in the CP motion which target is wrist singular point in a vertical 6-axis robot (including the N series), the next motion and the motion trajectory will not be combined and full deceleration will occur.\n\nCP will be set to Off in the following cases\n\nController Startup\n\nMotor On\n\nSFree, SLock, Brake\n\nReset, Reset Error\n\nStop button or Quit All stops tasks",
+  "notes": "",
+  "see_also": "CP Function\n\nArc\n\nGo\n\nMove\n\nCP Statement Example\n\nCP On\n\nMove P1\n\nMove P2\n\nCP Off",
+  "examples": [
+    "CP On\nMove P1\nMove P2\nCP Off"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ImportPoints Statement",
+  "file": "ImportPoints_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "ImportPoints sourcePath, projectFileName, robotNumber",
+  "parameters": "sourcePath\tString expression containing the specific path and file to import into the current project.  The extension can be .PTS or .PNT (EPSON RC+ 3.x and 4.x format). See ChDisk for the details.\n\nprojectFileName\tString expression containing the specific file to be imported to in the current project for the current robot  The extension must be .PTS.\n\nYou cannot specify a file path and fileName doesn't have any effect from ChDisk. See ChDisk for the details.\n\nrobotNumber\tOptional. Integer expression that specifies which robot the point file should be associated with. If robotNumber = 0, then the point file is imported as a common point file. If robotNumber is omitted, the current robot number is used.",
+  "description": "ImportPoints copies a point file into the current project and adds it to the files for the current robot.  The point file is then compiled and is ready for loading using the LoadPoints command.  If the file already exists for the current robot, it will be overwritten and recompiled.\n\nThe point data is stored in the compact flash inside of the controller. Therefore, ImportPoints starts writing into the compact flash. Frequent writing into the compact flash will shorten the compact flash lifetime. We recommend using ImportPoints only for saving the point data.\n\nPotential Errors\n\nFile Does Not Exist\n\nIf sourcePath does not exist, an error will be issued.\n\nA Path Cannot be Specified\n\nIf projectFileName contains a path, an error will occur.  Only a file name in the current project can be specified for projectFileName.\n\nPoint file for another robot.\n\nIf projectFileName is a point file for another robot, an error will occur",
+  "notes": "",
+  "see_also": "Imports a point file into the current project for the current robot.\n\nLoadPoints, Robot, SavePoints\n\nImportPoints Statement Example\n\nFunction main\n\n  Robot 1\n\n  ImportPoints \"c:\\mypoints\\model1.pts\", \"robot1.pts\"\n\n  LoadPoints \"robot1.pts\"\n\nFend",
+  "examples": [
+    "Function main Robot 1 ImportPoints \"c:\\mypoints\\model1.pts\", \"robot1.pts\" LoadPoints \"robot1.pts\"\nFend"
+  ]
+}

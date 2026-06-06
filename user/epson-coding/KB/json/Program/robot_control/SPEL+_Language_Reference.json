@@ -1,0 +1,12 @@
+{
+  "title": "SPEL+ Language Reference",
+  "file": "SPEL+_Language_Reference",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SPEL+ Language Reference\n\nSPEL+ Language Reference\n\nThis section describes each SPEL+ command as follows:\n\nSyntax\tSyntax describes the format used for each command.  For some commands, there is more than one syntax shown, along with a number that is referenced in the command description.  Parameters are shown in italics.\n\nParameters\tDescribes each of the parameters for this command.\n\nReturn Values\tDescribes any values that the command returns.\n\nDescription\tGives details about how the command works.\n\nNotes\tGives additional information that may be important about this command.\n\nSee Also\tShows other commands that are related to this command.\n\nExample\tGives one or more examples of using this command.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

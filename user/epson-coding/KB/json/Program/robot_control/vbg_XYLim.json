@@ -1,0 +1,15 @@
+{
+  "title": "XYLim Method, Spel Class",
+  "file": "vbg_XYLim",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub XYLim (XLowerLimit As Single, XUpperLimit As Single, YLowerLimit As Single, YUpperLimit As Single [, ZLowerLimit As Single ] [, ZUpperLimit As Single] )",
+  "parameters": "XLowerLimit\tThe minimum X coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the X Coordinate less than minX .)\n\nXUpperLimit\tThe maximum X coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the X Coordinate greater than maxX .)\n\nYLowerLimit\tThe minimum Y coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the Y Coordinate less than minY .)\n\nYUpperLimit\tThe maximum Y coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the Y Coordinate greater than maxY.)\n\nZLowerLimit\tOptional.  The minimum Z coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the Z Coordinate less than minZ.)\n\nZUpperLimit\tOptional.  The maximum Z coordinate position to which the Manipulator may travel. (The Manipulator may not move to a position with the Z Coordinate greater than maxZ.)",
+  "description": "Sets the permissible motion range limits for the Manipulator.",
+  "notes": "XYLim is used to define motion range limits. Many robot systems allow users to define joint limits but the SPEL+ language allows both joint limits and motion range limits to be defined. In effect this allows users to create a work envelope for their application. (Keep in mind that joint range limits are also definable with SPEL.)\n\nThe motion range established with XYLim values applies to motion command target positions only, and not to motion paths from starting position to target position. Therefore, the arm may move outside the XYLim range during motion.  (i.e. The XYLim range does not affect Pulse.)\n\nTo turn off motion range limits, specify 0 for the range limit parameters.",
+  "see_also": "JRange\n\nXYLim Example\n\nVB Example:\n\nm_spel.XYLim(0, 0, 0, 0)\n\nC# Example:\n\nm_spel.XYLim(0, 0, 0, 0);",
+  "examples": [
+    "m_spel.XYLim(0, 0, 0, 0)",
+    "m_spel.XYLim(0, 0, 0, 0);"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "PF_QueAutoRemove Function",
+  "file": "PF_QueAutoRemove_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "PF_QueAutoRemove(part ID)",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).",
+  "description": "Refer to the description for PF_QueAutoRemove.\n\nPF_QueAutoRemove Function Example\n\nBoolean autoremove\n\nautoremove = PF_QueAutoRemove (1)",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Boolean autoremove",
+    "autoremove = PF_QueAutoRemove (1)"
+  ]
+}

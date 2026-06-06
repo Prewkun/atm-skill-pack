@@ -1,0 +1,15 @@
+{
+  "title": "MemOn Method, Spel Class",
+  "file": "vbg_MemOn",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub MemOn (BitNumber As Integer )\n\nSub MemOn (Label As String )",
+  "parameters": "BitNumber\tInteger expression representing one of the memory I/O bits.\n\nLabel\tString expression containing a memory I/O bit label.",
+  "description": "Turns On the specified bit of memory I/O.",
+  "notes": "",
+  "see_also": "In\n\nInBCD\n\nMemOut\n\nMemSw\n\nSw\n\nOff\n\nOn\n\nOport\n\nMemOn Example\n\nVB Example:\n\nm_spel.MemOn(500)\n\nC# Example:\n\nm_spel.MemOn(500);",
+  "examples": [
+    "m_spel.MemOn(500)",
+    "m_spel.MemOn(500);"
+  ]
+}

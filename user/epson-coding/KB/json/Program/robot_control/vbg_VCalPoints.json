@@ -1,0 +1,17 @@
+{
+  "title": "VCalPoints Method, Spel Class",
+  "file": "vbg_VCalPoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VCalPoints (CalibName As String)\n\nSub VCalPoints (CalibName As String, ByRef Status As Integer)\n\nSub VCalPoints (CalibName As String, Parent As Form)\n\nSub VCalPoints (CalibName As String, Parent As Form, ByRef Status As Integer)",
+  "parameters": "calname\tA string expression\n\t\t that evaluates to the name of a calibration scheme in the current\n\t\t project.\n\nStatus\tOptional.\n\t\t  An integer variable that receives the status of the point\n\t\t teaching.\n\n0: Unsuccessful,\n\t\t 1: Successful\n\nParent\tOptional.\n\t\t  .NET parent form.",
+  "description": "This command enables you to teach vision calibration points.",
+  "notes": "When you execute the VCalPoints command, the Teach Calibration Points dialog is opened.  When the [Finish] button is clicked, the calibration data is automatically saved.\n\nYou must have already created the calibration scheme from Epson RC+ 8.0.\n\nUse the Status parameter to check if the point teaching was successful.  When all points are taught and the [Finish] button is clicked, Status returns 1: Successful.",
+  "see_also": "VCal\n\nVCalPoints Example\n\nVB Example:\n\nDim status As Integer\n\nm_spel.VCalPoints(\"CAMCAL1\", status)\n\nC#",
+  "examples": [
+    "Dim status As Integer",
+    "m_spel.VCalPoints(\"CAMCAL1\", status)",
+    "int status;",
+    "m_spel.VCalPoints(\"CAMCAL1\", status);"
+  ]
+}

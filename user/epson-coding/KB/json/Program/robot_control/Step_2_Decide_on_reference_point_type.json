@@ -1,0 +1,12 @@
+{
+  "title": "Step 2: Decide on reference point type",
+  "file": "Step_2_Decide_on_reference_point_type",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 2: Decide on reference point type\n\nStep 3: Decide on reference point type\n\nThere are two choices for the reference point: a manually taught point, or a point that is found with an upward camera.\n  For greatest accuracy, you should use an upward camera to find the reference target for mobile camera calibration.  See the procedure for Fixed, upward in robot world later in this chapter.\n\nIf you are not using an upward camera to find the reference point, then use one of the following for training the reference point:\n\n\t\t\tUse a rod mounted to the U axis that extends through the center of the axis.\n\t\t\tUse the tool that is being used to pick up parts if it can be aligned with the calibration reference point.\n\nNote:  If you define a tool (using TLSet) for the calibration rod of pick up tool, then you will not have to teach zero and 180 degree reference point(s) during calibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

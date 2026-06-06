@@ -1,0 +1,15 @@
+{
+  "title": "AIO_In Method, Spel Class",
+  "file": "AIO_In_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function AIO_In (Channel As Integer) As Single",
+  "parameters": "Channel\tSpecify the channel number of the analog\n\t\t I/O.",
+  "description": "Reads analog value form optional analog I/O input channel.",
+  "notes": "",
+  "see_also": "AIO_InW, AIO_Out, AIO_OutW\n\nAIO_In Example\n\nVB",
+  "examples": [
+    "Dim val As Single\nval = m_spel.AIO_In(2)",
+    "float val;\nval = m_spel.AIO_In(2);"
+  ]
+}

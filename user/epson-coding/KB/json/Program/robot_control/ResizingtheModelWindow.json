@@ -1,0 +1,12 @@
+{
+  "title": "Resizing the Model Window",
+  "file": "ResizingtheModelWindow",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Resizing the Model Window\n\nResizing the Model Window\n\nThe model window size handles appear when a model window is selected.  However, if the search window is selected then you will not see the model window size handles.  You can easily locate the model window size handles because they are the small boxes that are located on the sides and corners of the model window when the search window is selected.  If you cannot see the Handles on the model window, then the search window may be the active Window.  To make the model window the active Window, click one of the sides of the model window and you should then see the model window size handles.\n\nModel window size handles are used to size the model window.  Moving the mouse pointer over one of the model window size handles causes the pointer to change to a double-ended arrow pointer.  This indicates that you can click the handle and resize the model window.  You can click any of the model window size handles and then drag the side or corner to resize the search window.\n\nClicking on a model window size handle located on one of the sides of the model window allows you to resize the object horizontally.  Clicking on the top or bottom of the model window allows you to resize the object vertically.  Clicking on one of the corner model window size handles allows you to resize the model window both horizontally and vertically at the same time.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

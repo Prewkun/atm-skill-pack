@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard Contents",
+  "file": "Part_Feeding_Wizard_Contents",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard Contents\n\nPart Wizard\n\nAdd a new part\n\nGeneral\n\nVibration\n\nLighting\n\nFlip\n\nVision\n\nVision Calibration Sequence\n\nVison Find Part Sequence\n\nFeeder Orientation and Pick Region\n\nAvoid Hand Interference\n\nPurge\n\nCalibration",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

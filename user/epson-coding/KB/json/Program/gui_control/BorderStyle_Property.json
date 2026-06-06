@@ -1,0 +1,15 @@
+{
+  "title": "BorderStyle Property",
+  "file": "BorderStyle_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the control's border style.",
+  "notes": "You can use this property to add a border to the control. For example, this property can be used to differentiate a Label that labels another control from a Label that displays the status of a process in an application.\n\nSee Also: BorderStyle Property\n\nBackColor Property\n\nGUI Items: BorderStyle Property\n\nLabel, ListBox, PictureBox",
+  "see_also": "Applies To\n\nLabel, TextBox, ListBox, PictureBox, VideoBox, LED, ProgressBar, StatusBar, Grid",
+  "examples": [
+    "GSet frmMain.lblStatus.BorderStyle, BORDERSTYLE_NONE"
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Parts_Feeding_Spel_Commands",
+  "file": "Parts_Feeding_Spel_Commands",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts_Feeding_Spel_Commands\n\nParts Feeding SPEL+ commands\n\nPart Feeding SPEL commands are SPEL commands provided to allow users to execute and control the Part Feeding option from a user-prepared program.  The following are some typical examples of such commands.\n\nCommand\tDescription/Application\n\nPF_Start\tStarts the Part Feeding flow\n\nPF_Stop\tIssues a Part Feeding flow stop request\n\nPF_Abort\tForces the Part Feeding flow to stop\n\nPF_QueGet function\tReturns coordinates data registered to the parts coordinates queue (list of parts coordinates on the feeder)\n\nPF_InitLog\tSpecify the output destination path for log files\n\nPF_Center\tRun the feeder centering operation\n\nPF_Flip\tRun the feeder flip operation\n\nPF_Shift\tRun the feeder shift operation",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

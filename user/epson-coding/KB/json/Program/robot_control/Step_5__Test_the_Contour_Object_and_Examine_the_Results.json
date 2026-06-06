@@ -1,0 +1,12 @@
+{
+  "title": "Step 5: Test the Contour Object and Examine the Results",
+  "file": "Step_5__Test_the_Contour_Object_and_Examine_the_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 5: Test the Contour Object and Examine the Results\n\nStep 5: Test the Contour Object and Examine the Results\n\nTo run testing the Contour object, click the [Run] button of the object on the execution panel.  Results for the Contour object will now be displayed.  The primary results to examine at this time are:\n\nPixelX,\n\t\t PixelY\tThe contour point position detected\n\t\t in pixels.\n\nCameraX,\n\t\t CameraY\tThe contour point position according\n\t\t to the camera coordinates in millimeters.\n\nRobotX,\n\t\t RobotY\tThe contour point position according\n\t\t to the robot coordinates in millimeters.\n\nTime result\tThe amount of time it took for the\n\t\t Contour object to execute.\n\nNote:\n  The RobotX, RobotY and CameraX, CameraY results will return \"no cal\" at this time. This means it is impossible for the vision system to calculate the coordinate results with respect to the Robot coordinate system or Camera coordinate system since the calibration is not executed.\n  For details, refer to 7. Vision Calibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

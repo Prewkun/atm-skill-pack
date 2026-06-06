@@ -1,0 +1,12 @@
+{
+  "title": "Command Line Options",
+  "file": "Command_Line_Options",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Command Line Options\n\nCommand Line Options\n\nThere are command line options for EPSON RC+ 7.0 that provide the following functions:\n\n\t\t\tStart EPSON RC+ 7.0 for a specified project.\n\t\t\tChange the EPSON RC+ 7.0 startup mode without a dialog.\n\t\t\tDisable splash screen\n\nExamples of command line options are:\n\n\t\t\tCommand input from Windows Start menu | Run\n\t\t\tTarget property of desktop shortcut",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Using Point Objects",
+  "file": "UsingPointObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Point Objects\n\nUsing Point Objects\n\nThe next few sections guide you through how to create and use a Point object.\n\nWe will review the following items\n\n\tCreate a new Point object\n\tPositioning the Point object on the screen\n\tConfiguring properties associated with the\n\t Point object\n\tRunning the Point object and Examining the\n\t results\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use. If you have no Vision Sequence to work with, you can create a new vision sequence by clicking on the [New Sequence] button.  You can also select a sequence which was created previously by clicking on the Sequence tree in the Vision Guide window. See Vision Sequences for details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New Point Object\n\nStep 2: Positioning the Point Object\n\nStep 3: Configuring Properties for the Point Object\n\nStep 4: Running the Point Object and Examining the Results",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

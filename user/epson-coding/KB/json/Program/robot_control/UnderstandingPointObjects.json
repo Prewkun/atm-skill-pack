@@ -1,0 +1,12 @@
+{
+  "title": "Understanding Point Objects",
+  "file": "UnderstandingPointObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Understanding Point Objects\n\nUnderstanding Point Objects\n\nPoint objects were created to give users a method to mark a position on the screen or with respect to Line objects so that these positions could be used by other vision objects as reference positions. There are 2 fundamental parts to understanding Point objects:\n\n\t\t\tDefining the position of the Point object\n\t\t\tUsing the position of the Point object as a reference position for other objects\n\nDefining the Position of the Point object\n\nUsing the Position of the Point object as a Reference Position for Other Objects\n\nPoint Objects used as a Reference Position for Polar Objects\n\nPoint Objects used as a Reference Position for Line Objects",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

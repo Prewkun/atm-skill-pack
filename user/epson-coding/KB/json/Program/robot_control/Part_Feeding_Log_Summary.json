@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Log Summary",
+  "file": "Part_Feeding_Log_Summary",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Log Summary\n\nSummary\n\nThe Part Feeding log file is a log file that records the following actions performed as part of the process of operations, and the operation time and results.\n\n- Vision processing\n\n- Feeder control\n\n- Callback function operation (Robot, Status)\n\nThe Part Feeding log file can be used to perform the following.\n\n- Check the cycle time for part pick up.\n\n- Check the number of parts that can be picked up with each attempt in order to adjust the hopper feed amount.\n\n- Check and make improvements to actions taking up an undue amount of time based on operation processing times.\n\nNote that the Controller must be connected to the PC to use this function.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

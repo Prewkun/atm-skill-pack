@@ -1,0 +1,12 @@
+{
+  "title": "Create a new calibration",
+  "file": "Create_a_new_calibration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Create a new calibration\n\nCreating a New Calibration\n\nTo create a new calibration, click the [New calibration] button  on the Vision Guide toolbar, or select New Calibration from the Vision menu.\n\nThe following dialog box will be displayed and the calibration wizard will start.\n\nEnter the name for the new calibration.  You can copy an existing calibration to specify the [Copy from existing calibration] after selecting the camera you will be calibrating.\n\nAfter entering the calibration name, you can click the [Finish] button on any screen to exit the wizard.  In this case, refer to 7.5.3  Calibration Properties and Results and set required properties.\n\nYou can also click the [Back] button to revise the previous settings.\n\nClick the [Next] button to move on to the next step.\n\nIf the name already exists for another calibration, an error message will be displayed.\n\nFollow the instructions for each step to complete the wizard.  Settings vary depending on the position or direction of camera.  For details of the settings, refer to 7.6 Calibration Procedures.\n\nAfter completing the wizard, the calibration configured in the wizard will be added to the calibration tree.  When the calibration is selected in the tree, the properties and results of calibration are displayed.  The items configured in the wizard can be changed in the property panel anytime.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

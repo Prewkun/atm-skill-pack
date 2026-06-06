@@ -1,0 +1,14 @@
+{
+  "title": "PG_LSpeed Function",
+  "file": "PG_LSpeed_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "PG_LSpeed\n\n[ (paramNumber) ]",
+  "parameters": "paramNumber\tOne of the numbers below that specifies the number of set value.\n\nIf omitted, 1 is used.\n\n1: Pulse speed at acceleration starts\n\n2: Pulse speed at deceleration finishes",
+  "description": "PG_LSpeed Function\n\nPG_LSpeed Function",
+  "notes": "",
+  "see_also": "PG_LSpeed Function Example\n\nInteger savPGLSpeed\n\n\t\tsavPGLSpeed = PG_LSpeed(1)",
+  "examples": [
+    "Integer savPGLSpeed\n\t\tsavPGLSpeed = PG_LSpeed(1)"
+  ]
+}

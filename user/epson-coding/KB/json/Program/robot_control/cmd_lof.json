@@ -1,0 +1,16 @@
+{
+  "title": "Lof Function",
+  "file": "cmd_lof",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Lof(fileNumber As Integer ))",
+  "parameters": "fileNumber\tA Number specified with OpenCom (RS-232C) or OpenNet (TCP/IP) statement.",
+  "description": "Lof checks whether or not the specified port has received data lines. The data received is stored in the buffer irrespective of the Input# instruction.\n\nYou can wait for the return value of Lof function by executing Wait.\n\nNote\n\nWhen using PC COM port (1001 to 1008), you cannot use Lof function with Wait command.",
+  "notes": "",
+  "see_also": "ChkCom#\n\nChkNet#\n\nInput#\n\nLof Function Example\n\nThis Command window example prints out the number of lines of data received through the communication port number 1.\n\n>print lof (1)\n\n5\n\n>",
+  "examples": [
+    ">print lof (1)",
+    "5",
+    ">"
+  ]
+}

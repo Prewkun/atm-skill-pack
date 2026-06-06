@@ -1,0 +1,12 @@
+{
+  "title": "B: From a Template",
+  "file": "Project_Wizard,_Project_from_Template",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "B: From a Template\n\nB: From a Template\n\nStep 2.\n\nWhen following window displayed, select [From template]. Then [Select the project template to use] will be displayed and select a template you want to create.\n\nStep 3.\n\nSelect a Controller to connect. If it doesn't have connecting Controller in the list, click [New Connection] then Controller connecting wizard will start. For more details, refer to 5.10.1.2  Controller Connection.\n\nStep 4.\n\nThis is the end of the steps for the project wizard.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

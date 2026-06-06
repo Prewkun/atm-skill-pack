@@ -1,0 +1,12 @@
+{
+  "title": "Polar Object Description",
+  "file": "PolarObjectDescription",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Polar Object Description\n\nPolar Object Description\n\nThe Polar object provides a fast method of transforming an image having Cartesian coordinates to a corresponding image having polar coordinates.  Polar objects are an excellent tool for determining object rotation.  Because of the reliability and speed of the Polar object, we highly recommend using it when you need to calculate the angular rotation of an object.\n\nThe major characteristic to remember about Polar objects, is that they are highly insensitive to object rotation about their center, but intolerant of object translation in x-y space.  This means that Polar objects are very good at calculating the rotation of an object, but only if that object's center position does not move.  For this reason, Vision Guide 8.0 has a CenterPointObject property for the Polar object.  The CenterPointObject property allows the user to lock the Polar object's center point onto the position result from another object such as the Correlation, Blob, or Point objects.\n  At runtime, after the CenterPointObject is found, the Polar object can then be centered on the XY position results of the CenterPointObject, and then can determine the rotation of the object.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

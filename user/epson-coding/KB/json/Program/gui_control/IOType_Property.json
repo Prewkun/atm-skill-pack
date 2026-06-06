@@ -1,0 +1,13 @@
+{
+  "title": "IOType Property",
+  "file": "IOType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the type of the I/O that indicates it to the LED Control.",
+  "notes": "",
+  "see_also": "Applies To\n\nLED Control\n\nIOBit Property\n\nGUI Items: IOType Property\n\nLED Control",
+  "examples": [],
+  "category": "gui_control"
+}

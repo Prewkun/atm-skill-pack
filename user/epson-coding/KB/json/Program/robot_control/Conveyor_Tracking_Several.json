@@ -1,0 +1,12 @@
+{
+  "title": "Conveyor Tracking for Several Conveyors",
+  "file": "Conveyor_Tracking_Several",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Conveyor Tracking for Several Conveyors\n\nConveyor Tracking for Several Conveyors\n\nThis section describes a conveyor system where one robot picks up \"Part 1\" from Conveyor 1 and puts the picked parts above \"Parts 2\" on Conveyor 2 as shown in the figure below.\n\nIn this conveyor system, each conveyor needs one encoder and camera (sensor).",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

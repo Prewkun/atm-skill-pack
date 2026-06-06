@@ -1,0 +1,16 @@
+{
+  "title": "VGetPixelToCamera Method, Spel Class",
+  "file": "VGetPixelToCamera_Method,_Spel_Class",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VGetPixeToCamera (Calibration As String, X As Single, Y As Single, U As Single, ByRef X As Single, ByRef Y As Single, ByRef U As Single)",
+  "parameters": "Calibration\tString expression containing the name of a vision calibration in the current project.\n\nX\tReal variable that will contain x coordinate in pixels.\n\nY\tReal variable that will contain y coordinate in pixels.\n\nU\tReal variable that will contain the angle in degrees.\n\nX\tReal variable that will contain x coordinate in millimeters.\n\nY\tReal variable that will contain y coordinate in millimeters.\n\nU\tReal variable that will contain angle in degrees.",
+  "description": "Retrieves camera X, Y, and U physical coordinates for any object.",
+  "notes": "",
+  "see_also": "VGetPixelXYU\n\nVGetCameraXYU\n\nVGetPixelToCamera Example\n\nVB Example:\n\nDim xPix As Single, yPix As Single, uPix As Single\n\nDim xCam As Single, yCam As Single, uCam As Single\n\nDim cal As String, seq As String\n\ncal = \"testCal\"\n\nseq = \"testSeq\"\n\nm_spel.VRun(seq)\n\nm_spel.VGetPixelToCamera(cal, xPix, yPix, uPix, xCam, yCam, uCam)\n\nC# Example:\n\nfloat xPix, yPix, uPix;\n\nfloat xCam, yCam, uCam;\n\nstring cal, seq;\n\ncal = \"testCal\";\n\nseq = \"testSeq\";\n\nm_spel.VRun(seq);\n\nm_spel.VGetPixelToCamera(cal, xPix, yPix, uPix, out xCam, out yCam, out uCam);",
+  "examples": [
+    "Dim xPix As Single, yPix As Single, uPix As Single\nDim xCam As Single, yCam As Single, uCam As Single\nDim cal As String, seq As String\n\ncal = \"testCal\"\nseq = \"testSeq\"\nm_spel.VRun(seq)\nm_spel.VGetPixelToCamera(cal, xPix, yPix, uPix, xCam, yCam, uCam)",
+    "float xPix, yPix, uPix;\nfloat xCam, yCam, uCam;\nstring cal, seq;",
+    "cal = \"testCal\";\nseq = \"testSeq\";\nm_spel.VRun(seq);\nm_spel.VGetPixelToCamera(cal, xPix, yPix, uPix, out xCam, out yCam, out uCam);"
+  ]
+}

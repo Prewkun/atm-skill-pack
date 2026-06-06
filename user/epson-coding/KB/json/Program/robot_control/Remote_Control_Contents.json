@@ -1,0 +1,12 @@
+{
+  "title": "Remote Control Contents",
+  "file": "Remote_Control_Contents",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Remote Control Contents\n\nRemote Control\n\nBy using Input/Output, Ethernet (TCP/IP), and RS-232C, the controller can control manipulators from an external device.\n\nThe external device can execute several commands, including Motor On/Off, Start, Pause, Continue, and Stop.\n\nFor details on extended function of the remote I/O, refer to Epson RC+ 8.0 Remote Control Reference manual.\n\nOverview\n\nAuto Cycle Remote Control\n\nTeach Mode with Remote Control\n\nDebugging Remote Control\n\nRemote Input Handshake Timing\n\nRemote Inputs\n\nRemote Outputs",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Force_Sensor Keyword",
+  "file": "cmd_force_sensor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Force_Sensor Keyword\n\nForce_Sensor Keyword\n\nThe Force_Sensor keyword is used in these contexts:\n\nForce_Sensor Statement\n\nForce_Sensor Function",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

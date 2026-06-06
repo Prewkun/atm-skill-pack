@@ -1,0 +1,12 @@
+{
+  "title": "Firmness Property",
+  "file": "StiffnessGain_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Values",
+  "notes": "",
+  "see_also": "Applies To\n\nSurfaceAlign Object\n\nSpiralDiam Property",
+  "examples": []
+}

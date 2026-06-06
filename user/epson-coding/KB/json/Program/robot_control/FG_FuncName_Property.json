@@ -1,0 +1,14 @@
+{
+  "title": "FG_FuncName Property",
+  "file": "FG_FuncName_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Set a name of SPELFunc name to be executed.\n\nA function to be specified by SPELFunc object must have a string type variable for an argument and the return value type must be Boolean.\n\nSPELFunc object is failed when the return value of the SPELFunc to be specified is False.\n\nThe following is an example of the available SPELFunc.\n\nFunction MyFunc(ObjectName$ As String) As Boolean\n\n  MyFunc = True\n\nFend",
+  "notes": "",
+  "see_also": "Applies To\n\nSPELFunc Object",
+  "examples": [
+    "Function MyFunc(ObjectName$ As String) As Boolean MyFunc = True\nFend"
+  ]
+}

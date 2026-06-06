@@ -1,0 +1,15 @@
+{
+  "title": "AppendText Property",
+  "file": "AppendText_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Appends text to a TextBox control.",
+  "notes": "",
+  "see_also": "Applies To\n\nTextBox",
+  "examples": [
+    "GSet frmMain.txtStatus.AppendText, \"Cycle Complete\""
+  ],
+  "category": "gui_control"
+}

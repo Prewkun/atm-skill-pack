@@ -1,0 +1,15 @@
+{
+  "title": "VStatsReset Method, Spel Class",
+  "file": "vbg_VStatsReset",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VStatsReset (Sequence As String)",
+  "parameters": "Sequence\tString expression\n\t\t containing the name of a vision sequence in the current project.",
+  "description": "Resets vision statistics for a specified sequence in the current project.",
+  "notes": "VStatsReset resets the statistics for the specified sequence in memory only for the current Epson RC+ 8.0 session.  You should execute VStatsSave if you want changes to be permanent.  Otherwise, if you restart Epson RC+ 8.0, the statistics are restored from disk.",
+  "see_also": "VStatsResetAll\n\nVStatsShow\n\nVStatsSave\n\nVStatsReset Example\n\nVB",
+  "examples": [
+    "Sub btnResetStats_Click() m_spel.VStatsReset(\"seq01\")\nEnd Sub",
+    "void btnResetStats_Click(object sender, EventArgs e)\n{ m_spel.VStatsReset(\"seq01\");\n}"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GravityDirection Property",
+  "file": "GravityDirection_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the direction of gravity for the robot.",
+  "notes": "This sets or returns the orientation of the vector of gravitational acceleration in the base coordinate system.\n\nSince only the direction of gravity is set, it is recommended that the following be reflected in the settings:\n\nrValueX2 + rValueY2 + rValueZ2 = 1\n\nShould the settings of (rValueX, rValueY, rValueZ) = (0, 0, 0), the direction of gravity will not be fixed, so an error will occur.",
+  "see_also": "Applies To\n\nForce Control\n\nForce Trigger",
+  "examples": [
+    "> FSet Robot.GravityDirection, 0, 0, -1\n> MPSet MP1.GravityCenter, 10, 10, 100\n> MPSet MP1.Mass, 2\n> MP 1\n> Move CurPos +TLW(10) FC1 ROT"
+  ]
+}

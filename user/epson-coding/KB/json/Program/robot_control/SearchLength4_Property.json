@@ -1,0 +1,12 @@
+{
+  "title": "SearchLength4 Property",
+  "file": "SearchLength4_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the length of the edge search range.",
+  "notes": "Defines the length of SearchLength4 shown in the diagram below.",
+  "see_also": "Objects\n\nApplies To\n\nVision Objects: BoxFinder\n Property\n\nSearchLength Property\n\nSearchLength1 Property\n\nSearchLength2 Property\n\nSearchLength3 Property\n\nVision Objects: SearchLength4 Property\n\nBoxFinder",
+  "examples": []
+}

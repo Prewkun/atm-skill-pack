@@ -1,0 +1,12 @@
+{
+  "title": "Teaching Reference Points",
+  "file": "VG_Teaching_Reference_Points",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Teaching Reference Points\n\nTeaching by TwoRefPoints\n\nWhen teaching reference points for mobile and fixed downward calibration, you will be prompted to teach the point and then optionally teach it again at 180 degrees from the first position.\n  This allows the system to determine the true location of the reference point in the robot coordinate system.  However, if you are using a robot tool that has been accurately defined and specified in the calibration setup, you can skip teaching the point at 180 degrees.  To skip the 180-degree steps, ensure that the TwoRefPoints calibration property is set to False.  For details on defining tools, see Defining Tools in Using Vision Guide 8.0 with SPEL+.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

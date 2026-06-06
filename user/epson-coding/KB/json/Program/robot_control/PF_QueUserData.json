@@ -1,0 +1,14 @@
+{
+  "title": "PF_QueUserData",
+  "file": "PF_QueUserData",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PF_QueUserData part ID [, index [, user data]]",
+  "parameters": "part ID\tSpecify the part ID (integer number from 1 to 32).\n\nindex\tInteger expression that represents the index of the parts coordinates queue data.  (the beginning of the index number is 0).  Optional when executing from the command window.\n\nuser data\tReal expression that represents the user data to be set again.  This can be omitted when executed from the command window.  If omitted, the current user data (real expression) is displayed.",
+  "description": "Resets and displays the user data currently registered to the parts coordinates queue.\n\nIf the Sort method is specified by PF_Sort, the order of the parts coordinates queue data is changed according to the specified Sort method.\n\nQUE_SORT_POS_USER : User data (real expression) ascending order\n\nQUE_SORT_INV_USER : User data (real expression) descending order\n\nPF_QueUserData Example\n\nReal r\n\nr = 0.1\n\nPF_QueUserData 1, 1, r",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Real r\nr = 0.1\nPF_QueUserData 1, 1, r"
+  ]
+}

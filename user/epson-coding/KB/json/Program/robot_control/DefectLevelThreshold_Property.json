@@ -1,0 +1,12 @@
+{
+  "title": "DefectLevelThresNeg Property",
+  "file": "DefectLevelThreshold_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the negative defect level threshold.",
+  "notes": "DefectLevelThreshNeg is the threshold in pixels for a defect under the line or arc being inspected.  During inspection, if the defect level of a defect candidate is greater then DefectLevelThreshNeg and less than DefectLevelThreshPos, then the candidate is not considered to be a defect.\n\nSee Also: DefectLevelThresNeg Property\n\nDefectLevelThresPos Property\n\nVision Objects: DefectLevelThresNeg Property\n\nArcInspector\n\nLineInspector",
+  "see_also": "Applies To\n\nVision Objects: ArcInpsector, LineInspector",
+  "examples": []
+}

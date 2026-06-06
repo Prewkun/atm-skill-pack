@@ -1,0 +1,12 @@
+{
+  "title": "Point Object Layout",
+  "file": "PointObjectLayout",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Point Object Layout\n\nPoint Object Layout\n\nThe Point object layout appears as a cross hair on the screen. The only manipulation for a Point object is to change the position. This is done by clicking on the Point object and dragging it to a new position. In most cases Point objects are attached to other objects so the position is calculated based on the position of the associated objects.\n\nPoint Object Layout",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

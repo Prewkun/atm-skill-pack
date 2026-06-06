@@ -1,0 +1,15 @@
+{
+  "title": "AreaCorrectionDef Function",
+  "file": "AreaCorrectionDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AreaCorrectionDef(AreaNum)",
+  "parameters": "AreaNum\tSpecifies the area number (integer from 1 to 8) as an expression or numerical value.",
+  "description": "AreaCorrectionDef Function\n\nAreaCorrectionDef Function\n\nSee_Also Example\n\nReturns status as to whether the specified correction area has been set.",
+  "notes": "",
+  "see_also": "AreaCorrectionSet\n\nAreaCorrectionClr\n\nAreaCorrectionInv\n\nAreaCorrectionOffset Function\n\nAreaCorrectionDef Function Example\n\nFunction DisplayAreaCorrectionDef(areaNum As Integer)\n\n   If AreaCorrectionDef(areaNum) = False Then\n\n     Print \"Area\", areaNum, \" is not defined\"\n\n  Else\n\n     Print \"Area Definition:\"\n\n     AreaCorrectionSet areaNum\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function DisplayAreaCorrectionDef(areaNum As Integer)",
+    "If AreaCorrectionDef(areaNum) = False Then\n     Print \"Area\", areaNum, \" is not defined\" Else\n     Print \"Area Definition:\"\n     AreaCorrectionSet areaNum EndIf\nFend"
+  ]
+}

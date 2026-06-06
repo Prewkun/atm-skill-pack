@@ -1,0 +1,14 @@
+{
+  "title": "RealTorque Function",
+  "file": "cmd_RealTorque",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "RealTorque (jointNumber)",
+  "parameters": "jointNumber\tSpecifies the joint number to acquire the torque instruction value using an expression or numeric value.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "RealTorque Function\n\nRealTorque Function\n\nReturns the current torque instruction value of the specified joint.",
+  "notes": "",
+  "see_also": "TC, TCSpeed, TCLim\n\nRealTorque Function Example\n\nPrint \"Current Z axis torqueinstruction value (SCARA):\", RealTorque(3)",
+  "examples": [
+    "Print \"Current Z axis torqueinstruction value (SCARA):\", RealTorque(3)"
+  ]
+}

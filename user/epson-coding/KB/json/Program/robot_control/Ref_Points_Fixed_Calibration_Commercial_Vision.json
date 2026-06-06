@@ -1,0 +1,12 @@
+{
+  "title": "Ref Points Fixed Calibration Commercial Vision",
+  "file": "Ref_Points_Fixed_Calibration_Commercial_Vision",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Ref Points Fixed Calibration Commercial Vision\n\nReference Points for Fixed Camera\n\nThe 'Fixed Downward' and 'Standalone' calibration schemes require a calibration target plate or sheet that contains nine targets.\n\nFixed Camera Calibration Targets\n\nFor 'Fixed Downward' calibrations, the targets could be holes in a plate that a rod on the robot end effector can be slipped into. The distances between the targets do not have to be exact.\n\nFor Standalone cameras, a pattern sheet can be used. The horizontal and vertical distances between the targets must be known.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

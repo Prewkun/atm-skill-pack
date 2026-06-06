@@ -1,0 +1,12 @@
+{
+  "title": "MsgBox Constants",
+  "file": "constant_MsgBox",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "MsgBox Constants\n\nMsgBox Constants\n\nConstant Name\tValue\n\nMB_OK\t0\tMsgBox flags\n\nMB_OKCANCEL\t1\tMsgBox flags\n\nMB_ABORTRETRYIGNORE\t2\tMsgBox flags\n\nMB_YESNOCANCEL\t3\tMsgBox flags\n\nMB_YESNO\t4\tMsgBox flags\n\nMB_RETRYCANCEL\t5\tMsgBox flags\n\nMB_ICONSTOP\t16\tMsgBox flags\n\nMB_ICONQUESTION\t32\tMsgBox flags\n\nMB_ICONEXCLAMATION\t48\tMsgBox flags\n\nMB_ICONINFORMATION\t64\tMsgBox flags\n\nMB_DEFBUTTON1\t0\tMsgBox flags\n\nMB_DEFBUTTON2\t256\tMsgBox flags\n\nIDOK\t1\tMsgBox return\n\nIDCANCEL\t2\tMsgBox return\n\nIDABORT\t3\tMsgBox return\n\nIDRETRY\t4\tMsgBox return\n\nIDIGNORE\t5\tMsgBox return\n\nIDYES\t6\tMsgBox return\n\nIDNO\t7\tMsgBox return",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

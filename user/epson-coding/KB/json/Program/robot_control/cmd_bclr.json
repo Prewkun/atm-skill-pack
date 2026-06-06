@@ -1,0 +1,14 @@
+{
+  "title": "BClr Function",
+  "file": "cmd_bclr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "BClr (number, bitNum)",
+  "parameters": "number\tSpecifies the numeric value to clear the bit by an expression or numeric value.\n\nbitNum\tSpecifies the bit (integer from 0 to 31) to be cleared by an expression or numeric value.",
+  "description": "BClr Function\n\nBClr Function\n\nSee_Also Example\n\nClear one bit in a number and return the new value",
+  "notes": "",
+  "see_also": "BClr64\n\nBSet\n\nBSet64\n\nBTst\n\nBTst64\n\nBClr Function Example\n\nflags = BClr(flags, 1)",
+  "examples": [
+    "flags = BClr(flags, 1)"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "DIP Switch Settings Conveyor",
+  "file": "DIP_Switch_Settings_Conveyor",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "DIP Switch Settings Conveyor\n\nDIP Switch Settings\n\nThe board address is set by DIP switch (S2, S3) on the PG Board according to the board number, as shown in the following table.\n\nBoard #\tAddress\tS2\tS3\n\n1\n\n\t\t(A15)\t2\n\n\t\t(A14)\t3\n\n\t\t(A13)\t4\n\n\t\t(A12)\t1\n\n\t\t(A11)\t2\n\n\t\t(A10)\t3\n\n\t\t(A9)\t4\n\n\t\t(A8)\n\n1\t1100h\tOFF\tOFF\tOFF\tON\tOFF\tOFF\tOFF\tON\n\n2\t1200h\tOFF\tOFF\tOFF\tON\tOFF\tOFF\tON\tOFF\n\n3\t1300h\tOFF\tOFF\tOFF\tON\tOFF\tOFF\tON\tON\n\n4\t1400h\tOFF\tOFF\tOFF\tON\tOFF\tON\tOFF\tOFF\n\nIf you purchased the PG board separately, place the attached Board No. Label sticker on the board panel prior to installation of the board in the Control Unit and keep a written record of the address setting and the board number.\n\nIf you have purchased the PG Board with the Control Unit, the board address has been set properly before shipment and further settings should not be necessary.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

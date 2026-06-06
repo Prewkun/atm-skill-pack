@@ -1,0 +1,12 @@
+{
+  "title": "#undef command",
+  "file": "cmd_undef",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "#undef identifier",
+  "parameters": "identifier\tKeyword used\n\t\t in a previous #define statement.",
+  "description": "#undef command\n\n#undef\n\nSee_Also\n\nUndefines an identifier previously defined with #define.",
+  "notes": "",
+  "see_also": "#define\n\n#ifdef\n\n#ifndef",
+  "examples": []
+}

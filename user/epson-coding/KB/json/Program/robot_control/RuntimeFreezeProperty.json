@@ -1,0 +1,12 @@
+{
+  "title": "RuntimeFreeze Property",
+  "file": "RuntimeFreezeProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines whether to freeze the image when the vision sequence begins running.  The Image Display on the Vision Guide Window will display either the Frozen Image or a live image depending upon the RuntimeFreeze property setting.",
+  "notes": "The RuntimeFreeze property lets you choose whether to show the image acquired during a sequence, or show live video after the sequence runs.\n\nNote that when RuntimeFreeze is false and live video is displayed until the next sequence runs, it can slow down vision processing, because when a sequence needs to grab an image, it must wait for the current live grab to complete.  For fastest processing, use RuntimeFreeze = False only when necessary.\n\nSee Also: RuntimeFreeze Property\n\nRuntimeAcquire Property\n\nSequence Tab\n\nVision Sequences",
+  "see_also": "Applies To\n\nVision Sequence",
+  "examples": []
+}

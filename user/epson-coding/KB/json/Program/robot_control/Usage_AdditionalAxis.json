@@ -1,0 +1,23 @@
+{
+  "title": "Additional Axis Usage",
+  "file": "Usage_AdditionalAxis",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Additional Axis Usage",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "P1 = XY(10, 20, 30, 40) :ST(10, 20)          ' SCARA robot\nP1 = XY(10, 20, 30, 40, 50, 60) :ST(10, 20)  ' 6-axis robot",
+    "Go XY(10, 20, 30, 40) :ST(10, 20)\nGo XY(10, 20, 30, 40, 50, 60) :ST(10, 20)",
+    "P1 = XY(10, 20, 30, 40) :S(10) :T(20)\nP1 = XY(10, 20, 30, 40) :S(10)\nP1 = XY(10, 20, 30, 40) :T(20)",
+    "P1 = ST(10, 20)\nGo P1   ' Only additional axis moves and the manipulator remains at the current position.",
+    "Go ST(10, 20)    ' Only the additional axis moves.",
+    "P1 = XY(10, 20, 30, 40)\nGo P1   ' Only the manipulator moves and the additional axis remains at the current position.",
+    "Go XY(10, 20, 30, 40)    ' Only the manipulator moves.",
+    "P1 = XY(10, 20, 30, 40, 50, 60) :ST(10, 20)\nP2 = P1 + S(10) + T(20) ' Add the offset amount to the additional ST axes for P1.",
+    "P1 = XY(10, 20, 30, 40, 50, 60)\nP2 = P1 + S(10) + T(20)\n                          ' Error (ST are undefined for P1 and\n                            you cannot use the point operator)\nP1 = XY(10, 20, 30, 40, 50, 60) +ST(10, 20)                        ' Error\nP1 = XY(10, 20, 30, 40, 50, 60) +S(10) +T(20)                      ' Error\nGo ST(10, 20) + X(10)\n              ' Error (XY are undefined and\n                                       you cannot use the point operator)",
+    "Print CS(P1),  CT(P1)"
+  ]
+}

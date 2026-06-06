@@ -1,0 +1,14 @@
+{
+  "title": "LimitTorqueStopLP Statement",
+  "file": "LimitTorqueStopLP_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) LimitTorqueStopLP status\n\n(2) LimitTorqueStopLP status, jointNumber\n\n(3) LimitTorqueStopLP\n\nstatus\tOn: Enables the function to stop the robot at the upper limit torque\n\nOff: Disables the function to stop the robot at the upper limit torque\n\njointNumber\tThe joint number from 1 to 6.\n\n(For SCARA robots, joint numbers are from 1 to 4)\n\nResult\n\nReturns the current LimitTorqueStopLP status if the parameter is omitted.",
+  "parameters": "",
+  "description": "LimitTorqueStopLP enables the function to stop the robot at the upper limit torque value in Low power mode.  The robot immediately stops when it reaches the upper limit torque.  Using this command together with the torque restriction function of LimitTorqueLP provides the effect to reduce damage on the robot and peripherals at a collision in Low power mode.\n\nThis function can be enabled or disabled for each joint or all joints.  The default is \"all joints off\".\n\nThe setting returns to the default at the Controller startup.  In other cases, the setting does not change unless otherwise configured by this command explicitly.\n\nWhen the upper limit torque is reached, Error 5041 \"Motor torque output failure in low power state.\" will be output and the robot will stop.\n\nLimitTorqueStopLP Example\n\nFollowing is the example which restricts the maximum torque of the Jooint #3 at 15% and stops the robot immediately.\n\nFunction main\n Motor On\n Power low\n LimitTorque 20,27,15,42 ' Restricts the maximum torque of the Joint #3 to 15%\n ' Set the default value for other axes\n LimitTorqueStopLP On, 3 ' Joint #3 immedeately stops at the maximum torque\n Go P1 ' Executes the Go motion\n\nFend\n\nSee Also: LimitTorqueStopLP Statement\n\nLimitTorqueStopLP Function",
+  "notes": "",
+  "see_also": "Enables or disables the function to stop the robot when the upper limit torque is reached in Low power mode.",
+  "examples": [
+    "Function main Motor On Power low LimitTorque 20,27,15,42 ' Restricts the maximum torque of the Joint #3 to 15% ' Set the default value for other axes LimitTorqueStopLP On, 3 ' Joint #3 immedeately stops at the maximum torque Go P1 ' Executes the Go motion\nFend"
+  ]
+}

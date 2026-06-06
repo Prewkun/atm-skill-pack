@@ -1,0 +1,23 @@
+{
+  "title": "If...Then...Else...EndIf Statement",
+  "file": "cmd_if",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) If condition Then\n\nstmtT1\n\n.\n\n.\n\n[ElseIf condition Then]\n\nstmtT1\n\n.\n\n.\n\n[Else]\n\nstmtF1\n\n.\n\n.\n\nEndIf\n\n(2) If condition Then stmtT1 [; stmtT2 ...] [Else stmtF1 [; stmtF2 ...]]",
+  "parameters": "condition\tAny valid\n\t\t test condition which returns a True (any number besides 0) or\n\t\t False result (returned as a 0). (See sample conditions below)\n\nstmtT1\tExecuted when\n\t\t the condition is True. (Multiple statements may be put here in\n\t\t a blocked If...Then...Else\n\t\t style.)\n\nstmtF1\tExecuted when\n\t\t the condition is False. (Multiple statements may be put here in\n\t\t a blocked If...Then...Else\n\t\t style.)",
+  "description": "(1) If...Then...Else executes stmtT1, etc. when the conditional statement is True. If the condition is False then stmtF1, etc. are executed. The Else portion of the If...Then...Else instruction is optional. If you omit the Else statement and the conditional statement is False, the statement following the EndIf statement will be executed. For blocked If...Then...Else statements the EndIf statement is required to close the block regardless of whether an Else is used or not.\n\n(2) If...Then...Else can also be used in a non blocked fashion. This allows all statements for the If...Then...Else to be put on the same line. Please note that when using If...Then...Else in a non blocked fashion, the EndIf statement is not required. If the If condition specified in this line is satisfied (True), the statements between the Then and Else are executed. If the condition is not satisfied (False), the statements following Else are executed. The Else section of the If...Then...Else is not required. If there is no Else keyword then control passes on to the next statement in the program if the If condition is False.\n\nThe logical output of the conditional statement is any number excluding 1 when it is True, and 0 when it is false.",
+  "notes": "Sample Conditions:\n\na = b  :a is equal to b\n\na < b  :b is larger than a\n\na >= b  :a is greater than or equal to b\n\na <> b  :a is not equal to b\n\na > b  :b is smaller than a\n\na <= b  :a is less than or equal to b\n\nLogical operations And, Or and Xor may also be used.\n\nTrue in the Conditions:\n\nConstant True is -1 and the type is Boolean, so you need to be careful when using it in a comparing condition with other type variable.\n\nFunction main\n\n  Integer i\n\n  i = 3\n\n  If i = True Then\n\n    Print \"i=TRUE\"\n\nEndIf\n\nFend\n\nWhen you execute the program above, \"i=TRUE\" is displayed.\n\nThe judgement of condition including the Boolean type is done with \"0\" or \"non-0\".\n\nIf the value of \"i\" is not \"0\", it is considered that the condition is established and \"i=TRUE\" is displayed.",
+  "see_also": "Select...Case\n\nDo...Loop\n\nIf...Then...Else Statement Example\n\n[Single Line If...Then...Else]\n\nThe following example shows a simple function which checks an input to determine whether to turn a specific output on or off. This task could be a background I/O task which runs continuously.\n\nFunction main\n\n  Do\n\n    If Sw(0) = 1 Then On 1 Else Off 1\n\n  Loop\n\nFend\n\n[Blocked If...Then...Else]\n\nThe following example shows a simple function which checks a few inputs and prints the status of these inputs\n\nIf Sw(0) = 1 Then Print \"Input0 ON\" Else Print \"Input0 OFF\"\n\n'\n\nIf Sw(1) = 1 Then\n\n  If Sw(2) = 1 Then\n\n    Print \"Input1 On and Input2 ON\"\n\n  Else\n\n    Print \"Input1 On and Input2 OFF\"\n\n  EndIf\n\n  Else\n\n  If Sw(2) = 1 Then\n\n    Print \"Input1 Off and Input2 ON\"\n\n  Else\n\n    Print \"Input1 Off and Input2 OFF\"\n\n  EndIf\n\nEndIf\n\n<Other Syntax",
+  "examples": [
+    "Function main",
+    "Integer i",
+    "i = 3",
+    "If i = True Then",
+    "Print \"i=TRUE\"",
+    "EndIf",
+    "Fend",
+    "Function main Do\n    If Sw(0) = 1 Then On 1 Else Off 1 Loop\nFend",
+    "If Sw(0) = 1 Then Print \"Input0 ON\" Else Print \"Input0 OFF\"\n'\nIf Sw(1) = 1 Then If Sw(2) = 1 Then\n    Print \"Input1 On and Input2 ON\" Else\n    Print \"Input1 On and Input2 OFF\" EndIf Else If Sw(2) = 1 Then\n    Print \"Input1 Off and Input2 ON\" Else\n    Print \"Input1 Off and Input2 OFF\" EndIf\nEndIf",
+    "If x = 10 And y = 3 Then GoTo 50\nIf test <= 10 Then Print \"Test Failed\"\nIf Sw(0) = 1 Or Sw(1) = 1 Then Print \"Everything OK\""
+  ]
+}

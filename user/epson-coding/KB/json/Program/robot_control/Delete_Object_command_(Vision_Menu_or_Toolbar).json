@@ -1,0 +1,12 @@
+{
+  "title": "Deleting a Vision Object",
+  "file": "Delete_Object_command_(Vision_Menu_or_Toolbar)",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Deleting a Vision Object\n\nDeleting a Vision Object\n\nTo delete a vision object, first select the vision object you want to delete.\n\nOnce the vision object to delete has been selected, click the [Delete Object] button on the Vision Guide toolbar.\n\nA confirmation dialog box will appear.  Click [Yes] button to delete the object.\n\nThe [Delete Object] button is dimmed if there are no vision sequences for the current project or if there are no objects for the current vision sequence.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

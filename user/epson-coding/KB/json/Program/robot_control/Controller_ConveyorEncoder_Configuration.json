@@ -1,0 +1,12 @@
+{
+  "title": "System Configuration-Conveyor Encoders",
+  "file": "Controller_ConveyorEncoder_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Configuration-Conveyor Encoders\n\n[Setup]-[System Configuration]-[Controller]-[Conveyor Encoders]\n\nFor details, refer to Conveyor Tracking.\n\n[Setup]-[System Configuration]-[Controller]-[Safety Functions]\n\nDisplays information of safety board when using safety function (the Controller with Safety Board). Also, it is possible to start the safety function manager and change the parameter. It won't be displayed if the Controller is not with the safety board, or the safety board is not installed in the dedicated slot.\n\nItem\tDescription\n\nSafety\n\t\t board installed\tDisplays\n\t\t whether the safety board is installed or not.\n\nSafety\n\t\t board version\tDisplays\n\t\t the version of the safety board.\n\nSafety\n\t\t Function Manager\tStarts\n\t\t the safety function manager. For instructions, refer to the following\n\t\t manual.\n\nRobot Controller Safety Function Manual\n\t\t 4. Setting Safety Functions (Setting Software: Safety Function\n\t\t Manager)\n\n[Setup]-[System Configuration]-[Controller]-[Force Sensor]\n\nFor more details on the force sensor, refer to the following manual:\n\nEpson RC+ 8.0 option  Force Guide 8.0\n\n[Setup]-[System Configuration]-[Security]\n\nFor more details on security, refer to 15. Security.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

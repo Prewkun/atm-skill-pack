@@ -1,0 +1,14 @@
+{
+  "title": "SingularityDist Statement",
+  "file": "SingularityDist_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SingularityDist {distance}",
+  "parameters": "distance\tSpecify the distance between the point P and Joint #1 rotation axis (real number equals to or larger than 0. Unit: mm ) by a formula or a valule for determining the shoulder singularity neighborhood of the vertical 6-axis robot (including N series) and RS series.\n\nResult\n\nCurrent SingularityDist value will be displayed if the parameter is omitted.",
+  "description": "This command is enabled only when the singularity avoiding function is being used.\n\nDefault is 30 mm.  This command can be used to adjust the start position of the singularity avoidance.  If the value smaller than the default is specified, avoidance motion starts at the point closer to the singularity.  Usually, it is not necessary to change the parameter.  This may be useful to reduce errors which occur when passing the singularity.\n\nIf SingularityDist parameter is changed, the current setting is effective until the next controller startup.",
+  "notes": "",
+  "see_also": "Sets the singularity neighborhood distance necessary for the singularity avoiding function.\n\nAvoidSingularity\n\nSingularityAngle Function\n\nSingularitySpeed\n\nSingularityDist Statement Example\n\nSingularityDist 10.0 'Sets the singularity neighborhood distance at 10 mm",
+  "examples": [
+    "SingularityDist 10.0 'Sets the singularity neighborhood distance at 10 mm"
+  ]
+}

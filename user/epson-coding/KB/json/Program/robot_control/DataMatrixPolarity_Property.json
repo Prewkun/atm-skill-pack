@@ -1,0 +1,12 @@
+{
+  "title": "DataMatrixPolarity Property",
+  "file": "DataMatrixPolarity_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies the polarity of the DataMatrix code to search for.",
+  "notes": "0 - Black DataMatrix\n\n1 - White DataMatrix\n\n2 - Both black and white DataMatrix\n\nDefault: 0 - Black\n\nSee Also: DataMatrixPolarity Property\n\nDataMatrixConnectDots Property\n\nDataMatrixMinLength Property\n\nVision Objects: DataMatrixPolarity Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader\n\nDesigntime only",
+  "examples": []
+}

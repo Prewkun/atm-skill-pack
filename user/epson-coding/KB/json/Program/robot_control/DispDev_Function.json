@@ -1,0 +1,14 @@
+{
+  "title": "DispDev Function",
+  "file": "DispDev_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "DispDev",
+  "parameters": "",
+  "description": "DispDev Function\n\nDispDev Function",
+  "notes": "",
+  "see_also": "Returns the current display device.\n\nDispDev Statement\n\nDispDev Function Example\n\nPrint \"The current display device is \", DispDev",
+  "examples": [
+    "Print \"The current display device is \", DispDev"
+  ]
+}

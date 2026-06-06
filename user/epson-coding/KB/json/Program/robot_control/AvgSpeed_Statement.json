@@ -1,0 +1,14 @@
+{
+  "title": "AvgSpeed Statement",
+  "file": "AvgSpeed_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "AvgSpeed [jointNumber]",
+  "parameters": "jointNumber\tOptional.  Integer expression representing the joint number.\n\nThe additional S axis is 8 and T axis is 9.",
+  "description": "AvgSpeed displays the average value of the absolute speed values for the specified joints.  The loading state of the motor can be obtained by this instruction.  The result is a real value from 0 to 1 with 1 being the maximum average speed value.\n\nIf the average value is below 0.001, the result will be displayed as 0.\n\nYou must execute AvgSpeedClear before this command is executed.\n\nThis instruction is time restricted.  You must execute AvgSpeed within 60 seconds after AvgSpeedClear is executed.  When this time is exceeded, error 4088 occurs.\n\nWhen using the virtual controller or conducting dry-run, the average of the absolute speed vlaues is calculated from the commanded speed instead of the actual speed.\n\nThis command does not support the PG additional axes.",
+  "notes": "",
+  "see_also": "Displays the average of the absolute speed values for the specified joints.\n\nAvgSpeedClear\n\nAveSpeed Function\n\nPeakSpeed\n\nAvgSpeed Statement Example\n\n> AvgSpeedClear\n\n> Go P1\n\n> AvgSpeed 1\n\n  0.226\n\n> AvgSpeed\n\n  0.226    0.133\n\n  0.064    0.207\n\n  0.003    0.314\n\n  0.000    0.000\n\n  0.000\n\n>",
+  "examples": [
+    "> AvgSpeedClear\n> Go P1\n> AvgSpeed 1 0.226\n> AvgSpeed 0.226    0.133 0.064    0.207 0.003    0.314 0.000    0.000 0.000\n>"
+  ]
+}

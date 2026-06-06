@@ -1,0 +1,12 @@
+{
+  "title": "Project Wizard",
+  "file": "Project_Wizard",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Project Wizard\n\n[Project Wizard] Command (Project Menu)\n\nThe Project Wizard is a tool for creating new projects using step by step procedures. It is especially useful for new users.\n\nYou can create the following types of projects:\n\n- Empty project\n\n- Project from template\n\n- Pick and place without vision\n\n- Pick and place with vision\n\nCAUTION\t■\tBefore\n\t\t creating a project that will use a robot, ensure that you are\n\t\t familiar with\n\nall\n\t\t safety precautions and procedures. Always use caution when working\n\t\t with the robot,\n\nespecially\n\t\t when working inside the safeguarded area. Refer to section Precautions regarding\n\t\t Robot Operation for details.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

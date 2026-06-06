@@ -1,0 +1,12 @@
+{
+  "title": "MidRelativeZ Property",
+  "file": "MidRelativeZ_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the mid point, this property sets the moving amount in Z direction of coordinate systems specified by RelativeOrient and RelativeRobotLocal.\n\nIt is used when specifying Arc in MotionTrajectory and Relative in DestType.\n\nValues\n\nMinimum value -2000\n\nMaximum value 2000\n\nDefault:  0\n\nSee Also: MidRelativeZ Property\n\nMidRelativeX Property\n\nMidRelativeY Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressMove Object",
+  "examples": []
+}

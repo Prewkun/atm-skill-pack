@@ -1,0 +1,12 @@
+{
+  "title": "FollowMove Object",
+  "file": "FollowMove_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "FollowMove Object\n\nFollowMove Object\n\nFollowMove object follows so that the force to the specified direction will be 0 and moves the robot along with the specified path.  This object is used for a move of the fixed path of operation targets such as opening/closing the door.  In the case of the position control, the operation targets may get damages since extra force is applied if the path moves.  However, FollowMove object controls the applied force to be 0.  Therefore, the robot can move operation targets without teaching the accurate path.\n\nHow to use\n\nProperties\n\nResults",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

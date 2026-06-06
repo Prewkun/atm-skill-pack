@@ -1,0 +1,12 @@
+{
+  "title": "How to Edit the Alarm Information",
+  "file": "How_to_Edit_the_Alarm_Information",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to Edit the Alarm Information\n\nHow to Edit the Alarm Information\n\nThe configured alarm information can be edited in EPSON RC+ 7.0.\n\nSelect EPSON RC+ 7.0 menu-[Tools]-[Maintenance] to display the [Controller Tools] dialog box.\n\nSelect the alarm to be changed and click the <Change> button.\n\nDisplay the [Change Alarm] dialog box and enter any of the following.\n\nPurchase or replacement date of the battery\n\nDate of grease up\n\nClick the <OK> button and change the specified alarm information.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

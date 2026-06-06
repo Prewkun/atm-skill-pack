@@ -1,0 +1,12 @@
+{
+  "title": "Distance Tracking Function",
+  "file": "Distance_Tracking_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Distance Tracking Function\n\nDistance Tracking Function\n\nOverview\n\nConnection Example\n\nCommands\n\nSteps to adjust parameters\n\nProportionalGain Setting\n\nIntegralGain Setting\n\nDifferentialGain Setting\n\nExample of Dispense Application",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

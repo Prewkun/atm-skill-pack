@@ -1,0 +1,14 @@
+{
+  "title": "AutoOrientationFlag Function",
+  "file": "AutoOrientationFlag_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AutoOrientationFlag",
+  "parameters": "",
+  "description": "AutoOrientationFlag Function\n\nAutoOrientationFlag Function",
+  "notes": "",
+  "see_also": "Returns the state of the AutoOrientationFlag\n\nAutoOrientationFlag\n\nAutoOrientationFlag Function Example\n\nIf AutoOrientationFlag = Off Then\n\n   Print \" AutoOrientationFlag is off\"\n\nEndIf",
+  "examples": [
+    "If AutoOrientationFlag = Off Then\n   Print \" AutoOrientationFlag is off\"\nEndIf"
+  ]
+}

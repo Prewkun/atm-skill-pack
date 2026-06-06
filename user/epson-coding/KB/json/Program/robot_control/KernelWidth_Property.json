@@ -1,0 +1,12 @@
+{
+  "title": "KernelWidth Property",
+  "file": "KernelWidth_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the intensity of horizontal de-noising at DefectFinder.",
+  "notes": "Sets and returns the intensity of horizontal de-noising at DefectFinder. Setting value ranges from 1 to 15. Setting the KernelWidth property to 15 sets the de-noising intensity to maximum. Although a large setting value reduces the influence of noise, it also rejects small defects. Therefore, detectable defect size needs to be larger then the KernelWidth value.\n\nAdjust to an appropriate value according to the size of defect to be detected.\n\nSee Also: KernelWidth Property\n\nKernelHeight Property\n\nVision Objects: KernelWidth Property\n\nDefectFinder",
+  "see_also": "Applies To\n\nVision Objects: Defect Finder",
+  "examples": []
+}

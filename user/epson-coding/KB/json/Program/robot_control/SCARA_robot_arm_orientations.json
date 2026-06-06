@@ -1,0 +1,12 @@
+{
+  "title": "SCARA robot arm orientations",
+  "file": "SCARA_robot_arm_orientations",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "SCARA robot arm orientations\n\nSCARA robot arm orientations\n\nWith two types of arm orientation, a SCARA robot can move to nearly any position and orientation within a given work envelope. Examples are shown in the figures on the next page.\n\nExamples of moving to the same point using Lefty and Righty arm orientations",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

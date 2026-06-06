@@ -1,0 +1,15 @@
+{
+  "title": "VideoEnabled Property",
+  "file": "VideoEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Determines whether video is displayed on the VideoBox. This property can be set \"on the fly\" so that video can be turned on/off during program execution.",
+  "notes": "See Also: VideoEnabled Property\n\nGraphicsEnabled Property\n\nGUI Items: VideoEnabled Property\n\nVideoBox",
+  "see_also": "Applies To\n\nVideoBox",
+  "examples": [
+    "GSet frmMain.VideoBox1.VideoEnabled, True"
+  ],
+  "category": "gui_control"
+}

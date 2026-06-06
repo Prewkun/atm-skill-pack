@@ -1,0 +1,12 @@
+{
+  "title": "LogFileInterval Property",
+  "file": "LogInterval_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the sampling period for the files that record force, torque, and the position of the robot during the force guide sequence execution.\n\nValues\n\nMinimum value 0.002\n\nMaximum value 1\n\nDefault:  0.2\n\nSee Also: LogFileInterval Property\n\nLogMaxTime Property\n\nLogRobotLocal Property",
+  "notes": "",
+  "see_also": "Applies To\n\nSequence",
+  "examples": []
+}

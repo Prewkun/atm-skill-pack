@@ -1,0 +1,16 @@
+{
+  "title": "Hand_Type Function",
+  "file": "Hand_Type_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Hand_Type Function\n\nHand_Type Function",
+  "notes": "",
+  "see_also": "Acquires the type number for the hand.",
+  "examples": [
+    "> print Hex$(Hand_Type(1))",
+    "111122",
+    "' Compare the type number for hand 1 with the Define string and confirm whether they match\nIf Hand_Type(1) <> HAND_TYPE_SUCTION_OUT2_IN1 Then Print \"Hand1 is not a suction out2 in1.\"\nEndIf"
+  ]
+}

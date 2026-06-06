@@ -1,0 +1,15 @@
+{
+  "title": "Oport Method, Spel Class",
+  "file": "vbg_Oport",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function Oport (BitNumber As Integer) As Boolean\n\nFunction Oport (Label As String) As Boolean",
+  "parameters": "BitNumber\tInteger expression representing one of the standard and expansion discrete outputs.\n\nLabel\tString expression containing an output byte label.",
+  "description": "Returns the state of the specified output bit.",
+  "notes": "",
+  "see_also": "InBCD\n\nOff\n\nOn\n\nOpBCD\n\nOut\n\nSw\n\nOport Example\n\nVB Example:\n\nIf m_spel.Oport(1) Then\n\n  m_spel.On(2)\n\nEnd If\n\nC# Example:\n\nif(m_spel.Oport(1))\n\n  m_spel.On(2);",
+  "examples": [
+    "If m_spel.Oport(1) Then m_spel.On(2)\nEnd If",
+    "if(m_spel.Oport(1)) m_spel.On(2);"
+  ]
+}

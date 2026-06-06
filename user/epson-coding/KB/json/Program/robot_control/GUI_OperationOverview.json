@@ -1,0 +1,12 @@
+{
+  "title": "Operation",
+  "file": "GUI_OperationOverview",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Operation\n\nOverview\n\nThis chapter contains the following topics:\n\nDeveloping your GUI in Program Mode\n\nConfiguring your GUI startup in Auto Mode\n\nHandling pause and continue\n\nHandling emergency stop\n\nUsing a help file",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PlaneClr",
+  "file": "PlaneClr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "PlaneClr PlaneNum, [ robotNumber ]",
+  "parameters": "PlaneNum\tInteger expression representing the plane number from 1 to 15.\n\nrobotNumber\tInteger value representing the robot number\n\nIf omitted, the current robot is used.",
+  "description": "Robot parameter data is stored in compact flash in controller.  Therefore, writing to command flash occurs when executing this command.  Frequent writing to compact flash affect to lifetime of compact flash.  We recommend to use this command minimally.",
+  "notes": "",
+  "see_also": "Clears (undifines) a Plane definition.\n\nGetRobotInsidePlane\n\nInsidePlane\n\nPlane\n\nPlaneDef\n\nPlaneClr Statement Example\n\nPlaneClr 1",
+  "examples": [
+    "PlaneClr 1"
+  ]
+}

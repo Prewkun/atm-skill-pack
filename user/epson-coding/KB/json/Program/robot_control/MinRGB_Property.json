@@ -1,0 +1,12 @@
+{
+  "title": "MinRGB Property",
+  "file": "MinRGB_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the lower color limits for the ImageOp ColorStretch operation.",
+  "notes": "MinRGB and MaxRGB are used to specify the minimum and maximum RGB values to use for the ColorStretch operation of ImageOp.",
+  "see_also": "Applies To\n\nVision Objects: ImageOp\n\nMaxRGB Property\n\nVision Objects: MinRGB Property\n\nImageOp",
+  "examples": []
+}

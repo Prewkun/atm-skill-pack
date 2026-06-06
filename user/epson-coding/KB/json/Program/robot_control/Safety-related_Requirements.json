@@ -1,0 +1,12 @@
+{
+  "title": "Safety-related Requirements",
+  "file": "Safety-related_Requirements",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Safety-related Requirements\n\nSafety-related Requirements\n\nSpecific tolerances and operating conditions for safety are contained in the manuals for the robot, controller and other devices. Be sure to read those manuals as well.\n\nRobot systems safety standard and other examples are given in this chapter.  Therefore, to ensure that safety measures are complete, please refer to the other standards listed as well.\n\n(Note: The following is only a partial list of the necessary safety standards.)\n\nEN ISO 10218-1\tRobots and robotic devices -- Safety requirements for industrial robots -- Part 1: Robots\n\nEN ISO 10218-2\tRobots and robotic devices -- Safety requirements for industrial robots -- Part 2: Robot systems and integration\n\nANSI/RIA R15.06\tAmerican National Standard for Industrial Robots and Robot Systems - Safety Requirements\n\nEN ISO 12100\tSafety of machinery -- General principles for design -- Risk assessment and risk reduction\n\nEN ISO 13849-1\tSafety of machinery - Safety - related parts of control systems - Part 1: General principles for design\n\nEN ISO 13850\tSafety of machinery -- Emergency stop -- Principles for design\n\nEN ISO 13855\tSafety of machinery -- Positioning of safeguards with respect to the approach speeds of parts of the human body.\n\nEN ISO 13857\tSafety of machinery -- Safety distances to prevent hazard zones being reached by upper and lower limbs.\n\nISO 14120\n\nEN953\tSafety of machinery -- Guards -- General requirements for the design and construction of fixed and movable guards\n\nIEC 60204-1\n\nEN 60204-1\tSafety of machinery - Electrical equipment of machines - Part 1: General requirements\n\nCISPR11\n\nEN 55011\tIndustrial, scientific and medical (ISM) radio-frequency equipment - Electromagnetic disturbance characteristics - Limits and methods of measurement\n\nIEC 61000-6-2\n\nEN 61000-6-2\tElectromagnetic compatibility (EMC) -- Part 6-2: Generic standards - Immunity for industrial environments",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

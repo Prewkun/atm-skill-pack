@@ -1,0 +1,12 @@
+{
+  "title": "JRange VI",
+  "file": "JRange_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the permissible working range of the specified robot joint in pulses.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nJointNumber\tInteger number between 1 - 9 representing the joint for which JRange will be specified.\n\nLowerLimitPulses\tInteger number representing the encoder pulse count position for the lower limit range of the specified joint.\n\nUpperLimitPulses\tInteger number representing the encoder pulse count position for the upper limit range of the specified joint\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nJRange Example",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

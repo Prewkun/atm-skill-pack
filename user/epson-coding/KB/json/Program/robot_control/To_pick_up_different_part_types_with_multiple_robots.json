@@ -1,0 +1,12 @@
+{
+  "title": "To pick up different part types with multiple robots",
+  "file": "To_pick_up_different_part_types_with_multiple_robots",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "To pick up different part types with multiple robots\n\nTo pick up different part types with multiple robots\n\nWhen both robots are handling different types of parts, you can create a conveyor for each robot.  When the vision system finds parts, it adds the part positions to the correct queue, depending on the part type.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

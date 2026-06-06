@@ -1,0 +1,12 @@
+{
+  "title": "Parts Vision Sequence",
+  "file": "Part_Feeding_Parts_Detection_Vision_Sequence",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Parts Vision Sequence\n\nParts Vision Sequence\n\nA parts detection vision sequence is used to detect parts and retrieve part coordinates.  Create a vision sequence as outlined below.\n\nNote:\n  Create a separate parts detection vision sequence to the feeder calibration vision sequence.\n\nSimple Parts\n\nParts With Sides\n\nParts that Require Gripper Clearance\n\nSpecial Vision Configurations",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "FittingThreshold Property",
+  "file": "FittingThreshold_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines the line or arc fitting threshold.",
+  "notes": "The FittingThreshold specifies which edge results to use for fitting the line or arc.  During the iterative edge search to find the line or arc, if an edge is found whose distance from the line is greater than the FittingThreshold value, then the edge result is not used in the final line or arc fitting.\n\nSee Also: FittingThreshold Property\n\nFitError Result\n\nVision Objects: FittingThreshold Property\n\nArcFinder\n\nBoxFinder\n\nContour\n\nCornerFinder\n\nLineFinder",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, BoxFinder, Contour, CornerFinder, LineFinder",
+  "examples": []
+}

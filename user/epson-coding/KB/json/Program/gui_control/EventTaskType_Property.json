@@ -1,0 +1,13 @@
+{
+  "title": "EventTaskType Property",
+  "file": "EventTaskType_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets the task type of the function that starts with the event.",
+  "notes": "When this property is set to 1-NoPause, event handler function is able to be run when other tasks are paused.\n\nWhen this property is set to 2-NoEmgAbort, the event handler function is able to be run in the emergency stop state.\n\nSee Also: EventTaskType Property\n\nLeft Property\n\nWidth Property\n\nGUI Items: EventTaskType Property\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, Timer",
+  "see_also": "Applies To\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, LED, ProgressBar, TrackBar, StatusBar, Grid",
+  "examples": [],
+  "category": "gui_control"
+}

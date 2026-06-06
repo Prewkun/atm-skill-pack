@@ -1,0 +1,14 @@
+{
+  "title": "Hand Statement",
+  "file": "Hand_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) Hand point, [ Lefty | Righty]\n\n(2) Hand",
+  "parameters": "point\tPnumber or P(expr) or point label.\n\nLefty | Righty\tHand (arm) orientation",
+  "description": "Hand Statement\n\nHand Statement",
+  "notes": "",
+  "see_also": "Sets the hand (arm) orientation of a point.\n\nElbow, Hand Function, J4Flag, J6Flag, Wrist., J1Flag, J2Flag\n\nHand Statement Example\n\nHand P0, Lefty\n\nHand pick, Righty\n\nHand P(myPoint), myHand\n\nP1 = -364.474, 120.952, 469.384, 72.414, 1.125, -79.991",
+  "examples": [
+    "Hand P0, Lefty\nHand pick, Righty\nHand P(myPoint), myHand\n\nP1 = -364.474, 120.952, 469.384, 72.414, 1.125, -79.991"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Vision Sequences and EPSON RC+ Projects",
+  "file": "VisionSequencesandSPELforWindowsProjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Vision Sequences and EPSON RC+ Projects\n\nVision sequences and Epson RC+ 8.0 projects\n\nEpson RC+ 8.0 is based on the Project concept where each Epson RC+ 8.0 Project contains programs, teach points, and all other robot configuration parameters required for a specific application.\n\nWhen Vision Guide 8.0 is used within an Epson RC+ 8.0 project, all vision sequences which were created within that project are also saved with the project.\n\nThis allows the use and modification of all vision sequences previously created in the project at the time the user opens a particular project next time.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

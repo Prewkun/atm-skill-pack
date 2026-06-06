@@ -1,0 +1,12 @@
+{
+  "title": "AddRetightenPressForce Property",
+  "file": "ReverseRotPressForce_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "AddRetightenPressForce Property\n\nAddRetightenPressForce Property\n\nThis property sets a pressing force to apply to retighten a screw.\n\nIt is the force to apply to PressForce of the ScrewTighten object to prevent the screw from coming out of the driver bit during the screw tightening operation.  Normally set to 0.\n\nIf the screw comes out during the screw retightening operation, add the force gradually.\n\nIf PressOrient of the ScrewTighten object is +Fx, +Fy, and +Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t-10\n\nMaximum value\t0\n\nDefault: 0\n\nIf PressOrient of the ScrewTighten object is -Fx, -Fy, and -Fz:\n\n\tValue (Unit: [N])\n\nMinimum value\t0\n\nMaximum value\t10\n\nDefault: 0",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

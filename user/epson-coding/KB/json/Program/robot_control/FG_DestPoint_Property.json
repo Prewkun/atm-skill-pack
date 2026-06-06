@@ -1,0 +1,12 @@
+{
+  "title": "FG_DestPoint Property",
+  "file": "FG_DestPoint_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the point using for the destination point of the trajectory.\n\nIt is used when specifying RobotPoint in DestType.\n\nValues\n\nMinimum value 0\n\nMaximum value 999\n\nDefault:  0\n\nSee Also: DestPoint Property\n\nDestType Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressMove Object",
+  "examples": []
+}

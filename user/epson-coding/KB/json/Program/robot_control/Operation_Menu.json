@@ -1,0 +1,12 @@
+{
+  "title": "Operation",
+  "file": "Operation_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Operation\n\nOperation\n\nThis chapter contains instructions for operation of the Epson RC+ 8.0 system. The main topics are:\n\n- System Power Up Procedure\n\n- Starting Epson RC+ 8.0\n\n- System Shutdown Procedure\n\n- Communications with Controller\n\n- Writing your first program",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

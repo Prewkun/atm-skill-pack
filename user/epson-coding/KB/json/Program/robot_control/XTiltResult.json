@@ -1,0 +1,12 @@
+{
+  "title": "XTilt Result",
+  "file": "XTiltResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the calibration X tilt result.",
+  "notes": "XTilt is a relative value that indicates camera tilt along the camera X axis.  The directions are as viewed from the camera in the image coordinate system (plus x is right).\n\nA positive value indicates tilt to the right, negative is tilt to the left.",
+  "see_also": "Applies To\n\nVision Calibration\n\nYTilt Result",
+  "examples": []
+}

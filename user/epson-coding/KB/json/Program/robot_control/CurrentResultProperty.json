@@ -1,0 +1,14 @@
+{
+  "title": "CurrentResult Property",
+  "file": "CurrentResultProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defines which result to display in the Results list on the Object window or which result to return data for when an object searches for multiple results.",
+  "notes": "Several objects support finding multiple results by setting NumberToFind equal to a value greater then one.  The CurrentResult property defines which result to work with.\n\nWhen you are only trying to find one result (as defined by the NumberToFind property), the CurrentResult property is automatically set to one since there is only one possible result to return.\n\nWhen working with the Vision Guide window, you will also notice that the Results list on the Object window will display a heading like \"Result (1 of 15)\".  This means that the system tried to find 15 features (as defined by the NumberToFind property) and the Results list will display the results for item 1.\n\nIf you want to see the values for one of the other results, just change the CurrentResult property value to indicate which result you want to examine.\n\nResults are ordered according to the Sort property setting.\n\nArcInspector, Blob, DefectFinder, and LineInspector objects results are displayed in descending order of blob size depending on SizeToFind. For Result 1 (CurrentResult = 1), the largest blob result will be displayed.\n\nCorrelation object, Edge, and Geometric objects results are displayed in descending order of scores as default.  For Result 1 (CurrentResult = 1), the result of the highest score will be displayed.",
+  "see_also": "Applies To\n\nVision Objects: ArcFinder, ArcInspector, Blob, BoxFinder, CodeReader, ColorMatch, Contour, CornerFinder, Correlation, DefectFinder, Edge, Frame, Geometric, Line, LineFinder, LineInspector, OCR, Polar, Point, Text, Coordinates",
+  "examples": [
+    "Function main #define NUM_TO_FIND 3 Integer foundCount, area VRun mtest VGet mtest.Blob01.NumberFound, foundCount If foundCount = NUM_TO_FIND Then\n    Print \"The correct number of blobs were found\" Else\n    Print \"Only (\", found, \") blobs were found\" EndIf VSet mtest.Blob01.CurrentResult, 1 VGet mtest.Blob01.Area, area Print \"1st blob area =\", area, \"pixels\" VSet mtest.Blob01.CurrentResult, 2 VGet mtest.Blob01.Area, area Print \"2nd blob area =\", area, \"pixels\" VSet mtest.Blob01.CurrentResult, 3 VGet mtest.Blob01.Area, area Print \"3rd blob area =\", area, \"pixels\"\nFend"
+  ]
+}

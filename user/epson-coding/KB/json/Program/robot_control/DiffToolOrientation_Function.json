@@ -1,0 +1,15 @@
+{
+  "title": "DiffToolOrientation Function",
+  "file": "DiffToolOrientation_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "DiffToolOrientation(pointData1, pointData2 , axisNumber)",
+  "parameters": "pointData1\tSpecify the first point data.\n\npointData2\tSpecify the second point data.\n\nConstant\tValue\n\nCOORD_X_PLUS\t1:\t+X axis\n\nCOORD_Y_PLUS\t2:\t+Y axis\n\nCOORD_Z_PLUS\t3:\t+Z axis\n\nCOORD_ALL\t4\tAirbitrary axis\n\nAirbitrary axis",
+  "description": "Returns the angle (real value, from 0 to 180 degrees) between the specified coordinate axes of the Tool coordinate systems which indicates the difference between Tool orientations of two specified points.  The results are not affected by the order of parameters, pointData1 and pointData2.  The results are also not affected by positional relation (coordinate values of X, Y, and Z) between the origin points of the two points.\n\nReturns a rotation amount around an arbitrary axis when COORD_ALL is specified. An arbitrary axis refers to a hypothetical axis (a straight line) around which the robot can move in a single rotation when two orientations are provided (U, V, W). This function is used to find the overall angle of rotation without limiting rotation to each axis.",
+  "notes": "",
+  "see_also": "Tool\n\nDiffToolOrienation Function Example\n\n'Displays the angle between Tool coordinate Z axes of Point 1 and 2.\n\nPrint DiffToolOrientation(P1, P2, COORD_Z_PLUS)",
+  "examples": [
+    "'Displays the angle between Tool coordinate Z axes of Point 1 and 2.",
+    "Print DiffToolOrientation(P1, P2, COORD_Z_PLUS)"
+  ]
+}

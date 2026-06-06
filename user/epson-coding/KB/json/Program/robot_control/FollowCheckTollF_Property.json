@@ -1,0 +1,12 @@
+{
+  "title": "FollowCheckTolF Property",
+  "file": "FollowCheckTollF_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the range of the end conditions related to force.\n\nIt is used when ForceCheckEnabled is True.\n\nIt is used in the axis that specified Follow by each ControlMode in Fx, Fy, and Fz, and determined that it is within the range of -FollowCheckTolF to + FollowCheckTolF.\n\nIf all axes specified Follow are within the range set by either FollowCheckTolF or FollowCheckTolT, it is determined as the end conditions are satisfied.\n\nValues\n\nMinimum value 0.1\n\nMaximum value 10\n\nDefault:  1\n\nSee Also: FollowCheckTolF Property\n\nFollowCheckTolT Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object",
+  "examples": []
+}

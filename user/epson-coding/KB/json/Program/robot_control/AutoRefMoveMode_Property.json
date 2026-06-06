@@ -1,0 +1,12 @@
+{
+  "title": "AutoRefMoveMode Property",
+  "file": "AutoRefMoveMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns modes relating to movement when automatically calculating the calibration reference point.",
+  "notes": "When set to Tool, the robot movements are in the XY plane of the Tool 0 coordinate system when automatically calculating the calibration reference point. The camera should be mounted so that the optical axis is approximately parallel to the Z-axis direction (perpendicular to the 6th joint flange plane) of the tool 0 coordinate system.\n\nWhen set to Local, the robot movements are in the XY plane of the local coordinate system specified by the RobotLocal property when automatically calculating the calibration reference point. Unlike the Tool, the camera can be mounted at any angle. However, it must be specified in the RobotLocal property so that the XY plane of the local coordinate system is approximately parallel to the image plane of the camera.",
+  "see_also": "Applies To\n\nVision Calibration\n Property\n\nVCal Statement\n\nAutoReference Property\n\nRobotLocal Property",
+  "examples": []
+}

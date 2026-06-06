@@ -1,0 +1,17 @@
+{
+  "title": "IOLabel$ Function",
+  "file": "IOLabel$_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "IOLabel$(IOType, IOWidth, portNumber)",
+  "parameters": "IOType\tInteger expression\n\t\t representing the type of I/O.\n\n\t\t0 - Input\n\n1 - Output\n\n2 - Memory\n\nIOWidth\tInteger expression\n\t\t representing the width of the port: 1(bit), 8 (byte), or 16 (word).\n\nportNumber\tInteger expression\n\t\t representing the bit, byte, or word port number to return the\n\t\t label for.",
+  "description": "IOLabel$ Function\n\nIOLabel$ Function\n\nSee Also Example\n\nReturns the I/O label for a specified input or output bit, byte, or word.",
+  "notes": "",
+  "see_also": "PLabel$\n\nIONumber\n\nIOLabel$ Function Example\n\nInteger i\n\nFor i = 0 To 15\n\n  Print \"Input \", i, \": \", IOLabel$(0, 1, i)\n\nNext i",
+  "examples": [
+    "Integer i",
+    "For i = 0 To 15",
+    "Print \"Input \", i, \": \", IOLabel$(0, 1, i)",
+    "Next i"
+  ]
+}

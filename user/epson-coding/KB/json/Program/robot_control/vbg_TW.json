@@ -1,0 +1,15 @@
+{
+  "title": "TW Method, Spel Class",
+  "file": "vbg_TW",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Function TW () As Boolean",
+  "parameters": "",
+  "description": "Returns the status of the WAIT condition and WAIT timer interval.",
+  "notes": "",
+  "see_also": "WaitMem\n\nWaitSw\n\nTW Example\n\nVB Example:\n\nConst PartPresent = 1\n\nm_spel.WaitSw(PartPresent, True, 5)\n\nIf m_spel.TW() Then\n\n  MsgBox \"Part present time out occurred\"\n\nEnd If\n\nC# Example:\n\nconst int PartPresent = 1;\n\nm_spel.WaitSw(PartPresent, True, 5);\n\nif (m_spel.TW())\n\n  MessageBox.Show(\"Part present time out occurred\");",
+  "examples": [
+    "Const PartPresent = 1\nm_spel.WaitSw(PartPresent, True, 5)\nIf m_spel.TW() Then MsgBox \"Part present time out occurred\"\nEnd If",
+    "const int PartPresent = 1;\nm_spel.WaitSw(PartPresent, True, 5);\nif (m_spel.TW()) MessageBox.Show(\"Part present time out occurred\");"
+  ]
+}

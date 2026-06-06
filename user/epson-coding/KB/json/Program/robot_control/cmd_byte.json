@@ -1,0 +1,14 @@
+{
+  "title": "Byte Statement",
+  "file": "cmd_byte",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Byte varName [( subscripts )] [, varName [( subscripts )]",
+  "parameters": "varName\tVariable name which the user wants to declare as type Byte.\n\nsubscripts\tOptional.  Dimensions of an array variable; up to 3 dimensions may be declared.  The subscripts syntax is as follows\n\n(ubound1, [ubound2], [ubound3])\n\nubound1, ubound2, ubound3 each specify the maximum upper bound for the associated dimension.\n\nThe elements in each dimension of an array are numbered from 0 and the available number of array elements is the upper bound value + 1.\n\nWhen specifying the upper bound value, make sure the number of total elements is within the range shown below:\n\nLocal variable   2000\n\nGlobal Preserve variable   4000\n\nGlobal variable and module variable   100000",
+  "description": "Byte is used to declare variables as type Byte.  Variables of type Byte can contain whole numbers ranging in value from -128 to +127.  Local variables should be declared at the top of a function.  Global and module variables must be declared outside of functions.",
+  "notes": "",
+  "see_also": "Data Types Overview\n\nVariable Naming Conventions\n\nVariable Declarations\n\nBoolean\n\nDouble\n\nGlobal\n\nInt32\n\nInteger\n\nLong\n\nReal\n\nShort\n\nString\n\nUByte\n\nUInt32\n\nUShort\n\nByte Statement Example\n\nThe following example declares a variable of type Byte and then assigns a value to it.  A bitwise And is then done to see if the high bit of the value in the variable test_ok is On (1) or Off (0).  The result is printed to the display screen. (Of course in this example the high bit of the variable test_ok will always be set since we assigned the variable the value of 15.)\n\nFunction Test\n\n  Byte A(10) 'Single dimension array of byte\n\n  Byte B(10, 10) 'Two dimension array of byte\n\n  Byte C(5, 5, 5) 'Three dimension array of byte\n\n  Byte test_ok\n\n  test_ok = 15\n\n  Print \"Initial Value of test_ok = \", test_ok\n\n  test_ok = (test_ok And 8)\n\n  If test_ok <> 8 Then\n\n    Print \"test_ok high bit is ON\"\n\n  Else\n\n    Print \"test_ok high bit is OFF\"\n\n  EndIf\n\nFend",
+  "examples": [
+    "Function Test Byte A(10) 'Single dimension array of byte Byte B(10, 10) 'Two dimension array of byte Byte C(5, 5, 5) 'Three dimension array of byte Byte test_ok test_ok = 15 Print \"Initial Value of test_ok = \", test_ok test_ok = (test_ok And 8) If test_ok <> 8 Then\n    Print \"test_ok high bit is ON\" Else\n    Print \"test_ok high bit is OFF\" EndIf\nFend"
+  ]
+}

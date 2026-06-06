@@ -1,0 +1,15 @@
+{
+  "title": "FCKeep Statement",
+  "file": "FCKeep_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Activates the force control function, and when the specified amount of time has elapsed, a stop is executed.",
+  "notes": "This does not execute a motion command, but is used when wanting to activate the force control function over a fixed period of time. When wanting to perform push-work using a fixed force over a fixed period of time, after moving the tool using position control to a point just prior to contact, specify the Force Control Object having had the target force set therein, and execute FCKeep.\n\nIn addition, when desiring to continue force control for a fixed period of time following the execution of a motion command, which includes force control, add a force control object and qualified CF parameter to the motion command and execute, then continue on with the execution of the FCKeep.",
+  "see_also": "FCEnd Statement",
+  "examples": [
+    "> FCKeep FC1, 30",
+    "Function main Move P1 FC1 CF FCKeep FC1, 10\nFend"
+  ]
+}

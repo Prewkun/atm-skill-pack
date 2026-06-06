@@ -1,0 +1,12 @@
+{
+  "title": "Using Blob Objects",
+  "file": "UsingBlobObjects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Blob Objects\n\nUsing Blob Objects\n\nNow that we've reviewed how blob analysis works we have set the foundation for understanding how to use Vision Guide 8.0 Blob objects.  This next section will describe the steps required to use Blob objects as listed below:\n\n\tHow to create a new Blob object\n\tPosition and Size the search\n\t window\n\tConfigure the properties associated with the Blob\n\t object\n\tTest the Blob object & examine the results\n\tMake adjustments to properties and test again\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use. If you have no vision sequence to work with, you can create a new vision sequence by clicking on the [New Sequence] toolbar button.  You can also select a sequence which was created previously by clicking on the Sequence tree in the Vision Guide window.\n  See Vision Sequences for details on how to create a new vision sequence or select one which was previously defined.\n\nStep 1: Create a New Blob Object\n\nStep 2: Position and Size the Search Window\n\nStep 3: Configure the Blob Object Properties\n\nStep 4: Test the Blob Object and Examine the Results\n\nStep 5: Make Adjustments to Properties and Test Again",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

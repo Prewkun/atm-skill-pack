@@ -1,0 +1,12 @@
+{
+  "title": "Starting Epson RC+ 8.0",
+  "file": "Starting_Epson_RC+",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Starting Epson RC+ 8.0\n\nStarting Epson RC+ 8.0\n\nThere are three ways to start Epson RC+ 8.0. You can also configure the mode that Epson RC+ 8.0 starts in.\n\nStart Method 1\n\nDouble-click the [Epson RC+ 8.0] icon on the desktop.\n\nStart Method 2\n\n1. Click the Windows [Start] button.\n\n2. Select [Epson RC+ 8.0]-[Epson RC+ 8.0].\n\nStart Method 3\n\nConfigure Epson RC+ 8.0 to start automatically after Windows starts.\n\nFor details, refer to 4.2.7 Auto Start.\n\nNOTE:  When using the RC+ API option, you do not need to start Epson RC+ 8.0. The library created with the RC+ API option will load Epson RC+ 8.0 automatically in the background.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

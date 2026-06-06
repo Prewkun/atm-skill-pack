@@ -1,0 +1,12 @@
+{
+  "title": "Code39ChecksumEnabled Property",
+  "file": "Code39ChecksumEnabled_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets whether to use the checksum for CODE 39 detection.",
+  "notes": "Sets whether to use the checksum for CODE 39 detection.\n\nSetting range: True / False\n\nDefault:False\n\nSee Also: Code39ChecksumEnabled Property\n\nCode39OutputChecksum Property\n\nCode39OutputStartStop Property\n\nVision Objects: Code39ChecksumEnabled Property\n\nCode Reader",
+  "see_also": "Applies To\n\nVision Objects: Code Reader\n\nDesigntime only",
+  "examples": []
+}

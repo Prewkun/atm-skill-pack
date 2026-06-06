@@ -1,0 +1,15 @@
+{
+  "title": "TextAlign Property",
+  "file": "TextAlign_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the alignment of text in the control.",
+  "notes": "",
+  "see_also": "Applies To\n\nButton, Label, TextBox, RadioButton, CheckBox, ListBox, GroupBox",
+  "examples": [
+    "GSet frmMain.lblName.TextAlign, TEXTALIGN_LEFT"
+  ],
+  "category": "gui_control"
+}

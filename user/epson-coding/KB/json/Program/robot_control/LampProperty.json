@@ -1,0 +1,12 @@
+{
+  "title": "Lamp Property",
+  "file": "LampProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns the output bit used to turn ON a lamp at the calibration.",
+  "notes": "Use the Lamp property to automatically turn ON a lamp for calibration.  Use the LampDelay property to allow time for a lamp to turn ON before calibration continues.",
+  "see_also": "Applies To\n\nVision Calibration\n\nLampDelay Property",
+  "examples": []
+}

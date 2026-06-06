@@ -1,0 +1,12 @@
+{
+  "title": "Warranty",
+  "file": "Warranty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Warranty\n\nWarranty\n\nThe robot and its optional parts are shipped to our customers only after being subjected to the strictest quality controls, tests and inspections to certify its compliance with our high performance standards.\n\nProduct malfunctions resulting from normal handling or operation will be repaired free of charge during the normal warranty period. (Please ask your Regional Sales Office for warranty period information.)\n\nHowever, customers will be charged for repairs in the following cases (even if they occur during the warranty period):\n\n\t\t\tDamage or malfunction caused by improper use which is not described in the manual, or careless use.\n\t\t\tMalfunctions caused by customers' unauthorized disassembly.\n\t\t\tDamage due to improper adjustments or unauthorized repair attempts.\n\t\t\tDamage caused by natural disasters such as earthquake, flood, etc.\n\nWarnings, Cautions, Usage:\n\n\t\t\tIf the robot or associated equipment is used outside of the usage conditions and product specifications described in the manuals, this warranty is void.\n\t\t\tIf you do not follow the WARNINGS and CAUTIONS in this manual, we cannot be responsible for any malfunction or accident, even if the result is injury or death.\n\t\t\tWe cannot foresee all possible dangers and consequences. Therefore, this manual cannot warn the user of all possible hazards.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

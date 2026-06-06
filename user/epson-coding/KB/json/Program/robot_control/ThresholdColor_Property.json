@@ -1,0 +1,12 @@
+{
+  "title": "ThresholdColor Property",
+  "file": "ThresholdColor_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the color of the pixels whose gray values fall between the ThresholdHigh and ThresholdLow properties.",
+  "notes": "The ThresholdColor property defines the color of the pixels whose gray values are between the ThresholdHigh and ThresholdLow properties during binarization.  For example, when ThresholdColor = Black, ThresholdLow = 50 and ThresholdHigh = 100, then pixels whose gray values are between 50 and 100 will be set to black during binarization.  All other pixels will be white.\n\nSee Also: ThresholdColor Property\n\nBlob Object\n\nImageOp Object\n\nPolarity Property\n\nThresholdHigh Property\n\nThresholdLow Property\n\nVision Objects: ThresholdColor Property\n\nBlob\n\nImageOp",
+  "see_also": "Applies To\n\nVision Objects: Blob, ImageOp",
+  "examples": []
+}

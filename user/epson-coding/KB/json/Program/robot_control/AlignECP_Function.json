@@ -1,0 +1,14 @@
+{
+  "title": "AlignECP Function",
+  "file": "AlignECP_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "AlignECP (Point, ECPNumber)",
+  "parameters": "Point\tThe\n\t\t point data.\n\nECPNumber\tThe\n\t\t ECP coordinate system number to be a reference for the alignment\n\t\t of orientation.",
+  "description": "While operating the 6-axis robot (including N series), the robot orientation may have to be aligned with an axis of the specified local coordinate system without changing the tool coordinate system position (origin) defined with the point data.\n\nAlignECP Function converts the orientation data (U,V,W) of the specified point data and aligns with the nearest axis of the specified local coordinate system.\n\nFor robots except the 6-axis robot (including N series), it returns a specified point.",
+  "notes": "",
+  "see_also": "Returns the point data converted to align the robot orientation (U, V, W) at the specified point in the tool coordinate system with the nearest axis of the specified ECP coordinate system.\n\nAlign Function\n\nLJM Function\n\nAlignECP Function",
+  "examples": [
+    "Move AlignECP(P0) ROT\n\nP1 = AlignECP(P0, 1)\nMove P1 ROT"
+  ]
+}

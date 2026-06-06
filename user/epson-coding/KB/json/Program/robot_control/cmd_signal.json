@@ -1,0 +1,16 @@
+{
+  "title": "Signal Statement",
+  "file": "cmd_signal",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Signal\n\t\t\tsignalNumber",
+  "parameters": "signalNumber\tSignal number to transmit. Range is 0 to 63.",
+  "description": "Signal can be used to synchronize multi-task execution.\n\nPrevious signals issued before WaitSig is executed are ignored.",
+  "notes": "",
+  "see_also": "WaitSig\n\nSignal Statement Example\n\nFunction Main\n\n\t\t  Xqt SubTask1\n\n\t\t  Xqt SubTask2\n\n\t\t  Wait 2\n\nSignal 1\n\nFend\n\nFunction SubTask1\n\n\t\t  WaitSig 1\n\n\t\t  Print \"Received Signal in SubTask1\"\n\n\t\tFend\n\nFunction SubTask2\n\n\t\t  WaitSig 1\n\n\t\t  Print \"Received Signal in SubTask2\"\n\n\t\tFend",
+  "examples": [
+    "Function Main\n\t\t  Xqt SubTask1\n\t\t  Xqt SubTask2\n\t\t  Wait 2\n\n\t\t\t  Signal 1\n\nFend",
+    "Function SubTask1\n\t\t  WaitSig 1\n\t\t  Print \"Received Signal in SubTask1\"\n\t\tFend",
+    "Function SubTask2\n\t\t  WaitSig 1\n\t\t  Print \"Received Signal in SubTask2\"\n\t\tFend"
+  ]
+}

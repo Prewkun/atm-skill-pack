@@ -1,0 +1,12 @@
+{
+  "title": "Run Menu",
+  "file": "Run_Menu",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Run Menu\n\nRun Menu\n\nThe Epson RC+ 8.0 [Run] menu includes commands for running and debugging programs.\n\nRun Window\n\nOperator Window\n\nStep Into\n\nStep Over\n\nWalk\n\nResume\n\nStop\n\nToggle Breakpoint\n\nClear All Breakpoints\n\nDisplay Variables\n\nCall Stack",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

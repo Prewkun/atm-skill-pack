@@ -1,0 +1,12 @@
+{
+  "title": "RobotOffsets Property",
+  "file": "RobotOffsets_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Used to open a wizard that adjusts the position and orientation offsets of the detected parts in the robot coordinate system.",
+  "notes": "The Robot Offsets property can be accessed from the property list of Vision Guide. Click the value field of the Robot Offsets property to display the button. When the button is clicked, Robot Offsets Calibration Wizard is opened.\n\nSee Also: RobotOffsets Property\n\nRobotXOffset property\n\nRobotYOffset property\n\nRobotXYRotateOffset property\n\nRobotUOffset property",
+  "see_also": "Design time only\n\nApplies To\n\nVision Calibration",
+  "examples": []
+}

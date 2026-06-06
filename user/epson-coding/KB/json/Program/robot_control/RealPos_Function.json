@@ -1,0 +1,14 @@
+{
+  "title": "RealPos Function",
+  "file": "RealPos_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "RealPos",
+  "parameters": "",
+  "description": "RealPos is used to read the current position of the robot.",
+  "notes": "",
+  "see_also": "Returns the current position of the specified robot.\n\nCurPos\n\nRealPls\n\nRealPos Function Example\n\nFunction ShowRealPos\n\n\t\t  Print RealPos\n\nFend\n\n\t\tP1 = RealPos",
+  "examples": [
+    "Function ShowRealPos\n\t\t  Print RealPos\n\n\t\tFend\n\t\tP1 = RealPos"
+  ]
+}

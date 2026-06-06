@@ -1,0 +1,12 @@
+{
+  "title": "Sense VI",
+  "file": "Sense_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Specifies input condition that, if satisfied, completes the Jump in progress by stopping the robot above the target position.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nCondition\tSpecifies the I/O condition using a string expression.  For details see the Sense Statement in the SPEL+ Language Reference manual.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.",
+  "notes": "",
+  "see_also": "JS, Jump\n\nSense Example",
+  "examples": []
+}

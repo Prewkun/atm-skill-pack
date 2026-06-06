@@ -1,0 +1,14 @@
+{
+  "title": "Cls Statement",
+  "file": "cmd_clrscr",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "(1) Cls #deviceID\n\n(2) Cls",
+  "parameters": "deviceID\t21\n\t\t RC+\n\n\t\t24 TP (TP1 only)\n\n\t\t20 TP3\n\nWhen deviceID\n\t\t is omitted, the display device is cleared.",
+  "description": "Cls clears either the current Epson RC+ Run or Operator window text area, depending on where the program was started from.\n\nIf Cls is executed from a program that was started from the Command window, the command window text area is cleared.\n\nWhen deviceID is omitted, the display of the current display device is cleared.\n\nCls Statement Example\n\nIf this example is run from the Run window or Operator window, the text area of the window will be cleared when Cls executes.\n\nFunction main\n\n  Integer i\n\n  Do\n\n    For i = 1 To 10\n\n      Print i\n\n    Next i\n\n    Wait 3\n\n    Cls\n\n  Loop\n\nFend",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Function main Integer i Do\n    For i = 1 To 10\n      Print i\n    Next i\n    Wait 3\n    Cls Loop\nFend"
+  ]
+}

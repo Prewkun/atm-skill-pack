@@ -1,0 +1,14 @@
+{
+  "title": "WOpen Statement",
+  "file": "cmd_wopen",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "WOpen fileName As #fileNumber",
+  "parameters": "fileName\tA string expression containing the path and file name.\n\nIf path is omitted, the file in the current directory is specified.\n\nSee ChDisk for the details.\n\nfileNumber\tInteger expression that specifies 30 ~ 63",
+  "description": "Opens the specified filename for writing and identifies it by the specified filenum.  This statement is used to open and write data to the specified file. Close closes the file and releases the file number. (To append data refer to the AOpen explanation.)\n\nIf the specified filename does not exist on the disks current directory, WOpen creates the file and writes to it. If the specified filename exists, WOpen erases all of the data in the file and writes to it.\n\nNote: A network path is available.\n\nFile write buffering\n\nFile writing is buffered. The buffered data can be written with Flush statement. Also, when closing a file with Close statement, the buffered data can be written.\n\nfileNumber identifies the file as long as the file is open.  It is used by the Input and Write statements for writing, Print # statement for printing and Close for closing.  Accordingly, until the current file is closed, its file number cannot be used to specify a different file.\n\nIt is recommended that you use the FreeFile function to obtain the file number so that more than one task are not using the same number.",
+  "notes": "",
+  "see_also": "AOpen, BOpen, Close, Input #, ROpen, UOpen\n\nWOpen Statement Example\n\nShown below is a simple example which opens a file, writes some data to it, then later opens the same file and reads the data into an array variable.\n\nfileNum, i, j\n\nfileNum = FreeFile\n\nWOpen \"TEST.VAL\" As #fileNum\n\nFor i = 0 To 100\n\n  Print #fileNum, i\n\nNext i\n\nClose #fileNum\n\nfileNum = FreeFile\n\nROpen \"TEST.VAL\" As #fileNum\n\nFor i = 0 to 100\n\n  Input #fileNum, j\n\n  Print \"data = \", j\n\nNext i\n\nClose #fileNum",
+  "examples": [
+    "fileNum, i, j\nfileNum = FreeFile\nWOpen \"TEST.VAL\" As #fileNum\nFor i = 0 To 100 Print #fileNum, i\nNext i\nClose #fileNum\n\nfileNum = FreeFile\nROpen \"TEST.VAL\" As #fileNum\nFor i = 0 to 100 Input #fileNum, j Print \"data = \", j\nNext i\nClose #fileNum"
+  ]
+}

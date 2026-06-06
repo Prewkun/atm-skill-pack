@@ -1,0 +1,12 @@
+{
+  "title": "Calibrating the Robot",
+  "file": "Calibrating_the_Robot",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibrating the Robot\n\nCalibrating the Robot\n\nThe calibration method differs according to the manipulator model.\n\nFor details, refer to the following manual:\n\nManipulator Manual\n  \"Calibration\"",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

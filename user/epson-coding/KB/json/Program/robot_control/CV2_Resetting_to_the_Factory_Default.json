@@ -1,0 +1,12 @@
+{
+  "title": "CV2 Resetting to the Factory Default",
+  "file": "CV2_Resetting_to_the_Factory_Default",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "CV2 Resetting to the Factory Default\n\nResetting to the Factory Default\n\nSettings for the CV2 can be reset to the factory default.\n\nFollowing settings are reset by this function.\n\nIP address setting\n\nLocal monitor setting\n\nSetting for projects saved to the CV2\n\nFor instance, if you lost the IP address which you previously changed, you can check it by connecting the PC monitor to the CV2.  If there is no problem to reset the setting, you can also restore the IP address to \"192.168.0.3\" by resetting the CV2 to the factory default.\n\nTo initialize the CV2 to the factory default, follow the steps below.\n\nTurn OFF the CV2.\n\nTurn ON the CV2 while pressing the TRIGGER switch on the front side of the CV2 (refer to Part Names and Functions).\n\nRelease the TRIGGER switch when the STATUS LED on the front side of the CV2 starts blinking quickly (approx. 3 times/sec).\n\nThe CV2 automatically restarts after the STATUS LED stops blinking and the STATUS LED blinks five times quickly.\n\nAfter the CV2 is restarted, initialization completes.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

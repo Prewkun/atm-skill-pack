@@ -1,0 +1,12 @@
+{
+  "title": "How to set the Z rising height",
+  "file": "How_to_set_the_Z_rising_height",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "How to set the Z rising height\n\nHow to set the Z rising height\n\nThe default rising height during tracking abort is 10 mm. You can change the height in the following way.\n\nSelect\n\t [Tools]-[Conveyor Tracking].\n\nSelect\n\t the conveyor to configure.\n\nSelect\n\t [Track Abort Line].\n\nSet the\n\t rising height and click the [Apply] button.\n\nNOTE:  If the out of motion range error occurs while the hand rises, decrease the rising height.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

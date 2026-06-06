@@ -1,0 +1,15 @@
+{
+  "title": "Dock Property",
+  "file": "Dock_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the docking position of the control on a form.",
+  "notes": "",
+  "see_also": "Applies To\n\nProgressBar, StatusBar\n Property\n\nProgressBar, StatusBar",
+  "examples": [
+    "GSet frmStatus.ProgressBar1.Dock, DOCK_TOP"
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Calibration Definition",
+  "file": "VG_Calibration_Definition",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Calibration Definition\n\nCalibration Definition\n\nVision Guide 8.0 supports multiple calibrations for each project.  Any calibration can be used with one or more vision sequences in the same project.\n\nEach calibration includes the following data:\n\nCalibration name\tThe\n\t\t name of the calibration that is referenced by vision sequences.  (Up\n\t\t to 16 alphabets.)\n\nCamera\n\t\t number\tThe\n\t\t number for the camera being calibrated.\n\nCamera\n\t\t orientation\tCamera\n\t\t mounting method\n\nCalibration\n\t\t target\n\n\t\t sequence name\tThe\n\t\t name of the vision sequence that will be used to calibrate the\n\t\t camera.\n\n(This can be any sequence in the current\n\t\t project.)\n\nRobot\n\t\t calibration speed and acceleration\n\n\t\t (when required)\tThe\n\t\t speed and acceleration used during calibration.\n\nRobot\n\t\t Arm number and Tool number used during calibration\tYou\n\t\t can use an Arm or Tool during calibration.  These must\n\t\t be defined prior to teaching points or calibrating.\n\nRobot\n\t\t Points for reference and camera locations\tThese\n\t\t points are saved for each calibration.\n\nLight\n\t\t outputs\tThese\n\t\t are optional standard outputs that can be used to control lights\n\t\t during calibration.\n\nImage\n\t\t distortion correction\tSpecifies\n\t\t whether to execute image distortion (camera tilt and lens distortion)\n\t\t correction\n\nImage\n\t\t distortion correction target sequence name\tThe\n\t\t name of the vision sequence used for image distorting correction.\n\n\t\t(Any sequence in the current project can be used)\n\nEach calibration uses nine points that span the field of view of the camera being calibrated.  By spanning the field of view, the system can do the best job of compensating for camera tilt and lens inaccuracies.\n\nWhen performing a distance measurement with the whole field of view, perform image distortion correction.  By performing image distortion correction, camera tilt (angle error between the work plane and the camera's optical axis) and lens distortion can be corrected.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

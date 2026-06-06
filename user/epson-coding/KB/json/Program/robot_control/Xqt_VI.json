@@ -1,0 +1,12 @@
+{
+  "title": "Xqt VI",
+  "file": "Xqt_VI",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Start one SPEL+ task.\n\nInputs\n\nSpel Ref In\tSpel reference from a previous Spel Ref Out.\n\nError In\tError condition from a previous Spel node.\n\nTask Number\tOptional.  The task number of the task to be resumed.  The range of the task number is 1 to 32.  If Task Number is omitted, then a task number will automatically be assigned.\n\nFunc Name\tSpecifies the name of the function to be executed.\n\nOutputs\n\nSpel Ref Out\tSpel reference output for next VI to use.\n\nError Out\tError condition output for subsequent Spel nodes.\n\nTask Status\tIndicates the final status of the task (Quit, Aborted, Finished).",
+  "notes": "",
+  "see_also": "Halt, Quit, Resume, WaitTaskDone\n\nXqt Example",
+  "examples": []
+}

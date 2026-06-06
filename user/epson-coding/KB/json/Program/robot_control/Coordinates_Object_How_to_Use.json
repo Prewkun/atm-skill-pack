@@ -1,0 +1,12 @@
+{
+  "title": "Coordinates Object How to Use",
+  "file": "Coordinates_Object_How_to_Use",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Coordinates Object How to Use\n\nCoordinates Object\n\nUsing Coordinates Objects\n\nThe next few sections guide you through how to create and use a Coordinates object.\n\nPrior to starting the steps shown below, you should have already created a new vision sequence or selected a vision sequence to use.\n\nHow to create a new Coordinates object\n\nConfigure the properties associated with the Coordinates object\n\nAdding objects and executing",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

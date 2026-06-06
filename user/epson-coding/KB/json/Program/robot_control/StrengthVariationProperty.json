@@ -1,0 +1,12 @@
+{
+  "title": "StrengthVariation Property",
+  "file": "StrengthVariationProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "StrengthVariation is the tolerance for the StrengthTarget property.",
+  "notes": "Use StrengthVariation to tighten the search for the edge with strength of StrengthTarget.\n\nSee Also: StrengthVariation Property\n\nStrength Result\n\nStrengthTarget Property\n\nVision Objects: StrengthVariation Property\n\nEdge",
+  "see_also": "Applies To\n\nVision Objects: Edge",
+  "examples": []
+}

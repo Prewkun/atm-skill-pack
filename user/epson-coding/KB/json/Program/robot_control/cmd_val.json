@@ -1,0 +1,15 @@
+{
+  "title": "Val Function",
+  "file": "cmd_val",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Val\n\t\t\t(string)",
+  "parameters": "string\tString expression which contains only numeric characters.",
+  "description": "Val converts a character string of numbers into a numeric value.  The result may be an integer or floating point number.  If the string passed to the Val instruction contains a decimal point then the return value will be a floating point number.  Otherwise it will be an integer.",
+  "notes": "",
+  "see_also": "Abs\n\nAsc\n\nChr$\n\nInt\n\nHex$\n\nLeft$\n\nLen\n\nMid$\n\nMod\n\nRight$\n\nSgn\n\nSpace$\n\nStr$\n\nVal Function Example\n\nThe example shown below shows a program which coverts several different strings to numbers and then prints them to the screen.\n\nFunction ValDemo\n\n\t\t  String realstr$, intstr$\n\n\t\t  Real realsqr, realvar\n\n\t\t  Integer intsqr, intvar\n\nrealstr$ = \"2.5\"\n\n\t\t  realvar = Val(realstr$)\n\n\t\t  realsqr = realvar * realvar\n\n\t\t  Print \"The value of \", realstr$, \" squared is: \", realsqr\n\nintstr$ = \"25\"\n\n\t\t  intvar = Val(intstr$)\n\n\t\t  intsqr = intvar * intvar\n\n\t\t  Print \"The value of \", intstr$, \" squared is: \", intsqr\n\n\t\tFend\n\nHere's another example from Command window.\n\n> Print Val(\"25.999\")\n\n\t\t25.999\n\n>",
+  "examples": [
+    "Function ValDemo\n\t\t  String realstr$, intstr$\n\t\t  Real realsqr, realvar\n\t\t  Integer intsqr, intvar\n\nrealstr$ = \"2.5\"\n\t\t  realvar = Val(realstr$)\n\t\t  realsqr = realvar * realvar\n\t\t  Print \"The value of \", realstr$, \" squared is: \", realsqr\n\nintstr$ = \"25\"\n\t\t  intvar = Val(intstr$)\n\t\t  intsqr = intvar * intvar\n\t\t  Print \"The value of \", intstr$, \" squared is: \", intsqr\n\t\tFend",
+    "> Print Val(\"25.999\")\n\t\t25.999\n\n>"
+  ]
+}

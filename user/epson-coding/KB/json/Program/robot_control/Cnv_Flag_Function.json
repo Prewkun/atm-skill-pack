@@ -1,0 +1,14 @@
+{
+  "title": "Cnv_Flag Function",
+  "file": "Cnv_Flag_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "Cnv_Flag(conveyorNumber)",
+  "parameters": "conveyorNumber\tInteger expression\n\t\t representing the conveyor number (1 ~ 16).",
+  "description": "Cnv_Flag Function\n\nCnv_Flag Function",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print Cnv_Flag(1)"
+  ]
+}

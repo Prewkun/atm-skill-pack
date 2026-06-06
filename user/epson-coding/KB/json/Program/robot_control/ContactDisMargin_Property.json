@@ -1,0 +1,12 @@
+{
+  "title": "ContactDistMargin Property",
+  "file": "ContactDisMargin_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets a margin which is added to a distance between the start point and the hole position.\n\nBe sure to set a value with consideration for the maximum difference of the each distance. When the robot moves ContactDist + ContactDistMargin, it determines as \"a hole is detected\" and proceeds to the next force object.\n\nValues\n\nMinimum value 0.1\n\nMaximum value 50\n\nDefault:  10\n\nSee Also: ContractDistMargin Property\n\nContactDist Property",
+  "notes": "",
+  "see_also": "Applies To\n\nContactProbe Object",
+  "examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "ImportPointsPoints Method, Spel Class",
+  "file": "vbg_ImportPoints",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub ImportPoints ( SourcePath  As String , ProjectFileName As String [, RobotNumber As Integer])",
+  "parameters": "SourcePath\tString expression containing the specific path and file to import into the current project.  The extension must be .PTS.\n\nProjectFileName\tString expression containing the specific file to be imported to in the current project for the current robot or specified robot if RobotNumber is supplied.  The extension must be .PTS.\n\nRobotNumber\tOptional. Integer expression for the robot that the point file will be used for. Specify 0 to make it a common point file.",
+  "description": "Imports a point file into the current project for the current robot.",
+  "notes": "",
+  "see_also": "SavePoints\n\nImportPoints Example\n\nVB Example:\n\nWith m_spel\n\n    .ImportPoints(\"c:\\mypoints\\model1.pts\", \"robot1.pts\")\n\nEnd With\n\nC# Example:\n\nm_spel.ImportPoints(@\"c:\\mypoints\\model1.pts\", \"robot1.pts\");",
+  "examples": [
+    "With m_spel\n    .ImportPoints(\"c:\\mypoints\\model1.pts\", \"robot1.pts\")\nEnd With",
+    "m_spel.ImportPoints(@\"c:\\mypoints\\model1.pts\", \"robot1.pts\");"
+  ]
+}

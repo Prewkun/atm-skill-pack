@@ -1,0 +1,14 @@
+{
+  "title": "FExport Statement",
+  "file": "FExport_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "This exports the force file to the specified path.",
+  "notes": "This make a copy of the specified force file in the destination folder.\n\nIf a file with the same name exists in the folder, it will be overwritten.\n\nThe file name must be alphanumeric characters and the underscore character only, and can be up to 255 characters.\n\nFrequent Errors\n\n  Specified destination folder does not exist\n\n    When the path of DestPath_sValue$ does not exist, an error is generated.\n\n  Specified file is not found\n\n    When the path is included in FileName_sValue$, an error is generated.",
+  "see_also": "FImport Statement",
+  "examples": [
+    "> FExport \"myforce.frc\", \"C:\\temp\\myforce.frc\""
+  ]
+}

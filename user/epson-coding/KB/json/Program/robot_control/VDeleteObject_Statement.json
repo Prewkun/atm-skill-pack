@@ -1,0 +1,14 @@
+{
+  "title": "VDeleteObject Statement",
+  "file": "VDeleteObject_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "VDeleteObject deletes a vision object at runtime.",
+  "notes": "Use VDeleteObject to delete a vision object at runtime.  If the object does not exist, no error occurs.  Use VSave to save vision settings after deleting the object.",
+  "see_also": "VCreateObject, VDeleteCalibration, VDeleteSequence, VSave",
+  "examples": [
+    "VDeleteObject \"myseq\", \"blob01\""
+  ]
+}

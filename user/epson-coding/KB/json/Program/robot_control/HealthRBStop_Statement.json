@@ -1,0 +1,15 @@
+{
+  "title": "HealthRBStop Statement",
+  "file": "HealthRBStop_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "",
+  "parameters": "",
+  "description": "Stops calculation for the usable months and elements (torque, speed, and driving amount) of the parts on the specified robot in a particular robot operation cycle.",
+  "notes": "- This command does not function in Auto mode.\n\n- This command does not function in dry run mode (including the virtual controller).\n\n- Calculation automatically ends when one hour passes since calculation starts.\n\n- If the command is executed after the automatic termination, an error will occur.\n\n- If the command is executed without executing the HealthRBStart command, an error will occur.\n\n- If the command is executed again without executing the HealthRBStart command after the previous HealthRBStop command, an error will occur.",
+  "see_also": "Stops calculation of the usable months and elements for the parts in a particular robot operation cycle.",
+  "examples": [
+    "Function RobotPartAnalysis Real month",
+    "Robot 1 HealthRBStart Motor On Go P0 Go P1 Motor Off HealthRBStop month = HealthRBAnalysis(1, HEALTH_ROBOT_TYPE_BALL_SCREW_SPLINE, 3) Print \"Ball Screw Spline analysis =\", Str$(month)\nFend"
+  ]
+}

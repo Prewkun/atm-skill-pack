@@ -1,0 +1,14 @@
+{
+  "title": "OutW Function",
+  "file": "outw_func",
+  "section": "Program",
+  "type": "function",
+  "syntax": "OutW(\n\t\t\twordPortNum\n\t\t\t)",
+  "parameters": "wordPortNum\tInteger expression representing I/O output words.",
+  "description": "OutW Function\n\nOutW Function\n\nSee_Also Example\n\nReturns the status of one word (2 bytes) of outputs.",
+  "notes": "",
+  "see_also": "OutW Statement\n\nOutW Function Example\n\nOutW 0, &H1010",
+  "examples": [
+    "OutW 0, &H1010"
+  ]
+}

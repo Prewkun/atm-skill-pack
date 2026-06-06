@@ -1,0 +1,14 @@
+{
+  "title": "Move Method, Spel Class",
+  "file": "vbg_Move",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Move (PointNumber As Integer)\n\nSub Move (Point As SpelPoint)\n\nSub Move (Point As SpelPoint, AttribExpr As String)\n\nSub Move (PointExpr As String)",
+  "parameters": "Each syntax has one parameter that specifies the end point which the arm travels to during the Move motion. This is the final position at the end of the linear interpolated motion.\n\nPointNumber\tSpecifies\n\t\t the end point by using the point number for a previously taught\n\t\t point in the Controller's point memory for the current robot.\n\nPoint\tSpecifies\n\t\t the end point by using a SpelPoint data type.\n\nAttribExpr\tSpecifies\n\t\t the end point attributes by using a string expression.\n\nPointExpr\tSpecifies\n\t\t the end point by using a string expression.",
+  "description": "Moves the arm from the current position to the specified point using linear interpolation (i.e. moving in a straight line).",
+  "notes": "",
+  "see_also": "AccelS\n\nGo\n\nJump\n\nSpeeds\n\nTGo\n\nECP\n\nFind\n\nMove Example\n\n' Point specified using point number\n\nm_spel.Tool(1)\n\nm_spel.Move(100)\n\n' Point specified using SpelPoint\n\nDim pt as SpelPoint\n\npt = m_spel.GetPoint(\"P*\")\n\npt.X = 125.5\n\nm_spel.Move(pt)\n\n' Point specified using expression\n\nm_spel.Move(\"P0 /L /2 ROT\")\n\nm_spel.Move(\"P1 :Z(-20)\")\n\n' Using parallel processing\n\nm_spel.Move(\"P1 !D50; On 1; D90; Off 1!\")\n\n' Point specified using label\n\nm_spel.Move(pick)",
+  "examples": [
+    "' Point specified using point number\nm_spel.Tool(1)\nm_spel.Move(100)\n\n' Point specified using SpelPoint\nDim pt as SpelPoint\npt = m_spel.GetPoint(\"P*\")\npt.X = 125.5\nm_spel.Move(pt)\n\n' Point specified using expression\nm_spel.Move(\"P0 /L /2 ROT\")\nm_spel.Move(\"P1 :Z(-20)\")\n\n' Using parallel processing\nm_spel.Move(\"P1 !D50; On 1; D90; Off 1!\")\n\n' Point specified using label\nm_spel.Move(pick)"
+  ]
+}

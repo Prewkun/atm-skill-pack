@@ -1,0 +1,15 @@
+{
+  "title": "AddItem Property",
+  "file": "AddItem_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Used to add an item to a ListBox or ComboBox control.",
+  "notes": "",
+  "see_also": "Applies To\n\nListBox, ComboBox\n\nListCount Property\n\nGUI Items: AddItem Property\n\nComboBox, ListBox",
+  "examples": [
+    "GSet frmMain.lstModels.AddItem, \"Model1\""
+  ],
+  "category": "gui_control"
+}

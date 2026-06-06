@@ -1,0 +1,12 @@
+{
+  "title": "Step 4: Running the BoxFinder Object and Examining the Results",
+  "file": "Step_4__Running_the_BoxFinder_Object_and_Examining_the_Results",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Step 4: Running the BoxFinder Object and Examining the Results\n\nStep 4: Running the BoxFInder Object and Examining the Results\n\nThe next few sections guide you through how to run a BoxFinder object.\n\nClick the [Run] button of the object on the execution panel.\n\nResults for the BoxFinder object will now be displayed.\n  The primary results to examine at this time are:\n\nAngle Result\tReturns the angle of the detected\n\t\t rectangular edge in the Image coordinate system.\n\nMaxError Result\tReturns the maximum difference from\n\t\t the detected rectangular edge in pixel length.\n\nPixelX Result\n\nPixelY Result\tReturns the XY coordinate positions\n\t\t at the center of the detected rectangular edge in the Image coordinate\n\t\t system.\n\nCameraX Result\n\nCameraY Result\tReturns the XY coordinate positions\n\t\t at the center of the detected rectangular edge in the Camera coordinate\n\t\t system.\n\nIf the calibration is not performed for\n\t\t the XY coordinate positions, \"no cal\" will be returned.\n\nRobotX Result\n\nRobotY Result\tReturns the XY coordinate positions\n\t\t at the center of the detected rectangular edge in the Robot coordinate\n\t\t system.\n\nIf the calibration is not performed for\n\t\t the XY coordinate positions, \"no cal\" will be returned.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

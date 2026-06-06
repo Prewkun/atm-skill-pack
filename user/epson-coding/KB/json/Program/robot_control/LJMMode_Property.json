@@ -1,0 +1,12 @@
+{
+  "title": "LJMMode Property",
+  "file": "LJMMode_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the mode for appropriately controlling the posture flag of the point data.",
+  "notes": "Appropriately controls the posture flag of the point data to prevent unintended rotation of the wrist.  LJM is not used when this property is set to 0.\n\nConfigurable values will vary depending on the type of robot in use.  For details, refer to \"LJM Functions\" in the Spel+ Language Reference.",
+  "see_also": "Applies To\n\nVision Calibration\n Property\n\nVCal\n\nVDefSetMotionRange Statement",
+  "examples": []
+}

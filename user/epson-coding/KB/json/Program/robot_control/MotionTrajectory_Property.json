@@ -1,0 +1,12 @@
+{
+  "title": "MotionTrajectory Property",
+  "file": "MotionTrajectory_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets trajectory for force guide objects.\n\nValues\n\nStraight Move a straight trajectory.\n\nArc Move an arc trajectory.\n\nDefault:  Straight\n\nSee Also: MotionTrajectory Property\n\nRobotNumber Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressMove Object",
+  "examples": []
+}

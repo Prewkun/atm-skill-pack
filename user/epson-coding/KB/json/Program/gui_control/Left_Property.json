@@ -1,0 +1,15 @@
+{
+  "title": "Left Property",
+  "file": "Left_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Get or sets the left coordinate of a form or control in pixels.",
+  "notes": "",
+  "see_also": "Applies To\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, VideoBox, LED, ProgressBar, TrackBar, StatusBar, Grid\n\nHeight Property\n\nTop Property\n\nGUI Items: Left Property\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox",
+  "examples": [
+    "GSet frmMain.btnOK.Left, 200"
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "AlignFirmnessT Property",
+  "file": "AlignFirmnessT_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the firmness in relation to the force control function for force in the following direction during the execution of the force guide object.\n\nThe larger the AlignFirmnessT value, the stronger the force control function becomes in the following direction. This slows response to changes in force, but reduces vibration.\n\nThe smaller the AlignFirmnessT value, the weaker the force control function becomes in the following direction. This speeds up response to changes in force, but increases vibration.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

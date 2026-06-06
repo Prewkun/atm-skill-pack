@@ -1,0 +1,12 @@
+{
+  "title": "What's Installed",
+  "file": "VBG_Whats_Installed",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "What's Installed\n\nWhat's installed\n\nThe directories and files shown in the table below are installed on your PC during installation.\n\nDirectories\n\t\t and Files\tDescription\n\n（Data\n\t\t folder)\\API\\VS20xx\\VB\\DEMOS\tVisual Basic .NET demonstrations\n\n（Data\n\t\t folder)\\API\\VS20xx\\VCS\\DEMOS\tVisual C# .NET demonstrations\n\n（Data\n\t\t folder)\\API\\VS20xx\\VC\\DEMOS\tVisual C++ .NET demonstrations\n\n（Program\n\t\t folder）\\API\\LabVIEW\tLabVIEW VI Library installer\n\n（Data\n\t\t folder)\\PROJECTS\\API_Demos\tEpson RC+ 8.0 projects for demos\n\n（Program\n\t\t folder）\n\n\\API\\Assembly\\net462\\RCAPINt2.dll\tRCAPINet library for .NET Framework (32\n\t\t bit or 64 bit)\n\n（Program\n\t\t folder）\\API\\Assembly\n\n\t\t\\net6.0-windows\\RCAPINt2.dll\tRCAPINet library for.NET6 (32 bit or 64\n\t\t bit)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

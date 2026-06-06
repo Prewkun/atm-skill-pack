@@ -1,0 +1,12 @@
+{
+  "title": "SearchReducedImage Property",
+  "file": "SearchReducedImage_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets / returns whether to use a minified image at the object detection.",
+  "notes": "Sets and returns whether to use a minified image at the object detection.\n\nBy setting this property to \"True\", a minified input image is used. Reduction ratio is set automatically within the system.\n\nThis property may reduce time to detect the object when input image has many feature points. Since the effect of this property varies depending on the input image and the model, check the motion with the actual system and decide the setting value.\n\nDetection margin of final work position and angle may become large by this property setting.\n\nSee Also: SearchReducedImage Property\n\nSearchReversed Property\n\nVision Objects: SearchReducedImage Property\n\nGeometric",
+  "see_also": "Applies To\n\nVision Objects: Geometric",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "J1Flag Statement",
+  "file": "J1Flag_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "(1) J1Flag point, [value ]\n\n(2) J1Flag",
+  "parameters": "point\tPnumber\n\t\t or P(expr) or point label.\n\nvalue\tOptional.\n\t\t  Integer expression.\n\n\t\tFor RS series Manipulator:\n\n\t\t0 (/J1F0) J1 range is -90 to +270 degrees\n\n1 (/J1F1) J1\n\t\t range is from -270 to -90 or +270 to +450 degrees\n\n\t\tFor C8, C12 series Manipulator:\n\n0 (/J1F0) J1\n\t\t range is -180 to +180 degrees\n\n\t\t1 (/J1F1) J1 range is -240 to -180 or +180 to +240 degrees",
+  "description": "J1Flag Statement\n\nJ1Flag Statement",
+  "notes": "",
+  "see_also": "Specifies the J1Flag attribute of a point.\n\nHand, J1Flag Function, J2Flag\n\nJ1Flag Statement",
+  "examples": [
+    "J1Flag P0, 1\nJ1Flag P(mypoint), 0"
+  ]
+}

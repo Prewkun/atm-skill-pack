@@ -1,0 +1,12 @@
+{
+  "title": "System Configuration-Vision",
+  "file": "Setup_Vision_Configuration",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "System Configuration-Vision\n\n[Setup]-[System Configuration]-[Vision]\n\nFor instructions, refer to the following manual.\n\nVision Guide 8.0 Hardware & Setup  Software Configuration\n\n[Setup]-[System Configuration]-[OPC/UA]\n\nFor more details on OPC UA, refer to the following manual:\n\nRobot Controller Option OPC UA Server",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

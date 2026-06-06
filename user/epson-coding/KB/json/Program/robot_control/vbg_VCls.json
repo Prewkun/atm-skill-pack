@@ -1,0 +1,15 @@
+{
+  "title": "VCls Method, Spel Class",
+  "file": "vbg_VCls",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VCls ()",
+  "parameters": "",
+  "description": "Clears vision graphics",
+  "notes": "",
+  "see_also": "VRun\n\nVCls Example\n\nVB Example:\n\nm_spel.VCls()\n\nC# Example:\n\nm_spel.VCls();",
+  "examples": [
+    "m_spel.VCls()",
+    "m_spel.VCls();"
+  ]
+}

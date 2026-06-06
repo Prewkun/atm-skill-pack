@@ -1,0 +1,15 @@
+{
+  "title": "Fx_Levels, Fy_Levels, Fz_Levels Property",
+  "file": "Fx_Levels_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This sets or returns the value of the lower force threshold and upper force threshold in the direction of translation in the specified axis.",
+  "notes": "XX_Levels sets or returns the lower and upper force threshold values for the specified axis in the direction of translation.\n\nrValueL is the lower threshold. rValueU is the upper threshold. Be sure that rValueL < rValueU.\n\nThis is used for error checking and task completion conditions.",
+  "see_also": "Applies To\n\nForce Trigger\n Fy_Levels, Fz_Levels Property\n\nFx_LowerLevel, Fy_LowerLevel, Fz_LowerLevel Property\n\nFx_UpperLevel, Fy_UpperLevel, Fz_UpperLevel Property",
+  "examples": [
+    "Function SettingLevels FSet FT1.Enabled, True, False, False, False, False, False, False, False FSet FT1.Fx_Polarity, FG_OUT FSet FT1.Fx_Levels, -50, 50 Trap 1, FT1 Call ForceError\nFend",
+    "Function ForceError AbortMotion All\nFend"
+  ]
+}

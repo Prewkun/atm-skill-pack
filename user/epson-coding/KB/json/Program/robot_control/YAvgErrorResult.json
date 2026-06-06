@@ -1,0 +1,12 @@
+{
+  "title": "YAvgError Result",
+  "file": "YAvgErrorResult",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns the average calibration error along the Y axis.",
+  "notes": "YAvgError is the average calibration error along the Y axis detected during calibration.",
+  "see_also": "Applies To\n\nVision Calibration\n\nXAvgError\n\nYMaxError\n\nYmmPerPixel",
+  "examples": []
+}

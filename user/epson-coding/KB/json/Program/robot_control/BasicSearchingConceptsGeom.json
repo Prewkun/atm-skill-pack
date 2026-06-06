@@ -1,0 +1,12 @@
+{
+  "title": "Basic Searching Concepts",
+  "file": "BasicSearchingConceptsGeom",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Basic Searching Concepts\n\nBasic Searching Concepts\n\nSearching locates features by finding the area of the search window\n\nto which the model is the most similar.  The figure below shows a model and a search window, and the areas within the search window that are most similar to the model.  A model similar to that shown below might be used to search for a feature such as a fiducial mark on a printed circuit board.  A robot could then use the position data returned by the search function to find the location of the board for placing components or for positioning the board itself.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

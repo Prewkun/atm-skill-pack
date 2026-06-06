@@ -1,0 +1,12 @@
+{
+  "title": "Using Blob Object as a Pixel Counter",
+  "file": "UsingBlobObjectAsAPixelCounter",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Using Blob Object as a Pixel Counter\n\nUsing Blob Object as a Pixel Counter\n\nThe Blob object can be used as a pixel counter.\n  A pixel counter counts all of the pixels in an image that fall within the blob thresholds.\n\nFollow these steps:\n\n\t\t\tCreate a Blob object.\n\t\t\tSet desired polarity.\n\t\t\tSet High and Low thresholds.\n\t\t\tSet NumberToFind to 0. This will cause the Blob object to find all blobs in the image.\n\t\t\tSet MinArea to 1 and MaxArea to 999999. Blobs of one pixel or more will be counted.\n\t\t\tRun the sequence.\n\nUse the TotalArea result to read the total number of pixels that fall within the blob thresholds.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

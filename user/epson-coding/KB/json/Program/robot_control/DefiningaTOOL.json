@@ -1,0 +1,12 @@
+{
+  "title": "Defining a Tool",
+  "file": "DefiningaTOOL",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Defining a Tool\n\nDefining a Tool\n\nIt is important to define tools for the robot end effectors.\n\nThis tells the robot where the end effector is, so that all position information is with respect to the end effector, not the TOOL 0 position.\n\nUse the TLSET command to define a tool in SPEL+.\n\nThe following are three methods for defining tool offsets.\n\nDefine a tool with the Robot Manager Tool Wizard\n\nYou can use the Tool Wizard in the Robot Manager to define a tool.\n\nTo use the Tool Wizard, perform the following steps:\n\n(1) Open the Robot Manager.\n\n(2) Click the [Tools] tab.\n\n(3) Click the [Tool Wizard] button.\n\n(4) Follow the steps in the wizard to create the tool.\n\nRelated Topics:\n\nManually calculating tool offsets\n\nUsing an upward looking camera to calculate tool offsets",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "SF_PeakSpeedS Function",
+  "file": "SF_PeakSpeedS_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "SF_PeakSpeedS(SLSNumber)",
+  "parameters": "Speed\n\t\t monitoring point number\tThe\n\t\t speed monitoring point number as an integer value (1 or 2).\n\nValue\tDescription\n\n1\tHand\n\n2\tElbow",
+  "description": "Returns the peak speed of the specified speed monitoring point.\n\nThe speed of the hand is the speed at the TCP offset position set in Safety Function Manager.\n\nThis command can be used with the Controllers with Safety Board.\n\nSF_PeakSpeedS Function",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "Print \"Hand peak speed is \", SF_PeakSpeedS (1)"
+  ]
+}

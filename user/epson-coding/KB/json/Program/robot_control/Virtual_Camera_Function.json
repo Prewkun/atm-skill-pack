@@ -1,0 +1,12 @@
+{
+  "title": "Virtual Camera Function",
+  "file": "Virtual_Camera_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "",
+  "parameters": "",
+  "description": "Virtual Camera Function\n\nVirtual Camera Function\n\nChecking the [Virtual] checkbox in the camera configuration dialog box enables the camera to work in the virtual mode.\n\nIn this mode, the image processing functions on the development PC, whether a camera is actually installed.\n\n(Although the actual connection of the camera is not necessary, it requires the image file for the image processing.)\n\nWhen starting more than one Epson RC+ 8.0 by one PC, virtual camera is only available in the first session.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

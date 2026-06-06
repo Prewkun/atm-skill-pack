@@ -1,0 +1,15 @@
+{
+  "title": "Name Property (GUI Builder)",
+  "file": "Name_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets the name of a form or control at runtime. Used to set the Name of a form or control at design time.",
+  "notes": "",
+  "see_also": "Applies To\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, Timer, VideoBox, LED, ProgressBar, TrackBar StatusBar, Grid\n\nLeft Property\n\nWidth Property\n\nGUI Items: Name Property\n\nForm, Button, Label, TextBox, RadioButton, CheckBox, ListBox, ComboBox, PictureBox, GroupBox, Timer",
+  "examples": [
+    "String name$\nGGet frmMain.btnOK.Name, name$"
+  ],
+  "category": "gui_control"
+}

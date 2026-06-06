@@ -1,0 +1,12 @@
+{
+  "title": "DestRelativeW Property",
+  "file": "DestRelativeW_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "For the destination point, this property sets the rotation amount in W direction of coordinate systems specified by RelativeOrient and RelativeRobotLocal.\n\nIt is used when specifying Relative in DestType.\n\nValues\n\nMinimum value -360\n\nMaximum value 360\n\nDefault:  0\n\nSee Also: DestRelativeW Property\n\nDestRelativeY Property\n\nDestRelativeZ Property",
+  "notes": "",
+  "see_also": "Applies To\n\nFollowMove Object, PressMove Object",
+  "examples": []
+}

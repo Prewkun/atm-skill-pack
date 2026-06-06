@@ -1,0 +1,12 @@
+{
+  "title": "Contact Object",
+  "file": "Contact_Object",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Contact Object\n\nContact Object\n\nContact object moves the robot to the specified direction until it contacts with an object such as a workpiece, and stops it when contacting with the object.  This object is used for positioning of the start position for other force guide objects or the grasp position.  Even if the workpiece dimension or the grasp position of the workpiece have a margin of error, next motion or the force guide object can be executed stably since the contact position can be detected.\n\nHow to use\n\nProperties\n\nResults",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

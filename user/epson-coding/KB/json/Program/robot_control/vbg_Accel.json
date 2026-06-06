@@ -1,0 +1,15 @@
+{
+  "title": "Accel Method, Spel Class",
+  "file": "vbg_Accel",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub Accel (PointToPointAccel As Integer, PointToPointDecel As Integer, _ [JumpDepartAccel As Integer], [JumpDepartDecel As Integer], _ [JumpApproAccel As Integer], [JumpApproDecel As Integer])",
+  "parameters": "PointToPointAccel\tInteger expression between 1-100 representing a percentage of maximum acceleration rate.\n\nPointToPointDecel\tInteger expression between 1-100 representing a percentage of the maximum deceleration rate.\n\nJumpDepartAccel\tInteger expression between 1-100 representing a percentage of maximum acceleration rate for Jump command Z Axis upward motion.\n\nJumpDepartDecel\tInteger expression between 1-100 representing a percentage of maximum deceleration rate for Jump command Z Axis upward motion.\n\nJumpApproAccel\tInteger expression between 1-100 representing a percentage of maximum acceleration rate for Jump command Z Axis downward motion.\n\nJumpApproDecel\tInteger expression between 1-100 representing a percentage of maximum deceleration rate for Jump command Z Axis downward motion.",
+  "description": "Sets acceleration and deceleration for point to point motion commands Go, Jump, and TGo.",
+  "notes": "",
+  "see_also": "Accels\n\nSpeed\n\nAccel Example\n\nVB Example:\n\nm_spel.Accel(50, 50)\n\nm_spel.Go(pick)\n\nC# Example:\n\nm_spel.Accel(50, 50);\n\nm_spel.Go (\"pick\");",
+  "examples": [
+    "m_spel.Accel(50, 50)\nm_spel.Go(pick)",
+    "m_spel.Accel(50, 50);\nm_spel.Go (\"pick\");"
+  ]
+}

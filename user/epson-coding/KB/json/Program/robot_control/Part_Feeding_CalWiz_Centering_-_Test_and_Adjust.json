@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding CalWiz Centering - Test and Adjust",
+  "file": "Part_Feeding_CalWiz_Centering_-_Test_and_Adjust",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding CalWiz Centering - Test and Adjust\n\nCentering - Test & Adjust\n\nTest and adjust the centering parameters.\n\nSelect the [Test & Adjust] tab on the screen below.\n\n1.  Description of display items\n\nItem\tDescription\n\nCentering to test\n\nLong axis parameters Short axis parameters\tChoose which centering axis you want\n\t\t to adjust.\n\nIt is not displayed when \"Center\n\t\t By Shift\" is selected.\n\nAmplitude\tSet the strength of the amplitude\n\t\t of the vibration.\n\nUnit:   %\n\nIt is not displayed when \"Center\n\t\t By Shift\" is selected.\n\nDuration\tSet the duration of the vibration.\n\nUnit:   ms\n\nIt is not displayed when \"Center\n\t\t By Shift\" is selected.\n\nFrequency\tSet the frequency of the vibration.\n\nUnit:   Hz\n\nIt is not displayed when \"Center\n\t\t By Shift\" is selected.\n\n2. Guidelines for adjustment\n\nAdjust the amplitude and frequency so that the parts concentrate in the specified direction as quickly as possible.\n\nSet the vibration time to the time it takes centering to complete.\n\n3. Test\n\n  (1) Put in an appropriate number of parts (e.g., optimal number of input parts).\n\n  (2) Click the [Run] button\n\n  (3) Check the operation.\n\nAdjust the parameters as needed and click the [Run] button again.\n\n(For more detail, see How to adjust feeder parameters.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

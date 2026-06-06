@@ -1,0 +1,12 @@
+{
+  "title": "ImageSource Property",
+  "file": "ImageSourceProperty",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the current image source for the sequence.",
+  "notes": "ImageSource allows you to run a sequence from a camera image or from an image file set with the ImageFile property.\n\nIf the ImageFile property is set to a valid image file, then the ImageSource property will automatically be set to 2 - File.\n\nSee Also: ImageSource Property\n\nSequence window\n\nVision Sequences\n\nImageFile Property\n\nImageFileScale Property\n\nImageSize Property",
+  "see_also": "Designtime only\n\nApplies To\n\nVision Sequence",
+  "examples": []
+}

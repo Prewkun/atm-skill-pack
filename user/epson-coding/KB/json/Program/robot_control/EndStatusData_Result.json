@@ -1,0 +1,14 @@
+{
+  "title": "EndStatusData Result",
+  "file": "EndStatusData_Result",
+  "section": "Program",
+  "type": "result",
+  "syntax": "",
+  "parameters": "",
+  "description": "Returns a reason for end status failure in a force guide sequence.",
+  "notes": "Returns a reason for end status failure in a force guide sequence.\n\nAbortSeqOnFail is a property that specifies whether to end or continue a sequence after a force guide object has failed.  If the force guide object whose AbortSeqOnFail is True fails, the force guide sequence will also fail.\n\nThe start position/orientation (X, Y, Z, U, V, W) is checked when the PosCheckEnabled property is True.\n\nThe force guide sequence will fail if the sequence starting position/orientation deviates from the point specified by the StartCheckPoint property by an amount that exceeds the value specified by StartPntTolX in the X direction, exceeds the value specified by StartPntTolY in the Y direction, or exceeds the value specified by StartPntTolZ in the Z direction in the coordinate system specified by StartPntTolLocal, or exceeds the angle specified by StartPntTolRot in the direction of rotation.  When a failure occurs, the force guide object will not be executed.\n\nThe starting arm orientation (Hand, Elbow, Wrist) is checked when the OrientCheckEnabled property is True.  The force guide sequence will fail if the sequence starting arm orientation differs from each arm orientation at a point specified by the StartCheckPoint property.  In such a case, the force guide object will not be executed.",
+  "see_also": "",
+  "examples": [
+    "Function EndStatusTest\n     Integer iVar\n     Motor On\n     FGRun Sequence1\n     FGGet Sequence1.Contact01.EndStatus, iVar ' Acquisition of EndStatus\n     Print iVar\nFend"
+  ]
+}

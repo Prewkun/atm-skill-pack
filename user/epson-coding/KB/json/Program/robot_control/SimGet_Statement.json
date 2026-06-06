@@ -1,0 +1,16 @@
+{
+  "title": "SimGet Statement",
+  "file": "SimGet_Statement",
+  "section": "Program",
+  "type": "statement",
+  "syntax": "SimGet Object.Property, Var\n\nSimGet Robot.Hand.Propoerty, Var",
+  "parameters": "Object\tString variable that indicates object names acquiring the property values.\n\nRobot\tString variable that indicates the robot name which the hand specified by \"Hand\" is installed.\n\nHand\tString variable that indicates the hand name which acquires the property values.\n\nProperty\tProperty name that acquires values.  Descriptions of properties are described later.\n\nVar\tVariable that indicates return value.",
+  "description": "Use this command to acquire the property setting value of each object of simulator.\n\nSet the the following properties to acquire the object setting values.\n\nProperty\tDescription\tUnit\tData type\tReturn value\n\nPositionX\tAcquire a position of X coordinate system.\t(mm)\tDouble\n\nPositionY\tAcquire a position of Y coordinate system.\t(mm)\tDouble\n\nPositionZ\tAcquire a position of Z coordinate system.\t(mm)\tDouble\n\nRotationX\tAcquire rotation angle of X axis.\t(degree)\tDouble\n\nRotationY\tAcquire rotation angle of Y axis.\t(degree)\tDouble\n\nRotationZ\tAcquire rotation angle of Z axis.\t(degree)\tDouble\n\nCollisionCheck\tAcquire enable/disable of collision detect.\t-\tBoolean\tTrue or False\n\nCollisionCheckSelf\tAcquire enable/disable of self-collision detect of the robot.\t-\tBoolean\tTrue or False\n\nVisible\tAcquire state of display/non-display.\t-\tBoolean\tTrue or False\n\nType\tAcquire the types of objects.\t-\tInteger\tLayout: 0\n\nPart: 1\n\nMounted Device: 3\n\nHalfSizeX\tAcquire a length of Box object in the X direction.\t(mm)\tDouble\n\nHalfSizeY\tAcquire a length of Box object in the Y direction.\t(mm)\tDouble\n\nHalfSizeZ\tAcquire a length of Box object in the Z direction.\t(mm)\tDouble\n\nHalfSizeHeight\tAcquire a length of Plane object.\t(mm)\tDouble\n\nHalfSizeWidth\tAcquire a width of Plane object.\t(mm)\tDouble\n\nPlaneType\tAcquire a type of Plane object.\t-\tInteger\tHorizontal: 0\n\nVertical: 1\n\nRadius\tAcquire a radius of Sphere object or Cylinder object.\t(mm)\tDouble\n\nHeight\tAcquire a height of Cylinder object.\t(mm)\tDouble\n\nName\tAcquire an object name.\t\tString\n\nColor\tAcquire a display color of an object.\t\tString\tColor name or hexadecimal color code\n\n(ARGB)\n\nYou can acquire the properties by combinations shown in the list below.",
+  "notes": "",
+  "see_also": "SimSet\n\nSimGet Statement Example\n\n'Acquire X coordinate value of SBox_1 object\n\nDouble boxPosX\n\nSimGet SBox_1.PositionX, boxPosX\n\n'Acquire the state of display/non-display of SBox_1 object\n\nBoolean boxVisible\n\nSimGet SBox_1.Visible, boxVisible\n\n'Acquire the type of SBox_1 object\n\nInteger boxType\n\nSimGet SBox_1.Type, boxType",
+  "examples": [
+    "'Acquire X coordinate value of SBox_1 object\nDouble boxPosX\nSimGet SBox_1.PositionX, boxPosX",
+    "'Acquire the state of display/non-display of SBox_1 object\nBoolean boxVisible\nSimGet SBox_1.Visible, boxVisible",
+    "'Acquire the type of SBox_1 object\nInteger boxType\nSimGet SBox_1.Type, boxType"
+  ]
+}

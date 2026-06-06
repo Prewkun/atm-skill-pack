@@ -1,0 +1,12 @@
+{
+  "title": "Frame Object Properties",
+  "file": "FrameObjectProperties",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Frame Object Properties\n\nFrame Object Properties\n\nThe following list is a summary of properties for the Frame object.  The details for each property are explained in the Vision Guide 8.0 Properties and Results Reference Manual.\n\nProperty\tDescription\n\nAbortSeqOnFail\tAllows the user to specify that if the\n\t\t specified object fails (not found), then the entire sequence is\n\t\t aborted at that point and no further objects in the sequence are\n\t\t processed.\n\nDefault:\n\t\t False\n\nCaption\tUsed to assign a caption to the Frame\n\t\t object.\n\nDefault:\n\t\t Empty String\n\nDescription\tSets a user description\n\nDefault: Blank\n\nEnabled\tSpecifies whether to execute the object.\n\nDefault: True\n\nFailColor\tSelects the color of an object when\n\t\t it is not accepted.\n\nDefault:\n\t\t Red\n\nGraphics\tSpecifies which graphics to display.\n\nDefault:\n\t\t All\n\nLabelBackColor\tSelects the background color for the\n\t\t object's label.\n\nDefault:\n\t\t None\n\nName\tUsed to assign a unique name to the\n\t\t Frame object.\n\nDefault:\n\t\t Frame01\n\nOriginAngleEnabled\tEnables a single point frame to rotate\n\t\t with the angle of the origin object.\n\nDefault:\n\t\t False\n\nOriginPntObjResult\tSpecifies which result to use from the\n\t\t OriginPointObject.\n\nDefault:\n\t\t 1\n\nOriginPoint\tDefines the vision object to be used\n\t\t as the origin point for the Frame object.\n\nDefault:\n\t\t Screen\n\nPassColor\tSelects the color for passed objects.\n\nDefault:\n\t\t LightGreen\n\nPassType\tSelects the rule that determines if\n\t\t the object passed.\n\nDefault:\n\t\t SomeFound\n\nShowExtensions\tSpecifies whether to display extensions\n\t\t of the frame.\n\nDefault: False\n\nYAxisPoint\tDefines vision object to be used as\n\t\t the Y axis point for the frame. (Defines the direction of the\n\t\t Frame object.)\n\nDefault:\n\t\t Screen\n\nYAxisPntObjResult\tSpecifies which result to use from the\n\t\t YAxisPointObject.\n\nDefault:\n\t\t 1",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

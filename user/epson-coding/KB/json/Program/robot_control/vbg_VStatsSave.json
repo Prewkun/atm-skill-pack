@@ -1,0 +1,15 @@
+{
+  "title": "VStatsSave Method, Spel Class",
+  "file": "vbg_VStatsSave",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "Sub VStatsSave ()",
+  "parameters": "",
+  "description": "Saves vision statistics for all sequences in the current project.",
+  "notes": "VStatsSave must be executed before Epson RC+ 8.0 is shut down if you want to preserve changes made to vision statistics.",
+  "see_also": "VStatsReset\n\nVStatsResetAll\n\nVStatsShow\n\nVStatsSave Example\n\nVB",
+  "examples": [
+    "Sub Form_Unload() m_spel.VStatsSave()\nEnd Sub",
+    "void btnResetStats_Click(object sender, EventArgs e)\n{\n   m_spel.VStatsSave();\n}"
+  ]
+}

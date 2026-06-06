@@ -1,0 +1,14 @@
+{
+  "title": "TargetOK Function",
+  "file": "TargetOK_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "TargetOK(targetPos)",
+  "parameters": "targetPos\tPoint expression for the target position.",
+  "description": "Use TargetOK to verify that a target position and orientation can be reached before actually moving to it.  The motion trajectory to the target point is not considered.",
+  "notes": "",
+  "see_also": "Returns a status indicating whether or not the PTP (Point to Point) motion from the current position to a target position is possible.\n\nCurPos, FindPos, InPos, WaitPos\n\nTargetOK Function Example\n\nIf TargetOK(P1) Then\n\n\t\t  Go P1\n\n\t\tEndIf\n\n\t\tIf TargetOK(P10 /L /F) Then\n\n\t\t  Go P10 /L /F\n\n\t\tEndIf",
+  "examples": [
+    "If TargetOK(P1) Then\n\t\t  Go P1\n\t\tEndIf\n\t\tIf TargetOK(P10 /L /F) Then\n\t\t  Go P10 /L /F\n\t\tEndIf"
+  ]
+}

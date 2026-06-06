@@ -1,0 +1,12 @@
+{
+  "title": "Normalized Correlation Shape Score",
+  "file": "NormalizedCorrelationShapeScore",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Normalized Correlation Shape Score\n\nNormalized Correlation Shape Score\n\nFor normalized correlation, the shape score of a feature (the extent to which it is similar to the model) is defined as a value between 0 and 1000.  The larger the shape score, the greater the similarity between the feature and the model. A shape score of 1000 represents a perfect match.  The shape score is the value returned by the Correlation object as the Score result. (Additional information for the Score result is available in the Vision Guide 8.0 Properties and Results Reference Manual.)",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

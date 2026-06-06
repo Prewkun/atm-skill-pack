@@ -1,0 +1,12 @@
+{
+  "title": "Part Feeding Wizard General",
+  "file": "Part_Feeding_Wizard_General",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Part Feeding Wizard General\n\nGeneral\n\nThis screen is used for configure general settings.\n\nItem\tDescription\n\nEnter name for new part\tWrite the name of the part.\n\n(Half-width alphanumeric characters and\n\t\t underscores only.\n\nUp to 32 characters in length)\n\nSelect feeder number\tSelect the feeder number used with this\n\t\t part.\n\nYou can check the feeder number on the\n\t\t System Configuration screen.\n\nSelect robot number\tSelect the robot number.\n\nThis table describes the basic operation of the part wizard.\n\nThe part wizard is controlled using the five buttons at the bottom of the window.\n\nButton\tDescription\n\nVision Guide\tDisplays the Vision Guide screen.\n\nUse this screen to create vision sequences.\n\nCancel\tStops the Part Wizard.\n\nBack\tReturns to the previous STEP.\n\nNext\tProceeds to the next STEP.\n\nFinish\tFinish the Part Wizard.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}

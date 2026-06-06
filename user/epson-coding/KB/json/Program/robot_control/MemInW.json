@@ -1,0 +1,15 @@
+{
+  "title": "MemInW",
+  "file": "MemInW",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "MemInW (wordPortNum)",
+  "parameters": "wordPortNum\tInteger expression representing the I/O Word.",
+  "description": "Changes the current status of memory I/O output port group specified by the word port number to the specified output data.",
+  "notes": "",
+  "see_also": "Returns the status of the specified memory I/O word port.\n\nEach word port contains 16 memory I/O bits.\n\nMemIn\n\nMemOut\n\nMemOutW\n\nMemInW Function Example\n\nLong word0\n\nword0 = MemInW(0)",
+  "examples": [
+    "Long word0",
+    "word0 = MemInW(0)"
+  ]
+}

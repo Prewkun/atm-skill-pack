@@ -1,0 +1,13 @@
+{
+  "title": "ImageOff Property",
+  "file": "ImageOff_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets the image that is displayed when LED control is off.",
+  "notes": "",
+  "see_also": "Applies To\n\nLED Control\n Property\n\nImageOn Property\n\nGUI Items: ImageOff Property\n\nLED Control",
+  "examples": [],
+  "category": "gui_control"
+}

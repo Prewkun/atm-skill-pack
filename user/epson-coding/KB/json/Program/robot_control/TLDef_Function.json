@@ -1,0 +1,14 @@
+{
+  "title": "TLDef Function",
+  "file": "TLDef_Function",
+  "section": "Program",
+  "type": "function",
+  "syntax": "TLDef  toolNumber",
+  "parameters": "toolNumber\tInteger expression representing which tool to return status for.",
+  "description": "TLDef Function\n\nTLDef Function",
+  "notes": "",
+  "see_also": "Arm, ArmClr, Armset, Local, LocalClr, Tool, TLSet\n\nTLDef Example\n\nFunction DisplayToolDef(toolNum As Integer)\n\n\t\t  If TlDef(toolNum) = False Then\n\n\t\t    Print \"Tool \", toolNum, \"is not defined\"\n\n\t\t  Else\n\n\t\t    Print \"Tool \", toolNum, \": \",\n\n\t\t    Print TlSet(toolNum)\n\n\t\t  EndIf\n\n\t\tFend",
+  "examples": [
+    "Function DisplayToolDef(toolNum As Integer)\n\t\t  If TlDef(toolNum) = False Then\n\t\t    Print \"Tool \", toolNum, \"is not defined\"\n\t\t  Else\n\t\t    Print \"Tool \", toolNum, \": \",\n\t\t    Print TlSet(toolNum)\n\t\t  EndIf\n\t\tFend"
+  ]
+}

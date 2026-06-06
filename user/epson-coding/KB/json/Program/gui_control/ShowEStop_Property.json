@@ -1,0 +1,15 @@
+{
+  "title": "ShowEStop Property",
+  "file": "ShowEStop_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Gets or sets whether to display EStop status on a StatusBar control.",
+  "notes": "",
+  "see_also": "",
+  "examples": [
+    "GSet frmMain.StatusBar1.ShowEStop, True"
+  ],
+  "category": "gui_control"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "LimitSpeedR Property",
+  "file": "LimitSpeedR_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "Sets or returns the maximum velocity limit for tool attitude change during force control.",
+  "notes": "Sets or returns the maximum tool attitude modification velocity during force control.\n\nWhen the robot, during force control, attempts to move at a velocity in excess of the value established in LimitSpeedR properties, the velocity is automatically limited. The limit is always effective during force control.\n\nWhen executing force control in combination with motion commands that is added a qualified ROT parameter, the value must be greater than the robot speed set by SpeedR.\n\nIn LowPower mode, when the value set in LimitSpeedR is greater than the SpeedR default value the motion is automatically adjusted to the SpeedR default value when force control is active.",
+  "see_also": "Applies To\n\nForce Control",
+  "examples": [
+    "Function LimitSpeedRTest FSet FCS1.Orientation, FG_TOOL ' Sets the force coordinate data FSet FC1.CoordinateSystem, FCS1 ' Specifies the force coordinate data FSet FC1.Fx_Spring, 0 ' Sets the virtual Fx coefficient of elasticity FSet FC1.Fx_Damper, 1 ' Sets the virtual Fx coefficient of viscosity FSet FC1.Fx_Mass, 10 ' Sets the virtual Fx coefficient of inertia FSet FC1.Fx_Enabled, True ' Sets the Fx force control to active FSet FC1.LimitSpeedR, 5 ' Sets the maximum tool attitude modification velocity to 5[deg/sec]",
+    "SpeedR 2 ' Sets the CP motion velocity to 2[deg/sec] Move P0 FC1 ROT ' A Move motion with force control\nFend"
+  ]
+}

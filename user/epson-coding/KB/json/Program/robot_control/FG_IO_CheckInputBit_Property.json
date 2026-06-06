@@ -1,0 +1,12 @@
+{
+  "title": "FG_IO_CheckInputBit Property",
+  "file": "FG_IO_CheckInputBit_Property",
+  "section": "Program",
+  "type": "property",
+  "syntax": "",
+  "parameters": "",
+  "description": "This property sets the bit of determination target of the end conditions related to I/O.\n\nIt is used when IOCheckEnabled is True.\n\nValues\n\nMinimum value 0\n\nMaximum value 7167\n\nDefault:  0\n\nSee Also: IOCheckInputBit Property\n\nIOCheckEnabled Property",
+  "notes": "",
+  "see_also": "Applies To\n\nRelax Object, FollowMove Object, Press Object",
+  "examples": []
+}

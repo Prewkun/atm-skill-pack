@@ -1,0 +1,12 @@
+{
+  "title": "Why do you need projects?",
+  "file": "Why_do_you_need_projects",
+  "section": "Program",
+  "type": "reference",
+  "syntax": "",
+  "parameters": "",
+  "description": "Why do you need projects?\n\nWhy do you need projects?\n\nProjects are a safe and convenient way to manage your SPEL+ applications.  All the information for each application is kept in one project.  By keeping all of your application code and point definitions in one project, it's easy to open a project and begin running or editing.  Also, it's easy to create new versions of an application and run older versions.\n\nProjects make it easier to maintain your application code with less chance of a program being lost.\n\nThere are also commands for copying and renaming projects, making it easy to create new projects from previous versions and for backing up projects to ZIP or floppy disks.",
+  "notes": "",
+  "see_also": "",
+  "examples": []
+}
