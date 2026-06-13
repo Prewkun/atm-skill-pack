@@ -12,11 +12,26 @@ Write a bilingual English + Thai SOP or PM form matching the Benchmark Electroni
 - "The SOP template", "the same format", or any bilingual (EN/TH) procedure in the house style.
 
 ## Phase 0 — Intake
-Establish from input or by asking at most 4 questions:
+Establish from input or by asking at most 5 questions:
 1. **Doc type** → `AYS` (SOP) | `AYF` (PM form).
-2. **Identity** → customer code (e.g. `EMP`), 7-digit document number, revision letter (A, B, …), and title.
-3. **Source material** → uploaded doc / notes / verbal. Never invent procedure content — if missing, ask.
-4. **Revision update?** → if yes, ask which sections changed and what the Agile ECO number is.
+2. **RoHS?** → `RoHS` | `non-RoHS`. Determines which blank template to copy (see Template selection below).
+3. **Identity** → customer code (e.g. `EMP`), 7-digit document number, revision letter (A, B, …), and title.
+4. **Source material** → uploaded doc / notes / verbal. Never invent procedure content — if missing, ask.
+5. **Revision update?** → if yes, ask which sections changed and what the Agile ECO number is.
+
+## Template selection
+Always start by copying the correct blank template — this gives all named styles, the header, and the doc-control structure for free.
+
+| Doc type | RoHS? | Template file |
+|---|---|---|
+| AYS (SOP) | RoHS | `templates/AYS-RoHS.docx` |
+| AYS (SOP) | non-RoHS | `templates/AYS-non-RoHS.docx` |
+| AYF (PM form) | RoHS | `templates/AYF-RoHS.docx` |
+| AYF (PM form) | non-RoHS | `templates/AYF-non-RoHS.docx` |
+
+`templates/PM Table.xlsx` — reference spreadsheet for PM matrix column/row structure; use when building the AYF PM matrix table.
+
+Copy the template to a new file named per the Document identity convention, then fill in content. Do not modify the original template files.
 
 ## Document identity (all docs)
 Filename and header must carry the full identifier:
@@ -130,11 +145,11 @@ Flat only — never nest tables inside cells. PM matrix layout: `reference/examp
 If `execute_office_js`/`verify_doc_visual` are unavailable, fall back to the `docx` skill's OOXML path — the same pkg wrappers and AngsanaUPC font apply when writing `document.xml` directly.
 
 ## Build order (one execute_office_js call per section)
-1. Set filename; write `core.xml` identity fields.
-2. Header (RoHS logo + doc-control fields).
-3. Body sections in fixed order (AYS: 1–8 + Appendices + Revision History; AYF: blanks + PM matrix + sign-off + action record).
-4. Apply named styles to all paragraphs.
-5. Add `ThaiTranslate` siblings for Safety + Procedure steps (AYS only; AYF is English-only).
+1. **Copy the correct blank template** from `templates/` (see Template selection); rename to the target `AYS/AYF<cust>-<7digits>-Rev<X>.docx`.
+2. Update `core.xml` identity fields (category, subject, modified date).
+3. Fill body sections in fixed order (AYS: 1–8 + Appendices + Revision History; AYF: top blanks + PM matrix + sign-off + action record). For AYF PM matrix, refer to `templates/PM Table.xlsx` for column/row layout.
+4. Apply named styles to all paragraphs (styles are already defined in the template).
+5. Add `ThaiTranslate` siblings for Safety + Definitions + Procedure steps + Appendices (AYS only; AYF is English-only).
 6. Fallback szCs sweep only if named styles were unavailable.
 7. Verification gate.
 
