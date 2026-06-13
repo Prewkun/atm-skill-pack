@@ -27,7 +27,7 @@ Filename and header must carry the full identifier:
 | Form filename | `AYF<cust>-<7digits>-Rev<X>.docx` | `AYFEMP-0051798-RevA.docx` |
 | `core.xml` `cp:category` | `SOP` or `form` | `SOP` |
 | `core.xml` `cp:subject` | `Product Engineering` | |
-| Header | RoHS logo (green `#99CC00`) + doc-control fields | |
+| Header | Doc-control fields. RoHS logo (green `#99CC00`) present on RoHS docs; **omitted on non-RoHS docs**. | |
 
 ## AYS — SOP structure (fixed 8-section order)
 
@@ -41,10 +41,10 @@ Filename and header must carry the full identifier:
 | 6 | **Definitions** | EN labels + Thai callout labels | Machine overview, control box, indicators (image-heavy) |
 | 7 | **Workflow** | English only | May be "N/A" |
 | 8 | **Procedure** | **EN + Thai sibling per step** | Numbered `Heading2`/`Heading3` substeps |
-| — | **Appendices** | English only | e.g. "None." |
+| — | **Appendices** | **EN + Thai sibling** | e.g. "None." + Thai sibling |
 | — | **Revision History** | English only | 3-column table: Rev / Description of Change / Approved By |
 
-**Bilingual rule:** Thai siblings (`ThaiTranslate` paragraphs) appear **only** on Safety statements, Procedure steps, and Definitions labels. Purpose, Scope, Reference, Equipment, Workflow, and Appendices are English-only. Do NOT add Thai siblings everywhere.
+**Bilingual rule:** Thai siblings (`ThaiTranslate` paragraphs) appear on Safety statements, Procedure steps, Definitions labels, and Appendices. Purpose, Scope, Reference, Equipment, Workflow, and Revision History are English-only. Do NOT add Thai siblings to every paragraph.
 
 ## AYF — PM Form structure (landscape)
 - **Orientation:** landscape.
@@ -141,7 +141,7 @@ If `execute_office_js`/`verify_doc_visual` are unavailable, fall back to the `do
 ## Verification gate (HARD — do not deliver until all pass)
 - [ ] House styles applied: `Heading1–4`, `ThaiTranslate`, `Table`/`Text`.
 - [ ] Font is **AngsanaUPC** (cs) everywhere Thai is used; color `#0000FF`; `szCs` present; `<w:cs/>` absent.
-- [ ] Thai siblings present **only** on Safety + Procedure steps + Definitions labels; absent from Purpose/Scope/Reference/Equipment/Workflow/Appendices.
+- [ ] Thai siblings present on Safety + Procedure steps + Definitions labels + Appendices; absent from Purpose/Scope/Reference/Equipment/Workflow/Revision History.
 - [ ] Acronyms/identifiers untranslated (PFS, AOI, HMI, PN, SN, IPA, RoHS, ESD…).
 - [ ] Filename + header carry `AYS/AYF<cust>-<7digits>-Rev<X>`.
 - [ ] Revision History has a row for the current rev listing section-number changes + Agile ECO.

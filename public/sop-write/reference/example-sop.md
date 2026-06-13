@@ -104,6 +104,7 @@ N/A *(or flowchart image if applicable)*
 
 ## Appendices
 None.
+*(ThaiTranslate:)* ไม่มี
 
 ## Revision History
 
@@ -116,6 +117,6 @@ None.
 
 **Formatting reminders:**
 - Apply `Heading1` (14pt, AngsanaUPC CS) to all numbered section titles.
-- Apply `ThaiTranslate` to all Thai sibling paragraphs — do NOT add Thai siblings to sections 1–4, 7, or Appendices.
+- Apply `ThaiTranslate` to all Thai sibling paragraphs — Safety, Procedure steps, Definitions labels, and Appendices get Thai siblings. Sections 1–4, 7, and Revision History are English-only.
 - Tables use `Table` style (header shaded `CCCCCC`) and `Text` style (body cells).
 - Acronyms PLC, HMI, PFS, AOI, SN, PN, IPA, MPa, RoHS, ESD, EMO stay English inside Thai lines.
