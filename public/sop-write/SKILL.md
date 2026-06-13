@@ -38,7 +38,7 @@ Filename and header must carry the full identifier:
 | 3 | **Reference Documents and Forms** | English only | Cross-ref other AYS/AYF numbers |
 | 4 | **Equipment** | English only | Machine list, tools, materials |
 | 5 | **Safety** | **EN + Thai sibling** | EN statement then `ThaiTranslate` paragraph |
-| 6 | **Definitions** | EN labels + Thai callout labels | Machine overview, control box, indicators (image-heavy) |
+| 6 | **Definitions** | **EN + Thai sibling**  | Machine overview, control box, indicators (image-heavy) or other definition to  define|
 | 7 | **Workflow** | English only | May be "N/A" |
 | 8 | **Procedure** | **EN + Thai sibling per step** | Numbered `Heading2`/`Heading3` substeps |
 | — | **Appendices** | **EN + Thai sibling** | e.g. "None." + Thai sibling |
